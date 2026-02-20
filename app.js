@@ -596,7 +596,7 @@ function checkChoice(btn, chosen) {
     if (state.answered && state.currentMode === 'choice') {
       advanceCard();
     }
-  }, 1000);
+  }, 1500);
 }
 
 // ─────────────────────────────────────────────
