@@ -1,0 +1,20 @@
+{
+  "id": "spanish-regular-er",
+  "name": "107 Regular Verbs — ER",
+  "subject": "Spanish",
+  "created": "2026-02-20",
+  "pairs": [
+    { "es": "aprender",    "en": "to learn" },
+    { "es": "beber",       "en": "to drink" },
+    { "es": "comer",       "en": "to eat" },
+    { "es": "comprender",  "en": "to understand" },
+    { "es": "correr",      "en": "to run" },
+    { "es": "deber",       "en": "should; ought to" },
+    { "es": "leer",        "en": "to read" },
+    { "es": "meter",       "en": "to put in" },
+    { "es": "prender",     "en": "to turn on" },
+    { "es": "romper",      "en": "to break" },
+    { "es": "toser",       "en": "to cough" },
+    { "es": "vender",      "en": "to sell" }
+  ]
+}

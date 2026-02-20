@@ -1,0 +1,36 @@
+{
+  "lists": [
+    {
+      "id": "spanish-regular-all",
+      "name": "107 Regular Verbs — All",
+      "subject": "Spanish",
+      "created": "2026-02-20",
+      "wordCount": 106,
+      "file": "data/spanish-regular-all.json"
+    },
+    {
+      "id": "spanish-regular-ar",
+      "name": "107 Regular Verbs — AR",
+      "subject": "Spanish",
+      "created": "2026-02-20",
+      "wordCount": 83,
+      "file": "data/spanish-regular-ar.json"
+    },
+    {
+      "id": "spanish-regular-er",
+      "name": "107 Regular Verbs — ER",
+      "subject": "Spanish",
+      "created": "2026-02-20",
+      "wordCount": 12,
+      "file": "data/spanish-regular-er.json"
+    },
+    {
+      "id": "spanish-regular-ir",
+      "name": "107 Regular Verbs — IR",
+      "subject": "Spanish",
+      "created": "2026-02-20",
+      "wordCount": 11,
+      "file": "data/spanish-regular-ir.json"
+    }
+  ]
+}

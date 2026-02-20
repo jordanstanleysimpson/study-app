@@ -1,0 +1,19 @@
+{
+  "id": "spanish-regular-ir",
+  "name": "107 Regular Verbs — IR",
+  "subject": "Spanish",
+  "created": "2026-02-20",
+  "pairs": [
+    { "es": "abrir",       "en": "to open" },
+    { "es": "añadir",      "en": "to add" },
+    { "es": "asistir",     "en": "to attend" },
+    { "es": "describir",   "en": "to describe" },
+    { "es": "escribir",    "en": "to write" },
+    { "es": "interrumpir", "en": "to interrupt" },
+    { "es": "ocurrir",     "en": "to occur" },
+    { "es": "recibir",     "en": "to receive" },
+    { "es": "subir",       "en": "to go up; to raise" },
+    { "es": "sufrir",      "en": "to suffer" },
+    { "es": "vivir",       "en": "to live" }
+  ]
+}

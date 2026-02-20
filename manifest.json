@@ -1,0 +1,9 @@
+{
+  "name": "Study App",
+  "short_name": "Study",
+  "description": "Vocabulary study app",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#4f46e5"
+}

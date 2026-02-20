@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study App</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Study">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── Update banner ── -->
+  <div id="update-banner" class="update-banner hidden">
+    <span class="update-banner-msg">A newer version is available.</span>
+    <button class="update-banner-reload" onclick="reloadApp()">Reload</button>
+    <button class="update-banner-dismiss" onclick="dismissUpdateBanner()">&#x2715;</button>
+  </div>
+
+  <!-- ── Persistent picker bar (hidden on home) ── -->
+  <div id="picker-bar" class="hidden">
+    <div class="pickers-row">
+      <div class="list-picker" id="class-picker">
+        <button class="list-picker-btn" id="class-picker-btn">
+          <div class="list-picker-text">
+            <span class="list-picker-label">Class</span>
+            <span class="list-picker-value" id="class-picker-value"></span>
+          </div>
+          <svg class="list-picker-chevron" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+          </svg>
+        </button>
+        <div class="list-picker-dropdown hidden" id="class-picker-dropdown"></div>
+      </div>
+
+      <div class="list-picker" id="unit-picker">
+        <button class="list-picker-btn" id="unit-picker-btn">
+          <div class="list-picker-text">
+            <span class="list-picker-label">Unit</span>
+            <span class="list-picker-value" id="unit-picker-value"></span>
+          </div>
+          <svg class="list-picker-chevron" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+          </svg>
+        </button>
+        <div class="list-picker-dropdown hidden" id="unit-picker-dropdown"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Home: list selection ── -->
+  <div id="screen-home" class="screen active">
+    <header class="app-header">
+      <h1>Study</h1>
+    </header>
+    <main class="screen-body">
+      <div id="lists-container">
+        <p class="muted-text">Loading...</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- ── Mode / Browse / Stats ── -->
+  <div id="screen-mode" class="screen">
+    <main class="screen-body">
+
+      <!-- Tab bar -->
+      <div class="tab-bar">
+        <button class="tab-btn active" id="tab-btn-study"  onclick="switchTab('study')">Study</button>
+        <button class="tab-btn"        id="tab-btn-browse" onclick="switchTab('browse')">Browse</button>
+        <button class="tab-btn"        id="tab-btn-stats"  onclick="switchTab('stats')">Stats</button>
+      </div>
+
+      <!-- Tab: Study -->
+      <div id="tab-study">
+        <div id="list-progress-summary"></div>
+        <div class="mode-grid">
+          <button class="mode-card" onclick="startSession('flashcard')">
+            <span class="mode-name">Flashcards</span>
+            <span class="mode-desc">Flip to reveal the answer</span>
+          </button>
+          <button class="mode-card" onclick="startSession('type')">
+            <span class="mode-name">Type It</span>
+            <span class="mode-desc">Spell the translation</span>
+          </button>
+          <button class="mode-card" onclick="startSession('choice')">
+            <span class="mode-name">Multiple Choice</span>
+            <span class="mode-desc">Spanish → English</span>
+          </button>
+          <button class="mode-card" onclick="startSession('choice-en')">
+            <span class="mode-name">Multiple Choice</span>
+            <span class="mode-desc">English → Spanish</span>
+          </button>
+          <button class="mode-card" onclick="startSession('match')">
+            <span class="mode-name">Match</span>
+            <span class="mode-desc">Connect Spanish to English</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab: Browse -->
+      <div id="tab-browse" class="hidden">
+        <table class="word-table">
+          <thead>
+            <tr>
+              <th class="sortable-col" id="browse-sort-es" onclick="setBrowseSort('es')">Spanish <span class="sort-indicator">↕</span></th>
+              <th class="sortable-col" id="browse-sort-en" onclick="setBrowseSort('en')">English <span class="sort-indicator">↕</span></th>
+            </tr>
+          </thead>
+          <tbody id="word-table-body"></tbody>
+        </table>
+      </div>
+
+      <!-- Tab: Stats -->
+      <div id="tab-stats" class="hidden">
+        <div class="stats-controls">
+          <button class="sort-btn active" id="sort-missed"  onclick="sortStats('missed')">Most Missed</button>
+          <button class="sort-btn"        id="sort-correct" onclick="sortStats('correct')">Most Correct</button>
+          <button class="sort-btn"        id="sort-alpha"   onclick="sortStats('alpha')">A–Z</button>
+        </div>
+        <table class="word-table">
+          <thead>
+            <tr>
+              <th>Spanish</th>
+              <th>English</th>
+              <th class="col-num">Correct</th>
+              <th class="col-num">Missed</th>
+              <th class="col-num">%</th>
+            </tr>
+          </thead>
+          <tbody id="stats-table-body"></tbody>
+        </table>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- ── Quiz ── -->
+  <div id="screen-quiz" class="screen">
+    <header class="quiz-header">
+      <button class="close-btn" onclick="confirmQuit()">&#x2715;</button>
+      <div class="progress-track">
+        <div id="progress-bar" class="progress-fill"></div>
+      </div>
+      <span id="progress-count" class="progress-count"></span>
+    </header>
+    <main class="screen-body" id="quiz-main">
+
+      <!-- Flashcard mode -->
+      <div id="mode-flashcard" class="quiz-mode hidden">
+        <div class="quiz-inner">
+          <div class="direction-badge" id="fc-direction"></div>
+          <div class="flashcard" id="flashcard">
+            <div class="flashcard-inner" id="flashcard-inner">
+              <div class="flashcard-front">
+                <span class="word-text" id="fc-prompt"></span>
+              </div>
+              <div class="flashcard-back">
+                <span class="word-text" id="fc-answer"></span>
+              </div>
+            </div>
+          </div>
+          <p class="hint-text" id="fc-hint">Tap card to flip</p>
+          <div class="answer-btns hidden" id="fc-answer-btns">
+            <button class="btn-wrong" id="fc-missed">Missed it</button>
+            <button class="btn-correct" id="fc-got-it">Got it</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Type it mode -->
+      <div id="mode-type" class="quiz-mode hidden">
+        <div class="quiz-inner">
+          <div class="direction-badge" id="type-direction"></div>
+          <div class="word-display" id="type-prompt"></div>
+          <div class="type-area">
+            <input
+              type="text"
+              id="type-input"
+              placeholder="Type the translation..."
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+            >
+            <button class="btn-check" id="type-check">Check</button>
+          </div>
+          <div id="type-feedback" class="feedback hidden"></div>
+          <button class="btn-next hidden" id="type-next">Next</button>
+        </div>
+      </div>
+
+      <!-- Multiple choice mode -->
+      <div id="mode-choice" class="quiz-mode hidden">
+        <div class="quiz-inner">
+          <div class="direction-badge" id="choice-direction"></div>
+          <div class="word-display" id="choice-prompt"></div>
+          <div class="choices-grid" id="choices-grid"></div>
+          <button class="btn-next hidden" id="choice-next">Next</button>
+        </div>
+      </div>
+
+      <!-- Match mode -->
+      <div id="mode-match" class="quiz-mode hidden">
+        <div class="match-inner">
+          <div class="direction-badge" id="match-direction"></div>
+          <div class="match-columns">
+            <div class="match-col" id="match-col-es"></div>
+            <div class="match-col" id="match-col-en"></div>
+          </div>
+          <div class="match-complete hidden" id="match-complete">
+            <button class="btn-primary" id="match-done-btn">See Results</button>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- ── Results ── -->
+  <div id="screen-results" class="screen">
+    <header class="app-header">
+      <h2>Session Complete</h2>
+    </header>
+    <main class="screen-body">
+      <div id="results-summary"></div>
+      <div id="results-details"></div>
+      <div class="results-actions">
+        <button class="btn-secondary" onclick="showScreen('screen-mode')">Done</button>
+        <button class="btn-secondary" id="btn-retry-missed" onclick="retryMissed()">Study Missed</button>
+        <button class="btn-primary" onclick="restartSession()">Again</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
