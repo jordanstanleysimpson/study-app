@@ -569,7 +569,7 @@ function renderChoice(dirLabel, prompt) {
 
 function checkChoice(btn, chosen) {
   if (state.answered) {
-    if (normalize(chosen) === normalize(state.currentAnswer)) advanceCard();
+    advanceCard();
     return;
   }
   state.answered = true;
@@ -590,6 +590,13 @@ function checkChoice(btn, chosen) {
   const { pair, direction } = state.session[state.sessionIndex];
   recordAnswer(state.currentList.id, pair.es, direction, correct);
   state.sessionResults.push({ pair, direction, correct });
+
+  // Auto-advance after showing feedback
+  setTimeout(() => {
+    if (state.answered && state.currentMode === 'choice') {
+      advanceCard();
+    }
+  }, 1000);
 }
 
 // ─────────────────────────────────────────────
@@ -1026,6 +1033,14 @@ function setupEventListeners() {
 
   // Multiple choice
   document.getElementById('choice-next').addEventListener('click', advanceCard);
+
+  // Keyboard shortcuts for quiz screen
+  document.addEventListener('keydown', e => {
+    if (state.currentMode === 'choice' && state.answered && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      advanceCard();
+    }
+  });
 
   // Match
   document.getElementById('match-done-btn').addEventListener('click', showResults);
