@@ -1,13 +1,28 @@
 # Study App
 
-A vocab study tool for kids. Start with Spanish ↔ English, built to grow into other subjects.
+**Live App:** [https://jordanstanleysimpson.github.io/study-app/](https://jordanstanleysimpson.github.io/study-app/)
 
-## How it works
+A progressive web app for vocabulary study, starting with Spanish ↔ English. Built to be fast, intuitive, and installable on any device.
 
-- Pick a word list (organized by subject and unit, newest first)
-- Choose a quiz mode: **Flashcards**, **Type It**, or **Multiple Choice**
-- The app drills Spanish → English first; once you nail a word 3 times in a row, English → Spanish unlocks for it
-- Progress is saved in the browser so missed words get drilled more
+## Features
+
+- **5 Study Modes:**
+  - 💳 **Flashcards** - Tap to flip and self-assess
+  - ⌨️ **Type It** - Practice spelling the translation
+  - ✓ **Multiple Choice** (Spanish → English) - Auto-advances after 1.5s
+  - ✓ **Multiple Choice** (English → Spanish) - Reverse direction practice
+  - 🔗 **Match** - Connect Spanish words to English translations
+
+- **Smart Progress Tracking:**
+  - Spanish → English drilled first
+  - After 3 correct answers in a row, English → Spanish unlocks
+  - Missed words weighted heavier in future sessions
+  - All progress saved locally in browser
+
+- **Browse & Stats:**
+  - Browse all vocabulary with sortable columns
+  - View detailed statistics (most missed, most correct, accuracy %)
+  - Track your progress across all study modes
 
 ---
 
@@ -25,17 +40,17 @@ Paste this prompt (adjust the unit name/class as needed):
 
 ```
 I have a new Spanish vocab list to add to the study app at
-~/Dev/projects/jordanstanleysimpson/study-app
+~/Dev/Projects/study-app
 
 Here is the photo. Please:
 1. Parse the word pairs (Spanish / English)
-2. Create data/spanish-unit-2.json following the format below
+2. Create data/spanish-unit-N.json following the format below
 3. Add an entry to the top of the lists array in data/index.json
 
 JSON format for the list file:
 {
-  "id": "spanish-unit-2",
-  "name": "Unit 2 - [topic]",
+  "id": "spanish-unit-N",
+  "name": "Unit N - [topic]",
   "subject": "Spanish",
   "created": "YYYY-MM-DD",
   "pairs": [
@@ -45,12 +60,12 @@ JSON format for the list file:
 
 Entry format for data/index.json:
 {
-  "id": "spanish-unit-2",
-  "name": "Unit 2 - [topic]",
+  "id": "spanish-unit-N",
+  "name": "Unit N - [topic]",
   "subject": "Spanish",
   "created": "YYYY-MM-DD",
   "wordCount": N,
-  "file": "data/spanish-unit-2.json"
+  "file": "data/spanish-unit-N.json"
 }
 ```
 
@@ -58,11 +73,11 @@ Entry format for data/index.json:
 
 ```bash
 git add data/
-git commit -m "Add Spanish Unit 2"
+git commit -m "Add Spanish Unit N"
 git push
 ```
 
-GitHub Pages auto-publishes within a minute or two.
+GitHub Pages auto-deploys within ~30 seconds.
 
 ---
 
@@ -104,10 +119,10 @@ GitHub Pages auto-publishes within a minute or two.
 
 ## Running locally
 
-The app uses `fetch()` to load data files, so you can't open `index.html` directly from the filesystem. Spin up a quick local server instead:
+The app uses `fetch()` to load data files, so you can't open `index.html` directly from the filesystem. Spin up a local server:
 
 ```bash
-cd ~/Dev/projects/jordanstanleysimpson/study-app
+cd ~/Dev/Projects/study-app
 python3 -m http.server 3000
 ```
 
@@ -115,9 +130,30 @@ Then open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## GitHub Pages setup
+## Deployment
 
-1. Push the repo to GitHub
-2. Go to **Settings → Pages**
-3. Set source to **Deploy from a branch → main → / (root)**
-4. The site will be live at `https://<username>.github.io/<repo-name>/`
+This app is deployed on **GitHub Pages**. Any push to the `main` branch automatically deploys to production within ~30 seconds.
+
+**Live URL:** [https://jordanstanleysimpson.github.io/study-app/](https://jordanstanleysimpson.github.io/study-app/)
+
+### Initial setup (already configured):
+
+```bash
+# Enable GitHub Pages via CLI
+gh api repos/jordanstanleysimpson/study-app/pages -X POST \
+  --field 'source[branch]=main' --field 'source[path]=/'
+```
+
+Or manually: **Settings → Pages → Deploy from branch → main → / (root)**
+
+---
+
+## PWA Features
+
+The app includes a Progressive Web App manifest and can be installed on mobile devices:
+
+- **iOS:** Tap share → "Add to Home Screen"
+- **Android:** Tap menu → "Install app" or "Add to Home Screen"
+- **Desktop:** Look for install icon in address bar
+
+Once installed, the app works offline and loads instantly from the home screen.
