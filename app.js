@@ -176,11 +176,15 @@ function switchTab(name) {
 function setAutoAdvanceDelay(value) {
   state.settings.autoAdvanceDelay = parseInt(value, 10);
   saveSettings();
+  updateAutoAdvanceUI();
 }
 
 function updateAutoAdvanceUI() {
-  const select = document.getElementById('auto-advance-select');
-  if (select) select.value = state.settings.autoAdvanceDelay.toString();
+  const value = state.settings.autoAdvanceDelay.toString();
+  const select1 = document.getElementById('auto-advance-select');
+  const select2 = document.getElementById('quiz-auto-advance-select');
+  if (select1) select1.value = value;
+  if (select2) select2.value = value;
 }
 
 function confirmQuit() {
@@ -452,6 +456,7 @@ function startSession(mode) {
   state.sessionResults = [];
 
   showScreen('screen-quiz');
+  updateAutoAdvanceUI();
   renderCard();
 }
 
@@ -662,6 +667,7 @@ function startMatch() {
   document.getElementById('progress-count').textContent = `0/${pairs.length}`;
 
   showScreen('screen-quiz');
+  updateAutoAdvanceUI();
   renderMatch();
 }
 
@@ -982,6 +988,7 @@ function retryMissed() {
   state.sessionResults = [];
   if (state.currentMode === 'match') state.currentMode = 'flashcard';
   showScreen('screen-quiz');
+  updateAutoAdvanceUI();
   renderCard();
 }
 

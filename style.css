@@ -278,6 +278,41 @@ button {
   text-align: right;
 }
 
+.quiz-settings {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.quiz-settings-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.quiz-settings-select {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.quiz-settings-select:hover {
+  border-color: var(--primary);
+}
+
+.quiz-settings-select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
 /* ── Screen body ── */
 .screen-body {
   flex: 1;
