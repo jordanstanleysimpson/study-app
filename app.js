@@ -6,6 +6,7 @@
 const COMFORT_STREAK  = 3;   // correct-in-a-row to unlock the reverse direction
 const SESSION_SIZE    = 20;  // max cards per session
 const STORAGE_KEY     = 'study-app-progress';
+const SETTINGS_KEY    = 'study-app-settings';
 const APP_VERSION     = '2026-02-20T00:00:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
@@ -20,6 +21,7 @@ const state = {
   sessionIndex:   0,
   sessionResults: [],     // [{ pair, direction, correct: bool }, …]
   progress:       {},     // persisted to localStorage
+  settings:       { autoAdvanceDelay: 1000 },  // app settings
   currentAnswer:  null,   // correct answer for the active card
   answered:       false,  // has the current card been evaluated?
   flipped:        false,  // flashcard flip state
@@ -58,6 +60,19 @@ function loadProgress() {
 
 function saveProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
+}
+
+function loadSettings() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}');
+    state.settings = { autoAdvanceDelay: 1000, ...saved };
+  } catch {
+    state.settings = { autoAdvanceDelay: 1000 };
+  }
+}
+
+function saveSettings() {
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify(state.settings));
 }
 
 function getWordRecord(listId, word) {
@@ -158,6 +173,16 @@ function switchTab(name) {
   if (name === 'stats')  renderStats();
 }
 
+function setAutoAdvanceDelay(value) {
+  state.settings.autoAdvanceDelay = parseInt(value, 10);
+  saveSettings();
+}
+
+function updateAutoAdvanceUI() {
+  const select = document.getElementById('auto-advance-select');
+  if (select) select.value = state.settings.autoAdvanceDelay.toString();
+}
+
 function confirmQuit() {
   showScreen('screen-mode');
 }
@@ -167,8 +192,10 @@ function confirmQuit() {
 // ─────────────────────────────────────────────
 async function init() {
   loadProgress();
+  loadSettings();
   showScreen('screen-home');
   setupEventListeners();
+  updateAutoAdvanceUI();
   checkForUpdate();
 
   try {
@@ -532,7 +559,15 @@ function checkTypeAnswer() {
   const { pair, direction } = state.session[state.sessionIndex];
   recordAnswer(state.currentList.id, pair.es, direction, correct);
   state.sessionResults.push({ pair, direction, correct });
-}
+
+  // Auto-advance after showing feedback
+  if (state.settings.autoAdvanceDelay > 0) {
+    setTimeout(() => {
+      if (state.answered && state.currentMode === 'type') {
+        advanceCard();
+      }
+    }, state.settings.autoAdvanceDelay);
+  }
 
 // ─────────────────────────────────────────────
 // Multiple choice mode
@@ -592,11 +627,13 @@ function checkChoice(btn, chosen) {
   state.sessionResults.push({ pair, direction, correct });
 
   // Auto-advance after showing feedback
-  setTimeout(() => {
-    if (state.answered && state.currentMode.startsWith('choice')) {
-      advanceCard();
-    }
-  }, 1500);
+  if (state.settings.autoAdvanceDelay > 0) {
+    setTimeout(() => {
+      if (state.answered && state.currentMode.startsWith('choice')) {
+        advanceCard();
+      }
+    }, state.settings.autoAdvanceDelay);
+  }
 }
 
 // ─────────────────────────────────────────────
