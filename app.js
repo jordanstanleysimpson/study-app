@@ -453,7 +453,7 @@ function renderCard() {
 
   if      (state.currentMode === 'flashcard') renderFlashcard(dirLabel, prompt, answer);
   else if (state.currentMode === 'type')      renderTypeIt(dirLabel, prompt);
-  else if (state.currentMode === 'choice')    renderChoice(dirLabel, prompt);
+  else if (state.currentMode === 'choice' || state.currentMode === 'choice-en') renderChoice(dirLabel, prompt);
 }
 
 // ─────────────────────────────────────────────
@@ -593,7 +593,7 @@ function checkChoice(btn, chosen) {
 
   // Auto-advance after showing feedback
   setTimeout(() => {
-    if (state.answered && state.currentMode === 'choice') {
+    if (state.answered && (state.currentMode === 'choice' || state.currentMode === 'choice-en')) {
       advanceCard();
     }
   }, 1500);
@@ -1036,7 +1036,7 @@ function setupEventListeners() {
 
   // Keyboard shortcuts for quiz screen
   document.addEventListener('keydown', e => {
-    if (state.currentMode === 'choice' && state.answered && (e.key === 'Enter' || e.key === ' ')) {
+    if ((state.currentMode === 'choice' || state.currentMode === 'choice-en') && state.answered && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault();
       advanceCard();
     }
