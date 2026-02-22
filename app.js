@@ -565,8 +565,8 @@ function checkTypeAnswer() {
   recordAnswer(state.currentList.id, pair.es, direction, correct);
   state.sessionResults.push({ pair, direction, correct });
 
-  // Auto-advance after showing feedback
-  if (state.settings.autoAdvanceDelay > 0) {
+  // Auto-advance on correct answers only
+  if (correct && state.settings.autoAdvanceDelay > 0) {
     setTimeout(() => {
       if (state.answered && state.currentMode === 'type') {
         advanceCard();
@@ -632,8 +632,8 @@ function checkChoice(btn, chosen) {
   recordAnswer(state.currentList.id, pair.es, direction, correct);
   state.sessionResults.push({ pair, direction, correct });
 
-  // Auto-advance after showing feedback
-  if (state.settings.autoAdvanceDelay > 0) {
+  // Auto-advance on correct answers only
+  if (correct && state.settings.autoAdvanceDelay > 0) {
     setTimeout(() => {
       if (state.answered && state.currentMode.startsWith('choice')) {
         advanceCard();
