@@ -573,6 +573,7 @@ function checkTypeAnswer() {
       }
     }, state.settings.autoAdvanceDelay);
   }
+}
 
 // ─────────────────────────────────────────────
 // Multiple choice mode
