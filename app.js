@@ -65,9 +65,9 @@ function saveProgress() {
 function loadSettings() {
   try {
     const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}');
-    state.settings = { autoAdvanceDelay: 1000, ...saved };
+    state.settings = { autoAdvanceDelay: 1000, matchSize: 20, ...saved };
   } catch {
-    state.settings = { autoAdvanceDelay: 1000 };
+    state.settings = { autoAdvanceDelay: 1000, matchSize: 20 };
   }
 }
 
@@ -179,6 +179,17 @@ function setAutoAdvanceDelay(value) {
   updateAutoAdvanceUI();
 }
 
+function setMatchSize(value) {
+  state.settings.matchSize = parseInt(value, 10);
+  saveSettings();
+  updateMatchSizeUI();
+}
+
+function updateMatchSizeUI() {
+  const select = document.getElementById('match-size-select');
+  if (select) select.value = state.settings.matchSize.toString();
+}
+
 function updateAutoAdvanceUI() {
   const value = state.settings.autoAdvanceDelay.toString();
   const select1 = document.getElementById('auto-advance-select');
@@ -200,6 +211,7 @@ async function init() {
   showScreen('screen-home');
   setupEventListeners();
   updateAutoAdvanceUI();
+  updateMatchSizeUI();
   checkForUpdate();
 
   try {
@@ -657,7 +669,7 @@ function startMatch() {
   state.currentMode    = 'match';
   state.sessionResults = [];
 
-  const pairs = shuffle([...state.currentList.pairs]).slice(0, 20);
+  const pairs = shuffle([...state.currentList.pairs]).slice(0, state.settings.matchSize);
   state.matchPairs        = pairs;
   state.matchSelected     = null;
   state.matchMatched      = new Set();

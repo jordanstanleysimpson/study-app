@@ -184,6 +184,11 @@ button {
   overflow: hidden;
 }
 
+#unit-picker-dropdown {
+  right: auto;
+  min-width: 240px;
+}
+
 .list-picker-group {
   padding: 8px 0 4px;
 }
