@@ -7,7 +7,7 @@ const COMFORT_STREAK  = 3;   // correct-in-a-row to unlock the reverse direction
 const SESSION_SIZE    = 20;  // max cards per session
 const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
-const APP_VERSION     = '2026-02-21T00:00:00Z';
+const APP_VERSION     = '2026-02-22T01:32:20Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
