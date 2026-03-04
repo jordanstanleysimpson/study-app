@@ -67,13 +67,6 @@
   <div id="screen-mode" class="screen">
     <main class="screen-body">
 
-      <!-- Tab bar -->
-      <div class="tab-bar">
-        <button class="tab-btn active" id="tab-btn-study"  onclick="switchTab('study')">Study</button>
-        <button class="tab-btn"        id="tab-btn-browse" onclick="switchTab('browse')">Browse</button>
-        <button class="tab-btn"        id="tab-btn-stats"  onclick="switchTab('stats')">Stats</button>
-      </div>
-
       <!-- Settings bar -->
       <div class="settings-bar">
         <label for="auto-advance-select" class="settings-label">Auto-advance:</label>
@@ -96,34 +89,50 @@
         </select>
       </div>
 
-      <!-- Tab: Study -->
-      <div id="tab-study">
-        <div id="list-progress-summary"></div>
-        <div class="mode-grid">
-          <button class="mode-card" onclick="startSession('flashcard')">
-            <span class="mode-name">Flashcards</span>
-            <span class="mode-desc">Flip to reveal the answer</span>
-          </button>
-          <button class="mode-card" onclick="startSession('type')">
-            <span class="mode-name">Type It</span>
-            <span class="mode-desc">Spell the translation</span>
-          </button>
-          <button class="mode-card" onclick="startSession('choice')">
-            <span class="mode-name">Multiple Choice</span>
-            <span class="mode-desc">Spanish → English</span>
-          </button>
-          <button class="mode-card" onclick="startSession('choice-en')">
-            <span class="mode-name">Multiple Choice</span>
-            <span class="mode-desc">English → Spanish</span>
-          </button>
-          <button class="mode-card" onclick="startSession('match')">
-            <span class="mode-name">Match</span>
-            <span class="mode-desc">Connect Spanish to English</span>
-          </button>
-        </div>
+      <div id="list-progress-summary"></div>
+
+      <!-- Study mode tiles -->
+      <div class="mode-grid">
+        <button class="mode-card" onclick="startSession('flashcard')">
+          <span class="mode-icon">🃏</span>
+          <span class="mode-name">Flashcards</span>
+          <span class="mode-desc">Flip to reveal</span>
+        </button>
+        <button class="mode-card" onclick="startSession('type')">
+          <span class="mode-icon">⌨️</span>
+          <span class="mode-name">Type It</span>
+          <span class="mode-desc">Spell the answer</span>
+        </button>
+        <button class="mode-card" onclick="startSession('choice')">
+          <span class="mode-icon">🇪🇸</span>
+          <span class="mode-name">Multiple Choice</span>
+          <span class="mode-desc">Spanish → English</span>
+        </button>
+        <button class="mode-card" onclick="startSession('choice-en')">
+          <span class="mode-icon">🇬🇧</span>
+          <span class="mode-name">Multiple Choice</span>
+          <span class="mode-desc">English → Spanish</span>
+        </button>
+        <button class="mode-card mode-card--wide" onclick="startSession('match')">
+          <span class="mode-icon">🔗</span>
+          <span class="mode-name">Match</span>
+          <span class="mode-desc">Connect Spanish to English</span>
+        </button>
       </div>
 
-      <!-- Tab: Browse -->
+      <!-- Browse + Stats tiles -->
+      <div class="secondary-grid">
+        <button class="secondary-tile" id="tile-browse" onclick="switchTab('browse')">
+          <span class="secondary-tile-icon">📖</span>
+          <span class="secondary-tile-name">Browse</span>
+        </button>
+        <button class="secondary-tile" id="tile-stats" onclick="switchTab('stats')">
+          <span class="secondary-tile-icon">📊</span>
+          <span class="secondary-tile-name">Stats</span>
+        </button>
+      </div>
+
+      <!-- Browse content -->
       <div id="tab-browse" class="hidden">
         <table class="word-table">
           <thead>
@@ -163,20 +172,22 @@
   <!-- ── Quiz ── -->
   <div id="screen-quiz" class="screen">
     <header class="quiz-header">
-      <button class="close-btn" onclick="confirmQuit()">&#x2715;</button>
-      <div class="progress-track">
-        <div id="progress-bar" class="progress-fill"></div>
-      </div>
-      <span id="progress-count" class="progress-count"></span>
-      <div class="quiz-settings">
-        <label for="quiz-auto-advance-select" class="quiz-settings-label">Auto:</label>
-        <select id="quiz-auto-advance-select" class="quiz-settings-select" onchange="setAutoAdvanceDelay(this.value)">
-          <option value="500">0.5s</option>
-          <option value="1000">1.0s</option>
-          <option value="1500">1.5s</option>
-          <option value="2000">2.0s</option>
-          <option value="0">Off</option>
-        </select>
+      <div class="quiz-header-inner">
+        <button class="close-btn" onclick="confirmQuit()">&#x2715;</button>
+        <div class="progress-track">
+          <div id="progress-bar" class="progress-fill"></div>
+        </div>
+        <span id="progress-count" class="progress-count"></span>
+        <div class="quiz-settings">
+          <label for="quiz-auto-advance-select" class="quiz-settings-label">Auto:</label>
+          <select id="quiz-auto-advance-select" class="quiz-settings-select" onchange="setAutoAdvanceDelay(this.value)">
+            <option value="500">0.5s</option>
+            <option value="1000">1.0s</option>
+            <option value="1500">1.5s</option>
+            <option value="2000">2.0s</option>
+            <option value="0">Off</option>
+          </select>
+        </div>
       </div>
     </header>
     <main class="screen-body" id="quiz-main">

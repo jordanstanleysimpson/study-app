@@ -7,7 +7,7 @@ const COMFORT_STREAK  = 3;   // correct-in-a-row to unlock the reverse direction
 const SESSION_SIZE    = 20;  // max cards per session
 const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
-const APP_VERSION     = '2026-02-22T01:32:20Z';
+const APP_VERSION     = 1;
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
@@ -151,7 +151,7 @@ function buildSession(list) {
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  document.getElementById('picker-bar').classList.toggle('hidden', id === 'screen-home');
+  document.getElementById('picker-bar').classList.toggle('hidden', !state.currentList);
   closeAllPickers();
 }
 
@@ -165,12 +165,33 @@ function goHome() {
 }
 
 function switchTab(name) {
-  ['study', 'browse', 'stats'].forEach(t => {
-    document.getElementById('tab-' + t).classList.toggle('hidden', t !== name);
-    document.getElementById('tab-btn-' + t).classList.toggle('active', t === name);
-  });
-  if (name === 'browse') renderBrowse();
-  if (name === 'stats')  renderStats();
+  const browseTab  = document.getElementById('tab-browse');
+  const statsTab   = document.getElementById('tab-stats');
+  const browseTile = document.getElementById('tile-browse');
+  const statsTile  = document.getElementById('tile-stats');
+
+  if (name === 'browse') {
+    const opening = browseTab.classList.contains('hidden');
+    browseTab.classList.toggle('hidden', !opening);
+    statsTab.classList.add('hidden');
+    browseTile.classList.toggle('active', opening);
+    statsTile.classList.remove('active');
+    if (opening) renderBrowse();
+  } else if (name === 'stats') {
+    const opening = statsTab.classList.contains('hidden');
+    statsTab.classList.toggle('hidden', !opening);
+    browseTab.classList.add('hidden');
+    statsTile.classList.toggle('active', opening);
+    browseTile.classList.remove('active');
+    if (opening) renderStats();
+  }
+}
+
+function closeTabs() {
+  document.getElementById('tab-browse').classList.add('hidden');
+  document.getElementById('tab-stats').classList.add('hidden');
+  document.getElementById('tile-browse').classList.remove('active');
+  document.getElementById('tile-stats').classList.remove('active');
 }
 
 function setAutoAdvanceDelay(value) {
@@ -208,7 +229,6 @@ function confirmQuit() {
 async function init() {
   loadProgress();
   loadSettings();
-  showScreen('screen-home');
   setupEventListeners();
   updateAutoAdvanceUI();
   updateMatchSizeUI();
@@ -217,16 +237,24 @@ async function init() {
   try {
     const res  = await fetch('data/index.json');
     const data = await res.json();
-    // Newest first
     state.lists = data.lists.sort((a, b) => b.created.localeCompare(a.created));
     buildClassPicker();
-    renderHome();
+
+    // Auto-select first class and first list
+    if (state.lists.length > 0) {
+      const firstClass = state.lists[0].subject;
+      selectedClass = firstClass;
+      buildUnitPicker(firstClass);
+      updateClassHighlight();
+      await selectList(state.lists[0]);
+    } else {
+      showScreen('screen-home');
+    }
   } catch {
+    showScreen('screen-home');
     document.getElementById('lists-container').innerHTML =
       '<p class="muted-text">Could not load lists.<br>Open via GitHub Pages or a local server (not directly from the filesystem).</p>';
   }
-
-  showInstallTip();
 }
 
 function computeListProgress(listId, wordCount) {
@@ -260,7 +288,7 @@ function buildClassPicker() {
 }
 
 function buildUnitPicker(subject) {
-  const lists    = state.lists.filter(l => l.subject === subject);
+  const lists    = state.lists.filter(l => l.subject === subject).slice().reverse();
   const dropdown = document.getElementById('unit-picker-dropdown');
   dropdown.innerHTML = '';
 
@@ -404,7 +432,7 @@ async function selectList(meta) {
   }
   updatePickerLabels();
   renderListStats();
-  switchTab('study');
+  closeTabs();
   showScreen('screen-mode');
 }
 
