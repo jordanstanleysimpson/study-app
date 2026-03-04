@@ -7,7 +7,7 @@ const COMFORT_STREAK  = 3;   // correct-in-a-row to unlock the reverse direction
 const SESSION_SIZE    = 20;  // max cards per session
 const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
-const APP_VERSION     = 1;
+const APP_VERSION     = '2026-03-04T23:47:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
@@ -1051,6 +1051,8 @@ async function checkForUpdate() {
     // Network unavailable or local file — silently ignore
   }
 }
+
+setInterval(checkForUpdate, 10 * 60 * 1000); // re-check every 10 minutes
 
 function reloadApp() {
   window.location.reload();
