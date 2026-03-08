@@ -14,42 +14,122 @@
     {
       "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
       "es": "What is the name of the method shown for locating an earthquake epicenter?",
-      "en": "Triangulation — using the P-wave and S-wave arrival time difference from at least three seismograph stations to find the epicenter."
+      "en": "Triangulation — using the P-wave and S-wave arrival time difference at three seismograph stations to pinpoint the epicenter."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
+      "es": "What does each circle drawn around a seismograph station represent?",
+      "en": "The calculated distance from that station to the earthquake epicenter, determined by the time gap between P-wave and S-wave arrivals."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
+      "es": "Points E, F, and G are where only two circles overlap. Why is the epicenter NOT at those points?",
+      "en": "The epicenter must be where all three circles meet. E, F, and G are only intersections of two circles, so they are not confirmed by all three stations."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
+      "es": "Why do you need at least three seismograph stations to locate an epicenter — why isn't one enough?",
+      "en": "One station gives distance only (a circle of possible locations). Two stations narrow it to two points. A third station identifies the single correct point."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
+      "es": "What two pieces of data does each seismograph station measure to calculate its circle's radius?",
+      "en": "The arrival time of the P-wave and the arrival time of the S-wave. The larger the time gap between them, the farther the station is from the epicenter."
     },
     {
       "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
       "es": "Why do the 'Shadow zone — No waves received' areas exist?",
-      "en": "The liquid outer core blocks S-waves entirely and refracts P-waves away, creating zones on the opposite side of Earth where no seismic waves arrive."
+      "en": "The liquid outer core blocks S-waves entirely and refracts (bends) P-waves away, creating zones on the opposite side of Earth where no seismic waves arrive."
     },
     {
       "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
       "es": "At point B (bottom of the diagram), only one type of wave is received. Which type, and why?",
-      "en": "Only P-waves. S-waves cannot travel through Earth's liquid outer core, so they never reach point B. P-waves can pass through liquids and still arrive."
+      "en": "Only P-waves. S-waves cannot travel through Earth's liquid outer core. P-waves can pass through liquids and still reach point B."
     },
     {
-      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
-      "es": "Which labeled point(s) (A, B, C, or D) are located in the shadow zone?",
-      "en": "Points B and C — they are positioned on the far side of Earth in the region where seismic waves are deflected by the liquid outer core."
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
+      "es": "Point A is labeled 'P- and S-waves received here.' What does this tell you about point A's location?",
+      "en": "Point A is close to the epicenter and outside the shadow zone. Both wave types can travel through the solid mantle to reach it without passing through the liquid outer core."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
+      "es": "Which layer of Earth is responsible for creating the shadow zone?",
+      "en": "The liquid outer core — it blocks S-waves completely and bends P-waves, leaving a zone on the far side of Earth where neither wave type arrives."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
+      "es": "Why do the wave path arrows in the diagram curve instead of traveling in straight lines?",
+      "en": "Waves refract (bend) as they pass through layers of different density. Denser layers speed up or slow down the waves, changing their direction."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
+      "es": "How does the shadow zone provide evidence about Earth's interior?",
+      "en": "The existence and location of the shadow zone proves Earth has a liquid outer core — only a liquid layer could block S-waves and bend P-waves enough to create that gap."
     },
     {
       "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
       "es": "What does the star (✶) represent in Diagram 1?",
-      "en": "The earthquake epicenter — the point on Earth's surface directly above the focus (underground origin point of the earthquake)."
+      "en": "The earthquake epicenter — the point on Earth's surface directly above the focus (the underground origin point of the earthquake)."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "Which labeled point(s) — A, B, C, or D — are located in the shadow zone?",
+      "en": "Points B and C — they are on the far side of Earth from the epicenter, in the region where seismic waves are blocked or bent by the outer core."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "Point A is near the epicenter. Which seismic waves would a seismograph at point A detect?",
+      "en": "Both P-waves and S-waves — point A is close to the epicenter and outside the shadow zone, so both wave types reach it through the solid mantle."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "Would a seismograph at point D detect seismic waves? Which types?",
+      "en": "Yes — point D is on the same side of Earth as the epicenter and outside the shadow zone, so it receives both P-waves and S-waves."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "Name the three layers labeled inside Earth on Diagram 1, from outermost to innermost.",
+      "en": "Mantle → Outer core → Inner core. The mantle is solid rock; the outer core is liquid iron; the inner core is solid iron."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "Why are the inner core and outer core shown as two separate layers?",
+      "en": "They have different states: the outer core is liquid (blocks S-waves) and the inner core is solid (allows P-waves through). This difference in state affects wave behavior."
     },
     {
       "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
       "es": "Which station (I, II, III, or IV) is closest to the earthquake epicenter, and how can you tell?",
-      "en": "Station I — P-waves and S-waves arrive very close together, meaning a small time gap and shorter distance to the epicenter."
+      "en": "Station I — P-waves and S-waves arrive very close together, meaning a small time gap and therefore a shorter distance to the epicenter."
     },
     {
       "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
-      "es": "Station IV shows only P-wave arrival with no S-wave. What does this indicate?",
-      "en": "Station IV is in the shadow zone. S-waves cannot pass through Earth's liquid outer core, so they never reach Station IV."
+      "es": "What does a larger time gap between P-wave and S-wave arrivals indicate?",
+      "en": "The station is farther from the epicenter. Stations I → II → III show an increasing P-S gap, meaning each is progressively farther away."
     },
     {
       "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
-      "es": "What does a larger time gap between P-wave arrival and S-wave arrival indicate?",
-      "en": "The seismograph station is farther from the earthquake epicenter. Stations I → II → III show increasing P-S gaps = increasing distance."
+      "es": "Station IV shows only a P-wave arrival with no S-wave. What does this indicate about Station IV's location?",
+      "en": "Station IV is in the shadow zone. S-waves cannot pass through Earth's liquid outer core, so they never arrive at Station IV."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "Station I shows the largest wave amplitudes (biggest spikes). What does this tell you?",
+      "en": "Station I is closest to the epicenter. More energy reaches nearby stations, causing stronger ground shaking and larger recorded amplitudes."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "Among stations I, II, and III, which is farthest from the epicenter? How can you tell?",
+      "en": "Station III — it has the largest gap between P-wave and S-wave arrival, meaning the most travel time difference and therefore the greatest distance."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "How would you use the data from Stations I, II, and III together to locate the earthquake epicenter?",
+      "en": "Use the P-S time gap at each station to calculate distance. Draw a circle of that radius around each station on a map. The epicenter is where all three circles intersect (triangulation)."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "Seismograms record two distinct wave arrivals at most stations. What are those two arrivals, and which comes first?",
+      "en": "P-waves (primary) arrive first — they are the fastest seismic waves. S-waves (secondary) arrive later — they travel slower and cannot pass through liquids."
     }
   ]
 }
