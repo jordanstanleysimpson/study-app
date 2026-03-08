@@ -1,0 +1,69 @@
+{
+  "id": "spanish-conjugation-rules",
+  "name": "Unit 1: Conjugation Rules",
+  "subject": "Spanish",
+  "created": "2026-03-08",
+  "labels": { "front": "Pattern", "back": "Endings" },
+  "pairs": [
+    {
+      "es": "-AR verb endings (present tense) — all 6 forms",
+      "en": "yo: -o  |  tú: -as  |  él/ella: -a  |  nosotros: -amos  |  vosotros: -áis  |  ellos/ellas: -an"
+    },
+    {
+      "es": "-ER verb endings (present tense) — all 6 forms",
+      "en": "yo: -o  |  tú: -es  |  él/ella: -e  |  nosotros: -emos  |  vosotros: -éis  |  ellos/ellas: -en"
+    },
+    {
+      "es": "-IR verb endings (present tense) — all 6 forms",
+      "en": "yo: -o  |  tú: -es  |  él/ella: -e  |  nosotros: -imos  |  vosotros: -ís  |  ellos/ellas: -en"
+    },
+    {
+      "es": "What ending does any -AR, -ER, or -IR verb take in the yo form?",
+      "en": "-o  (e.g. hablo, como, vivo)"
+    },
+    {
+      "es": "What is the difference between -ER and -IR verb endings?",
+      "en": "Only nosotros and vosotros differ: -ER uses -emos/-éis; -IR uses -imos/-ís. All other forms are identical."
+    },
+    {
+      "es": "To conjugate a regular verb, what do you do to the infinitive?",
+      "en": "Drop the -ar / -er / -ir ending from the infinitive, then add the correct ending for the subject pronoun."
+    },
+    {
+      "es": "hablar — give all 6 present tense conjugations",
+      "en": "hablo, hablas, habla, hablamos, habláis, hablan"
+    },
+    {
+      "es": "comer — give all 6 present tense conjugations",
+      "en": "como, comes, come, comemos, coméis, comen"
+    },
+    {
+      "es": "vivir — give all 6 present tense conjugations",
+      "en": "vivo, vives, vive, vivimos, vivís, viven"
+    },
+    {
+      "es": "What does the nosotros form always end in for -AR verbs?",
+      "en": "-amos  (e.g. hablamos, bailamos, trabajamos)"
+    },
+    {
+      "es": "What does the ellos/ellas form end in for -AR verbs?",
+      "en": "-an  (e.g. hablan, bailan, trabajan)"
+    },
+    {
+      "es": "What does the ellos/ellas form end in for -ER and -IR verbs?",
+      "en": "-en  (e.g. comen, beben, viven, escriben)"
+    },
+    {
+      "es": "What is the tú form ending for -AR verbs?",
+      "en": "-as  (e.g. hablas, bailas, trabajas)"
+    },
+    {
+      "es": "What is the tú form ending for -ER and -IR verbs?",
+      "en": "-es  (e.g. comes, bebes, vives, escribes)"
+    },
+    {
+      "es": "How do you know whether a verb is -AR, -ER, or -IR?",
+      "en": "Look at the last two letters of the infinitive (the dictionary form): hablar → -AR, comer → -ER, vivir → -IR."
+    }
+  ]
+}

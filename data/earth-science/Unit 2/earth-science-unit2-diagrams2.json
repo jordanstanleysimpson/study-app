@@ -1,0 +1,120 @@
+{
+  "id": "earth-science-unit2-diagrams2",
+  "name": "Unit 2: Structure Diagrams",
+  "subject": "Earth Science",
+  "type": "diagram",
+  "created": "2026-03-08",
+  "labels": { "front": "Question", "back": "Answer" },
+  "pairs": [
+    {
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png",
+      "es": "In a normal fault, which direction does the hanging wall move, and what type of stress causes it?",
+      "en": "The hanging wall moves DOWN. Caused by tension — the crust is being pulled apart."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png",
+      "es": "In a reverse fault, which direction does the hanging wall move, and what type of stress causes it?",
+      "en": "The hanging wall moves UP. Caused by compression — the crust is being pushed together."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png",
+      "es": "What is a strike-slip fault, and what type of stress forms it?",
+      "en": "Rocks slide horizontally past each other with no up or down movement. Caused by shearing stress. Example: the San Andreas Fault."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png",
+      "es": "What is the difference between the footwall and the hanging wall?",
+      "en": "The fault plane is diagonal. The hanging wall is the block above the fault plane; the footwall is the block below it. Only the hanging wall moves up or down."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png",
+      "es": "Which fault type would you expect at a transform plate boundary?",
+      "en": "Strike-slip fault — transform boundaries are where plates slide horizontally past each other, which is exactly how a strike-slip fault moves."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png",
+      "es": "Which fault type would form in a region where the crust is being stretched and pulled apart?",
+      "en": "Normal fault — tension (pulling apart) causes the hanging wall to drop down relative to the footwall."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png",
+      "es": "What two features form at a convergent (subduction) boundary?",
+      "en": "A deep-sea trench (where the oceanic plate sinks) and a volcanic mountain on the overriding continental plate."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png",
+      "es": "Why does the oceanic plate sink at a convergent boundary?",
+      "en": "Oceanic (basaltic) crust is denser than continental crust, so it subducts beneath the lighter continental plate."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png",
+      "es": "What rises to fill the gap at a divergent boundary, and what feature does it form?",
+      "en": "Magma rises from the mantle, cools, and forms new oceanic crust — creating a mid-ocean ridge."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png",
+      "es": "At a transform boundary, is any crust created or destroyed? How can you tell?",
+      "en": "No crust is created or destroyed. The two plates simply slide past each other — no gap opens and no plate sinks."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png",
+      "es": "Which boundary type produces both trenches AND volcanoes?",
+      "en": "Convergent (subduction) — the trench forms where the plate subducts; the volcano forms as subducted rock melts and magma rises through the overriding plate."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png",
+      "es": "Which boundary type makes the ocean floor grow wider over time?",
+      "en": "Divergent — as plates pull apart at the mid-ocean ridge, new crust forms and pushes the existing ocean floor outward (sea-floor spreading)."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png",
+      "es": "List Earth's layers from outermost to innermost as shown in the diagram.",
+      "en": "Crust → Lithosphere → Upper Mantle → Asthenosphere → Lower Mantle → Outer Core → Inner Core"
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png",
+      "es": "Which layer is described as 'plastic' and why does that matter for plate tectonics?",
+      "en": "The asthenosphere — it flows very slowly under the rigid lithosphere above it, allowing tectonic plates to move."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png",
+      "es": "What is the difference between the lithosphere and the asthenosphere?",
+      "en": "The lithosphere is rigid (forms the tectonic plates). The asthenosphere beneath it is plastic and flows slowly, letting the plates slide."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png",
+      "es": "Which layer of Earth is liquid, and why is that significant?",
+      "en": "The outer core is liquid iron. This is significant because it creates Earth's magnetic field and blocks S-waves, producing the seismic shadow zone."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png",
+      "es": "What is the lithosphere made of?",
+      "en": "The crust plus the uppermost, rigid part of the mantle. Together they form the tectonic plates."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png",
+      "es": "What drives the convection currents in the mantle?",
+      "en": "Heat from Earth's core warms rock in the mantle, making it less dense so it rises. At the top it cools, becomes denser, and sinks — repeating continuously."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png",
+      "es": "How do convection currents move the tectonic plates?",
+      "en": "As hot mantle rock spreads outward at the top of a convection loop, it exerts friction on the underside of the plate above and drags it in that direction."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png",
+      "es": "Looking at the diagram, what is happening to the tectonic plates at the surface?",
+      "en": "They are being pushed apart (diverging). Hot rock rises in the center, spreads outward in both directions, and drags the plates apart — causing sea-floor spreading."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png",
+      "es": "Why does mantle rock rise in the center of a convection loop?",
+      "en": "It is heated by the core and becomes less dense than the surrounding cooler rock, so it rises buoyantly — the same reason hot air rises."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png",
+      "es": "What is the ultimate energy source that drives plate tectonics?",
+      "en": "Heat from Earth's core and the decay of radioactive elements in the mantle — this heat powers the convection currents that move the plates."
+    }
+  ]
+}

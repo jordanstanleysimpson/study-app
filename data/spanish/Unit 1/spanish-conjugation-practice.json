@@ -1,0 +1,492 @@
+{
+  "id": "spanish-conjugation-practice",
+  "name": "Unit 1: Conjugation Practice",
+  "subject": "Spanish",
+  "created": "2026-03-08",
+  "labels": {
+    "front": "Verb + Pronoun",
+    "back": "Conjugated Form"
+  },
+  "pairs": [
+    {
+      "es": "hablar — yo",
+      "en": "hablo"
+    },
+    {
+      "es": "hablar — tú",
+      "en": "hablas"
+    },
+    {
+      "es": "hablar — él/ella",
+      "en": "habla"
+    },
+    {
+      "es": "hablar — nosotros",
+      "en": "hablamos"
+    },
+    {
+      "es": "hablar — ellos",
+      "en": "hablan"
+    },
+    {
+      "es": "bailar — yo",
+      "en": "bailo"
+    },
+    {
+      "es": "bailar — tú",
+      "en": "bailas"
+    },
+    {
+      "es": "bailar — él/ella",
+      "en": "baila"
+    },
+    {
+      "es": "bailar — nosotros",
+      "en": "bailamos"
+    },
+    {
+      "es": "bailar — ellos",
+      "en": "bailan"
+    },
+    {
+      "es": "trabajar — yo",
+      "en": "trabajo"
+    },
+    {
+      "es": "trabajar — tú",
+      "en": "trabajas"
+    },
+    {
+      "es": "trabajar — él/ella",
+      "en": "trabaja"
+    },
+    {
+      "es": "trabajar — nosotros",
+      "en": "trabajamos"
+    },
+    {
+      "es": "trabajar — ellos",
+      "en": "trabajan"
+    },
+    {
+      "es": "escuchar — yo",
+      "en": "escucho"
+    },
+    {
+      "es": "escuchar — tú",
+      "en": "escuchas"
+    },
+    {
+      "es": "escuchar — él/ella",
+      "en": "escucha"
+    },
+    {
+      "es": "escuchar — nosotros",
+      "en": "escuchamos"
+    },
+    {
+      "es": "escuchar — ellos",
+      "en": "escuchan"
+    },
+    {
+      "es": "estudiar — yo",
+      "en": "estudio"
+    },
+    {
+      "es": "estudiar — tú",
+      "en": "estudias"
+    },
+    {
+      "es": "estudiar — él/ella",
+      "en": "estudia"
+    },
+    {
+      "es": "estudiar — nosotros",
+      "en": "estudiamos"
+    },
+    {
+      "es": "estudiar — ellos",
+      "en": "estudian"
+    },
+    {
+      "es": "llamar — yo",
+      "en": "llamo"
+    },
+    {
+      "es": "llamar — tú",
+      "en": "llamas"
+    },
+    {
+      "es": "llamar — él/ella",
+      "en": "llama"
+    },
+    {
+      "es": "llamar — nosotros",
+      "en": "llamamos"
+    },
+    {
+      "es": "llamar — ellos",
+      "en": "llaman"
+    },
+    {
+      "es": "comprar — yo",
+      "en": "compro"
+    },
+    {
+      "es": "comprar — tú",
+      "en": "compras"
+    },
+    {
+      "es": "comprar — él/ella",
+      "en": "compra"
+    },
+    {
+      "es": "comprar — nosotros",
+      "en": "compramos"
+    },
+    {
+      "es": "comprar — ellos",
+      "en": "compran"
+    },
+    {
+      "es": "mirar — yo",
+      "en": "miro"
+    },
+    {
+      "es": "mirar — tú",
+      "en": "miras"
+    },
+    {
+      "es": "mirar — él/ella",
+      "en": "mira"
+    },
+    {
+      "es": "mirar — nosotros",
+      "en": "miramos"
+    },
+    {
+      "es": "mirar — ellos",
+      "en": "miran"
+    },
+    {
+      "es": "caminar — yo",
+      "en": "camino"
+    },
+    {
+      "es": "caminar — tú",
+      "en": "caminas"
+    },
+    {
+      "es": "caminar — él/ella",
+      "en": "camina"
+    },
+    {
+      "es": "caminar — nosotros",
+      "en": "caminamos"
+    },
+    {
+      "es": "caminar — ellos",
+      "en": "caminan"
+    },
+    {
+      "es": "cocinar — yo",
+      "en": "cocino"
+    },
+    {
+      "es": "cocinar — tú",
+      "en": "cocinas"
+    },
+    {
+      "es": "cocinar — él/ella",
+      "en": "cocina"
+    },
+    {
+      "es": "cocinar — nosotros",
+      "en": "cocinamos"
+    },
+    {
+      "es": "cocinar — ellos",
+      "en": "cocinan"
+    },
+    {
+      "es": "buscar — yo",
+      "en": "busco"
+    },
+    {
+      "es": "buscar — tú",
+      "en": "buscas"
+    },
+    {
+      "es": "buscar — él/ella",
+      "en": "busca"
+    },
+    {
+      "es": "buscar — nosotros",
+      "en": "buscamos"
+    },
+    {
+      "es": "buscar — ellos",
+      "en": "buscan"
+    },
+    {
+      "es": "necesitar — yo",
+      "en": "necesito"
+    },
+    {
+      "es": "necesitar — tú",
+      "en": "necesitas"
+    },
+    {
+      "es": "necesitar — él/ella",
+      "en": "necesita"
+    },
+    {
+      "es": "necesitar — nosotros",
+      "en": "necesitamos"
+    },
+    {
+      "es": "necesitar — ellos",
+      "en": "necesitan"
+    },
+    {
+      "es": "comer — yo",
+      "en": "como"
+    },
+    {
+      "es": "comer — tú",
+      "en": "comes"
+    },
+    {
+      "es": "comer — él/ella",
+      "en": "come"
+    },
+    {
+      "es": "comer — nosotros",
+      "en": "comemos"
+    },
+    {
+      "es": "comer — ellos",
+      "en": "comen"
+    },
+    {
+      "es": "beber — yo",
+      "en": "bebo"
+    },
+    {
+      "es": "beber — tú",
+      "en": "bebes"
+    },
+    {
+      "es": "beber — él/ella",
+      "en": "bebe"
+    },
+    {
+      "es": "beber — nosotros",
+      "en": "bebemos"
+    },
+    {
+      "es": "beber — ellos",
+      "en": "beben"
+    },
+    {
+      "es": "leer — yo",
+      "en": "leo"
+    },
+    {
+      "es": "leer — tú",
+      "en": "lees"
+    },
+    {
+      "es": "leer — él/ella",
+      "en": "lee"
+    },
+    {
+      "es": "leer — nosotros",
+      "en": "leemos"
+    },
+    {
+      "es": "leer — ellos",
+      "en": "leen"
+    },
+    {
+      "es": "aprender — yo",
+      "en": "aprendo"
+    },
+    {
+      "es": "aprender — tú",
+      "en": "aprendes"
+    },
+    {
+      "es": "aprender — él/ella",
+      "en": "aprende"
+    },
+    {
+      "es": "aprender — nosotros",
+      "en": "aprendemos"
+    },
+    {
+      "es": "aprender — ellos",
+      "en": "aprenden"
+    },
+    {
+      "es": "correr — yo",
+      "en": "corro"
+    },
+    {
+      "es": "correr — tú",
+      "en": "corres"
+    },
+    {
+      "es": "correr — él/ella",
+      "en": "corre"
+    },
+    {
+      "es": "correr — nosotros",
+      "en": "corremos"
+    },
+    {
+      "es": "correr — ellos",
+      "en": "corren"
+    },
+    {
+      "es": "vender — yo",
+      "en": "vendo"
+    },
+    {
+      "es": "vender — tú",
+      "en": "vendes"
+    },
+    {
+      "es": "vender — él/ella",
+      "en": "vende"
+    },
+    {
+      "es": "vender — nosotros",
+      "en": "vendemos"
+    },
+    {
+      "es": "vender — ellos",
+      "en": "venden"
+    },
+    {
+      "es": "vivir — yo",
+      "en": "vivo"
+    },
+    {
+      "es": "vivir — tú",
+      "en": "vives"
+    },
+    {
+      "es": "vivir — él/ella",
+      "en": "vive"
+    },
+    {
+      "es": "vivir — nosotros",
+      "en": "vivimos"
+    },
+    {
+      "es": "vivir — ellos",
+      "en": "viven"
+    },
+    {
+      "es": "escribir — yo",
+      "en": "escribo"
+    },
+    {
+      "es": "escribir — tú",
+      "en": "escribes"
+    },
+    {
+      "es": "escribir — él/ella",
+      "en": "escribe"
+    },
+    {
+      "es": "escribir — nosotros",
+      "en": "escribimos"
+    },
+    {
+      "es": "escribir — ellos",
+      "en": "escriben"
+    },
+    {
+      "es": "abrir — yo",
+      "en": "abro"
+    },
+    {
+      "es": "abrir — tú",
+      "en": "abres"
+    },
+    {
+      "es": "abrir — él/ella",
+      "en": "abre"
+    },
+    {
+      "es": "abrir — nosotros",
+      "en": "abrimos"
+    },
+    {
+      "es": "abrir — ellos",
+      "en": "abren"
+    },
+    {
+      "es": "recibir — yo",
+      "en": "recibo"
+    },
+    {
+      "es": "recibir — tú",
+      "en": "recibes"
+    },
+    {
+      "es": "recibir — él/ella",
+      "en": "recibe"
+    },
+    {
+      "es": "recibir — nosotros",
+      "en": "recibimos"
+    },
+    {
+      "es": "recibir — ellos",
+      "en": "reciben"
+    },
+    {
+      "es": "subir — yo",
+      "en": "subo"
+    },
+    {
+      "es": "subir — tú",
+      "en": "subes"
+    },
+    {
+      "es": "subir — él/ella",
+      "en": "sube"
+    },
+    {
+      "es": "subir — nosotros",
+      "en": "subimos"
+    },
+    {
+      "es": "subir — ellos",
+      "en": "suben"
+    },
+    {
+      "es": "describir — yo",
+      "en": "describo"
+    },
+    {
+      "es": "describir — tú",
+      "en": "describes"
+    },
+    {
+      "es": "describir — él/ella",
+      "en": "describe"
+    },
+    {
+      "es": "describir — nosotros",
+      "en": "describimos"
+    },
+    {
+      "es": "describir — ellos",
+      "en": "describen"
+    }
+  ]
+}

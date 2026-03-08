@@ -9,7 +9,7 @@ const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
 const GITHUB_KEY      = 'study-app-github';
 const GIST_FILENAME   = 'study-progress.json';
-const APP_VERSION     = '2026-03-08T12:00:00Z';
+const APP_VERSION     = '2026-03-08T20:00:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
@@ -23,6 +23,7 @@ const state = {
   sessionIndex:   0,
   sessionResults: [],     // [{ pair, direction, correct: bool }, …]
   sessionHistory: [],     // [{ index, pair, direction, recorded, correct }] — for back/skip
+  subjectCache:   {},     // { [listId]: listObject } — other units in same subject, loaded in bg
   progress:       {},     // persisted to localStorage
   settings:       { autoAdvanceDelay: 1000 },  // app settings
   currentAnswer:  null,   // correct answer for the active card
@@ -704,6 +705,14 @@ async function selectList(meta) {
   renderListStats();
   closeTabs();
   showScreen('screen-mode');
+
+  // Background-fetch other lists in same subject for 80/20 cross-unit mixing
+  const subject = state.currentList.subject;
+  for (const m of state.lists) {
+    if (m.subject === subject && m.id !== state.currentList.id && m.type !== 'diagram' && !state.subjectCache[m.id]) {
+      fetch(m.file).then(r => r.json()).then(l => { state.subjectCache[m.id] = l; }).catch(() => {});
+    }
+  }
 }
 
 function renderListStats() {
@@ -764,6 +773,19 @@ function startSession(mode) {
   if (session.length === 0) {
     alert('No words to study in this list.');
     return;
+  }
+
+  // 80/20 cross-unit mixing: replace up to 20% of session with cards from other units
+  if (state.currentList.type !== 'diagram') {
+    const otherPairs = Object.values(state.subjectCache).flatMap(l => l.pairs || []);
+    if (otherPairs.length > 0) {
+      const mixCount  = Math.max(1, Math.round(session.length * 0.2));
+      const mainCount = session.length - mixCount;
+      const mixed = shuffle(otherPairs)
+        .slice(0, mixCount)
+        .map(pair => ({ pair, direction: 'es_en' }));
+      session = shuffle([...session.slice(0, mainCount), ...mixed]);
+    }
   }
 
   state.currentMode    = mode;
