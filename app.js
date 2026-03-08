@@ -22,6 +22,7 @@ const state = {
   session:        [],     // [{ pair: {es,en}, direction: 'es_en'|'en_es' }, …]
   sessionIndex:   0,
   sessionResults: [],     // [{ pair, direction, correct: bool }, …]
+  sessionHistory: [],     // [{ index, pair, direction, recorded, correct }] — for back/skip
   progress:       {},     // persisted to localStorage
   settings:       { autoAdvanceDelay: 1000 },  // app settings
   currentAnswer:  null,   // correct answer for the active card
@@ -321,6 +322,48 @@ function recordAnswer(listId, word, direction, correct) {
   saveProgress();
 }
 
+function undoRecordAnswer(listId, word, direction, correct) {
+  const dir = getWordRecord(listId, word)[direction];
+  if (correct) {
+    dir.correct   = Math.max(0, dir.correct - 1);
+    dir.streak    = Math.max(0, dir.streak - 1);
+  } else {
+    dir.incorrect = Math.max(0, dir.incorrect - 1);
+  }
+  saveProgress();
+}
+
+function skipCard() {
+  if (state.answered) return;
+  const { pair, direction } = state.session[state.sessionIndex];
+  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: false, correct: null });
+  state.sessionIndex++;
+  renderCard();
+}
+
+function goBack() {
+  if (state.sessionHistory.length === 0) return;
+  const last = state.sessionHistory.pop();
+  if (last.recorded) {
+    undoRecordAnswer(state.currentList.id, last.pair.es, last.direction, last.correct);
+    state.sessionResults.pop();
+  }
+  state.sessionIndex = last.index;
+  state.answered = false;
+  renderCard();
+}
+
+function updateNavBar() {
+  const isMatch = state.currentMode === 'match';
+  const footer  = document.getElementById('quiz-footer');
+  if (footer) footer.classList.toggle('hidden', isMatch);
+
+  const backBtn = document.getElementById('nav-back-btn');
+  const skipBtn = document.getElementById('nav-skip-btn');
+  if (backBtn) backBtn.disabled = state.sessionHistory.length === 0;
+  if (skipBtn) skipBtn.disabled = state.answered;
+}
+
 function isEsEnComfortable(listId, word) {
   return getWordRecord(listId, word).es_en.comfortable;
 }
@@ -614,7 +657,9 @@ function renderHome() {
 
       const count = document.createElement('span');
       count.className = 'list-meta';
-      count.textContent = `${meta.wordCount} words`;
+      count.textContent = meta.type === 'diagram'
+        ? `${meta.wordCount} diagram questions`
+        : `${meta.wordCount} words`;
 
       info.appendChild(name);
       info.appendChild(count);
@@ -725,6 +770,7 @@ function startSession(mode) {
   state.session        = session;
   state.sessionIndex   = 0;
   state.sessionResults = [];
+  state.sessionHistory = [];
 
   showScreen('screen-quiz');
   updateAutoAdvanceUI();
@@ -755,6 +801,7 @@ function renderCard() {
   state.currentAnswer = answer;
   state.answered      = false;
 
+  updateNavBar();
   if      (state.currentMode === 'flashcard') renderFlashcard(dirLabel, prompt, answer, pair);
   else if (state.currentMode === 'type')      renderTypeIt(dirLabel, prompt);
   else if (state.currentMode.startsWith('choice')) renderChoice(dirLabel, prompt);
@@ -800,6 +847,7 @@ function flipCard() {
 function flashcardAnswer(correct) {
   const { pair, direction } = state.session[state.sessionIndex];
   recordAnswer(state.currentList.id, pair.es, direction, correct);
+  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: true, correct });
   state.sessionResults.push({ pair, direction, correct });
   state.sessionIndex++;
   renderCard();
@@ -847,7 +895,9 @@ function checkTypeAnswer() {
 
   const { pair, direction } = state.session[state.sessionIndex];
   recordAnswer(state.currentList.id, pair.es, direction, correct);
+  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: true, correct });
   state.sessionResults.push({ pair, direction, correct });
+  updateNavBar();
 
   // Auto-advance on correct answers only
   if (correct && state.settings.autoAdvanceDelay > 0) {
@@ -914,7 +964,9 @@ function checkChoice(btn, chosen) {
 
   const { pair, direction } = state.session[state.sessionIndex];
   recordAnswer(state.currentList.id, pair.es, direction, correct);
+  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: true, correct });
   state.sessionResults.push({ pair, direction, correct });
+  updateNavBar();
 
   // Auto-advance on correct answers only
   if (correct && state.settings.autoAdvanceDelay > 0) {
@@ -1379,6 +1431,9 @@ function setupEventListeners() {
       if (!overlay.classList.contains('hidden')) { hideReference(); return; }
       if (state.currentMode) { confirmQuit(); return; }
     }
+    const inQuiz = state.currentMode && state.currentMode !== 'match';
+    if (inQuiz && e.key === 'ArrowLeft'  && !e.metaKey && !e.altKey) { e.preventDefault(); goBack(); }
+    if (inQuiz && e.key === 'ArrowRight' && !e.metaKey && !e.altKey) { e.preventDefault(); skipCard(); }
     if (state.currentMode.startsWith('choice') && state.answered && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault();
       advanceCard();

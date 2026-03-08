@@ -12,6 +12,7 @@
       "id": "earth-science-unit2-diagrams",
       "name": "Unit 2: Diagram Questions",
       "subject": "Earth Science",
+      "type": "diagram",
       "created": "2026-03-08",
       "wordCount": 9,
       "file": "data/earth-science/Unit 2/earth-science-unit2-diagrams.json"

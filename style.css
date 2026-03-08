@@ -242,6 +242,40 @@ button {
   flex-shrink: 0;
 }
 
+.quiz-footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.quiz-nav-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.quiz-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.quiz-nav-btn:not(:disabled):hover {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.quiz-nav-btn:not(:disabled):active {
+  background: var(--border);
+}
+
 .quiz-header-inner {
   max-width: 560px;
   margin: 0 auto;
