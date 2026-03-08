@@ -331,7 +331,7 @@ button {
 .screen-body {
   flex: 1;
   overflow-y: auto;
-  padding: 20px;
+  padding: 14px 16px;
 }
 
 /* center on wide screens */
@@ -498,15 +498,23 @@ button {
 .mode-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.mode-grid--three {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mode-grid--one {
+  grid-template-columns: 1fr;
 }
 
 .mode-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 20px 16px;
+  padding: 14px 12px;
   text-align: center;
   cursor: pointer;
   display: block;
@@ -534,8 +542,8 @@ button {
 
 .mode-icon {
   display: block;
-  font-size: 1.75rem;
-  margin-bottom: 8px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
 }
 
 .mode-name {
@@ -597,14 +605,129 @@ button {
   color: var(--primary);
 }
 
+/* ── Progress export / import ── */
+.progress-io {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.progress-io-btn {
+  background: none;
+  border: none;
+  font-size: 0.78rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.progress-io-btn:hover { color: var(--primary); }
+
+.progress-io-divider {
+  color: var(--border);
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+/* ── GitHub sync panel ── */
+.github-sync-btn--ok  { color: var(--correct) !important; }
+.github-sync-btn--err { color: var(--wrong)   !important; }
+
+.github-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.github-panel-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.github-panel-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.github-panel-hint code {
+  background: var(--bg);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 0.75rem;
+}
+
+.github-panel-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.github-token-input {
+  flex: 1;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-family: monospace;
+  background: var(--bg);
+  color: var(--text);
+  min-width: 0;
+}
+
+.github-token-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.btn-small {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 6px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.btn-small:hover { background: var(--primary-dark); }
+
+.github-token-error {
+  font-size: 0.78rem;
+  color: var(--wrong);
+  margin-bottom: 6px;
+}
+
+.github-disconnect-btn {
+  color: var(--wrong) !important;
+  margin-top: 4px;
+}
+
 /* ── Progress stats ── */
 .progress-stats {
   display: flex;
   gap: 12px;
-  padding: 16px;
+  padding: 10px 14px;
   background: var(--surface);
   border-radius: var(--radius);
   border: 1px solid var(--border);
+  margin-bottom: 14px;
 }
 
 .stat {
@@ -615,11 +738,11 @@ button {
 }
 
 .stat-num {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: var(--primary);
   line-height: 1;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .stat-label {
@@ -649,60 +772,77 @@ button {
   background: rgba(79, 70, 229, 0.08);
   padding: 4px 12px;
   border-radius: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
   text-transform: uppercase;
   letter-spacing: 0.07em;
 }
 
+/* ── Diagram image in flashcard ── */
+.fc-diagram-img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  margin-bottom: 10px;
+}
+
 /* ── Flashcard ── */
-.flashcard {
-  perspective: 1000px;
+.fc-card {
   width: 100%;
-  height: 200px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 28px 24px;
   cursor: pointer;
-  margin-bottom: 16px;
-}
-
-.flashcard-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-style: preserve-3d;
-}
-
-.flashcard-inner.flipped {
-  transform: rotateY(180deg);
-}
-
-.flashcard-front,
-.flashcard-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
-  border: 1px solid var(--border);
-  padding: 24px;
+  min-height: 110px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
 }
 
-.flashcard-back {
-  transform: rotateY(180deg);
-  background: #f0fdf4;
-  border-color: #bbf7d0;
-}
+.fc-card:active { border-color: var(--primary); }
 
-.word-text {
-  font-size: 2rem;
+.fc-term {
+  font-size: 1.7rem;
   font-weight: 700;
   text-align: center;
   line-height: 1.2;
+}
+
+.fc-card--question .fc-term {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.fc-definition {
+  width: 100%;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 12px;
+  animation: fcReveal 0.2s ease;
+}
+
+.fc-definition.hidden { display: none; }
+
+@keyframes fcReveal {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fc-def-text {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--text);
+  display: block;
 }
 
 .hint-text {
@@ -1146,6 +1286,7 @@ button {
 
 .match-item {
   width: 100%;
+  min-height: 58px;
   padding: 10px 8px;
   background: var(--surface);
   border: 2px solid var(--border);
@@ -1155,9 +1296,19 @@ button {
   cursor: pointer;
   text-align: center;
   transition: border-color 0.15s, background 0.15s;
-  word-break: break-word;
   line-height: 1.3;
   font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.match-item-label {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  word-break: break-word;
 }
 
 .match-item:hover:not(:disabled) {
@@ -1290,4 +1441,63 @@ button {
   color: var(--muted);
   padding: 40px 0;
   font-size: 0.95rem;
+}
+
+/* ── Reference chart button & overlay ── */
+.ref-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.78rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 4px 8px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.ref-btn:hover { background: var(--border); color: var(--text); }
+
+.ref-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.82);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.ref-overlay.hidden { display: none; }
+
+.ref-overlay-inner {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ref-overlay-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 201;
+}
+
+.ref-img {
+  max-width: 100%;
+  max-height: 85vh;
+  border-radius: 8px;
+  object-fit: contain;
 }

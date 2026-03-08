@@ -7,7 +7,9 @@ const COMFORT_STREAK  = 3;   // correct-in-a-row to unlock the reverse direction
 const SESSION_SIZE    = 20;  // max cards per session
 const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
-const APP_VERSION     = '2026-03-04T23:47:00Z';
+const GITHUB_KEY      = 'study-app-github';
+const GIST_FILENAME   = 'study-progress.json';
+const APP_VERSION     = '2026-03-08T12:00:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
@@ -38,6 +40,47 @@ function normalize(str) {
     .trim();
 }
 
+function listLabels() {
+  return state.currentList?.labels ?? { front: 'Spanish', back: 'English' };
+}
+
+function updateSubjectLabels() {
+  const { front, back } = listLabels();
+  const fwd  = `${front} → ${back}`;
+  const rev  = `${back} → ${front}`;
+
+  const isDiagram = state.currentList.type === 'diagram';
+  document.getElementById('btn-type-it').classList.toggle('hidden', !!state.currentList.labels);
+  document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram);
+  document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram);
+  document.getElementById('btn-match').classList.toggle('hidden', isDiagram);
+  document.getElementById('mode-grid').classList.toggle('mode-grid--one', isDiagram);
+  document.getElementById('mode-grid').classList.toggle('mode-grid--three', !isDiagram && !!state.currentList.labels);
+
+  const isSubject = !!state.currentList.labels;
+  document.getElementById('mode-icon-fwd').textContent = isSubject ? '📋' : '🇪🇸';
+  document.getElementById('mode-icon-rev').textContent = isSubject ? '🔄' : '🇬🇧';
+
+  const modeDescType  = document.getElementById('mode-desc-type');
+  const modeDescFwd   = document.getElementById('mode-desc-fwd');
+  const modeDescRev   = document.getElementById('mode-desc-rev');
+  const modeDescMatch = document.getElementById('mode-desc-match');
+  if (modeDescType)  modeDescType.textContent  = state.currentList.labels ? `See definition, type the term` : 'Spell the answer';
+  if (modeDescFwd)   modeDescFwd.textContent   = fwd;
+  if (modeDescRev)   modeDescRev.textContent   = rev;
+  if (modeDescMatch) modeDescMatch.textContent = `Connect ${front} to ${back}`;
+
+  const thFront = document.getElementById('browse-sort-es');
+  const thBack  = document.getElementById('browse-sort-en');
+  if (thFront) thFront.innerHTML = `${front} <span class="sort-indicator">↕</span>`;
+  if (thBack)  thBack.innerHTML  = `${back} <span class="sort-indicator">↕</span>`;
+
+  const statFront = document.getElementById('stats-col-front');
+  const statBack  = document.getElementById('stats-col-back');
+  if (statFront) statFront.textContent = front;
+  if (statBack)  statBack.textContent  = back;
+}
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -48,18 +91,197 @@ function shuffle(arr) {
 }
 
 // ─────────────────────────────────────────────
-// Progress — localStorage
+// Progress — localStorage (primary) + IndexedDB (backup)
 // ─────────────────────────────────────────────
-function loadProgress() {
+const IDB_NAME    = 'study-app-db';
+const IDB_VERSION = 1;
+const IDB_STORE   = 'progress';
+
+function idbOpen() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(IDB_NAME, IDB_VERSION);
+    req.onupgradeneeded = e => e.target.result.createObjectStore(IDB_STORE);
+    req.onsuccess       = e => resolve(e.target.result);
+    req.onerror         = e => reject(e.target.error);
+  });
+}
+
+function idbSave(data) {
+  // Fire-and-forget — never blocks the UI
+  idbOpen()
+    .then(db => db.transaction(IDB_STORE, 'readwrite').objectStore(IDB_STORE).put(data, 'main'))
+    .catch(() => {});
+}
+
+function idbLoad() {
+  return new Promise(resolve => {
+    idbOpen()
+      .then(db => {
+        const req      = db.transaction(IDB_STORE).objectStore(IDB_STORE).get('main');
+        req.onsuccess  = e => resolve(e.target.result ?? null);
+        req.onerror    = ()  => resolve(null);
+      })
+      .catch(() => resolve(null));
+  });
+}
+
+async function loadProgress() {
   try {
-    state.progress = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
-  } catch {
-    state.progress = {};
-  }
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      state.progress = JSON.parse(stored);
+      return;
+    }
+  } catch {}
+
+  // localStorage empty — try IndexedDB
+  try {
+    const backup = await idbLoad();
+    if (backup && typeof backup === 'object') {
+      state.progress = backup;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(backup));
+      return;
+    }
+  } catch {}
+
+  // IndexedDB also empty — try GitHub Gist
+  try {
+    const gistData = await gistFetch();
+    if (gistData) {
+      state.progress = gistData;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(gistData));
+      idbSave(gistData);
+      return;
+    }
+  } catch {}
+
+  state.progress = {};
 }
 
 function saveProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
+  idbSave(state.progress);
+  gistSync();
+}
+
+// ─────────────────────────────────────────────
+// GitHub Gist sync
+// ─────────────────────────────────────────────
+function loadGithubSettings() {
+  try { return JSON.parse(localStorage.getItem(GITHUB_KEY) || 'null') || {}; }
+  catch { return {}; }
+}
+
+function saveGithubSettings(settings) {
+  localStorage.setItem(GITHUB_KEY, JSON.stringify(settings));
+}
+
+async function gistRequest(method, path, body) {
+  const gh  = loadGithubSettings();
+  if (!gh.token) return null;
+  const res = await fetch(`https://api.github.com${path}`, {
+    method,
+    headers: {
+      'Authorization': `token ${gh.token}`,
+      'Content-Type':  'application/json',
+      'Accept':        'application/vnd.github+json',
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+  return res.json();
+}
+
+async function gistSync() {
+  const gh    = loadGithubSettings();
+  if (!gh.token) return;
+  const files = { [GIST_FILENAME]: { content: JSON.stringify(state.progress) } };
+  try {
+    if (gh.gistId) {
+      await gistRequest('PATCH', `/gists/${gh.gistId}`, { files });
+    } else {
+      const data = await gistRequest('POST', '/gists', {
+        description: 'Study App Progress Backup',
+        public: false,
+        files,
+      });
+      saveGithubSettings({ ...gh, gistId: data.id });
+    }
+    saveGithubSettings({ ...loadGithubSettings(), lastSync: Date.now() });
+    updateGithubStatus();
+  } catch {
+    updateGithubStatus('error');
+  }
+}
+
+async function gistFetch() {
+  const gh = loadGithubSettings();
+  if (!gh.token || !gh.gistId) return null;
+  const data    = await gistRequest('GET', `/gists/${gh.gistId}`);
+  const content = data?.files?.[GIST_FILENAME]?.content;
+  return content ? JSON.parse(content) : null;
+}
+
+async function connectGithub() {
+  const token = document.getElementById('github-token-input').value.trim();
+  if (!token) return;
+
+  // Verify token by hitting the user endpoint
+  try {
+    const res = await fetch('https://api.github.com/user', {
+      headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github+json' },
+    });
+    if (!res.ok) throw new Error('Invalid token');
+    const user = await res.json();
+    saveGithubSettings({ token, gistId: null, user: user.login });
+    document.getElementById('github-token-input').value = '';
+    closeGithubPanel();
+    await gistSync(); // create the gist immediately
+    updateGithubStatus();
+  } catch {
+    document.getElementById('github-token-error').classList.remove('hidden');
+  }
+}
+
+function disconnectGithub() {
+  localStorage.removeItem(GITHUB_KEY);
+  closeGithubPanel();
+  updateGithubStatus();
+}
+
+function openGithubPanel() {
+  const panel = document.getElementById('github-panel');
+  const gh    = loadGithubSettings();
+  panel.classList.remove('hidden');
+  document.getElementById('github-token-error').classList.add('hidden');
+  document.getElementById('github-disconnect-btn').classList.toggle('hidden', !gh.token);
+  if (!gh.token) document.getElementById('github-token-input').focus();
+}
+
+function closeGithubPanel() {
+  document.getElementById('github-panel').classList.add('hidden');
+}
+
+function updateGithubStatus() {
+  const gh  = loadGithubSettings();
+  const btn = document.getElementById('github-sync-btn');
+  if (!btn) return;
+  if (!gh.token) {
+    btn.textContent = '☁ GitHub Sync';
+    btn.classList.remove('github-sync-btn--ok', 'github-sync-btn--err');
+    return;
+  }
+  if (gh.lastSync) {
+    const mins = Math.round((Date.now() - gh.lastSync) / 60000);
+    const ago  = mins < 1 ? 'just now' : `${mins}m ago`;
+    btn.textContent = `☁ ${gh.user} · ${ago}`;
+    btn.classList.add('github-sync-btn--ok');
+    btn.classList.remove('github-sync-btn--err');
+  } else {
+    btn.textContent = '☁ Sync error';
+    btn.classList.add('github-sync-btn--err');
+    btn.classList.remove('github-sync-btn--ok');
+  }
 }
 
 function loadSettings() {
@@ -227,8 +449,9 @@ function confirmQuit() {
 // Home screen
 // ─────────────────────────────────────────────
 async function init() {
-  loadProgress();
+  await loadProgress();
   loadSettings();
+  updateGithubStatus();
   setupEventListeners();
   updateAutoAdvanceUI();
   updateMatchSizeUI();
@@ -431,6 +654,8 @@ async function selectList(meta) {
     buildUnitPicker(selectedClass);
   }
   updatePickerLabels();
+  updateSubjectLabels();
+  updateReferenceButton();
   renderListStats();
   closeTabs();
   showScreen('screen-mode');
@@ -460,9 +685,10 @@ function renderListStats() {
     return s;
   };
 
+  const { front, back } = listLabels();
   stats.appendChild(makestat(pairs.length,       'words'));
-  stats.appendChild(makestat(comfortableEsEn,    'confident es→en'));
-  stats.appendChild(makestat(comfortableEnEs,    'confident en→es'));
+  stats.appendChild(makestat(comfortableEsEn,    `confident ${front}→${back}`));
+  stats.appendChild(makestat(comfortableEnEs,    `confident ${back}→${front}`));
   container.appendChild(stats);
 }
 
@@ -477,7 +703,12 @@ function startSession(mode) {
 
   let session;
   if (mode === 'choice-en') {
-    // Force English → Spanish for every card
+    // Force back → front for every card
+    session = shuffle([...state.currentList.pairs])
+      .slice(0, SESSION_SIZE)
+      .map(pair => ({ pair, direction: 'en_es' }));
+  } else if (mode === 'type' && state.currentList.labels) {
+    // Non-language lists: always show definition, type the term (short answer)
     session = shuffle([...state.currentList.pairs])
       .slice(0, SESSION_SIZE)
       .map(pair => ({ pair, direction: 'en_es' }));
@@ -518,12 +749,13 @@ function renderCard() {
   const { pair, direction } = state.session[state.sessionIndex];
   const prompt   = direction === 'es_en' ? pair.es : pair.en;
   const answer   = direction === 'es_en' ? pair.en : pair.es;
-  const dirLabel = direction === 'es_en' ? 'Spanish → English' : 'English → Spanish';
+  const { front, back } = listLabels();
+  const dirLabel = direction === 'es_en' ? `${front} → ${back}` : `${back} → ${front}`;
 
   state.currentAnswer = answer;
   state.answered      = false;
 
-  if      (state.currentMode === 'flashcard') renderFlashcard(dirLabel, prompt, answer);
+  if      (state.currentMode === 'flashcard') renderFlashcard(dirLabel, prompt, answer, pair);
   else if (state.currentMode === 'type')      renderTypeIt(dirLabel, prompt);
   else if (state.currentMode.startsWith('choice')) renderChoice(dirLabel, prompt);
 }
@@ -531,16 +763,27 @@ function renderCard() {
 // ─────────────────────────────────────────────
 // Flashcard mode
 // ─────────────────────────────────────────────
-function renderFlashcard(dirLabel, prompt, answer) {
+function renderFlashcard(dirLabel, prompt, answer, pair) {
   state.flipped = false;
   showQuizMode('flashcard');
 
   document.getElementById('fc-direction').textContent = dirLabel;
   document.getElementById('fc-prompt').textContent    = prompt;
   document.getElementById('fc-answer').textContent    = answer;
-  document.getElementById('flashcard-inner').classList.remove('flipped');
+  document.getElementById('fc-definition').classList.add('hidden');
   document.getElementById('fc-hint').classList.remove('hidden');
   document.getElementById('fc-answer-btns').classList.add('hidden');
+
+  const diagramImg = document.getElementById('fc-diagram-img');
+  const hasDiagram = !!(pair && pair.img);
+  if (hasDiagram) {
+    diagramImg.src = pair.img;
+    diagramImg.classList.remove('hidden');
+  } else {
+    diagramImg.src = '';
+    diagramImg.classList.add('hidden');
+  }
+  document.getElementById('flashcard').classList.toggle('fc-card--question', hasDiagram);
 }
 
 function flipCard() {
@@ -549,7 +792,7 @@ function flipCard() {
     return;
   }
   state.flipped = true;
-  document.getElementById('flashcard-inner').classList.add('flipped');
+  document.getElementById('fc-definition').classList.remove('hidden');
   document.getElementById('fc-answer-btns').classList.remove('hidden');
   document.getElementById('fc-hint').classList.add('hidden');
 }
@@ -572,8 +815,9 @@ function renderTypeIt(dirLabel, prompt) {
   document.getElementById('type-prompt').textContent    = prompt;
 
   const input = document.getElementById('type-input');
-  input.value    = '';
-  input.disabled = false;
+  input.value       = '';
+  input.disabled    = false;
+  input.placeholder = state.currentList.labels ? 'Type the term…' : 'Type the translation…';
   input.focus();
 
   document.getElementById('type-feedback').className = 'feedback hidden';
@@ -714,7 +958,8 @@ function startMatch() {
 
 function renderMatch() {
   showQuizMode('match');
-  document.getElementById('match-direction').textContent = 'Spanish — English';
+  const { front: mFront, back: mBack } = listLabels();
+  document.getElementById('match-direction').textContent = `${mFront} — ${mBack}`;
   document.getElementById('match-complete').classList.add('hidden');
 
   const esCol = document.getElementById('match-col-es');
@@ -726,20 +971,26 @@ function renderMatch() {
   const enOrder = shuffle(state.matchPairs.map((_, i) => i));
 
   state.matchPairs.forEach((pair, pairIndex) => {
-    const esBtn = document.createElement('button');
-    esBtn.className = 'match-item';
-    esBtn.textContent = pair.es;
+    const esBtn  = document.createElement('button');
+    esBtn.className   = 'match-item';
     esBtn.dataset.pair = pairIndex;
     esBtn.addEventListener('click', () => selectEsItem(pairIndex));
+    const esSpan = document.createElement('span');
+    esSpan.className  = 'match-item-label';
+    esSpan.textContent = pair.es;
+    esBtn.appendChild(esSpan);
     esCol.appendChild(esBtn);
   });
 
   enOrder.forEach(pairIndex => {
-    const enBtn = document.createElement('button');
-    enBtn.className = 'match-item';
-    enBtn.textContent = state.matchPairs[pairIndex].en;
+    const enBtn  = document.createElement('button');
+    enBtn.className   = 'match-item';
     enBtn.dataset.pair = pairIndex;
     enBtn.addEventListener('click', () => selectEnItem(pairIndex));
+    const enSpan = document.createElement('span');
+    enSpan.className  = 'match-item-label';
+    enSpan.textContent = state.matchPairs[pairIndex].en;
+    enBtn.appendChild(enSpan);
     enCol.appendChild(enBtn);
   });
 }
@@ -1123,6 +1374,11 @@ function setupEventListeners() {
 
   // Keyboard shortcuts for quiz screen
   document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      const overlay = document.getElementById('ref-overlay');
+      if (!overlay.classList.contains('hidden')) { hideReference(); return; }
+      if (state.currentMode) { confirmQuit(); return; }
+    }
     if (state.currentMode.startsWith('choice') && state.answered && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault();
       advanceCard();
@@ -1131,6 +1387,62 @@ function setupEventListeners() {
 
   // Match
   document.getElementById('match-done-btn').addEventListener('click', showResults);
+}
+
+// ─────────────────────────────────────────────
+// Progress export / import
+// ─────────────────────────────────────────────
+function exportProgress() {
+  const data = JSON.stringify(state.progress, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'study-progress.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importProgress(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (typeof data !== 'object' || Array.isArray(data)) throw new Error();
+      state.progress = data;
+      saveProgress();
+      event.target.value = '';
+      alert('Progress imported.');
+      if (state.currentList) renderListStats();
+    } catch {
+      alert('Invalid file. Please use a file exported from this app.');
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ─────────────────────────────────────────────
+// Reference chart overlay
+// ─────────────────────────────────────────────
+function updateReferenceButton() {
+  const btn = document.getElementById('ref-btn');
+  const ref = state.currentList?.reference;
+  btn.classList.add('hidden');
+  if (!ref) return;
+  const img = document.getElementById('ref-img');
+  img.onload  = () => btn.classList.remove('hidden');
+  img.onerror = () => btn.classList.add('hidden');
+  img.src = ref;
+}
+
+function showReference() {
+  document.getElementById('ref-overlay').classList.remove('hidden');
+}
+
+function hideReference() {
+  document.getElementById('ref-overlay').classList.add('hidden');
 }
 
 // ─────────────────────────────────────────────

@@ -1,0 +1,55 @@
+{
+  "id": "earth-science-unit2-diagrams",
+  "name": "Unit 2: Diagram Questions",
+  "subject": "Earth Science",
+  "type": "diagram",
+  "created": "2026-03-08",
+  "labels": { "front": "Question", "back": "Answer" },
+  "pairs": [
+    {
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
+      "es": "Which point on the diagram represents the earthquake epicenter?",
+      "en": "Point D — the single point where the distance circles from all three seismograph stations (A, B, C) intersect."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png",
+      "es": "What is the name of the method shown for locating an earthquake epicenter?",
+      "en": "Triangulation — using the P-wave and S-wave arrival time difference from at least three seismograph stations to find the epicenter."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
+      "es": "Why do the 'Shadow zone — No waves received' areas exist?",
+      "en": "The liquid outer core blocks S-waves entirely and refracts P-waves away, creating zones on the opposite side of Earth where no seismic waves arrive."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png",
+      "es": "At point B (bottom of the diagram), only one type of wave is received. Which type, and why?",
+      "en": "Only P-waves. S-waves cannot travel through Earth's liquid outer core, so they never reach point B. P-waves can pass through liquids and still arrive."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "Which labeled point(s) (A, B, C, or D) are located in the shadow zone?",
+      "en": "Points B and C — they are positioned on the far side of Earth in the region where seismic waves are deflected by the liquid outer core."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png",
+      "es": "What does the star (✶) represent in Diagram 1?",
+      "en": "The earthquake epicenter — the point on Earth's surface directly above the focus (underground origin point of the earthquake)."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "Which station (I, II, III, or IV) is closest to the earthquake epicenter, and how can you tell?",
+      "en": "Station I — P-waves and S-waves arrive very close together, meaning a small time gap and shorter distance to the epicenter."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "Station IV shows only P-wave arrival with no S-wave. What does this indicate?",
+      "en": "Station IV is in the shadow zone. S-waves cannot pass through Earth's liquid outer core, so they never reach Station IV."
+    },
+    {
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png",
+      "es": "What does a larger time gap between P-wave arrival and S-wave arrival indicate?",
+      "en": "The seismograph station is farther from the earthquake epicenter. Stations I → II → III show increasing P-S gaps = increasing distance."
+    }
+  ]
+}
