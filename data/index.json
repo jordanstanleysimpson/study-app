@@ -9,12 +9,20 @@
       "file": "data/earth-science/Unit 2/earth-science-unit2.json"
     },
     {
+      "id": "earth-science-unit2-questions",
+      "name": "Unit 2: Study Questions",
+      "subject": "Earth Science",
+      "created": "2026-03-08",
+      "wordCount": 27,
+      "file": "data/earth-science/Unit 2/earth-science-unit2-questions.json"
+    },
+    {
       "id": "earth-science-unit2-diagrams",
       "name": "Unit 2: Diagram Questions",
       "subject": "Earth Science",
       "type": "diagram",
       "created": "2026-03-08",
-      "wordCount": 25,
+      "wordCount": 23,
       "file": "data/earth-science/Unit 2/earth-science-unit2-diagrams.json"
     },
     {

@@ -1,0 +1,117 @@
+{
+  "id": "earth-science-unit2-questions",
+  "name": "Unit 2: Study Questions",
+  "subject": "Earth Science",
+  "created": "2026-03-08",
+  "labels": { "front": "Question", "back": "Answer" },
+  "pairs": [
+    {
+      "es": "What evidence supports the theory of continental drift?",
+      "en": "Same rocks and fossils found on different continents; continents fit together like puzzle pieces; glaciers in now-tropical areas (evidence of past tropical climates near the poles)."
+    },
+    {
+      "es": "List the layers of Earth in order from the surface, including minor layers.",
+      "en": "Crust → lithosphere (crust + upper mantle) → asthenosphere (upper mantle) → lower mantle → outer core → inner core."
+    },
+    {
+      "es": "What two layers make up the lithosphere?",
+      "en": "The crust and the very top layer of the mantle."
+    },
+    {
+      "es": "How is the asthenosphere different from the lithosphere?",
+      "en": "The asthenosphere is plastic — it flows very slowly like a solid under extreme pressure. The lithosphere above it is rigid and brittle."
+    },
+    {
+      "es": "List Earth's layers in order from thinnest to thickest.",
+      "en": "Crust (thinnest) → inner core → outer core → mantle (thickest)."
+    },
+    {
+      "es": "What force causes tectonic plates to move?",
+      "en": "Convection currents in the asthenosphere — hot rock rises, cools, sinks, and cycles in loops that drag the plates along."
+    },
+    {
+      "es": "What happens at an oceanic-oceanic convergent boundary, and what features form?",
+      "en": "The plates collide; the denser plate subducts. This forms deep-sea trenches and island arc volcanoes."
+    },
+    {
+      "es": "What forms when two continental plates collide?",
+      "en": "Mountain chains — neither plate subducts, so the crust crumples and folds upward (e.g., the Himalayas)."
+    },
+    {
+      "es": "What happens at a divergent boundary, and what features form?",
+      "en": "Plates move apart; magma rises to fill the gap, forming new crust. This creates mid-ocean ridges (underwater) or rift valleys (on land)."
+    },
+    {
+      "es": "The San Andreas Fault in southern California is an example of what type of plate boundary?",
+      "en": "Transform — the two plates slide horizontally past each other. No crust is created or destroyed."
+    },
+    {
+      "es": "Why do oceanic plates subduct beneath continental plates?",
+      "en": "Oceanic (basaltic) crust is denser than continental crust, so it sinks beneath the lighter continental plate at convergent boundaries."
+    },
+    {
+      "es": "At what type of plate boundary is the youngest ocean floor rock found, and why?",
+      "en": "Divergent boundaries — new oceanic crust is constantly being created as magma rises and solidifies at mid-ocean ridges."
+    },
+    {
+      "es": "What mountain range was formed by the collision of the Indian and Eurasian plates?",
+      "en": "The Himalayas — two continental plates collided, and neither subducted, forcing the crust upward into the highest mountain range on Earth."
+    },
+    {
+      "es": "Describe sea-floor spreading.",
+      "en": "At mid-ocean ridges, plates move apart and magma rises to form new oceanic crust, pushing the existing ocean floor outward and making the ocean wider over time."
+    },
+    {
+      "es": "At what type of boundary does sea-floor spreading occur?",
+      "en": "Oceanic-oceanic divergent boundary — two oceanic plates pull apart and new crust forms at the ridge between them."
+    },
+    {
+      "es": "What is the difference between the epicenter and the focus of an earthquake?",
+      "en": "The focus is the underground point where the fault actually slips and energy is released. The epicenter is the point on Earth's surface directly above the focus."
+    },
+    {
+      "es": "Which seismic waves are fastest and arrive at a seismograph station first?",
+      "en": "P-waves (primary waves) — they travel through both solids and liquids and are the fastest seismic waves."
+    },
+    {
+      "es": "Why do most earthquakes occur along plate boundaries?",
+      "en": "Plate boundaries are where plates grind past, collide, or pull apart. The friction and stress build up and are suddenly released as seismic energy."
+    },
+    {
+      "es": "Why are earthquakes felt more strongly at the epicenter than farther away?",
+      "en": "The epicenter is directly above the focus where energy is released. Closer locations receive more energy before it spreads out and weakens over distance."
+    },
+    {
+      "es": "Which causes more severe surface damage: a shallow-focus or deep-focus earthquake of equal energy? Why?",
+      "en": "Shallow-focus — the focus is close to the surface, so less energy is lost before the waves reach the ground. Deep-focus quakes lose more energy traveling through rock."
+    },
+    {
+      "es": "For each fault type, name the stress that causes it and describe how the rocks move: normal fault.",
+      "en": "Caused by tension (pulling apart). The hanging wall moves down relative to the footwall."
+    },
+    {
+      "es": "For each fault type, name the stress that causes it and describe how the rocks move: reverse fault.",
+      "en": "Caused by compression (pushing together). The hanging wall moves up relative to the footwall."
+    },
+    {
+      "es": "For each fault type, name the stress that causes it and describe how the rocks move: strike-slip fault.",
+      "en": "Caused by shearing (sideways). Rocks slide horizontally past each other with no up or down movement (e.g., San Andreas Fault)."
+    },
+    {
+      "es": "Why does magma from Earth's interior rise toward the surface?",
+      "en": "Magma is less dense than the surrounding solid rock, so it rises buoyantly — the same reason a bubble rises through water."
+    },
+    {
+      "es": "What is a hot spot, and where is it located relative to plate boundaries?",
+      "en": "A hot spot is a fixed pool of magma beneath a plate that creates volcanoes at the surface. It is independent of plate boundaries — randomly located away from the edges (e.g., Hawaii)."
+    },
+    {
+      "es": "What type of volcano forms at a hot spot?",
+      "en": "Shield volcanoes — broad and flat with calm, flowing lava eruptions (e.g., the Hawaiian volcanoes)."
+    },
+    {
+      "es": "How does the age of the Hawaiian Islands relate to their distance from the active hot spot?",
+      "en": "The Big Island (Hawaii) is youngest and directly over the hot spot. Islands get progressively older as you move away — the plate moved over the fixed hot spot, creating a chain."
+    }
+  ]
+}
