@@ -1434,7 +1434,7 @@ function setupEventListeners() {
     const inQuiz = state.currentMode && state.currentMode !== 'match';
     if (inQuiz && e.key === 'ArrowLeft'  && !e.metaKey && !e.altKey) { e.preventDefault(); goBack(); }
     if (inQuiz && e.key === 'ArrowRight' && !e.metaKey && !e.altKey) { e.preventDefault(); skipCard(); }
-    if (state.currentMode.startsWith('choice') && state.answered && (e.key === 'Enter' || e.key === ' ')) {
+    if (state.currentMode && state.currentMode.startsWith('choice') && state.answered && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault();
       advanceCard();
     }
