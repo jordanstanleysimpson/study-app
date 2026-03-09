@@ -1,0 +1,1097 @@
+{
+  "id": "earth-science-unit2",
+  "name": "Unit 2: Plate Tectonics",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "created": "2026-03-08",
+  "questions": [
+    {
+      "id": "q01",
+      "q": "What is the primary driver of tectonic plate movement?",
+      "correct": "Convection currents in the mantle",
+      "incorrect": [
+        "Earth's rotation",
+        "The moon's gravitational pull",
+        "Magnetic forces between plates"
+      ],
+      "why_correct": "Heat from Earth's core creates circular loops of rising hot and sinking cool rock in the asthenosphere \u2014 these convection currents drag the plates along.",
+      "why_wrong": [
+        "Earth's rotation is too slow and uniform to move individual tectonic plates.",
+        "The moon's gravity drives ocean tides, not tectonic plates \u2014 it is far too weak to move crustal rock.",
+        "While Earth has a magnetic field, it does not create forces strong enough to move tectonic plates."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png"
+    },
+    {
+      "id": "q02",
+      "q": "Why does magma rise from the mantle toward Earth's surface?",
+      "correct": "It is less dense than surrounding solid rock",
+      "incorrect": [
+        "It is pushed upward by S-waves",
+        "It is pulled by Earth's magnetic field",
+        "It is heavier than the crust above it"
+      ],
+      "why_correct": "Magma is less dense than the surrounding solid rock, so it rises buoyantly \u2014 the same reason a bubble rises through water.",
+      "why_wrong": [
+        "S-waves are seismic waves from earthquakes \u2014 they do not push magma upward.",
+        "Earth's magnetic field originates in the outer core and does not attract or push magma.",
+        "Magma rises because it is lighter (less dense), not heavier, than the rock above it."
+      ]
+    },
+    {
+      "id": "q03",
+      "q": "Why does oceanic crust subduct beneath continental crust?",
+      "correct": "Oceanic crust is denser than continental crust",
+      "incorrect": [
+        "Oceanic crust is thinner than continental crust",
+        "Continental plates always move faster",
+        "Oceanic crust contains more water"
+      ],
+      "why_correct": "Oceanic basaltic crust is denser than continental granitic crust \u2014 at convergent boundaries the denser plate sinks beneath the lighter one.",
+      "why_wrong": [
+        "While oceanic crust is often thinner, it is density \u2014 not thickness \u2014 that determines which plate subducts.",
+        "Plate speed varies and is not what determines subduction; density is the key factor.",
+        "Water content does not determine whether a plate subducts \u2014 density does."
+      ]
+    },
+    {
+      "id": "q04",
+      "q": "What feature forms at a divergent boundary on the ocean floor?",
+      "correct": "Mid-ocean ridge",
+      "incorrect": [
+        "Deep-sea trench",
+        "Island arc volcanoes",
+        "Mountain chain"
+      ],
+      "why_correct": "At divergent boundaries, plates pull apart and magma rises to form new oceanic crust \u2014 building an underwater mountain range called a mid-ocean ridge.",
+      "why_wrong": [
+        "Deep-sea trenches form at convergent (subduction) boundaries, not divergent ones.",
+        "Island arc volcanoes form when one oceanic plate subducts beneath another \u2014 a convergent process.",
+        "Mountain chains form when two continental plates collide \u2014 a convergent boundary feature."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q05",
+      "q": "What features form at an oceanic-continental convergent boundary?",
+      "correct": "Deep-sea trench and volcanic mountains",
+      "incorrect": [
+        "Mid-ocean ridge and rift valley",
+        "Island arc volcanoes and mid-ocean ridge",
+        "Mountain chain and shield volcanoes"
+      ],
+      "why_correct": "The dense oceanic plate sinks, forming a deep-sea trench. As it melts, magma rises through the overriding continental plate, creating volcanic mountains.",
+      "why_wrong": [
+        "Mid-ocean ridges and rift valleys are features of divergent boundaries, where plates separate.",
+        "Island arc volcanoes form at oceanic-oceanic boundaries, not oceanic-continental ones.",
+        "Mountain chains form from continental-continental collisions; shield volcanoes form at hotspots."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q06",
+      "q": "What forms when two continental plates collide?",
+      "correct": "Mountain chains",
+      "incorrect": [
+        "Deep-sea trenches",
+        "Rift valleys",
+        "Island arc volcanoes"
+      ],
+      "why_correct": "Neither plate subducts because both are too buoyant \u2014 the crust crumples and folds upward, building large mountain ranges like the Himalayas.",
+      "why_wrong": [
+        "Deep-sea trenches require subduction of oceanic crust \u2014 continental plates are too buoyant to subduct.",
+        "Rift valleys form when a continental plate pulls apart at a divergent boundary, not when plates collide.",
+        "Island arc volcanoes form at oceanic-oceanic convergent boundaries, not continental collisions."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q07",
+      "q": "What type of plate boundary has plates sliding horizontally past each other?",
+      "correct": "Transform boundary",
+      "incorrect": [
+        "Convergent boundary",
+        "Divergent boundary",
+        "Subduction zone"
+      ],
+      "why_correct": "At transform boundaries, plates slide past each other horizontally with no crust created or destroyed \u2014 the San Andreas Fault is a classic example.",
+      "why_wrong": [
+        "Convergent boundaries involve plates moving toward and colliding with each other.",
+        "Divergent boundaries involve plates moving apart, not sliding past each other.",
+        "A subduction zone is a feature of convergent boundaries where one plate sinks beneath another."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q08",
+      "q": "What type of volcano forms at a subduction zone?",
+      "correct": "Composite (explosive) volcano",
+      "incorrect": [
+        "Shield volcano",
+        "Caldera",
+        "Cinder cone volcano"
+      ],
+      "why_correct": "At subduction zones, water from the descending plate lowers the melting point of mantle rock, producing silica-rich magma that erupts violently, building steep composite volcanoes.",
+      "why_wrong": [
+        "Shield volcanoes form at hotspots and have calm, flowing lava eruptions \u2014 not associated with subduction.",
+        "Calderas result from magma chamber collapse and are not the primary type at subduction zones.",
+        "Cinder cone volcanoes are small and short-lived \u2014 not characteristic of subduction zones."
+      ]
+    },
+    {
+      "id": "q09",
+      "q": "What type of volcano forms at a hotspot?",
+      "correct": "Shield volcano",
+      "incorrect": [
+        "Composite volcano",
+        "Stratovolcano",
+        "Cinder cone volcano"
+      ],
+      "why_correct": "Hotspot magma is low in silica and flows easily, producing broad, flat shield volcanoes with calm lava flows \u2014 like those in Hawaii.",
+      "why_wrong": [
+        "Composite volcanoes form at subduction zones where silica-rich magma causes explosive eruptions.",
+        "A stratovolcano is the same as a composite volcano and forms at subduction zones, not hotspots.",
+        "Cinder cone volcanoes are small and short-lived \u2014 shield volcanoes are the hotspot type."
+      ]
+    },
+    {
+      "id": "q10",
+      "q": "What is a hotspot?",
+      "correct": "A fixed magma pool beneath a plate, away from plate boundaries",
+      "incorrect": [
+        "A magma chamber at a convergent boundary",
+        "A volcanic zone only at mid-ocean ridges",
+        "A transform fault with high volcanic activity"
+      ],
+      "why_correct": "A hotspot is a stationary pool of magma in the mantle, fixed relative to the moving plate above it. As the plate moves, it creates a chain of progressively older volcanoes.",
+      "why_wrong": [
+        "Hotspots are independent of plate boundaries \u2014 convergent boundaries have their own volcanic mechanisms.",
+        "Mid-ocean ridges form from divergent boundary activity, not hotspots.",
+        "Transform faults cause earthquake activity, not volcanic activity."
+      ]
+    },
+    {
+      "id": "q11",
+      "q": "What is sea-floor spreading?",
+      "correct": "New crust forming at mid-ocean ridges as plates pull apart",
+      "incorrect": [
+        "Old crust recycled at deep-sea trenches",
+        "Sediment spreading across the ocean floor",
+        "Oceanic plates sliding past each other"
+      ],
+      "why_correct": "At divergent boundaries, plates pull apart and magma rises to fill the gap, solidifying into new oceanic crust and widening the ocean basin over time.",
+      "why_wrong": [
+        "Crust recycling at trenches is subduction \u2014 the opposite process from sea-floor spreading.",
+        "Sediment transport is a separate geological process unrelated to plate tectonics.",
+        "Plates sliding past each other describes transform boundaries, not sea-floor spreading."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q12",
+      "q": "What forms when a continental plate pulls apart?",
+      "correct": "Rift valley",
+      "incorrect": [
+        "Mountain chain",
+        "Deep-sea trench",
+        "Island arc"
+      ],
+      "why_correct": "When tension pulls continental crust apart, the land between the faults drops to form a rift valley \u2014 which may eventually fill with water to become a new ocean.",
+      "why_wrong": [
+        "Mountain chains form from compression when plates collide, not from tension pulling them apart.",
+        "Deep-sea trenches form at subduction zones, not at divergent continental boundaries.",
+        "Island arcs form when one oceanic plate subducts beneath another \u2014 a convergent process."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q13",
+      "q": "What is the underground point where an earthquake originates?",
+      "correct": "The focus",
+      "incorrect": [
+        "The epicenter",
+        "The fault plane",
+        "The seismograph station"
+      ],
+      "why_correct": "The focus (also called the hypocenter) is the exact underground point where a fault slips and seismic energy is released.",
+      "why_wrong": [
+        "The epicenter is on Earth's surface, directly above the focus \u2014 not underground.",
+        "The fault plane is the surface along which rocks slide, but the focus is the specific point of rupture.",
+        "Seismograph stations are surface instruments that detect earthquakes \u2014 not the origin point."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png"
+    },
+    {
+      "id": "q14",
+      "q": "What is the epicenter of an earthquake?",
+      "correct": "The point on the surface directly above the focus",
+      "incorrect": [
+        "The underground origin point of the earthquake",
+        "The point where seismic damage is always worst",
+        "The center of the seismic shadow zone"
+      ],
+      "why_correct": "The epicenter is always on Earth's surface, directly above the underground focus. It typically experiences the strongest shaking because it is closest to the energy source.",
+      "why_wrong": [
+        "The underground origin point is the focus (hypocenter), not the epicenter.",
+        "While the epicenter often receives the strongest shaking, it is defined by its position above the focus.",
+        "The shadow zone is related to wave paths through Earth's core \u2014 not the epicenter."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png"
+    },
+    {
+      "id": "q15",
+      "q": "How many seismograph stations are needed to locate an epicenter?",
+      "correct": "Three",
+      "incorrect": [
+        "One",
+        "Two",
+        "Four"
+      ],
+      "why_correct": "Each station produces a circle of possible locations. One circle gives many possibilities; two circles give two points; three circles narrow it to exactly one intersection point.",
+      "why_wrong": [
+        "One station can only give a distance (a circle), not a direction \u2014 it cannot pinpoint the epicenter.",
+        "Two stations give two intersection points \u2014 you cannot determine which is correct without a third.",
+        "While more stations improve accuracy, three is the minimum needed to triangulate to a single point."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png"
+    },
+    {
+      "id": "q16",
+      "q": "Which seismic waves are fastest and arrive at a station first?",
+      "correct": "P-waves (primary waves)",
+      "incorrect": [
+        "S-waves (secondary waves)",
+        "Surface waves",
+        "Love waves"
+      ],
+      "why_correct": "P-waves are compressional waves that travel through both solids and liquids. They move fastest and always arrive at seismograph stations before S-waves.",
+      "why_wrong": [
+        "S-waves are slower shear waves that follow P-waves \u2014 they always arrive second.",
+        "Surface waves travel along Earth's surface and are the slowest seismic waves, arriving last.",
+        "Love waves are a type of surface wave \u2014 they are slower than both P-waves and S-waves."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png"
+    },
+    {
+      "id": "q17",
+      "q": "Why can S-waves NOT travel through Earth's outer core?",
+      "correct": "The outer core is liquid, and S-waves only travel through solids",
+      "incorrect": [
+        "The outer core is too hot for seismic waves",
+        "S-waves are absorbed by the inner core",
+        "The outer core is too dense for waves to pass through"
+      ],
+      "why_correct": "S-waves are shear waves that require particles to move perpendicular to wave travel \u2014 only possible in solids. The liquid outer core cannot transmit this shear motion.",
+      "why_wrong": [
+        "Temperature alone does not determine whether seismic waves can pass \u2014 the physical state (solid vs. liquid) is what matters.",
+        "S-waves stop at the outer core boundary; they are not absorbed by the inner core.",
+        "Density affects wave speed but does not stop waves \u2014 it is the liquid state, not density, that blocks S-waves."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png"
+    },
+    {
+      "id": "q18",
+      "q": "What does the seismic shadow zone tell us about Earth's interior?",
+      "correct": "Earth has a liquid outer core that blocks S-waves",
+      "incorrect": [
+        "Earth has a solid inner core that absorbs all waves",
+        "The mantle is absent on the far side of Earth",
+        "S-waves are too weak to travel long distances"
+      ],
+      "why_correct": "S-waves cannot travel through liquids. The shadow zone on the far side of Earth from an earthquake confirms that the outer core is liquid.",
+      "why_wrong": [
+        "The inner core is solid \u2014 it actually transmits P-waves. The liquid outer core creates the shadow zone.",
+        "The mantle exists all the way around Earth \u2014 the shadow zone is caused by wave refraction and absorption in the core.",
+        "S-waves are not weak \u2014 they are stopped by the physical barrier of a liquid outer core, regardless of distance."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png"
+    },
+    {
+      "id": "q19",
+      "q": "What does a larger P-wave to S-wave time gap indicate?",
+      "correct": "The seismograph station is farther from the epicenter",
+      "incorrect": [
+        "The earthquake was more powerful",
+        "The station is in the shadow zone",
+        "S-waves arrived before P-waves"
+      ],
+      "why_correct": "P-waves are faster than S-waves and pull ahead over distance. A bigger time gap means more distance for P-waves to pull ahead, indicating a farther station.",
+      "why_wrong": [
+        "Earthquake magnitude affects amplitude (wave height), not the relative timing between P and S waves.",
+        "The shadow zone is a region where S-waves don't arrive at all \u2014 not where there is just a gap.",
+        "P-waves always arrive first; S-waves are always second \u2014 the order never reverses."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png"
+    },
+    {
+      "id": "q20",
+      "q": "Which focus depth causes more severe surface damage for equal earthquake energy?",
+      "correct": "Shallow-focus earthquake",
+      "incorrect": [
+        "Deep-focus earthquake",
+        "Both cause equal damage",
+        "It depends only on magnitude"
+      ],
+      "why_correct": "A shallow focus is close to the surface, so seismic energy reaches the ground before spreading and weakening. A deep-focus quake loses energy traveling through rock.",
+      "why_wrong": [
+        "Deep-focus earthquakes release the same energy but farther from the surface, giving waves more distance to spread and weaken.",
+        "For equal energy, depth absolutely matters \u2014 a shallow earthquake delivers more energy to the surface.",
+        "While magnitude determines total energy released, depth determines how much energy reaches the surface \u2014 both factors matter."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png"
+    },
+    {
+      "id": "q21",
+      "q": "What stress causes a normal fault?",
+      "correct": "Tension (pulling apart)",
+      "incorrect": [
+        "Compression (pushing together)",
+        "Shearing (horizontal sliding)",
+        "Torsion (twisting)"
+      ],
+      "why_correct": "Tension pulls the crust apart; the hanging wall drops down relative to the footwall as the rock on one side slips downward.",
+      "why_wrong": [
+        "Compression causes reverse faults, where the hanging wall is pushed upward.",
+        "Shearing causes strike-slip faults, where rocks move past each other sideways.",
+        "Torsion is not one of the three primary fault-forming stresses in plate tectonics."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png"
+    },
+    {
+      "id": "q22",
+      "q": "In a normal fault, which direction does the hanging wall move?",
+      "correct": "Downward",
+      "incorrect": [
+        "Upward",
+        "Horizontally",
+        "It does not move \u2014 only the footwall moves"
+      ],
+      "why_correct": "In a normal fault, tension pulls the crust apart, and the hanging wall (the block above the fault plane) slides downward relative to the footwall below.",
+      "why_wrong": [
+        "The hanging wall moving upward describes a reverse fault, caused by compression.",
+        "Horizontal movement describes a strike-slip fault \u2014 in normal faults, movement is vertical.",
+        "In a normal fault, the hanging wall definitely moves \u2014 it slides downward along the fault plane."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png"
+    },
+    {
+      "id": "q23",
+      "q": "What stress causes a reverse fault?",
+      "correct": "Compression (pushing together)",
+      "incorrect": [
+        "Tension (pulling apart)",
+        "Shearing (horizontal sliding)",
+        "Gravity pulling rock downslope"
+      ],
+      "why_correct": "Compression squeezes the crust together, forcing the hanging wall to ride upward over the footwall \u2014 typical at convergent boundaries.",
+      "why_wrong": [
+        "Tension causes normal faults, where the hanging wall drops down.",
+        "Shearing causes strike-slip faults, where rocks slide horizontally past each other.",
+        "Gravity drives mass movements like landslides, not the formation of reverse fault planes."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png"
+    },
+    {
+      "id": "q24",
+      "q": "The San Andreas Fault is an example of what?",
+      "correct": "A strike-slip fault at a transform boundary",
+      "incorrect": [
+        "A reverse fault at a convergent boundary",
+        "A normal fault at a divergent boundary",
+        "A subduction zone at a convergent boundary"
+      ],
+      "why_correct": "The San Andreas Fault is where the Pacific and North American plates slide horizontally past each other \u2014 a classic transform boundary with strike-slip motion.",
+      "why_wrong": [
+        "A reverse fault involves vertical movement from compression \u2014 the San Andreas has horizontal, lateral motion.",
+        "Normal faults form where crust is pulled apart at divergent boundaries \u2014 the San Andreas involves lateral sliding.",
+        "The San Andreas Fault has no subduction \u2014 neither plate sinks beneath the other."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png"
+    },
+    {
+      "id": "q25",
+      "q": "What evidence supports the theory of continental drift?",
+      "correct": "Same fossils and rock types found on now-separated continents",
+      "incorrect": [
+        "Different rock types on every continent",
+        "Ocean floor is the same age everywhere",
+        "All continents have the same climate today"
+      ],
+      "why_correct": "Identical fossil species and matching rock formations on distant continents like Africa and South America indicate they were once joined and later drifted apart.",
+      "why_wrong": [
+        "Different rock types on different continents would suggest they were always separate \u2014 identical rocks across oceans support drift.",
+        "The ocean floor is youngest at mid-ocean ridges and older toward trenches \u2014 it is not uniform age.",
+        "Different climates today are expected \u2014 it was tropical fossils in Antarctica and glacial marks in Africa that supported drift."
+      ]
+    },
+    {
+      "id": "q26",
+      "q": "Which of Earth's layers is thickest?",
+      "correct": "The mantle",
+      "incorrect": [
+        "The crust",
+        "The outer core",
+        "The inner core"
+      ],
+      "why_correct": "The mantle extends from just below the crust to the outer core \u2014 roughly 2,900 km thick. It is the largest layer by volume.",
+      "why_wrong": [
+        "The crust is the thinnest layer \u2014 only 5\u201370 km thick depending on whether it's oceanic or continental.",
+        "The outer core is thicker than the inner core but considerably thinner than the mantle.",
+        "The inner core is the deepest and smallest layer by volume."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png"
+    },
+    {
+      "id": "q27",
+      "q": "What two layers make up the lithosphere?",
+      "correct": "The crust and the rigid upper mantle",
+      "incorrect": [
+        "The crust and the asthenosphere",
+        "The upper mantle and the outer core",
+        "The crust and the lower mantle"
+      ],
+      "why_correct": "The lithosphere is the rigid outer shell of Earth \u2014 it consists of the crust and the topmost rigid part of the mantle, forming the tectonic plates.",
+      "why_wrong": [
+        "The asthenosphere is the plastic layer beneath the lithosphere, not part of it.",
+        "The outer core is deep within Earth and is liquid \u2014 it is not part of the lithosphere.",
+        "The lower mantle is below the asthenosphere \u2014 it is not part of the rigid lithosphere."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png"
+    },
+    {
+      "id": "q28",
+      "q": "How is the asthenosphere different from the lithosphere?",
+      "correct": "The asthenosphere is plastic and flows; the lithosphere is rigid",
+      "incorrect": [
+        "The asthenosphere is solid; the lithosphere is liquid",
+        "The asthenosphere is in the crust; the lithosphere is in the core",
+        "They are the same layer with different names"
+      ],
+      "why_correct": "The lithosphere (crust + rigid upper mantle) is brittle and breaks. The asthenosphere below it flows very slowly under pressure, allowing plates to move over it.",
+      "why_wrong": [
+        "It is the opposite \u2014 the asthenosphere behaves plastically while the lithosphere is the rigid layer.",
+        "The asthenosphere is in the upper mantle, below the lithosphere \u2014 neither is in the core.",
+        "They are distinct layers with very different physical properties \u2014 rigid vs. plastic."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png"
+    },
+    {
+      "id": "q29",
+      "q": "Which layer of Earth is liquid?",
+      "correct": "The outer core",
+      "incorrect": [
+        "The asthenosphere",
+        "The inner core",
+        "The lower mantle"
+      ],
+      "why_correct": "The outer core is composed of liquid iron and nickel. Its liquid state is confirmed by the seismic shadow zone \u2014 S-waves cannot pass through it.",
+      "why_wrong": [
+        "The asthenosphere is plastic (semi-molten) and flows slowly, but it is technically solid under extreme pressure.",
+        "The inner core is solid iron \u2014 held solid by immense pressure despite being hotter than the outer core.",
+        "The lower mantle is solid rock under extreme pressure \u2014 it does not flow as a liquid."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png"
+    },
+    {
+      "id": "q30",
+      "q": "Why do the Hawaiian Islands get progressively older farther from the Big Island?",
+      "correct": "The Pacific plate moved over a fixed hotspot, leaving older islands behind",
+      "incorrect": [
+        "The Big Island formed first and the plate built outward from it",
+        "Erosion makes distant islands appear older",
+        "The hotspot drifts southeastward over time"
+      ],
+      "why_correct": "The hotspot is stationary. As the Pacific plate moves northwestward over it, new volcanoes form above the hotspot; older islands are carried away and are progressively older.",
+      "why_wrong": [
+        "The Big Island is the youngest island, formed most recently as the plate moved over the hotspot.",
+        "Erosion affects island size and shape but does not change the actual age of volcanic rock.",
+        "Hotspots are fixed in the mantle \u2014 it is the plate that moves, not the hotspot."
+      ]
+    },
+    {
+      "id": "q31",
+      "q": "What seismogram features indicate a station is closest to the epicenter?",
+      "correct": "Small P-to-S wave gap and large wave amplitude",
+      "incorrect": [
+        "Large P-to-S wave gap and small amplitude",
+        "Only P-waves and no S-waves",
+        "No waves recorded at all"
+      ],
+      "why_correct": "A close station receives waves that have traveled less distance \u2014 P and S waves are still close together in time, and more energy arrives before it spreads out.",
+      "why_wrong": [
+        "A large P-to-S gap and small amplitude indicates a distant station, not a close one.",
+        "Only P-waves with no S-waves is the signature of a shadow zone station far on the opposite side of Earth.",
+        "All stations within range record waves \u2014 stations in the shadow zone record only P-waves."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/seismograms.png"
+    },
+    {
+      "id": "q32",
+      "q": "At what type of boundary does sea-floor spreading occur?",
+      "correct": "Divergent boundary (oceanic plates pulling apart)",
+      "incorrect": [
+        "Convergent boundary (subduction zone)",
+        "Transform boundary (sliding plates)",
+        "Oceanic-continental convergent boundary"
+      ],
+      "why_correct": "Sea-floor spreading requires plates to move apart, allowing magma to rise and create new crust \u2014 this happens at divergent boundaries at mid-ocean ridges.",
+      "why_wrong": [
+        "At convergent boundaries, crust is destroyed through subduction \u2014 the opposite of spreading.",
+        "Transform boundaries involve sideways sliding \u2014 no crust is created or destroyed.",
+        "At oceanic-continental convergent boundaries, oceanic crust subducts \u2014 it is destroyed, not created."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q33",
+      "q": "What mountain range formed from the Indian and Eurasian plate collision?",
+      "correct": "The Himalayas",
+      "incorrect": [
+        "The Andes",
+        "The Rocky Mountains",
+        "The Alps"
+      ],
+      "why_correct": "When India collided with Eurasia about 50 million years ago, neither plate subducted \u2014 the crust crumpled upward into the Himalayas, Earth's highest mountain range.",
+      "why_wrong": [
+        "The Andes formed from the subduction of the Nazca oceanic plate beneath South America \u2014 a different process.",
+        "The Rocky Mountains formed from oceanic plate subduction beneath North America \u2014 not a continental collision.",
+        "The Alps formed from the collision of the African and Eurasian plates \u2014 not the Indian-Eurasian collision."
+      ]
+    },
+    {
+      "id": "q34",
+      "q": "What information does a seismograph use to calculate its circle's radius for triangulation?",
+      "correct": "Time difference between P-wave and S-wave arrivals",
+      "incorrect": [
+        "Direction the P-waves came from",
+        "Amplitude of the S-waves",
+        "Temperature recorded at the station"
+      ],
+      "why_correct": "P-waves are faster and arrive before S-waves. The time gap between them corresponds to the distance to the epicenter \u2014 a bigger gap means a farther station and larger circle radius.",
+      "why_wrong": [
+        "A seismograph records wave arrivals but cannot determine direction \u2014 that's why multiple stations are needed.",
+        "S-wave amplitude indicates earthquake magnitude, not distance from the epicenter.",
+        "Temperature is irrelevant to seismic wave travel time calculations."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png"
+    },
+    {
+      "id": "q35",
+      "q": "Why do most earthquakes occur along plate boundaries?",
+      "correct": "Plate boundaries are where friction, stress, and sudden rock slipping occur",
+      "incorrect": [
+        "Plate boundaries have thinner crust that breaks more easily",
+        "Seismographs are only located near plate boundaries",
+        "All earthquakes occur at convergent boundaries only"
+      ],
+      "why_correct": "Where plates grind past, collide, or pull apart, stress builds in the rocks. When it exceeds the rock's strength, it releases suddenly as seismic energy.",
+      "why_wrong": [
+        "While oceanic crust is thinner, all crust types experience earthquakes at boundaries \u2014 thickness alone is not the cause.",
+        "Seismographs are located worldwide \u2014 earthquake detection is not limited to plate boundaries.",
+        "Earthquakes occur at all three boundary types \u2014 convergent, divergent, and transform."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-cross-section.png"
+    },
+    {
+      "id": "q36",
+      "q": "What forms when two oceanic plates collide?",
+      "correct": "Deep-sea trench and island arc volcanoes",
+      "incorrect": [
+        "Mountain chain and rift valley",
+        "Shield volcanoes and mid-ocean ridge",
+        "Normal faults and rift valley"
+      ],
+      "why_correct": "When two oceanic plates converge, the denser one subducts \u2014 creating a deep-sea trench where it sinks and a curved chain of volcanic islands above the subduction zone.",
+      "why_wrong": [
+        "Mountain chains form from continental-continental collision; rift valleys form at divergent boundaries.",
+        "Shield volcanoes form at hotspots; mid-ocean ridges form at divergent boundaries.",
+        "Normal faults and rift valleys form at divergent boundaries where crust is being stretched."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q37",
+      "q": "At a divergent continental boundary, what eventually forms if spreading continues?",
+      "correct": "A new ocean (begins as a rift valley)",
+      "incorrect": [
+        "A mountain range",
+        "A chain of volcanic islands",
+        "A subduction zone"
+      ],
+      "why_correct": "Continental rifting first creates a rift valley; as spreading continues, the valley sinks below sea level, fills with water, and becomes a new ocean \u2014 like the early Atlantic.",
+      "why_wrong": [
+        "Mountain ranges require compression \u2014 plate collision. Rifting is the opposite process: extension.",
+        "Island arcs require subduction of oceanic plates \u2014 they do not result from continental divergence.",
+        "Subduction zones require a dense oceanic plate to sink \u2014 they do not form at divergent boundaries."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q38",
+      "q": "What is the difference between the hanging wall and footwall of a fault?",
+      "correct": "The hanging wall is above the fault plane; the footwall is below",
+      "incorrect": [
+        "The footwall is above the fault plane; the hanging wall is below",
+        "They are the same \u2014 just different names for each side",
+        "The hanging wall only exists in reverse faults"
+      ],
+      "why_correct": "The fault plane is a diagonal crack. The hanging wall is the block that 'hangs' above the plane; the footwall is the block you could stand on below the plane.",
+      "why_wrong": [
+        "It is the reverse \u2014 the hanging wall is always above the fault plane, the footwall below.",
+        "They are distinct \u2014 both exist in all inclined fault types (normal, reverse, and thrust faults).",
+        "Both hanging wall and footwall are present in all inclined fault types, not just reverse faults."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/fault-types.png"
+    },
+    {
+      "id": "q39",
+      "q": "Why is the asthenosphere important for plate tectonics?",
+      "correct": "Its plastic flow allows tectonic plates to move over it",
+      "incorrect": [
+        "It generates heat that melts the core",
+        "It is where earthquakes originate",
+        "It creates Earth's magnetic field"
+      ],
+      "why_correct": "The asthenosphere is partially molten and flows very slowly. The rigid lithospheric plates ride on top and are dragged by convection currents within it.",
+      "why_wrong": [
+        "The asthenosphere does not generate the heat driving tectonics \u2014 that comes from the core and radioactive decay.",
+        "Most earthquakes originate in the lithosphere (crust and rigid upper mantle), not the asthenosphere.",
+        "Earth's magnetic field is generated by liquid iron movement in the outer core, not the asthenosphere."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png"
+    },
+    {
+      "id": "q40",
+      "q": "Which type of plate boundary does NOT create or destroy crust?",
+      "correct": "Transform boundary",
+      "incorrect": [
+        "Divergent boundary",
+        "Convergent boundary",
+        "Subduction zone"
+      ],
+      "why_correct": "At transform boundaries, plates simply slide past each other horizontally \u2014 no new crust forms and no crust is subducted or destroyed.",
+      "why_wrong": [
+        "Divergent boundaries create new crust as magma fills the gap between separating plates.",
+        "Convergent boundaries destroy crust through subduction \u2014 the denser plate melts in the mantle.",
+        "A subduction zone is a type of convergent boundary \u2014 oceanic crust is destroyed as it sinks."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q41",
+      "q": "A seismogram shows only a P-wave with no S-wave. What does this indicate?",
+      "correct": "The station is in the seismic shadow zone",
+      "incorrect": [
+        "The earthquake only produced P-waves",
+        "The station is closest to the epicenter",
+        "S-waves were absorbed by the crust"
+      ],
+      "why_correct": "The shadow zone is a region where S-waves are blocked by the liquid outer core. Only P-waves \u2014 which can travel through liquids \u2014 arrive in this zone.",
+      "why_wrong": [
+        "All significant earthquakes produce both P-waves and S-waves \u2014 they cannot produce only one type.",
+        "The closest station would receive both P and S waves with a small time gap \u2014 not just P-waves.",
+        "S-waves travel through the crust and mantle fine \u2014 they are blocked by the liquid outer core, not the crust."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png"
+    },
+    {
+      "id": "q42",
+      "q": "What is the ultimate energy source driving plate tectonics?",
+      "correct": "Heat from Earth's core and radioactive decay in the mantle",
+      "incorrect": [
+        "Solar radiation heating Earth's surface",
+        "The moon's gravitational pull",
+        "Chemical reactions in the crust"
+      ],
+      "why_correct": "Heat from Earth's formation and ongoing radioactive decay in the mantle powers convection currents \u2014 the mechanism that moves tectonic plates.",
+      "why_wrong": [
+        "Solar radiation heats only the very surface and atmosphere \u2014 it does not penetrate deep enough to drive mantle convection.",
+        "The moon's gravity drives tidal forces in the ocean \u2014 not the mantle convection that moves plates.",
+        "Chemical reactions in the crust are too shallow and weak to power the large-scale convection driving tectonics."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/convection-currents.png"
+    },
+    {
+      "id": "q43",
+      "q": "At which boundary type is the youngest ocean floor rock found?",
+      "correct": "Divergent boundary (mid-ocean ridge)",
+      "incorrect": [
+        "Convergent boundary (subduction zone)",
+        "Transform boundary",
+        "Continental-continental boundary"
+      ],
+      "why_correct": "New oceanic crust is constantly being created at mid-ocean ridges. Rock right at the ridge is the youngest \u2014 age increases as you move away in both directions.",
+      "why_wrong": [
+        "At convergent (subduction) zones, the oldest oceanic crust is being destroyed \u2014 not where young rock is found.",
+        "Transform boundaries neither create nor destroy crust \u2014 no new rock forms there.",
+        "Continental-continental boundaries form mountain ranges \u2014 no oceanic crust is created there."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q44",
+      "q": "All of the following are features of convergent boundaries EXCEPT:",
+      "correct": "Mid-ocean ridge",
+      "incorrect": [
+        "Deep-sea trench",
+        "Volcanic mountains",
+        "Island arc volcanoes"
+      ],
+      "why_correct": "Mid-ocean ridges form at divergent boundaries, where plates pull apart and magma rises. They are not a feature of convergent boundaries.",
+      "why_wrong": [
+        "Deep-sea trenches form at convergent boundaries \u2014 where the denser plate subducts.",
+        "Volcanic mountains form at oceanic-continental convergent boundaries as subducted rock melts.",
+        "Island arc volcanoes form at oceanic-oceanic convergent boundaries."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q45",
+      "q": "All of the following are true about P-waves EXCEPT:",
+      "correct": "They cannot travel through Earth's liquid outer core",
+      "incorrect": [
+        "They arrive at stations first",
+        "They travel through both solids and liquids",
+        "They are faster than S-waves"
+      ],
+      "why_correct": "P-waves CAN travel through the liquid outer core \u2014 that's why they appear on the far side of Earth. It is S-waves that are blocked by the liquid outer core.",
+      "why_wrong": [
+        "P-waves do arrive first \u2014 they are the fastest seismic waves.",
+        "P-waves do travel through both solids and liquids \u2014 that is one of their defining characteristics.",
+        "P-waves are faster than S-waves \u2014 that is why they are called 'primary' waves."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/shadow-zone.png"
+    },
+    {
+      "id": "q46",
+      "q": "What happens to oceanic crust at a mid-ocean ridge?",
+      "correct": "New oceanic crust is created as magma rises and solidifies",
+      "incorrect": [
+        "Old oceanic crust sinks into the mantle",
+        "Two plates slide past each other",
+        "Continental crust converts to oceanic crust"
+      ],
+      "why_correct": "At mid-ocean ridges, diverging plates create a gap that fills with rising magma. The magma cools and hardens into new basaltic oceanic crust.",
+      "why_wrong": [
+        "Crust sinking into the mantle describes subduction at trenches \u2014 the opposite end of the plate cycle.",
+        "Plates sliding past each other describes transform boundaries, not mid-ocean ridges.",
+        "Oceanic and continental crust have different compositions \u2014 one does not convert into the other."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q47",
+      "q": "Which layer of Earth generates its magnetic field?",
+      "correct": "The liquid outer core",
+      "incorrect": [
+        "The solid inner core",
+        "The asthenosphere",
+        "The crust"
+      ],
+      "why_correct": "The movement of liquid iron in the outer core generates electric currents that produce Earth's magnetic field \u2014 acting like a dynamo.",
+      "why_wrong": [
+        "The inner core is solid iron \u2014 solid material cannot flow in the way needed to generate a magnetic field.",
+        "The asthenosphere is partly molten rock (silicate minerals), not iron \u2014 it does not generate a significant magnetic field.",
+        "The crust is too thin and contains too little iron to generate Earth's global magnetic field."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/earth-layers.png"
+    },
+    {
+      "id": "q48",
+      "q": "What information does each station use to calculate the size of its triangulation circle?",
+      "correct": "The P-wave to S-wave arrival time difference",
+      "incorrect": [
+        "The direction the waves came from",
+        "The height (amplitude) of the waves",
+        "The number of waves recorded"
+      ],
+      "why_correct": "The time gap between the faster P-wave and slower S-wave tells each station how far away it is from the epicenter \u2014 a larger gap means a larger circle.",
+      "why_wrong": [
+        "Seismographs record wave arrival times, not direction \u2014 that's why three stations are needed.",
+        "Wave amplitude tells you how much energy arrived, not how far away the source was.",
+        "The number of waves indicates ongoing seismic activity, not the distance to the epicenter."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/station-triangulation.png"
+    },
+    {
+      "id": "q49",
+      "q": "What occurs at a subduction zone where the descending plate melts?",
+      "correct": "Magma forms and rises to create volcanoes on the overriding plate",
+      "incorrect": [
+        "The plates bounce back and form mountains without volcanoes",
+        "The melted rock forms a new ocean ridge",
+        "The melt stays in the mantle and never surfaces"
+      ],
+      "why_correct": "As the subducting plate descends and melts, water lowers the melting point of surrounding mantle rock. Less-dense magma forms and rises through the overriding plate as volcanoes.",
+      "why_wrong": [
+        "Plates at subduction zones do not 'bounce back' \u2014 one continuously sinks into the mantle.",
+        "Ocean ridges form at divergent boundaries where plates pull apart \u2014 not at subduction zones.",
+        "At subduction zones, magma routinely rises to the surface, creating volcanic arcs or mountain ranges."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    },
+    {
+      "id": "q50",
+      "q": "What happens when two oceanic plates collide and one subducts?",
+      "correct": "A deep-sea trench and island arc form above the subduction zone",
+      "incorrect": [
+        "Both plates fold upward into a mountain range",
+        "The plates begin sliding past each other",
+        "New oceanic crust forms between them"
+      ],
+      "why_correct": "When two oceanic plates converge, the denser plate subducts into the mantle \u2014 forming a deep-sea trench where it sinks and a curved volcanic island arc above it.",
+      "why_wrong": [
+        "Mountain ranges form from continental-continental collisions \u2014 oceanic plates are too dense to fold upward like that.",
+        "Sliding past each other describes transform boundaries \u2014 not what happens when plates converge and collide.",
+        "New crust forms at divergent boundaries \u2014 at convergent boundaries, crust is being destroyed."
+      ],
+      "img": "data/earth-science/Unit 2/diagrams/plate-boundaries.png"
+    }
+  ],
+  "terms": [
+    {
+      "term": "heat in the core",
+      "definition": "Drives convection currents in the mantle, which move tectonic plates."
+    },
+    {
+      "term": "convection currents in the mantle",
+      "definition": "Circular loops of hot rising and cool sinking rock in the asthenosphere; the force that moves tectonic plates."
+    },
+    {
+      "term": "plates melt in the mantle",
+      "definition": "At subduction zones, descending plates melt from extreme heat and pressure, forming magma."
+    },
+    {
+      "term": "less dense magma rises through the mantle",
+      "definition": "Magma is less dense than solid rock, so it rises buoyantly toward the surface."
+    },
+    {
+      "term": "more dense basalt sinks",
+      "definition": "Oceanic (basaltic) crust is denser than continental crust, causing it to subduct at convergent boundaries."
+    },
+    {
+      "term": "island arc volcanoes",
+      "definition": "Curved chain of volcanic islands formed when one oceanic plate subducts beneath another."
+    },
+    {
+      "term": "volcanic mountains",
+      "definition": "Mountains formed by magma rising through the crust at convergent boundaries."
+    },
+    {
+      "term": "mountain chains",
+      "definition": "Formed when two continental plates collide and compress, forcing rock upward (e.g., the Himalayas)."
+    },
+    {
+      "term": "mid-ocean ridge",
+      "definition": "Underwater mountain range at a divergent boundary where magma rises and forms new oceanic crust."
+    },
+    {
+      "term": "deep-sea trench",
+      "definition": "Long, narrow ocean-floor depression where one plate subducts beneath another at a convergent boundary."
+    },
+    {
+      "term": "subduction zone",
+      "definition": "Where a denser oceanic plate sinks beneath another plate into the mantle."
+    },
+    {
+      "term": "sea-floor spreading",
+      "definition": "New oceanic crust forms at mid-ocean ridges as plates separate and magma fills the gap."
+    },
+    {
+      "term": "rift valley",
+      "definition": "A valley formed when a continental plate pulls apart; may eventually become a new ocean."
+    },
+    {
+      "term": "plates move",
+      "definition": "Tectonic plates are constantly in motion due to convection currents in the mantle."
+    },
+    {
+      "term": "hot spot",
+      "definition": "A fixed pool of magma beneath a plate that creates volcanoes at the surface, independent of plate boundaries (e.g., Hawaii)."
+    },
+    {
+      "term": "oceanic-oceanic boundary",
+      "definition": "Where two oceanic plates meet; forms trenches, island arc volcanoes (convergent) or mid-ocean ridges (divergent)."
+    },
+    {
+      "term": "oceanic-continental boundary",
+      "definition": "Where oceanic plate subducts beneath continental plate; forms deep-sea trenches and volcanic mountains."
+    },
+    {
+      "term": "continental-continental boundary",
+      "definition": "Where two continental plates collide; forms large mountain ranges."
+    },
+    {
+      "term": "convergent boundary",
+      "definition": "Two plates move toward each other and collide."
+    },
+    {
+      "term": "divergent boundary",
+      "definition": "Two plates move apart; magma rises to form new crust."
+    },
+    {
+      "term": "transform boundary",
+      "definition": "Two plates slide horizontally past each other; no crust created or destroyed."
+    },
+    {
+      "term": "divergent continental boundary",
+      "definition": "Continental plate pulls apart, forming a rift valley that may fill with water to become a new sea."
+    },
+    {
+      "term": "(explosive) composite volcano",
+      "definition": "Steep, layered volcano at subduction zones; violent explosive eruptions."
+    },
+    {
+      "term": "(calm) shield volcano",
+      "definition": "Broad, flat volcano from fast-flowing lava; found at hotspots; calm eruptions (e.g., Hawaii)."
+    },
+    {
+      "term": "focus",
+      "definition": "The underground point where an earthquake originates."
+    },
+    {
+      "term": "epicenter",
+      "definition": "Point on Earth's surface directly above the focus; strongest shaking occurs here."
+    },
+    {
+      "term": "seismograph",
+      "definition": "Instrument that records seismic waves; 3 stations needed to locate an epicenter."
+    },
+    {
+      "term": "P-waves (primary waves)",
+      "definition": "Fastest seismic waves; travel through solids and liquids; arrive at stations first."
+    },
+    {
+      "term": "S-waves (secondary waves)",
+      "definition": "Slower seismic waves; cannot travel through liquids; stopped by Earth's liquid outer core."
+    },
+    {
+      "term": "shallow focus earthquake",
+      "definition": "Focus near the surface; causes the most severe damage."
+    },
+    {
+      "term": "deep focus earthquake",
+      "definition": "Focus deep underground; less surface damage than a shallow quake of equal energy."
+    },
+    {
+      "term": "normal fault",
+      "definition": "Caused by tension (pulling apart); hanging wall moves down."
+    },
+    {
+      "term": "reverse fault",
+      "definition": "Caused by compression (pushing together); hanging wall moves up."
+    },
+    {
+      "term": "strike-slip fault",
+      "definition": "Caused by shearing; rocks slide horizontally past each other (e.g., San Andreas Fault)."
+    },
+    {
+      "term": "What evidence supports the theory of continental drift?",
+      "definition": "Same rocks and fossils found on different continents; continents fit together like puzzle pieces; glaciers in now-tropical areas (evidence of past tropical climates near the poles)."
+    },
+    {
+      "term": "List the layers of Earth in order from the surface, including minor layers.",
+      "definition": "Crust \u2192 lithosphere (crust + upper mantle) \u2192 asthenosphere (upper mantle) \u2192 lower mantle \u2192 outer core \u2192 inner core."
+    },
+    {
+      "term": "What two layers make up the lithosphere?",
+      "definition": "The crust and the very top layer of the mantle."
+    },
+    {
+      "term": "How is the asthenosphere different from the lithosphere?",
+      "definition": "The asthenosphere is plastic \u2014 it flows very slowly like a solid under extreme pressure. The lithosphere above it is rigid and brittle."
+    },
+    {
+      "term": "List Earth's layers in order from thinnest to thickest.",
+      "definition": "Crust (thinnest) \u2192 inner core \u2192 outer core \u2192 mantle (thickest)."
+    },
+    {
+      "term": "What force causes tectonic plates to move?",
+      "definition": "Convection currents in the asthenosphere \u2014 hot rock rises, cools, sinks, and cycles in loops that drag the plates along."
+    },
+    {
+      "term": "What happens at an oceanic-oceanic convergent boundary, and what features form?",
+      "definition": "The plates collide; the denser plate subducts. This forms deep-sea trenches and island arc volcanoes."
+    },
+    {
+      "term": "What forms when two continental plates collide?",
+      "definition": "Mountain chains \u2014 neither plate subducts, so the crust crumples and folds upward (e.g., the Himalayas)."
+    },
+    {
+      "term": "What happens at a divergent boundary, and what features form?",
+      "definition": "Plates move apart; magma rises to fill the gap, forming new crust. This creates mid-ocean ridges (underwater) or rift valleys (on land)."
+    },
+    {
+      "term": "The San Andreas Fault is an example of what type of plate boundary?",
+      "definition": "Transform \u2014 the two plates slide horizontally past each other. No crust is created or destroyed."
+    },
+    {
+      "term": "Why do oceanic plates subduct beneath continental plates?",
+      "definition": "Oceanic (basaltic) crust is denser than continental crust, so it sinks beneath the lighter continental plate at convergent boundaries."
+    },
+    {
+      "term": "At what type of plate boundary is the youngest ocean floor rock found, and why?",
+      "definition": "Divergent boundaries \u2014 new oceanic crust is constantly being created as magma rises and solidifies at mid-ocean ridges."
+    },
+    {
+      "term": "What mountain range was formed by the collision of the Indian and Eurasian plates?",
+      "definition": "The Himalayas \u2014 two continental plates collided, and neither subducted, forcing the crust upward into the highest mountain range on Earth."
+    },
+    {
+      "term": "Describe sea-floor spreading.",
+      "definition": "At mid-ocean ridges, plates move apart and magma rises to form new oceanic crust, pushing the existing ocean floor outward and making the ocean wider over time."
+    },
+    {
+      "term": "At what type of boundary does sea-floor spreading occur?",
+      "definition": "Oceanic-oceanic divergent boundary \u2014 two oceanic plates pull apart and new crust forms at the ridge between them."
+    },
+    {
+      "term": "What is the difference between the epicenter and the focus of an earthquake?",
+      "definition": "The focus is the underground point where the fault actually slips and energy is released. The epicenter is the point on Earth's surface directly above the focus."
+    },
+    {
+      "term": "Which seismic waves are fastest and arrive at a seismograph station first?",
+      "definition": "P-waves (primary waves) \u2014 they travel through both solids and liquids and are the fastest seismic waves."
+    },
+    {
+      "term": "Why do most earthquakes occur along plate boundaries?",
+      "definition": "Plate boundaries are where plates grind past, collide, or pull apart. The friction and stress build up and are suddenly released as seismic energy."
+    },
+    {
+      "term": "Why are earthquakes felt more strongly at the epicenter than farther away?",
+      "definition": "The epicenter is directly above the focus where energy is released. Closer locations receive more energy before it spreads out and weakens over distance."
+    },
+    {
+      "term": "Which causes more severe surface damage: a shallow-focus or deep-focus earthquake of equal energy? Why?",
+      "definition": "Shallow-focus \u2014 the focus is close to the surface, so less energy is lost before the waves reach the ground. Deep-focus quakes lose more energy traveling through rock."
+    },
+    {
+      "term": "Normal fault: stress type and wall movement.",
+      "definition": "Caused by tension (pulling apart). The hanging wall moves down relative to the footwall."
+    },
+    {
+      "term": "Reverse fault: stress type and wall movement.",
+      "definition": "Caused by compression (pushing together). The hanging wall moves up relative to the footwall."
+    },
+    {
+      "term": "Strike-slip fault: stress type and rock movement.",
+      "definition": "Caused by shearing (sideways). Rocks slide horizontally past each other with no up or down movement (e.g., San Andreas Fault)."
+    },
+    {
+      "term": "Why does magma from Earth's interior rise toward the surface?",
+      "definition": "Magma is less dense than the surrounding solid rock, so it rises buoyantly \u2014 the same reason a bubble rises through water."
+    },
+    {
+      "term": "What is a hot spot, and where is it located relative to plate boundaries?",
+      "definition": "A hot spot is a fixed pool of magma beneath a plate that creates volcanoes at the surface. It is independent of plate boundaries \u2014 randomly located away from the edges (e.g., Hawaii)."
+    },
+    {
+      "term": "What type of volcano forms at a hot spot?",
+      "definition": "Shield volcanoes \u2014 broad and flat with calm, flowing lava eruptions (e.g., the Hawaiian volcanoes)."
+    },
+    {
+      "term": "How does the age of the Hawaiian Islands relate to their distance from the active hot spot?",
+      "definition": "The Big Island (Hawaii) is youngest and directly over the hot spot. Islands get progressively older as you move away \u2014 the plate moved over the fixed hot spot, creating a chain."
+    }
+  ]
+}

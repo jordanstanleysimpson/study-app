@@ -115,7 +115,7 @@
 
       <!-- Study mode tiles -->
       <div class="mode-grid" id="mode-grid">
-        <button class="mode-card" onclick="startSession('flashcard')">
+        <button class="mode-card" id="btn-flashcard" onclick="startSession('flashcard')">
           <span class="mode-icon">🃏</span>
           <span class="mode-name">Flashcards</span>
           <span class="mode-desc">Flip to reveal</span>
@@ -139,6 +139,16 @@
           <span class="mode-icon">🔗</span>
           <span class="mode-name">Match</span>
           <span class="mode-desc" id="mode-desc-match">Connect Spanish to English</span>
+        </button>
+        <button class="mode-card hidden" id="btn-mc-quiz-inline" onclick="startMcQuiz('inline')">
+          <span class="mode-icon">📝</span>
+          <span class="mode-name">Quiz</span>
+          <span class="mode-desc">Feedback after each question</span>
+        </button>
+        <button class="mode-card hidden" id="btn-mc-quiz-end" onclick="startMcQuiz('end')">
+          <span class="mode-icon">📋</span>
+          <span class="mode-name">Quiz (exam)</span>
+          <span class="mode-desc">Graded at the end only</span>
         </button>
       </div>
 
@@ -266,6 +276,20 @@
         </div>
       </div>
 
+      <!-- MC Quiz mode -->
+      <div id="mode-mc-quiz" class="quiz-mode hidden">
+        <div class="quiz-inner mcq-inner">
+          <img id="mcq-diagram-img" class="fc-diagram-img hidden" src="" alt="Diagram">
+          <div class="mcq-question" id="mcq-question"></div>
+          <div class="mcq-choices" id="mcq-choices"></div>
+          <div class="mcq-feedback hidden" id="mcq-feedback">
+            <div class="mcq-feedback-badge" id="mcq-feedback-badge"></div>
+            <div class="mcq-explanation" id="mcq-explanation"></div>
+          </div>
+          <button class="btn-next hidden" id="mcq-next">Next</button>
+        </div>
+      </div>
+
       <!-- Match mode -->
       <div id="mode-match" class="quiz-mode hidden">
         <div class="match-inner">
@@ -290,7 +314,7 @@
   <!-- ── Results ── -->
   <div id="screen-results" class="screen">
     <header class="app-header">
-      <h2>Session Complete</h2>
+      <h2 id="results-title">Session Complete</h2>
     </header>
     <main class="screen-body">
       <div id="results-summary"></div>

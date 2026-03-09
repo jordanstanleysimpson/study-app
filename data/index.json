@@ -4,26 +4,10 @@
       "id": "earth-science-unit2",
       "name": "Unit 2: Plate Tectonics",
       "subject": "Earth Science",
+      "type": "quiz",
       "created": "2026-03-08",
-      "wordCount": 34,
-      "file": "data/earth-science/Unit 2/earth-science-unit2.json"
-    },
-    {
-      "id": "earth-science-unit2-questions",
-      "name": "Unit 2: Study Questions",
-      "subject": "Earth Science",
-      "created": "2026-03-08",
-      "wordCount": 27,
-      "file": "data/earth-science/Unit 2/earth-science-unit2-questions.json"
-    },
-    {
-      "id": "earth-science-unit2-diagrams",
-      "name": "Unit 2: Diagram Questions",
-      "subject": "Earth Science",
-      "type": "diagram",
-      "created": "2026-03-08",
-      "wordCount": 23,
-      "file": "data/earth-science/Unit 2/earth-science-unit2-diagrams.json"
+      "wordCount": 50,
+      "file": "data/earth-science/Unit 2/earth-science-unit2-quiz.json"
     },
     {
       "id": "spanish-regular",
@@ -40,15 +24,6 @@
       "created": "2026-03-04",
       "wordCount": 52,
       "file": "data/spanish/Unit 2/spanish-irregular.json"
-    },
-    {
-      "id": "earth-science-unit2-diagrams2",
-      "name": "Unit 2: Structure Diagrams",
-      "subject": "Earth Science",
-      "type": "diagram",
-      "created": "2026-03-08",
-      "wordCount": 22,
-      "file": "data/earth-science/Unit 2/earth-science-unit2-diagrams2.json"
     },
     {
       "id": "spanish-conjugation-rules",

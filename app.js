@@ -9,7 +9,7 @@ const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
 const GITHUB_KEY      = 'study-app-github';
 const GIST_FILENAME   = 'study-progress.json';
-const APP_VERSION     = '2026-03-08T20:00:00Z';
+const APP_VERSION     = '2026-03-09T00:01:40Z;
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
@@ -18,7 +18,7 @@ const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 const state = {
   lists:          [],     // metadata from index.json
   currentList:    null,   // full list object { id, pairs, … }
-  currentMode:    null,   // 'flashcard' | 'type' | 'choice'
+  currentMode:    null,   // 'flashcard' | 'type' | 'choice' | 'mc-quiz'
   session:        [],     // [{ pair: {es,en}, direction: 'es_en'|'en_es' }, …]
   sessionIndex:   0,
   sessionResults: [],     // [{ pair, direction, correct: bool }, …]
@@ -29,6 +29,11 @@ const state = {
   currentAnswer:  null,   // correct answer for the active card
   answered:       false,  // has the current card been evaluated?
   flipped:        false,  // flashcard flip state
+  // MC Quiz state
+  mcqSession:     [],     // [{ question }, …] — 20 selected questions
+  mcqIndex:       0,
+  mcqResults:     [],     // [{ question, chosen, correct, whyWrong }]
+  mcqGradeMode:   'inline', // 'inline' | 'end'
 };
 
 // ─────────────────────────────────────────────
@@ -52,12 +57,18 @@ function updateSubjectLabels() {
   const rev  = `${back} → ${front}`;
 
   const isDiagram = state.currentList.type === 'diagram';
-  document.getElementById('btn-type-it').classList.toggle('hidden', !!state.currentList.labels);
-  document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram);
-  document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram);
-  document.getElementById('btn-match').classList.toggle('hidden', isDiagram);
+  const isMcQuiz  = state.currentList.type === 'quiz';
+
+  document.getElementById('btn-flashcard').classList.toggle('hidden', isMcQuiz);
+  document.getElementById('btn-type-it').classList.toggle('hidden', !!state.currentList.labels || isMcQuiz);
+  document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram || isMcQuiz);
+  document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram || isMcQuiz);
+  document.getElementById('btn-match').classList.toggle('hidden', isDiagram || isMcQuiz);
+  document.getElementById('btn-mc-quiz-inline').classList.toggle('hidden', !isMcQuiz);
+  document.getElementById('btn-mc-quiz-end').classList.toggle('hidden', !isMcQuiz);
   document.getElementById('mode-grid').classList.toggle('mode-grid--one', isDiagram);
-  document.getElementById('mode-grid').classList.toggle('mode-grid--three', !isDiagram && !!state.currentList.labels);
+  document.getElementById('mode-grid').classList.toggle('mode-grid--two', isMcQuiz);
+  document.getElementById('mode-grid').classList.toggle('mode-grid--three', !isDiagram && !isMcQuiz && !!state.currentList.labels);
 
   const isSubject = !!state.currentList.labels;
   document.getElementById('mode-icon-fwd').textContent = isSubject ? '📋' : '🇪🇸';
@@ -335,6 +346,7 @@ function undoRecordAnswer(listId, word, direction, correct) {
 }
 
 function skipCard() {
+  if (state.currentMode === 'mc-quiz') { skipMcqCard(); return; }
   if (state.answered) return;
   const { pair, direction } = state.session[state.sessionIndex];
   state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: false, correct: null });
@@ -355,12 +367,21 @@ function goBack() {
 }
 
 function updateNavBar() {
-  const isMatch = state.currentMode === 'match';
-  const footer  = document.getElementById('quiz-footer');
+  const isMatch  = state.currentMode === 'match';
+  const isMcQuiz = state.currentMode === 'mc-quiz';
+  const footer   = document.getElementById('quiz-footer');
   if (footer) footer.classList.toggle('hidden', isMatch);
 
+  // For mc-quiz, show only the skip button; hide back
   const backBtn = document.getElementById('nav-back-btn');
   const skipBtn = document.getElementById('nav-skip-btn');
+  if (isMcQuiz) {
+    if (backBtn) backBtn.classList.add('hidden');
+    if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
+    return;
+  }
+  if (backBtn) backBtn.classList.remove('hidden');
+  if (skipBtn) skipBtn.classList.remove('hidden');
   if (backBtn) backBtn.disabled = state.sessionHistory.length === 0;
   if (skipBtn) skipBtn.disabled = state.answered;
 }
@@ -524,8 +545,17 @@ async function init() {
   }
 }
 
-function computeListProgress(listId, wordCount) {
+function computeListProgress(listId, wordCount, type) {
   if (wordCount === 0 || !state.progress[listId]) return 0;
+  if (type === 'quiz') {
+    const records = Object.values(state.progress[listId]);
+    if (records.length === 0) return 0;
+    const mastered = records.filter(r => {
+      const total = r.correct + r.incorrect;
+      return total > 0 && r.correct / total >= 0.8;
+    }).length;
+    return Math.round((mastered / wordCount) * 100);
+  }
   const comfortable = Object.values(state.progress[listId])
     .filter(w => w.es_en.comfortable).length;
   return Math.round((comfortable / wordCount) * 100);
@@ -645,7 +675,7 @@ function renderHome() {
     section.appendChild(heading);
 
     for (const meta of lists) {
-      const pct  = computeListProgress(meta.id, meta.wordCount);
+      const pct  = computeListProgress(meta.id, meta.wordCount, meta.type);
       const card = document.createElement('button');
       card.className = 'list-card';
 
@@ -660,7 +690,9 @@ function renderHome() {
       count.className = 'list-meta';
       count.textContent = meta.type === 'diagram'
         ? `${meta.wordCount} diagram questions`
-        : `${meta.wordCount} words`;
+        : meta.type === 'quiz'
+          ? `${meta.wordCount} quiz questions`
+          : `${meta.wordCount} words`;
 
       info.appendChild(name);
       info.appendChild(count);
@@ -709,23 +741,16 @@ async function selectList(meta) {
   // Background-fetch other lists in same subject for 80/20 cross-unit mixing
   const subject = state.currentList.subject;
   for (const m of state.lists) {
-    if (m.subject === subject && m.id !== state.currentList.id && m.type !== 'diagram' && !state.subjectCache[m.id]) {
+    if (m.subject === subject && m.id !== state.currentList.id && m.type !== 'diagram' && m.type !== 'quiz' && !state.subjectCache[m.id]) {
       fetch(m.file).then(r => r.json()).then(l => { state.subjectCache[m.id] = l; }).catch(() => {});
     }
   }
+
+  // Browse tile is always visible (quiz lists show terms reference)
+  document.getElementById('tile-browse').classList.remove('hidden');
 }
 
 function renderListStats() {
-  const { id, pairs } = state.currentList;
-  let comfortableEsEn = 0;
-  let comfortableEnEs = 0;
-
-  for (const pair of pairs) {
-    const rec = getWordRecord(id, pair.es);
-    if (rec.es_en.comfortable) comfortableEsEn++;
-    if (rec.en_es.comfortable) comfortableEnEs++;
-  }
-
   const container = document.getElementById('list-progress-summary');
   container.innerHTML = '';
 
@@ -738,6 +763,40 @@ function renderListStats() {
     s.innerHTML = `<span class="stat-num">${num}</span><span class="stat-label">${label}</span>`;
     return s;
   };
+
+  if (state.currentList.type === 'quiz') {
+    const { id, questions } = state.currentList;
+    let seen = 0, mastered = 0, totalCorrect = 0, totalAttempts = 0;
+    for (const q of questions) {
+      const rec = state.progress[id]?.[q.id];
+      if (rec) {
+        const t = rec.correct + rec.incorrect;
+        if (t > 0) {
+          seen++;
+          totalCorrect   += rec.correct;
+          totalAttempts  += t;
+          if (rec.correct / t >= 0.8) mastered++;
+        }
+      }
+    }
+    const pct = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
+    stats.appendChild(makestat(questions.length, 'questions'));
+    stats.appendChild(makestat(seen,             'attempted'));
+    stats.appendChild(makestat(`${mastered}`,    '≥80% accuracy'));
+    stats.appendChild(makestat(totalAttempts > 0 ? `${pct}%` : '—', 'overall accuracy'));
+    container.appendChild(stats);
+    return;
+  }
+
+  const { id, pairs } = state.currentList;
+  let comfortableEsEn = 0;
+  let comfortableEnEs = 0;
+
+  for (const pair of pairs) {
+    const rec = getWordRecord(id, pair.es);
+    if (rec.es_en.comfortable) comfortableEsEn++;
+    if (rec.en_es.comfortable) comfortableEnEs++;
+  }
 
   const { front, back } = listLabels();
   stats.appendChild(makestat(pairs.length,       'words'));
@@ -1009,6 +1068,235 @@ function advanceCard() {
 }
 
 // ─────────────────────────────────────────────
+// MC Quiz mode
+// ─────────────────────────────────────────────
+function getQuizRecord(listId, questionId) {
+  if (!state.progress[listId])                 state.progress[listId] = {};
+  if (!state.progress[listId][questionId])     state.progress[listId][questionId] = { correct: 0, incorrect: 0 };
+  return state.progress[listId][questionId];
+}
+
+function recordQuizAnswer(listId, questionId, correct) {
+  const rec = getQuizRecord(listId, questionId);
+  if (correct) rec.correct++;
+  else         rec.incorrect++;
+  saveProgress();
+}
+
+function getMcqWeight(listId, questionId) {
+  const rec   = getQuizRecord(listId, questionId);
+  const total = rec.correct + rec.incorrect;
+  if (total === 0) return 4;
+  const accuracy = rec.correct / total;
+  if (accuracy < 0.5) return 4;
+  if (accuracy < 0.8) return 2;
+  return 1;
+}
+
+function buildMcqSession(list) {
+  const pool = [];
+  for (const q of list.questions) {
+    const w = getMcqWeight(list.id, q.id);
+    for (let i = 0; i < w; i++) pool.push(q);
+  }
+  const shuffled = shuffle(pool);
+  // Deduplicate by id while preserving order, limit to SESSION_SIZE
+  const seen    = new Set();
+  const session = [];
+  for (const q of shuffled) {
+    if (seen.has(q.id)) continue;
+    seen.add(q.id);
+    session.push(q);
+    if (session.length >= SESSION_SIZE) break;
+  }
+  return session;
+}
+
+function startMcQuiz(gradeMode) {
+  const list = state.currentList;
+  if (!list || list.type !== 'quiz') return;
+
+  state.mcqSession   = buildMcqSession(list);
+  state.mcqIndex     = 0;
+  state.mcqResults   = [];
+  state.mcqGradeMode = gradeMode || 'inline'; // 'inline' | 'end'
+  state.currentMode  = 'mc-quiz';
+
+  document.getElementById('progress-bar').style.width   = '0%';
+  document.getElementById('progress-count').textContent = `0/${state.mcqSession.length}`;
+
+  updateNavBar();
+
+  showScreen('screen-quiz');
+  renderMcqCard();
+}
+
+function renderMcqCard() {
+  const session = state.mcqSession;
+
+  document.getElementById('progress-bar').style.width   = `${(state.mcqIndex / session.length) * 100}%`;
+  document.getElementById('progress-count').textContent = `${state.mcqIndex}/${session.length}`;
+
+  if (state.mcqIndex >= session.length) {
+    showMcqResults();
+    return;
+  }
+
+  const q = session[state.mcqIndex];
+  showQuizMode('mc-quiz');
+
+  const diagramImg = document.getElementById('mcq-diagram-img');
+  if (q.img) {
+    diagramImg.src = q.img;
+    diagramImg.classList.remove('hidden');
+  } else {
+    diagramImg.src = '';
+    diagramImg.classList.add('hidden');
+  }
+
+  document.getElementById('mcq-question').textContent = q.q;
+  document.getElementById('mcq-feedback').classList.add('hidden');
+  document.getElementById('mcq-next').classList.add('hidden');
+
+  // Build shuffled choices: correct + 3 incorrect
+  const choices = shuffle([
+    { text: q.correct,        isCorrect: true,  wrongIdx: -1 },
+    { text: q.incorrect[0],   isCorrect: false, wrongIdx: 0  },
+    { text: q.incorrect[1],   isCorrect: false, wrongIdx: 1  },
+    { text: q.incorrect[2],   isCorrect: false, wrongIdx: 2  },
+  ]);
+
+  const container = document.getElementById('mcq-choices');
+  container.innerHTML = '';
+
+  choices.forEach((choice, i) => {
+    const btn = document.createElement('button');
+    btn.className   = 'mcq-choice-btn';
+    btn.textContent = choice.text;
+    btn.addEventListener('click', () => selectMcqAnswer(btn, choice, choices));
+    container.appendChild(btn);
+  });
+}
+
+function selectMcqAnswer(btn, choice, allChoices) {
+  // Ignore if already answered
+  if (!document.getElementById('mcq-next').classList.contains('hidden')) return;
+
+  const q         = state.mcqSession[state.mcqIndex];
+  const isCorrect = choice.isCorrect;
+
+  // Always disable all buttons
+  document.querySelectorAll('.mcq-choice-btn').forEach(b => { b.disabled = true; });
+
+  // Record answer
+  recordQuizAnswer(state.currentList.id, q.id, isCorrect);
+  state.mcqResults.push({
+    question: q,
+    chosen:   choice.text,
+    correct:  isCorrect,
+    whyWrong: choice.wrongIdx >= 0 ? q.why_wrong[choice.wrongIdx] : null,
+  });
+
+  if (state.mcqGradeMode === 'end') {
+    // Exam mode: no feedback, auto-advance after brief highlight
+    btn.classList.add('mcq-choice-selected');
+    setTimeout(() => advanceMcqCard(), 400);
+  } else {
+    // Inline mode: show correct/wrong colours + explanation
+    document.querySelectorAll('.mcq-choice-btn').forEach((b, i) => {
+      if (allChoices[i].isCorrect) b.classList.add('choice-correct');
+    });
+    if (!isCorrect) btn.classList.add('choice-wrong');
+
+    const badge       = document.getElementById('mcq-feedback-badge');
+    const explanation = document.getElementById('mcq-explanation');
+
+    if (isCorrect) {
+      badge.textContent = 'Correct!';
+      badge.className   = 'mcq-feedback-badge mcq-badge--correct';
+      explanation.textContent = q.why_correct;
+    } else {
+      badge.textContent = 'Incorrect';
+      badge.className   = 'mcq-feedback-badge mcq-badge--wrong';
+      const whyWrong    = choice.wrongIdx >= 0 ? q.why_wrong[choice.wrongIdx] : '';
+      explanation.innerHTML = `<strong>Why that's wrong:</strong> ${whyWrong}<br><br><strong>Correct answer:</strong> ${q.correct}<br>${q.why_correct}`;
+    }
+
+    document.getElementById('mcq-feedback').classList.remove('hidden');
+    document.getElementById('mcq-next').classList.remove('hidden');
+  }
+}
+
+function advanceMcqCard() {
+  state.mcqIndex++;
+  renderMcqCard();
+}
+
+function skipMcqCard() {
+  // Only skip if not yet answered (Next button hidden means unanswered)
+  if (!document.getElementById('mcq-next').classList.contains('hidden')) return;
+  // Remove the question entirely — skipped questions are not revisited or scored
+  state.mcqSession.splice(state.mcqIndex, 1);
+  renderMcqCard();
+}
+
+function showMcqResults() {
+  const results  = state.mcqResults;
+  const numRight = results.filter(r => r.correct).length;
+  const total    = results.length;
+  const pct      = total > 0 ? Math.round((numRight / total) * 100) : 0;
+
+  const grade = pct >= 90 ? 'A' : pct >= 80 ? 'B' : pct >= 70 ? 'C' : pct >= 60 ? 'D' : 'F';
+
+  document.getElementById('results-title').textContent = 'Quiz Results';
+  document.getElementById('results-summary').innerHTML = `
+    <div class="results-score">
+      <span class="score-big">${numRight}/${total}</span>
+      <span class="score-pct score-grade-${grade.toLowerCase()}">${pct}% &nbsp; ${grade}</span>
+    </div>
+  `;
+
+  const details = document.getElementById('results-details');
+  details.innerHTML = '';
+
+  const heading = document.createElement('h3');
+  heading.textContent = 'Review:';
+  details.appendChild(heading);
+
+  const list = document.createElement('div');
+  list.className = 'mcq-missed-list';
+
+  for (const r of results) {
+    const item = document.createElement('div');
+    item.className = r.correct ? 'mcq-missed-item mcq-item--correct' : 'mcq-missed-item';
+
+    if (r.correct) {
+      item.innerHTML = `
+        <div class="mcq-missed-q">${r.question.q}</div>
+        <div class="mcq-missed-correct"><span class="mcq-correct-text">${r.question.correct}</span></div>
+        <div class="mcq-missed-why-correct">${r.question.why_correct}</div>
+      `;
+    } else {
+      item.innerHTML = `
+        <div class="mcq-missed-q">${r.question.q}</div>
+        <div class="mcq-missed-chosen">You answered: <span class="mcq-chosen-text">${r.chosen}</span></div>
+        <div class="mcq-missed-why-wrong">${r.whyWrong || ''}</div>
+        <div class="mcq-missed-correct">Correct answer: <span class="mcq-correct-text">${r.question.correct}</span></div>
+        <div class="mcq-missed-why-correct">${r.question.why_correct}</div>
+      `;
+    }
+    list.appendChild(item);
+  }
+
+  details.appendChild(list);
+
+  // For quiz mode: hide Study Missed (not applicable), show Again
+  document.getElementById('btn-retry-missed').style.display = 'none';
+  document.getElementById('results-title').textContent = 'Quiz Results';
+  showScreen('screen-results');
+}
+
+// ─────────────────────────────────────────────
 // Match mode
 // ─────────────────────────────────────────────
 function startMatch() {
@@ -1161,6 +1449,11 @@ function sortStats(by) {
 function renderStats() {
   const listId = state.currentList.id;
 
+  if (state.currentList.type === 'quiz') {
+    renderQuizStats(listId);
+    return;
+  }
+
   const rows = state.currentList.pairs.map(pair => {
     const rec       = getWordRecord(listId, pair.es);
     const correct   = rec.es_en.correct   + rec.en_es.correct;
@@ -1220,6 +1513,74 @@ function renderStats() {
   document.getElementById('sort-' + currentStatsSort).classList.add('active');
 }
 
+function renderQuizStats(listId) {
+  const questions = state.currentList.questions;
+
+  const rows = questions.map(q => {
+    const rec       = state.progress[listId]?.[q.id] ?? { correct: 0, incorrect: 0 };
+    const correct   = rec.correct;
+    const incorrect = rec.incorrect;
+    const total     = correct + incorrect;
+    const accuracy  = total > 0 ? Math.round((correct / total) * 100) : null;
+    return { q, correct, incorrect, total, accuracy };
+  });
+
+  if (currentStatsSort === 'missed') {
+    rows.sort((a, b) => {
+      if (a.total === 0 && b.total === 0) return 0;
+      if (a.total === 0) return 1;
+      if (b.total === 0) return -1;
+      return b.incorrect - a.incorrect || a.q.q.localeCompare(b.q.q);
+    });
+  } else if (currentStatsSort === 'correct') {
+    rows.sort((a, b) => {
+      if (a.total === 0 && b.total === 0) return 0;
+      if (a.total === 0) return 1;
+      if (b.total === 0) return -1;
+      return b.correct - a.correct || a.q.q.localeCompare(b.q.q);
+    });
+  } else {
+    rows.sort((a, b) => a.q.q.localeCompare(b.q.q));
+  }
+
+  // Update table headers
+  const statFront = document.getElementById('stats-col-front');
+  const statBack  = document.getElementById('stats-col-back');
+  if (statFront) statFront.textContent = 'Question';
+  if (statBack)  statBack.textContent  = 'Correct Answer';
+
+  const tbody = document.getElementById('stats-table-body');
+  tbody.innerHTML = '';
+
+  for (const r of rows) {
+    const row = document.createElement('tr');
+    if (r.total === 0) row.classList.add('stats-unseen');
+
+    const accText  = r.accuracy !== null ? r.accuracy + '%' : '—';
+    const accClass = r.accuracy === null ? '' :
+                     r.accuracy >= 80   ? 'acc-good' :
+                     r.accuracy >= 50   ? 'acc-ok'   : 'acc-bad';
+
+    const addCell = (text, cls) => {
+      const td = document.createElement('td');
+      td.textContent = text;
+      if (cls) td.className = cls;
+      row.appendChild(td);
+    };
+
+    addCell(r.q.q,         'stats-es');
+    addCell(r.q.correct);
+    addCell(r.correct   > 0 ? r.correct   : '—', 'stats-num');
+    addCell(r.incorrect > 0 ? r.incorrect : '—', 'stats-num');
+    addCell(accText, `stats-acc ${accClass}`);
+
+    tbody.appendChild(row);
+  }
+
+  document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+  document.getElementById('sort-' + currentStatsSort).classList.add('active');
+}
+
 // ─────────────────────────────────────────────
 // Browse mode
 // ─────────────────────────────────────────────
@@ -1231,6 +1592,11 @@ let browseSort     = 'none';
 let browseSortDir  = 'asc';
 
 function renderBrowse() {
+  if (state.currentList.type === 'quiz') {
+    renderTermsBrowse();
+    return;
+  }
+
   let pairs = [...state.currentList.pairs];
   if (browseSort !== 'none') {
     pairs.sort((a, b) => {
@@ -1265,6 +1631,31 @@ function renderBrowse() {
   });
 }
 
+function renderTermsBrowse() {
+  const terms = state.currentList.terms || [];
+
+  // Update column headers
+  const thFront = document.getElementById('browse-sort-es');
+  const thBack  = document.getElementById('browse-sort-en');
+  if (thFront) thFront.innerHTML = `Term / Question <span class="sort-indicator"></span>`;
+  if (thBack)  thBack.innerHTML  = `Definition / Answer <span class="sort-indicator"></span>`;
+
+  const tbody = document.getElementById('word-table-body');
+  tbody.innerHTML = '';
+  for (const t of terms) {
+    const row = document.createElement('tr');
+    const tdTerm = document.createElement('td');
+    const tdDef  = document.createElement('td');
+    tdTerm.textContent = t.term;
+    tdTerm.className   = 'terms-term';
+    tdDef.textContent  = t.definition;
+    tdDef.className    = 'terms-def';
+    row.appendChild(tdTerm);
+    row.appendChild(tdDef);
+    tbody.appendChild(row);
+  }
+}
+
 function setBrowseSort(col) {
   if (browseSort === col) {
     browseSortDir = browseSortDir === 'asc' ? 'desc' : 'asc';
@@ -1286,6 +1677,8 @@ function updateMatchProgress() {
 // Results
 // ─────────────────────────────────────────────
 function showResults() {
+  document.getElementById('results-title').textContent = 'Session Complete';
+  document.getElementById('btn-retry-missed').style.display = '';
   showScreen('screen-results');
 
   const results = state.sessionResults;
@@ -1359,7 +1752,11 @@ function retryMissed() {
 }
 
 function restartSession() {
-  startSession(state.currentMode);
+  if (state.currentMode === 'mc-quiz') {
+    startMcQuiz(state.mcqGradeMode);
+  } else {
+    startSession(state.currentMode);
+  }
 }
 
 // ─────────────────────────────────────────────
@@ -1445,6 +1842,9 @@ function setupEventListeners() {
 
   // Multiple choice
   document.getElementById('choice-next').addEventListener('click', advanceCard);
+
+  // MC Quiz
+  document.getElementById('mcq-next').addEventListener('click', advanceMcqCard);
 
   // Keyboard shortcuts for quiz screen
   document.addEventListener('keydown', e => {
