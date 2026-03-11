@@ -32,7 +32,8 @@ const state = {
   // MC Quiz state
   mcqSession:     [],     // [{ question }, …] — 20 selected questions
   mcqIndex:       0,
-  mcqResults:     [],     // [{ question, chosen, correct, whyWrong }]
+  mcqResults:     {},     // { [questionId]: { question, chosen, correct, whyWrong } }
+  mcqChoices:     {},     // { [questionId]: shuffled choices array } — stable order for the session
   mcqGradeMode:      'inline', // 'inline' | 'end'
   mcqAdvanceTimeout: null,    // timeout ID for exam-mode auto-advance
   // Translate mode state
@@ -368,17 +369,12 @@ function skipCard() {
 function goBack() {
   // Exam mode mc-quiz: undo last answer and step back
   if (state.currentMode === 'mc-quiz' && state.mcqGradeMode === 'end') {
-    if (state.mcqResults.length === 0) return;
-    // Cancel any pending auto-advance
+    if (state.mcqIndex === 0) return;
     if (state.mcqAdvanceTimeout !== null) {
       clearTimeout(state.mcqAdvanceTimeout);
       state.mcqAdvanceTimeout = null;
     }
-    // Undo the recorded answer
-    const last = state.mcqResults.pop();
-    undoRecordQuizAnswer(state.currentList.id, last.question.id, last.correct);
-    // Step back (but not below 0)
-    if (state.mcqIndex > 0) state.mcqIndex--;
+    state.mcqIndex--;
     updateNavBar();
     renderMcqCard();
     return;
@@ -406,7 +402,7 @@ function updateNavBar() {
 
   // Exam mode: show back (disabled until at least one answer recorded), show skip
   if (isMcQuiz && state.mcqGradeMode === 'end') {
-    if (backBtn) { backBtn.classList.remove('hidden'); backBtn.disabled = state.mcqResults.length === 0; }
+    if (backBtn) { backBtn.classList.remove('hidden'); backBtn.disabled = state.mcqIndex === 0; }
     if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
     return;
   }
@@ -1164,7 +1160,8 @@ function startMcQuiz(gradeMode) {
 
   state.mcqSession   = buildMcqSession(list);
   state.mcqIndex     = 0;
-  state.mcqResults   = [];
+  state.mcqResults   = {};
+  state.mcqChoices   = {};
   state.mcqGradeMode = gradeMode || 'inline'; // 'inline' | 'end'
   state.currentMode  = 'mc-quiz';
 
@@ -1204,21 +1201,35 @@ function renderMcqCard() {
   document.getElementById('mcq-feedback').classList.add('hidden');
   document.getElementById('mcq-next').classList.add('hidden');
 
-  // Build shuffled choices: correct + 3 incorrect
-  const choices = shuffle([
-    { text: q.correct,        isCorrect: true,  wrongIdx: -1 },
-    { text: q.incorrect[0],   isCorrect: false, wrongIdx: 0  },
-    { text: q.incorrect[1],   isCorrect: false, wrongIdx: 1  },
-    { text: q.incorrect[2],   isCorrect: false, wrongIdx: 2  },
-  ]);
+  // Build shuffled choices once per question; reuse on back/forward navigation
+  if (!state.mcqChoices[q.id]) {
+    state.mcqChoices[q.id] = shuffle([
+      { text: q.correct,        isCorrect: true,  wrongIdx: -1 },
+      { text: q.incorrect[0],   isCorrect: false, wrongIdx: 0  },
+      { text: q.incorrect[1],   isCorrect: false, wrongIdx: 1  },
+      { text: q.incorrect[2],   isCorrect: false, wrongIdx: 2  },
+    ]);
+  }
+  const choices = state.mcqChoices[q.id];
 
-  const container = document.getElementById('mcq-choices');
+  const container  = document.getElementById('mcq-choices');
   container.innerHTML = '';
+
+  // Blur any focused element so the browser doesn't auto-focus the first new button
+  if (document.activeElement && document.activeElement !== document.body) {
+    document.activeElement.blur();
+  }
+
+  const prevResult = state.mcqResults[q.id];
 
   choices.forEach((choice, i) => {
     const btn = document.createElement('button');
     btn.className   = 'mcq-choice-btn';
     btn.textContent = choice.text;
+    // Pre-highlight the previously chosen answer when navigating back
+    if (prevResult && choice.text === prevResult.chosen) {
+      btn.classList.add('mcq-choice-selected');
+    }
     btn.addEventListener('click', () => selectMcqAnswer(btn, choice, choices));
     container.appendChild(btn);
   });
@@ -1234,14 +1245,17 @@ function selectMcqAnswer(btn, choice, allChoices) {
   // Always disable all buttons
   document.querySelectorAll('.mcq-choice-btn').forEach(b => { b.disabled = true; });
 
-  // Record answer
+  // Undo previous answer for this question if the user is re-answering after going back
+  const prev = state.mcqResults[q.id];
+  if (prev) undoRecordQuizAnswer(state.currentList.id, q.id, prev.correct);
+
   recordQuizAnswer(state.currentList.id, q.id, isCorrect);
-  state.mcqResults.push({
+  state.mcqResults[q.id] = {
     question: q,
     chosen:   choice.text,
     correct:  isCorrect,
     whyWrong: choice.wrongIdx >= 0 ? q.why_wrong[choice.wrongIdx] : null,
-  });
+  };
 
   if (state.mcqGradeMode === 'end') {
     // Exam mode: no feedback, auto-advance after brief highlight
@@ -1292,7 +1306,10 @@ function skipMcqCard() {
 }
 
 function showMcqResults() {
-  const results  = state.mcqResults;
+  // Collect results in session order, skip any questions that were never answered
+  const results  = state.mcqSession.map(q => state.mcqResults[q.id]).filter(Boolean);
+  // Wrong answers first, then correct
+  results.sort((a, b) => (a.correct === b.correct ? 0 : a.correct ? 1 : -1));
   const numRight = results.filter(r => r.correct).length;
   const total    = results.length;
   const pct      = total > 0 ? Math.round((numRight / total) * 100) : 0;

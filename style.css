@@ -548,7 +548,7 @@ button {
   grid-template-columns: 1fr 1fr;
 }
 
-.mcq-choice-selected {
+.mcq-choice-btn.mcq-choice-selected {
   border-color: var(--primary);
   background: rgba(79, 70, 229, 0.08);
 }
