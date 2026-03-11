@@ -1,0 +1,267 @@
+{
+  "id": "spanish-unit3-sentences",
+  "name": "Unit 3: Sentence Translation",
+  "subject": "Spanish",
+  "type": "translate",
+  "created": "2026-03-10",
+  "sentences": [
+    {
+      "id": "s001",
+      "es": "Yo hablo español en la clase.",
+      "en": "I speak Spanish in class.",
+      "concepts": ["regular-ar", "hablar"]
+    },
+    {
+      "id": "s002",
+      "es": "Ella necesita estudiar más.",
+      "en": "She needs to study more.",
+      "concepts": ["regular-ar", "necesitar"]
+    },
+    {
+      "id": "s003",
+      "es": "Mis padres trabajan mucho.",
+      "en": "My parents work a lot.",
+      "concepts": ["regular-ar", "trabajar"]
+    },
+    {
+      "id": "s004",
+      "es": "¿Tú bailas en las fiestas?",
+      "en": "Do you dance at parties?",
+      "concepts": ["regular-ar", "bailar"]
+    },
+    {
+      "id": "s005",
+      "es": "Nosotros escuchamos música todos los días.",
+      "en": "We listen to music every day.",
+      "concepts": ["regular-ar", "escuchar"]
+    },
+    {
+      "id": "s006",
+      "es": "El perro bebe agua fría.",
+      "en": "The dog drinks cold water.",
+      "concepts": ["regular-er", "beber"]
+    },
+    {
+      "id": "s007",
+      "es": "Ella aprende español rápido.",
+      "en": "She learns Spanish quickly.",
+      "concepts": ["regular-er", "aprender"]
+    },
+    {
+      "id": "s008",
+      "es": "Nosotros comemos la cena a las seis.",
+      "en": "We eat dinner at six.",
+      "concepts": ["regular-er", "comer"]
+    },
+    {
+      "id": "s009",
+      "es": "Ellos viven en una casa grande.",
+      "en": "They live in a big house.",
+      "concepts": ["regular-ir", "vivir"]
+    },
+    {
+      "id": "s010",
+      "es": "Yo escribo una carta a mi amigo.",
+      "en": "I write a letter to my friend.",
+      "concepts": ["regular-ir", "escribir"]
+    },
+    {
+      "id": "s011",
+      "es": "Yo tengo mucha tarea hoy.",
+      "en": "I have a lot of homework today.",
+      "concepts": ["irregular-yo", "tener"]
+    },
+    {
+      "id": "s012",
+      "es": "Ella hace su cama por la mañana.",
+      "en": "She makes her bed in the morning.",
+      "concepts": ["irregular-yo", "hacer"]
+    },
+    {
+      "id": "s013",
+      "es": "Yo pongo mis libros en la mochila.",
+      "en": "I put my books in my backpack.",
+      "concepts": ["irregular-yo", "poner"]
+    },
+    {
+      "id": "s014",
+      "es": "¿Ves la televisión por la noche?",
+      "en": "Do you watch TV at night?",
+      "concepts": ["irregular-yo", "ver"]
+    },
+    {
+      "id": "s015",
+      "es": "Nosotros salimos a las ocho.",
+      "en": "We leave at eight.",
+      "concepts": ["irregular-yo", "salir"]
+    },
+    {
+      "id": "s016",
+      "es": "Yo traigo mi almuerzo a la escuela.",
+      "en": "I bring my lunch to school.",
+      "concepts": ["irregular-yo", "traer"]
+    },
+    {
+      "id": "s017",
+      "es": "Mi hermano tiene hambre después del partido.",
+      "en": "My brother is hungry after the game.",
+      "concepts": ["tener-expression", "tener hambre"]
+    },
+    {
+      "id": "s018",
+      "es": "Tú tienes razón.",
+      "en": "You are right.",
+      "concepts": ["tener-expression", "tener razón"]
+    },
+    {
+      "id": "s019",
+      "es": "Ella tiene miedo de los perros.",
+      "en": "She is afraid of dogs.",
+      "concepts": ["tener-expression", "tener miedo"]
+    },
+    {
+      "id": "s020",
+      "es": "Tengo prisa porque el autobús llega en cinco minutos.",
+      "en": "I am in a hurry because the bus arrives in five minutes.",
+      "concepts": ["tener-expression", "tener prisa"]
+    },
+    {
+      "id": "s021",
+      "es": "¿Sabes dónde está la biblioteca?",
+      "en": "Do you know where the library is?",
+      "concepts": ["saber-conocer", "saber"]
+    },
+    {
+      "id": "s022",
+      "es": "Yo conozco a la nueva estudiante.",
+      "en": "I know the new student.",
+      "concepts": ["saber-conocer", "conocer"]
+    },
+    {
+      "id": "s023",
+      "es": "Ella sabe hablar francés muy bien.",
+      "en": "She knows how to speak French very well.",
+      "concepts": ["saber-conocer", "saber-infinitive"]
+    },
+    {
+      "id": "s024",
+      "es": "¿Conoces la ciudad de Buenos Aires?",
+      "en": "Do you know the city of Buenos Aires?",
+      "concepts": ["saber-conocer", "conocer"]
+    },
+    {
+      "id": "s025",
+      "es": "Yo quiero aprender a cocinar.",
+      "en": "I want to learn how to cook.",
+      "concepts": ["stem-changing", "querer", "e-ie"]
+    },
+    {
+      "id": "s026",
+      "es": "El partido empieza a las tres.",
+      "en": "The game starts at three.",
+      "concepts": ["stem-changing", "empezar", "e-ie"]
+    },
+    {
+      "id": "s027",
+      "es": "¿Entiendes la tarea de matemáticas?",
+      "en": "Do you understand the math homework?",
+      "concepts": ["stem-changing", "entender", "e-ie"]
+    },
+    {
+      "id": "s028",
+      "es": "Yo pierdo mis llaves con frecuencia.",
+      "en": "I lose my keys frequently.",
+      "concepts": ["stem-changing", "perder", "e-ie"]
+    },
+    {
+      "id": "s029",
+      "es": "Ella puede hablar tres idiomas.",
+      "en": "She can speak three languages.",
+      "concepts": ["stem-changing", "poder", "o-ue"]
+    },
+    {
+      "id": "s030",
+      "es": "Ella duerme ocho horas cada noche.",
+      "en": "She sleeps eight hours every night.",
+      "concepts": ["stem-changing", "dormir", "o-ue"]
+    },
+    {
+      "id": "s031",
+      "es": "¿Cuánto cuestan los libros?",
+      "en": "How much do the books cost?",
+      "concepts": ["stem-changing", "costar", "o-ue"]
+    },
+    {
+      "id": "s032",
+      "es": "Nosotros volvemos a casa a las cuatro.",
+      "en": "We return home at four.",
+      "concepts": ["stem-changing", "volver", "o-ue"]
+    },
+    {
+      "id": "s033",
+      "es": "Los estudiantes repiten las palabras.",
+      "en": "The students repeat the words.",
+      "concepts": ["stem-changing", "repetir", "e-i"]
+    },
+    {
+      "id": "s034",
+      "es": "El mesero sirve la comida rápido.",
+      "en": "The waiter serves the food quickly.",
+      "concepts": ["stem-changing", "servir", "e-i"]
+    },
+    {
+      "id": "s035",
+      "es": "Nosotros jugamos al fútbol los domingos.",
+      "en": "We play soccer on Sundays.",
+      "concepts": ["stem-changing", "jugar", "u-ue"]
+    },
+    {
+      "id": "s036",
+      "es": "Necesito lavar los platos después de cenar.",
+      "en": "I need to wash the dishes after dinner.",
+      "concepts": ["household-vocab", "quehaceres"]
+    },
+    {
+      "id": "s037",
+      "es": "Paso la aspiradora en la alfombra del dormitorio.",
+      "en": "I vacuum the carpet in the bedroom.",
+      "concepts": ["household-vocab", "pasar la aspiradora", "alfombra"]
+    },
+    {
+      "id": "s038",
+      "es": "Pongo mis libros en el armario de mi cuarto.",
+      "en": "I put my books in the closet of my room.",
+      "concepts": ["household-vocab", "armario"]
+    },
+    {
+      "id": "s039",
+      "es": "Mi mamá necesita ayuda con los quehaceres.",
+      "en": "My mom needs help with the chores.",
+      "concepts": ["household-vocab", "quehaceres"]
+    },
+    {
+      "id": "s040",
+      "es": "Necesito el cuchillo para cortar la carne.",
+      "en": "I need the knife to cut the meat.",
+      "concepts": ["household-vocab", "cuchillo"]
+    },
+    {
+      "id": "s041",
+      "es": "Este libro es más interesante que la película.",
+      "en": "This book is more interesting than the movie.",
+      "concepts": ["comparatives", "más-que"]
+    },
+    {
+      "id": "s042",
+      "es": "Ella es tan inteligente como su hermano.",
+      "en": "She is as intelligent as her brother.",
+      "concepts": ["comparatives", "tan-como"]
+    },
+    {
+      "id": "s043",
+      "es": "Mi hermano es el más alto de la familia.",
+      "en": "My brother is the tallest in the family.",
+      "concepts": ["comparatives", "superlative"]
+    }
+  ]
+}

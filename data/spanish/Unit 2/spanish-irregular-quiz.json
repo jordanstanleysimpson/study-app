@@ -1,0 +1,1257 @@
+{
+  "id": "spanish-irregular-quiz",
+  "name": "Unit 2: Irregular Verbs",
+  "subject": "Spanish",
+  "type": "quiz",
+  "created": "2026-03-10",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "What does 'poder' mean?",
+      "correct": "to be able to; can",
+      "incorrect": ["to sleep", "to fly; to take off", "to cost"],
+      "why_correct": "'Poder' is a stem-changing o→ue verb meaning to be able to / can. 'No puedo' = I can't. Think of 'potent' (powerful, capable) from the same Latin root.",
+      "why_wrong": [
+        "'Dormir' means to sleep — another o→ue stem-changer.",
+        "'Volar' means to fly or take off — also o→ue.",
+        "'Costar' means to cost — yet another o→ue verb."
+      ]
+    },
+    {
+      "id": "q002",
+      "q": "How do you say 'to be able to; can'?",
+      "correct": "poder",
+      "incorrect": ["dormir", "volver", "recordar"],
+      "why_correct": "'Poder' means can/to be able to — from Latin 'potere'. Related to English 'power' and 'potent'.",
+      "why_wrong": [
+        "'Dormir' means to sleep.",
+        "'Volver' means to return or go back.",
+        "'Recordar' means to remember."
+      ]
+    },
+    {
+      "id": "q003",
+      "q": "What does 'dormir' mean?",
+      "correct": "to sleep",
+      "incorrect": ["to have lunch", "to return; to go back", "to find; to meet"],
+      "why_correct": "'Dormir' means to sleep — related to English 'dormant' (sleeping/inactive) and 'dormitory' (sleeping room). It's an o→ue stem-changer.",
+      "why_wrong": [
+        "'Almorzar' means to have lunch — from 'almuerzo' (lunch).",
+        "'Volver' means to return or go back.",
+        "'Encontrar' means to find or meet — from 'encuentro' (encounter)."
+      ]
+    },
+    {
+      "id": "q004",
+      "q": "How do you say 'to sleep'?",
+      "correct": "dormir",
+      "incorrect": ["poder", "almorzar", "costar"],
+      "why_correct": "'Dormir' means to sleep — 'dormitorio' (dormitory/bedroom) shares this root. 'Duerme bien' = sleep well.",
+      "why_wrong": [
+        "'Poder' means to be able to / can.",
+        "'Almorzar' means to have lunch.",
+        "'Costar' means to cost."
+      ]
+    },
+    {
+      "id": "q005",
+      "q": "What does 'almorzar' mean?",
+      "correct": "to have lunch",
+      "incorrect": ["to fly; to take off", "to remember", "to understand"],
+      "why_correct": "'Almorzar' means to have lunch — 'el almuerzo' is lunch. It's an o→ue stem-changer: almuerzo, almuerzas...",
+      "why_wrong": [
+        "'Volar' means to fly or take off.",
+        "'Recordar' means to remember.",
+        "'Entender' means to understand — an e→ie stem-changer."
+      ]
+    },
+    {
+      "id": "q006",
+      "q": "How do you say 'to have lunch'?",
+      "correct": "almorzar",
+      "incorrect": ["dormir", "volar", "encontrar"],
+      "why_correct": "'Almorzar' is the verb for having lunch — 'el almuerzo' is the meal.",
+      "why_wrong": [
+        "'Dormir' means to sleep.",
+        "'Volar' means to fly.",
+        "'Encontrar' means to find or meet."
+      ]
+    },
+    {
+      "id": "q007",
+      "q": "What does 'volar' mean?",
+      "correct": "to fly; to take off",
+      "incorrect": ["to return; to go back", "to cost", "to remember"],
+      "why_correct": "'Volar' means to fly — 'el vuelo' is a flight. English 'volatile' (easily airborne) shares the Latin root 'volare'.",
+      "why_wrong": [
+        "'Volver' means to return or go back — similar spelling!",
+        "'Costar' means to cost.",
+        "'Recordar' means to remember."
+      ]
+    },
+    {
+      "id": "q008",
+      "q": "How do you say 'to fly; to take off'?",
+      "correct": "volar",
+      "incorrect": ["volver", "poder", "dormir"],
+      "why_correct": "'Volar' means to fly — 'el vuelo' (flight) is related. Don't confuse with 'volver' (to return).",
+      "why_wrong": [
+        "'Volver' means to return — note: volar vs. volver are different verbs.",
+        "'Poder' means to be able to.",
+        "'Dormir' means to sleep."
+      ]
+    },
+    {
+      "id": "q009",
+      "q": "What does 'volver' mean?",
+      "correct": "to return; to go back",
+      "incorrect": ["to find; to meet", "to cost", "to remember"],
+      "why_correct": "'Volver' means to return or come back — 'volver a casa' = to go back home. English 'revolve' and 'involve' share the Latin root 'volvere'.",
+      "why_wrong": [
+        "'Encontrar' means to find or meet.",
+        "'Costar' means to cost.",
+        "'Recordar' means to remember."
+      ]
+    },
+    {
+      "id": "q010",
+      "q": "How do you say 'to return; to go back'?",
+      "correct": "volver",
+      "incorrect": ["volar", "regresar", "almorzar"],
+      "why_correct": "'Volver' means to return or go back — an o→ue stem-changer. 'Vuelvo a casa' = I'm going back home.",
+      "why_wrong": [
+        "'Volar' means to fly — note the difference: volver vs. volar.",
+        "'Regresar' is also 'to return' but is a regular -AR verb; 'volver' is the irregular form.",
+        "'Almorzar' means to have lunch."
+      ]
+    },
+    {
+      "id": "q011",
+      "q": "What does 'costar' mean?",
+      "correct": "to cost",
+      "incorrect": ["to remember", "to understand", "to want; to love"],
+      "why_correct": "'Costar' means to cost — 'el costo' is cost. '¿Cuánto cuesta?' = How much does it cost? It's an o→ue stem-changer.",
+      "why_wrong": [
+        "'Recordar' means to remember.",
+        "'Entender' means to understand.",
+        "'Querer' means to want or love."
+      ]
+    },
+    {
+      "id": "q012",
+      "q": "How do you say 'to cost'?",
+      "correct": "costar",
+      "incorrect": ["contar", "volver", "recordar"],
+      "why_correct": "'Costar' means to cost — 'el costo' (cost) and English 'cost' share the same Latin root.",
+      "why_wrong": [
+        "'Contar' means to count or tell/narrate — similar spelling, different meaning.",
+        "'Volver' means to return.",
+        "'Recordar' means to remember."
+      ]
+    },
+    {
+      "id": "q013",
+      "q": "What does 'recordar' mean?",
+      "correct": "to remember",
+      "incorrect": ["to find; to meet", "to understand", "to think"],
+      "why_correct": "'Recordar' means to remember — think of 'record' (to keep in memory). 'Recuerda' = remember! It's an o→ue stem-changer.",
+      "why_wrong": [
+        "'Encontrar' means to find or meet.",
+        "'Entender' means to understand.",
+        "'Pensar' means to think."
+      ]
+    },
+    {
+      "id": "q014",
+      "q": "How do you say 'to remember'?",
+      "correct": "recordar",
+      "incorrect": ["costar", "encontrar", "perder"],
+      "why_correct": "'Recordar' means to remember — from Latin 'recordari', related to 'cor/cordis' (heart). To remember is to hold in your heart.",
+      "why_wrong": [
+        "'Costar' means to cost.",
+        "'Encontrar' means to find or meet.",
+        "'Perder' means to lose."
+      ]
+    },
+    {
+      "id": "q015",
+      "q": "What does 'encontrar' mean?",
+      "correct": "to find; to meet",
+      "incorrect": ["to understand", "to want; to love", "to think"],
+      "why_correct": "'Encontrar' means to find or meet — 'un encuentro' is an encounter or meeting. Think of 'encounter'.",
+      "why_wrong": [
+        "'Entender' means to understand.",
+        "'Querer' means to want or love.",
+        "'Pensar' means to think."
+      ]
+    },
+    {
+      "id": "q016",
+      "q": "How do you say 'to find; to meet'?",
+      "correct": "encontrar",
+      "incorrect": ["recordar", "entender", "comenzar"],
+      "why_correct": "'Encontrar' means to find or meet — 'encontrar a alguien' = to meet someone. Related to English 'encounter'.",
+      "why_wrong": [
+        "'Recordar' means to remember.",
+        "'Entender' means to understand.",
+        "'Comenzar' means to begin or start."
+      ]
+    },
+    {
+      "id": "q017",
+      "q": "What does 'entender' mean?",
+      "correct": "to understand",
+      "incorrect": ["to want; to love", "to think", "to lose"],
+      "why_correct": "'Entender' means to understand — related to English 'tend' and 'tendency' from Latin 'intendere' (to stretch toward, to apply one's mind).",
+      "why_wrong": [
+        "'Querer' means to want or love.",
+        "'Pensar' means to think.",
+        "'Perder' means to lose."
+      ]
+    },
+    {
+      "id": "q018",
+      "q": "How do you say 'to understand'?",
+      "correct": "entender",
+      "incorrect": ["encontrar", "querer", "defender"],
+      "why_correct": "'Entender' means to understand — an e→ie stem-changer. 'No entiendo' = I don't understand.",
+      "why_wrong": [
+        "'Encontrar' means to find or meet.",
+        "'Querer' means to want or love.",
+        "'Defender' means to defend."
+      ]
+    },
+    {
+      "id": "q019",
+      "q": "What does 'querer' mean?",
+      "correct": "to want; to love",
+      "incorrect": ["to think", "to lose", "to begin; to start"],
+      "why_correct": "'Querer' means to want or to love — 'te quiero' = I love you (more casual than 'te amo'). It's an e→ie stem-changer.",
+      "why_wrong": [
+        "'Pensar' means to think.",
+        "'Perder' means to lose.",
+        "'Comenzar' means to begin or start."
+      ]
+    },
+    {
+      "id": "q020",
+      "q": "How do you say 'to want; to love'?",
+      "correct": "querer",
+      "incorrect": ["poder", "entender", "preferir"],
+      "why_correct": "'Querer' means to want or love — 'quiero' = I want/love. 'Te quiero' = I love you.",
+      "why_wrong": [
+        "'Poder' means to be able to.",
+        "'Entender' means to understand.",
+        "'Preferir' means to prefer."
+      ]
+    },
+    {
+      "id": "q021",
+      "q": "What does 'pensar' mean?",
+      "correct": "to think",
+      "incorrect": ["to lose", "to begin; to start", "to prefer"],
+      "why_correct": "'Pensar' means to think — related to English 'pensive' (thoughtful) from Latin 'pensare'. It's an e→ie stem-changer.",
+      "why_wrong": [
+        "'Perder' means to lose.",
+        "'Comenzar' means to begin.",
+        "'Preferir' means to prefer."
+      ]
+    },
+    {
+      "id": "q022",
+      "q": "How do you say 'to think'?",
+      "correct": "pensar",
+      "incorrect": ["querer", "perder", "cerrar"],
+      "why_correct": "'Pensar' means to think — English 'pensive' (deep in thought) shares the same Latin root 'pensare'.",
+      "why_wrong": [
+        "'Querer' means to want or love.",
+        "'Perder' means to lose.",
+        "'Cerrar' means to close."
+      ]
+    },
+    {
+      "id": "q023",
+      "q": "What does 'perder' mean?",
+      "correct": "to lose",
+      "incorrect": ["to begin; to start", "to prefer", "to close"],
+      "why_correct": "'Perder' means to lose — 'perdido' means lost. It's an e→ie stem-changer. 'Perdí mis llaves' = I lost my keys.",
+      "why_wrong": [
+        "'Comenzar' means to begin.",
+        "'Preferir' means to prefer.",
+        "'Cerrar' means to close."
+      ]
+    },
+    {
+      "id": "q024",
+      "q": "How do you say 'to lose'?",
+      "correct": "perder",
+      "incorrect": ["pensar", "comenzar", "defender"],
+      "why_correct": "'Perder' means to lose — 'perdido/a' means lost. '¡No pierdas!' = Don't lose!",
+      "why_wrong": [
+        "'Pensar' means to think.",
+        "'Comenzar' means to begin.",
+        "'Defender' means to defend."
+      ]
+    },
+    {
+      "id": "q025",
+      "q": "What does 'comenzar' mean?",
+      "correct": "to begin; to start",
+      "incorrect": ["to prefer", "to close", "to defend"],
+      "why_correct": "'Comenzar' means to begin — related to English 'commence'. It's an e→ie stem-changer: comienzo, comienzas...",
+      "why_wrong": [
+        "'Preferir' means to prefer.",
+        "'Cerrar' means to close.",
+        "'Defender' means to defend."
+      ]
+    },
+    {
+      "id": "q026",
+      "q": "How do you say 'to begin; to start'?",
+      "correct": "comenzar",
+      "incorrect": ["perder", "empezar", "cerrar"],
+      "why_correct": "'Comenzar' means to begin — related to English 'commence'. Note: 'empezar' also means to begin and is more commonly used colloquially.",
+      "why_wrong": [
+        "'Perder' means to lose.",
+        "'Empezar' also means to begin/start — it's a synonym of comenzar, but the question asks specifically for 'comenzar'.",
+        "'Cerrar' means to close."
+      ]
+    },
+    {
+      "id": "q027",
+      "q": "What does 'empezar' mean?",
+      "correct": "to begin; to start",
+      "incorrect": ["to prefer", "to close", "to recommend"],
+      "why_correct": "'Empezar' means to begin or start — very commonly used in conversation. It's an e→ie stem-changer: empiezo, empiezas...",
+      "why_wrong": [
+        "'Preferir' means to prefer.",
+        "'Cerrar' means to close.",
+        "'Recomendar' means to recommend."
+      ]
+    },
+    {
+      "id": "q028",
+      "q": "How do you say 'to begin; to start'?",
+      "correct": "empezar",
+      "incorrect": ["comenzar", "pensar", "recomendar"],
+      "why_correct": "'Empezar' means to begin — the most colloquially common word for starting something. (Both 'empezar' and 'comenzar' are accepted.)",
+      "why_wrong": [
+        "'Comenzar' is a synonym but the question asks for 'empezar' specifically.",
+        "'Pensar' means to think.",
+        "'Recomendar' means to recommend."
+      ]
+    },
+    {
+      "id": "q029",
+      "q": "What does 'preferir' mean?",
+      "correct": "to prefer",
+      "incorrect": ["to close", "to defend", "to recommend"],
+      "why_correct": "'Preferir' is a cognate of 'prefer' — both from Latin 'praeferre'. It's an e→ie stem-changer: prefiero, prefieres...",
+      "why_wrong": [
+        "'Cerrar' means to close.",
+        "'Defender' means to defend.",
+        "'Recomendar' means to recommend."
+      ]
+    },
+    {
+      "id": "q030",
+      "q": "How do you say 'to prefer'?",
+      "correct": "preferir",
+      "incorrect": ["querer", "cerrar", "venir"],
+      "why_correct": "'Preferir' is a cognate of 'prefer' — easy to recognize.",
+      "why_wrong": [
+        "'Querer' means to want or love.",
+        "'Cerrar' means to close.",
+        "'Venir' means to come."
+      ]
+    },
+    {
+      "id": "q031",
+      "q": "What does 'cerrar' mean?",
+      "correct": "to close",
+      "incorrect": ["to defend", "to recommend", "to come"],
+      "why_correct": "'Cerrar' means to close — 'cerrado' means closed. You see 'Cerrado' on shop doors. It's an e→ie stem-changer.",
+      "why_wrong": [
+        "'Defender' means to defend.",
+        "'Recomendar' means to recommend.",
+        "'Venir' means to come."
+      ]
+    },
+    {
+      "id": "q032",
+      "q": "How do you say 'to close'?",
+      "correct": "cerrar",
+      "incorrect": ["empezar", "defender", "tener"],
+      "why_correct": "'Cerrar' means to close — 'cerrado' (closed) is seen on store signs.",
+      "why_wrong": [
+        "'Empezar' means to begin.",
+        "'Defender' means to defend.",
+        "'Tener' means to have."
+      ]
+    },
+    {
+      "id": "q033",
+      "q": "What does 'defender' mean?",
+      "correct": "to defend",
+      "incorrect": ["to recommend", "to come", "to have"],
+      "why_correct": "'Defender' is a near-cognate of 'defend' — both from Latin 'defendere'. It's an e→ie stem-changer: defiendo, defiendes...",
+      "why_wrong": [
+        "'Recomendar' means to recommend.",
+        "'Venir' means to come.",
+        "'Tener' means to have."
+      ]
+    },
+    {
+      "id": "q034",
+      "q": "How do you say 'to defend'?",
+      "correct": "defender",
+      "incorrect": ["cerrar", "recomendar", "servir"],
+      "why_correct": "'Defender' is a cognate of 'defend' — both from Latin 'defendere'.",
+      "why_wrong": [
+        "'Cerrar' means to close.",
+        "'Recomendar' means to recommend.",
+        "'Servir' means to serve."
+      ]
+    },
+    {
+      "id": "q035",
+      "q": "What does 'recomendar' mean?",
+      "correct": "to recommend",
+      "incorrect": ["to come", "to have", "to serve"],
+      "why_correct": "'Recomendar' is a near-cognate of 'recommend' — both from Latin 're-commendare'. It's an e→ie stem-changer.",
+      "why_wrong": [
+        "'Venir' means to come.",
+        "'Tener' means to have.",
+        "'Servir' means to serve."
+      ]
+    },
+    {
+      "id": "q036",
+      "q": "How do you say 'to recommend'?",
+      "correct": "recomendar",
+      "incorrect": ["defender", "venir", "pedir"],
+      "why_correct": "'Recomendar' is a cognate of 'recommend' — from Latin 're-commendare'.",
+      "why_wrong": [
+        "'Defender' means to defend.",
+        "'Venir' means to come.",
+        "'Pedir' means to order or ask for."
+      ]
+    },
+    {
+      "id": "q037",
+      "q": "What does 'venir' mean?",
+      "correct": "to come",
+      "incorrect": ["to have", "to serve", "to order; to ask for"],
+      "why_correct": "'Venir' means to come — irregular verb. Yo vengo, tú vienes... English 'venue' (a place you come to) shares the Latin root 'venire'.",
+      "why_wrong": [
+        "'Tener' means to have — often confused with 'venir' as both are highly irregular.",
+        "'Servir' means to serve.",
+        "'Pedir' means to order or ask for."
+      ]
+    },
+    {
+      "id": "q038",
+      "q": "How do you say 'to come'?",
+      "correct": "venir",
+      "incorrect": ["ir", "tener", "traer"],
+      "why_correct": "'Venir' means to come — 'yo vengo, tú vienes'. English 'venue' and 'advent' (coming toward) share this root.",
+      "why_wrong": [
+        "'Ir' means to go — the opposite direction from 'venir'.",
+        "'Tener' means to have.",
+        "'Traer' means to bring."
+      ]
+    },
+    {
+      "id": "q039",
+      "q": "What does 'tener' mean?",
+      "correct": "to have",
+      "incorrect": ["to serve", "to order; to ask for", "to repeat"],
+      "why_correct": "'Tener' means to have — one of the most important irregular verbs. Yo tengo, tú tienes... It's also used in many idioms: tener hambre, tener frío, etc.",
+      "why_wrong": [
+        "'Servir' means to serve.",
+        "'Pedir' means to order or ask for.",
+        "'Repetir' means to repeat."
+      ]
+    },
+    {
+      "id": "q040",
+      "q": "How do you say 'to have'?",
+      "correct": "tener",
+      "incorrect": ["venir", "hacer", "saber"],
+      "why_correct": "'Tener' means to have — 'yo tengo, tú tienes...' One of the top 5 most important Spanish verbs.",
+      "why_wrong": [
+        "'Venir' means to come.",
+        "'Hacer' means to make or do.",
+        "'Saber' means to know facts."
+      ]
+    },
+    {
+      "id": "q041",
+      "q": "What does 'servir' mean?",
+      "correct": "to serve",
+      "incorrect": ["to order; to ask for", "to repeat", "to laugh"],
+      "why_correct": "'Servir' means to serve — 'el servicio' is service. It's an e→i stem-changer (not e→ie): sirvo, sirves...",
+      "why_wrong": [
+        "'Pedir' means to order or ask for.",
+        "'Repetir' means to repeat.",
+        "'Reír' means to laugh."
+      ]
+    },
+    {
+      "id": "q042",
+      "q": "How do you say 'to serve'?",
+      "correct": "servir",
+      "incorrect": ["tener", "pedir", "sonreír"],
+      "why_correct": "'Servir' means to serve — 'el servidor' is a server. English 'service' and 'servant' share the Latin root 'servire'.",
+      "why_wrong": [
+        "'Tener' means to have.",
+        "'Pedir' means to order or ask for — a different e→i verb.",
+        "'Sonreír' means to smile."
+      ]
+    },
+    {
+      "id": "q043",
+      "q": "What does 'pedir' mean?",
+      "correct": "to order; to ask for",
+      "incorrect": ["to repeat", "to laugh", "to smile"],
+      "why_correct": "'Pedir' means to order or ask for — 'pedir la cuenta' = to ask for the check. It's an e→i stem-changer. Different from 'preguntar' (to ask a question).",
+      "why_wrong": [
+        "'Repetir' means to repeat.",
+        "'Reír' means to laugh.",
+        "'Sonreír' means to smile."
+      ]
+    },
+    {
+      "id": "q044",
+      "q": "How do you say 'to order; to ask for'?",
+      "correct": "pedir",
+      "incorrect": ["servir", "repetir", "decir"],
+      "why_correct": "'Pedir' means to order or request — 'pido una pizza' = I order a pizza. An e→i verb.",
+      "why_wrong": [
+        "'Servir' means to serve — the waiter serves; the customer pedis.",
+        "'Repetir' means to repeat.",
+        "'Decir' means to say or tell."
+      ]
+    },
+    {
+      "id": "q045",
+      "q": "What does 'repetir' mean?",
+      "correct": "to repeat",
+      "incorrect": ["to laugh", "to smile", "to say; to tell"],
+      "why_correct": "'Repetir' is a near-cognate of 'repeat' — from Latin 'repetere'. It's an e→i stem-changer.",
+      "why_wrong": [
+        "'Reír' means to laugh.",
+        "'Sonreír' means to smile.",
+        "'Decir' means to say or tell."
+      ]
+    },
+    {
+      "id": "q046",
+      "q": "How do you say 'to repeat'?",
+      "correct": "repetir",
+      "incorrect": ["pedir", "reír", "poner"],
+      "why_correct": "'Repetir' is a cognate of 'repeat' and 'repetition' — from Latin 'repetere'.",
+      "why_wrong": [
+        "'Pedir' means to order or ask for.",
+        "'Reír' means to laugh.",
+        "'Poner' means to put or place."
+      ]
+    },
+    {
+      "id": "q047",
+      "q": "What does 'reír' mean?",
+      "correct": "to laugh",
+      "incorrect": ["to smile", "to say; to tell", "to put; to place"],
+      "why_correct": "'Reír' means to laugh — 'una risa' is a laugh. The smiling version is 'sonreír' (son + reír = to smile = to half-laugh).",
+      "why_wrong": [
+        "'Sonreír' means to smile — it's literally 'son-reír' (to sound-laugh = smile).",
+        "'Decir' means to say or tell.",
+        "'Poner' means to put or place."
+      ]
+    },
+    {
+      "id": "q048",
+      "q": "How do you say 'to laugh'?",
+      "correct": "reír",
+      "incorrect": ["sonreír", "repetir", "hacer"],
+      "why_correct": "'Reír' means to laugh — 'risas' means laughter. 'Sonreír' (to smile) contains 'reír' as its base.",
+      "why_wrong": [
+        "'Sonreír' means to smile — it contains 'reír' but adds 'son-' (sound).",
+        "'Repetir' means to repeat.",
+        "'Hacer' means to make or do."
+      ]
+    },
+    {
+      "id": "q049",
+      "q": "What does 'sonreír' mean?",
+      "correct": "to smile",
+      "incorrect": ["to say; to tell", "to put; to place", "to make; to do"],
+      "why_correct": "'Sonreír' means to smile — it's built from 'son-' (sound) + 'reír' (to laugh). Smiling is like laughing with sound starting.",
+      "why_wrong": [
+        "'Decir' means to say or tell.",
+        "'Poner' means to put or place.",
+        "'Hacer' means to make or do."
+      ]
+    },
+    {
+      "id": "q050",
+      "q": "How do you say 'to smile'?",
+      "correct": "sonreír",
+      "incorrect": ["reír", "decir", "ver"],
+      "why_correct": "'Sonreír' means to smile — 'una sonrisa' is a smile. It contains 'reír' (laugh), so smiling = gentle laughing.",
+      "why_wrong": [
+        "'Reír' means to laugh — smiling is 'sonreír', not 'reír'.",
+        "'Decir' means to say or tell.",
+        "'Ver' means to see."
+      ]
+    },
+    {
+      "id": "q051",
+      "q": "What does 'decir' mean?",
+      "correct": "to say; to tell",
+      "incorrect": ["to put; to place", "to make; to do", "to see"],
+      "why_correct": "'Decir' means to say or tell — highly irregular (yo digo). Related to English 'dictate' and 'diction' from Latin 'dicere'.",
+      "why_wrong": [
+        "'Poner' means to put or place.",
+        "'Hacer' means to make or do.",
+        "'Ver' means to see."
+      ]
+    },
+    {
+      "id": "q052",
+      "q": "How do you say 'to say; to tell'?",
+      "correct": "decir",
+      "incorrect": ["sonreír", "poner", "saber"],
+      "why_correct": "'Decir' means to say or tell — 'yo digo' is the irregular yo form. Related to 'dictate' and 'diction'.",
+      "why_wrong": [
+        "'Sonreír' means to smile.",
+        "'Poner' means to put or place.",
+        "'Saber' means to know facts."
+      ]
+    },
+    {
+      "id": "q053",
+      "q": "What does 'poner' mean?",
+      "correct": "to put; to place",
+      "incorrect": ["to make; to do", "to see", "to know (facts)"],
+      "why_correct": "'Poner' means to put or place — 'yo pongo' is the irregular yo form. Related to English 'component' and 'position' from Latin 'ponere'.",
+      "why_wrong": [
+        "'Hacer' means to make or do.",
+        "'Ver' means to see.",
+        "'Saber' means to know facts."
+      ]
+    },
+    {
+      "id": "q054",
+      "q": "How do you say 'to put; to place'?",
+      "correct": "poner",
+      "incorrect": ["decir", "hacer", "dar"],
+      "why_correct": "'Poner' means to put — 'yo pongo'. English 'component' (things put together) and 'position' share the Latin root 'ponere'.",
+      "why_wrong": [
+        "'Decir' means to say or tell.",
+        "'Hacer' means to make or do.",
+        "'Dar' means to give."
+      ]
+    },
+    {
+      "id": "q055",
+      "q": "What does 'hacer' mean?",
+      "correct": "to make; to do",
+      "incorrect": ["to see", "to know (facts)", "to give"],
+      "why_correct": "'Hacer' means to make or do — 'yo hago' is the irregular yo form. '¿Qué haces?' = What are you doing? It covers both 'make' and 'do'.",
+      "why_wrong": [
+        "'Ver' means to see.",
+        "'Saber' means to know facts.",
+        "'Dar' means to give."
+      ]
+    },
+    {
+      "id": "q056",
+      "q": "How do you say 'to make; to do'?",
+      "correct": "hacer",
+      "incorrect": ["poner", "ver", "conocer"],
+      "why_correct": "'Hacer' means to make or do — 'yo hago, tú haces...'. A core irregular verb.",
+      "why_wrong": [
+        "'Poner' means to put or place.",
+        "'Ver' means to see.",
+        "'Conocer' means to know or be familiar with."
+      ]
+    },
+    {
+      "id": "q057",
+      "q": "What does 'ver' mean?",
+      "correct": "to see",
+      "incorrect": ["to know (facts)", "to give", "to know; to meet"],
+      "why_correct": "'Ver' means to see — 'yo veo' is the yo form (irregular). Related to English 'visual' and 'vision' from Latin 'videre/visere'.",
+      "why_wrong": [
+        "'Saber' means to know facts.",
+        "'Dar' means to give.",
+        "'Conocer' means to know or be familiar with (people, places)."
+      ]
+    },
+    {
+      "id": "q058",
+      "q": "How do you say 'to see'?",
+      "correct": "ver",
+      "incorrect": ["hacer", "saber", "salir"],
+      "why_correct": "'Ver' means to see — 'yo veo'. Short verb, irregular yo. Related to 'visual' and 'vision'.",
+      "why_wrong": [
+        "'Hacer' means to make or do.",
+        "'Saber' means to know facts.",
+        "'Salir' means to leave or go out."
+      ]
+    },
+    {
+      "id": "q059",
+      "q": "What does 'saber' mean?",
+      "correct": "to know (facts)",
+      "incorrect": ["to give", "to know; to meet", "to leave; to go out"],
+      "why_correct": "'Saber' means to know facts, information, or how to do something — 'yo sé'. Contrast with 'conocer' (to know people/places). '¿Sabes la respuesta?' = Do you know the answer?",
+      "why_wrong": [
+        "'Dar' means to give.",
+        "'Conocer' means to know in the sense of being familiar with (people, places) — different from 'saber'.",
+        "'Salir' means to leave or go out."
+      ]
+    },
+    {
+      "id": "q060",
+      "q": "How do you say 'to know (facts)'?",
+      "correct": "saber",
+      "incorrect": ["conocer", "ver", "caer"],
+      "why_correct": "'Saber' is used for facts, information, and 'knowing how to do something' — 'yo sé'. Contrast with 'conocer' for people and places.",
+      "why_wrong": [
+        "'Conocer' means to know people/places (familiarity), not facts.",
+        "'Ver' means to see.",
+        "'Caer' means to fall."
+      ]
+    },
+    {
+      "id": "q061",
+      "q": "What does 'dar' mean?",
+      "correct": "to give",
+      "incorrect": ["to know; to meet", "to leave; to go out", "to fall"],
+      "why_correct": "'Dar' means to give — highly irregular: yo doy, tú das... 'Dar un regalo' = to give a gift.",
+      "why_wrong": [
+        "'Conocer' means to know or meet someone.",
+        "'Salir' means to leave or go out.",
+        "'Caer' means to fall."
+      ]
+    },
+    {
+      "id": "q062",
+      "q": "How do you say 'to give'?",
+      "correct": "dar",
+      "incorrect": ["saber", "conocer", "traer"],
+      "why_correct": "'Dar' means to give — 'yo doy' (irregular yo). One of the most common Spanish verbs.",
+      "why_wrong": [
+        "'Saber' means to know facts.",
+        "'Conocer' means to know or be familiar with.",
+        "'Traer' means to bring."
+      ]
+    },
+    {
+      "id": "q063",
+      "q": "What does 'conocer' mean?",
+      "correct": "to know; to meet",
+      "incorrect": ["to leave; to go out", "to fall", "to bring"],
+      "why_correct": "'Conocer' means to know (through familiarity) or to meet for the first time — 'yo conozco'. Used for knowing people and places, unlike 'saber' which is for facts.",
+      "why_wrong": [
+        "'Salir' means to leave or go out.",
+        "'Caer' means to fall.",
+        "'Traer' means to bring."
+      ]
+    },
+    {
+      "id": "q064",
+      "q": "How do you say 'to know; to meet'?",
+      "correct": "conocer",
+      "incorrect": ["saber", "salir", "ir"],
+      "why_correct": "'Conocer' means to know (people, places) or to meet someone — 'yo conozco'. Used for familiarity, not facts.",
+      "why_wrong": [
+        "'Saber' means to know facts — a different type of knowing.",
+        "'Salir' means to leave or go out.",
+        "'Ir' means to go."
+      ]
+    },
+    {
+      "id": "q065",
+      "q": "What does 'salir' mean?",
+      "correct": "to leave; to go out",
+      "incorrect": ["to fall", "to bring", "to go"],
+      "why_correct": "'Salir' means to leave or go out — 'yo salgo' (irregular yo). 'Salir con amigos' = to go out with friends. Related to English 'sally' (to rush out).",
+      "why_wrong": [
+        "'Caer' means to fall.",
+        "'Traer' means to bring.",
+        "'Ir' means to go (in a direction) — different from 'salir' (to leave/exit)."
+      ]
+    },
+    {
+      "id": "q066",
+      "q": "How do you say 'to leave; to go out'?",
+      "correct": "salir",
+      "incorrect": ["conocer", "caer", "estar"],
+      "why_correct": "'Salir' means to leave or go out — 'yo salgo'. The yo form has a -go ending like other -go verbs.",
+      "why_wrong": [
+        "'Conocer' means to know or meet.",
+        "'Caer' means to fall.",
+        "'Estar' means to be (state/location)."
+      ]
+    },
+    {
+      "id": "q067",
+      "q": "What does 'caer' mean?",
+      "correct": "to fall",
+      "incorrect": ["to bring", "to go", "to be (state/location)"],
+      "why_correct": "'Caer' means to fall — 'yo caigo' (irregular). Related to English 'cascade' (waterfall) and 'cadence' (falling rhythm).",
+      "why_wrong": [
+        "'Traer' means to bring.",
+        "'Ir' means to go.",
+        "'Estar' means to be (state/location)."
+      ]
+    },
+    {
+      "id": "q068",
+      "q": "How do you say 'to fall'?",
+      "correct": "caer",
+      "incorrect": ["salir", "traer", "ser"],
+      "why_correct": "'Caer' means to fall — 'yo caigo'. Related to English 'cascade'.",
+      "why_wrong": [
+        "'Salir' means to leave or go out.",
+        "'Traer' means to bring.",
+        "'Ser' means to be (permanent)."
+      ]
+    },
+    {
+      "id": "q069",
+      "q": "What does 'traer' mean?",
+      "correct": "to bring",
+      "incorrect": ["to go", "to be (state/location)", "to be (permanent)"],
+      "why_correct": "'Traer' means to bring — 'yo traigo' (irregular). 'Trae tu libro' = Bring your book. Think of 'trailer' (something that brings/transports things).",
+      "why_wrong": [
+        "'Ir' means to go.",
+        "'Estar' means to be (state/location).",
+        "'Ser' means to be (permanent characteristics)."
+      ]
+    },
+    {
+      "id": "q070",
+      "q": "How do you say 'to bring'?",
+      "correct": "traer",
+      "incorrect": ["caer", "ir", "oír"],
+      "why_correct": "'Traer' means to bring — 'yo traigo'. Related to 'transport' and 'extract' from Latin 'trahere' (to pull/draw).",
+      "why_wrong": [
+        "'Caer' means to fall.",
+        "'Ir' means to go.",
+        "'Oír' means to hear."
+      ]
+    },
+    {
+      "id": "q071",
+      "q": "What does 'ir' mean?",
+      "correct": "to go",
+      "incorrect": ["to be (state/location)", "to be (permanent)", "to hear"],
+      "why_correct": "'Ir' means to go — one of the most irregular verbs: yo voy, tú vas, él va... The present tense forms come from Latin 'vadere', not 'ire'.",
+      "why_wrong": [
+        "'Estar' means to be (state/location) — different from 'ir'.",
+        "'Ser' means to be (permanent characteristics).",
+        "'Oír' means to hear."
+      ]
+    },
+    {
+      "id": "q072",
+      "q": "How do you say 'to go'?",
+      "correct": "ir",
+      "incorrect": ["traer", "estar", "venir"],
+      "why_correct": "'Ir' means to go — 'yo voy, tú vas'. The opposite direction from 'venir' (to come).",
+      "why_wrong": [
+        "'Traer' means to bring.",
+        "'Estar' means to be (state/location).",
+        "'Venir' means to come — the opposite of 'ir'."
+      ]
+    },
+    {
+      "id": "q073",
+      "q": "What does 'estar' mean?",
+      "correct": "to be (state/location)",
+      "incorrect": ["to be (permanent)", "to hear", "to be cold"],
+      "why_correct": "'Estar' is used for states (moods, conditions) and locations — 'estoy enfermo' (I'm sick), 'estoy en casa' (I'm at home). Contrast with 'ser' for permanent traits.",
+      "why_wrong": [
+        "'Ser' means to be (permanent) — for identity, origin, characteristics.",
+        "'Oír' means to hear.",
+        "'Tener frío' means to be cold — a tener idiom, not a standalone verb."
+      ]
+    },
+    {
+      "id": "q074",
+      "q": "How do you say 'to be (state/location)'?",
+      "correct": "estar",
+      "incorrect": ["ser", "ir", "tener"],
+      "why_correct": "'Estar' is used for temporary states and locations — 'estoy aquí' = I'm here. Remember: E-PLACE (Emotion, Progressive, Location, Appearance, Condition, Event).",
+      "why_wrong": [
+        "'Ser' is used for permanent characteristics, identity, origin — different usage.",
+        "'Ir' means to go.",
+        "'Tener' means to have."
+      ]
+    },
+    {
+      "id": "q075",
+      "q": "What does 'ser' mean?",
+      "correct": "to be (permanent)",
+      "incorrect": ["to be (state/location)", "to hear", "to go"],
+      "why_correct": "'Ser' is used for permanent characteristics: identity, origin, profession, time, relationships — 'soy americano', 'es médico'. Contrast with 'estar' for states and locations.",
+      "why_wrong": [
+        "'Estar' is for states and locations — not permanent characteristics.",
+        "'Oír' means to hear.",
+        "'Ir' means to go."
+      ]
+    },
+    {
+      "id": "q076",
+      "q": "How do you say 'to be (permanent)'?",
+      "correct": "ser",
+      "incorrect": ["estar", "tener", "saber"],
+      "why_correct": "'Ser' is for permanent or inherent characteristics — origin, identity, material, time. 'Yo soy, tú eres...'",
+      "why_wrong": [
+        "'Estar' is for temporary states and location — different usage.",
+        "'Tener' means to have.",
+        "'Saber' means to know facts."
+      ]
+    },
+    {
+      "id": "q077",
+      "q": "What does 'oír' mean?",
+      "correct": "to hear",
+      "incorrect": ["to go", "to be (permanent)", "to bring"],
+      "why_correct": "'Oír' means to hear — 'yo oigo' (irregular). Related to English 'auditory' — same concept. '¿Oyes eso?' = Do you hear that?",
+      "why_wrong": [
+        "'Ir' means to go.",
+        "'Ser' means to be (permanent).",
+        "'Traer' means to bring."
+      ]
+    },
+    {
+      "id": "q078",
+      "q": "How do you say 'to hear'?",
+      "correct": "oír",
+      "incorrect": ["ser", "escuchar", "ver"],
+      "why_correct": "'Oír' means to hear passively — 'oigo música' = I hear music. Note: 'escuchar' means to listen (actively). Both relate to sound perception.",
+      "why_wrong": [
+        "'Ser' means to be (permanent).",
+        "'Escuchar' means to listen to (actively) — 'oír' is passive hearing vs. active listening.",
+        "'Ver' means to see."
+      ]
+    },
+    {
+      "id": "q079",
+      "q": "What does 'tener frío' mean?",
+      "correct": "to be cold",
+      "incorrect": ["to be sleepy", "to be lucky", "to be afraid of"],
+      "why_correct": "'Tener frío' = to be cold — literally 'to have coldness'. Spanish uses 'tener' (to have) for physical sensations where English says 'to be'.",
+      "why_wrong": [
+        "'Tener sueño' means to be sleepy (to have sleepiness).",
+        "'Tener suerte' means to be lucky (to have luck).",
+        "'Tener miedo de' means to be afraid of (to have fear of)."
+      ]
+    },
+    {
+      "id": "q080",
+      "q": "How do you say 'to be cold'?",
+      "correct": "tener frío",
+      "incorrect": ["tener calor", "tener sueño", "tener miedo de"],
+      "why_correct": "'Tener frío' = to be cold — 'frío' means cold. Remember: Spanish says 'have cold' where English says 'be cold'.",
+      "why_wrong": [
+        "'Tener calor' means to be hot (have heat).",
+        "'Tener sueño' means to be sleepy.",
+        "'Tener miedo de' means to be afraid of."
+      ]
+    },
+    {
+      "id": "q081",
+      "q": "What does 'tener sueño' mean?",
+      "correct": "to be sleepy",
+      "incorrect": ["to be lucky", "to be afraid of", "to be hot"],
+      "why_correct": "'Tener sueño' = to be sleepy — 'el sueño' means dream or sleep. 'Tengo sueño' = I'm sleepy.",
+      "why_wrong": [
+        "'Tener suerte' means to be lucky — 'suerte' means luck.",
+        "'Tener miedo de' means to be afraid of.",
+        "'Tener calor' means to be hot."
+      ]
+    },
+    {
+      "id": "q082",
+      "q": "How do you say 'to be sleepy'?",
+      "correct": "tener sueño",
+      "incorrect": ["tener frío", "tener suerte", "tener sed"],
+      "why_correct": "'Tener sueño' = to be sleepy — 'el sueño' is sleep/dream. 'Tengo mucho sueño' = I'm very sleepy.",
+      "why_wrong": [
+        "'Tener frío' means to be cold.",
+        "'Tener suerte' means to be lucky.",
+        "'Tener sed' means to be thirsty."
+      ]
+    },
+    {
+      "id": "q083",
+      "q": "What does 'tener suerte' mean?",
+      "correct": "to be lucky",
+      "incorrect": ["to be afraid of", "to be hot", "to be hungry"],
+      "why_correct": "'Tener suerte' = to be lucky — 'la suerte' means luck. 'Que tengas suerte!' = Good luck!",
+      "why_wrong": [
+        "'Tener miedo de' means to be afraid of.",
+        "'Tener calor' means to be hot.",
+        "'Tener hambre' means to be hungry."
+      ]
+    },
+    {
+      "id": "q084",
+      "q": "How do you say 'to be lucky'?",
+      "correct": "tener suerte",
+      "incorrect": ["tener sueño", "tener miedo de", "tener vergüenza"],
+      "why_correct": "'Tener suerte' = to be lucky — 'la suerte' (luck). 'Tienes mucha suerte' = You're very lucky.",
+      "why_wrong": [
+        "'Tener sueño' means to be sleepy.",
+        "'Tener miedo de' means to be afraid of.",
+        "'Tener vergüenza' means to be embarrassed."
+      ]
+    },
+    {
+      "id": "q085",
+      "q": "What does 'tener miedo de' mean?",
+      "correct": "to be afraid of",
+      "incorrect": ["to be hot", "to be hungry", "to be embarrassed"],
+      "why_correct": "'Tener miedo de' = to be afraid of — 'el miedo' means fear. 'Tengo miedo de las arañas' = I'm afraid of spiders.",
+      "why_wrong": [
+        "'Tener calor' means to be hot.",
+        "'Tener hambre' means to be hungry.",
+        "'Tener vergüenza' means to be embarrassed."
+      ]
+    },
+    {
+      "id": "q086",
+      "q": "How do you say 'to be afraid of'?",
+      "correct": "tener miedo de",
+      "incorrect": ["tener suerte", "tener hambre", "tener celos"],
+      "why_correct": "'Tener miedo de' = to be afraid of — 'el miedo' is fear. 'Tengo miedo de' + noun/infinitive.",
+      "why_wrong": [
+        "'Tener suerte' means to be lucky.",
+        "'Tener hambre' means to be hungry.",
+        "'Tener celos' means to be jealous."
+      ]
+    },
+    {
+      "id": "q087",
+      "q": "What does 'tener calor' mean?",
+      "correct": "to be hot",
+      "incorrect": ["to be hungry", "to be embarrassed", "to be thirsty"],
+      "why_correct": "'Tener calor' = to be hot — 'el calor' means heat. Related to English 'calorie' (unit of heat). 'Tengo mucho calor' = I'm very hot.",
+      "why_wrong": [
+        "'Tener hambre' means to be hungry.",
+        "'Tener vergüenza' means to be embarrassed.",
+        "'Tener sed' means to be thirsty."
+      ]
+    },
+    {
+      "id": "q088",
+      "q": "How do you say 'to be hot'?",
+      "correct": "tener calor",
+      "incorrect": ["tener frío", "tener hambre", "tener prisa"],
+      "why_correct": "'Tener calor' = to be hot — 'calor' (heat) is related to 'calorie'. The opposite is 'tener frío'.",
+      "why_wrong": [
+        "'Tener frío' means to be cold — the opposite!",
+        "'Tener hambre' means to be hungry.",
+        "'Tener prisa' means to be in a hurry."
+      ]
+    },
+    {
+      "id": "q089",
+      "q": "What does 'tener hambre' mean?",
+      "correct": "to be hungry",
+      "incorrect": ["to be embarrassed", "to be thirsty", "to be successful"],
+      "why_correct": "'Tener hambre' = to be hungry — 'el hambre' means hunger. Note: 'hambre' is feminine even though it starts with 'el' (because of the 'ha-' sound).",
+      "why_wrong": [
+        "'Tener vergüenza' means to be embarrassed.",
+        "'Tener sed' means to be thirsty.",
+        "'Tener éxito' means to be successful."
+      ]
+    },
+    {
+      "id": "q090",
+      "q": "How do you say 'to be hungry'?",
+      "correct": "tener hambre",
+      "incorrect": ["tener calor", "tener sed", "tener razón"],
+      "why_correct": "'Tener hambre' = to be hungry — 'hambre' means hunger. 'Tengo mucha hambre' = I'm very hungry.",
+      "why_wrong": [
+        "'Tener calor' means to be hot.",
+        "'Tener sed' means to be thirsty — hunger vs. thirst.",
+        "'Tener razón' means to be right."
+      ]
+    },
+    {
+      "id": "q091",
+      "q": "What does 'tener vergüenza' mean?",
+      "correct": "to be embarrassed",
+      "incorrect": ["to be thirsty", "to be successful", "to be careful"],
+      "why_correct": "'Tener vergüenza' = to be embarrassed — 'la vergüenza' means shame or embarrassment. 'Qué vergüenza!' = How embarrassing!",
+      "why_wrong": [
+        "'Tener sed' means to be thirsty.",
+        "'Tener éxito' means to be successful.",
+        "'Tener cuidado' means to be careful."
+      ]
+    },
+    {
+      "id": "q092",
+      "q": "How do you say 'to be embarrassed'?",
+      "correct": "tener vergüenza",
+      "incorrect": ["tener miedo de", "tener éxito", "tener celos"],
+      "why_correct": "'Tener vergüenza' = to be embarrassed — '¡Qué vergüenza!' (How embarrassing!).",
+      "why_wrong": [
+        "'Tener miedo de' means to be afraid of.",
+        "'Tener éxito' means to be successful.",
+        "'Tener celos' means to be jealous."
+      ]
+    },
+    {
+      "id": "q093",
+      "q": "What does 'tener sed' mean?",
+      "correct": "to be thirsty",
+      "incorrect": ["to be successful", "to be careful", "to be in a hurry"],
+      "why_correct": "'Tener sed' = to be thirsty — 'la sed' means thirst. 'Tengo mucha sed' = I'm very thirsty.",
+      "why_wrong": [
+        "'Tener éxito' means to be successful.",
+        "'Tener cuidado' means to be careful.",
+        "'Tener prisa' means to be in a hurry."
+      ]
+    },
+    {
+      "id": "q094",
+      "q": "How do you say 'to be thirsty'?",
+      "correct": "tener sed",
+      "incorrect": ["tener hambre", "tener cuidado", "tener razón"],
+      "why_correct": "'Tener sed' = to be thirsty — 'la sed' (thirst). Contrast with 'tener hambre' (to be hungry).",
+      "why_wrong": [
+        "'Tener hambre' means to be hungry — hunger, not thirst.",
+        "'Tener cuidado' means to be careful.",
+        "'Tener razón' means to be right."
+      ]
+    },
+    {
+      "id": "q095",
+      "q": "What does 'tener éxito' mean?",
+      "correct": "to be successful",
+      "incorrect": ["to be careful", "to be in a hurry", "to be right"],
+      "why_correct": "'Tener éxito' = to be successful — 'el éxito' means success. Note: 'éxito' is a false cognate — it does NOT mean 'exit'; it means success!",
+      "why_wrong": [
+        "'Tener cuidado' means to be careful.",
+        "'Tener prisa' means to be in a hurry.",
+        "'Tener razón' means to be right."
+      ]
+    },
+    {
+      "id": "q096",
+      "q": "How do you say 'to be successful'?",
+      "correct": "tener éxito",
+      "incorrect": ["tener vergüenza", "tener prisa", "tener celos"],
+      "why_correct": "'Tener éxito' = to be successful — 'éxito' (success) is a false cognate for 'exit'. 'El disco fue un gran éxito' = The album was a great success.",
+      "why_wrong": [
+        "'Tener vergüenza' means to be embarrassed.",
+        "'Tener prisa' means to be in a hurry.",
+        "'Tener celos' means to be jealous."
+      ]
+    },
+    {
+      "id": "q097",
+      "q": "What does 'tener cuidado' mean?",
+      "correct": "to be careful",
+      "incorrect": ["to be in a hurry", "to be right", "to be jealous"],
+      "why_correct": "'Tener cuidado' = to be careful — 'cuidado' means care. '¡Cuidado!' = Be careful! / Watch out!",
+      "why_wrong": [
+        "'Tener prisa' means to be in a hurry — don't confuse 'cuidado' with 'prisa'.",
+        "'Tener razón' means to be right.",
+        "'Tener celos' means to be jealous."
+      ]
+    },
+    {
+      "id": "q098",
+      "q": "How do you say 'to be careful'?",
+      "correct": "tener cuidado",
+      "incorrect": ["tener éxito", "tener razón", "tener frío"],
+      "why_correct": "'Tener cuidado' = to be careful — 'cuidado' (care). '¡Ten cuidado!' = Be careful!",
+      "why_wrong": [
+        "'Tener éxito' means to be successful.",
+        "'Tener razón' means to be right.",
+        "'Tener frío' means to be cold."
+      ]
+    },
+    {
+      "id": "q099",
+      "q": "What does 'tener prisa' mean?",
+      "correct": "to be in a hurry",
+      "incorrect": ["to be right", "to be jealous", "to be cold"],
+      "why_correct": "'Tener prisa' = to be in a hurry — 'la prisa' means haste/hurry. 'Tengo prisa' = I'm in a hurry.",
+      "why_wrong": [
+        "'Tener razón' means to be right.",
+        "'Tener celos' means to be jealous.",
+        "'Tener frío' means to be cold."
+      ]
+    },
+    {
+      "id": "q100",
+      "q": "How do you say 'to be in a hurry'?",
+      "correct": "tener prisa",
+      "incorrect": ["tener cuidado", "tener celos", "tener sueño"],
+      "why_correct": "'Tener prisa' = to be in a hurry — 'la prisa' (haste). 'Date prisa!' = Hurry up!",
+      "why_wrong": [
+        "'Tener cuidado' means to be careful.",
+        "'Tener celos' means to be jealous.",
+        "'Tener sueño' means to be sleepy."
+      ]
+    },
+    {
+      "id": "q101",
+      "q": "What does 'tener razón' mean?",
+      "correct": "to be right",
+      "incorrect": ["to be jealous", "to be sleepy", "to be successful"],
+      "why_correct": "'Tener razón' = to be right — 'la razón' means reason/rightness. 'Tienes razón' = You're right. Related to English 'rational' and 'reason'.",
+      "why_wrong": [
+        "'Tener celos' means to be jealous.",
+        "'Tener sueño' means to be sleepy.",
+        "'Tener éxito' means to be successful."
+      ]
+    },
+    {
+      "id": "q102",
+      "q": "How do you say 'to be right'?",
+      "correct": "tener razón",
+      "incorrect": ["tener prisa", "tener celos", "tener hambre"],
+      "why_correct": "'Tener razón' = to be right — 'razón' (reason). '¡Tienes razón!' = You're right!",
+      "why_wrong": [
+        "'Tener prisa' means to be in a hurry.",
+        "'Tener celos' means to be jealous.",
+        "'Tener hambre' means to be hungry."
+      ]
+    },
+    {
+      "id": "q103",
+      "q": "What does 'tener celos' mean?",
+      "correct": "to be jealous",
+      "incorrect": ["to be careful", "to be in a hurry", "to be embarrassed"],
+      "why_correct": "'Tener celos' = to be jealous — 'los celos' means jealousy. 'Los celos son malos' = Jealousy is bad. Related to English 'zealous' (overly passionate).",
+      "why_wrong": [
+        "'Tener cuidado' means to be careful.",
+        "'Tener prisa' means to be in a hurry.",
+        "'Tener vergüenza' means to be embarrassed."
+      ]
+    },
+    {
+      "id": "q104",
+      "q": "How do you say 'to be jealous'?",
+      "correct": "tener celos",
+      "incorrect": ["tener razón", "tener vergüenza", "tener calor"],
+      "why_correct": "'Tener celos' = to be jealous — 'los celos' (jealousy). '¡No tengas celos!' = Don't be jealous!",
+      "why_wrong": [
+        "'Tener razón' means to be right.",
+        "'Tener vergüenza' means to be embarrassed.",
+        "'Tener calor' means to be hot."
+      ]
+    }
+  ]
+}

@@ -150,6 +150,21 @@
           <span class="mode-name">Quiz (exam)</span>
           <span class="mode-desc">Graded at the end only</span>
         </button>
+        <button class="mode-card hidden" id="btn-translate-es-en" onclick="startTranslate('es_en')">
+          <span class="mode-icon">🇪🇸</span>
+          <span class="mode-name">Translate</span>
+          <span class="mode-desc">Spanish → English</span>
+        </button>
+        <button class="mode-card hidden" id="btn-translate-en-es" onclick="startTranslate('en_es')">
+          <span class="mode-icon">🇬🇧</span>
+          <span class="mode-name">Translate</span>
+          <span class="mode-desc">English → Spanish</span>
+        </button>
+        <button class="mode-card mode-card--wide hidden" id="btn-translate-mix" onclick="startTranslate('mix')">
+          <span class="mode-icon">🔀</span>
+          <span class="mode-name">Translate (Mixed)</span>
+          <span class="mode-desc">Both directions</span>
+        </button>
       </div>
 
       <!-- Browse + Stats tiles -->
@@ -287,6 +302,35 @@
             <div class="mcq-explanation" id="mcq-explanation"></div>
           </div>
           <button class="btn-next hidden" id="mcq-next">Next</button>
+        </div>
+      </div>
+
+      <!-- Translate mode -->
+      <div id="mode-translate" class="quiz-mode hidden">
+        <div class="quiz-inner">
+          <div class="direction-badge" id="translate-direction"></div>
+          <div class="word-display translate-sentence" id="translate-sentence"></div>
+          <div class="type-area translate-type-area">
+            <textarea
+              id="translate-input"
+              class="translate-input"
+              placeholder="Type your translation…"
+              rows="3"
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+            ></textarea>
+          </div>
+          <button class="btn-check" id="translate-check">Check</button>
+          <div id="translate-feedback" class="translate-feedback hidden">
+            <div class="translate-correct-label">Correct translation:</div>
+            <div class="translate-correct-text" id="translate-correct-text"></div>
+            <div class="answer-btns" style="margin-top:16px">
+              <button class="btn-wrong" id="translate-missed">Missed it</button>
+              <button class="btn-correct" id="translate-got-it">Got it</button>
+            </div>
+          </div>
         </div>
       </div>
 

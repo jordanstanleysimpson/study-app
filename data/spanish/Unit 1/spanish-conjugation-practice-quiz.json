@@ -1,0 +1,1449 @@
+{
+  "id": "spanish-conjugation-practice-quiz",
+  "name": "Unit 1: Conjugation Practice",
+  "subject": "Spanish",
+  "type": "quiz",
+  "created": "2026-03-10",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "What is the yo form of 'hablar'?",
+      "correct": "hablo",
+      "incorrect": ["hablas", "habla", "hablamos"],
+      "why_correct": "The yo form of any regular verb always ends in -o. Hablar → stem 'habl-' + -o = hablo. This rule applies to ALL regular verbs.",
+      "why_wrong": [
+        "'Hablas' is the tú form (you speak), not yo.",
+        "'Habla' is the él/ella form (he/she speaks), not yo.",
+        "'Hablamos' is the nosotros form (we speak), not yo."
+      ]
+    },
+    {
+      "id": "q002",
+      "q": "What is the tú form of 'hablar'?",
+      "correct": "hablas",
+      "incorrect": ["hablo", "habla", "hablan"],
+      "why_correct": "The tú form of -AR verbs ends in -as. Habl- + -as = hablas.",
+      "why_wrong": [
+        "'Hablo' is the yo form (I speak).",
+        "'Habla' is the él/ella form (he/she speaks).",
+        "'Hablan' is the ellos/ellas form (they speak)."
+      ]
+    },
+    {
+      "id": "q003",
+      "q": "What is the él/ella form of 'hablar'?",
+      "correct": "habla",
+      "incorrect": ["hablo", "hablas", "hablamos"],
+      "why_correct": "The él/ella form of -AR verbs ends in -a. Habl- + -a = habla.",
+      "why_wrong": [
+        "'Hablo' is the yo form.",
+        "'Hablas' is the tú form.",
+        "'Hablamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q004",
+      "q": "What is the nosotros form of 'hablar'?",
+      "correct": "hablamos",
+      "incorrect": ["habla", "hablan", "hablo"],
+      "why_correct": "The nosotros form of -AR verbs ends in -amos. Habl- + -amos = hablamos.",
+      "why_wrong": [
+        "'Habla' is the él/ella form.",
+        "'Hablan' is the ellos form.",
+        "'Hablo' is the yo form."
+      ]
+    },
+    {
+      "id": "q005",
+      "q": "What is the ellos form of 'hablar'?",
+      "correct": "hablan",
+      "incorrect": ["hablas", "habla", "hablamos"],
+      "why_correct": "The ellos/ellas form of -AR verbs ends in -an. Habl- + -an = hablan.",
+      "why_wrong": [
+        "'Hablas' is the tú form.",
+        "'Habla' is the él/ella form.",
+        "'Hablamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q006",
+      "q": "What is the yo form of 'bailar'?",
+      "correct": "bailo",
+      "incorrect": ["bailas", "baila", "bailan"],
+      "why_correct": "Bailar is a regular -AR verb. Stem 'bail-' + yo ending -o = bailo.",
+      "why_wrong": [
+        "'Bailas' is the tú form (you dance).",
+        "'Baila' is the él/ella form (he/she dances).",
+        "'Bailan' is the ellos form (they dance)."
+      ]
+    },
+    {
+      "id": "q007",
+      "q": "What is the tú form of 'bailar'?",
+      "correct": "bailas",
+      "incorrect": ["bailo", "baila", "bailamos"],
+      "why_correct": "Bailar is -AR, so tú form = stem + -as = bailas.",
+      "why_wrong": [
+        "'Bailo' is the yo form.",
+        "'Baila' is the él/ella form.",
+        "'Bailamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q008",
+      "q": "What is the él/ella form of 'bailar'?",
+      "correct": "baila",
+      "incorrect": ["bailo", "bailas", "bailamos"],
+      "why_correct": "For -AR él/ella: stem + -a = baila.",
+      "why_wrong": [
+        "'Bailo' is the yo form.",
+        "'Bailas' is the tú form.",
+        "'Bailamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q009",
+      "q": "What is the nosotros form of 'bailar'?",
+      "correct": "bailamos",
+      "incorrect": ["baila", "bailan", "bailas"],
+      "why_correct": "For -AR nosotros: stem + -amos = bailamos.",
+      "why_wrong": [
+        "'Baila' is the él/ella form.",
+        "'Bailan' is the ellos form.",
+        "'Bailas' is the tú form."
+      ]
+    },
+    {
+      "id": "q010",
+      "q": "What is the ellos form of 'bailar'?",
+      "correct": "bailan",
+      "incorrect": ["baila", "bailas", "bailamos"],
+      "why_correct": "For -AR ellos/ellas: stem + -an = bailan.",
+      "why_wrong": [
+        "'Baila' is the él/ella form.",
+        "'Bailas' is the tú form.",
+        "'Bailamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q011",
+      "q": "What is the yo form of 'trabajar'?",
+      "correct": "trabajo",
+      "incorrect": ["trabajas", "trabaja", "trabajan"],
+      "why_correct": "Trabajar → stem 'trabaj-' + yo ending -o = trabajo.",
+      "why_wrong": [
+        "'Trabajas' is the tú form.",
+        "'Trabaja' is the él/ella form.",
+        "'Trabajan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q012",
+      "q": "What is the tú form of 'trabajar'?",
+      "correct": "trabajas",
+      "incorrect": ["trabajo", "trabaja", "trabajamos"],
+      "why_correct": "Trabajar is -AR. Tú form: stem 'trabaj-' + -as = trabajas.",
+      "why_wrong": [
+        "'Trabajo' is the yo form.",
+        "'Trabaja' is the él/ella form.",
+        "'Trabajamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q013",
+      "q": "What is the él/ella form of 'trabajar'?",
+      "correct": "trabaja",
+      "incorrect": ["trabajo", "trabajas", "trabajan"],
+      "why_correct": "Trabajar is -AR. Él/ella form: stem + -a = trabaja.",
+      "why_wrong": [
+        "'Trabajo' is the yo form.",
+        "'Trabajas' is the tú form.",
+        "'Trabajan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q014",
+      "q": "What is the nosotros form of 'trabajar'?",
+      "correct": "trabajamos",
+      "incorrect": ["trabaja", "trabajan", "trabajo"],
+      "why_correct": "Trabajar is -AR. Nosotros form: stem + -amos = trabajamos.",
+      "why_wrong": [
+        "'Trabaja' is the él/ella form.",
+        "'Trabajan' is the ellos form.",
+        "'Trabajo' is the yo form."
+      ]
+    },
+    {
+      "id": "q015",
+      "q": "What is the ellos form of 'trabajar'?",
+      "correct": "trabajan",
+      "incorrect": ["trabajas", "trabaja", "trabajamos"],
+      "why_correct": "Trabajar is -AR. Ellos/ellas form: stem + -an = trabajan.",
+      "why_wrong": [
+        "'Trabajas' is the tú form.",
+        "'Trabaja' is the él/ella form.",
+        "'Trabajamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q016",
+      "q": "What is the yo form of 'escuchar'?",
+      "correct": "escucho",
+      "incorrect": ["escuchas", "escucha", "escuchan"],
+      "why_correct": "Escuchar → stem 'escuch-' + -o = escucho. All yo forms end in -o.",
+      "why_wrong": [
+        "'Escuchas' is the tú form.",
+        "'Escucha' is the él/ella form.",
+        "'Escuchan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q017",
+      "q": "What is the tú form of 'escuchar'?",
+      "correct": "escuchas",
+      "incorrect": ["escucho", "escucha", "escuchamos"],
+      "why_correct": "Escuchar is -AR. Tú: stem 'escuch-' + -as = escuchas.",
+      "why_wrong": [
+        "'Escucho' is the yo form.",
+        "'Escucha' is the él/ella form.",
+        "'Escuchamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q018",
+      "q": "What is the él/ella form of 'escuchar'?",
+      "correct": "escucha",
+      "incorrect": ["escucho", "escuchas", "escuchan"],
+      "why_correct": "Escuchar is -AR. Él/ella: stem + -a = escucha.",
+      "why_wrong": [
+        "'Escucho' is the yo form.",
+        "'Escuchas' is the tú form.",
+        "'Escuchan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q019",
+      "q": "What is the nosotros form of 'escuchar'?",
+      "correct": "escuchamos",
+      "incorrect": ["escucha", "escuchan", "escuchas"],
+      "why_correct": "Escuchar is -AR. Nosotros: stem + -amos = escuchamos.",
+      "why_wrong": [
+        "'Escucha' is the él/ella form.",
+        "'Escuchan' is the ellos form.",
+        "'Escuchas' is the tú form."
+      ]
+    },
+    {
+      "id": "q020",
+      "q": "What is the ellos form of 'escuchar'?",
+      "correct": "escuchan",
+      "incorrect": ["escucha", "escuchamos", "escuchas"],
+      "why_correct": "Escuchar is -AR. Ellos/ellas: stem + -an = escuchan.",
+      "why_wrong": [
+        "'Escucha' is the él/ella form.",
+        "'Escuchamos' is the nosotros form.",
+        "'Escuchas' is the tú form."
+      ]
+    },
+    {
+      "id": "q021",
+      "q": "What is the yo form of 'estudiar'?",
+      "correct": "estudio",
+      "incorrect": ["estudias", "estudia", "estudian"],
+      "why_correct": "Estudiar → stem 'estudi-' + -o = estudio. Note: the 'i' in the stem stays, giving -io ending.",
+      "why_wrong": [
+        "'Estudias' is the tú form.",
+        "'Estudia' is the él/ella form.",
+        "'Estudian' is the ellos form."
+      ]
+    },
+    {
+      "id": "q022",
+      "q": "What is the tú form of 'estudiar'?",
+      "correct": "estudias",
+      "incorrect": ["estudio", "estudia", "estudiamos"],
+      "why_correct": "Estudiar is -AR. Tú: stem 'estudi-' + -as = estudias.",
+      "why_wrong": [
+        "'Estudio' is the yo form.",
+        "'Estudia' is the él/ella form.",
+        "'Estudiamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q023",
+      "q": "What is the él/ella form of 'estudiar'?",
+      "correct": "estudia",
+      "incorrect": ["estudio", "estudias", "estudian"],
+      "why_correct": "Estudiar is -AR. Él/ella: stem + -a = estudia.",
+      "why_wrong": [
+        "'Estudio' is the yo form.",
+        "'Estudias' is the tú form.",
+        "'Estudian' is the ellos form."
+      ]
+    },
+    {
+      "id": "q024",
+      "q": "What is the nosotros form of 'estudiar'?",
+      "correct": "estudiamos",
+      "incorrect": ["estudia", "estudian", "estudias"],
+      "why_correct": "Estudiar is -AR. Nosotros: stem + -amos = estudiamos.",
+      "why_wrong": [
+        "'Estudia' is the él/ella form.",
+        "'Estudian' is the ellos form.",
+        "'Estudias' is the tú form."
+      ]
+    },
+    {
+      "id": "q025",
+      "q": "What is the ellos form of 'estudiar'?",
+      "correct": "estudian",
+      "incorrect": ["estudias", "estudia", "estudiamos"],
+      "why_correct": "Estudiar is -AR. Ellos/ellas: stem + -an = estudian.",
+      "why_wrong": [
+        "'Estudias' is the tú form.",
+        "'Estudia' is the él/ella form.",
+        "'Estudiamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q026",
+      "q": "What is the yo form of 'llamar'?",
+      "correct": "llamo",
+      "incorrect": ["llamas", "llama", "llaman"],
+      "why_correct": "Llamar → stem 'll-am-' + -o = llamo. 'Me llamo' = 'I call myself' = My name is.",
+      "why_wrong": [
+        "'Llamas' is the tú form.",
+        "'Llama' is the él/ella form — also the South American animal!",
+        "'Llaman' is the ellos form."
+      ]
+    },
+    {
+      "id": "q027",
+      "q": "What is the tú form of 'llamar'?",
+      "correct": "llamas",
+      "incorrect": ["llamo", "llama", "llamamos"],
+      "why_correct": "Llamar is -AR. Tú: stem 'llam-' + -as = llamas. '¿Cómo te llamas?' = What's your name?",
+      "why_wrong": [
+        "'Llamo' is the yo form.",
+        "'Llama' is the él/ella form.",
+        "'Llamamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q028",
+      "q": "What is the él/ella form of 'llamar'?",
+      "correct": "llama",
+      "incorrect": ["llamo", "llamas", "llamamos"],
+      "why_correct": "Llamar is -AR. Él/ella: stem + -a = llama. 'Se llama' = he/she is called.",
+      "why_wrong": [
+        "'Llamo' is the yo form.",
+        "'Llamas' is the tú form.",
+        "'Llamamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q029",
+      "q": "What is the nosotros form of 'llamar'?",
+      "correct": "llamamos",
+      "incorrect": ["llama", "llaman", "llamo"],
+      "why_correct": "Llamar is -AR. Nosotros: stem + -amos = llamamos.",
+      "why_wrong": [
+        "'Llama' is the él/ella form.",
+        "'Llaman' is the ellos form.",
+        "'Llamo' is the yo form."
+      ]
+    },
+    {
+      "id": "q030",
+      "q": "What is the ellos form of 'llamar'?",
+      "correct": "llaman",
+      "incorrect": ["llamas", "llama", "llamamos"],
+      "why_correct": "Llamar is -AR. Ellos/ellas: stem + -an = llaman.",
+      "why_wrong": [
+        "'Llamas' is the tú form.",
+        "'Llama' is the él/ella form.",
+        "'Llamamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q031",
+      "q": "What is the yo form of 'comprar'?",
+      "correct": "compro",
+      "incorrect": ["compras", "compra", "compran"],
+      "why_correct": "Comprar → stem 'compr-' + -o = compro.",
+      "why_wrong": [
+        "'Compras' is the tú form.",
+        "'Compra' is the él/ella form.",
+        "'Compran' is the ellos form."
+      ]
+    },
+    {
+      "id": "q032",
+      "q": "What is the tú form of 'comprar'?",
+      "correct": "compras",
+      "incorrect": ["compro", "compra", "compramos"],
+      "why_correct": "Comprar is -AR. Tú: stem + -as = compras.",
+      "why_wrong": [
+        "'Compro' is the yo form.",
+        "'Compra' is the él/ella form.",
+        "'Compramos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q033",
+      "q": "What is the él/ella form of 'comprar'?",
+      "correct": "compra",
+      "incorrect": ["compro", "compras", "compran"],
+      "why_correct": "Comprar is -AR. Él/ella: stem + -a = compra.",
+      "why_wrong": [
+        "'Compro' is the yo form.",
+        "'Compras' is the tú form.",
+        "'Compran' is the ellos form."
+      ]
+    },
+    {
+      "id": "q034",
+      "q": "What is the nosotros form of 'comprar'?",
+      "correct": "compramos",
+      "incorrect": ["compra", "compran", "compras"],
+      "why_correct": "Comprar is -AR. Nosotros: stem + -amos = compramos.",
+      "why_wrong": [
+        "'Compra' is the él/ella form.",
+        "'Compran' is the ellos form.",
+        "'Compras' is the tú form."
+      ]
+    },
+    {
+      "id": "q035",
+      "q": "What is the ellos form of 'comprar'?",
+      "correct": "compran",
+      "incorrect": ["compras", "compra", "compramos"],
+      "why_correct": "Comprar is -AR. Ellos/ellas: stem + -an = compran.",
+      "why_wrong": [
+        "'Compras' is the tú form.",
+        "'Compra' is the él/ella form.",
+        "'Compramos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q036",
+      "q": "What is the yo form of 'mirar'?",
+      "correct": "miro",
+      "incorrect": ["miras", "mira", "miran"],
+      "why_correct": "Mirar → stem 'mir-' + -o = miro. 'Miro la tele' = I watch TV.",
+      "why_wrong": [
+        "'Miras' is the tú form.",
+        "'Mira' is the él/ella form — also used as an interjection: 'Mira!' = Look!",
+        "'Miran' is the ellos form."
+      ]
+    },
+    {
+      "id": "q037",
+      "q": "What is the tú form of 'mirar'?",
+      "correct": "miras",
+      "incorrect": ["miro", "mira", "miramos"],
+      "why_correct": "Mirar is -AR. Tú: stem 'mir-' + -as = miras.",
+      "why_wrong": [
+        "'Miro' is the yo form.",
+        "'Mira' is the él/ella form.",
+        "'Miramos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q038",
+      "q": "What is the él/ella form of 'mirar'?",
+      "correct": "mira",
+      "incorrect": ["miro", "miras", "miramos"],
+      "why_correct": "Mirar is -AR. Él/ella: stem + -a = mira.",
+      "why_wrong": [
+        "'Miro' is the yo form.",
+        "'Miras' is the tú form.",
+        "'Miramos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q039",
+      "q": "What is the nosotros form of 'mirar'?",
+      "correct": "miramos",
+      "incorrect": ["mira", "miran", "miras"],
+      "why_correct": "Mirar is -AR. Nosotros: stem + -amos = miramos.",
+      "why_wrong": [
+        "'Mira' is the él/ella form.",
+        "'Miran' is the ellos form.",
+        "'Miras' is the tú form."
+      ]
+    },
+    {
+      "id": "q040",
+      "q": "What is the ellos form of 'mirar'?",
+      "correct": "miran",
+      "incorrect": ["miras", "mira", "miramos"],
+      "why_correct": "Mirar is -AR. Ellos/ellas: stem + -an = miran.",
+      "why_wrong": [
+        "'Miras' is the tú form.",
+        "'Mira' is the él/ella form.",
+        "'Miramos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q041",
+      "q": "What is the yo form of 'caminar'?",
+      "correct": "camino",
+      "incorrect": ["caminas", "camina", "caminamos"],
+      "why_correct": "Caminar → stem 'camin-' + -o = camino. 'Camino todos los días' = I walk every day.",
+      "why_wrong": [
+        "'Caminas' is the tú form.",
+        "'Camina' is the él/ella form.",
+        "'Caminamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q042",
+      "q": "What is the tú form of 'caminar'?",
+      "correct": "caminas",
+      "incorrect": ["camino", "camina", "caminan"],
+      "why_correct": "Caminar is -AR. Tú: stem + -as = caminas.",
+      "why_wrong": [
+        "'Camino' is the yo form.",
+        "'Camina' is the él/ella form.",
+        "'Caminan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q043",
+      "q": "What is the él/ella form of 'caminar'?",
+      "correct": "camina",
+      "incorrect": ["camino", "caminas", "caminan"],
+      "why_correct": "Caminar is -AR. Él/ella: stem + -a = camina.",
+      "why_wrong": [
+        "'Camino' is the yo form.",
+        "'Caminas' is the tú form.",
+        "'Caminan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q044",
+      "q": "What is the nosotros form of 'caminar'?",
+      "correct": "caminamos",
+      "incorrect": ["camina", "caminan", "caminas"],
+      "why_correct": "Caminar is -AR. Nosotros: stem + -amos = caminamos.",
+      "why_wrong": [
+        "'Camina' is the él/ella form.",
+        "'Caminan' is the ellos form.",
+        "'Caminas' is the tú form."
+      ]
+    },
+    {
+      "id": "q045",
+      "q": "What is the ellos form of 'caminar'?",
+      "correct": "caminan",
+      "incorrect": ["camina", "caminamos", "caminas"],
+      "why_correct": "Caminar is -AR. Ellos/ellas: stem + -an = caminan.",
+      "why_wrong": [
+        "'Camina' is the él/ella form.",
+        "'Caminamos' is the nosotros form.",
+        "'Caminas' is the tú form."
+      ]
+    },
+    {
+      "id": "q046",
+      "q": "What is the yo form of 'cocinar'?",
+      "correct": "cocino",
+      "incorrect": ["cocinas", "cocina", "cocinan"],
+      "why_correct": "Cocinar → stem 'cocin-' + -o = cocino.",
+      "why_wrong": [
+        "'Cocinas' is the tú form.",
+        "'Cocina' is the él/ella form — also the noun for 'kitchen'!",
+        "'Cocinan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q047",
+      "q": "What is the tú form of 'cocinar'?",
+      "correct": "cocinas",
+      "incorrect": ["cocino", "cocina", "cocinamos"],
+      "why_correct": "Cocinar is -AR. Tú: stem + -as = cocinas.",
+      "why_wrong": [
+        "'Cocino' is the yo form.",
+        "'Cocina' is the él/ella form.",
+        "'Cocinamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q048",
+      "q": "What is the él/ella form of 'cocinar'?",
+      "correct": "cocina",
+      "incorrect": ["cocino", "cocinas", "cocinan"],
+      "why_correct": "Cocinar is -AR. Él/ella: stem + -a = cocina.",
+      "why_wrong": [
+        "'Cocino' is the yo form.",
+        "'Cocinas' is the tú form.",
+        "'Cocinan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q049",
+      "q": "What is the nosotros form of 'cocinar'?",
+      "correct": "cocinamos",
+      "incorrect": ["cocina", "cocinan", "cocinas"],
+      "why_correct": "Cocinar is -AR. Nosotros: stem + -amos = cocinamos.",
+      "why_wrong": [
+        "'Cocina' is the él/ella form.",
+        "'Cocinan' is the ellos form.",
+        "'Cocinas' is the tú form."
+      ]
+    },
+    {
+      "id": "q050",
+      "q": "What is the ellos form of 'cocinar'?",
+      "correct": "cocinan",
+      "incorrect": ["cocina", "cocinamos", "cocinas"],
+      "why_correct": "Cocinar is -AR. Ellos/ellas: stem + -an = cocinan.",
+      "why_wrong": [
+        "'Cocina' is the él/ella form.",
+        "'Cocinamos' is the nosotros form.",
+        "'Cocinas' is the tú form."
+      ]
+    },
+    {
+      "id": "q051",
+      "q": "What is the yo form of 'buscar'?",
+      "correct": "busco",
+      "incorrect": ["buscas", "busca", "buscan"],
+      "why_correct": "Buscar → stem 'busc-' + -o = busco. Note: no spelling change needed in yo (buscar keeps 'c' before -o).",
+      "why_wrong": [
+        "'Buscas' is the tú form.",
+        "'Busca' is the él/ella form.",
+        "'Buscan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q052",
+      "q": "What is the tú form of 'buscar'?",
+      "correct": "buscas",
+      "incorrect": ["busco", "busca", "buscamos"],
+      "why_correct": "Buscar is -AR. Tú: stem 'busc-' + -as = buscas.",
+      "why_wrong": [
+        "'Busco' is the yo form.",
+        "'Busca' is the él/ella form.",
+        "'Buscamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q053",
+      "q": "What is the él/ella form of 'buscar'?",
+      "correct": "busca",
+      "incorrect": ["busco", "buscas", "buscan"],
+      "why_correct": "Buscar is -AR. Él/ella: stem + -a = busca.",
+      "why_wrong": [
+        "'Busco' is the yo form.",
+        "'Buscas' is the tú form.",
+        "'Buscan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q054",
+      "q": "What is the nosotros form of 'buscar'?",
+      "correct": "buscamos",
+      "incorrect": ["busca", "buscan", "buscas"],
+      "why_correct": "Buscar is -AR. Nosotros: stem + -amos = buscamos.",
+      "why_wrong": [
+        "'Busca' is the él/ella form.",
+        "'Buscan' is the ellos form.",
+        "'Buscas' is the tú form."
+      ]
+    },
+    {
+      "id": "q055",
+      "q": "What is the ellos form of 'buscar'?",
+      "correct": "buscan",
+      "incorrect": ["buscas", "busca", "buscamos"],
+      "why_correct": "Buscar is -AR. Ellos/ellas: stem + -an = buscan.",
+      "why_wrong": [
+        "'Buscas' is the tú form.",
+        "'Busca' is the él/ella form.",
+        "'Buscamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q056",
+      "q": "What is the yo form of 'necesitar'?",
+      "correct": "necesito",
+      "incorrect": ["necesitas", "necesita", "necesitan"],
+      "why_correct": "Necesitar → stem 'necesit-' + -o = necesito.",
+      "why_wrong": [
+        "'Necesitas' is the tú form.",
+        "'Necesita' is the él/ella form.",
+        "'Necesitan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q057",
+      "q": "What is the tú form of 'necesitar'?",
+      "correct": "necesitas",
+      "incorrect": ["necesito", "necesita", "necesitamos"],
+      "why_correct": "Necesitar is -AR. Tú: stem + -as = necesitas.",
+      "why_wrong": [
+        "'Necesito' is the yo form.",
+        "'Necesita' is the él/ella form.",
+        "'Necesitamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q058",
+      "q": "What is the él/ella form of 'necesitar'?",
+      "correct": "necesita",
+      "incorrect": ["necesito", "necesitas", "necesitan"],
+      "why_correct": "Necesitar is -AR. Él/ella: stem + -a = necesita.",
+      "why_wrong": [
+        "'Necesito' is the yo form.",
+        "'Necesitas' is the tú form.",
+        "'Necesitan' is the ellos form."
+      ]
+    },
+    {
+      "id": "q059",
+      "q": "What is the nosotros form of 'necesitar'?",
+      "correct": "necesitamos",
+      "incorrect": ["necesita", "necesitan", "necesitas"],
+      "why_correct": "Necesitar is -AR. Nosotros: stem + -amos = necesitamos.",
+      "why_wrong": [
+        "'Necesita' is the él/ella form.",
+        "'Necesitan' is the ellos form.",
+        "'Necesitas' is the tú form."
+      ]
+    },
+    {
+      "id": "q060",
+      "q": "What is the ellos form of 'necesitar'?",
+      "correct": "necesitan",
+      "incorrect": ["necesitas", "necesita", "necesitamos"],
+      "why_correct": "Necesitar is -AR. Ellos/ellas: stem + -an = necesitan.",
+      "why_wrong": [
+        "'Necesitas' is the tú form.",
+        "'Necesita' is the él/ella form.",
+        "'Necesitamos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q061",
+      "q": "What is the yo form of 'comer'?",
+      "correct": "como",
+      "incorrect": ["comes", "come", "comen"],
+      "why_correct": "Comer is a regular -ER verb. Stem 'com-' + yo ending -o = como. Note: 'como' also means 'as/like', but in verb form it means 'I eat'.",
+      "why_wrong": [
+        "'Comes' is the tú form (you eat).",
+        "'Come' is the él/ella form (he/she eats).",
+        "'Comen' is the ellos form (they eat)."
+      ]
+    },
+    {
+      "id": "q062",
+      "q": "What is the tú form of 'comer'?",
+      "correct": "comes",
+      "incorrect": ["como", "come", "comemos"],
+      "why_correct": "Comer is -ER. Tú form: stem 'com-' + -es = comes. Note the -ER tú ending is -es (not -as like -AR).",
+      "why_wrong": [
+        "'Como' is the yo form.",
+        "'Come' is the él/ella form.",
+        "'Comemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q063",
+      "q": "What is the él/ella form of 'comer'?",
+      "correct": "come",
+      "incorrect": ["como", "comes", "comen"],
+      "why_correct": "Comer is -ER. Él/ella: stem + -e = come. The -ER él/ella ending is -e (not -a like -AR).",
+      "why_wrong": [
+        "'Como' is the yo form.",
+        "'Comes' is the tú form.",
+        "'Comen' is the ellos form."
+      ]
+    },
+    {
+      "id": "q064",
+      "q": "What is the nosotros form of 'comer'?",
+      "correct": "comemos",
+      "incorrect": ["come", "comen", "como"],
+      "why_correct": "Comer is -ER. Nosotros: stem + -emos = comemos. The -ER nosotros ending is -emos (not -amos).",
+      "why_wrong": [
+        "'Come' is the él/ella form.",
+        "'Comen' is the ellos form.",
+        "'Como' is the yo form."
+      ]
+    },
+    {
+      "id": "q065",
+      "q": "What is the ellos form of 'comer'?",
+      "correct": "comen",
+      "incorrect": ["comes", "come", "comemos"],
+      "why_correct": "Comer is -ER. Ellos/ellas: stem + -en = comen. The -ER/-IR ellos ending is -en (not -an).",
+      "why_wrong": [
+        "'Comes' is the tú form.",
+        "'Come' is the él/ella form.",
+        "'Comemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q066",
+      "q": "What is the yo form of 'beber'?",
+      "correct": "bebo",
+      "incorrect": ["bebes", "bebe", "beben"],
+      "why_correct": "Beber is a regular -ER verb. Stem 'beb-' + -o = bebo.",
+      "why_wrong": [
+        "'Bebes' is the tú form.",
+        "'Bebe' is the él/ella form.",
+        "'Beben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q067",
+      "q": "What is the tú form of 'beber'?",
+      "correct": "bebes",
+      "incorrect": ["bebo", "bebe", "bebemos"],
+      "why_correct": "Beber is -ER. Tú: stem 'beb-' + -es = bebes.",
+      "why_wrong": [
+        "'Bebo' is the yo form.",
+        "'Bebe' is the él/ella form.",
+        "'Bebemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q068",
+      "q": "What is the él/ella form of 'beber'?",
+      "correct": "bebe",
+      "incorrect": ["bebo", "bebes", "beben"],
+      "why_correct": "Beber is -ER. Él/ella: stem + -e = bebe.",
+      "why_wrong": [
+        "'Bebo' is the yo form.",
+        "'Bebes' is the tú form.",
+        "'Beben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q069",
+      "q": "What is the nosotros form of 'beber'?",
+      "correct": "bebemos",
+      "incorrect": ["bebe", "beben", "bebimos"],
+      "why_correct": "Beber is -ER. Nosotros: stem + -emos = bebemos. (Not bebimos — that's an -IR ending.)",
+      "why_wrong": [
+        "'Bebe' is the él/ella form.",
+        "'Beben' is the ellos form.",
+        "'Bebimos' uses the -IR nosotros ending (-imos) — wrong for -ER verbs."
+      ]
+    },
+    {
+      "id": "q070",
+      "q": "What is the ellos form of 'beber'?",
+      "correct": "beben",
+      "incorrect": ["bebes", "bebe", "bebemos"],
+      "why_correct": "Beber is -ER. Ellos/ellas: stem + -en = beben.",
+      "why_wrong": [
+        "'Bebes' is the tú form.",
+        "'Bebe' is the él/ella form.",
+        "'Bebemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q071",
+      "q": "What is the yo form of 'leer'?",
+      "correct": "leo",
+      "incorrect": ["lees", "lee", "leemos"],
+      "why_correct": "Leer is -ER. Stem 'le-' + -o = leo. Note: the stem ends in 'e', so the yo form is 'leo' (not 'leo' is unusual but correct).",
+      "why_wrong": [
+        "'Lees' is the tú form.",
+        "'Lee' is the él/ella form.",
+        "'Leemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q072",
+      "q": "What is the tú form of 'leer'?",
+      "correct": "lees",
+      "incorrect": ["leo", "lee", "leemos"],
+      "why_correct": "Leer is -ER. Tú: stem 'le-' + -es = lees. Two e's together: le + es = lees.",
+      "why_wrong": [
+        "'Leo' is the yo form.",
+        "'Lee' is the él/ella form.",
+        "'Leemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q073",
+      "q": "What is the él/ella form of 'leer'?",
+      "correct": "lee",
+      "incorrect": ["leo", "lees", "leen"],
+      "why_correct": "Leer is -ER. Él/ella: stem 'le-' + -e = lee. Two e's: le + e = lee.",
+      "why_wrong": [
+        "'Leo' is the yo form.",
+        "'Lees' is the tú form.",
+        "'Leen' is the ellos form."
+      ]
+    },
+    {
+      "id": "q074",
+      "q": "What is the nosotros form of 'leer'?",
+      "correct": "leemos",
+      "incorrect": ["lee", "leen", "lees"],
+      "why_correct": "Leer is -ER. Nosotros: stem 'le-' + -emos = leemos.",
+      "why_wrong": [
+        "'Lee' is the él/ella form.",
+        "'Leen' is the ellos form.",
+        "'Lees' is the tú form."
+      ]
+    },
+    {
+      "id": "q075",
+      "q": "What is the ellos form of 'leer'?",
+      "correct": "leen",
+      "incorrect": ["lees", "lee", "leemos"],
+      "why_correct": "Leer is -ER. Ellos/ellas: stem 'le-' + -en = leen.",
+      "why_wrong": [
+        "'Lees' is the tú form.",
+        "'Lee' is the él/ella form.",
+        "'Leemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q076",
+      "q": "What is the yo form of 'aprender'?",
+      "correct": "aprendo",
+      "incorrect": ["aprendes", "aprende", "aprendemos"],
+      "why_correct": "Aprender is -ER. Stem 'aprend-' + -o = aprendo.",
+      "why_wrong": [
+        "'Aprendes' is the tú form.",
+        "'Aprende' is the él/ella form.",
+        "'Aprendemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q077",
+      "q": "What is the tú form of 'aprender'?",
+      "correct": "aprendes",
+      "incorrect": ["aprendo", "aprende", "aprenden"],
+      "why_correct": "Aprender is -ER. Tú: stem + -es = aprendes.",
+      "why_wrong": [
+        "'Aprendo' is the yo form.",
+        "'Aprende' is the él/ella form.",
+        "'Aprenden' is the ellos form."
+      ]
+    },
+    {
+      "id": "q078",
+      "q": "What is the él/ella form of 'aprender'?",
+      "correct": "aprende",
+      "incorrect": ["aprendo", "aprendes", "aprenden"],
+      "why_correct": "Aprender is -ER. Él/ella: stem + -e = aprende.",
+      "why_wrong": [
+        "'Aprendo' is the yo form.",
+        "'Aprendes' is the tú form.",
+        "'Aprenden' is the ellos form."
+      ]
+    },
+    {
+      "id": "q079",
+      "q": "What is the nosotros form of 'aprender'?",
+      "correct": "aprendemos",
+      "incorrect": ["aprende", "aprenden", "aprendimos"],
+      "why_correct": "Aprender is -ER. Nosotros: stem + -emos = aprendemos.",
+      "why_wrong": [
+        "'Aprende' is the él/ella form.",
+        "'Aprenden' is the ellos form.",
+        "'Aprendimos' uses -IR nosotros ending — wrong for this -ER verb."
+      ]
+    },
+    {
+      "id": "q080",
+      "q": "What is the ellos form of 'aprender'?",
+      "correct": "aprenden",
+      "incorrect": ["aprendes", "aprende", "aprendemos"],
+      "why_correct": "Aprender is -ER. Ellos/ellas: stem + -en = aprenden.",
+      "why_wrong": [
+        "'Aprendes' is the tú form.",
+        "'Aprende' is the él/ella form.",
+        "'Aprendemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q081",
+      "q": "What is the yo form of 'correr'?",
+      "correct": "corro",
+      "incorrect": ["corres", "corre", "corren"],
+      "why_correct": "Correr is -ER. Stem 'corr-' + -o = corro.",
+      "why_wrong": [
+        "'Corres' is the tú form.",
+        "'Corre' is the él/ella form.",
+        "'Corren' is the ellos form."
+      ]
+    },
+    {
+      "id": "q082",
+      "q": "What is the tú form of 'correr'?",
+      "correct": "corres",
+      "incorrect": ["corro", "corre", "corremos"],
+      "why_correct": "Correr is -ER. Tú: stem + -es = corres.",
+      "why_wrong": [
+        "'Corro' is the yo form.",
+        "'Corre' is the él/ella form.",
+        "'Corremos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q083",
+      "q": "What is the él/ella form of 'correr'?",
+      "correct": "corre",
+      "incorrect": ["corro", "corres", "corren"],
+      "why_correct": "Correr is -ER. Él/ella: stem + -e = corre.",
+      "why_wrong": [
+        "'Corro' is the yo form.",
+        "'Corres' is the tú form.",
+        "'Corren' is the ellos form."
+      ]
+    },
+    {
+      "id": "q084",
+      "q": "What is the nosotros form of 'correr'?",
+      "correct": "corremos",
+      "incorrect": ["corre", "corren", "corremos"],
+      "why_correct": "Correr is -ER. Nosotros: stem + -emos = corremos.",
+      "why_wrong": [
+        "'Corre' is the él/ella form.",
+        "'Corren' is the ellos form.",
+        "This answer is actually correct — 'corremos' is indeed the nosotros form!"
+      ]
+    },
+    {
+      "id": "q085",
+      "q": "What is the ellos form of 'correr'?",
+      "correct": "corren",
+      "incorrect": ["corres", "corre", "corremos"],
+      "why_correct": "Correr is -ER. Ellos/ellas: stem + -en = corren.",
+      "why_wrong": [
+        "'Corres' is the tú form.",
+        "'Corre' is the él/ella form.",
+        "'Corremos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q086",
+      "q": "What is the yo form of 'vender'?",
+      "correct": "vendo",
+      "incorrect": ["vendes", "vende", "venden"],
+      "why_correct": "Vender is -ER. Stem 'vend-' + -o = vendo.",
+      "why_wrong": [
+        "'Vendes' is the tú form.",
+        "'Vende' is the él/ella form.",
+        "'Venden' is the ellos form."
+      ]
+    },
+    {
+      "id": "q087",
+      "q": "What is the tú form of 'vender'?",
+      "correct": "vendes",
+      "incorrect": ["vendo", "vende", "vendemos"],
+      "why_correct": "Vender is -ER. Tú: stem + -es = vendes.",
+      "why_wrong": [
+        "'Vendo' is the yo form.",
+        "'Vende' is the él/ella form.",
+        "'Vendemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q088",
+      "q": "What is the él/ella form of 'vender'?",
+      "correct": "vende",
+      "incorrect": ["vendo", "vendes", "venden"],
+      "why_correct": "Vender is -ER. Él/ella: stem + -e = vende.",
+      "why_wrong": [
+        "'Vendo' is the yo form.",
+        "'Vendes' is the tú form.",
+        "'Venden' is the ellos form."
+      ]
+    },
+    {
+      "id": "q089",
+      "q": "What is the nosotros form of 'vender'?",
+      "correct": "vendemos",
+      "incorrect": ["vende", "venden", "vendimos"],
+      "why_correct": "Vender is -ER. Nosotros: stem + -emos = vendemos.",
+      "why_wrong": [
+        "'Vende' is the él/ella form.",
+        "'Venden' is the ellos form.",
+        "'Vendimos' uses the -IR nosotros ending — wrong for this -ER verb."
+      ]
+    },
+    {
+      "id": "q090",
+      "q": "What is the ellos form of 'vender'?",
+      "correct": "venden",
+      "incorrect": ["vendes", "vende", "vendemos"],
+      "why_correct": "Vender is -ER. Ellos/ellas: stem + -en = venden.",
+      "why_wrong": [
+        "'Vendes' is the tú form.",
+        "'Vende' is the él/ella form.",
+        "'Vendemos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q091",
+      "q": "What is the yo form of 'vivir'?",
+      "correct": "vivo",
+      "incorrect": ["vives", "vive", "vivimos"],
+      "why_correct": "Vivir is a regular -IR verb. Stem 'viv-' + yo ending -o = vivo. All regular yo forms end in -o.",
+      "why_wrong": [
+        "'Vives' is the tú form (you live).",
+        "'Vive' is the él/ella form (he/she lives).",
+        "'Vivimos' is the nosotros form (we live)."
+      ]
+    },
+    {
+      "id": "q092",
+      "q": "What is the tú form of 'vivir'?",
+      "correct": "vives",
+      "incorrect": ["vivo", "vive", "vivimos"],
+      "why_correct": "Vivir is -IR. Tú: stem 'viv-' + -es = vives. Note: -IR tú ending is -es (same as -ER).",
+      "why_wrong": [
+        "'Vivo' is the yo form.",
+        "'Vive' is the él/ella form.",
+        "'Vivimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q093",
+      "q": "What is the él/ella form of 'vivir'?",
+      "correct": "vive",
+      "incorrect": ["vivo", "vives", "viven"],
+      "why_correct": "Vivir is -IR. Él/ella: stem + -e = vive. The -IR él/ella ending is -e (same as -ER).",
+      "why_wrong": [
+        "'Vivo' is the yo form.",
+        "'Vives' is the tú form.",
+        "'Viven' is the ellos form."
+      ]
+    },
+    {
+      "id": "q094",
+      "q": "What is the nosotros form of 'vivir'?",
+      "correct": "vivimos",
+      "incorrect": ["vive", "viven", "vivemos"],
+      "why_correct": "Vivir is -IR. Nosotros: stem + -imos = vivimos. This is what distinguishes -IR from -ER: -imos vs -emos.",
+      "why_wrong": [
+        "'Vive' is the él/ella form.",
+        "'Viven' is the ellos form.",
+        "'Vivemos' uses -ER nosotros ending — wrong for -IR verbs. -IR nosotros = -imos."
+      ]
+    },
+    {
+      "id": "q095",
+      "q": "What is the ellos form of 'vivir'?",
+      "correct": "viven",
+      "incorrect": ["vives", "vive", "vivimos"],
+      "why_correct": "Vivir is -IR. Ellos/ellas: stem + -en = viven. (Same as -ER: -en.)",
+      "why_wrong": [
+        "'Vives' is the tú form.",
+        "'Vive' is the él/ella form.",
+        "'Vivimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q096",
+      "q": "What is the yo form of 'escribir'?",
+      "correct": "escribo",
+      "incorrect": ["escribes", "escribe", "escribimos"],
+      "why_correct": "Escribir is -IR. Stem 'escrib-' + -o = escribo.",
+      "why_wrong": [
+        "'Escribes' is the tú form.",
+        "'Escribe' is the él/ella form.",
+        "'Escribimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q097",
+      "q": "What is the tú form of 'escribir'?",
+      "correct": "escribes",
+      "incorrect": ["escribo", "escribe", "escriben"],
+      "why_correct": "Escribir is -IR. Tú: stem + -es = escribes.",
+      "why_wrong": [
+        "'Escribo' is the yo form.",
+        "'Escribe' is the él/ella form.",
+        "'Escriben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q098",
+      "q": "What is the él/ella form of 'escribir'?",
+      "correct": "escribe",
+      "incorrect": ["escribo", "escribes", "escriben"],
+      "why_correct": "Escribir is -IR. Él/ella: stem + -e = escribe.",
+      "why_wrong": [
+        "'Escribo' is the yo form.",
+        "'Escribes' is the tú form.",
+        "'Escriben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q099",
+      "q": "What is the nosotros form of 'escribir'?",
+      "correct": "escribimos",
+      "incorrect": ["escribe", "escriben", "escribemos"],
+      "why_correct": "Escribir is -IR. Nosotros: stem + -imos = escribimos. The -imos ending distinguishes -IR from -ER.",
+      "why_wrong": [
+        "'Escribe' is the él/ella form.",
+        "'Escriben' is the ellos form.",
+        "'Escribemos' uses -ER nosotros ending — wrong. -IR nosotros = -imos."
+      ]
+    },
+    {
+      "id": "q100",
+      "q": "What is the ellos form of 'escribir'?",
+      "correct": "escriben",
+      "incorrect": ["escribes", "escribe", "escribimos"],
+      "why_correct": "Escribir is -IR. Ellos/ellas: stem + -en = escriben.",
+      "why_wrong": [
+        "'Escribes' is the tú form.",
+        "'Escribe' is the él/ella form.",
+        "'Escribimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q101",
+      "q": "What is the yo form of 'abrir'?",
+      "correct": "abro",
+      "incorrect": ["abres", "abre", "abrimos"],
+      "why_correct": "Abrir is -IR. Stem 'abr-' + -o = abro.",
+      "why_wrong": [
+        "'Abres' is the tú form.",
+        "'Abre' is the él/ella form.",
+        "'Abrimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q102",
+      "q": "What is the tú form of 'abrir'?",
+      "correct": "abres",
+      "incorrect": ["abro", "abre", "abrimos"],
+      "why_correct": "Abrir is -IR. Tú: stem 'abr-' + -es = abres.",
+      "why_wrong": [
+        "'Abro' is the yo form.",
+        "'Abre' is the él/ella form.",
+        "'Abrimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q103",
+      "q": "What is the él/ella form of 'abrir'?",
+      "correct": "abre",
+      "incorrect": ["abro", "abres", "abren"],
+      "why_correct": "Abrir is -IR. Él/ella: stem + -e = abre.",
+      "why_wrong": [
+        "'Abro' is the yo form.",
+        "'Abres' is the tú form.",
+        "'Abren' is the ellos form."
+      ]
+    },
+    {
+      "id": "q104",
+      "q": "What is the nosotros form of 'abrir'?",
+      "correct": "abrimos",
+      "incorrect": ["abre", "abren", "abremos"],
+      "why_correct": "Abrir is -IR. Nosotros: stem + -imos = abrimos.",
+      "why_wrong": [
+        "'Abre' is the él/ella form.",
+        "'Abren' is the ellos form.",
+        "'Abremos' uses -ER ending — wrong for -IR. -IR nosotros = -imos."
+      ]
+    },
+    {
+      "id": "q105",
+      "q": "What is the ellos form of 'abrir'?",
+      "correct": "abren",
+      "incorrect": ["abres", "abre", "abrimos"],
+      "why_correct": "Abrir is -IR. Ellos/ellas: stem + -en = abren.",
+      "why_wrong": [
+        "'Abres' is the tú form.",
+        "'Abre' is the él/ella form.",
+        "'Abrimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q106",
+      "q": "What is the yo form of 'recibir'?",
+      "correct": "recibo",
+      "incorrect": ["recibes", "recibe", "recibimos"],
+      "why_correct": "Recibir is -IR. Stem 'recib-' + -o = recibo.",
+      "why_wrong": [
+        "'Recibes' is the tú form.",
+        "'Recibe' is the él/ella form.",
+        "'Recibimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q107",
+      "q": "What is the tú form of 'recibir'?",
+      "correct": "recibes",
+      "incorrect": ["recibo", "recibe", "reciben"],
+      "why_correct": "Recibir is -IR. Tú: stem + -es = recibes.",
+      "why_wrong": [
+        "'Recibo' is the yo form.",
+        "'Recibe' is the él/ella form.",
+        "'Reciben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q108",
+      "q": "What is the él/ella form of 'recibir'?",
+      "correct": "recibe",
+      "incorrect": ["recibo", "recibes", "reciben"],
+      "why_correct": "Recibir is -IR. Él/ella: stem + -e = recibe.",
+      "why_wrong": [
+        "'Recibo' is the yo form.",
+        "'Recibes' is the tú form.",
+        "'Reciben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q109",
+      "q": "What is the nosotros form of 'recibir'?",
+      "correct": "recibimos",
+      "incorrect": ["recibe", "reciben", "recibemos"],
+      "why_correct": "Recibir is -IR. Nosotros: stem + -imos = recibimos.",
+      "why_wrong": [
+        "'Recibe' is the él/ella form.",
+        "'Reciben' is the ellos form.",
+        "'Recibemos' uses -ER ending — wrong for -IR. Nosotros -IR = -imos."
+      ]
+    },
+    {
+      "id": "q110",
+      "q": "What is the ellos form of 'recibir'?",
+      "correct": "reciben",
+      "incorrect": ["recibes", "recibe", "recibimos"],
+      "why_correct": "Recibir is -IR. Ellos/ellas: stem + -en = reciben.",
+      "why_wrong": [
+        "'Recibes' is the tú form.",
+        "'Recibe' is the él/ella form.",
+        "'Recibimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q111",
+      "q": "What is the yo form of 'subir'?",
+      "correct": "subo",
+      "incorrect": ["subes", "sube", "subimos"],
+      "why_correct": "Subir is -IR. Stem 'sub-' + -o = subo.",
+      "why_wrong": [
+        "'Subes' is the tú form.",
+        "'Sube' is the él/ella form.",
+        "'Subimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q112",
+      "q": "What is the tú form of 'subir'?",
+      "correct": "subes",
+      "incorrect": ["subo", "sube", "subimos"],
+      "why_correct": "Subir is -IR. Tú: stem 'sub-' + -es = subes.",
+      "why_wrong": [
+        "'Subo' is the yo form.",
+        "'Sube' is the él/ella form.",
+        "'Subimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q113",
+      "q": "What is the él/ella form of 'subir'?",
+      "correct": "sube",
+      "incorrect": ["subo", "subes", "suben"],
+      "why_correct": "Subir is -IR. Él/ella: stem + -e = sube.",
+      "why_wrong": [
+        "'Subo' is the yo form.",
+        "'Subes' is the tú form.",
+        "'Suben' is the ellos form."
+      ]
+    },
+    {
+      "id": "q114",
+      "q": "What is the nosotros form of 'subir'?",
+      "correct": "subimos",
+      "incorrect": ["sube", "suben", "subemos"],
+      "why_correct": "Subir is -IR. Nosotros: stem + -imos = subimos.",
+      "why_wrong": [
+        "'Sube' is the él/ella form.",
+        "'Suben' is the ellos form.",
+        "'Subemos' uses -ER ending — wrong for -IR. -IR nosotros = -imos."
+      ]
+    },
+    {
+      "id": "q115",
+      "q": "What is the ellos form of 'subir'?",
+      "correct": "suben",
+      "incorrect": ["subes", "sube", "subimos"],
+      "why_correct": "Subir is -IR. Ellos/ellas: stem + -en = suben.",
+      "why_wrong": [
+        "'Subes' is the tú form.",
+        "'Sube' is the él/ella form.",
+        "'Subimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q116",
+      "q": "What is the yo form of 'describir'?",
+      "correct": "describo",
+      "incorrect": ["describes", "describe", "describimos"],
+      "why_correct": "Describir is -IR. Stem 'describ-' + -o = describo.",
+      "why_wrong": [
+        "'Describes' is the tú form.",
+        "'Describe' is the él/ella form.",
+        "'Describimos' is the nosotros form."
+      ]
+    },
+    {
+      "id": "q117",
+      "q": "What is the tú form of 'describir'?",
+      "correct": "describes",
+      "incorrect": ["describo", "describe", "describen"],
+      "why_correct": "Describir is -IR. Tú: stem + -es = describes.",
+      "why_wrong": [
+        "'Describo' is the yo form.",
+        "'Describe' is the él/ella form.",
+        "'Describen' is the ellos form."
+      ]
+    },
+    {
+      "id": "q118",
+      "q": "What is the él/ella form of 'describir'?",
+      "correct": "describe",
+      "incorrect": ["describo", "describes", "describen"],
+      "why_correct": "Describir is -IR. Él/ella: stem + -e = describe.",
+      "why_wrong": [
+        "'Describo' is the yo form.",
+        "'Describes' is the tú form.",
+        "'Describen' is the ellos form."
+      ]
+    },
+    {
+      "id": "q119",
+      "q": "What is the nosotros form of 'describir'?",
+      "correct": "describimos",
+      "incorrect": ["describe", "describen", "describemos"],
+      "why_correct": "Describir is -IR. Nosotros: stem + -imos = describimos.",
+      "why_wrong": [
+        "'Describe' is the él/ella form.",
+        "'Describen' is the ellos form.",
+        "'Describemos' uses -ER ending — wrong. -IR nosotros = -imos."
+      ]
+    },
+    {
+      "id": "q120",
+      "q": "What is the ellos form of 'describir'?",
+      "correct": "describen",
+      "incorrect": ["describes", "describe", "describimos"],
+      "why_correct": "Describir is -IR. Ellos/ellas: stem + -en = describen.",
+      "why_wrong": [
+        "'Describes' is the tú form.",
+        "'Describe' is the él/ella form.",
+        "'Describimos' is the nosotros form."
+      ]
+    }
+  ]
+}

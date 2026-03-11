@@ -1,0 +1,249 @@
+{
+  "id": "spanish-conjugation-rules-quiz",
+  "name": "Unit 1: Conjugation Rules",
+  "subject": "Spanish",
+  "type": "quiz",
+  "created": "2026-03-10",
+  "questions": [
+    {
+      "id": "q01",
+      "q": "-AR verb endings (present tense) — all 6 forms",
+      "correct": "yo: -o | tú: -as | él/ella: -a | nosotros: -amos | vosotros: -áis | ellos/ellas: -an",
+      "incorrect": [
+        "yo: -o | tú: -es | él/ella: -e | nosotros: -emos | vosotros: -éis | ellos/ellas: -en",
+        "yo: -o | tú: -as | él/ella: -a | nosotros: -imos | vosotros: -ís | ellos/ellas: -an",
+        "yo: -as | tú: -a | él/ella: -amos | nosotros: -áis | vosotros: -an | ellos/ellas: -o"
+      ],
+      "why_correct": "For -AR verbs, memorize the pattern: -o, -as, -a, -amos, -áis, -an. The vowel throughout is 'a' (except yo -o). A mnemonic: 'A-A-A in the middle three' (tú -as, él -a, ellos -an all have 'a').",
+      "why_wrong": [
+        "Those are -ER verb endings (yo: -o, tú: -es, él: -e, nosotros: -emos, vosotros: -éis, ellos: -en). -ER verbs use 'e', not 'a'.",
+        "Those mix -AR and -IR endings incorrectly — the nosotros/-imos and vosotros/-ís endings belong to -IR verbs, not -AR.",
+        "The endings are listed in the wrong order and the yo form is wrong. The yo form is ALWAYS -o for all regular verbs."
+      ]
+    },
+    {
+      "id": "q02",
+      "q": "-ER verb endings (present tense) — all 6 forms",
+      "correct": "yo: -o | tú: -es | él/ella: -e | nosotros: -emos | vosotros: -éis | ellos/ellas: -en",
+      "incorrect": [
+        "yo: -o | tú: -as | él/ella: -a | nosotros: -amos | vosotros: -áis | ellos/ellas: -an",
+        "yo: -o | tú: -es | él/ella: -e | nosotros: -imos | vosotros: -ís | ellos/ellas: -en",
+        "yo: -o | tú: -es | él/ella: -e | nosotros: -emos | vosotros: -ís | ellos/ellas: -en"
+      ],
+      "why_correct": "For -ER verbs, the endings use 'e': -o, -es, -e, -emos, -éis, -en. The vowel throughout is 'e' (except yo -o). Helpful: 'E-E-E across the board' for tú, él, and ellos.",
+      "why_wrong": [
+        "Those are -AR endings — they use 'a' throughout. -ER verbs use 'e': -es, -e, -emos, -éis, -en.",
+        "Those mix -ER and -IR endings — the nosotros/-imos and vosotros/-ís belong to -IR verbs only. -ER nosotros = -emos.",
+        "This mixes -ER and -IR: the vosotros form is wrong. -ER vosotros = -éis (with accent on é), while -IR vosotros = -ís. The nosotros is correct here (-emos), but vosotros is wrong."
+      ]
+    },
+    {
+      "id": "q03",
+      "q": "-IR verb endings (present tense) — all 6 forms",
+      "correct": "yo: -o | tú: -es | él/ella: -e | nosotros: -imos | vosotros: -ís | ellos/ellas: -en",
+      "incorrect": [
+        "yo: -o | tú: -as | él/ella: -a | nosotros: -amos | vosotros: -áis | ellos/ellas: -an",
+        "yo: -o | tú: -es | él/ella: -e | nosotros: -emos | vosotros: -éis | ellos/ellas: -en",
+        "yo: -o | tú: -es | él/ella: -e | nosotros: -imos | vosotros: -éis | ellos/ellas: -en"
+      ],
+      "why_correct": "-IR verbs: -o, -es, -e, -imos, -ís, -en. The key distinguishing feature: nosotros = -imos and vosotros = -ís. All other forms match -ER exactly.",
+      "why_wrong": [
+        "Those are -AR endings. -AR uses 'a' (tú -as, él -a, nosotros -amos), while -IR uses 'e' for tú/él but 'i' for nosotros/vosotros.",
+        "Those are -ER endings. -ER nosotros = -emos and -ER vosotros = -éis, but -IR nosotros = -imos and -IR vosotros = -ís.",
+        "This mixes -ER and -IR: nosotros -imos is correct for -IR, but vosotros should be -ís not -éis. The -ís ending (no accent on 'e') is the -IR marker."
+      ]
+    },
+    {
+      "id": "q04",
+      "q": "What ending does any -AR, -ER, or -IR verb take in the yo form?",
+      "correct": "-o (e.g. hablo, como, vivo)",
+      "incorrect": [
+        "-as (e.g. hablas, comes, vives)",
+        "-e (e.g. hable, coma, viva)",
+        "-s (e.g. hablos, comos, vivos)"
+      ],
+      "why_correct": "The yo form ALWAYS ends in -o for all regular present tense verbs regardless of verb type: hablo (-AR), como (-ER), vivo (-IR). This is one of the most consistent rules in Spanish.",
+      "why_wrong": [
+        "-as/-es endings are used for tú (you), not yo (I). 'Hablas' = you speak; 'hablo' = I speak.",
+        "-e endings appear in subjunctive mood and formal commands (usted), not in the regular present tense yo form.",
+        "'-s' alone is not a valid Spanish verb ending. The yo ending is always '-o', never just '-s'."
+      ]
+    },
+    {
+      "id": "q05",
+      "q": "What is the difference between -ER and -IR verb endings?",
+      "correct": "Only nosotros and vosotros differ: -ER uses -emos/-éis; -IR uses -imos/-ís. All other forms are identical.",
+      "incorrect": [
+        "They are completely different: -ER uses e-vowels and -IR uses i-vowels throughout all forms.",
+        "Only the yo form differs: -ER yo = -eo, -IR yo = -io.",
+        "Only the ellos/ellas form differs: -ER uses -en, -IR uses -in."
+      ],
+      "why_correct": "This is a critical insight: -ER and -IR are nearly identical! Only nosotros (-emos vs -imos) and vosotros (-éis vs -ís) differ. All other forms (yo, tú, él, ellos) are the same: -o, -es, -e, -en.",
+      "why_wrong": [
+        "This is wrong — they are NOT completely different. Only 2 of 6 forms differ. Tú, él/ella, and ellos/ellas are identical between -ER and -IR verbs.",
+        "The yo form is identical for ALL verbs (-o). Neither -ER nor -IR has a -eo or -io ending in regular present tense.",
+        "The ellos/ellas form is -en for BOTH -ER and -IR verbs. This is one of the shared identical forms."
+      ]
+    },
+    {
+      "id": "q06",
+      "q": "To conjugate a regular verb, what do you do to the infinitive?",
+      "correct": "Drop the -ar / -er / -ir ending from the infinitive, then add the correct ending for the subject pronoun.",
+      "incorrect": [
+        "Keep the infinitive ending and add the subject pronoun ending directly after the full infinitive.",
+        "Replace the final vowel of the infinitive (-a, -e, -i) with the appropriate ending.",
+        "Remove only the final letter -r from the infinitive, then attach the subject ending."
+      ],
+      "why_correct": "The two-step rule: (1) remove the full -ar/-er/-ir ending to get the stem, (2) add the correct pronoun ending. Example: hablar → habl- + o = hablo. The stem 'habl-' is the foundation.",
+      "why_wrong": [
+        "You cannot add endings to the full infinitive — 'hablaro' or 'hablaré' are not how present tense works. You must remove -ar first.",
+        "You don't just replace the final vowel — you remove the entire 2-letter ending (-ar, -er, -ir), not just the last vowel. 'Habl-ar' → remove '-ar', not just '-a'.",
+        "Removing only '-r' would leave 'habla-' which is already the él/ella form — you'd be adding endings to an already conjugated stem. Remove the full '-ar'/'-er'/'-ir'."
+      ]
+    },
+    {
+      "id": "q07",
+      "q": "hablar — give all 6 present tense conjugations",
+      "correct": "hablo, hablas, habla, hablamos, habláis, hablan",
+      "incorrect": [
+        "hablo, hablas, habla, hablamos, habláis, hablas",
+        "hableo, hables, hable, hablemos, habléis, hablen",
+        "hablo, hablas, habla, hablimos, habláis, hablan"
+      ],
+      "why_correct": "Hablar is a model -AR verb. Stem = 'habl-'. Add endings: -o, -as, -a, -amos, -áis, -an. Memorize this pattern and apply it to any -AR verb.",
+      "why_wrong": [
+        "The ellos form is 'hablan' (they speak), not 'hablas' (you speak). Confusing tú and ellos is a common error.",
+        "Those are subjunctive forms of hablar, not present indicative. 'Hableo' is not a valid form at all.",
+        "'Hablimos' is wrong — that nosotros ending (-imos) belongs to -IR verbs like vivir. -AR nosotros = -amos → hablamos."
+      ]
+    },
+    {
+      "id": "q08",
+      "q": "comer — give all 6 present tense conjugations",
+      "correct": "como, comes, come, comemos, coméis, comen",
+      "incorrect": [
+        "como, comas, coma, comamos, comáis, coman",
+        "como, comes, come, comimos, coméis, comen",
+        "como, comes, come, comemos, comís, comen"
+      ],
+      "why_correct": "Comer is a model -ER verb. Stem = 'com-'. Add -ER endings: -o, -es, -e, -emos, -éis, -en. Note: 'como' also means 'as/like' in Spanish, but as a verb it means 'I eat'.",
+      "why_wrong": [
+        "Those are subjunctive forms (comas, coma, comamos). The present indicative uses -es, -e, -emos, not -as, -a, -amos.",
+        "'Comimos' uses -IR nosotros ending (-imos). -ER nosotros = -emos → comemos, not comimos.",
+        "'Comís' uses -IR vosotros ending (-ís). -ER vosotros = -éis (with accent) → coméis, not comís."
+      ]
+    },
+    {
+      "id": "q09",
+      "q": "vivir — give all 6 present tense conjugations",
+      "correct": "vivo, vives, vive, vivimos, vivís, viven",
+      "incorrect": [
+        "vivo, vives, vive, vivemos, vivéis, viven",
+        "vivo, vivas, viva, vivamos, viváis, vivan",
+        "vivo, vives, vive, vivimos, vivís, vives"
+      ],
+      "why_correct": "Vivir is a model -IR verb. Stem = 'viv-'. Add -IR endings: -o, -es, -e, -imos, -ís, -en. The key difference from -ER: nosotros = vivimos (-imos) and vosotros = vivís (-ís).",
+      "why_wrong": [
+        "'Vivemos' and 'vivéis' are -ER endings. -IR nosotros = -imos (vivimos) and -IR vosotros = -ís (vivís). These are the only two forms that differ from -ER.",
+        "Those are subjunctive forms. Present indicative uses -es, -e, not -as, -a.",
+        "The ellos form is 'viven' (they live), not 'vives' (you live). Don't confuse tú and ellos."
+      ]
+    },
+    {
+      "id": "q10",
+      "q": "What does the nosotros form always end in for -AR verbs?",
+      "correct": "-amos (e.g. hablamos, bailamos, trabajamos)",
+      "incorrect": [
+        "-emos (e.g. comemos, bebemos, corremos)",
+        "-imos (e.g. vivimos, escribimos, recibimos)",
+        "-amos (e.g. hablemos, bailemos, trabajemos)"
+      ],
+      "why_correct": "For -AR verbs, the nosotros form always ends in -amos. This is unique to -AR verbs. Examples: hablamos, bailamos, trabajamos. The 'a' vowel from the -AR infinitive carries through.",
+      "why_wrong": [
+        "-emos is the nosotros ending for -ER verbs (comemos, bebemos), not -AR verbs. The vowel 'e' signals -ER.",
+        "-imos is the nosotros ending for -IR verbs (vivimos, escribimos), not -AR verbs. The vowel 'i' signals -IR.",
+        "Those examples (hablemos, bailemos) are subjunctive forms. The present indicative nosotros -AR form uses -amos."
+      ]
+    },
+    {
+      "id": "q11",
+      "q": "What does the ellos/ellas form end in for -AR verbs?",
+      "correct": "-an (e.g. hablan, bailan, trabajan)",
+      "incorrect": [
+        "-en (e.g. comen, beben, viven)",
+        "-an (e.g. hablen, bailen, trabajen)",
+        "-aron (e.g. hablaron, bailaron, trabajaron)"
+      ],
+      "why_correct": "For -AR verbs, ellos/ellas always ends in -an. The 'a' vowel is consistent with all -AR endings (tú -as, él -a, ellos -an). Examples: hablan, bailan, trabajan, estudian.",
+      "why_wrong": [
+        "-en is the ellos ending for -ER and -IR verbs (comen, beben, viven, escriben), not -AR verbs. -AR ellos = -an.",
+        "Those examples (hablen, bailen) are subjunctive forms. Present indicative -AR ellos = -an, not -en.",
+        "-aron is the preterite (past tense) ellos form. Present tense -AR ellos = -an."
+      ]
+    },
+    {
+      "id": "q12",
+      "q": "What does the ellos/ellas form end in for -ER and -IR verbs?",
+      "correct": "-en (e.g. comen, beben, viven, escriben)",
+      "incorrect": [
+        "-an (e.g. hablan, bailan, trabajan)",
+        "-in (e.g. comin, bebin, vivin)",
+        "-ieron (e.g. comieron, bebieron, vivieron)"
+      ],
+      "why_correct": "Both -ER and -IR verbs share the same ellos/ellas ending: -en. This is one of the four forms that are identical for -ER and -IR. Examples: comen, beben, corren (ER); viven, escriben, reciben (IR).",
+      "why_wrong": [
+        "-an is the ellos ending for -AR verbs only (hablan, bailan). -ER and -IR verbs use -en.",
+        "'-in' is not a valid Spanish verb ending. Don't confuse the -IR infinitive ending with the ellos conjugation — it's -en, not -in.",
+        "-ieron is the preterite (past tense) ellos ending. Present tense -ER/-IR ellos = -en."
+      ]
+    },
+    {
+      "id": "q13",
+      "q": "What is the tú form ending for -AR verbs?",
+      "correct": "-as (e.g. hablas, bailas, trabajas)",
+      "incorrect": [
+        "-es (e.g. comes, bebes, vives)",
+        "-a (e.g. habla, baila, trabaja)",
+        "-ás (e.g. hablarás, bailarás)"
+      ],
+      "why_correct": "For -AR verbs, tú ends in -as. The 'a' vowel is key for -AR tú: hablas, bailas, caminas, estudias. Easy to remember: -AR → tú -as.",
+      "why_wrong": [
+        "-es is the tú ending for -ER and -IR verbs (comes, bebes, vives), not -AR. -AR tú = -as.",
+        "-a is the él/ella (third person singular) ending, not the tú ending. 'Habla' = he/she speaks; 'hablas' = you speak.",
+        "-ás (with accent) is the future tense tú ending (hablarás = you will speak), not present tense."
+      ]
+    },
+    {
+      "id": "q14",
+      "q": "What is the tú form ending for -ER and -IR verbs?",
+      "correct": "-es (e.g. comes, bebes, vives, escribes)",
+      "incorrect": [
+        "-as (e.g. hablas, bailas, trabajas)",
+        "-e (e.g. come, bebe, vive)",
+        "-is (e.g. comis, bebis, vivis)"
+      ],
+      "why_correct": "Both -ER and -IR verbs share the tú ending -es. This is another form that is identical for both verb types. Examples: comes, bebes, lees (ER); vives, escribes, recibes (IR).",
+      "why_wrong": [
+        "-as is the tú ending for -AR verbs only. -ER and -IR tú = -es, not -as.",
+        "-e is the él/ella (third person singular) ending for -ER/-IR verbs, not the tú ending. 'Come' = he/she eats; 'comes' = you eat.",
+        "'-is' is not a valid tú ending. Don't confuse it with the vosotros -ís ending. Tú -ER/-IR = -es."
+      ]
+    },
+    {
+      "id": "q15",
+      "q": "How do you know whether a verb is -AR, -ER, or -IR?",
+      "correct": "Look at the last two letters of the infinitive (the dictionary form): hablar → -AR, comer → -ER, vivir → -IR.",
+      "incorrect": [
+        "Look at the meaning of the verb — action verbs are -AR, mental verbs are -ER, and physical verbs are -IR.",
+        "The verb type is determined by the subject pronoun: yo and tú use -AR, él/ella use -ER, nosotros use -IR.",
+        "You must memorize each verb individually — there is no pattern in the infinitive form."
+      ],
+      "why_correct": "The infinitive (dictionary form) always ends in -ar, -er, or -ir — that's how you identify verb type. Hablar ends in -ar → -AR verb. Comer ends in -er → -ER verb. Vivir ends in -ir → -IR verb. Always look at the infinitive first.",
+      "why_wrong": [
+        "Verb meaning does not determine the verb type. Many action verbs are -ER (comer, beber, correr) and mental verbs can be -AR (pensar, desear). The ending of the infinitive determines the type.",
+        "The subject pronoun has nothing to do with the verb's type. ALL three pronoun groups use all three verb types. Verb type is fixed in the infinitive, not determined by who's speaking.",
+        "This is false — there IS a clear pattern. Every Spanish infinitive ends in -ar, -er, or -ir. You simply check the last two letters to identify the verb class."
+      ]
+    }
+  ]
+}

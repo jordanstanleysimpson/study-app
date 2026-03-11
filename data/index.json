@@ -15,6 +15,7 @@
       "subject": "Spanish",
       "created": "2026-02-20",
       "wordCount": 106,
+      "hidden": true,
       "file": "data/spanish/Unit 1/spanish-regular.json"
     },
     {
@@ -23,6 +24,7 @@
       "subject": "Spanish",
       "created": "2026-03-04",
       "wordCount": 52,
+      "hidden": true,
       "file": "data/spanish/Unit 2/spanish-irregular.json"
     },
     {
@@ -31,6 +33,7 @@
       "subject": "Spanish",
       "created": "2026-03-08",
       "wordCount": 15,
+      "hidden": true,
       "file": "data/spanish/Unit 1/spanish-conjugation-rules.json"
     },
     {
@@ -39,7 +42,62 @@
       "subject": "Spanish",
       "created": "2026-03-08",
       "wordCount": 120,
+      "hidden": true,
       "file": "data/spanish/Unit 1/spanish-conjugation-practice.json"
+    },
+    {
+      "id": "spanish-regular-quiz",
+      "name": "Unit 1: Regular Verbs",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-03-08",
+      "wordCount": 212,
+      "file": "data/spanish/Unit 1/spanish-regular-quiz.json"
+    },
+    {
+      "id": "spanish-conjugation-rules-quiz",
+      "name": "Unit 1: Conjugation Rules",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-03-08",
+      "wordCount": 15,
+      "file": "data/spanish/Unit 1/spanish-conjugation-rules-quiz.json"
+    },
+    {
+      "id": "spanish-conjugation-practice-quiz",
+      "name": "Unit 1: Conjugation Practice",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-03-08",
+      "wordCount": 120,
+      "file": "data/spanish/Unit 1/spanish-conjugation-practice-quiz.json"
+    },
+    {
+      "id": "spanish-irregular-quiz",
+      "name": "Unit 2: Irregular Verbs",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-03-09",
+      "wordCount": 104,
+      "file": "data/spanish/Unit 2/spanish-irregular-quiz.json"
+    },
+    {
+      "id": "spanish-unit3-quiz",
+      "name": "Unit 3: Household Vocabulary",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-03-10",
+      "wordCount": 122,
+      "file": "data/spanish/Unit 3/spanish-unit3-quiz.json"
+    },
+    {
+      "id": "spanish-unit3-sentences",
+      "name": "Unit 3: Sentence Translation",
+      "subject": "Spanish",
+      "type": "translate",
+      "created": "2026-03-10",
+      "wordCount": 43,
+      "file": "data/spanish/Unit 3/spanish-unit3-sentences.json"
     }
   ]
 }

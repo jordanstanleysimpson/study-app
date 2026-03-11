@@ -18,7 +18,7 @@ const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 const state = {
   lists:          [],     // metadata from index.json
   currentList:    null,   // full list object { id, pairs, … }
-  currentMode:    null,   // 'flashcard' | 'type' | 'choice' | 'mc-quiz'
+  currentMode:    null,   // 'flashcard' | 'type' | 'choice' | 'mc-quiz' | 'translate'
   session:        [],     // [{ pair: {es,en}, direction: 'es_en'|'en_es' }, …]
   sessionIndex:   0,
   sessionResults: [],     // [{ pair, direction, correct: bool }, …]
@@ -33,7 +33,13 @@ const state = {
   mcqSession:     [],     // [{ question }, …] — 20 selected questions
   mcqIndex:       0,
   mcqResults:     [],     // [{ question, chosen, correct, whyWrong }]
-  mcqGradeMode:   'inline', // 'inline' | 'end'
+  mcqGradeMode:      'inline', // 'inline' | 'end'
+  mcqAdvanceTimeout: null,    // timeout ID for exam-mode auto-advance
+  // Translate mode state
+  translateSession:   [],
+  translateIndex:     0,
+  translateResults:   [],
+  translateDirection: 'mix',
 };
 
 // ─────────────────────────────────────────────
@@ -56,19 +62,23 @@ function updateSubjectLabels() {
   const fwd  = `${front} → ${back}`;
   const rev  = `${back} → ${front}`;
 
-  const isDiagram = state.currentList.type === 'diagram';
-  const isMcQuiz  = state.currentList.type === 'quiz';
+  const isDiagram   = state.currentList.type === 'diagram';
+  const isMcQuiz    = state.currentList.type === 'quiz';
+  const isTranslate = state.currentList.type === 'translate';
 
-  document.getElementById('btn-flashcard').classList.toggle('hidden', isMcQuiz);
-  document.getElementById('btn-type-it').classList.toggle('hidden', !!state.currentList.labels || isMcQuiz);
-  document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram || isMcQuiz);
-  document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram || isMcQuiz);
-  document.getElementById('btn-match').classList.toggle('hidden', isDiagram || isMcQuiz);
+  document.getElementById('btn-flashcard').classList.toggle('hidden', isMcQuiz || isTranslate);
+  document.getElementById('btn-type-it').classList.toggle('hidden', !!state.currentList.labels || isMcQuiz || isTranslate);
+  document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
+  document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
+  document.getElementById('btn-match').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
   document.getElementById('btn-mc-quiz-inline').classList.toggle('hidden', !isMcQuiz);
   document.getElementById('btn-mc-quiz-end').classList.toggle('hidden', !isMcQuiz);
+  document.getElementById('btn-translate-es-en').classList.toggle('hidden', !isTranslate);
+  document.getElementById('btn-translate-en-es').classList.toggle('hidden', !isTranslate);
+  document.getElementById('btn-translate-mix').classList.toggle('hidden', !isTranslate);
   document.getElementById('mode-grid').classList.toggle('mode-grid--one', isDiagram);
   document.getElementById('mode-grid').classList.toggle('mode-grid--two', isMcQuiz);
-  document.getElementById('mode-grid').classList.toggle('mode-grid--three', !isDiagram && !isMcQuiz && !!state.currentList.labels);
+  document.getElementById('mode-grid').classList.toggle('mode-grid--three', isTranslate || (!isDiagram && !isMcQuiz && !!state.currentList.labels));
 
   const isSubject = !!state.currentList.labels;
   document.getElementById('mode-icon-fwd').textContent = isSubject ? '📋' : '🇪🇸';
@@ -347,6 +357,7 @@ function undoRecordAnswer(listId, word, direction, correct) {
 
 function skipCard() {
   if (state.currentMode === 'mc-quiz') { skipMcqCard(); return; }
+  if (state.currentMode === 'translate') { skipTranslateCard(); return; }
   if (state.answered) return;
   const { pair, direction } = state.session[state.sessionIndex];
   state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: false, correct: null });
@@ -355,6 +366,24 @@ function skipCard() {
 }
 
 function goBack() {
+  // Exam mode mc-quiz: undo last answer and step back
+  if (state.currentMode === 'mc-quiz' && state.mcqGradeMode === 'end') {
+    if (state.mcqResults.length === 0) return;
+    // Cancel any pending auto-advance
+    if (state.mcqAdvanceTimeout !== null) {
+      clearTimeout(state.mcqAdvanceTimeout);
+      state.mcqAdvanceTimeout = null;
+    }
+    // Undo the recorded answer
+    const last = state.mcqResults.pop();
+    undoRecordQuizAnswer(state.currentList.id, last.question.id, last.correct);
+    // Step back (but not below 0)
+    if (state.mcqIndex > 0) state.mcqIndex--;
+    updateNavBar();
+    renderMcqCard();
+    return;
+  }
+
   if (state.sessionHistory.length === 0) return;
   const last = state.sessionHistory.pop();
   if (last.recorded) {
@@ -372,10 +401,18 @@ function updateNavBar() {
   const footer   = document.getElementById('quiz-footer');
   if (footer) footer.classList.toggle('hidden', isMatch);
 
-  // For mc-quiz, show only the skip button; hide back
   const backBtn = document.getElementById('nav-back-btn');
   const skipBtn = document.getElementById('nav-skip-btn');
-  if (isMcQuiz) {
+
+  // Exam mode: show back (disabled until at least one answer recorded), show skip
+  if (isMcQuiz && state.mcqGradeMode === 'end') {
+    if (backBtn) { backBtn.classList.remove('hidden'); backBtn.disabled = state.mcqResults.length === 0; }
+    if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
+    return;
+  }
+
+  // Inline mc-quiz and translate: skip only, no back
+  if (isMcQuiz || state.currentMode === 'translate') {
     if (backBtn) backBtn.classList.add('hidden');
     if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
     return;
@@ -525,7 +562,7 @@ async function init() {
   try {
     const res  = await fetch('data/index.json');
     const data = await res.json();
-    state.lists = data.lists.sort((a, b) => b.created.localeCompare(a.created));
+    state.lists = data.lists.filter(l => !l.hidden).sort((a, b) => b.created.localeCompare(a.created));
     buildClassPicker();
 
     // Auto-select first class and first list
@@ -585,7 +622,7 @@ function buildClassPicker() {
 }
 
 function buildUnitPicker(subject) {
-  const lists    = state.lists.filter(l => l.subject === subject).slice().reverse();
+  const lists    = state.lists.filter(l => l.subject === subject).slice();
   const dropdown = document.getElementById('unit-picker-dropdown');
   dropdown.innerHTML = '';
 
@@ -692,7 +729,9 @@ function renderHome() {
         ? `${meta.wordCount} diagram questions`
         : meta.type === 'quiz'
           ? `${meta.wordCount} quiz questions`
-          : `${meta.wordCount} words`;
+          : meta.type === 'translate'
+            ? `${meta.wordCount} sentences`
+            : `${meta.wordCount} words`;
 
       info.appendChild(name);
       info.appendChild(count);
@@ -1083,6 +1122,13 @@ function recordQuizAnswer(listId, questionId, correct) {
   saveProgress();
 }
 
+function undoRecordQuizAnswer(listId, questionId, correct) {
+  const rec = getQuizRecord(listId, questionId);
+  if (correct) rec.correct   = Math.max(0, rec.correct - 1);
+  else         rec.incorrect = Math.max(0, rec.incorrect - 1);
+  saveProgress();
+}
+
 function getMcqWeight(listId, questionId) {
   const rec   = getQuizRecord(listId, questionId);
   const total = rec.correct + rec.incorrect;
@@ -1200,7 +1246,11 @@ function selectMcqAnswer(btn, choice, allChoices) {
   if (state.mcqGradeMode === 'end') {
     // Exam mode: no feedback, auto-advance after brief highlight
     btn.classList.add('mcq-choice-selected');
-    setTimeout(() => advanceMcqCard(), 400);
+    updateNavBar();
+    state.mcqAdvanceTimeout = setTimeout(() => {
+      state.mcqAdvanceTimeout = null;
+      advanceMcqCard();
+    }, 400);
   } else {
     // Inline mode: show correct/wrong colours + explanation
     document.querySelectorAll('.mcq-choice-btn').forEach((b, i) => {
@@ -1229,6 +1279,7 @@ function selectMcqAnswer(btn, choice, allChoices) {
 
 function advanceMcqCard() {
   state.mcqIndex++;
+  updateNavBar();
   renderMcqCard();
 }
 
@@ -1754,6 +1805,8 @@ function retryMissed() {
 function restartSession() {
   if (state.currentMode === 'mc-quiz') {
     startMcQuiz(state.mcqGradeMode);
+  } else if (state.currentMode === 'translate') {
+    startTranslate(state.translateDirection);
   } else {
     startSession(state.currentMode);
   }
@@ -1846,6 +1899,14 @@ function setupEventListeners() {
   // MC Quiz
   document.getElementById('mcq-next').addEventListener('click', advanceMcqCard);
 
+  // Translate
+  document.getElementById('translate-check').addEventListener('click', checkTranslateAnswer);
+  document.getElementById('translate-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) checkTranslateAnswer();
+  });
+  document.getElementById('translate-got-it').addEventListener('click', () => translateSelfGrade(true));
+  document.getElementById('translate-missed').addEventListener('click', () => translateSelfGrade(false));
+
   // Keyboard shortcuts for quiz screen
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
@@ -1920,6 +1981,175 @@ function showReference() {
 
 function hideReference() {
   document.getElementById('ref-overlay').classList.add('hidden');
+}
+
+// ─────────────────────────────────────────────
+// Sentence Translation mode
+// ─────────────────────────────────────────────
+function startTranslate(direction) {
+  const list = state.currentList;
+  if (!list || list.type !== 'translate') return;
+
+  state.translateDirection = direction;
+  const sentences = list.sentences;
+
+  let expanded;
+  if (direction === 'es_en') {
+    expanded = sentences.map(s => ({ sentence: s, direction: 'es_en' }));
+  } else if (direction === 'en_es') {
+    expanded = sentences.map(s => ({ sentence: s, direction: 'en_es' }));
+  } else {
+    expanded = sentences.flatMap(s => [
+      { sentence: s, direction: 'es_en' },
+      { sentence: s, direction: 'en_es' },
+    ]);
+  }
+
+  state.translateSession  = shuffle(expanded).slice(0, SESSION_SIZE);
+  state.translateIndex    = 0;
+  state.translateResults  = [];
+  state.currentMode       = 'translate';
+
+  document.getElementById('progress-bar').style.width   = '0%';
+  document.getElementById('progress-count').textContent = `0/${state.translateSession.length}`;
+
+  updateNavBar();
+  showScreen('screen-quiz');
+  renderTranslateCard();
+}
+
+function renderTranslateCard() {
+  const session = state.translateSession;
+
+  document.getElementById('progress-bar').style.width   = `${(state.translateIndex / session.length) * 100}%`;
+  document.getElementById('progress-count').textContent = `${state.translateIndex}/${session.length}`;
+
+  if (state.translateIndex >= session.length) {
+    showTranslateResults();
+    return;
+  }
+
+  const { sentence, direction } = session[state.translateIndex];
+  showQuizMode('translate');
+
+  document.getElementById('translate-direction').textContent = direction === 'es_en' ? 'Spanish → English' : 'English → Spanish';
+  document.getElementById('translate-sentence').textContent  = direction === 'es_en' ? sentence.es : sentence.en;
+
+  const input    = document.getElementById('translate-input');
+  const checkBtn = document.getElementById('translate-check');
+  const feedback = document.getElementById('translate-feedback');
+
+  input.value    = '';
+  input.disabled = false;
+  checkBtn.classList.remove('hidden');
+  checkBtn.disabled = false;
+  feedback.classList.add('hidden');
+
+  input.focus();
+}
+
+function checkTranslateAnswer() {
+  const { sentence, direction } = state.translateSession[state.translateIndex];
+  const correct = direction === 'es_en' ? sentence.en : sentence.es;
+
+  document.getElementById('translate-input').disabled     = true;
+  document.getElementById('translate-check').disabled     = true;
+  document.getElementById('translate-correct-text').textContent = correct;
+  document.getElementById('translate-feedback').classList.remove('hidden');
+}
+
+function skipTranslateCard() {
+  if (!document.getElementById('translate-feedback').classList.contains('hidden')) return;
+  state.translateSession.splice(state.translateIndex, 1);
+  renderTranslateCard();
+}
+
+function translateSelfGrade(isCorrect) {
+  const { sentence, direction } = state.translateSession[state.translateIndex];
+  const userAnswer = document.getElementById('translate-input').value.trim();
+
+  state.translateResults.push({ sentence, direction, userAnswer, correct: isCorrect });
+  state.translateIndex++;
+  renderTranslateCard();
+}
+
+function showTranslateResults() {
+  const results  = state.translateResults;
+  const numRight = results.filter(r => r.correct).length;
+  const total    = results.length;
+  const pct      = total > 0 ? Math.round((numRight / total) * 100) : 0;
+  const grade    = pct >= 90 ? 'A' : pct >= 80 ? 'B' : pct >= 70 ? 'C' : pct >= 60 ? 'D' : 'F';
+
+  document.getElementById('results-title').textContent = 'Translation Results';
+  document.getElementById('results-summary').innerHTML = `
+    <div class="results-score">
+      <span class="score-big">${numRight}/${total}</span>
+      <span class="score-pct score-grade-${grade.toLowerCase()}">${pct}% &nbsp; ${grade}</span>
+    </div>
+  `;
+
+  const details = document.getElementById('results-details');
+  details.innerHTML = '';
+
+  const missed = results.filter(r => !r.correct);
+
+  if (missed.length === 0) {
+    const p = document.createElement('p');
+    p.className   = 'all-correct';
+    p.textContent = 'Perfect session!';
+    details.appendChild(p);
+  } else {
+    // Missed sentences
+    const h = document.createElement('h3');
+    h.textContent = 'Review these sentences:';
+    details.appendChild(h);
+
+    const list = document.createElement('div');
+    list.className = 'translate-missed-list';
+
+    for (const r of missed) {
+      const prompt  = r.direction === 'es_en' ? r.sentence.es : r.sentence.en;
+      const correct = r.direction === 'es_en' ? r.sentence.en : r.sentence.es;
+
+      const item = document.createElement('div');
+      item.className = 'translate-missed-item';
+      item.innerHTML = `
+        <div class="translate-missed-prompt">${prompt}</div>
+        ${r.userAnswer ? `<div class="translate-missed-yours">Your answer: <span class="translate-yours-text">${r.userAnswer}</span></div>` : ''}
+        <div class="translate-missed-correct">Correct: <span class="translate-correct-ans">${correct}</span></div>
+      `;
+      list.appendChild(item);
+    }
+    details.appendChild(list);
+
+    // Concept breakdown
+    const conceptCounts = {};
+    for (const r of missed) {
+      for (const c of (r.sentence.concepts || [])) {
+        conceptCounts[c] = (conceptCounts[c] || 0) + 1;
+      }
+    }
+    const sorted = Object.entries(conceptCounts).sort((a, b) => b[1] - a[1]);
+
+    if (sorted.length > 0) {
+      const h2 = document.createElement('h3');
+      h2.textContent = 'Concepts to review:';
+      details.appendChild(h2);
+
+      const breakdown = document.createElement('div');
+      breakdown.className = 'concept-breakdown';
+      for (const [concept, count] of sorted) {
+        const tag = document.createElement('div');
+        tag.className = 'concept-tag';
+        tag.innerHTML = `<span class="concept-name">${concept}</span><span class="concept-count">${count} missed</span>`;
+        breakdown.appendChild(tag);
+      }
+      details.appendChild(breakdown);
+    }
+  }
+
+  document.getElementById('btn-retry-missed').style.display = 'none';
+  showScreen('screen-results');
 }
 
 // ─────────────────────────────────────────────

@@ -1,0 +1,2553 @@
+{
+  "id": "spanish-regular-quiz",
+  "name": "Unit 1: Regular Verbs",
+  "subject": "Spanish",
+  "type": "quiz",
+  "created": "2026-03-10",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "What does 'acabar' mean?",
+      "correct": "to finish; to run out",
+      "incorrect": ["to accept", "to advise", "to help"],
+      "why_correct": "'Acabar' shares the root with English 'to cap off' — when you cap something off, you finish it. It also means to run out (se acabó = it's all gone).",
+      "why_wrong": [
+        "'Aceptar' means to accept — it's a near-cognate with English 'accept'.",
+        "'Aconsejar' means to advise — think of 'counsel' (consejo) at the root.",
+        "'Ayudar' means to help — it has no overlap with 'acabar'."
+      ]
+    },
+    {
+      "id": "q002",
+      "q": "How do you say 'to finish; to run out'?",
+      "correct": "acabar",
+      "incorrect": ["aceptar", "ahorrar", "arreglar"],
+      "why_correct": "'Acabar' is the verb for finishing or running out — 'se acabó el tiempo' = time ran out.",
+      "why_wrong": [
+        "'Aceptar' means to accept, not to finish.",
+        "'Ahorrar' means to save money — think of a savings account.",
+        "'Arreglar' means to fix or arrange — think of 'regular' maintenance."
+      ]
+    },
+    {
+      "id": "q003",
+      "q": "What does 'aceptar' mean?",
+      "correct": "to accept",
+      "incorrect": ["to accompany", "to increase", "to change"],
+      "why_correct": "'Aceptar' is a direct cognate of English 'to accept' — same spelling, same meaning.",
+      "why_wrong": [
+        "'Acompañar' means to accompany — though similar-sounding, 'compañía' (company) is the clue.",
+        "'Aumentar' means to increase — think of 'augment'.",
+        "'Cambiar' means to change — think of 'exchange' (cambio)."
+      ]
+    },
+    {
+      "id": "q004",
+      "q": "How do you say 'to accept'?",
+      "correct": "aceptar",
+      "incorrect": ["acompañar", "aconsejar", "aumentar"],
+      "why_correct": "'Aceptar' is a near-perfect cognate of 'accept' — just add -ar.",
+      "why_wrong": [
+        "'Acompañar' means to accompany or go with.",
+        "'Aconsejar' means to advise — from 'consejo' (advice/counsel).",
+        "'Aumentar' means to increase — from Latin 'augmentare', related to English 'augment'."
+      ]
+    },
+    {
+      "id": "q005",
+      "q": "What does 'acompañar' mean?",
+      "correct": "to go with; to accompany",
+      "incorrect": ["to advise", "to save (money)", "to rent"],
+      "why_correct": "'Acompañar' contains 'compañía' (company/companionship) — to accompany someone is to be in their company.",
+      "why_wrong": [
+        "'Aconsejar' means to advise — from 'consejo' (council/advice).",
+        "'Ahorrar' means to save money — think of a piggy bank (alcancía).",
+        "'Alquilar' means to rent — you might see 'Se alquila' (For Rent) on signs."
+      ]
+    },
+    {
+      "id": "q006",
+      "q": "How do you say 'to go with; to accompany'?",
+      "correct": "acompañar",
+      "incorrect": ["aconsejar", "ayudar", "bailar"],
+      "why_correct": "'Acompañar' comes from 'compañero' (companion/partner) — you go with someone.",
+      "why_wrong": [
+        "'Aconsejar' means to advise.",
+        "'Ayudar' means to help.",
+        "'Bailar' means to dance."
+      ]
+    },
+    {
+      "id": "q007",
+      "q": "What does 'aconsejar' mean?",
+      "correct": "to advise",
+      "incorrect": ["to save (money)", "to rent", "to turn off"],
+      "why_correct": "'Aconsejar' comes from 'consejo' meaning advice or counsel — the same Latin root as English 'counsel'.",
+      "why_wrong": [
+        "'Ahorrar' means to save money.",
+        "'Alquilar' means to rent — used on 'Se alquila' (For Rent) signs.",
+        "'Apagar' means to turn off — 'apaga la luz' = turn off the light."
+      ]
+    },
+    {
+      "id": "q008",
+      "q": "How do you say 'to advise'?",
+      "correct": "aconsejar",
+      "incorrect": ["ahorrar", "arreglar", "aumentar"],
+      "why_correct": "'Aconsejar' comes from 'consejo' (advice/counsel) — to give someone counsel.",
+      "why_wrong": [
+        "'Ahorrar' means to save (money), not to advise.",
+        "'Arreglar' means to fix or arrange.",
+        "'Aumentar' means to increase — from 'augment'."
+      ]
+    },
+    {
+      "id": "q009",
+      "q": "What does 'ahorrar' mean?",
+      "correct": "to save (money)",
+      "incorrect": ["to rent", "to turn off", "to fix; to arrange"],
+      "why_correct": "'Ahorrar' relates to 'ahorro' (savings) — 'cuenta de ahorros' means savings account.",
+      "why_wrong": [
+        "'Alquilar' means to rent.",
+        "'Apagar' means to turn off.",
+        "'Arreglar' means to fix or arrange."
+      ]
+    },
+    {
+      "id": "q010",
+      "q": "How do you say 'to save (money)'?",
+      "correct": "ahorrar",
+      "incorrect": ["alquilar", "apagar", "ayudar"],
+      "why_correct": "'Ahorrar' is the verb for saving money — 'ahorro' is the noun for savings.",
+      "why_wrong": [
+        "'Alquilar' means to rent.",
+        "'Apagar' means to turn off.",
+        "'Ayudar' means to help."
+      ]
+    },
+    {
+      "id": "q011",
+      "q": "What does 'alquilar' mean?",
+      "correct": "to rent",
+      "incorrect": ["to turn off", "to fix; to arrange", "to increase"],
+      "why_correct": "'Alquilar' comes from Arabic 'al-kirā' — you see 'Se alquila' on For Rent signs in Spanish-speaking countries.",
+      "why_wrong": [
+        "'Apagar' means to turn off — 'apaga la tele' = turn off the TV.",
+        "'Arreglar' means to fix or arrange.",
+        "'Aumentar' means to increase — think of 'augment'."
+      ]
+    },
+    {
+      "id": "q012",
+      "q": "How do you say 'to rent'?",
+      "correct": "alquilar",
+      "incorrect": ["ahorrar", "arreglar", "cambiar"],
+      "why_correct": "'Alquilar' is the verb for renting — 'Se alquila' means 'For Rent'.",
+      "why_wrong": [
+        "'Ahorrar' means to save (money).",
+        "'Arreglar' means to fix or arrange.",
+        "'Cambiar' means to change — like changing money at a 'casa de cambio'."
+      ]
+    },
+    {
+      "id": "q013",
+      "q": "What does 'apagar' mean?",
+      "correct": "to turn off",
+      "incorrect": ["to fix; to arrange", "to increase", "to help"],
+      "why_correct": "'Apagar' means to extinguish or turn off — 'apaga la luz' (turn off the light). The opposite is 'encender/prender'.",
+      "why_wrong": [
+        "'Arreglar' means to fix or arrange — from 'regular' (to regulate).",
+        "'Aumentar' means to increase.",
+        "'Ayudar' means to help — think of English 'aid'."
+      ]
+    },
+    {
+      "id": "q014",
+      "q": "How do you say 'to turn off'?",
+      "correct": "apagar",
+      "incorrect": ["alquilar", "aumentar", "borrar"],
+      "why_correct": "'Apagar' means to turn off or extinguish — 'apagar el fuego' = to put out the fire.",
+      "why_wrong": [
+        "'Alquilar' means to rent.",
+        "'Aumentar' means to increase.",
+        "'Borrar' means to erase — like using a 'borrador' (eraser)."
+      ]
+    },
+    {
+      "id": "q015",
+      "q": "What does 'arreglar' mean?",
+      "correct": "to fix; to arrange",
+      "incorrect": ["to increase", "to help", "to dance"],
+      "why_correct": "'Arreglar' comes from 'regla' (rule/order) — to fix something is to put it back in order. 'Arregla tu cuarto' = fix/tidy your room.",
+      "why_wrong": [
+        "'Aumentar' means to increase — from Latin 'augmentare'.",
+        "'Ayudar' means to help.",
+        "'Bailar' means to dance."
+      ]
+    },
+    {
+      "id": "q016",
+      "q": "How do you say 'to fix; to arrange'?",
+      "correct": "arreglar",
+      "incorrect": ["apagar", "ayudar", "bajar"],
+      "why_correct": "'Arreglar' means to fix or put in order — 'arreglar el carro' = fix the car.",
+      "why_wrong": [
+        "'Apagar' means to turn off.",
+        "'Ayudar' means to help.",
+        "'Bajar' means to go down or lower."
+      ]
+    },
+    {
+      "id": "q017",
+      "q": "What does 'aumentar' mean?",
+      "correct": "to increase",
+      "incorrect": ["to help", "to dance", "to go down; to lower"],
+      "why_correct": "'Aumentar' shares the Latin root with English 'augment' — both mean to make bigger or increase.",
+      "why_wrong": [
+        "'Ayudar' means to help — think of English 'aid'.",
+        "'Bailar' means to dance.",
+        "'Bajar' means to go down or lower — think of 'bajar el volumen' (turn down the volume)."
+      ]
+    },
+    {
+      "id": "q018",
+      "q": "How do you say 'to increase'?",
+      "correct": "aumentar",
+      "incorrect": ["arreglar", "bailar", "buscar"],
+      "why_correct": "'Aumentar' is related to English 'augment' — both come from Latin 'augere' (to grow).",
+      "why_wrong": [
+        "'Arreglar' means to fix or arrange.",
+        "'Bailar' means to dance.",
+        "'Buscar' means to look for — 'buscar' → 'búsqueda' (search)."
+      ]
+    },
+    {
+      "id": "q019",
+      "q": "What does 'ayudar' mean?",
+      "correct": "to help",
+      "incorrect": ["to dance", "to go down; to lower", "to kiss"],
+      "why_correct": "'Ayudar' shares the root with English 'aid' — both come from Latin 'adiutare' (to help).",
+      "why_wrong": [
+        "'Bailar' means to dance.",
+        "'Bajar' means to go down or lower.",
+        "'Besar' means to kiss."
+      ]
+    },
+    {
+      "id": "q020",
+      "q": "How do you say 'to help'?",
+      "correct": "ayudar",
+      "incorrect": ["aumentar", "bajar", "borrar"],
+      "why_correct": "'Ayudar' is related to English 'aid' — both from Latin 'adiutare'.",
+      "why_wrong": [
+        "'Aumentar' means to increase.",
+        "'Bajar' means to go down or lower.",
+        "'Borrar' means to erase."
+      ]
+    },
+    {
+      "id": "q021",
+      "q": "What does 'bailar' mean?",
+      "correct": "to dance",
+      "incorrect": ["to go down; to lower", "to kiss", "to erase"],
+      "why_correct": "'Bailar' means to dance — 'el baile' is the noun for dance or ball (formal dance event).",
+      "why_wrong": [
+        "'Bajar' means to go down or lower — 'baja el volumen' = lower the volume.",
+        "'Besar' means to kiss — 'un beso' is a kiss.",
+        "'Borrar' means to erase — 'borrador' is an eraser."
+      ]
+    },
+    {
+      "id": "q022",
+      "q": "How do you say 'to dance'?",
+      "correct": "bailar",
+      "incorrect": ["bajar", "besar", "buscar"],
+      "why_correct": "'Bailar' is the verb to dance — 'el baile' means the dance.",
+      "why_wrong": [
+        "'Bajar' means to go down or lower.",
+        "'Besar' means to kiss.",
+        "'Buscar' means to look for."
+      ]
+    },
+    {
+      "id": "q023",
+      "q": "What does 'bajar' mean?",
+      "correct": "to go down; to lower",
+      "incorrect": ["to kiss", "to erase", "to look for"],
+      "why_correct": "'Bajar' means to go down or lower — 'bajo' means low/short. 'Bajar las escaleras' = go down the stairs.",
+      "why_wrong": [
+        "'Besar' means to kiss — 'un beso' is a kiss.",
+        "'Borrar' means to erase — a 'borrador' is an eraser.",
+        "'Buscar' means to look for — related to 'búsqueda' (search)."
+      ]
+    },
+    {
+      "id": "q024",
+      "q": "How do you say 'to go down; to lower'?",
+      "correct": "bajar",
+      "incorrect": ["bailar", "besar", "borrar"],
+      "why_correct": "'Bajar' means to go down — 'bajo' (low/short) is the clue. 'Baja la voz' = lower your voice.",
+      "why_wrong": [
+        "'Bailar' means to dance.",
+        "'Besar' means to kiss.",
+        "'Borrar' means to erase."
+      ]
+    },
+    {
+      "id": "q025",
+      "q": "What does 'besar' mean?",
+      "correct": "to kiss",
+      "incorrect": ["to erase", "to look for", "to change"],
+      "why_correct": "'Besar' means to kiss — 'un beso' is the noun for kiss. Think of 'beso' → 'kiss'.",
+      "why_wrong": [
+        "'Borrar' means to erase.",
+        "'Buscar' means to look for.",
+        "'Cambiar' means to change."
+      ]
+    },
+    {
+      "id": "q026",
+      "q": "How do you say 'to kiss'?",
+      "correct": "besar",
+      "incorrect": ["bajar", "borrar", "cambiar"],
+      "why_correct": "'Besar' is the verb to kiss — 'un beso' means a kiss.",
+      "why_wrong": [
+        "'Bajar' means to go down or lower.",
+        "'Borrar' means to erase.",
+        "'Cambiar' means to change."
+      ]
+    },
+    {
+      "id": "q027",
+      "q": "What does 'borrar' mean?",
+      "correct": "to erase",
+      "incorrect": ["to look for", "to change", "to walk"],
+      "why_correct": "'Borrar' means to erase — 'borrador' is an eraser or rough draft. Think of 'blur' (making something disappear).",
+      "why_wrong": [
+        "'Buscar' means to look for.",
+        "'Cambiar' means to change.",
+        "'Caminar' means to walk."
+      ]
+    },
+    {
+      "id": "q028",
+      "q": "How do you say 'to erase'?",
+      "correct": "borrar",
+      "incorrect": ["besar", "buscar", "cantar"],
+      "why_correct": "'Borrar' means to erase — a 'borrador' is an eraser or rough draft.",
+      "why_wrong": [
+        "'Besar' means to kiss.",
+        "'Buscar' means to look for.",
+        "'Cantar' means to sing — think of 'cantata' or 'chant'."
+      ]
+    },
+    {
+      "id": "q029",
+      "q": "What does 'buscar' mean?",
+      "correct": "to look for",
+      "incorrect": ["to change", "to walk", "to sing"],
+      "why_correct": "'Buscar' means to look for or search — 'búsqueda' is a search. Google uses the term in Spanish interfaces.",
+      "why_wrong": [
+        "'Cambiar' means to change.",
+        "'Caminar' means to walk.",
+        "'Cantar' means to sing."
+      ]
+    },
+    {
+      "id": "q030",
+      "q": "How do you say 'to look for'?",
+      "correct": "buscar",
+      "incorrect": ["borrar", "cambiar", "cocinar"],
+      "why_correct": "'Buscar' means to search or look for — 'búsqueda' is the noun for search.",
+      "why_wrong": [
+        "'Borrar' means to erase.",
+        "'Cambiar' means to change.",
+        "'Cocinar' means to cook."
+      ]
+    },
+    {
+      "id": "q031",
+      "q": "What does 'cambiar' mean?",
+      "correct": "to change",
+      "incorrect": ["to walk", "to sing", "to celebrate"],
+      "why_correct": "'Cambiar' means to change — 'cambio' means change or exchange. A 'casa de cambio' is a currency exchange.",
+      "why_wrong": [
+        "'Caminar' means to walk.",
+        "'Cantar' means to sing.",
+        "'Celebrar' means to celebrate — near cognate with 'celebrate'."
+      ]
+    },
+    {
+      "id": "q032",
+      "q": "How do you say 'to change'?",
+      "correct": "cambiar",
+      "incorrect": ["cantar", "celebrar", "cenar"],
+      "why_correct": "'Cambiar' means to change — 'cambio' (change/exchange) is the noun form.",
+      "why_wrong": [
+        "'Cantar' means to sing.",
+        "'Celebrar' means to celebrate.",
+        "'Cenar' means to have dinner — 'cena' is dinner."
+      ]
+    },
+    {
+      "id": "q033",
+      "q": "What does 'caminar' mean?",
+      "correct": "to walk",
+      "incorrect": ["to sing", "to celebrate", "to have dinner"],
+      "why_correct": "'Caminar' comes from 'camino' (path/road) — to walk along the path.",
+      "why_wrong": [
+        "'Cantar' means to sing — think of 'cantata' or 'chant'.",
+        "'Celebrar' means to celebrate.",
+        "'Cenar' means to have dinner."
+      ]
+    },
+    {
+      "id": "q034",
+      "q": "How do you say 'to walk'?",
+      "correct": "caminar",
+      "incorrect": ["bailar", "cambiar", "cocinar"],
+      "why_correct": "'Caminar' comes from 'camino' (road/path) — walking down the road.",
+      "why_wrong": [
+        "'Bailar' means to dance.",
+        "'Cambiar' means to change.",
+        "'Cocinar' means to cook."
+      ]
+    },
+    {
+      "id": "q035",
+      "q": "What does 'cantar' mean?",
+      "correct": "to sing",
+      "incorrect": ["to celebrate", "to have dinner", "to cook"],
+      "why_correct": "'Cantar' means to sing — think of 'cantata', 'chant', or 'canto'. All are singing-related music terms from the same root.",
+      "why_wrong": [
+        "'Celebrar' means to celebrate.",
+        "'Cenar' means to have dinner.",
+        "'Cocinar' means to cook."
+      ]
+    },
+    {
+      "id": "q036",
+      "q": "How do you say 'to sing'?",
+      "correct": "cantar",
+      "incorrect": ["caminar", "cenar", "comprar"],
+      "why_correct": "'Cantar' is the verb to sing — 'canto', 'cantante' (singer), and musical 'cantata' all share this root.",
+      "why_wrong": [
+        "'Caminar' means to walk.",
+        "'Cenar' means to have dinner.",
+        "'Comprar' means to buy."
+      ]
+    },
+    {
+      "id": "q037",
+      "q": "What does 'celebrar' mean?",
+      "correct": "to celebrate",
+      "incorrect": ["to have dinner", "to cook", "to buy"],
+      "why_correct": "'Celebrar' is a near-perfect cognate — same spelling as English 'celebrate' minus the final 'e', plus -ar.",
+      "why_wrong": [
+        "'Cenar' means to have dinner — 'cena' is dinner.",
+        "'Cocinar' means to cook.",
+        "'Comprar' means to buy."
+      ]
+    },
+    {
+      "id": "q038",
+      "q": "How do you say 'to celebrate'?",
+      "correct": "celebrar",
+      "incorrect": ["cantar", "cenar", "contestar"],
+      "why_correct": "'Celebrar' is a near-cognate of 'celebrate' — easy to remember.",
+      "why_wrong": [
+        "'Cantar' means to sing.",
+        "'Cenar' means to have dinner.",
+        "'Contestar' means to answer."
+      ]
+    },
+    {
+      "id": "q039",
+      "q": "What does 'cenar' mean?",
+      "correct": "to have dinner",
+      "incorrect": ["to cook", "to buy", "to answer"],
+      "why_correct": "'Cenar' comes from 'cena' (dinner/supper) — 'cenar' is to eat the evening meal.",
+      "why_wrong": [
+        "'Cocinar' means to cook — you cook before you 'cenar'.",
+        "'Comprar' means to buy.",
+        "'Contestar' means to answer."
+      ]
+    },
+    {
+      "id": "q040",
+      "q": "How do you say 'to have dinner'?",
+      "correct": "cenar",
+      "incorrect": ["celebrar", "cocinar", "cortar"],
+      "why_correct": "'Cenar' means to have dinner — 'cena' is the noun for dinner.",
+      "why_wrong": [
+        "'Celebrar' means to celebrate.",
+        "'Cocinar' means to cook.",
+        "'Cortar' means to cut."
+      ]
+    },
+    {
+      "id": "q041",
+      "q": "What does 'cocinar' mean?",
+      "correct": "to cook",
+      "incorrect": ["to buy", "to answer", "to cut"],
+      "why_correct": "'Cocinar' comes from 'cocina' (kitchen) — you cook in the kitchen.",
+      "why_wrong": [
+        "'Comprar' means to buy.",
+        "'Contestar' means to answer.",
+        "'Cortar' means to cut."
+      ]
+    },
+    {
+      "id": "q042",
+      "q": "How do you say 'to cook'?",
+      "correct": "cocinar",
+      "incorrect": ["cenar", "comprar", "cruzar"],
+      "why_correct": "'Cocinar' comes from 'cocina' (kitchen) — to cook is what you do in the kitchen.",
+      "why_wrong": [
+        "'Cenar' means to have dinner.",
+        "'Comprar' means to buy.",
+        "'Cruzar' means to cross."
+      ]
+    },
+    {
+      "id": "q043",
+      "q": "What does 'comprar' mean?",
+      "correct": "to buy",
+      "incorrect": ["to answer", "to cut", "to cross"],
+      "why_correct": "'Comprar' means to buy — 'las compras' means shopping. Think of 'purchase' through the Latin root 'comparare'.",
+      "why_wrong": [
+        "'Contestar' means to answer.",
+        "'Cortar' means to cut.",
+        "'Cruzar' means to cross."
+      ]
+    },
+    {
+      "id": "q044",
+      "q": "How do you say 'to buy'?",
+      "correct": "comprar",
+      "incorrect": ["cocinar", "cortar", "dejar"],
+      "why_correct": "'Comprar' means to buy — 'ir de compras' means to go shopping.",
+      "why_wrong": [
+        "'Cocinar' means to cook.",
+        "'Cortar' means to cut.",
+        "'Dejar' means to leave an object."
+      ]
+    },
+    {
+      "id": "q045",
+      "q": "What does 'contestar' mean?",
+      "correct": "to answer",
+      "incorrect": ["to cut", "to cross", "to leave (an object)"],
+      "why_correct": "'Contestar' means to answer — think of 'contest' (to dispute/respond) or 'testimony' from the same Latin 'testis' root.",
+      "why_wrong": [
+        "'Cortar' means to cut.",
+        "'Cruzar' means to cross.",
+        "'Dejar' means to leave an object."
+      ]
+    },
+    {
+      "id": "q046",
+      "q": "How do you say 'to answer'?",
+      "correct": "contestar",
+      "incorrect": ["comprar", "cruzar", "desear"],
+      "why_correct": "'Contestar' means to answer — it shares the root with 'contest' (to respond to a claim).",
+      "why_wrong": [
+        "'Comprar' means to buy.",
+        "'Cruzar' means to cross.",
+        "'Desear' means to want or desire."
+      ]
+    },
+    {
+      "id": "q047",
+      "q": "What does 'cortar' mean?",
+      "correct": "to cut",
+      "incorrect": ["to cross", "to leave (an object)", "to want; to desire"],
+      "why_correct": "'Cortar' means to cut — related to 'cortador' (cutter) and English 'court' (to cut off, in the sense of trim).",
+      "why_wrong": [
+        "'Cruzar' means to cross — from 'cruz' (cross/crucifix).",
+        "'Dejar' means to leave an object behind.",
+        "'Desear' means to want or desire."
+      ]
+    },
+    {
+      "id": "q048",
+      "q": "How do you say 'to cut'?",
+      "correct": "cortar",
+      "incorrect": ["contestar", "cruzar", "dibujar"],
+      "why_correct": "'Cortar' means to cut — 'cortar el pelo' = to cut hair.",
+      "why_wrong": [
+        "'Contestar' means to answer.",
+        "'Cruzar' means to cross.",
+        "'Dibujar' means to draw."
+      ]
+    },
+    {
+      "id": "q049",
+      "q": "What does 'cruzar' mean?",
+      "correct": "to cross",
+      "incorrect": ["to leave (an object)", "to want; to desire", "to draw"],
+      "why_correct": "'Cruzar' comes from 'cruz' (cross) — to cross a street is to go across it. The crucifix is also 'la cruz'.",
+      "why_wrong": [
+        "'Dejar' means to leave an object behind.",
+        "'Desear' means to want or desire.",
+        "'Dibujar' means to draw."
+      ]
+    },
+    {
+      "id": "q050",
+      "q": "How do you say 'to cross'?",
+      "correct": "cruzar",
+      "incorrect": ["cortar", "dejar", "disfrutar"],
+      "why_correct": "'Cruzar' comes from 'cruz' (cross) — to cruzar the street means to cross it.",
+      "why_wrong": [
+        "'Cortar' means to cut.",
+        "'Dejar' means to leave an object.",
+        "'Disfrutar' means to enjoy."
+      ]
+    },
+    {
+      "id": "q051",
+      "q": "What does 'dejar' mean?",
+      "correct": "to leave (an object)",
+      "incorrect": ["to want; to desire", "to draw", "to enjoy"],
+      "why_correct": "'Dejar' specifically means to leave something behind (an object) — 'déjame en paz' = leave me alone. It's different from 'salir' (to leave a place).",
+      "why_wrong": [
+        "'Desear' means to want or desire — from 'deseo' (wish/desire).",
+        "'Dibujar' means to draw.",
+        "'Disfrutar' means to enjoy."
+      ]
+    },
+    {
+      "id": "q052",
+      "q": "How do you say 'to leave (an object)'?",
+      "correct": "dejar",
+      "incorrect": ["cruzar", "desear", "durar"],
+      "why_correct": "'Dejar' means to leave something behind — 'dejé mi libro aquí' = I left my book here.",
+      "why_wrong": [
+        "'Cruzar' means to cross.",
+        "'Desear' means to want or desire.",
+        "'Durar' means to last."
+      ]
+    },
+    {
+      "id": "q053",
+      "q": "What does 'desear' mean?",
+      "correct": "to want; to desire",
+      "incorrect": ["to draw", "to enjoy", "to last"],
+      "why_correct": "'Desear' comes from 'deseo' (desire/wish) — it's a cognate with English 'desire'.",
+      "why_wrong": [
+        "'Dibujar' means to draw.",
+        "'Disfrutar' means to enjoy.",
+        "'Durar' means to last — from 'duración' (duration)."
+      ]
+    },
+    {
+      "id": "q054",
+      "q": "How do you say 'to want; to desire'?",
+      "correct": "desear",
+      "incorrect": ["dejar", "dibujar", "echar"],
+      "why_correct": "'Desear' means to desire or wish — 'deseo' is the noun. It's a cognate with English 'desire'.",
+      "why_wrong": [
+        "'Dejar' means to leave an object.",
+        "'Dibujar' means to draw.",
+        "'Echar' means to throw or pour."
+      ]
+    },
+    {
+      "id": "q055",
+      "q": "What does 'dibujar' mean?",
+      "correct": "to draw",
+      "incorrect": ["to enjoy", "to last", "to throw; to pour"],
+      "why_correct": "'Dibujar' means to draw — 'el dibujo' is the noun for drawing or sketch.",
+      "why_wrong": [
+        "'Disfrutar' means to enjoy.",
+        "'Durar' means to last.",
+        "'Echar' means to throw or pour."
+      ]
+    },
+    {
+      "id": "q056",
+      "q": "How do you say 'to draw'?",
+      "correct": "dibujar",
+      "incorrect": ["desear", "disfrutar", "enseñar"],
+      "why_correct": "'Dibujar' means to draw — 'un dibujo' is a drawing.",
+      "why_wrong": [
+        "'Desear' means to want or desire.",
+        "'Disfrutar' means to enjoy.",
+        "'Enseñar' means to teach."
+      ]
+    },
+    {
+      "id": "q057",
+      "q": "What does 'disfrutar' mean?",
+      "correct": "to enjoy",
+      "incorrect": ["to last", "to throw; to pour", "to teach"],
+      "why_correct": "'Disfrutar' means to enjoy — 'dis-frutar' contains 'fruto' (fruit), the idea of enjoying the fruits of something.",
+      "why_wrong": [
+        "'Durar' means to last — from 'duración' (duration).",
+        "'Echar' means to throw or pour.",
+        "'Enseñar' means to teach."
+      ]
+    },
+    {
+      "id": "q058",
+      "q": "How do you say 'to enjoy'?",
+      "correct": "disfrutar",
+      "incorrect": ["dibujar", "durar", "escuchar"],
+      "why_correct": "'Disfrutar' means to enjoy — related to 'fruto' (fruit), savoring the fruits of life.",
+      "why_wrong": [
+        "'Dibujar' means to draw.",
+        "'Durar' means to last.",
+        "'Escuchar' means to listen to."
+      ]
+    },
+    {
+      "id": "q059",
+      "q": "What does 'durar' mean?",
+      "correct": "to last",
+      "incorrect": ["to throw; to pour", "to teach", "to hand in; to deliver"],
+      "why_correct": "'Durar' means to last — from Latin 'durare', related to English 'durable' and 'duration'.",
+      "why_wrong": [
+        "'Echar' means to throw or pour.",
+        "'Enseñar' means to teach.",
+        "'Entregar' means to hand in or deliver."
+      ]
+    },
+    {
+      "id": "q060",
+      "q": "How do you say 'to last'?",
+      "correct": "durar",
+      "incorrect": ["disfrutar", "echar", "esperar"],
+      "why_correct": "'Durar' means to last — 'duración' is duration, and 'durable' shares the same Latin root.",
+      "why_wrong": [
+        "'Disfrutar' means to enjoy.",
+        "'Echar' means to throw or pour.",
+        "'Esperar' means to wait for or hope."
+      ]
+    },
+    {
+      "id": "q061",
+      "q": "What does 'echar' mean?",
+      "correct": "to throw; to pour",
+      "incorrect": ["to teach", "to hand in; to deliver", "to listen to"],
+      "why_correct": "'Echar' means to throw or pour — 'echar agua' = to pour water; 'echar una moneda' = to toss a coin.",
+      "why_wrong": [
+        "'Enseñar' means to teach.",
+        "'Entregar' means to hand in or deliver.",
+        "'Escuchar' means to listen to."
+      ]
+    },
+    {
+      "id": "q062",
+      "q": "How do you say 'to throw; to pour'?",
+      "correct": "echar",
+      "incorrect": ["durar", "enseñar", "estudiar"],
+      "why_correct": "'Echar' means to throw or pour — 'echar sal' = to pour/add salt.",
+      "why_wrong": [
+        "'Durar' means to last.",
+        "'Enseñar' means to teach.",
+        "'Estudiar' means to study."
+      ]
+    },
+    {
+      "id": "q063",
+      "q": "What does 'enseñar' mean?",
+      "correct": "to teach",
+      "incorrect": ["to hand in; to deliver", "to listen to", "to wait for; to hope"],
+      "why_correct": "'Enseñar' means to teach — 'el/la enseñante' is a teacher. It also means to show, which is how teaching works.",
+      "why_wrong": [
+        "'Entregar' means to hand in or deliver.",
+        "'Escuchar' means to listen to.",
+        "'Esperar' means to wait for or hope."
+      ]
+    },
+    {
+      "id": "q064",
+      "q": "How do you say 'to teach'?",
+      "correct": "enseñar",
+      "incorrect": ["echar", "entregar", "explicar"],
+      "why_correct": "'Enseñar' means to teach or show — 'la enseñanza' is teaching/education.",
+      "why_wrong": [
+        "'Echar' means to throw or pour.",
+        "'Entregar' means to hand in or deliver.",
+        "'Explicar' means to explain."
+      ]
+    },
+    {
+      "id": "q065",
+      "q": "What does 'entregar' mean?",
+      "correct": "to hand in; to deliver",
+      "incorrect": ["to listen to", "to wait for; to hope", "to ski"],
+      "why_correct": "'Entregar' means to deliver or hand in — 'entrega' is delivery. Think of 'to deliver into (entre) someone's hands (gar)'.",
+      "why_wrong": [
+        "'Escuchar' means to listen to.",
+        "'Esperar' means to wait for or hope.",
+        "'Esquiar' means to ski."
+      ]
+    },
+    {
+      "id": "q066",
+      "q": "How do you say 'to hand in; to deliver'?",
+      "correct": "entregar",
+      "incorrect": ["enseñar", "escuchar", "felicitar"],
+      "why_correct": "'Entregar' means to hand over or deliver — 'entrega' means delivery.",
+      "why_wrong": [
+        "'Enseñar' means to teach.",
+        "'Escuchar' means to listen to.",
+        "'Felicitar' means to congratulate."
+      ]
+    },
+    {
+      "id": "q067",
+      "q": "What does 'escuchar' mean?",
+      "correct": "to listen to",
+      "incorrect": ["to wait for; to hope", "to ski", "to park"],
+      "why_correct": "'Escuchar' means to listen to — 'escucha' is related to 'auscultate' (to listen medically). 'Escuchar música' = to listen to music.",
+      "why_wrong": [
+        "'Esperar' means to wait for or hope.",
+        "'Esquiar' means to ski.",
+        "'Estacionar' means to park."
+      ]
+    },
+    {
+      "id": "q068",
+      "q": "How do you say 'to listen to'?",
+      "correct": "escuchar",
+      "incorrect": ["entregar", "esperar", "estudiar"],
+      "why_correct": "'Escuchar' means to listen — 'escucha' is active listening. 'Escuchar música' = listen to music.",
+      "why_wrong": [
+        "'Entregar' means to hand in or deliver.",
+        "'Esperar' means to wait for or hope.",
+        "'Estudiar' means to study."
+      ]
+    },
+    {
+      "id": "q069",
+      "q": "What does 'esperar' mean?",
+      "correct": "to wait for; to hope",
+      "incorrect": ["to ski", "to park", "to study"],
+      "why_correct": "'Esperar' means both to wait and to hope — 'espera' means wait. Related to English 'hope' via Latin 'sperare'. 'La esperanza' is hope.",
+      "why_wrong": [
+        "'Esquiar' means to ski.",
+        "'Estacionar' means to park.",
+        "'Estudiar' means to study."
+      ]
+    },
+    {
+      "id": "q070",
+      "q": "How do you say 'to wait for; to hope'?",
+      "correct": "esperar",
+      "incorrect": ["escuchar", "estudiar", "explicar"],
+      "why_correct": "'Esperar' means to wait or hope — 'la esperanza' (hope) shares the same root.",
+      "why_wrong": [
+        "'Escuchar' means to listen to.",
+        "'Estudiar' means to study.",
+        "'Explicar' means to explain."
+      ]
+    },
+    {
+      "id": "q071",
+      "q": "What does 'esquiar' mean?",
+      "correct": "to ski",
+      "incorrect": ["to park", "to study", "to explain"],
+      "why_correct": "'Esquiar' means to ski — directly borrowed from English 'ski' (which comes from Norwegian), just conjugated as a Spanish -ar verb.",
+      "why_wrong": [
+        "'Estacionar' means to park.",
+        "'Estudiar' means to study.",
+        "'Explicar' means to explain."
+      ]
+    },
+    {
+      "id": "q072",
+      "q": "How do you say 'to ski'?",
+      "correct": "esquiar",
+      "incorrect": ["esperar", "estacionar", "felicitar"],
+      "why_correct": "'Esquiar' is Spanish for to ski — it's borrowed from Norwegian 'ski' and conjugated as -ar.",
+      "why_wrong": [
+        "'Esperar' means to wait for or hope.",
+        "'Estacionar' means to park.",
+        "'Felicitar' means to congratulate."
+      ]
+    },
+    {
+      "id": "q073",
+      "q": "What does 'estacionar' mean?",
+      "correct": "to park",
+      "incorrect": ["to study", "to explain", "to congratulate"],
+      "why_correct": "'Estacionar' means to park a vehicle — from 'estación' (station). You park at a station/spot.",
+      "why_wrong": [
+        "'Estudiar' means to study.",
+        "'Explicar' means to explain.",
+        "'Felicitar' means to congratulate."
+      ]
+    },
+    {
+      "id": "q074",
+      "q": "How do you say 'to park'?",
+      "correct": "estacionar",
+      "incorrect": ["esquiar", "estudiar", "firmar"],
+      "why_correct": "'Estacionar' means to park — from 'estación' (station/stop), where you leave your vehicle.",
+      "why_wrong": [
+        "'Esquiar' means to ski.",
+        "'Estudiar' means to study.",
+        "'Firmar' means to sign."
+      ]
+    },
+    {
+      "id": "q075",
+      "q": "What does 'estudiar' mean?",
+      "correct": "to study",
+      "incorrect": ["to explain", "to congratulate", "to sign"],
+      "why_correct": "'Estudiar' is a cognate of 'study' — both from Latin 'studium' (zeal/study).",
+      "why_wrong": [
+        "'Explicar' means to explain.",
+        "'Felicitar' means to congratulate.",
+        "'Firmar' means to sign."
+      ]
+    },
+    {
+      "id": "q076",
+      "q": "How do you say 'to study'?",
+      "correct": "estudiar",
+      "incorrect": ["escuchar", "explicar", "ganar"],
+      "why_correct": "'Estudiar' is a cognate of 'study' — both from Latin 'studium'.",
+      "why_wrong": [
+        "'Escuchar' means to listen to.",
+        "'Explicar' means to explain.",
+        "'Ganar' means to win."
+      ]
+    },
+    {
+      "id": "q077",
+      "q": "What does 'explicar' mean?",
+      "correct": "to explain",
+      "incorrect": ["to congratulate", "to sign", "to win"],
+      "why_correct": "'Explicar' is a near-cognate of English 'explain' and 'explicate' — all from Latin 'explicare' (to unfold).",
+      "why_wrong": [
+        "'Felicitar' means to congratulate.",
+        "'Firmar' means to sign.",
+        "'Ganar' means to win."
+      ]
+    },
+    {
+      "id": "q078",
+      "q": "How do you say 'to explain'?",
+      "correct": "explicar",
+      "incorrect": ["estudiar", "felicitar", "gastar"],
+      "why_correct": "'Explicar' is related to English 'explicate' and 'explain' — all from Latin 'explicare' (to unfold/explain).",
+      "why_wrong": [
+        "'Estudiar' means to study.",
+        "'Felicitar' means to congratulate.",
+        "'Gastar' means to spend or waste."
+      ]
+    },
+    {
+      "id": "q079",
+      "q": "What does 'felicitar' mean?",
+      "correct": "to congratulate",
+      "incorrect": ["to sign", "to win", "to spend; to waste"],
+      "why_correct": "'Felicitar' means to congratulate — from 'feliz' (happy). To congratulate is to wish someone happiness. 'Felicitaciones!' = Congratulations!",
+      "why_wrong": [
+        "'Firmar' means to sign.",
+        "'Ganar' means to win.",
+        "'Gastar' means to spend or waste."
+      ]
+    },
+    {
+      "id": "q080",
+      "q": "How do you say 'to congratulate'?",
+      "correct": "felicitar",
+      "incorrect": ["explicar", "firmar", "grabar"],
+      "why_correct": "'Felicitar' comes from 'feliz' (happy) — to congratulate is to wish happiness. '¡Felicitaciones!' = Congratulations!",
+      "why_wrong": [
+        "'Explicar' means to explain.",
+        "'Firmar' means to sign.",
+        "'Grabar' means to record."
+      ]
+    },
+    {
+      "id": "q081",
+      "q": "What does 'firmar' mean?",
+      "correct": "to sign",
+      "incorrect": ["to win", "to spend; to waste", "to record"],
+      "why_correct": "'Firmar' means to sign — from 'firma' (signature/firm). Your signature confirms your 'firm' identity.",
+      "why_wrong": [
+        "'Ganar' means to win.",
+        "'Gastar' means to spend or waste.",
+        "'Grabar' means to record."
+      ]
+    },
+    {
+      "id": "q082",
+      "q": "How do you say 'to sign'?",
+      "correct": "firmar",
+      "incorrect": ["felicitar", "ganar", "gritar"],
+      "why_correct": "'Firmar' means to sign — 'la firma' is a signature, from Latin 'firmus' (firm/solid).",
+      "why_wrong": [
+        "'Felicitar' means to congratulate.",
+        "'Ganar' means to win.",
+        "'Gritar' means to shout."
+      ]
+    },
+    {
+      "id": "q083",
+      "q": "What does 'ganar' mean?",
+      "correct": "to win",
+      "incorrect": ["to spend; to waste", "to record", "to shout"],
+      "why_correct": "'Ganar' means to win or to earn — 'ganar un partido' = win a game; 'ganar dinero' = earn money.",
+      "why_wrong": [
+        "'Gastar' means to spend or waste.",
+        "'Grabar' means to record.",
+        "'Gritar' means to shout."
+      ]
+    },
+    {
+      "id": "q084",
+      "q": "How do you say 'to win'?",
+      "correct": "ganar",
+      "incorrect": ["firmar", "gastar", "hablar"],
+      "why_correct": "'Ganar' means to win or earn — 'el ganador' is the winner.",
+      "why_wrong": [
+        "'Firmar' means to sign.",
+        "'Gastar' means to spend or waste.",
+        "'Hablar' means to speak."
+      ]
+    },
+    {
+      "id": "q085",
+      "q": "What does 'gastar' mean?",
+      "correct": "to spend; to waste",
+      "incorrect": ["to record", "to shout", "to speak"],
+      "why_correct": "'Gastar' means to spend or waste — from Latin 'vastare'. 'Gastar dinero' = to spend money.",
+      "why_wrong": [
+        "'Grabar' means to record.",
+        "'Gritar' means to shout.",
+        "'Hablar' means to speak."
+      ]
+    },
+    {
+      "id": "q086",
+      "q": "How do you say 'to spend; to waste'?",
+      "correct": "gastar",
+      "incorrect": ["ganar", "grabar", "invitar"],
+      "why_correct": "'Gastar' means to spend or waste — 'gastos' are expenses.",
+      "why_wrong": [
+        "'Ganar' means to win — opposite in a way (earn vs spend).",
+        "'Grabar' means to record.",
+        "'Invitar' means to invite."
+      ]
+    },
+    {
+      "id": "q087",
+      "q": "What does 'grabar' mean?",
+      "correct": "to record",
+      "incorrect": ["to shout", "to speak", "to invite"],
+      "why_correct": "'Grabar' means to record or engrave — from 'grabado' (engraving/recording). Related to 'grave' (engraved).",
+      "why_wrong": [
+        "'Gritar' means to shout.",
+        "'Hablar' means to speak.",
+        "'Invitar' means to invite."
+      ]
+    },
+    {
+      "id": "q088",
+      "q": "How do you say 'to record'?",
+      "correct": "grabar",
+      "incorrect": ["gastar", "gritar", "lavar"],
+      "why_correct": "'Grabar' means to record — 'grabación' is a recording.",
+      "why_wrong": [
+        "'Gastar' means to spend or waste.",
+        "'Gritar' means to shout.",
+        "'Lavar' means to wash."
+      ]
+    },
+    {
+      "id": "q089",
+      "q": "What does 'gritar' mean?",
+      "correct": "to shout",
+      "incorrect": ["to speak", "to invite", "to wash"],
+      "why_correct": "'Gritar' means to shout or yell — 'un grito' is a shout or scream. 'Pegar un grito' = to let out a shout.",
+      "why_wrong": [
+        "'Hablar' means to speak.",
+        "'Invitar' means to invite.",
+        "'Lavar' means to wash."
+      ]
+    },
+    {
+      "id": "q090",
+      "q": "How do you say 'to shout'?",
+      "correct": "gritar",
+      "incorrect": ["grabar", "hablar", "limpiar"],
+      "why_correct": "'Gritar' means to shout — 'el grito' is a shout or scream.",
+      "why_wrong": [
+        "'Grabar' means to record.",
+        "'Hablar' means to speak.",
+        "'Limpiar' means to clean."
+      ]
+    },
+    {
+      "id": "q091",
+      "q": "What does 'hablar' mean?",
+      "correct": "to speak",
+      "incorrect": ["to invite", "to wash", "to clean"],
+      "why_correct": "'Hablar' means to speak — it's the most common verb for speaking Spanish. 'Hablar español' = to speak Spanish.",
+      "why_wrong": [
+        "'Invitar' means to invite — cognate with English 'invite'.",
+        "'Lavar' means to wash.",
+        "'Limpiar' means to clean."
+      ]
+    },
+    {
+      "id": "q092",
+      "q": "How do you say 'to speak'?",
+      "correct": "hablar",
+      "incorrect": ["gritar", "invitar", "llamar"],
+      "why_correct": "'Hablar' is the primary verb for speaking — 'hablo español' = I speak Spanish.",
+      "why_wrong": [
+        "'Gritar' means to shout.",
+        "'Invitar' means to invite.",
+        "'Llamar' means to call."
+      ]
+    },
+    {
+      "id": "q093",
+      "q": "What does 'invitar' mean?",
+      "correct": "to invite",
+      "incorrect": ["to wash", "to clean", "to call"],
+      "why_correct": "'Invitar' is a cognate of English 'invite' — same meaning, easy to remember.",
+      "why_wrong": [
+        "'Lavar' means to wash.",
+        "'Limpiar' means to clean.",
+        "'Llamar' means to call."
+      ]
+    },
+    {
+      "id": "q094",
+      "q": "How do you say 'to invite'?",
+      "correct": "invitar",
+      "incorrect": ["hablar", "lavar", "llevar"],
+      "why_correct": "'Invitar' is a direct cognate of 'invite' — just add -ar.",
+      "why_wrong": [
+        "'Hablar' means to speak.",
+        "'Lavar' means to wash.",
+        "'Llevar' means to wear or carry."
+      ]
+    },
+    {
+      "id": "q095",
+      "q": "What does 'lavar' mean?",
+      "correct": "to wash",
+      "incorrect": ["to clean", "to call", "to arrive"],
+      "why_correct": "'Lavar' means to wash — 'la lavandería' is a laundromat. English 'lavatory' (washroom) shares this root.",
+      "why_wrong": [
+        "'Limpiar' means to clean.",
+        "'Llamar' means to call.",
+        "'Llegar' means to arrive."
+      ]
+    },
+    {
+      "id": "q096",
+      "q": "How do you say 'to wash'?",
+      "correct": "lavar",
+      "incorrect": ["limpiar", "llevar", "llorar"],
+      "why_correct": "'Lavar' means to wash — English 'lavatory' (washroom) shares the Latin root 'lavare'.",
+      "why_wrong": [
+        "'Limpiar' means to clean.",
+        "'Llevar' means to wear or carry.",
+        "'Llorar' means to cry."
+      ]
+    },
+    {
+      "id": "q097",
+      "q": "What does 'limpiar' mean?",
+      "correct": "to clean",
+      "incorrect": ["to call", "to arrive", "to wear; to carry"],
+      "why_correct": "'Limpiar' means to clean — 'limpio' means clean (adjective). 'Limpiar la casa' = to clean the house.",
+      "why_wrong": [
+        "'Llamar' means to call.",
+        "'Llegar' means to arrive.",
+        "'Llevar' means to wear or carry."
+      ]
+    },
+    {
+      "id": "q098",
+      "q": "How do you say 'to clean'?",
+      "correct": "limpiar",
+      "incorrect": ["lavar", "llamar", "mandar"],
+      "why_correct": "'Limpiar' means to clean — 'limpio/a' is the adjective for clean.",
+      "why_wrong": [
+        "'Lavar' means to wash.",
+        "'Llamar' means to call.",
+        "'Mandar' means to send."
+      ]
+    },
+    {
+      "id": "q099",
+      "q": "What does 'llamar' mean?",
+      "correct": "to call",
+      "incorrect": ["to arrive", "to wear; to carry", "to cry"],
+      "why_correct": "'Llamar' means to call — 'llamar por teléfono' = to call on the phone. 'Me llamo...' literally means 'I call myself...'",
+      "why_wrong": [
+        "'Llegar' means to arrive.",
+        "'Llevar' means to wear or carry.",
+        "'Llorar' means to cry."
+      ]
+    },
+    {
+      "id": "q100",
+      "q": "How do you say 'to call'?",
+      "correct": "llamar",
+      "incorrect": ["limpiar", "llegar", "llorar"],
+      "why_correct": "'Llamar' means to call — 'se llama' means he/she is called (literally: he/she calls himself/herself).",
+      "why_wrong": [
+        "'Limpiar' means to clean.",
+        "'Llegar' means to arrive.",
+        "'Llorar' means to cry."
+      ]
+    },
+    {
+      "id": "q101",
+      "q": "What does 'llegar' mean?",
+      "correct": "to arrive",
+      "incorrect": ["to wear; to carry", "to cry", "to send"],
+      "why_correct": "'Llegar' means to arrive — '¿A qué hora llegas?' = What time do you arrive?",
+      "why_wrong": [
+        "'Llevar' means to wear or carry — similar spelling, different meaning!",
+        "'Llorar' means to cry.",
+        "'Mandar' means to send."
+      ]
+    },
+    {
+      "id": "q102",
+      "q": "How do you say 'to arrive'?",
+      "correct": "llegar",
+      "incorrect": ["llamar", "llevar", "marcar"],
+      "why_correct": "'Llegar' means to arrive — 'la llegada' is the arrival.",
+      "why_wrong": [
+        "'Llamar' means to call.",
+        "'Llevar' means to wear or carry — watch out, these look similar!",
+        "'Marcar' means to dial or mark."
+      ]
+    },
+    {
+      "id": "q103",
+      "q": "What does 'llevar' mean?",
+      "correct": "to wear; to carry",
+      "incorrect": ["to cry", "to send", "to drive"],
+      "why_correct": "'Llevar' means to wear or carry — 'llevar ropa' = to wear clothes; 'llevar una bolsa' = to carry a bag.",
+      "why_wrong": [
+        "'Llorar' means to cry.",
+        "'Mandar' means to send.",
+        "'Manejar' means to drive."
+      ]
+    },
+    {
+      "id": "q104",
+      "q": "How do you say 'to wear; to carry'?",
+      "correct": "llevar",
+      "incorrect": ["llegar", "llorar", "mirar"],
+      "why_correct": "'Llevar' means to wear or carry — 'llevar puesto' = to have on/wearing.",
+      "why_wrong": [
+        "'Llegar' means to arrive — similar spelling, different meaning.",
+        "'Llorar' means to cry.",
+        "'Mirar' means to look at."
+      ]
+    },
+    {
+      "id": "q105",
+      "q": "What does 'llorar' mean?",
+      "correct": "to cry",
+      "incorrect": ["to send", "to drive", "to dial; to mark"],
+      "why_correct": "'Llorar' means to cry — 'las lágrimas' are tears. 'Llorar a lágrima viva' = to cry one's eyes out.",
+      "why_wrong": [
+        "'Mandar' means to send.",
+        "'Manejar' means to drive.",
+        "'Marcar' means to dial or mark."
+      ]
+    },
+    {
+      "id": "q106",
+      "q": "How do you say 'to cry'?",
+      "correct": "llorar",
+      "incorrect": ["llevar", "mandar", "nadar"],
+      "why_correct": "'Llorar' means to cry — 'llanto' is the noun for crying/weeping.",
+      "why_wrong": [
+        "'Llevar' means to wear or carry.",
+        "'Mandar' means to send.",
+        "'Nadar' means to swim."
+      ]
+    },
+    {
+      "id": "q107",
+      "q": "What does 'mandar' mean?",
+      "correct": "to send",
+      "incorrect": ["to drive", "to dial; to mark", "to look at"],
+      "why_correct": "'Mandar' means to send — 'mandar un mensaje' = to send a message. Also means to command (mandar = to order).",
+      "why_wrong": [
+        "'Manejar' means to drive.",
+        "'Marcar' means to dial or mark.",
+        "'Mirar' means to look at."
+      ]
+    },
+    {
+      "id": "q108",
+      "q": "How do you say 'to send'?",
+      "correct": "mandar",
+      "incorrect": ["llorar", "manejar", "montar"],
+      "why_correct": "'Mandar' means to send — 'mandar un correo electrónico' = to send an email.",
+      "why_wrong": [
+        "'Llorar' means to cry.",
+        "'Manejar' means to drive.",
+        "'Montar' means to ride."
+      ]
+    },
+    {
+      "id": "q109",
+      "q": "What does 'manejar' mean?",
+      "correct": "to drive",
+      "incorrect": ["to dial; to mark", "to look at", "to ride"],
+      "why_correct": "'Manejar' means to drive (a vehicle) in Latin American Spanish — from 'mano' (hand), as in handling the wheel.",
+      "why_wrong": [
+        "'Marcar' means to dial or mark.",
+        "'Mirar' means to look at.",
+        "'Montar' means to ride."
+      ]
+    },
+    {
+      "id": "q110",
+      "q": "How do you say 'to drive'?",
+      "correct": "manejar",
+      "incorrect": ["mandar", "marcar", "nadar"],
+      "why_correct": "'Manejar' means to drive — from 'mano' (hand), handling the steering wheel.",
+      "why_wrong": [
+        "'Mandar' means to send.",
+        "'Marcar' means to dial or mark.",
+        "'Nadar' means to swim."
+      ]
+    },
+    {
+      "id": "q111",
+      "q": "What does 'marcar' mean?",
+      "correct": "to dial; to mark",
+      "incorrect": ["to look at", "to ride", "to swim"],
+      "why_correct": "'Marcar' means to dial or mark — 'marcar un número' = to dial a number; 'marcar con una X' = to mark with an X.",
+      "why_wrong": [
+        "'Mirar' means to look at.",
+        "'Montar' means to ride.",
+        "'Nadar' means to swim."
+      ]
+    },
+    {
+      "id": "q112",
+      "q": "How do you say 'to dial; to mark'?",
+      "correct": "marcar",
+      "incorrect": ["manejar", "mirar", "necesitar"],
+      "why_correct": "'Marcar' means to dial or mark — 'marca' is a mark or brand.",
+      "why_wrong": [
+        "'Manejar' means to drive.",
+        "'Mirar' means to look at.",
+        "'Necesitar' means to need."
+      ]
+    },
+    {
+      "id": "q113",
+      "q": "What does 'mirar' mean?",
+      "correct": "to look at",
+      "incorrect": ["to ride", "to swim", "to need"],
+      "why_correct": "'Mirar' means to look at or watch — 'mirar la televisión' = to watch TV. Think of 'mirror' — you look at a mirror.",
+      "why_wrong": [
+        "'Montar' means to ride.",
+        "'Nadar' means to swim.",
+        "'Necesitar' means to need."
+      ]
+    },
+    {
+      "id": "q114",
+      "q": "How do you say 'to look at'?",
+      "correct": "mirar",
+      "incorrect": ["marcar", "montar", "pagar"],
+      "why_correct": "'Mirar' means to look at — 'mira!' = look! Think of 'mirror' (something you look at).",
+      "why_wrong": [
+        "'Marcar' means to dial or mark.",
+        "'Montar' means to ride.",
+        "'Pagar' means to pay."
+      ]
+    },
+    {
+      "id": "q115",
+      "q": "What does 'montar' mean?",
+      "correct": "to ride",
+      "incorrect": ["to swim", "to need", "to pay"],
+      "why_correct": "'Montar' means to ride or mount — 'montar a caballo' = to ride a horse; 'montar en bici' = to ride a bike.",
+      "why_wrong": [
+        "'Nadar' means to swim.",
+        "'Necesitar' means to need.",
+        "'Pagar' means to pay."
+      ]
+    },
+    {
+      "id": "q116",
+      "q": "How do you say 'to ride'?",
+      "correct": "montar",
+      "incorrect": ["mirar", "nadar", "parar"],
+      "why_correct": "'Montar' means to ride or mount — from 'monte' (mountain), as in mounting/climbing.",
+      "why_wrong": [
+        "'Mirar' means to look at.",
+        "'Nadar' means to swim.",
+        "'Parar' means to stop."
+      ]
+    },
+    {
+      "id": "q117",
+      "q": "What does 'nadar' mean?",
+      "correct": "to swim",
+      "incorrect": ["to need", "to pay", "to stop"],
+      "why_correct": "'Nadar' means to swim — 'natación' is swimming (sport). Related to English 'natatorium' (indoor pool).",
+      "why_wrong": [
+        "'Necesitar' means to need.",
+        "'Pagar' means to pay.",
+        "'Parar' means to stop."
+      ]
+    },
+    {
+      "id": "q118",
+      "q": "How do you say 'to swim'?",
+      "correct": "nadar",
+      "incorrect": ["montar", "necesitar", "pasar"],
+      "why_correct": "'Nadar' means to swim — 'natación' (swimming) shares the same Latin root 'natare'.",
+      "why_wrong": [
+        "'Montar' means to ride.",
+        "'Necesitar' means to need.",
+        "'Pasar' means to pass."
+      ]
+    },
+    {
+      "id": "q119",
+      "q": "What does 'necesitar' mean?",
+      "correct": "to need",
+      "incorrect": ["to pay", "to stop", "to pass"],
+      "why_correct": "'Necesitar' is a cognate of 'necessitate' — both from Latin 'necessitas' (necessity/need).",
+      "why_wrong": [
+        "'Pagar' means to pay.",
+        "'Parar' means to stop.",
+        "'Pasar' means to pass."
+      ]
+    },
+    {
+      "id": "q120",
+      "q": "How do you say 'to need'?",
+      "correct": "necesitar",
+      "incorrect": ["nadar", "pagar", "patinar"],
+      "why_correct": "'Necesitar' is related to 'necessity' and 'necessitate' — all from Latin 'necessitas'.",
+      "why_wrong": [
+        "'Nadar' means to swim.",
+        "'Pagar' means to pay.",
+        "'Patinar' means to skate."
+      ]
+    },
+    {
+      "id": "q121",
+      "q": "What does 'pagar' mean?",
+      "correct": "to pay",
+      "incorrect": ["to stop", "to pass", "to skate"],
+      "why_correct": "'Pagar' means to pay — 'el pago' is payment. Think of 'pages' you pay for, or 'paid' from the same Latin root 'pacare'.",
+      "why_wrong": [
+        "'Parar' means to stop.",
+        "'Pasar' means to pass.",
+        "'Patinar' means to skate."
+      ]
+    },
+    {
+      "id": "q122",
+      "q": "How do you say 'to pay'?",
+      "correct": "pagar",
+      "incorrect": ["necesitar", "parar", "pintar"],
+      "why_correct": "'Pagar' means to pay — 'el pago' is a payment.",
+      "why_wrong": [
+        "'Necesitar' means to need.",
+        "'Parar' means to stop.",
+        "'Pintar' means to paint."
+      ]
+    },
+    {
+      "id": "q123",
+      "q": "What does 'parar' mean?",
+      "correct": "to stop",
+      "incorrect": ["to pass", "to skate", "to paint"],
+      "why_correct": "'Parar' means to stop — '¡Para!' = Stop! A 'parada de autobús' is a bus stop.",
+      "why_wrong": [
+        "'Pasar' means to pass — note the difference: parar vs. pasar.",
+        "'Patinar' means to skate.",
+        "'Pintar' means to paint."
+      ]
+    },
+    {
+      "id": "q124",
+      "q": "How do you say 'to stop'?",
+      "correct": "parar",
+      "incorrect": ["pagar", "pasar", "practicar"],
+      "why_correct": "'Parar' means to stop — 'la parada' is a stop (bus stop, etc.).",
+      "why_wrong": [
+        "'Pagar' means to pay.",
+        "'Pasar' means to pass — similar spelling, different meaning.",
+        "'Practicar' means to practice."
+      ]
+    },
+    {
+      "id": "q125",
+      "q": "What does 'pasar' mean?",
+      "correct": "to pass",
+      "incorrect": ["to skate", "to paint", "to practice"],
+      "why_correct": "'Pasar' means to pass — '¿Qué pasa?' = What's happening? (What's passing/going on?)",
+      "why_wrong": [
+        "'Patinar' means to skate.",
+        "'Pintar' means to paint.",
+        "'Practicar' means to practice."
+      ]
+    },
+    {
+      "id": "q126",
+      "q": "How do you say 'to pass'?",
+      "correct": "pasar",
+      "incorrect": ["parar", "patinar", "preguntar"],
+      "why_correct": "'Pasar' means to pass — '¿Qué pasa?' = What's going on?",
+      "why_wrong": [
+        "'Parar' means to stop — note: parar vs. pasar.",
+        "'Patinar' means to skate.",
+        "'Preguntar' means to ask."
+      ]
+    },
+    {
+      "id": "q127",
+      "q": "What does 'patinar' mean?",
+      "correct": "to skate",
+      "incorrect": ["to paint", "to practice", "to ask"],
+      "why_correct": "'Patinar' means to skate — 'los patines' are skates (ice or roller). From 'patin' (skate/sled).",
+      "why_wrong": [
+        "'Pintar' means to paint.",
+        "'Practicar' means to practice.",
+        "'Preguntar' means to ask."
+      ]
+    },
+    {
+      "id": "q128",
+      "q": "How do you say 'to skate'?",
+      "correct": "patinar",
+      "incorrect": ["pasar", "pintar", "preparar"],
+      "why_correct": "'Patinar' means to skate — 'los patines' are skates.",
+      "why_wrong": [
+        "'Pasar' means to pass.",
+        "'Pintar' means to paint.",
+        "'Preparar' means to prepare."
+      ]
+    },
+    {
+      "id": "q129",
+      "q": "What does 'pintar' mean?",
+      "correct": "to paint",
+      "incorrect": ["to practice", "to ask", "to prepare"],
+      "why_correct": "'Pintar' means to paint — 'el pintor/la pintora' is a painter. Related to English 'pigment' and 'picture' from Latin 'pingere'.",
+      "why_wrong": [
+        "'Practicar' means to practice.",
+        "'Preguntar' means to ask.",
+        "'Preparar' means to prepare."
+      ]
+    },
+    {
+      "id": "q130",
+      "q": "How do you say 'to paint'?",
+      "correct": "pintar",
+      "incorrect": ["patinar", "practicar", "presentar"],
+      "why_correct": "'Pintar' means to paint — 'el pintor' is a painter, related to English 'pigment'.",
+      "why_wrong": [
+        "'Patinar' means to skate.",
+        "'Practicar' means to practice.",
+        "'Presentar' means to present."
+      ]
+    },
+    {
+      "id": "q131",
+      "q": "What does 'practicar' mean?",
+      "correct": "to practice",
+      "incorrect": ["to ask", "to prepare", "to present"],
+      "why_correct": "'Practicar' is a near-cognate of 'practice' — both from Greek 'praktikos' (practical/active).",
+      "why_wrong": [
+        "'Preguntar' means to ask.",
+        "'Preparar' means to prepare.",
+        "'Presentar' means to present."
+      ]
+    },
+    {
+      "id": "q132",
+      "q": "How do you say 'to practice'?",
+      "correct": "practicar",
+      "incorrect": ["pintar", "preguntar", "quitar"],
+      "why_correct": "'Practicar' is a cognate of 'practice' — easy to remember.",
+      "why_wrong": [
+        "'Pintar' means to paint.",
+        "'Preguntar' means to ask.",
+        "'Quitar' means to take away or remove."
+      ]
+    },
+    {
+      "id": "q133",
+      "q": "What does 'preguntar' mean?",
+      "correct": "to ask",
+      "incorrect": ["to prepare", "to present", "to take away; to remove"],
+      "why_correct": "'Preguntar' means to ask — 'una pregunta' is a question. Don't confuse with 'pedir' (to ask for something).",
+      "why_wrong": [
+        "'Preparar' means to prepare.",
+        "'Presentar' means to present.",
+        "'Quitar' means to take away or remove."
+      ]
+    },
+    {
+      "id": "q134",
+      "q": "How do you say 'to ask'?",
+      "correct": "preguntar",
+      "incorrect": ["practicar", "preparar", "regresar"],
+      "why_correct": "'Preguntar' means to ask a question — 'una pregunta' is a question.",
+      "why_wrong": [
+        "'Practicar' means to practice.",
+        "'Preparar' means to prepare.",
+        "'Regresar' means to go back or return."
+      ]
+    },
+    {
+      "id": "q135",
+      "q": "What does 'preparar' mean?",
+      "correct": "to prepare",
+      "incorrect": ["to present", "to take away; to remove", "to go back; to return"],
+      "why_correct": "'Preparar' is a near-cognate of 'prepare' — both from Latin 'praeparare' (to make ready).",
+      "why_wrong": [
+        "'Presentar' means to present.",
+        "'Quitar' means to take away or remove.",
+        "'Regresar' means to go back or return."
+      ]
+    },
+    {
+      "id": "q136",
+      "q": "How do you say 'to prepare'?",
+      "correct": "preparar",
+      "incorrect": ["preguntar", "presentar", "repasar"],
+      "why_correct": "'Preparar' is a cognate of 'prepare' — both from Latin 'praeparare'.",
+      "why_wrong": [
+        "'Preguntar' means to ask.",
+        "'Presentar' means to present.",
+        "'Repasar' means to review."
+      ]
+    },
+    {
+      "id": "q137",
+      "q": "What does 'presentar' mean?",
+      "correct": "to present",
+      "incorrect": ["to take away; to remove", "to go back; to return", "to review"],
+      "why_correct": "'Presentar' is a direct cognate of 'present' (to introduce/show) — 'te presento a...' = let me introduce you to...",
+      "why_wrong": [
+        "'Quitar' means to take away or remove.",
+        "'Regresar' means to go back or return.",
+        "'Repasar' means to review."
+      ]
+    },
+    {
+      "id": "q138",
+      "q": "How do you say 'to present'?",
+      "correct": "presentar",
+      "incorrect": ["preparar", "quitar", "sacar"],
+      "why_correct": "'Presentar' is a direct cognate of 'present' (verb) — both from Latin 'praesent-'.",
+      "why_wrong": [
+        "'Preparar' means to prepare.",
+        "'Quitar' means to take away or remove.",
+        "'Sacar' means to take out."
+      ]
+    },
+    {
+      "id": "q139",
+      "q": "What does 'quitar' mean?",
+      "correct": "to take away; to remove",
+      "incorrect": ["to go back; to return", "to review", "to take out"],
+      "why_correct": "'Quitar' means to take away or remove — 'quitar la mesa' = to clear the table; 'quitarse la ropa' = to take off one's clothes.",
+      "why_wrong": [
+        "'Regresar' means to go back or return.",
+        "'Repasar' means to review.",
+        "'Sacar' means to take out (from inside something)."
+      ]
+    },
+    {
+      "id": "q140",
+      "q": "How do you say 'to take away; to remove'?",
+      "correct": "quitar",
+      "incorrect": ["presentar", "regresar", "saludar"],
+      "why_correct": "'Quitar' means to take away or remove — 'quítate los zapatos' = take off your shoes.",
+      "why_wrong": [
+        "'Presentar' means to present.",
+        "'Regresar' means to go back or return.",
+        "'Saludar' means to greet."
+      ]
+    },
+    {
+      "id": "q141",
+      "q": "What does 'regresar' mean?",
+      "correct": "to go back; to return",
+      "incorrect": ["to review", "to take out", "to greet"],
+      "why_correct": "'Regresar' means to return or go back — from Latin 'regressus'. 'Regresar a casa' = to go back home.",
+      "why_wrong": [
+        "'Repasar' means to review.",
+        "'Sacar' means to take out.",
+        "'Saludar' means to greet."
+      ]
+    },
+    {
+      "id": "q142",
+      "q": "How do you say 'to go back; to return'?",
+      "correct": "regresar",
+      "incorrect": ["quitar", "repasar", "salvar"],
+      "why_correct": "'Regresar' means to go back — from Latin 'regressus'. Think of 'regression' (going back).",
+      "why_wrong": [
+        "'Quitar' means to take away or remove.",
+        "'Repasar' means to review.",
+        "'Salvar' means to save a life."
+      ]
+    },
+    {
+      "id": "q143",
+      "q": "What does 'repasar' mean?",
+      "correct": "to review",
+      "incorrect": ["to take out", "to greet", "to save (a life)"],
+      "why_correct": "'Repasar' means to review or go over — 're-' (again) + 'pasar' (to pass). To review is to pass over material again.",
+      "why_wrong": [
+        "'Sacar' means to take out.",
+        "'Saludar' means to greet.",
+        "'Salvar' means to save a life — different from 'ahorrar' which saves money."
+      ]
+    },
+    {
+      "id": "q144",
+      "q": "How do you say 'to review'?",
+      "correct": "repasar",
+      "incorrect": ["regresar", "sacar", "tardar"],
+      "why_correct": "'Repasar' means to review — 're-' (again) + 'pasar' (to pass through), to pass through again.",
+      "why_wrong": [
+        "'Regresar' means to go back or return.",
+        "'Sacar' means to take out.",
+        "'Tardar' means to be late or take long."
+      ]
+    },
+    {
+      "id": "q145",
+      "q": "What does 'sacar' mean?",
+      "correct": "to take out",
+      "incorrect": ["to greet", "to save (a life)", "to be late; to take long"],
+      "why_correct": "'Sacar' means to take out — 'sacar fotos' = to take photos; 'sacar la basura' = to take out the trash.",
+      "why_wrong": [
+        "'Saludar' means to greet.",
+        "'Salvar' means to save a life.",
+        "'Tardar' means to be late or take a long time."
+      ]
+    },
+    {
+      "id": "q146",
+      "q": "How do you say 'to take out'?",
+      "correct": "sacar",
+      "incorrect": ["repasar", "saludar", "terminar"],
+      "why_correct": "'Sacar' means to take out — 'sacar dinero' = to take out money (from ATM).",
+      "why_wrong": [
+        "'Repasar' means to review.",
+        "'Saludar' means to greet.",
+        "'Terminar' means to end or finish."
+      ]
+    },
+    {
+      "id": "q147",
+      "q": "What does 'saludar' mean?",
+      "correct": "to greet",
+      "incorrect": ["to save (a life)", "to be late; to take long", "to end; to finish"],
+      "why_correct": "'Saludar' means to greet — from 'salud' (health). To greet is to wish health, like 'salute!'",
+      "why_wrong": [
+        "'Salvar' means to save a life — don't confuse 'saludar' and 'salvar'.",
+        "'Tardar' means to be late or take long.",
+        "'Terminar' means to end or finish."
+      ]
+    },
+    {
+      "id": "q148",
+      "q": "How do you say 'to greet'?",
+      "correct": "saludar",
+      "incorrect": ["sacar", "salvar", "tirar"],
+      "why_correct": "'Saludar' means to greet — from 'salud' (health). Think of 'salute' and 'salutation'.",
+      "why_wrong": [
+        "'Sacar' means to take out.",
+        "'Salvar' means to save a life — similar-sounding, but different meaning.",
+        "'Tirar' means to throw or pull."
+      ]
+    },
+    {
+      "id": "q149",
+      "q": "What does 'salvar' mean?",
+      "correct": "to save (a life)",
+      "incorrect": ["to be late; to take long", "to end; to finish", "to throw; to pull"],
+      "why_correct": "'Salvar' means to save a life — think of 'salvation' or 'El Salvador' (The Savior).",
+      "why_wrong": [
+        "'Tardar' means to be late or take a long time.",
+        "'Terminar' means to end or finish.",
+        "'Tirar' means to throw or pull."
+      ]
+    },
+    {
+      "id": "q150",
+      "q": "How do you say 'to save (a life)'?",
+      "correct": "salvar",
+      "incorrect": ["saludar", "tardar", "tocar"],
+      "why_correct": "'Salvar' means to save a life — from 'salvación' (salvation). 'El Salvador' = The Savior.",
+      "why_wrong": [
+        "'Saludar' means to greet.",
+        "'Tardar' means to be late or take long.",
+        "'Tocar' means to play an instrument or touch."
+      ]
+    },
+    {
+      "id": "q151",
+      "q": "What does 'tardar' mean?",
+      "correct": "to be late; to take long",
+      "incorrect": ["to end; to finish", "to throw; to pull", "to play (instrument); to touch"],
+      "why_correct": "'Tardar' means to be late or take a long time — 'tarde' means late or afternoon. '¿Cuánto tardas?' = How long does it take you?",
+      "why_wrong": [
+        "'Terminar' means to end or finish.",
+        "'Tirar' means to throw or pull.",
+        "'Tocar' means to play an instrument or touch."
+      ]
+    },
+    {
+      "id": "q152",
+      "q": "How do you say 'to be late; to take long'?",
+      "correct": "tardar",
+      "incorrect": ["salvar", "terminar", "tomar"],
+      "why_correct": "'Tardar' comes from 'tarde' (late/afternoon) — to be tardy/late.",
+      "why_wrong": [
+        "'Salvar' means to save a life.",
+        "'Terminar' means to end or finish.",
+        "'Tomar' means to take or drink."
+      ]
+    },
+    {
+      "id": "q153",
+      "q": "What does 'terminar' mean?",
+      "correct": "to end; to finish",
+      "incorrect": ["to throw; to pull", "to play (instrument); to touch", "to take; to drink"],
+      "why_correct": "'Terminar' is a cognate of 'terminate' — both from Latin 'terminare' (to end/limit).",
+      "why_wrong": [
+        "'Tirar' means to throw or pull.",
+        "'Tocar' means to play an instrument or touch.",
+        "'Tomar' means to take or drink."
+      ]
+    },
+    {
+      "id": "q154",
+      "q": "How do you say 'to end; to finish'?",
+      "correct": "terminar",
+      "incorrect": ["tardar", "tirar", "trabajar"],
+      "why_correct": "'Terminar' is a cognate of 'terminate' — to end, conclude.",
+      "why_wrong": [
+        "'Tardar' means to be late or take long.",
+        "'Tirar' means to throw or pull.",
+        "'Trabajar' means to work."
+      ]
+    },
+    {
+      "id": "q155",
+      "q": "What does 'tirar' mean?",
+      "correct": "to throw; to pull",
+      "incorrect": ["to play (instrument); to touch", "to take; to drink", "to work"],
+      "why_correct": "'Tirar' means to throw or pull — 'tirar la basura' = to throw away the trash; 'tirar de la puerta' = to pull the door.",
+      "why_wrong": [
+        "'Tocar' means to play an instrument or touch.",
+        "'Tomar' means to take or drink.",
+        "'Trabajar' means to work."
+      ]
+    },
+    {
+      "id": "q156",
+      "q": "How do you say 'to throw; to pull'?",
+      "correct": "tirar",
+      "incorrect": ["terminar", "tocar", "usar"],
+      "why_correct": "'Tirar' means to throw or pull — 'tire' on a Spanish door means 'pull'.",
+      "why_wrong": [
+        "'Terminar' means to end or finish.",
+        "'Tocar' means to play an instrument or touch.",
+        "'Usar' means to use."
+      ]
+    },
+    {
+      "id": "q157",
+      "q": "What does 'tocar' mean?",
+      "correct": "to play (instrument); to touch",
+      "incorrect": ["to take; to drink", "to work", "to use"],
+      "why_correct": "'Tocar' means to touch or play an instrument — 'tocar la guitarra' = to play guitar; 'tocar la puerta' = to knock on the door.",
+      "why_wrong": [
+        "'Tomar' means to take or drink.",
+        "'Trabajar' means to work.",
+        "'Usar' means to use."
+      ]
+    },
+    {
+      "id": "q158",
+      "q": "How do you say 'to play (instrument); to touch'?",
+      "correct": "tocar",
+      "incorrect": ["tirar", "tomar", "viajar"],
+      "why_correct": "'Tocar' means to touch or play an instrument — 'tocar el piano' = to play the piano.",
+      "why_wrong": [
+        "'Tirar' means to throw or pull.",
+        "'Tomar' means to take or drink.",
+        "'Viajar' means to travel."
+      ]
+    },
+    {
+      "id": "q159",
+      "q": "What does 'tomar' mean?",
+      "correct": "to take; to drink",
+      "incorrect": ["to work", "to use", "to travel"],
+      "why_correct": "'Tomar' means to take or drink — 'tomar el bus' = to take the bus; 'tomar agua' = to drink water.",
+      "why_wrong": [
+        "'Trabajar' means to work.",
+        "'Usar' means to use.",
+        "'Viajar' means to travel."
+      ]
+    },
+    {
+      "id": "q160",
+      "q": "How do you say 'to take; to drink'?",
+      "correct": "tomar",
+      "incorrect": ["tocar", "trabajar", "usar"],
+      "why_correct": "'Tomar' means to take or drink — 'tomar café' = to drink coffee.",
+      "why_wrong": [
+        "'Tocar' means to play an instrument or touch.",
+        "'Trabajar' means to work.",
+        "'Usar' means to use."
+      ]
+    },
+    {
+      "id": "q161",
+      "q": "What does 'trabajar' mean?",
+      "correct": "to work",
+      "incorrect": ["to use", "to travel", "to learn"],
+      "why_correct": "'Trabajar' means to work — 'el trabajo' is work or job. Interestingly from Latin 'tripalium' (a torture device) — work was once considered tortuous!",
+      "why_wrong": [
+        "'Usar' means to use.",
+        "'Viajar' means to travel.",
+        "'Aprender' means to learn."
+      ]
+    },
+    {
+      "id": "q162",
+      "q": "How do you say 'to work'?",
+      "correct": "trabajar",
+      "incorrect": ["tomar", "usar", "beber"],
+      "why_correct": "'Trabajar' means to work — 'el trabajo' is the job/work.",
+      "why_wrong": [
+        "'Tomar' means to take or drink.",
+        "'Usar' means to use.",
+        "'Beber' means to drink."
+      ]
+    },
+    {
+      "id": "q163",
+      "q": "What does 'usar' mean?",
+      "correct": "to use",
+      "incorrect": ["to travel", "to learn", "to drink"],
+      "why_correct": "'Usar' is a cognate of 'use' — both from Latin 'usare'. Very easy to remember.",
+      "why_wrong": [
+        "'Viajar' means to travel.",
+        "'Aprender' means to learn.",
+        "'Beber' means to drink."
+      ]
+    },
+    {
+      "id": "q164",
+      "q": "How do you say 'to use'?",
+      "correct": "usar",
+      "incorrect": ["trabajar", "viajar", "comer"],
+      "why_correct": "'Usar' means to use — a direct cognate of English 'use'.",
+      "why_wrong": [
+        "'Trabajar' means to work.",
+        "'Viajar' means to travel.",
+        "'Comer' means to eat."
+      ]
+    },
+    {
+      "id": "q165",
+      "q": "What does 'viajar' mean?",
+      "correct": "to travel",
+      "incorrect": ["to learn", "to drink", "to eat"],
+      "why_correct": "'Viajar' comes from 'viaje' (trip/journey) — related to English 'voyage' via Latin 'viaticum'.",
+      "why_wrong": [
+        "'Aprender' means to learn.",
+        "'Beber' means to drink.",
+        "'Comer' means to eat."
+      ]
+    },
+    {
+      "id": "q166",
+      "q": "How do you say 'to travel'?",
+      "correct": "viajar",
+      "incorrect": ["usar", "aprender", "correr"],
+      "why_correct": "'Viajar' comes from 'viaje' (trip) — related to English 'voyage'.",
+      "why_wrong": [
+        "'Usar' means to use.",
+        "'Aprender' means to learn.",
+        "'Correr' means to run."
+      ]
+    },
+    {
+      "id": "q167",
+      "q": "What does 'aprender' mean?",
+      "correct": "to learn",
+      "incorrect": ["to drink", "to eat", "to understand"],
+      "why_correct": "'Aprender' means to learn — from Latin 'apprehendere' (to grasp). To learn is to grasp/apprehend knowledge.",
+      "why_wrong": [
+        "'Beber' means to drink.",
+        "'Comer' means to eat.",
+        "'Comprender' means to understand."
+      ]
+    },
+    {
+      "id": "q168",
+      "q": "How do you say 'to learn'?",
+      "correct": "aprender",
+      "incorrect": ["viajar", "beber", "deber"],
+      "why_correct": "'Aprender' means to learn — from Latin 'apprehendere', to grasp or apprehend knowledge.",
+      "why_wrong": [
+        "'Viajar' means to travel.",
+        "'Beber' means to drink.",
+        "'Deber' means should or ought to."
+      ]
+    },
+    {
+      "id": "q169",
+      "q": "What does 'beber' mean?",
+      "correct": "to drink",
+      "incorrect": ["to eat", "to understand", "should; ought to"],
+      "why_correct": "'Beber' means to drink — from Latin 'bibere'. English words 'beverage' and 'imbibe' share this root.",
+      "why_wrong": [
+        "'Comer' means to eat.",
+        "'Comprender' means to understand.",
+        "'Deber' means should or ought to."
+      ]
+    },
+    {
+      "id": "q170",
+      "q": "How do you say 'to drink'?",
+      "correct": "beber",
+      "incorrect": ["aprender", "comer", "leer"],
+      "why_correct": "'Beber' means to drink — related to English 'beverage' and 'imbibe', from Latin 'bibere'.",
+      "why_wrong": [
+        "'Aprender' means to learn.",
+        "'Comer' means to eat.",
+        "'Leer' means to read."
+      ]
+    },
+    {
+      "id": "q171",
+      "q": "What does 'comer' mean?",
+      "correct": "to eat",
+      "incorrect": ["to understand", "should; ought to", "to read"],
+      "why_correct": "'Comer' means to eat — 'comida' is food. Related to Latin 'comedere' (to eat up), also the source of 'comestible' (edible).",
+      "why_wrong": [
+        "'Comprender' means to understand.",
+        "'Deber' means should or ought to.",
+        "'Leer' means to read."
+      ]
+    },
+    {
+      "id": "q172",
+      "q": "How do you say 'to eat'?",
+      "correct": "comer",
+      "incorrect": ["beber", "correr", "meter"],
+      "why_correct": "'Comer' means to eat — 'comida' (food) is the noun. It's one of the most common Spanish verbs.",
+      "why_wrong": [
+        "'Beber' means to drink.",
+        "'Correr' means to run.",
+        "'Meter' means to put in."
+      ]
+    },
+    {
+      "id": "q173",
+      "q": "What does 'comprender' mean?",
+      "correct": "to understand",
+      "incorrect": ["should; ought to", "to read", "to put in"],
+      "why_correct": "'Comprender' means to understand — cognate with English 'comprehend' from Latin 'comprehendere' (to grasp fully).",
+      "why_wrong": [
+        "'Deber' means should or ought to.",
+        "'Leer' means to read.",
+        "'Meter' means to put in."
+      ]
+    },
+    {
+      "id": "q174",
+      "q": "How do you say 'to understand'?",
+      "correct": "comprender",
+      "incorrect": ["comer", "deber", "prender"],
+      "why_correct": "'Comprender' is a cognate of 'comprehend' — both from Latin 'comprehendere' (to grasp fully).",
+      "why_wrong": [
+        "'Comer' means to eat.",
+        "'Deber' means should or ought to.",
+        "'Prender' means to turn on."
+      ]
+    },
+    {
+      "id": "q175",
+      "q": "What does 'correr' mean?",
+      "correct": "to run",
+      "incorrect": ["should; ought to", "to read", "to turn on"],
+      "why_correct": "'Correr' means to run — 'el corredor' is a runner or hallway. English 'corridor' (a passage you run through) shares this root.",
+      "why_wrong": [
+        "'Deber' means should or ought to.",
+        "'Leer' means to read.",
+        "'Prender' means to turn on."
+      ]
+    },
+    {
+      "id": "q176",
+      "q": "How do you say 'to run'?",
+      "correct": "correr",
+      "incorrect": ["comprender", "deber", "romper"],
+      "why_correct": "'Correr' means to run — 'el corredor' is a runner. English 'corridor' shares this root.",
+      "why_wrong": [
+        "'Comprender' means to understand.",
+        "'Deber' means should or ought to.",
+        "'Romper' means to break."
+      ]
+    },
+    {
+      "id": "q177",
+      "q": "What does 'deber' mean?",
+      "correct": "should; ought to",
+      "incorrect": ["to read", "to put in", "to turn on"],
+      "why_correct": "'Deber' means should or ought to — 'debes estudiar' = you should study. Related to English 'debt' (what you owe/ought to pay).",
+      "why_wrong": [
+        "'Leer' means to read.",
+        "'Meter' means to put in.",
+        "'Prender' means to turn on."
+      ]
+    },
+    {
+      "id": "q178",
+      "q": "How do you say 'should; ought to'?",
+      "correct": "deber",
+      "incorrect": ["correr", "leer", "toser"],
+      "why_correct": "'Deber' means should or ought to — related to English 'debt' (obligation).",
+      "why_wrong": [
+        "'Correr' means to run.",
+        "'Leer' means to read.",
+        "'Toser' means to cough."
+      ]
+    },
+    {
+      "id": "q179",
+      "q": "What does 'leer' mean?",
+      "correct": "to read",
+      "incorrect": ["to put in", "to turn on", "to break"],
+      "why_correct": "'Leer' means to read — from Latin 'legere'. English 'lecture' and 'legible' share this root.",
+      "why_wrong": [
+        "'Meter' means to put in.",
+        "'Prender' means to turn on.",
+        "'Romper' means to break."
+      ]
+    },
+    {
+      "id": "q180",
+      "q": "How do you say 'to read'?",
+      "correct": "leer",
+      "incorrect": ["deber", "meter", "vender"],
+      "why_correct": "'Leer' means to read — English 'legible' and 'lecture' come from the same Latin root 'legere'.",
+      "why_wrong": [
+        "'Deber' means should or ought to.",
+        "'Meter' means to put in.",
+        "'Vender' means to sell."
+      ]
+    },
+    {
+      "id": "q181",
+      "q": "What does 'meter' mean?",
+      "correct": "to put in",
+      "incorrect": ["to turn on", "to break", "to cough"],
+      "why_correct": "'Meter' means to put in or insert — 'meter en el cajón' = to put in the drawer. From Latin 'mittere' (to send/put).",
+      "why_wrong": [
+        "'Prender' means to turn on.",
+        "'Romper' means to break.",
+        "'Toser' means to cough."
+      ]
+    },
+    {
+      "id": "q182",
+      "q": "How do you say 'to put in'?",
+      "correct": "meter",
+      "incorrect": ["leer", "prender", "abrir"],
+      "why_correct": "'Meter' means to put in — 'meter la pata' = to put your foot in it (to make a blunder).",
+      "why_wrong": [
+        "'Leer' means to read.",
+        "'Prender' means to turn on.",
+        "'Abrir' means to open."
+      ]
+    },
+    {
+      "id": "q183",
+      "q": "What does 'prender' mean?",
+      "correct": "to turn on",
+      "incorrect": ["to break", "to cough", "to sell"],
+      "why_correct": "'Prender' means to turn on (a device) — opposite of 'apagar'. 'Prende la luz' = turn on the light.",
+      "why_wrong": [
+        "'Romper' means to break.",
+        "'Toser' means to cough.",
+        "'Vender' means to sell."
+      ]
+    },
+    {
+      "id": "q184",
+      "q": "How do you say 'to turn on'?",
+      "correct": "prender",
+      "incorrect": ["meter", "romper", "escribir"],
+      "why_correct": "'Prender' means to turn on — the opposite of 'apagar' (to turn off).",
+      "why_wrong": [
+        "'Meter' means to put in.",
+        "'Romper' means to break.",
+        "'Escribir' means to write."
+      ]
+    },
+    {
+      "id": "q185",
+      "q": "What does 'romper' mean?",
+      "correct": "to break",
+      "incorrect": ["to cough", "to sell", "to open"],
+      "why_correct": "'Romper' means to break — 'romper un vaso' = to break a glass. English 'rupture' shares the Latin root 'rumpere'.",
+      "why_wrong": [
+        "'Toser' means to cough.",
+        "'Vender' means to sell.",
+        "'Abrir' means to open."
+      ]
+    },
+    {
+      "id": "q186",
+      "q": "How do you say 'to break'?",
+      "correct": "romper",
+      "incorrect": ["prender", "toser", "recibir"],
+      "why_correct": "'Romper' means to break — English 'rupture' shares the Latin root 'rumpere'.",
+      "why_wrong": [
+        "'Prender' means to turn on.",
+        "'Toser' means to cough.",
+        "'Recibir' means to receive."
+      ]
+    },
+    {
+      "id": "q187",
+      "q": "What does 'toser' mean?",
+      "correct": "to cough",
+      "incorrect": ["to sell", "to open", "to add"],
+      "why_correct": "'Toser' means to cough — 'la tos' is a cough. Related to Latin 'tussis' (cough), also the source of English medical term 'pertussis' (whooping cough).",
+      "why_wrong": [
+        "'Vender' means to sell.",
+        "'Abrir' means to open.",
+        "'Añadir' means to add."
+      ]
+    },
+    {
+      "id": "q188",
+      "q": "How do you say 'to cough'?",
+      "correct": "toser",
+      "incorrect": ["romper", "vender", "subir"],
+      "why_correct": "'Toser' means to cough — 'la tos' is a cough.",
+      "why_wrong": [
+        "'Romper' means to break.",
+        "'Vender' means to sell.",
+        "'Subir' means to go up or raise."
+      ]
+    },
+    {
+      "id": "q189",
+      "q": "What does 'vender' mean?",
+      "correct": "to sell",
+      "incorrect": ["to open", "to add", "to attend"],
+      "why_correct": "'Vender' means to sell — 'el vendedor' is a salesperson. English 'vendor' comes from the same Latin root 'vendere'.",
+      "why_wrong": [
+        "'Abrir' means to open.",
+        "'Añadir' means to add.",
+        "'Asistir' means to attend."
+      ]
+    },
+    {
+      "id": "q190",
+      "q": "How do you say 'to sell'?",
+      "correct": "vender",
+      "incorrect": ["toser", "abrir", "vivir"],
+      "why_correct": "'Vender' means to sell — English 'vendor' shares the Latin root 'vendere'.",
+      "why_wrong": [
+        "'Toser' means to cough.",
+        "'Abrir' means to open.",
+        "'Vivir' means to live."
+      ]
+    },
+    {
+      "id": "q191",
+      "q": "What does 'abrir' mean?",
+      "correct": "to open",
+      "incorrect": ["to add", "to attend", "to describe"],
+      "why_correct": "'Abrir' means to open — related to English 'aperture' (an opening) from Latin 'aperire'.",
+      "why_wrong": [
+        "'Añadir' means to add.",
+        "'Asistir' means to attend.",
+        "'Describir' means to describe."
+      ]
+    },
+    {
+      "id": "q192",
+      "q": "How do you say 'to open'?",
+      "correct": "abrir",
+      "incorrect": ["vender", "añadir", "escribir"],
+      "why_correct": "'Abrir' means to open — English 'aperture' (an opening) shares the Latin root 'aperire'.",
+      "why_wrong": [
+        "'Vender' means to sell.",
+        "'Añadir' means to add.",
+        "'Escribir' means to write."
+      ]
+    },
+    {
+      "id": "q193",
+      "q": "What does 'añadir' mean?",
+      "correct": "to add",
+      "incorrect": ["to attend", "to describe", "to write"],
+      "why_correct": "'Añadir' means to add — 'añadir azúcar' = to add sugar. From Latin 'addere'.",
+      "why_wrong": [
+        "'Asistir' means to attend.",
+        "'Describir' means to describe.",
+        "'Escribir' means to write."
+      ]
+    },
+    {
+      "id": "q194",
+      "q": "How do you say 'to add'?",
+      "correct": "añadir",
+      "incorrect": ["abrir", "asistir", "interrumpir"],
+      "why_correct": "'Añadir' means to add — it's the verb for adding ingredients, numbers, or content.",
+      "why_wrong": [
+        "'Abrir' means to open.",
+        "'Asistir' means to attend.",
+        "'Interrumpir' means to interrupt."
+      ]
+    },
+    {
+      "id": "q195",
+      "q": "What does 'asistir' mean?",
+      "correct": "to attend",
+      "incorrect": ["to describe", "to write", "to interrupt"],
+      "why_correct": "'Asistir' means to attend (be present at) — 'asistir a clase' = to attend class. False cognate: does NOT mean 'to assist'!",
+      "why_wrong": [
+        "'Describir' means to describe — it's a real cognate of 'describe'.",
+        "'Escribir' means to write.",
+        "'Interrumpir' means to interrupt."
+      ]
+    },
+    {
+      "id": "q196",
+      "q": "How do you say 'to attend'?",
+      "correct": "asistir",
+      "incorrect": ["añadir", "describir", "ocurrir"],
+      "why_correct": "'Asistir' means to attend — a false cognate: it does NOT mean 'assist'. 'Asistir a la reunión' = to attend the meeting.",
+      "why_wrong": [
+        "'Añadir' means to add.",
+        "'Describir' means to describe.",
+        "'Ocurrir' means to occur."
+      ]
+    },
+    {
+      "id": "q197",
+      "q": "What does 'describir' mean?",
+      "correct": "to describe",
+      "incorrect": ["to write", "to interrupt", "to occur"],
+      "why_correct": "'Describir' is a near-perfect cognate of 'describe' — both from Latin 'describere' (to write down/depict).",
+      "why_wrong": [
+        "'Escribir' means to write — 'describir' has the same root but means specifically to describe.",
+        "'Interrumpir' means to interrupt.",
+        "'Ocurrir' means to occur."
+      ]
+    },
+    {
+      "id": "q198",
+      "q": "How do you say 'to describe'?",
+      "correct": "describir",
+      "incorrect": ["asistir", "escribir", "recibir"],
+      "why_correct": "'Describir' is a cognate of 'describe' — from Latin 'describere'.",
+      "why_wrong": [
+        "'Asistir' means to attend.",
+        "'Escribir' means to write — same root, but 'describir' specifically means to describe.",
+        "'Recibir' means to receive."
+      ]
+    },
+    {
+      "id": "q199",
+      "q": "What does 'escribir' mean?",
+      "correct": "to write",
+      "incorrect": ["to interrupt", "to occur", "to receive"],
+      "why_correct": "'Escribir' means to write — cognate with English 'scribe' and 'script', from Latin 'scribere'.",
+      "why_wrong": [
+        "'Interrumpir' means to interrupt.",
+        "'Ocurrir' means to occur.",
+        "'Recibir' means to receive."
+      ]
+    },
+    {
+      "id": "q200",
+      "q": "How do you say 'to write'?",
+      "correct": "escribir",
+      "incorrect": ["describir", "interrumpir", "sufrir"],
+      "why_correct": "'Escribir' means to write — 'escritura' (writing/scripture) and 'escritor' (writer) share this root.",
+      "why_wrong": [
+        "'Describir' means to describe — same root, but not writing in general.",
+        "'Interrumpir' means to interrupt.",
+        "'Sufrir' means to suffer."
+      ]
+    },
+    {
+      "id": "q201",
+      "q": "What does 'interrumpir' mean?",
+      "correct": "to interrupt",
+      "incorrect": ["to occur", "to receive", "to go up; to raise"],
+      "why_correct": "'Interrumpir' is a near-perfect cognate of 'interrupt' — both from Latin 'interrumpere' (to break between).",
+      "why_wrong": [
+        "'Ocurrir' means to occur.",
+        "'Recibir' means to receive.",
+        "'Subir' means to go up or raise."
+      ]
+    },
+    {
+      "id": "q202",
+      "q": "How do you say 'to interrupt'?",
+      "correct": "interrumpir",
+      "incorrect": ["escribir", "ocurrir", "vivir"],
+      "why_correct": "'Interrumpir' is a cognate of 'interrupt' — from Latin 'interrumpere'.",
+      "why_wrong": [
+        "'Escribir' means to write.",
+        "'Ocurrir' means to occur.",
+        "'Vivir' means to live."
+      ]
+    },
+    {
+      "id": "q203",
+      "q": "What does 'ocurrir' mean?",
+      "correct": "to occur",
+      "incorrect": ["to receive", "to go up; to raise", "to suffer"],
+      "why_correct": "'Ocurrir' is a cognate of 'occur' — both from Latin 'occurrere' (to run against/happen).",
+      "why_wrong": [
+        "'Recibir' means to receive.",
+        "'Subir' means to go up or raise.",
+        "'Sufrir' means to suffer."
+      ]
+    },
+    {
+      "id": "q204",
+      "q": "How do you say 'to occur'?",
+      "correct": "ocurrir",
+      "incorrect": ["interrumpir", "recibir", "abrir"],
+      "why_correct": "'Ocurrir' is a cognate of 'occur' — from Latin 'occurrere'.",
+      "why_wrong": [
+        "'Interrumpir' means to interrupt.",
+        "'Recibir' means to receive.",
+        "'Abrir' means to open."
+      ]
+    },
+    {
+      "id": "q205",
+      "q": "What does 'recibir' mean?",
+      "correct": "to receive",
+      "incorrect": ["to go up; to raise", "to suffer", "to live"],
+      "why_correct": "'Recibir' is a cognate of 'receive' — both from Latin 'recipere' (to take back). Also related to 'receipt'.",
+      "why_wrong": [
+        "'Subir' means to go up or raise.",
+        "'Sufrir' means to suffer.",
+        "'Vivir' means to live."
+      ]
+    },
+    {
+      "id": "q206",
+      "q": "How do you say 'to receive'?",
+      "correct": "recibir",
+      "incorrect": ["ocurrir", "subir", "escribir"],
+      "why_correct": "'Recibir' is a cognate of 'receive' — related to 'receipt' and 'receptor'.",
+      "why_wrong": [
+        "'Ocurrir' means to occur.",
+        "'Subir' means to go up or raise.",
+        "'Escribir' means to write."
+      ]
+    },
+    {
+      "id": "q207",
+      "q": "What does 'subir' mean?",
+      "correct": "to go up; to raise",
+      "incorrect": ["to suffer", "to live", "to open"],
+      "why_correct": "'Subir' means to go up or raise — opposite of 'bajar' (to go down). 'Subir las escaleras' = to go up the stairs.",
+      "why_wrong": [
+        "'Sufrir' means to suffer.",
+        "'Vivir' means to live.",
+        "'Abrir' means to open."
+      ]
+    },
+    {
+      "id": "q208",
+      "q": "How do you say 'to go up; to raise'?",
+      "correct": "subir",
+      "incorrect": ["recibir", "sufrir", "describir"],
+      "why_correct": "'Subir' means to go up — the opposite of 'bajar'. 'Sube el volumen' = turn up the volume.",
+      "why_wrong": [
+        "'Recibir' means to receive.",
+        "'Sufrir' means to suffer.",
+        "'Describir' means to describe."
+      ]
+    },
+    {
+      "id": "q209",
+      "q": "What does 'sufrir' mean?",
+      "correct": "to suffer",
+      "incorrect": ["to live", "to attend", "to add"],
+      "why_correct": "'Sufrir' is a cognate of 'suffer' — both from Latin 'sufferre' (to bear/endure).",
+      "why_wrong": [
+        "'Vivir' means to live.",
+        "'Asistir' means to attend.",
+        "'Añadir' means to add."
+      ]
+    },
+    {
+      "id": "q210",
+      "q": "How do you say 'to suffer'?",
+      "correct": "sufrir",
+      "incorrect": ["subir", "vivir", "interrumpir"],
+      "why_correct": "'Sufrir' is a cognate of 'suffer' — from Latin 'sufferre'.",
+      "why_wrong": [
+        "'Subir' means to go up or raise.",
+        "'Vivir' means to live.",
+        "'Interrumpir' means to interrupt."
+      ]
+    },
+    {
+      "id": "q211",
+      "q": "What does 'vivir' mean?",
+      "correct": "to live",
+      "incorrect": ["to write", "to receive", "to suffer"],
+      "why_correct": "'Vivir' means to live — 'viva!' is a cheer for life. Related to English 'vivid', 'vital', 'survive' — all from Latin 'vivere'.",
+      "why_wrong": [
+        "'Escribir' means to write.",
+        "'Recibir' means to receive.",
+        "'Sufrir' means to suffer."
+      ]
+    },
+    {
+      "id": "q212",
+      "q": "How do you say 'to live'?",
+      "correct": "vivir",
+      "incorrect": ["sufrir", "abrir", "ocurrir"],
+      "why_correct": "'Vivir' means to live — '¡Viva!' is a cheer (long live!). 'Vivid', 'vital', and 'survive' share the Latin root 'vivere'.",
+      "why_wrong": [
+        "'Sufrir' means to suffer.",
+        "'Abrir' means to open.",
+        "'Ocurrir' means to occur."
+      ]
+    }
+  ]
+}
