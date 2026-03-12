@@ -1,0 +1,1330 @@
+{
+  "id": "claire1-school-supplies-quiz",
+  "name": "Claire 1: School Supplies",
+  "subject": "Spanish",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "created": "2026-03-12",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "el alfabeto",
+      "correct": "alphabet",
+      "incorrect": ["the dictionary", "the textbook", "the workbook"],
+      "why_correct": "'El alfabeto' is a direct cognate — from Greek alpha + beta, the first two letters. Same word, same origin.",
+      "why_wrong": [
+        "'El diccionario' means the dictionary.",
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook."
+      ]
+    },
+    {
+      "id": "q002",
+      "q": "alphabet",
+      "correct": "el alfabeto",
+      "incorrect": ["el diccionario", "el libro de texto", "el cuaderno"],
+      "why_correct": "'El alfabeto' — a near-perfect cognate with English 'alphabet'. Both come from Greek alpha + beta.",
+      "why_wrong": [
+        "'El diccionario' means the dictionary.",
+        "'El libro de texto' means the textbook.",
+        "'El cuaderno' means the notebook."
+      ]
+    },
+    {
+      "id": "q003",
+      "q": "el altavoz",
+      "correct": "loudspeaker; speaker",
+      "incorrect": ["the flag", "the bulletin board", "the clock"],
+      "why_correct": "'El altavoz' is built from 'alto' (high/loud) + 'voz' (voice) — literally a loud voice.",
+      "why_wrong": [
+        "'La bandera' means the flag.",
+        "'La cartelera' means the bulletin board.",
+        "'El reloj' means the clock."
+      ]
+    },
+    {
+      "id": "q004",
+      "q": "loudspeaker; speaker",
+      "correct": "el altavoz",
+      "incorrect": ["la bandera", "la cartelera", "el reloj"],
+      "why_correct": "'El altavoz' — think 'alto' (loud) + 'voz' (voice). A loud voice machine.",
+      "why_wrong": [
+        "'La bandera' means the flag.",
+        "'La cartelera' means the bulletin board.",
+        "'El reloj' means the clock."
+      ]
+    },
+    {
+      "id": "q005",
+      "q": "la agenda",
+      "correct": "the planner",
+      "incorrect": ["the binder", "the notebook", "the pencil case"],
+      "why_correct": "'La agenda' looks like English 'agenda' (list of things to do) — a planner is exactly that: your agenda.",
+      "why_wrong": [
+        "'El archivador' means the binder.",
+        "'El cuaderno' means the notebook.",
+        "'El estuche' means the pencil case."
+      ]
+    },
+    {
+      "id": "q006",
+      "q": "the planner",
+      "correct": "la agenda",
+      "incorrect": ["el archivador", "el cuaderno", "el estuche"],
+      "why_correct": "'La agenda' — cognate with English 'agenda'. Your planner holds your agenda.",
+      "why_wrong": [
+        "'El archivador' means the binder.",
+        "'El cuaderno' means the notebook.",
+        "'El estuche' means the pencil case."
+      ]
+    },
+    {
+      "id": "q007",
+      "q": "el archivador",
+      "correct": "the binder",
+      "incorrect": ["the planner", "the notebook", "the backpack"],
+      "why_correct": "'El archivador' comes from 'archivar' (to file/archive) — a binder is for archiving papers.",
+      "why_wrong": [
+        "'La agenda' means the planner.",
+        "'El cuaderno' means the notebook.",
+        "'La mochila' means the backpack."
+      ]
+    },
+    {
+      "id": "q008",
+      "q": "the binder",
+      "correct": "el archivador",
+      "incorrect": ["la agenda", "el cuaderno", "la mochila"],
+      "why_correct": "'El archivador' — from 'archivar' (to archive). A binder is where you archive your papers.",
+      "why_wrong": [
+        "'La agenda' means the planner.",
+        "'El cuaderno' means the notebook.",
+        "'La mochila' means the backpack."
+      ]
+    },
+    {
+      "id": "q009",
+      "q": "la bandera",
+      "correct": "the flag",
+      "incorrect": ["the wall", "the bulletin board", "the door"],
+      "why_correct": "'La bandera' — think of a 'band' of color flying in the wind. The flag hangs on the wall.",
+      "why_wrong": [
+        "'La pared' means the wall.",
+        "'La cartelera' means the bulletin board.",
+        "'La puerta' means the door."
+      ]
+    },
+    {
+      "id": "q010",
+      "q": "the flag",
+      "correct": "la bandera",
+      "incorrect": ["la pared", "la cartelera", "la puerta"],
+      "why_correct": "'La bandera' — picture a colorful banner (band of color) waving. 'Band' → 'bander' → 'bandera'.",
+      "why_wrong": [
+        "'La pared' means the wall.",
+        "'La cartelera' means the bulletin board.",
+        "'La puerta' means the door."
+      ]
+    },
+    {
+      "id": "q011",
+      "q": "el bolígrafo / el boli",
+      "correct": "the pen",
+      "incorrect": ["the pencil", "the marker", "the crayon"],
+      "why_correct": "'El bolígrafo' contains 'bola' (ball) — this is the ballpoint pen. 'Boli' is the casual short form.",
+      "why_wrong": [
+        "'El lápiz' means the pencil.",
+        "'El rotulador' means the marker.",
+        "'El crayón' means the crayon."
+      ]
+    },
+    {
+      "id": "q012",
+      "q": "the pen",
+      "correct": "el bolígrafo / el boli",
+      "incorrect": ["el lápiz", "el rotulador", "el crayón"],
+      "why_correct": "'El bolígrafo' — 'bola' (ball) + 'grafo' (writing tool) = ballpoint writer. Shortened to 'boli' in everyday speech.",
+      "why_wrong": [
+        "'El lápiz' means the pencil.",
+        "'El rotulador' means the marker.",
+        "'El crayón' means the crayon."
+      ]
+    },
+    {
+      "id": "q013",
+      "q": "el borrador / la goma",
+      "correct": "the eraser",
+      "incorrect": ["the pencil sharpener", "the glue", "the tape"],
+      "why_correct": "'El borrador' comes from 'borrar' (to erase/delete) — the eraser erases. 'La goma' literally means rubber.",
+      "why_wrong": [
+        "'El sacapuntas' means the pencil sharpener.",
+        "'El pegamento' means the glue.",
+        "'La cinta' means the tape."
+      ]
+    },
+    {
+      "id": "q014",
+      "q": "the eraser",
+      "correct": "el borrador / la goma",
+      "incorrect": ["el sacapuntas", "el pegamento", "la cinta"],
+      "why_correct": "'El borrador' — from 'borrar' (to erase). Also called 'la goma' (rubber), since erasers are made of rubber.",
+      "why_wrong": [
+        "'El sacapuntas' means the pencil sharpener.",
+        "'El pegamento' means the glue.",
+        "'La cinta' means the tape."
+      ]
+    },
+    {
+      "id": "q015",
+      "q": "la calculadora",
+      "correct": "the calculator",
+      "incorrect": ["the computer", "the clock", "the ruler"],
+      "why_correct": "'La calculadora' is a direct cognate — from Latin 'calculare' (to count with pebbles). Same root as English 'calculator'.",
+      "why_wrong": [
+        "'La computadora' means the computer.",
+        "'El reloj' means the clock.",
+        "'La regla' means the ruler."
+      ]
+    },
+    {
+      "id": "q016",
+      "q": "the calculator",
+      "correct": "la calculadora",
+      "incorrect": ["la computadora", "el reloj", "la regla"],
+      "why_correct": "'La calculadora' — a transparent cognate with 'calculator'. Both from Latin 'calculus' (pebble used for counting).",
+      "why_wrong": [
+        "'La computadora / el ordenador' means the computer.",
+        "'El reloj' means the clock.",
+        "'La regla' means the ruler."
+      ]
+    },
+    {
+      "id": "q017",
+      "q": "el calendario",
+      "correct": "the calendar",
+      "incorrect": ["the clock", "the planner", "the bulletin board"],
+      "why_correct": "'El calendario' is a near-perfect cognate — from Latin 'calendarium', the Roman account book kept by month.",
+      "why_wrong": [
+        "'El reloj' means the clock.",
+        "'La agenda' means the planner.",
+        "'La cartelera' means the bulletin board."
+      ]
+    },
+    {
+      "id": "q018",
+      "q": "the calendar",
+      "correct": "el calendario",
+      "incorrect": ["el reloj", "la agenda", "la cartelera"],
+      "why_correct": "'El calendario' — a clear cognate with 'calendar'. Both trace back to Latin 'calendae' (the first of the month).",
+      "why_wrong": [
+        "'El reloj' means the clock.",
+        "'La agenda' means the planner.",
+        "'La cartelera' means the bulletin board."
+      ]
+    },
+    {
+      "id": "q019",
+      "q": "la cartelera",
+      "correct": "the bulletin board",
+      "incorrect": ["the flag", "the wall", "the board; chalkboard"],
+      "why_correct": "'La cartelera' comes from 'cartel' (poster/notice) — a bulletin board is where you post cartels.",
+      "why_wrong": [
+        "'La bandera' means the flag.",
+        "'La pared' means the wall.",
+        "'La pizarra / el pizarrón' means the board; chalkboard."
+      ]
+    },
+    {
+      "id": "q020",
+      "q": "the bulletin board",
+      "correct": "la cartelera",
+      "incorrect": ["la bandera", "la pared", "la pizarra / el pizarrón"],
+      "why_correct": "'La cartelera' — from 'cartel' (poster). A bulletin board is where you stick your cartels (notices).",
+      "why_wrong": [
+        "'La bandera' means the flag.",
+        "'La pared' means the wall.",
+        "'La pizarra' means the board; chalkboard."
+      ]
+    },
+    {
+      "id": "q021",
+      "q": "la cinta",
+      "correct": "the tape",
+      "incorrect": ["the glue", "the stapler", "the scissors"],
+      "why_correct": "'La cinta' means ribbon or tape — think of a cinema filmstrip (a long ribbon of film). Tape is a sticky ribbon.",
+      "why_wrong": [
+        "'El pegamento' means the glue.",
+        "'La grapadora' means the stapler.",
+        "'Las tijeras' means the scissors."
+      ]
+    },
+    {
+      "id": "q022",
+      "q": "the tape",
+      "correct": "la cinta",
+      "incorrect": ["el pegamento", "la grapadora", "las tijeras"],
+      "why_correct": "'La cinta' — think 'cinema' (film is a long cinta/ribbon). Tape is a flat, sticky ribbon.",
+      "why_wrong": [
+        "'El pegamento' means the glue.",
+        "'La grapadora' means the stapler.",
+        "'Las tijeras' means the scissors."
+      ]
+    },
+    {
+      "id": "q023",
+      "q": "la computadora / el ordenador",
+      "correct": "the computer",
+      "incorrect": ["the calculator", "the clock", "the lamp"],
+      "why_correct": "'La computadora' is a cognate with 'computer'. 'El ordenador' (Spain) comes from 'ordenar' (to order/organize).",
+      "why_wrong": [
+        "'La calculadora' means the calculator.",
+        "'El reloj' means the clock.",
+        "'La lámpara' means the lamp."
+      ]
+    },
+    {
+      "id": "q024",
+      "q": "the computer",
+      "correct": "la computadora / el ordenador",
+      "incorrect": ["la calculadora", "el reloj", "la lámpara"],
+      "why_correct": "'La computadora' mirrors English 'computer'. In Spain they say 'el ordenador' (the organizer).",
+      "why_wrong": [
+        "'La calculadora' means the calculator.",
+        "'El reloj' means the clock.",
+        "'La lámpara' means the lamp."
+      ]
+    },
+    {
+      "id": "q025",
+      "q": "el crayón",
+      "correct": "the crayon",
+      "incorrect": ["the pen", "the pencil", "the marker"],
+      "why_correct": "'El crayón' is a near-direct borrowing from French 'crayon' — the same word used in English.",
+      "why_wrong": [
+        "'El bolígrafo / boli' means the pen.",
+        "'El lápiz' means the pencil.",
+        "'El rotulador' means the marker."
+      ]
+    },
+    {
+      "id": "q026",
+      "q": "the crayon",
+      "correct": "el crayón",
+      "incorrect": ["el bolígrafo", "el lápiz", "el rotulador"],
+      "why_correct": "'El crayón' — borrowed directly from French, exactly as English borrowed 'crayon'. Easy cognate.",
+      "why_wrong": [
+        "'El bolígrafo' means the pen.",
+        "'El lápiz' means the pencil.",
+        "'El rotulador' means the marker."
+      ]
+    },
+    {
+      "id": "q027",
+      "q": "el cuaderno",
+      "correct": "the notebook",
+      "incorrect": ["the textbook", "the workbook", "the binder"],
+      "why_correct": "'El cuaderno' comes from 'cuadro' (square/grid) — notebooks have squared or lined pages.",
+      "why_wrong": [
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook.",
+        "'El archivador' means the binder."
+      ]
+    },
+    {
+      "id": "q028",
+      "q": "the notebook",
+      "correct": "el cuaderno",
+      "incorrect": ["el libro de texto", "el libro de actividades", "el archivador"],
+      "why_correct": "'El cuaderno' — from 'cuadro' (square). Picture the grid squares on notebook paper.",
+      "why_wrong": [
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook.",
+        "'El archivador' means the binder."
+      ]
+    },
+    {
+      "id": "q029",
+      "q": "el diccionario",
+      "correct": "the dictionary",
+      "incorrect": ["the textbook", "the workbook", "the notebook"],
+      "why_correct": "'El diccionario' is a clear cognate — both from Latin 'dictio' (word/speech). A dictionary is a book of words.",
+      "why_wrong": [
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook.",
+        "'El cuaderno' means the notebook."
+      ]
+    },
+    {
+      "id": "q030",
+      "q": "the dictionary",
+      "correct": "el diccionario",
+      "incorrect": ["el libro de texto", "el libro de actividades", "el cuaderno"],
+      "why_correct": "'El diccionario' — a transparent cognate with 'dictionary'. Both from Latin 'dictio' (a saying/word).",
+      "why_wrong": [
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook.",
+        "'El cuaderno' means the notebook."
+      ]
+    },
+    {
+      "id": "q031",
+      "q": "el estuche",
+      "correct": "the pencil case",
+      "incorrect": ["the backpack", "the binder", "the planner"],
+      "why_correct": "'El estuche' means a case or box for storing things — specifically a pencil case. Related to French 'étui' (small case).",
+      "why_wrong": [
+        "'La mochila' means the backpack.",
+        "'El archivador' means the binder.",
+        "'La agenda' means the planner."
+      ]
+    },
+    {
+      "id": "q032",
+      "q": "the pencil case",
+      "correct": "el estuche",
+      "incorrect": ["la mochila", "el archivador", "la agenda"],
+      "why_correct": "'El estuche' — a small case for storing pencils. Think of a jewel 'étui' (decorative case), same origin.",
+      "why_wrong": [
+        "'La mochila' means the backpack.",
+        "'El archivador' means the binder.",
+        "'La agenda' means the planner."
+      ]
+    },
+    {
+      "id": "q033",
+      "q": "la grapadora",
+      "correct": "the stapler",
+      "incorrect": ["the scissors", "the tape", "the glue"],
+      "why_correct": "'La grapadora' comes from 'grapa' (staple) — the metal clip. 'Grapadora' is the machine that shoots grapas.",
+      "why_wrong": [
+        "'Las tijeras' means the scissors.",
+        "'La cinta' means the tape.",
+        "'El pegamento' means the glue."
+      ]
+    },
+    {
+      "id": "q034",
+      "q": "the stapler",
+      "correct": "la grapadora",
+      "incorrect": ["las tijeras", "la cinta", "el pegamento"],
+      "why_correct": "'La grapadora' — from 'grapa' (staple). Think of grabbing papers together. The grapadora fires grapas.",
+      "why_wrong": [
+        "'Las tijeras' means the scissors.",
+        "'La cinta' means the tape.",
+        "'El pegamento' means the glue."
+      ]
+    },
+    {
+      "id": "q035",
+      "q": "la lámpara",
+      "correct": "the lamp",
+      "incorrect": ["the light; overhead light", "the window", "the clock"],
+      "why_correct": "'La lámpara' is a direct cognate with 'lamp' — both from Greek 'lampas' (torch). Easy one.",
+      "why_wrong": [
+        "'La luz' means the light; overhead light.",
+        "'La ventana' means the window.",
+        "'El reloj' means the clock."
+      ]
+    },
+    {
+      "id": "q036",
+      "q": "the lamp",
+      "correct": "la lámpara",
+      "incorrect": ["la luz", "la ventana", "el reloj"],
+      "why_correct": "'La lámpara' — a clear cognate with 'lamp'. Both from Greek 'lampas' (a burning torch).",
+      "why_wrong": [
+        "'La luz' means the light; overhead light.",
+        "'La ventana' means the window.",
+        "'El reloj' means the clock."
+      ]
+    },
+    {
+      "id": "q037",
+      "q": "el lápiz",
+      "correct": "the pencil",
+      "incorrect": ["the pen", "the marker", "the crayon"],
+      "why_correct": "'El lápiz' came through Arabic 'al-lāpis' (lapis lazuli stone used for writing). The 'z' ending is an Arabic fingerprint.",
+      "why_wrong": [
+        "'El bolígrafo / boli' means the pen.",
+        "'El rotulador' means the marker.",
+        "'El crayón' means the crayon."
+      ]
+    },
+    {
+      "id": "q038",
+      "q": "the pencil",
+      "correct": "el lápiz",
+      "incorrect": ["el bolígrafo", "el rotulador", "el crayón"],
+      "why_correct": "'El lápiz' — from Arabic 'al-lāpis' (stone). Also think 'lapis lazuli', the blue stone. A pencil leaves a stone-like mark.",
+      "why_wrong": [
+        "'El bolígrafo' means the pen.",
+        "'El rotulador' means the marker.",
+        "'El crayón' means the crayon."
+      ]
+    },
+    {
+      "id": "q039",
+      "q": "el libro",
+      "correct": "the book",
+      "incorrect": ["the notebook", "the textbook", "the workbook"],
+      "why_correct": "'El libro' comes from Latin 'liber' (book). Think 'library' ('librería' in Spanish) — a place full of libros.",
+      "why_wrong": [
+        "'El cuaderno' means the notebook.",
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook."
+      ]
+    },
+    {
+      "id": "q040",
+      "q": "the book",
+      "correct": "el libro",
+      "incorrect": ["el cuaderno", "el libro de texto", "el libro de actividades"],
+      "why_correct": "'El libro' — from Latin 'liber'. Think 'library' (librería). A 'liber' is the inner bark of a tree, which was used for writing.",
+      "why_wrong": [
+        "'El cuaderno' means the notebook.",
+        "'El libro de texto' means the textbook.",
+        "'El libro de actividades' means the workbook."
+      ]
+    },
+    {
+      "id": "q041",
+      "q": "el libro de actividades",
+      "correct": "the workbook",
+      "incorrect": ["the textbook", "the notebook", "the book"],
+      "why_correct": "'El libro de actividades' literally means 'book of activities' — a workbook is exactly a book full of activities/exercises.",
+      "why_wrong": [
+        "'El libro de texto' means the textbook.",
+        "'El cuaderno' means the notebook.",
+        "'El libro' means the book."
+      ]
+    },
+    {
+      "id": "q042",
+      "q": "the workbook",
+      "correct": "el libro de actividades",
+      "incorrect": ["el libro de texto", "el cuaderno", "el libro"],
+      "why_correct": "'El libro de actividades' — translate it: 'book of activities'. A workbook is a book of activities you do.",
+      "why_wrong": [
+        "'El libro de texto' means the textbook.",
+        "'El cuaderno' means the notebook.",
+        "'El libro' means the book."
+      ]
+    },
+    {
+      "id": "q043",
+      "q": "el libro de texto",
+      "correct": "the textbook",
+      "incorrect": ["the workbook", "the notebook", "the dictionary"],
+      "why_correct": "'El libro de texto' literally means 'book of text' — a textbook is a book full of text to study.",
+      "why_wrong": [
+        "'El libro de actividades' means the workbook.",
+        "'El cuaderno' means the notebook.",
+        "'El diccionario' means the dictionary."
+      ]
+    },
+    {
+      "id": "q044",
+      "q": "the textbook",
+      "correct": "el libro de texto",
+      "incorrect": ["el libro de actividades", "el cuaderno", "el diccionario"],
+      "why_correct": "'El libro de texto' — translate directly: 'book of text'. Exactly what a textbook is.",
+      "why_wrong": [
+        "'El libro de actividades' means the workbook.",
+        "'El cuaderno' means the notebook.",
+        "'El diccionario' means the dictionary."
+      ]
+    },
+    {
+      "id": "q045",
+      "q": "la luz",
+      "correct": "the light; overhead light",
+      "incorrect": ["the lamp", "the window", "the floor"],
+      "why_correct": "'La luz' means light — from Latin 'lux' (light). Think 'luxury' (originally abundant light) or 'lucid' (clear, lit up).",
+      "why_wrong": [
+        "'La lámpara' means the lamp.",
+        "'La ventana' means the window.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q046",
+      "q": "the light; overhead light",
+      "correct": "la luz",
+      "incorrect": ["la lámpara", "la ventana", "el piso"],
+      "why_correct": "'La luz' — from Latin 'lux' (light). Think 'lucid', 'luminous', 'luxury'. Same root.",
+      "why_wrong": [
+        "'La lámpara' means the lamp.",
+        "'La ventana' means the window.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q047",
+      "q": "el mapa",
+      "correct": "the map",
+      "incorrect": ["the flag", "the bulletin board", "the calendar"],
+      "why_correct": "'El mapa' is a direct cognate — both from Medieval Latin 'mappa' (cloth, on which maps were drawn).",
+      "why_wrong": [
+        "'La bandera' means the flag.",
+        "'La cartelera' means the bulletin board.",
+        "'El calendario' means the calendar."
+      ]
+    },
+    {
+      "id": "q048",
+      "q": "the map",
+      "correct": "el mapa",
+      "incorrect": ["la bandera", "la cartelera", "el calendario"],
+      "why_correct": "'El mapa' — a perfect cognate with 'map'. Both from Latin 'mappa' (cloth or sheet).",
+      "why_wrong": [
+        "'La bandera' means the flag.",
+        "'La cartelera' means the bulletin board.",
+        "'El calendario' means the calendar."
+      ]
+    },
+    {
+      "id": "q049",
+      "q": "la mesa / el pupitre",
+      "correct": "the desk",
+      "incorrect": ["the chair", "the locker", "the floor"],
+      "why_correct": "'La mesa' is a table or desk. 'El pupitre' is specifically a school desk — the tilted kind students sit at.",
+      "why_wrong": [
+        "'La silla' means the chair.",
+        "'La taquilla' means the locker.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q050",
+      "q": "the desk",
+      "correct": "la mesa / el pupitre",
+      "incorrect": ["la silla", "la taquilla", "el piso"],
+      "why_correct": "'La mesa' (table/desk) or 'el pupitre' (school desk specifically). 'Mesa' also gives us 'mesa' landform — a flat-topped table of land.",
+      "why_wrong": [
+        "'La silla' means the chair.",
+        "'La taquilla' means the locker.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q051",
+      "q": "la mochila",
+      "correct": "the backpack",
+      "incorrect": ["the pencil case", "the binder", "the locker"],
+      "why_correct": "'La mochila' — think of a soldier's 'mochilas' (field pack). The word may come from a Native American language for a carrying pouch.",
+      "why_wrong": [
+        "'El estuche' means the pencil case.",
+        "'El archivador' means the binder.",
+        "'La taquilla' means the locker."
+      ]
+    },
+    {
+      "id": "q052",
+      "q": "the backpack",
+      "correct": "la mochila",
+      "incorrect": ["el estuche", "el archivador", "la taquilla"],
+      "why_correct": "'La mochila' — picture a soldier hiking with a mochila on their back. It's the universal Spanish word for backpack.",
+      "why_wrong": [
+        "'El estuche' means the pencil case.",
+        "'El archivador' means the binder.",
+        "'La taquilla' means the locker."
+      ]
+    },
+    {
+      "id": "q053",
+      "q": "el papel",
+      "correct": "the paper",
+      "incorrect": ["the tape", "the glue", "the notebook"],
+      "why_correct": "'El papel' is a direct cognate with 'paper' — both from Latin 'papyrus' (the Egyptian reed used for writing).",
+      "why_wrong": [
+        "'La cinta' means the tape.",
+        "'El pegamento' means the glue.",
+        "'El cuaderno' means the notebook."
+      ]
+    },
+    {
+      "id": "q054",
+      "q": "the paper",
+      "correct": "el papel",
+      "incorrect": ["la cinta", "el pegamento", "el cuaderno"],
+      "why_correct": "'El papel' — from Latin 'papyrus'. English 'paper' comes from the same root. Egyptian papyrus reed → papel.",
+      "why_wrong": [
+        "'La cinta' means the tape.",
+        "'El pegamento' means the glue.",
+        "'El cuaderno' means the notebook."
+      ]
+    },
+    {
+      "id": "q055",
+      "q": "la papelera",
+      "correct": "the wastepaper basket; trash can",
+      "incorrect": ["the paper", "the bulletin board", "the locker"],
+      "why_correct": "'La papelera' comes from 'papel' (paper) — it's literally 'the paper place', where wasted paper goes.",
+      "why_wrong": [
+        "'El papel' means the paper.",
+        "'La cartelera' means the bulletin board.",
+        "'La taquilla' means the locker."
+      ]
+    },
+    {
+      "id": "q056",
+      "q": "the wastepaper basket; trash can",
+      "correct": "la papelera",
+      "incorrect": ["el papel", "la cartelera", "la taquilla"],
+      "why_correct": "'La papelera' — from 'papel' (paper). It's the paper receptacle. Spot the 'papel' inside 'papelera'.",
+      "why_wrong": [
+        "'El papel' means the paper.",
+        "'La cartelera' means the bulletin board.",
+        "'La taquilla' means the locker."
+      ]
+    },
+    {
+      "id": "q057",
+      "q": "la pared",
+      "correct": "the wall",
+      "incorrect": ["the door", "the floor", "the window"],
+      "why_correct": "'La pared' — from Latin 'paries' (wall). Think of 'parietal' (relating to walls), as in the parietal bone (side wall of the skull).",
+      "why_wrong": [
+        "'La puerta' means the door.",
+        "'El piso' means the floor.",
+        "'La ventana' means the window."
+      ]
+    },
+    {
+      "id": "q058",
+      "q": "the wall",
+      "correct": "la pared",
+      "incorrect": ["la puerta", "el piso", "la ventana"],
+      "why_correct": "'La pared' — from Latin 'paries' (wall). Think 'parietal lobe' (the side wall of your brain).",
+      "why_wrong": [
+        "'La puerta' means the door.",
+        "'El piso' means the floor.",
+        "'La ventana' means the window."
+      ]
+    },
+    {
+      "id": "q059",
+      "q": "el pegamento",
+      "correct": "the glue",
+      "incorrect": ["the tape", "the stapler", "the scissors"],
+      "why_correct": "'El pegamento' comes from 'pegar' (to stick/glue) — glue is what makes things stick together.",
+      "why_wrong": [
+        "'La cinta' means the tape.",
+        "'La grapadora' means the stapler.",
+        "'Las tijeras' means the scissors."
+      ]
+    },
+    {
+      "id": "q060",
+      "q": "the glue",
+      "correct": "el pegamento",
+      "incorrect": ["la cinta", "la grapadora", "las tijeras"],
+      "why_correct": "'El pegamento' — from 'pegar' (to stick). When something is 'pegajoso' (sticky), it's covered in pegamento.",
+      "why_wrong": [
+        "'La cinta' means the tape.",
+        "'La grapadora' means the stapler.",
+        "'Las tijeras' means the scissors."
+      ]
+    },
+    {
+      "id": "q061",
+      "q": "el pincel",
+      "correct": "the paintbrush",
+      "incorrect": ["the paint", "the marker", "the crayon"],
+      "why_correct": "'El pincel' comes from 'pintar' (to paint) — the brush you use to paint with. Think 'pencil' but for paint.",
+      "why_wrong": [
+        "'La pintura' means the paint.",
+        "'El rotulador' means the marker.",
+        "'El crayón' means the crayon."
+      ]
+    },
+    {
+      "id": "q062",
+      "q": "the paintbrush",
+      "correct": "el pincel",
+      "incorrect": ["la pintura", "el rotulador", "el crayón"],
+      "why_correct": "'El pincel' — from 'pintar' (to paint). Visually similar to 'pencil' but it's the brush, not the pencil.",
+      "why_wrong": [
+        "'La pintura' means the paint.",
+        "'El rotulador' means the marker.",
+        "'El crayón' means the crayon."
+      ]
+    },
+    {
+      "id": "q063",
+      "q": "la pintura",
+      "correct": "the paint",
+      "incorrect": ["the paintbrush", "the marker", "the chalk"],
+      "why_correct": "'La pintura' comes from 'pintar' (to paint) — the paint itself. Think 'picture', 'Pinto' (painted horse), or 'depict'.",
+      "why_wrong": [
+        "'El pincel' means the paintbrush.",
+        "'El rotulador' means the marker.",
+        "'La tiza' means the chalk."
+      ]
+    },
+    {
+      "id": "q064",
+      "q": "the paint",
+      "correct": "la pintura",
+      "incorrect": ["el pincel", "el rotulador", "la tiza"],
+      "why_correct": "'La pintura' — from 'pintar' (to paint). A 'Pinto' horse is a painted horse. Paint → pintura.",
+      "why_wrong": [
+        "'El pincel' means the paintbrush.",
+        "'El rotulador' means the marker.",
+        "'La tiza' means the chalk."
+      ]
+    },
+    {
+      "id": "q065",
+      "q": "el piso",
+      "correct": "the floor",
+      "incorrect": ["the wall", "the door", "the window"],
+      "why_correct": "'El piso' means floor or storey — from Latin 'pinso' (to stamp/tread). Think of 'pissoir' (where you stand) or just picture stomping on the floor.",
+      "why_wrong": [
+        "'La pared' means the wall.",
+        "'La puerta' means the door.",
+        "'La ventana' means the window."
+      ]
+    },
+    {
+      "id": "q066",
+      "q": "the floor",
+      "correct": "el piso",
+      "incorrect": ["la pared", "la puerta", "la ventana"],
+      "why_correct": "'El piso' — picture your feet on the 'piso'. In Spanish-speaking countries, 'primer piso' is the first floor of a building.",
+      "why_wrong": [
+        "'La pared' means the wall.",
+        "'La puerta' means the door.",
+        "'La ventana' means the window."
+      ]
+    },
+    {
+      "id": "q067",
+      "q": "la pizarra / el pizarrón",
+      "correct": "the board; chalkboard",
+      "incorrect": ["the bulletin board", "the wall", "the flag"],
+      "why_correct": "'La pizarra' means slate — the board is made of slate (or looks like it). 'El pizarrón' is the large version (augmentative).",
+      "why_wrong": [
+        "'La cartelera' means the bulletin board.",
+        "'La pared' means the wall.",
+        "'La bandera' means the flag."
+      ]
+    },
+    {
+      "id": "q068",
+      "q": "the board; chalkboard",
+      "correct": "la pizarra / el pizarrón",
+      "incorrect": ["la cartelera", "la pared", "la bandera"],
+      "why_correct": "'La pizarra' means slate rock — traditional chalkboards are made of slate. 'Pizarrón' is just a bigger pizarra.",
+      "why_wrong": [
+        "'La cartelera' means the bulletin board.",
+        "'La pared' means the wall.",
+        "'La bandera' means the flag."
+      ]
+    },
+    {
+      "id": "q069",
+      "q": "la puerta",
+      "correct": "the door",
+      "incorrect": ["the window", "the wall", "the floor"],
+      "why_correct": "'La puerta' comes from Latin 'porta' (gate/door) — think 'portal', 'port' (a harbor entrance), or 'deportation' (sending through a gate).",
+      "why_wrong": [
+        "'La ventana' means the window.",
+        "'La pared' means the wall.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q070",
+      "q": "the door",
+      "correct": "la puerta",
+      "incorrect": ["la ventana", "la pared", "el piso"],
+      "why_correct": "'La puerta' — from Latin 'porta' (gate). Think 'portal', 'port' (an entry point). The puerta is your portal in.",
+      "why_wrong": [
+        "'La ventana' means the window.",
+        "'La pared' means the wall.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q071",
+      "q": "la regla",
+      "correct": "the ruler",
+      "incorrect": ["the pencil", "the pencil case", "the scissors"],
+      "why_correct": "'La regla' comes from Latin 'regula' (straight rod for measuring). 'Regular', 'regulate', 'rule' all share this root.",
+      "why_wrong": [
+        "'El lápiz' means the pencil.",
+        "'El estuche' means the pencil case.",
+        "'Las tijeras' means the scissors."
+      ]
+    },
+    {
+      "id": "q072",
+      "q": "the ruler",
+      "correct": "la regla",
+      "incorrect": ["el lápiz", "el estuche", "las tijeras"],
+      "why_correct": "'La regla' — from Latin 'regula' (straight rule). Think 'regulate' or 'rule'. A ruler keeps your lines regular.",
+      "why_wrong": [
+        "'El lápiz' means the pencil.",
+        "'El estuche' means the pencil case.",
+        "'Las tijeras' means the scissors."
+      ]
+    },
+    {
+      "id": "q073",
+      "q": "el reloj",
+      "correct": "the clock",
+      "incorrect": ["the calendar", "the lamp", "the computer"],
+      "why_correct": "'El reloj' comes from French 'horloge' (clock) via Catalan — a clock tells you when to re-log your time.",
+      "why_wrong": [
+        "'El calendario' means the calendar.",
+        "'La lámpara' means the lamp.",
+        "'La computadora' means the computer."
+      ]
+    },
+    {
+      "id": "q074",
+      "q": "the clock",
+      "correct": "el reloj",
+      "incorrect": ["el calendario", "la lámpara", "la computadora"],
+      "why_correct": "'El reloj' — from French 'horloge'. Imagine re-logging the time every hour. El reloj tracks time.",
+      "why_wrong": [
+        "'El calendario' means the calendar.",
+        "'La lámpara' means the lamp.",
+        "'La computadora / el ordenador' means the computer."
+      ]
+    },
+    {
+      "id": "q075",
+      "q": "el rotulador",
+      "correct": "the marker",
+      "incorrect": ["the pen", "the pencil", "the paintbrush"],
+      "why_correct": "'El rotulador' comes from 'rótulo' (label/sign) — a marker is used to make bold labels and signs.",
+      "why_wrong": [
+        "'El bolígrafo / boli' means the pen.",
+        "'El lápiz' means the pencil.",
+        "'El pincel' means the paintbrush."
+      ]
+    },
+    {
+      "id": "q076",
+      "q": "the marker",
+      "correct": "el rotulador",
+      "incorrect": ["el bolígrafo", "el lápiz", "el pincel"],
+      "why_correct": "'El rotulador' — from 'rótulo' (label). You use a marker to write rótulos (big, bold signs).",
+      "why_wrong": [
+        "'El bolígrafo' means the pen.",
+        "'El lápiz' means the pencil.",
+        "'El pincel' means the paintbrush."
+      ]
+    },
+    {
+      "id": "q077",
+      "q": "el sacapuntas",
+      "correct": "the pencil sharpener",
+      "incorrect": ["the eraser", "the pencil case", "the stapler"],
+      "why_correct": "'El sacapuntas' is a compound word: 'sacar' (to take out) + 'puntas' (points/tips). It takes out the pencil's point.",
+      "why_wrong": [
+        "'El borrador / la goma' means the eraser.",
+        "'El estuche' means the pencil case.",
+        "'La grapadora' means the stapler."
+      ]
+    },
+    {
+      "id": "q078",
+      "q": "the pencil sharpener",
+      "correct": "el sacapuntas",
+      "incorrect": ["el borrador", "el estuche", "la grapadora"],
+      "why_correct": "'El sacapuntas' — literally 'saca' (take out) + 'puntas' (points). It pulls out a sharp point from the pencil.",
+      "why_wrong": [
+        "'El borrador / la goma' means the eraser.",
+        "'El estuche' means the pencil case.",
+        "'La grapadora' means the stapler."
+      ]
+    },
+    {
+      "id": "q079",
+      "q": "la silla",
+      "correct": "the chair",
+      "incorrect": ["the desk", "the locker", "the floor"],
+      "why_correct": "'La silla' — from Latin 'sella' (seat/saddle). Think of sitting in your silla. 'Sillón' is a big armchair.",
+      "why_wrong": [
+        "'La mesa / el pupitre' means the desk.",
+        "'La taquilla' means the locker.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q080",
+      "q": "the chair",
+      "correct": "la silla",
+      "incorrect": ["la mesa", "la taquilla", "el piso"],
+      "why_correct": "'La silla' — from Latin 'sella' (seat). You silla in a seat. A 'sillón' is an oversized, padded silla.",
+      "why_wrong": [
+        "'La mesa / el pupitre' means the desk.",
+        "'La taquilla' means the locker.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q081",
+      "q": "la taquilla",
+      "correct": "the locker",
+      "incorrect": ["the desk", "the chair", "the backpack"],
+      "why_correct": "'La taquilla' also means ticket booth or box office — both are small locked compartments you access with a key.",
+      "why_wrong": [
+        "'La mesa / el pupitre' means the desk.",
+        "'La silla' means the chair.",
+        "'La mochila' means the backpack."
+      ]
+    },
+    {
+      "id": "q082",
+      "q": "the locker",
+      "correct": "la taquilla",
+      "incorrect": ["la mesa", "la silla", "la mochila"],
+      "why_correct": "'La taquilla' — also a box office or ticket window. Both are small locked compartments. Your locker is your personal taquilla.",
+      "why_wrong": [
+        "'La mesa / el pupitre' means the desk.",
+        "'La silla' means the chair.",
+        "'La mochila' means the backpack."
+      ]
+    },
+    {
+      "id": "q083",
+      "q": "las tijeras",
+      "correct": "the scissors",
+      "incorrect": ["the stapler", "the tape", "the glue"],
+      "why_correct": "'Las tijeras' — always plural in Spanish, like 'scissors' in English. From Latin 'tonsoriæ' (shearing tools).",
+      "why_wrong": [
+        "'La grapadora' means the stapler.",
+        "'La cinta' means the tape.",
+        "'El pegamento' means the glue."
+      ]
+    },
+    {
+      "id": "q084",
+      "q": "the scissors",
+      "correct": "las tijeras",
+      "incorrect": ["la grapadora", "la cinta", "el pegamento"],
+      "why_correct": "'Las tijeras' — always plural, just like 'scissors' in English. Both words treat the two blades as a pair.",
+      "why_wrong": [
+        "'La grapadora' means the stapler.",
+        "'La cinta' means the tape.",
+        "'El pegamento' means the glue."
+      ]
+    },
+    {
+      "id": "q085",
+      "q": "la tiza",
+      "correct": "the chalk",
+      "incorrect": ["the eraser", "the marker", "the paint"],
+      "why_correct": "'La tiza' — from 'tierra blanca' (white earth) compressed into sticks. Chalk is white calcium carbonate — white earth.",
+      "why_wrong": [
+        "'El borrador / la goma' means the eraser.",
+        "'El rotulador' means the marker.",
+        "'La pintura' means the paint."
+      ]
+    },
+    {
+      "id": "q086",
+      "q": "the chalk",
+      "correct": "la tiza",
+      "incorrect": ["el borrador", "el rotulador", "la pintura"],
+      "why_correct": "'La tiza' — think of white chalky rock. It's compressed white mineral. Write on the pizarra with tiza.",
+      "why_wrong": [
+        "'El borrador / la goma' means the eraser.",
+        "'El rotulador' means the marker.",
+        "'La pintura' means the paint."
+      ]
+    },
+    {
+      "id": "q087",
+      "q": "la ventana",
+      "correct": "the window",
+      "incorrect": ["the door", "the wall", "the floor"],
+      "why_correct": "'La ventana' comes from Latin 'ventus' (wind) — windows let the wind (and air) in. The wind comes through the ventana.",
+      "why_wrong": [
+        "'La puerta' means the door.",
+        "'La pared' means the wall.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q088",
+      "q": "the window",
+      "correct": "la ventana",
+      "incorrect": ["la puerta", "la pared", "el piso"],
+      "why_correct": "'La ventana' — from Latin 'ventus' (wind). Think 'ventilation'. A window lets the viento (wind) through.",
+      "why_wrong": [
+        "'La puerta' means the door.",
+        "'La pared' means the wall.",
+        "'El piso' means the floor."
+      ]
+    },
+    {
+      "id": "q089",
+      "q": "la clase",
+      "correct": "the class",
+      "incorrect": ["the student", "the teacher (female)", "history"],
+      "why_correct": "'La clase' is a direct cognate with English 'class' — both from Latin 'classis' (group called together).",
+      "why_wrong": [
+        "'El estudiante' means the student.",
+        "'La profesora' means the teacher (female).",
+        "'La historia' means history."
+      ]
+    },
+    {
+      "id": "q090",
+      "q": "the class",
+      "correct": "la clase",
+      "incorrect": ["el estudiante", "la profesora", "la historia"],
+      "why_correct": "'La clase' — a clean cognate with 'class'. Latin 'classis' means a group summoned together.",
+      "why_wrong": [
+        "'El estudiante' means the student.",
+        "'La profesora' means the teacher (female).",
+        "'La historia' means history."
+      ]
+    },
+    {
+      "id": "q091",
+      "q": "el estudiante",
+      "correct": "the student",
+      "incorrect": ["the teacher (female)", "the class", "the book"],
+      "why_correct": "'El estudiante' — cognate with 'student'. Both from Latin 'studere' (to apply oneself, to be eager).",
+      "why_wrong": [
+        "'La profesora' means the teacher (female).",
+        "'La clase' means the class.",
+        "'El libro' means the book."
+      ]
+    },
+    {
+      "id": "q092",
+      "q": "the student",
+      "correct": "el estudiante",
+      "incorrect": ["la profesora", "la clase", "el libro"],
+      "why_correct": "'El estudiante' — transparent cognate with 'student'. Both from Latin 'studium' (zeal, study).",
+      "why_wrong": [
+        "'La profesora' means the teacher (female).",
+        "'La clase' means the class.",
+        "'El libro' means the book."
+      ]
+    },
+    {
+      "id": "q093",
+      "q": "la profesora",
+      "correct": "the teacher (female)",
+      "incorrect": ["the student", "the class", "reading"],
+      "why_correct": "'La profesora' — cognate with 'professor'. From Latin 'profiteri' (to declare publicly). A teacher professes knowledge.",
+      "why_wrong": [
+        "'El estudiante' means the student.",
+        "'La clase' means the class.",
+        "'La lectura' means reading."
+      ]
+    },
+    {
+      "id": "q094",
+      "q": "the teacher (female)",
+      "correct": "la profesora",
+      "incorrect": ["el estudiante", "la clase", "la lectura"],
+      "why_correct": "'La profesora' — from Latin 'profiteri' (to profess). A teacher professes knowledge to students.",
+      "why_wrong": [
+        "'El estudiante' means the student.",
+        "'La clase' means the class.",
+        "'La lectura' means reading."
+      ]
+    },
+    {
+      "id": "q095",
+      "q": "el arte",
+      "correct": "art",
+      "incorrect": ["music", "science", "physical education"],
+      "why_correct": "'El arte' is a direct cognate — from Latin 'ars' (skill, craft). 'Artisan', 'artificial', 'artifact' all share this root.",
+      "why_wrong": [
+        "'La música' means music.",
+        "'La ciencia' means science.",
+        "'La educación física' means physical education."
+      ]
+    },
+    {
+      "id": "q096",
+      "q": "art",
+      "correct": "el arte",
+      "incorrect": ["la música", "la ciencia", "la educación física"],
+      "why_correct": "'El arte' — perfect cognate with 'art'. Latin 'ars' (skill). Note: 'el arte' uses masculine article despite the -e ending.",
+      "why_wrong": [
+        "'La música' means music.",
+        "'La ciencia' means science.",
+        "'La educación física' means physical education."
+      ]
+    },
+    {
+      "id": "q097",
+      "q": "la ciencia",
+      "correct": "science",
+      "incorrect": ["history", "mathematics", "social studies"],
+      "why_correct": "'La ciencia' — cognate with 'science'. Both from Latin 'scientia' (knowledge). 'Omniscient' shares the same root.",
+      "why_wrong": [
+        "'La historia' means history.",
+        "'Las matemáticas' means mathematics.",
+        "'Los estudios sociales' means social studies."
+      ]
+    },
+    {
+      "id": "q098",
+      "q": "science",
+      "correct": "la ciencia",
+      "incorrect": ["la historia", "las matemáticas", "los estudios sociales"],
+      "why_correct": "'La ciencia' — from Latin 'scientia' (knowing). 'Science' and 'ciencia' are cognates; 'omniscient' shares the root.",
+      "why_wrong": [
+        "'La historia' means history.",
+        "'Las matemáticas' means mathematics.",
+        "'Los estudios sociales' means social studies."
+      ]
+    },
+    {
+      "id": "q099",
+      "q": "la educación física",
+      "correct": "physical education",
+      "incorrect": ["art", "music", "reading"],
+      "why_correct": "'La educación física' translates word-for-word: 'educación' (education) + 'física' (physical). A transparent phrase.",
+      "why_wrong": [
+        "'El arte' means art.",
+        "'La música' means music.",
+        "'La lectura' means reading."
+      ]
+    },
+    {
+      "id": "q100",
+      "q": "physical education",
+      "correct": "la educación física",
+      "incorrect": ["el arte", "la música", "la lectura"],
+      "why_correct": "'La educación física' — word-for-word translation of 'physical education'. Both words are cognates.",
+      "why_wrong": [
+        "'El arte' means art.",
+        "'La música' means music.",
+        "'La lectura' means reading."
+      ]
+    },
+    {
+      "id": "q101",
+      "q": "los estudios sociales",
+      "correct": "social studies",
+      "incorrect": ["history", "science", "mathematics"],
+      "why_correct": "'Los estudios sociales' translates directly: 'estudios' (studies) + 'sociales' (social). Both words are cognates.",
+      "why_wrong": [
+        "'La historia' means history.",
+        "'La ciencia' means science.",
+        "'Las matemáticas' means mathematics."
+      ]
+    },
+    {
+      "id": "q102",
+      "q": "social studies",
+      "correct": "los estudios sociales",
+      "incorrect": ["la historia", "la ciencia", "las matemáticas"],
+      "why_correct": "'Los estudios sociales' — direct translation. 'Estudios' (studies) and 'sociales' (social) are both cognates.",
+      "why_wrong": [
+        "'La historia' means history.",
+        "'La ciencia' means science.",
+        "'Las matemáticas' means mathematics."
+      ]
+    },
+    {
+      "id": "q103",
+      "q": "la historia",
+      "correct": "history",
+      "incorrect": ["science", "reading", "social studies"],
+      "why_correct": "'La historia' is a cognate — from Greek 'historia' (inquiry, narrative). English 'history', 'story', and 'historic' share this root.",
+      "why_wrong": [
+        "'La ciencia' means science.",
+        "'La lectura' means reading.",
+        "'Los estudios sociales' means social studies."
+      ]
+    },
+    {
+      "id": "q104",
+      "q": "history",
+      "correct": "la historia",
+      "incorrect": ["la ciencia", "la lectura", "los estudios sociales"],
+      "why_correct": "'La historia' — a clear cognate. Greek 'historia' (inquiry) gave us both 'history' and 'historia'.",
+      "why_wrong": [
+        "'La ciencia' means science.",
+        "'La lectura' means reading.",
+        "'Los estudios sociales' means social studies."
+      ]
+    },
+    {
+      "id": "q105",
+      "q": "la lectura",
+      "correct": "reading",
+      "incorrect": ["mathematics", "history", "art"],
+      "why_correct": "'La lectura' comes from Latin 'lectio' (a reading). Think 'lecture' (a reading aloud) or 'legible' (readable).",
+      "why_wrong": [
+        "'Las matemáticas' means mathematics.",
+        "'La historia' means history.",
+        "'El arte' means art."
+      ]
+    },
+    {
+      "id": "q106",
+      "q": "reading",
+      "correct": "la lectura",
+      "incorrect": ["las matemáticas", "la historia", "el arte"],
+      "why_correct": "'La lectura' — from Latin 'lectio'. Think 'lecture' (a reading) or 'legible'. A lecturer gives a lectura.",
+      "why_wrong": [
+        "'Las matemáticas' means mathematics.",
+        "'La historia' means history.",
+        "'El arte' means art."
+      ]
+    },
+    {
+      "id": "q107",
+      "q": "las matemáticas",
+      "correct": "mathematics",
+      "incorrect": ["science", "reading", "social studies"],
+      "why_correct": "'Las matemáticas' — cognate with 'mathematics'. From Greek 'mathema' (learning, science). Always plural in Spanish.",
+      "why_wrong": [
+        "'La ciencia' means science.",
+        "'La lectura' means reading.",
+        "'Los estudios sociales' means social studies."
+      ]
+    },
+    {
+      "id": "q108",
+      "q": "mathematics",
+      "correct": "las matemáticas",
+      "incorrect": ["la ciencia", "la lectura", "los estudios sociales"],
+      "why_correct": "'Las matemáticas' — a clear cognate with 'mathematics'. Note it's always plural in Spanish, like 'maths' in British English.",
+      "why_wrong": [
+        "'La ciencia' means science.",
+        "'La lectura' means reading.",
+        "'Los estudios sociales' means social studies."
+      ]
+    },
+    {
+      "id": "q109",
+      "q": "la música",
+      "correct": "music",
+      "incorrect": ["art", "physical education", "reading"],
+      "why_correct": "'La música' is a near-perfect cognate — from Greek 'mousike' (art of the Muses). 'Music' and 'música' share the same root.",
+      "why_wrong": [
+        "'El arte' means art.",
+        "'La educación física' means physical education.",
+        "'La lectura' means reading."
+      ]
+    },
+    {
+      "id": "q110",
+      "q": "music",
+      "correct": "la música",
+      "incorrect": ["el arte", "la educación física", "la lectura"],
+      "why_correct": "'La música' — a transparent cognate with 'music'. Both from Greek 'mousa' (Muse, the goddess of artistic inspiration).",
+      "why_wrong": [
+        "'El arte' means art.",
+        "'La educación física' means physical education.",
+        "'La lectura' means reading."
+      ]
+    }
+  ]
+}

@@ -72,8 +72,13 @@ function updateSubjectLabels() {
   document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
   document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
   document.getElementById('btn-match').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
-  document.getElementById('btn-mc-quiz-inline').classList.toggle('hidden', !isMcQuiz);
-  document.getElementById('btn-mc-quiz-end').classList.toggle('hidden', !isMcQuiz);
+  const isMcqDirectional = isMcQuiz && state.currentList.quiz_mode === 'multiple-choice';
+  document.getElementById('btn-mc-quiz-inline').classList.toggle('hidden', !isMcQuiz || isMcqDirectional);
+  document.getElementById('btn-mc-quiz-end').classList.toggle('hidden', !isMcQuiz || isMcqDirectional);
+  document.getElementById('btn-mcq-inline-es-en').classList.toggle('hidden', !isMcqDirectional);
+  document.getElementById('btn-mcq-inline-en-es').classList.toggle('hidden', !isMcqDirectional);
+  document.getElementById('btn-mcq-end-es-en').classList.toggle('hidden', !isMcqDirectional);
+  document.getElementById('btn-mcq-end-en-es').classList.toggle('hidden', !isMcqDirectional);
   document.getElementById('btn-translate-es-en').classList.toggle('hidden', !isTranslate);
   document.getElementById('btn-translate-en-es').classList.toggle('hidden', !isTranslate);
   document.getElementById('btn-translate-mix').classList.toggle('hidden', !isTranslate);
@@ -1135,9 +1140,17 @@ function getMcqWeight(listId, questionId) {
   return 1;
 }
 
-function buildMcqSession(list) {
+function isEnEsQuestion(q) {
+  const c = q.correct;
+  return c.startsWith('el ') || c.startsWith('la ') || c.startsWith('los ') || c.startsWith('las ');
+}
+
+function buildMcqSession(list, direction) {
+  let questions = list.questions;
+  if (direction === 'en_es') questions = questions.filter(q =>  isEnEsQuestion(q));
+  if (direction === 'es_en') questions = questions.filter(q => !isEnEsQuestion(q));
   const pool = [];
-  for (const q of list.questions) {
+  for (const q of questions) {
     const w = getMcqWeight(list.id, q.id);
     for (let i = 0; i < w; i++) pool.push(q);
   }
@@ -1154,11 +1167,11 @@ function buildMcqSession(list) {
   return session;
 }
 
-function startMcQuiz(gradeMode) {
+function startMcQuiz(gradeMode, direction) {
   const list = state.currentList;
   if (!list || list.type !== 'quiz') return;
 
-  state.mcqSession   = buildMcqSession(list);
+  state.mcqSession   = buildMcqSession(list, direction);
   state.mcqIndex     = 0;
   state.mcqResults   = {};
   state.mcqChoices   = {};
@@ -1187,8 +1200,10 @@ function renderMcqCard() {
 
   const q = session[state.mcqIndex];
 
-  renderFitbCard(q);
-  return;
+  if (state.currentList.quiz_mode !== 'multiple-choice') {
+    renderFitbCard(q);
+    return;
+  }
 
   showQuizMode('mc-quiz');
 
