@@ -1186,6 +1186,10 @@ function renderMcqCard() {
   }
 
   const q = session[state.mcqIndex];
+
+  renderFitbCard(q);
+  return;
+
   showQuizMode('mc-quiz');
 
   const diagramImg = document.getElementById('mcq-diagram-img');
@@ -1291,6 +1295,95 @@ function selectMcqAnswer(btn, choice, allChoices) {
   }
 }
 
+function renderFitbCard(q) {
+  showQuizMode('mc-quiz-fitb');
+  document.getElementById('fitb-check').textContent = state.mcqGradeMode === 'end' ? 'Next' : 'Check';
+
+  const diagramImg = document.getElementById('fitb-diagram-img');
+  if (q.img) {
+    diagramImg.src = q.img;
+    diagramImg.classList.remove('hidden');
+  } else {
+    diagramImg.src = '';
+    diagramImg.classList.add('hidden');
+  }
+
+  document.getElementById('fitb-question').textContent = q.q;
+  document.getElementById('fitb-feedback').classList.add('hidden');
+  document.getElementById('fitb-next').classList.add('hidden');
+
+  const input = document.getElementById('fitb-input');
+  input.value    = '';
+  input.readOnly = false;
+
+  const prevResult = state.mcqResults[q.id];
+  if (prevResult && state.mcqGradeMode !== 'end') {
+    input.value    = prevResult.chosen;
+    input.readOnly = true;
+    showFitbFeedback(q, prevResult.correct, prevResult.chosen);
+    document.getElementById('fitb-next').classList.remove('hidden');
+  } else if (prevResult && state.mcqGradeMode === 'end') {
+    input.value = prevResult.chosen;
+    input.focus();
+  } else {
+    input.focus();
+  }
+}
+
+function checkFitbAnswer() {
+  const input = document.getElementById('fitb-input');
+  if (input.readOnly) { advanceMcqCard(); return; }
+
+  const userAnswer = input.value.trim();
+  if (!userAnswer) return;
+
+  const q         = state.mcqSession[state.mcqIndex];
+  const isCorrect = normalize(userAnswer) === normalize(q.correct);
+
+  input.readOnly = true;
+
+  const prev = state.mcqResults[q.id];
+  if (prev) undoRecordQuizAnswer(state.currentList.id, q.id, prev.correct);
+
+  recordQuizAnswer(state.currentList.id, q.id, isCorrect);
+  state.mcqResults[q.id] = {
+    question: q,
+    chosen:   userAnswer,
+    correct:  isCorrect,
+    whyWrong: null,
+  };
+
+  updateNavBar();
+
+  if (state.mcqGradeMode === 'end') {
+    state.mcqAdvanceTimeout = setTimeout(() => {
+      state.mcqAdvanceTimeout = null;
+      advanceMcqCard();
+    }, 400);
+  } else {
+    showFitbFeedback(q, isCorrect, userAnswer);
+    document.getElementById('fitb-check').textContent = 'Next';
+    document.getElementById('fitb-next').classList.remove('hidden');
+  }
+}
+
+function showFitbFeedback(q, isCorrect, userAnswer) {
+  const badge       = document.getElementById('fitb-feedback-badge');
+  const explanation = document.getElementById('fitb-explanation');
+
+  if (isCorrect) {
+    badge.textContent = 'Correct!';
+    badge.className   = 'mcq-feedback-badge mcq-badge--correct';
+    explanation.textContent = q.why_correct;
+  } else {
+    badge.textContent = 'Incorrect';
+    badge.className   = 'mcq-feedback-badge mcq-badge--wrong';
+    explanation.innerHTML = `<strong>Correct answer:</strong> ${q.correct}<br><br>${q.why_correct}`;
+  }
+
+  document.getElementById('fitb-feedback').classList.remove('hidden');
+}
+
 function advanceMcqCard() {
   state.mcqIndex++;
   updateNavBar();
@@ -1298,8 +1391,9 @@ function advanceMcqCard() {
 }
 
 function skipMcqCard() {
-  // Only skip if not yet answered (Next button hidden means unanswered)
-  if (!document.getElementById('mcq-next').classList.contains('hidden')) return;
+  // Only skip if not yet answered
+  const nextBtn = document.getElementById('fitb-next');
+  if (!nextBtn.classList.contains('hidden')) return;
   // Remove the question entirely — skipped questions are not revisited or scored
   state.mcqSession.splice(state.mcqIndex, 1);
   renderMcqCard();
@@ -1915,6 +2009,13 @@ function setupEventListeners() {
 
   // MC Quiz
   document.getElementById('mcq-next').addEventListener('click', advanceMcqCard);
+
+  // MC Quiz Fill-in-the-blank
+  document.getElementById('fitb-check').addEventListener('click', checkFitbAnswer);
+  document.getElementById('fitb-next').addEventListener('click', advanceMcqCard);
+  document.getElementById('fitb-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') checkFitbAnswer();
+  });
 
   // Translate
   document.getElementById('translate-check').addEventListener('click', checkTranslateAnswer);

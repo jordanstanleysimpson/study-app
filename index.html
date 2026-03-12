@@ -305,6 +305,31 @@
         </div>
       </div>
 
+      <!-- MC Quiz Fill-in-the-blank mode -->
+      <div id="mode-mc-quiz-fitb" class="quiz-mode hidden">
+        <div class="quiz-inner mcq-inner">
+          <img id="fitb-diagram-img" class="fc-diagram-img hidden" src="" alt="Diagram">
+          <div class="mcq-question" id="fitb-question"></div>
+          <div class="type-area">
+            <input
+              type="text"
+              id="fitb-input"
+              placeholder="Type your answer..."
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+            >
+            <button class="btn-check" id="fitb-check">Check</button>
+          </div>
+          <div class="mcq-feedback hidden" id="fitb-feedback">
+            <div class="mcq-feedback-badge" id="fitb-feedback-badge"></div>
+            <div class="mcq-explanation" id="fitb-explanation"></div>
+          </div>
+          <button class="btn-next hidden" id="fitb-next">Next</button>
+        </div>
+      </div>
+
       <!-- Translate mode -->
       <div id="mode-translate" class="quiz-mode hidden">
         <div class="quiz-inner">

@@ -3,11 +3,12 @@
   "name": "Unit 3: Household Vocabulary",
   "subject": "Spanish",
   "type": "quiz",
+  "quiz_mode": "fill-in",
   "created": "2026-03-10",
   "questions": [
     {
       "id": "q001",
-      "q": "What does 'el armario' mean?",
+      "q": "El _____ es donde guardamos la ropa. (el armario)",
       "correct": "wardrobe; closet",
       "incorrect": ["glass (for drinking)", "rug; carpet", "stairs; staircase"],
       "why_correct": "'El armario' means wardrobe or closet — related to 'armas' (arms/weapons); originally a cabinet for storing armor.",
@@ -19,7 +20,7 @@
     },
     {
       "id": "q002",
-      "q": "How do you say 'wardrobe; closet'?",
+      "q": "Guardo mi ropa en _____ de mi habitación. (wardrobe; closet)",
       "correct": "el armario",
       "incorrect": ["el vaso", "la piscina", "los platos"],
       "why_correct": "'El armario' is a wardrobe or closet — historically a cabinet for storing armor ('armas').",
@@ -31,7 +32,7 @@
     },
     {
       "id": "q003",
-      "q": "What does 'el vaso' mean?",
+      "q": "Bebo agua en _____. (el vaso)",
       "correct": "glass (for drinking)",
       "incorrect": ["knife", "swimming pool", "dishes; plates"],
       "why_correct": "'El vaso' means a glass for drinking — related to English 'vase' (a vessel for holding liquid).",
@@ -43,7 +44,7 @@
     },
     {
       "id": "q004",
-      "q": "How do you say 'glass (for drinking)'?",
+      "q": "Necesito _____ para tomar agua. (glass (for drinking))",
       "correct": "el vaso",
       "incorrect": ["el armario", "el cuchillo", "la alfombra"],
       "why_correct": "'El vaso' means a drinking glass — related to 'vase' (a vessel). 'Un vaso de agua' = a glass of water.",
@@ -55,7 +56,7 @@
     },
     {
       "id": "q005",
-      "q": "What does 'el cuchillo' mean?",
+      "q": "Uso _____ para cortar la carne en la cena. (el cuchillo)",
       "correct": "knife",
       "incorrect": ["swimming pool", "stairs; staircase", "rug; carpet"],
       "why_correct": "'El cuchillo' means a knife — remember 'cuchilla' is a blade. Think of 'cut' + illo (diminutive) = the cutting thing.",
@@ -67,7 +68,7 @@
     },
     {
       "id": "q006",
-      "q": "How do you say 'knife'?",
+      "q": "Mi mamá usa _____ para cocinar. (knife)",
       "correct": "el cuchillo",
       "incorrect": ["el vaso", "los platos", "las escaleras"],
       "why_correct": "'El cuchillo' means a knife — 'cuchilla' is a blade. The diminutive '-illo' gives the sense of 'little blade/cutter'.",
@@ -79,7 +80,7 @@
     },
     {
       "id": "q007",
-      "q": "What does 'la piscina' mean?",
+      "q": "En verano, los niños nadan en _____. (la piscina)",
       "correct": "swimming pool",
       "incorrect": ["wardrobe; closet", "rug; carpet", "chores; household chores"],
       "why_correct": "'La piscina' means a swimming pool — from Latin 'piscina' (fish pond). Both ponds and pools hold water for swimming/fish.",
@@ -91,7 +92,7 @@
     },
     {
       "id": "q008",
-      "q": "How do you say 'swimming pool'?",
+      "q": "Me gusta nadar en _____. (swimming pool)",
       "correct": "la piscina",
       "incorrect": ["el armario", "la alfombra", "el vaso"],
       "why_correct": "'La piscina' means a swimming pool — from Latin 'piscina' (fish pond; from 'piscis' = fish).",
@@ -103,7 +104,7 @@
     },
     {
       "id": "q009",
-      "q": "What does 'los platos' mean?",
+      "q": "Después de comer, lavamos _____. (los platos)",
       "correct": "dishes; plates",
       "incorrect": ["stairs; staircase", "rug; carpet", "chores; household chores"],
       "why_correct": "'Los platos' means dishes or plates — 'lavar los platos' = to wash the dishes. Also the name of a flat dish ('plato').",
@@ -115,7 +116,7 @@
     },
     {
       "id": "q010",
-      "q": "How do you say 'dishes; plates'?",
+      "q": "Pongo la comida en _____. (dishes; plates)",
       "correct": "los platos",
       "incorrect": ["las escaleras", "los quehaceres", "el cuchillo"],
       "why_correct": "'Los platos' means dishes/plates — 'lavar los platos' = do the dishes. 'Un plato' is one plate.",
@@ -127,7 +128,7 @@
     },
     {
       "id": "q011",
-      "q": "What does 'las escaleras' mean?",
+      "q": "Subo _____ para llegar al segundo piso. (las escaleras)",
       "correct": "stairs; staircase",
       "incorrect": ["rug; carpet", "chores; household chores", "swimming pool"],
       "why_correct": "'Las escaleras' means stairs or staircase — from 'escala' (scale/ladder). Think of 'escalator' (a moving staircase).",
@@ -139,7 +140,7 @@
     },
     {
       "id": "q012",
-      "q": "How do you say 'stairs; staircase'?",
+      "q": "Mi abuela sube _____ lentamente. (stairs; staircase)",
       "correct": "las escaleras",
       "incorrect": ["la alfombra", "la piscina", "los platos"],
       "why_correct": "'Las escaleras' means stairs — 'escalera' is related to 'escalator'. 'Subir las escaleras' = to go up the stairs.",
@@ -151,7 +152,7 @@
     },
     {
       "id": "q013",
-      "q": "What does 'la alfombra' mean?",
+      "q": "Tenemos _____ azul en la sala. (la alfombra)",
       "correct": "rug; carpet",
       "incorrect": ["wardrobe; closet", "knife", "glass (for drinking)"],
       "why_correct": "'La alfombra' means a rug or carpet — from Arabic 'al-humra' (the red thing). Many Spanish household words came from Arabic during the Moorish period.",
@@ -163,7 +164,7 @@
     },
     {
       "id": "q014",
-      "q": "How do you say 'rug; carpet'?",
+      "q": "Limpiamos _____ con la aspiradora. (rug; carpet)",
       "correct": "la alfombra",
       "incorrect": ["el armario", "las escaleras", "los quehaceres"],
       "why_correct": "'La alfombra' means a rug or carpet — from Arabic 'al-humra'. Many Spanish household words have Arabic origins.",
@@ -175,7 +176,7 @@
     },
     {
       "id": "q015",
-      "q": "What does 'los quehaceres' mean?",
+      "q": "Todos los sábados hacemos _____ en casa. (los quehaceres)",
       "correct": "chores; household chores",
       "incorrect": ["to vacuum", "to clean", "to wash"],
       "why_correct": "'Los quehaceres' means household chores — literally 'what-to-do-s' (que + haceres, from 'hacer' = to do).",
@@ -187,7 +188,7 @@
     },
     {
       "id": "q016",
-      "q": "How do you say 'chores; household chores'?",
+      "q": "Mis hermanos y yo ayudamos con _____. (chores; household chores)",
       "correct": "los quehaceres",
       "incorrect": ["la alfombra", "las escaleras", "los platos"],
       "why_correct": "'Los quehaceres' = chores — literally 'the things-to-do'. From 'que' (what) + 'haceres' (doings, from hacer).",
@@ -199,7 +200,7 @@
     },
     {
       "id": "q017",
-      "q": "What does 'pasar la aspiradora' mean?",
+      "q": "Necesito _____ porque la alfombra está sucia. (pasar la aspiradora)",
       "correct": "to vacuum",
       "incorrect": ["to clean", "to wash", "to mow the lawn"],
       "why_correct": "'Pasar la aspiradora' = to vacuum — 'la aspiradora' is a vacuum cleaner (literally 'the aspirator/sucker'). 'Pasar' means to pass/run over.",
@@ -211,7 +212,7 @@
     },
     {
       "id": "q018",
-      "q": "How do you say 'to vacuum'?",
+      "q": "Voy a _____ la sala hoy. (to vacuum)",
       "correct": "pasar la aspiradora",
       "incorrect": ["limpiar", "lavar", "cortar el césped"],
       "why_correct": "'Pasar la aspiradora' = to vacuum — 'la aspiradora' is the vacuum cleaner.",
@@ -223,7 +224,7 @@
     },
     {
       "id": "q019",
-      "q": "What does 'cortar el césped' mean?",
+      "q": "Mi padre tiene que _____ porque el jardín está largo. (cortar el césped)",
       "correct": "to cut the lawn; to mow the lawn",
       "incorrect": ["to vacuum", "to go up the stairs", "to wash"],
       "why_correct": "'Cortar el césped' = to mow the lawn — 'cortar' (to cut) + 'el césped' (the lawn/grass). Literally 'to cut the grass'.",
@@ -235,7 +236,7 @@
     },
     {
       "id": "q020",
-      "q": "How do you say 'to cut the lawn; to mow the lawn'?",
+      "q": "Los sábados ayudo a mi papá a _____. (to cut the lawn; to mow the lawn)",
       "correct": "cortar el césped",
       "incorrect": ["pasar la aspiradora", "subir las escaleras", "lavar"],
       "why_correct": "'Cortar el césped' = to mow the lawn — 'cortar' (cut) + 'césped' (lawn/turf).",
@@ -247,7 +248,7 @@
     },
     {
       "id": "q021",
-      "q": "What does 'subir las escaleras' mean?",
+      "q": "Tengo que _____ para llegar a mi cuarto. (subir las escaleras)",
       "correct": "to go up the stairs",
       "incorrect": ["to vacuum", "to clean", "to mow the lawn"],
       "why_correct": "'Subir las escaleras' = to go up the stairs — 'subir' (to go up) + 'las escaleras' (the stairs).",
@@ -259,7 +260,7 @@
     },
     {
       "id": "q022",
-      "q": "How do you say 'to go up the stairs'?",
+      "q": "Voy a _____ para llegar al dormitorio. (to go up the stairs)",
       "correct": "subir las escaleras",
       "incorrect": ["cortar el césped", "lavar", "limpiar"],
       "why_correct": "'Subir las escaleras' = to go up the stairs — 'subir' (to go up/raise) + 'las escaleras' (the stairs).",
@@ -271,7 +272,7 @@
     },
     {
       "id": "q023",
-      "q": "Which verb would you use to say you know a fact or piece of information?",
+      "q": "Yo _____ la respuesta de la pregunta. (saber - yo, for facts)",
       "correct": "saber",
       "incorrect": ["conocer", "entender", "recordar"],
       "why_correct": "'Saber' is used for knowing facts, data, and information — 'Sé la respuesta' = I know the answer. If you can replace the verb with 'have knowledge of', use 'saber'.",
@@ -283,7 +284,7 @@
     },
     {
       "id": "q024",
-      "q": "Which verb would you use to say you know how to do something (+ infinitive)?",
+      "q": "Yo _____ cocinar muy bien. (saber - yo, for knowing how to)",
       "correct": "saber",
       "incorrect": ["conocer", "poder", "aprender"],
       "why_correct": "'Saber' + infinitive = to know how to do something — 'Sé cocinar' = I know how to cook. This is a key use of 'saber'.",
@@ -295,7 +296,7 @@
     },
     {
       "id": "q025",
-      "q": "Which verb would you use to say you know a person?",
+      "q": "Yo _____ a María desde la primaria. (conocer - yo, for people)",
       "correct": "conocer",
       "incorrect": ["saber", "ver", "encontrar"],
       "why_correct": "'Conocer' is used for knowing people (familiarity) — 'Conozco a María' = I know María. You use 'a' before a person with 'conocer'.",
@@ -307,7 +308,7 @@
     },
     {
       "id": "q026",
-      "q": "Which verb would you use to say you know a place (familiarity)?",
+      "q": "Yo _____ bien la ciudad de Madrid. (conocer - yo, for places)",
       "correct": "conocer",
       "incorrect": ["saber", "ir", "visitar"],
       "why_correct": "'Conocer' is used for familiarity with places — 'Conozco Madrid' = I know Madrid (I've been there, I'm familiar with it).",
@@ -319,7 +320,7 @@
     },
     {
       "id": "q027",
-      "q": "What is the yo form of 'conocer'?",
+      "q": "Yo _____ a muchas personas en mi clase. (conocer - yo)",
       "correct": "conozco",
       "incorrect": ["conoco", "conoce", "conozca"],
       "why_correct": "'Conocer' has an irregular yo form: 'conozco'. The -zco ending is a common pattern for verbs ending in a vowel + -cer/-cir (conocer, parecer, ofrecer).",
@@ -331,7 +332,7 @@
     },
     {
       "id": "q028",
-      "q": "What is the yo form of 'poner'?",
+      "q": "Yo _____ los libros en la mesa todos los días. (poner - yo)",
       "correct": "pongo",
       "incorrect": ["pone", "ponéis", "pones"],
       "why_correct": "'Poner' has an irregular yo form: 'pongo'. This is a -go verb — the yo form adds -go: pongo, salgo, traigo, vengo, tengo.",
@@ -343,7 +344,7 @@
     },
     {
       "id": "q029",
-      "q": "What is the yo form of 'hacer'?",
+      "q": "Yo _____ la tarea todos los días. (hacer - yo)",
       "correct": "hago",
       "incorrect": ["hace", "hacen", "haces"],
       "why_correct": "'Hacer' has an irregular yo form: 'hago'. Another -go verb. '¿Qué hago?' = What do I do?",
@@ -355,7 +356,7 @@
     },
     {
       "id": "q030",
-      "q": "What is the yo form of 'ver'?",
+      "q": "Yo _____ la televisión por la noche. (ver - yo)",
       "correct": "veo",
       "incorrect": ["ve", "ves", "vemos"],
       "why_correct": "'Ver' has an irregular yo form: 'veo'. The extra 'e' in 'veo' prevents the awkward '*vo'.",
@@ -367,7 +368,7 @@
     },
     {
       "id": "q031",
-      "q": "What is the yo form of 'oír'?",
+      "q": "Yo _____ música en mi cuarto. (oír - yo)",
       "correct": "oigo",
       "incorrect": ["oye", "oyes", "oímos"],
       "why_correct": "'Oír' has an irregular yo form: 'oigo'. Another -go verb. '¿Me oyes?' 'Sí, te oigo' = Do you hear me? Yes, I hear you.",
@@ -379,7 +380,7 @@
     },
     {
       "id": "q032",
-      "q": "What is the yo form of 'saber'?",
+      "q": "Yo no _____ la respuesta a esa pregunta. (saber - yo)",
       "correct": "sé",
       "incorrect": ["sabo", "sabe", "sabes"],
       "why_correct": "'Saber' has a highly irregular yo form: 'sé' (just one syllable with accent). 'No sé' = I don't know.",
@@ -391,7 +392,7 @@
     },
     {
       "id": "q033",
-      "q": "What is the yo form of 'dar'?",
+      "q": "Yo te _____ un regalo para tu cumpleaños. (dar - yo)",
       "correct": "doy",
       "incorrect": ["da", "das", "damos"],
       "why_correct": "'Dar' has an irregular yo form: 'doy'. Despite being -ar, the yo form is 'doy' (not 'dao'). 'Te doy un regalo' = I give you a gift.",
@@ -403,7 +404,7 @@
     },
     {
       "id": "q034",
-      "q": "What is the yo form of 'ir'?",
+      "q": "Yo _____ a la escuela todos los días. (ir - yo)",
       "correct": "voy",
       "incorrect": ["vo", "vas", "va"],
       "why_correct": "'Ir' has a highly irregular yo form: 'voy' — from a completely different Latin root ('vadere'). 'Voy a la escuela' = I go to school.",
@@ -415,7 +416,7 @@
     },
     {
       "id": "q035",
-      "q": "What is the yo form of 'estar'?",
+      "q": "Yo _____ muy cansado hoy. (estar - yo)",
       "correct": "estoy",
       "incorrect": ["esto", "está", "estás"],
       "why_correct": "'Estar' has an irregular yo form: 'estoy'. Note the -oy ending (like 'soy', 'doy', 'voy' — a pattern for highly irregular verbs).",
@@ -427,7 +428,7 @@
     },
     {
       "id": "q036",
-      "q": "What is the yo form of 'tener'?",
+      "q": "Yo _____ mucha tarea esta semana. (tener - yo)",
       "correct": "tengo",
       "incorrect": ["tiene", "tienes", "tenemos"],
       "why_correct": "'Tener' has an irregular yo form: 'tengo'. A -go verb in yo. 'Tengo hambre' = I'm hungry.",
@@ -439,7 +440,7 @@
     },
     {
       "id": "q037",
-      "q": "What is the yo form of 'venir'?",
+      "q": "Yo _____ a casa después de la escuela. (venir - yo)",
       "correct": "vengo",
       "incorrect": ["viene", "vienes", "venimos"],
       "why_correct": "'Venir' has an irregular yo form: 'vengo'. A -go verb. 'Vengo de la escuela' = I come from school.",
@@ -451,7 +452,7 @@
     },
     {
       "id": "q038",
-      "q": "What is the yo form of 'salir'?",
+      "q": "Yo _____ de casa a las ocho de la mañana. (salir - yo)",
       "correct": "salgo",
       "incorrect": ["sale", "sales", "salimos"],
       "why_correct": "'Salir' has an irregular yo form: 'salgo'. A -go verb. 'Salgo a las ocho' = I leave at eight.",
@@ -463,7 +464,7 @@
     },
     {
       "id": "q039",
-      "q": "What is the yo form of 'caer'?",
+      "q": "A veces yo _____ cuando camino rápido. (caer - yo)",
       "correct": "caigo",
       "incorrect": ["cae", "caes", "caemos"],
       "why_correct": "'Caer' has an irregular yo form: 'caigo'. A -go verb. 'Me caigo' = I fall down.",
@@ -475,7 +476,7 @@
     },
     {
       "id": "q040",
-      "q": "What is the yo form of 'traer'?",
+      "q": "Yo _____ mi libro a la clase todos los días. (traer - yo)",
       "correct": "traigo",
       "incorrect": ["trae", "traes", "traemos"],
       "why_correct": "'Traer' has an irregular yo form: 'traigo'. A -go verb. 'Traigo mi libro' = I bring my book.",
@@ -487,7 +488,7 @@
     },
     {
       "id": "q041",
-      "q": "What is the yo form of 'decir'?",
+      "q": "Yo siempre _____ la verdad. (decir - yo)",
       "correct": "digo",
       "incorrect": ["dice", "dices", "decimos"],
       "why_correct": "'Decir' has an irregular yo form: 'digo'. A -go verb. '¿Qué digo?' = What do I say?",
@@ -499,7 +500,7 @@
     },
     {
       "id": "q042",
-      "q": "What is the yo form of 'ser'?",
+      "q": "Yo _____ estudiante en esta escuela. (ser - yo)",
       "correct": "soy",
       "incorrect": ["es", "eres", "somos"],
       "why_correct": "'Ser' has an irregular yo form: 'soy'. Like 'estoy', 'doy', 'voy' — all use -oy ending. 'Soy estudiante' = I am a student.",
@@ -511,7 +512,7 @@
     },
     {
       "id": "q043",
-      "q": "What is the yo form of 'querer'?",
+      "q": "Yo _____ ir al cine este fin de semana. (querer - yo)",
       "correct": "quiero",
       "incorrect": ["queres", "queremos", "quieren"],
       "why_correct": "'Querer' is an e→ie stem-changer. Yo: quer- → quier- + -o = quiero. 'Te quiero' = I love/want you.",
@@ -523,7 +524,7 @@
     },
     {
       "id": "q044",
-      "q": "What is the tú form of 'querer'?",
+      "q": "Tú _____ comer pizza para la cena. (querer - tú)",
       "correct": "quieres",
       "incorrect": ["quero", "querés", "quere"],
       "why_correct": "'Querer' tú: quer- → quier- + -es = quieres. '¿Quieres comer?' = Do you want to eat?",
@@ -535,7 +536,7 @@
     },
     {
       "id": "q045",
-      "q": "What is the él/ella form of 'querer'?",
+      "q": "Ella _____ estudiar más esta semana. (querer - él/ella)",
       "correct": "quiere",
       "incorrect": ["quero", "quieren", "queremos"],
       "why_correct": "'Querer' él/ella: quer- → quier- + -e = quiere. 'Ella quiere ir' = She wants to go.",
@@ -547,7 +548,7 @@
     },
     {
       "id": "q046",
-      "q": "What is the nosotros form of 'querer'?",
+      "q": "Nosotros _____ ir al parque el sábado. (querer - nosotros)",
       "correct": "queremos",
       "incorrect": ["querimos", "queramos", "quieremos"],
       "why_correct": "'Querer' nosotros: NO stem change — the 'ie' only appears in stressed syllables. Nosotros = queremos.",
@@ -559,7 +560,7 @@
     },
     {
       "id": "q047",
-      "q": "What is the ellos form of 'querer'?",
+      "q": "Ellos _____ salir temprano hoy. (querer - ellos)",
       "correct": "quieren",
       "incorrect": ["queremos", "quiero", "querens"],
       "why_correct": "'Querer' ellos/ellas: quer- → quier- + -en = quieren. The stem change applies to all forms EXCEPT nosotros and vosotros.",
@@ -571,7 +572,7 @@
     },
     {
       "id": "q048",
-      "q": "What is the yo form of 'empezar'?",
+      "q": "Yo _____ a trabajar a las nueve. (empezar - yo)",
       "correct": "empiezo",
       "incorrect": ["empezo", "empezas", "empezamos"],
       "why_correct": "'Empezar' is e→ie stem-changer. Yo: empez- → empiez- + -o = empiezo. Also: z→c before -o.",
@@ -583,7 +584,7 @@
     },
     {
       "id": "q049",
-      "q": "What is the tú form of 'empezar'?",
+      "q": "Tú _____ las clases a las ocho de la mañana. (empezar - tú)",
       "correct": "empiezas",
       "incorrect": ["empezas", "empieza", "empezamos"],
       "why_correct": "'Empezar' tú: empez- → empiez- + -as = empiezas.",
@@ -595,7 +596,7 @@
     },
     {
       "id": "q050",
-      "q": "What is the él/ella form of 'empezar'?",
+      "q": "La clase _____ a las ocho en punto. (empezar - él/ella)",
       "correct": "empieza",
       "incorrect": ["empeza", "empiezas", "empiezan"],
       "why_correct": "'Empezar' él/ella: empez- → empiez- + -a = empieza. 'La clase empieza a las ocho' = Class starts at eight.",
@@ -607,7 +608,7 @@
     },
     {
       "id": "q051",
-      "q": "What is the nosotros form of 'empezar'?",
+      "q": "Nosotros _____ el proyecto mañana. (empezar - nosotros)",
       "correct": "empezamos",
       "incorrect": ["empiezamos", "empezimos", "empezémos"],
       "why_correct": "'Empezar' nosotros: NO stem change — empezamos. Stem changes only occur in stressed syllables; nosotros stress falls on -amos, not the stem.",
@@ -619,7 +620,7 @@
     },
     {
       "id": "q052",
-      "q": "What is the ellos form of 'empezar'?",
+      "q": "Ellos _____ a estudiar después de la cena. (empezar - ellos)",
       "correct": "empiezan",
       "incorrect": ["empezan", "empiezas", "empezamos"],
       "why_correct": "'Empezar' ellos: empez- → empiez- + -an = empiezan.",
@@ -631,7 +632,7 @@
     },
     {
       "id": "q053",
-      "q": "What is the yo form of 'entender'?",
+      "q": "Yo no _____ la pregunta del profesor. (entender - yo)",
       "correct": "entiendo",
       "incorrect": ["entendo", "entiende", "entendemos"],
       "why_correct": "'Entender' is e→ie stem-changer. Yo: entend- → entiend- + -o = entiendo. 'No entiendo' = I don't understand.",
@@ -643,7 +644,7 @@
     },
     {
       "id": "q054",
-      "q": "What is the tú form of 'entender'?",
+      "q": "Tú _____ el español muy bien. (entender - tú)",
       "correct": "entiendes",
       "incorrect": ["entendes", "entiende", "entienden"],
       "why_correct": "'Entender' tú: entend- → entiend- + -es = entiendes.",
@@ -655,7 +656,7 @@
     },
     {
       "id": "q055",
-      "q": "What is the él/ella form of 'entender'?",
+      "q": "Él _____ las instrucciones del examen. (entender - él/ella)",
       "correct": "entiende",
       "incorrect": ["entende", "entiendes", "entendemos"],
       "why_correct": "'Entender' él/ella: entend- → entiend- + -e = entiende.",
@@ -667,7 +668,7 @@
     },
     {
       "id": "q056",
-      "q": "What is the nosotros form of 'entender'?",
+      "q": "Nosotros _____ la lección de matemáticas. (entender - nosotros)",
       "correct": "entendemos",
       "incorrect": ["entendimos", "entendamos", "entendémos"],
       "why_correct": "'Entender' nosotros: NO stem change — entendemos. The ie→e change only occurs in stressed syllables (yo, tú, él, ellos).",
@@ -679,7 +680,7 @@
     },
     {
       "id": "q057",
-      "q": "What is the ellos form of 'entender'?",
+      "q": "Ellos _____ el problema fácilmente. (entender - ellos)",
       "correct": "entienden",
       "incorrect": ["entenden", "entiendes", "entendemos"],
       "why_correct": "'Entender' ellos: entend- → entiend- + -en = entienden.",
@@ -691,7 +692,7 @@
     },
     {
       "id": "q058",
-      "q": "What is the yo form of 'encontrar'?",
+      "q": "Yo _____ mis llaves en mi mochila. (encontrar - yo)",
       "correct": "encuentro",
       "incorrect": ["encontro", "encuentra", "encontramos"],
       "why_correct": "'Encontrar' is o→ue stem-changer. Yo: encontr- → encuentr- + -o = encuentro.",
@@ -703,7 +704,7 @@
     },
     {
       "id": "q059",
-      "q": "What is the tú form of 'encontrar'?",
+      "q": "Tú siempre _____ las respuestas correctas. (encontrar - tú)",
       "correct": "encuentras",
       "incorrect": ["encontras", "encuentra", "encuentran"],
       "why_correct": "'Encontrar' tú: encontr- → encuentr- + -as = encuentras.",
@@ -715,7 +716,7 @@
     },
     {
       "id": "q060",
-      "q": "What is the él/ella form of 'encontrar'?",
+      "q": "Mi hermana _____ su cuaderno debajo de la silla. (encontrar - él/ella)",
       "correct": "encuentra",
       "incorrect": ["encontra", "encuentras", "encuentran"],
       "why_correct": "'Encontrar' él/ella: encontr- → encuentr- + -a = encuentra.",
@@ -727,7 +728,7 @@
     },
     {
       "id": "q061",
-      "q": "What is the nosotros form of 'encontrar'?",
+      "q": "Nosotros _____ a nuestros amigos en el parque. (encontrar - nosotros)",
       "correct": "encontramos",
       "incorrect": ["encontrimos", "encontremos", "encontramos"],
       "why_correct": "'Encontrar' nosotros: NO stem change — encontramos. The ue only appears in stressed syllables.",
@@ -739,7 +740,7 @@
     },
     {
       "id": "q062",
-      "q": "What is the ellos form of 'encontrar'?",
+      "q": "Ellos _____ su perro en el jardín. (encontrar - ellos)",
       "correct": "encuentran",
       "incorrect": ["encontran", "encuentras", "encontramos"],
       "why_correct": "'Encontrar' ellos: encontr- → encuentr- + -an = encuentran.",
@@ -751,7 +752,7 @@
     },
     {
       "id": "q063",
-      "q": "What is the yo form of 'perder'?",
+      "q": "Yo siempre _____ mi teléfono cuando salgo rápido. (perder - yo)",
       "correct": "pierdo",
       "incorrect": ["perdo", "pierde", "perdemos"],
       "why_correct": "'Perder' is e→ie stem-changer. Yo: perd- → pierd- + -o = pierdo.",
@@ -763,7 +764,7 @@
     },
     {
       "id": "q064",
-      "q": "What is the tú form of 'perder'?",
+      "q": "Tú _____ el tiempo si no estudias. (perder - tú)",
       "correct": "pierdes",
       "incorrect": ["perdes", "pierde", "pierden"],
       "why_correct": "'Perder' tú: perd- → pierd- + -es = pierdes.",
@@ -775,7 +776,7 @@
     },
     {
       "id": "q065",
-      "q": "What is the él/ella form of 'perder'?",
+      "q": "El equipo _____ el partido hoy. (perder - él/ella)",
       "correct": "pierde",
       "incorrect": ["perde", "pierdes", "perdemos"],
       "why_correct": "'Perder' él/ella: perd- → pierd- + -e = pierde.",
@@ -787,7 +788,7 @@
     },
     {
       "id": "q066",
-      "q": "What is the nosotros form of 'perder'?",
+      "q": "Nosotros nunca _____ los libros de la biblioteca. (perder - nosotros)",
       "correct": "perdemos",
       "incorrect": ["perdimos", "pierdemos", "perdémos"],
       "why_correct": "'Perder' nosotros: NO stem change — perdemos. Stem change does NOT occur in nosotros.",
@@ -799,7 +800,7 @@
     },
     {
       "id": "q067",
-      "q": "What is the ellos form of 'perder'?",
+      "q": "Ellos _____ mucho tiempo en el tráfico. (perder - ellos)",
       "correct": "pierden",
       "incorrect": ["perden", "pierdes", "perdemos"],
       "why_correct": "'Perder' ellos: perd- → pierd- + -en = pierden.",
@@ -811,7 +812,7 @@
     },
     {
       "id": "q068",
-      "q": "What is the yo form of 'comenzar'?",
+      "q": "Yo _____ a estudiar media hora antes del examen. (comenzar - yo)",
       "correct": "comienzo",
       "incorrect": ["comenzo", "comienza", "comenzamos"],
       "why_correct": "'Comenzar' is e→ie stem-changer. Yo: comenz- → comienz- + -o = comienzo. Also z→c before -o.",
@@ -823,7 +824,7 @@
     },
     {
       "id": "q069",
-      "q": "What is the tú form of 'comenzar'?",
+      "q": "Tú _____ el proyecto de ciencias hoy. (comenzar - tú)",
       "correct": "comienzas",
       "incorrect": ["comenzas", "comienza", "comienzan"],
       "why_correct": "'Comenzar' tú: comenz- → comienz- + -as = comienzas.",
@@ -835,7 +836,7 @@
     },
     {
       "id": "q070",
-      "q": "What is the él/ella form of 'comenzar'?",
+      "q": "El partido _____ a las tres de la tarde. (comenzar - él/ella)",
       "correct": "comienza",
       "incorrect": ["comenza", "comienzas", "comienzan"],
       "why_correct": "'Comenzar' él/ella: comenz- → comienz- + -a = comienza.",
@@ -847,7 +848,7 @@
     },
     {
       "id": "q071",
-      "q": "What is the nosotros form of 'comenzar'?",
+      "q": "Nosotros _____ las clases en septiembre. (comenzar - nosotros)",
       "correct": "comenzamos",
       "incorrect": ["comenzimos", "comenzémos", "comienzamos"],
       "why_correct": "'Comenzar' nosotros: NO stem change — comenzamos.",
@@ -859,7 +860,7 @@
     },
     {
       "id": "q072",
-      "q": "What is the ellos form of 'comenzar'?",
+      "q": "Ellos _____ a trabajar temprano todos los días. (comenzar - ellos)",
       "correct": "comienzan",
       "incorrect": ["comenzan", "comienzas", "comenzamos"],
       "why_correct": "'Comenzar' ellos: comenz- → comienz- + -an = comienzan.",
@@ -871,7 +872,7 @@
     },
     {
       "id": "q073",
-      "q": "What is the yo form of 'poder'?",
+      "q": "Yo no _____ ir contigo porque tengo tarea. (poder - yo)",
       "correct": "puedo",
       "incorrect": ["podo", "puede", "podemos"],
       "why_correct": "'Poder' is o→ue stem-changer. Yo: pod- → pued- + -o = puedo. 'No puedo ir' = I can't go.",
@@ -883,7 +884,7 @@
     },
     {
       "id": "q074",
-      "q": "What is the tú form of 'poder'?",
+      "q": "Tú _____ terminar la tarea esta noche. (poder - tú)",
       "correct": "puedes",
       "incorrect": ["podes", "puede", "pueden"],
       "why_correct": "'Poder' tú: pod- → pued- + -es = puedes. '¿Puedes ayudarme?' = Can you help me?",
@@ -895,7 +896,7 @@
     },
     {
       "id": "q075",
-      "q": "What is the él/ella form of 'poder'?",
+      "q": "Ella _____ hablar tres idiomas. (poder - él/ella)",
       "correct": "puede",
       "incorrect": ["pode", "puedes", "podemos"],
       "why_correct": "'Poder' él/ella: pod- → pued- + -e = puede.",
@@ -907,7 +908,7 @@
     },
     {
       "id": "q076",
-      "q": "What is the nosotros form of 'poder'?",
+      "q": "Nosotros _____ hacer este trabajo juntos. (poder - nosotros)",
       "correct": "podemos",
       "incorrect": ["podimos", "puedemos", "podémos"],
       "why_correct": "'Poder' nosotros: NO stem change — podemos. 'Podemos hacer esto' = We can do this.",
@@ -919,7 +920,7 @@
     },
     {
       "id": "q077",
-      "q": "What is the ellos form of 'poder'?",
+      "q": "Ellos no _____ salir esta noche. (poder - ellos)",
       "correct": "pueden",
       "incorrect": ["poden", "puedes", "podemos"],
       "why_correct": "'Poder' ellos: pod- → pued- + -en = pueden.",
@@ -931,7 +932,7 @@
     },
     {
       "id": "q078",
-      "q": "What is the yo form of 'dormir'?",
+      "q": "Yo _____ ocho horas cada noche. (dormir - yo)",
       "correct": "duermo",
       "incorrect": ["dormo", "duerme", "dormimos"],
       "why_correct": "'Dormir' is o→ue stem-changer. Yo: dorm- → duerm- + -o = duermo. 'Duermo ocho horas' = I sleep eight hours.",
@@ -943,7 +944,7 @@
     },
     {
       "id": "q079",
-      "q": "What is the tú form of 'dormir'?",
+      "q": "Tú _____ demasiado tarde los fines de semana. (dormir - tú)",
       "correct": "duermes",
       "incorrect": ["dormes", "duerme", "duermen"],
       "why_correct": "'Dormir' tú: dorm- → duerm- + -es = duermes.",
@@ -955,7 +956,7 @@
     },
     {
       "id": "q080",
-      "q": "What is the él/ella form of 'dormir'?",
+      "q": "Mi bebé _____ dos horas por la tarde. (dormir - él/ella)",
       "correct": "duerme",
       "incorrect": ["dorme", "duermes", "dormimos"],
       "why_correct": "'Dormir' él/ella: dorm- → duerm- + -e = duerme.",
@@ -967,7 +968,7 @@
     },
     {
       "id": "q081",
-      "q": "What is the nosotros form of 'dormir'?",
+      "q": "Nosotros _____ en el mismo cuarto cuando éramos niños. (dormir - nosotros)",
       "correct": "dormimos",
       "incorrect": ["dormemos", "duermemos", "dormamos"],
       "why_correct": "'Dormir' nosotros: NO stem change — dormimos. (-IR verb, so nosotros = -imos.)",
@@ -979,7 +980,7 @@
     },
     {
       "id": "q082",
-      "q": "What is the ellos form of 'dormir'?",
+      "q": "Ellos _____ muy poco porque trabajan de noche. (dormir - ellos)",
       "correct": "duermen",
       "incorrect": ["dormen", "duermes", "dormimos"],
       "why_correct": "'Dormir' ellos: dorm- → duerm- + -en = duermen.",
@@ -991,7 +992,7 @@
     },
     {
       "id": "q083",
-      "q": "What is the yo form of 'volver'?",
+      "q": "Yo siempre _____ a casa después de la escuela. (volver - yo)",
       "correct": "vuelvo",
       "incorrect": ["volvo", "vuelve", "volvemos"],
       "why_correct": "'Volver' is o→ue stem-changer. Yo: volv- → vuelv- + -o = vuelvo. 'Vuelvo a casa' = I return home.",
@@ -1003,7 +1004,7 @@
     },
     {
       "id": "q084",
-      "q": "What is the tú form of 'volver'?",
+      "q": "Tú _____ a casa muy tarde hoy. (volver - tú)",
       "correct": "vuelves",
       "incorrect": ["volves", "vuelve", "vuelven"],
       "why_correct": "'Volver' tú: volv- → vuelv- + -es = vuelves.",
@@ -1015,7 +1016,7 @@
     },
     {
       "id": "q085",
-      "q": "What is the él/ella form of 'volver'?",
+      "q": "Mi mamá _____ del trabajo a las seis. (volver - él/ella)",
       "correct": "vuelve",
       "incorrect": ["volve", "vuelves", "volvemos"],
       "why_correct": "'Volver' él/ella: volv- → vuelv- + -e = vuelve.",
@@ -1027,7 +1028,7 @@
     },
     {
       "id": "q086",
-      "q": "What is the nosotros form of 'volver'?",
+      "q": "Nosotros _____ a casa después de las vacaciones. (volver - nosotros)",
       "correct": "volvemos",
       "incorrect": ["volvimos", "volvémos", "volvamos"],
       "why_correct": "'Volver' nosotros: NO stem change — volvemos.",
@@ -1039,7 +1040,7 @@
     },
     {
       "id": "q087",
-      "q": "What is the ellos form of 'volver'?",
+      "q": "Ellos _____ a la ciudad cada verano. (volver - ellos)",
       "correct": "vuelven",
       "incorrect": ["volven", "vuelves", "volvemos"],
       "why_correct": "'Volver' ellos: volv- → vuelv- + -en = vuelven.",
@@ -1051,7 +1052,7 @@
     },
     {
       "id": "q088",
-      "q": "What is the él/ella form of 'costar'?",
+      "q": "¿Cuánto _____ este libro en la librería? (costar - él/ella)",
       "correct": "cuesta",
       "incorrect": ["costa", "cuestan", "costamos"],
       "why_correct": "'Costar' is o→ue and only used in 3rd person. Él/ella: cost- → cuesta. '¿Cuánto cuesta?' = How much does it cost?",
@@ -1063,7 +1064,7 @@
     },
     {
       "id": "q089",
-      "q": "What is the ellos form of 'costar'?",
+      "q": "¿Cuánto _____ los zapatos nuevos? (costar - ellos)",
       "correct": "cuestan",
       "incorrect": ["costan", "cuesta", "costamos"],
       "why_correct": "'Costar' ellos: cost- → cuest- + -an = cuestan. '¿Cuánto cuestan los zapatos?' = How much do the shoes cost?",
@@ -1075,7 +1076,7 @@
     },
     {
       "id": "q090",
-      "q": "What is the yo form of 'pedir'?",
+      "q": "Yo _____ pizza en el restaurante. (pedir - yo)",
       "correct": "pido",
       "incorrect": ["pedo", "pide", "pedimos"],
       "why_correct": "'Pedir' is an e→i stem-changer. Yo: ped- → pid- + -o = pido. 'Pido la cuenta' = I ask for the check.",
@@ -1087,7 +1088,7 @@
     },
     {
       "id": "q091",
-      "q": "What is the tú form of 'pedir'?",
+      "q": "Tú siempre _____ el postre después de comer. (pedir - tú)",
       "correct": "pides",
       "incorrect": ["pedes", "pide", "piden"],
       "why_correct": "'Pedir' tú: ped- → pid- + -es = pides.",
@@ -1099,7 +1100,7 @@
     },
     {
       "id": "q092",
-      "q": "What is the él/ella form of 'pedir'?",
+      "q": "Él _____ ayuda cuando no entiende. (pedir - él/ella)",
       "correct": "pide",
       "incorrect": ["pede", "pides", "piden"],
       "why_correct": "'Pedir' él/ella: ped- → pid- + -e = pide.",
@@ -1111,7 +1112,7 @@
     },
     {
       "id": "q093",
-      "q": "What is the nosotros form of 'pedir'?",
+      "q": "Nosotros _____ más tiempo para el examen. (pedir - nosotros)",
       "correct": "pedimos",
       "incorrect": ["pedemos", "pidimos", "pidamos"],
       "why_correct": "'Pedir' nosotros: NO stem change — pedimos. (-IR verb: nosotros = -imos.)",
@@ -1123,7 +1124,7 @@
     },
     {
       "id": "q094",
-      "q": "What is the ellos form of 'pedir'?",
+      "q": "Ellos _____ el menú al mesero. (pedir - ellos)",
       "correct": "piden",
       "incorrect": ["peden", "pides", "pedimos"],
       "why_correct": "'Pedir' ellos: ped- → pid- + -en = piden.",
@@ -1135,7 +1136,7 @@
     },
     {
       "id": "q095",
-      "q": "What is the yo form of 'servir'?",
+      "q": "Yo _____ la comida en la fiesta de mis amigos. (servir - yo)",
       "correct": "sirvo",
       "incorrect": ["servo", "sirve", "servimos"],
       "why_correct": "'Servir' is e→i stem-changer. Yo: serv- → sirv- + -o = sirvo.",
@@ -1147,7 +1148,7 @@
     },
     {
       "id": "q096",
-      "q": "What is the tú form of 'servir'?",
+      "q": "Tú _____ el desayuno a tu familia cada mañana. (servir - tú)",
       "correct": "sirves",
       "incorrect": ["serves", "sirve", "sirven"],
       "why_correct": "'Servir' tú: serv- → sirv- + -es = sirves.",
@@ -1159,7 +1160,7 @@
     },
     {
       "id": "q097",
-      "q": "What is the él/ella form of 'servir'?",
+      "q": "El mesero _____ los platos muy rápido. (servir - él/ella)",
       "correct": "sirve",
       "incorrect": ["serve", "sirves", "servimos"],
       "why_correct": "'Servir' él/ella: serv- → sirv- + -e = sirve.",
@@ -1171,7 +1172,7 @@
     },
     {
       "id": "q098",
-      "q": "What is the nosotros form of 'servir'?",
+      "q": "Nosotros _____ la cena a las siete. (servir - nosotros)",
       "correct": "servimos",
       "incorrect": ["servemos", "sirvimos", "servamos"],
       "why_correct": "'Servir' nosotros: NO stem change — servimos. (-IR verb, nosotros = -imos.)",
@@ -1183,7 +1184,7 @@
     },
     {
       "id": "q099",
-      "q": "What is the ellos form of 'servir'?",
+      "q": "Ellos _____ la comida en el restaurante cada noche. (servir - ellos)",
       "correct": "sirven",
       "incorrect": ["serven", "sirves", "servimos"],
       "why_correct": "'Servir' ellos: serv- → sirv- + -en = sirven.",
@@ -1195,7 +1196,7 @@
     },
     {
       "id": "q100",
-      "q": "What is the yo form of 'repetir'?",
+      "q": "Yo _____ las instrucciones cuando no entiendo. (repetir - yo)",
       "correct": "repito",
       "incorrect": ["repeto", "repite", "repetimos"],
       "why_correct": "'Repetir' is e→i stem-changer. Yo: repet- → repit- + -o = repito.",
@@ -1207,7 +1208,7 @@
     },
     {
       "id": "q101",
-      "q": "What is the tú form of 'repetir'?",
+      "q": "Tú _____ los verbos para memorizarlos mejor. (repetir - tú)",
       "correct": "repites",
       "incorrect": ["repetes", "repite", "repiten"],
       "why_correct": "'Repetir' tú: repet- → repit- + -es = repites.",
@@ -1219,7 +1220,7 @@
     },
     {
       "id": "q102",
-      "q": "What is the él/ella form of 'repetir'?",
+      "q": "El profesor _____ la explicación para los estudiantes. (repetir - él/ella)",
       "correct": "repite",
       "incorrect": ["repete", "repites", "repiten"],
       "why_correct": "'Repetir' él/ella: repet- → repit- + -e = repite.",
@@ -1231,7 +1232,7 @@
     },
     {
       "id": "q103",
-      "q": "What is the nosotros form of 'repetir'?",
+      "q": "Nosotros _____ los verbos irregulares cada semana. (repetir - nosotros)",
       "correct": "repetimos",
       "incorrect": ["repetemos", "repitimos", "repetamos"],
       "why_correct": "'Repetir' nosotros: NO stem change — repetimos. (-IR verb.)",
@@ -1243,7 +1244,7 @@
     },
     {
       "id": "q104",
-      "q": "What is the ellos form of 'repetir'?",
+      "q": "Ellos _____ las palabras del vocabulario en voz alta. (repetir - ellos)",
       "correct": "repiten",
       "incorrect": ["repeten", "repites", "repetimos"],
       "why_correct": "'Repetir' ellos: repet- → repit- + -en = repiten.",
@@ -1255,7 +1256,7 @@
     },
     {
       "id": "q105",
-      "q": "What is the yo form of 'seguir'?",
+      "q": "Yo _____ las instrucciones del mapa para llegar. (seguir - yo)",
       "correct": "sigo",
       "incorrect": ["seguio", "sigue", "seguimos"],
       "why_correct": "'Seguir' is e→i stem-changer with a spelling change. Yo: segu- → sig- + -o = sigo. (The 'gu' spelling → 'g' before -o.)",
@@ -1267,7 +1268,7 @@
     },
     {
       "id": "q106",
-      "q": "What is the tú form of 'seguir'?",
+      "q": "Tú _____ las reglas de la clase muy bien. (seguir - tú)",
       "correct": "sigues",
       "incorrect": ["segues", "sigue", "siguen"],
       "why_correct": "'Seguir' tú: segu- → sigu- + -es = sigues. (The gu spelling stays before -es.)",
@@ -1279,7 +1280,7 @@
     },
     {
       "id": "q107",
-      "q": "What is the él/ella form of 'seguir'?",
+      "q": "Él _____ estudiando todos los días. (seguir - él/ella)",
       "correct": "sigue",
       "incorrect": ["segue", "sigues", "seguimos"],
       "why_correct": "'Seguir' él/ella: segu- → sigu- + -e = sigue.",
@@ -1291,7 +1292,7 @@
     },
     {
       "id": "q108",
-      "q": "What is the nosotros form of 'seguir'?",
+      "q": "Nosotros _____ el mismo camino a la escuela. (seguir - nosotros)",
       "correct": "seguimos",
       "incorrect": ["seguemos", "siguemos", "sigamos"],
       "why_correct": "'Seguir' nosotros: NO stem change — seguimos. (-IR verb, nosotros = -imos.)",
@@ -1303,7 +1304,7 @@
     },
     {
       "id": "q109",
-      "q": "What is the ellos form of 'seguir'?",
+      "q": "Ellos _____ las noticias en la televisión. (seguir - ellos)",
       "correct": "siguen",
       "incorrect": ["seguen", "sigues", "seguimos"],
       "why_correct": "'Seguir' ellos: segu- → sigu- + -en = siguen.",
@@ -1315,7 +1316,7 @@
     },
     {
       "id": "q110",
-      "q": "What is the yo form of 'jugar'?",
+      "q": "Yo _____ al fútbol con mis amigos los domingos. (jugar - yo)",
       "correct": "juego",
       "incorrect": ["jugo", "juega", "jugamos"],
       "why_correct": "'Jugar' is a u→ue stem-changer (unique — the only common u→ue verb). Yo: jug- → jueg- + -o = juego.",
@@ -1327,7 +1328,7 @@
     },
     {
       "id": "q111",
-      "q": "What is the tú form of 'jugar'?",
+      "q": "Tú _____ muy bien al básquetbol. (jugar - tú)",
       "correct": "juegas",
       "incorrect": ["jugas", "juega", "juegan"],
       "why_correct": "'Jugar' tú: jug- → jueg- + -as = juegas.",
@@ -1339,7 +1340,7 @@
     },
     {
       "id": "q112",
-      "q": "What is the él/ella form of 'jugar'?",
+      "q": "Mi hermano _____ videojuegos después de la escuela. (jugar - él/ella)",
       "correct": "juega",
       "incorrect": ["juga", "juegas", "juegan"],
       "why_correct": "'Jugar' él/ella: jug- → jueg- + -a = juega.",
@@ -1351,7 +1352,7 @@
     },
     {
       "id": "q113",
-      "q": "What is the nosotros form of 'jugar'?",
+      "q": "Nosotros _____ fútbol cada fin de semana. (jugar - nosotros)",
       "correct": "jugamos",
       "incorrect": ["juguemos", "jugugamos", "juegamos"],
       "why_correct": "'Jugar' nosotros: NO stem change — jugamos. 'Jugamos fútbol' = We play soccer.",
@@ -1363,7 +1364,7 @@
     },
     {
       "id": "q114",
-      "q": "What is the ellos form of 'jugar'?",
+      "q": "Ellos _____ al tenis en el parque. (jugar - ellos)",
       "correct": "juegan",
       "incorrect": ["jugan", "juegas", "jugamos"],
       "why_correct": "'Jugar' ellos: jug- → jueg- + -an = juegan.",
@@ -1375,7 +1376,7 @@
     },
     {
       "id": "q115",
-      "q": "What does 'más... que' mean?",
+      "q": "Juan es _____ alto _____ su hermano. (más... que)",
       "correct": "more... than",
       "incorrect": ["as... as", "less... than", "the most + adjective"],
       "why_correct": "'Más... que' is the comparative for superiority — 'más alto que' = taller than (more tall than). 'Más' = more.",
@@ -1387,7 +1388,7 @@
     },
     {
       "id": "q116",
-      "q": "How do you say 'more... than'?",
+      "q": "Mi mochila es _____ pesada _____ la tuya. (more... than)",
       "correct": "más... que",
       "incorrect": ["tan... como", "menos... que", "el/la más + adjective"],
       "why_correct": "'Más... que' = more... than — 'Juan es más alto que Pedro' = Juan is taller than Pedro.",
@@ -1399,7 +1400,7 @@
     },
     {
       "id": "q117",
-      "q": "What does 'tan... como' mean?",
+      "q": "Mi perro es _____ grande _____ el tuyo. (tan... como)",
       "correct": "as... as",
       "incorrect": ["more... than", "less... than", "the most + adjective (superlative)"],
       "why_correct": "'Tan... como' is the equal comparison — 'tan alto como' = as tall as. Both 'tan' and 'como' are needed: tan + adjective + como.",
@@ -1411,7 +1412,7 @@
     },
     {
       "id": "q118",
-      "q": "How do you say 'as... as'?",
+      "q": "Esta clase es _____ difícil _____ la otra. (as... as)",
       "correct": "tan... como",
       "incorrect": ["más... que", "menos... que", "el/la más + adjective"],
       "why_correct": "'Tan... como' = as... as — 'Es tan inteligente como tú' = He/she is as intelligent as you.",
@@ -1423,7 +1424,7 @@
     },
     {
       "id": "q119",
-      "q": "What does 'el/la más + adjective' mean?",
+      "q": "Ana es _____ inteligente de la clase. (el/la más + adjective)",
       "correct": "the most + adjective (superlative)",
       "incorrect": ["more... than", "as... as", "less... than"],
       "why_correct": "'El/la más + adjective' is the superlative — 'el más alto' = the tallest. Add 'el/la/los/las' + 'más' + adjective to form superlatives.",
@@ -1435,7 +1436,7 @@
     },
     {
       "id": "q120",
-      "q": "How do you say 'the most + adjective (superlative)'?",
+      "q": "Carlos es _____ estudiante _____ de la escuela. (the most + adjective (superlative))",
       "correct": "el/la más + adjective",
       "incorrect": ["más... que", "tan... como", "menos... que"],
       "why_correct": "'El/la más + adjective' forms superlatives — 'la más inteligente de la clase' = the most intelligent in the class.",
@@ -1447,7 +1448,7 @@
     },
     {
       "id": "q121",
-      "q": "What does 'menos... que' mean?",
+      "q": "Esta novela es _____ interesante _____ la película. (menos... que)",
       "correct": "less... than",
       "incorrect": ["more... than", "as... as", "the most + adjective (superlative)"],
       "why_correct": "'Menos... que' is the comparative of inferiority — 'menos interesante que' = less interesting than. 'Menos' = less.",
@@ -1459,7 +1460,7 @@
     },
     {
       "id": "q122",
-      "q": "How do you say 'less... than'?",
+      "q": "El examen de hoy es _____ difícil _____ el de ayer. (less... than)",
       "correct": "menos... que",
       "incorrect": ["más... que", "tan... como", "el/la más + adjective"],
       "why_correct": "'Menos... que' = less... than — 'Es menos difícil que el examen anterior' = It's less difficult than the previous exam.",
