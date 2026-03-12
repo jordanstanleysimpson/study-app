@@ -2020,7 +2020,7 @@ function setupEventListeners() {
   // Translate
   document.getElementById('translate-check').addEventListener('click', checkTranslateAnswer);
   document.getElementById('translate-input').addEventListener('keydown', e => {
-    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) checkTranslateAnswer();
+    if (e.key === 'Enter') checkTranslateAnswer();
   });
   document.getElementById('translate-got-it').addEventListener('click', () => translateSelfGrade(true));
   document.getElementById('translate-missed').addEventListener('click', () => translateSelfGrade(false));
