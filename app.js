@@ -9,7 +9,7 @@ const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
 const GITHUB_KEY      = 'study-app-github';
 const GIST_FILENAME   = 'study-progress.json';
-const APP_VERSION     = '2026-03-09T00:01:57Z';
+const APP_VERSION     = '2026-03-12T21:37:17Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────

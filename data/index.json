@@ -98,6 +98,15 @@
       "created": "2026-03-10",
       "wordCount": 43,
       "file": "data/spanish/Unit 3/spanish-unit3-sentences.json"
+    },
+    {
+      "id": "claire1-school-supplies-quiz",
+      "name": "Claire 1: School Supplies",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-03-12",
+      "wordCount": 110,
+      "file": "data/spanish/Claire 1/claire1-school-supplies-quiz.json"
     }
   ]
 }
