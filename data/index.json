@@ -10,6 +10,15 @@
       "file": "data/earth-science/Unit 2/earth-science-unit2-quiz.json"
     },
     {
+      "id": "earth-science-unit3-quiz",
+      "name": "Unit 3: Weathering",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-03-15",
+      "wordCount": 20,
+      "file": "data/earth-science/Unit 3/earth-science-unit3-quiz.json"
+    },
+    {
       "id": "spanish-regular",
       "name": "Unit 1: Regular Verbs",
       "subject": "Spanish",

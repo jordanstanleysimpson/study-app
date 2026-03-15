@@ -1,0 +1,331 @@
+{
+  "id": "earth-science-unit3-quiz",
+  "name": "Unit 3: Weathering",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-03-15",
+  "questions": [
+    {
+      "id": "q01",
+      "q": "What is weathering?",
+      "correct": "The breaking down of rocks and materials at Earth's surface into smaller pieces",
+      "incorrect": [
+        "The movement of broken rock pieces from one place to another",
+        "The melting of rocks due to extreme heat deep underground",
+        "The process by which rocks are pushed up to form mountains"
+      ],
+      "why_correct": "Weathering is specifically about breaking down rock in place — it does not involve moving the material anywhere.",
+      "why_wrong": [
+        "Moving broken pieces to a new location is erosion, not weathering.",
+        "Melting rock underground describes magma formation, not weathering.",
+        "Rocks being pushed up to form mountains describes tectonic uplift, not weathering."
+      ]
+    },
+    {
+      "id": "q02",
+      "q": "What are the two main types of weathering?",
+      "correct": "Mechanical and chemical",
+      "incorrect": [
+        "Physical and biological",
+        "Thermal and aquatic",
+        "Erosion and deposition"
+      ],
+      "why_correct": "Mechanical weathering breaks rock without changing its composition; chemical weathering changes the mineral makeup of the rock.",
+      "why_wrong": [
+        "While 'physical' is sometimes used for mechanical weathering, 'biological' is a subtype, not a main category. The standard two are mechanical and chemical.",
+        "'Thermal' and 'aquatic' are causes of weathering, not the two main types.",
+        "Erosion and deposition are separate processes — they describe movement and settling of material, not weathering."
+      ]
+    },
+    {
+      "id": "q03",
+      "q": "Which of the following is an example of mechanical weathering?",
+      "correct": "Water freezing in a crack and forcing the rock apart",
+      "incorrect": [
+        "Acid rain dissolving the surface of limestone",
+        "Iron in rock reacting with oxygen to form rust",
+        "Carbon dioxide in water dissolving calcite in marble"
+      ],
+      "why_correct": "Freeze-thaw weathering physically breaks rock apart — the composition of the rock does not change, only its size and shape.",
+      "why_wrong": [
+        "Acid rain dissolving limestone is chemical weathering — the calcite mineral is chemically changed.",
+        "Iron reacting with oxygen to form rust is oxidation, a type of chemical weathering.",
+        "Carbon dioxide dissolving calcite is carbonation, a type of chemical weathering."
+      ]
+    },
+    {
+      "id": "q04",
+      "q": "Which of the following is an example of chemical weathering?",
+      "correct": "Iron in rock reacting with oxygen and water to form rust",
+      "incorrect": [
+        "Tree roots cracking a sidewalk",
+        "A rock breaking apart after water freezes in its cracks",
+        "Wind carrying sand that scrapes a rock surface"
+      ],
+      "why_correct": "Rust (iron oxide) forms when iron chemically reacts with oxygen and water — the iron's composition is permanently changed into a new substance.",
+      "why_wrong": [
+        "Tree roots cracking a sidewalk is mechanical weathering — the rock is broken physically with no chemical change.",
+        "Water freezing in cracks is freeze-thaw mechanical weathering — no chemical change occurs.",
+        "Sand scraping a rock surface is abrasion, a type of mechanical weathering."
+      ]
+    },
+    {
+      "id": "q05",
+      "q": "Where does weathering happen the MOST rapidly?",
+      "correct": "Warm, wet (humid) climates",
+      "incorrect": [
+        "Cold, dry climates",
+        "Hot, dry desert climates",
+        "Cold, wet polar climates"
+      ],
+      "why_correct": "Heat speeds up chemical reactions and water is essential for both chemical and mechanical weathering — so warm AND wet climates cause the most weathering.",
+      "why_wrong": [
+        "Cold, dry climates slow weathering significantly — less water means less chemical and freeze-thaw weathering, and cold temperatures slow chemical reactions.",
+        "Hot deserts have heat but very little water, so chemical weathering is limited despite the temperature.",
+        "Cold, wet climates have water but low temperatures slow chemical reactions — weathering occurs but not as fast as warm and wet."
+      ]
+    },
+    {
+      "id": "q06",
+      "q": "Where does weathering happen the LEAST rapidly?",
+      "correct": "Cold, dry climates",
+      "incorrect": [
+        "Warm, humid tropical climates",
+        "Temperate climates with seasonal rain",
+        "Coastal climates with ocean spray"
+      ],
+      "why_correct": "Cold temperatures slow chemical reactions and dry conditions mean little water — both factors that reduce all types of weathering.",
+      "why_wrong": [
+        "Warm, humid tropical climates have the highest weathering rates due to abundant water and heat.",
+        "Temperate climates with seasonal rain have moderate weathering, not the least.",
+        "Coastal climates with ocean spray have plenty of water and salt, which actually speeds up chemical weathering."
+      ]
+    },
+    {
+      "id": "q07",
+      "q": "How does iron weather?",
+      "correct": "It reacts with oxygen and water to form rust (oxidation)",
+      "incorrect": [
+        "It dissolves slowly in acidic rainwater",
+        "It breaks into smaller pieces from freeze-thaw cycles",
+        "It is scraped away by wind-blown sand"
+      ],
+      "why_correct": "Iron + oxygen + water → iron oxide (rust). This is oxidation, a chemical weathering process that permanently changes the iron into a new compound.",
+      "why_wrong": [
+        "Dissolving in acidic rainwater describes carbonation, which affects limestone and marble, not iron.",
+        "Freeze-thaw breaking is mechanical weathering and applies to rocks with cracks, not iron specifically.",
+        "Wind abrasion is mechanical weathering and is not the primary way iron weathers."
+      ]
+    },
+    {
+      "id": "q08",
+      "q": "How does limestone weather?",
+      "correct": "It is dissolved by slightly acidic water (carbonation)",
+      "incorrect": [
+        "It rusts when exposed to oxygen and water",
+        "It breaks apart through freeze-thaw cycles faster than other rocks",
+        "It is harder than granite so it does not weather easily"
+      ],
+      "why_correct": "Rainwater absorbs CO₂ to form weak carbonic acid. This acid dissolves the calcite in limestone through carbonation — a chemical weathering process.",
+      "why_wrong": [
+        "Rusting (oxidation) happens to iron-containing materials, not limestone.",
+        "Limestone does break via freeze-thaw, but its main weathering process is chemical dissolution by acidic water.",
+        "Limestone is actually softer than granite and weathers more easily, especially through chemical weathering."
+      ]
+    },
+    {
+      "id": "q09",
+      "q": "Why does granite weather more slowly than limestone?",
+      "correct": "Granite's minerals are harder and resist chemical weathering better",
+      "incorrect": [
+        "Granite is found deeper underground where there is less water",
+        "Granite contains iron which protects it from acid",
+        "Granite is darker in color, which repels chemical reactions"
+      ],
+      "why_correct": "Granite is made of quartz, feldspar, and mica — hard silicate minerals that resist acid much better than the calcite in limestone.",
+      "why_wrong": [
+        "Granite appears at Earth's surface just as limestone does — location underground is not why it weathers slowly.",
+        "Iron in rock actually speeds up weathering through oxidation (rusting), not protection.",
+        "Color has no effect on weathering rates — mineral composition and hardness are what matter."
+      ]
+    },
+    {
+      "id": "q10",
+      "q": "How does freeze-thaw weathering work?",
+      "correct": "Water enters rock cracks, freezes and expands, widening the cracks until the rock breaks",
+      "incorrect": [
+        "Freezing temperatures cause rock minerals to dissolve faster",
+        "Rapid temperature changes cause rock to melt and refreeze into a weaker form",
+        "Ice pressing against the outside of rocks pushes them apart"
+      ],
+      "why_correct": "Water expands about 9% when it freezes. In a confined crack, this expansion acts like a wedge — repeated freeze-thaw cycles widen the crack until the rock splits.",
+      "why_wrong": [
+        "Freezing temperatures actually slow chemical reactions and dissolution — they do not speed them up.",
+        "Rocks do not melt and refreeze at surface temperatures — this is not how freeze-thaw works.",
+        "Freeze-thaw works from inside the rock's cracks, not from ice pressing on the outside surface."
+      ]
+    },
+    {
+      "id": "q11",
+      "q": "How do plant roots cause weathering?",
+      "correct": "Roots grow into cracks and widen them as they expand, breaking rock apart",
+      "incorrect": [
+        "Roots release acids that dissolve rock minerals",
+        "Roots absorb water from rock, causing it to dry out and crumble",
+        "Roots generate heat that melts minerals in the rock"
+      ],
+      "why_correct": "As roots grow and thicken, they exert pressure inside existing cracks — this is mechanical weathering because the rock is physically broken without a chemical change.",
+      "why_wrong": [
+        "While some roots do release mild acids (chemical weathering), the primary way roots cause weathering is by physically cracking rock.",
+        "Roots absorbing water does not cause rock to crumble — rock does not rely on water to maintain its structure.",
+        "Plant roots do not generate significant heat and cannot melt rock minerals."
+      ]
+    },
+    {
+      "id": "q12",
+      "q": "How does surface area affect weathering rate?",
+      "correct": "More surface area means faster weathering — smaller pieces expose more rock to weathering agents",
+      "incorrect": [
+        "More surface area means slower weathering because the rock is spread out more thinly",
+        "Surface area has no effect — only rock type determines weathering rate",
+        "Larger rocks weather faster because they have more total mass"
+      ],
+      "why_correct": "Weathering only acts on exposed surfaces. A rock broken into many small pieces has much more total surface exposed to water, air, and acids — so it weathers much faster.",
+      "why_wrong": [
+        "More surface area means MORE exposure to weathering agents, which speeds up — not slows — the process.",
+        "Surface area is one of the key factors in weathering rate, along with rock type and climate.",
+        "Larger rocks actually weather more slowly because they have less surface area relative to their volume."
+      ]
+    },
+    {
+      "id": "q13",
+      "q": "What are the main solid products of weathering?",
+      "correct": "Sediment — sand, silt, and clay particles",
+      "incorrect": [
+        "Magma and lava",
+        "Fossils and minerals",
+        "Igneous and metamorphic rocks"
+      ],
+      "why_correct": "Weathering breaks rock into progressively smaller particles — gravel → sand → silt → clay. These loose particles are called sediment.",
+      "why_wrong": [
+        "Magma and lava come from melting rock deep underground, not from surface weathering.",
+        "Fossils form from preserved organisms in sediment, not as a direct product of weathering. Minerals may be released but are not the main solid product.",
+        "Igneous and metamorphic rocks form through heat, pressure, or cooling — not through weathering."
+      ]
+    },
+    {
+      "id": "q14",
+      "q": "What is soil made from?",
+      "correct": "Weathered rock particles mixed with organic material (decomposed plants and animals)",
+      "incorrect": [
+        "Compressed layers of sedimentary rock",
+        "Volcanic ash deposited over thousands of years",
+        "Sand and water only"
+      ],
+      "why_correct": "Soil forms when weathered rock particles (minerals) combine with humus — the organic material from decomposed living things. Both ingredients are essential.",
+      "why_wrong": [
+        "Compressed sedimentary layers form sedimentary rock, not soil.",
+        "While volcanic ash can contribute to soil over time, soil is not made from volcanic ash alone.",
+        "Soil contains much more than sand and water — it requires mineral particles of various sizes plus organic matter."
+      ]
+    },
+    {
+      "id": "q15",
+      "q": "What is the difference between weathering and erosion?",
+      "correct": "Weathering breaks rock down; erosion moves the broken pieces to a new location",
+      "incorrect": [
+        "Weathering moves rock; erosion breaks it down",
+        "They are the same process with different names",
+        "Weathering happens underground; erosion happens at the surface"
+      ],
+      "why_correct": "Weathering is the in-place breakdown of rock. Erosion requires a transport agent (water, wind, ice, gravity) to carry the weathered material away.",
+      "why_wrong": [
+        "This is the reverse — weathering breaks rock in place, erosion is the transport process.",
+        "They are related but distinct processes: weathering produces the material that erosion moves.",
+        "Both weathering and erosion happen at or near Earth's surface — location underground does not distinguish them."
+      ]
+    },
+    {
+      "id": "q16",
+      "q": "Acid rain is an example of which type of weathering?",
+      "correct": "Chemical weathering",
+      "incorrect": [
+        "Mechanical weathering",
+        "Freeze-thaw weathering",
+        "Abrasion weathering"
+      ],
+      "why_correct": "Acid rain contains dilute sulfuric and nitric acid. When it contacts rock, it chemically reacts with minerals — dissolving them and permanently changing their composition.",
+      "why_wrong": [
+        "Mechanical weathering involves physical breaking with no chemical change. Acid rain changes the chemical makeup of rock.",
+        "Freeze-thaw is a specific type of mechanical weathering involving water expanding as it freezes — not acid.",
+        "Abrasion is mechanical scraping by wind or water-carried particles — acid rain does not scrape."
+      ]
+    },
+    {
+      "id": "q17",
+      "q": "Why do marble and limestone statues and buildings wear away from acid rain?",
+      "correct": "Acid rain dissolves the calcite mineral in marble and limestone",
+      "incorrect": [
+        "Acid rain causes marble and limestone to rust",
+        "Acid rain freezes inside marble and cracks it apart",
+        "Acid rain causes marble to expand and crumble"
+      ],
+      "why_correct": "Marble and limestone are made of calcite (calcium carbonate). Acidic water reacts with calcite and dissolves it — this is carbonation, a chemical weathering process.",
+      "why_wrong": [
+        "Rusting (oxidation) happens to iron-containing materials — marble and limestone do not contain significant iron.",
+        "Acid rain is a liquid, not ice — it does not freeze inside rock to crack it.",
+        "Acid rain dissolves marble chemically; it does not cause it to expand."
+      ]
+    },
+    {
+      "id": "q18",
+      "q": "What type of weathering is abrasion caused by wind-blown sand?",
+      "correct": "Mechanical weathering",
+      "incorrect": [
+        "Chemical weathering",
+        "Oxidation weathering",
+        "Carbonation weathering"
+      ],
+      "why_correct": "Abrasion is a mechanical process — the sand grains physically scrape and wear away the rock surface like sandpaper, with no change in mineral composition.",
+      "why_wrong": [
+        "Chemical weathering involves a change in mineral composition through chemical reactions. Abrasion does not change what the rock is made of.",
+        "Oxidation is a chemical reaction where oxygen combines with a mineral (like iron rusting). Sand scraping is not a chemical reaction.",
+        "Carbonation is the dissolving of rock by acidic water. Wind-blown sand scraping is a physical process, not a chemical one."
+      ]
+    },
+    {
+      "id": "q19",
+      "q": "Which factor most directly determines whether a rock weathers quickly or slowly?",
+      "correct": "All three: rock type (mineral hardness), climate (warm/wet), and surface area",
+      "incorrect": [
+        "Only the age of the rock",
+        "Only the color of the rock",
+        "Only how deep underground the rock is"
+      ],
+      "why_correct": "Weathering rate depends on multiple factors together: harder minerals resist weathering; warm, wet climates speed it up; and more surface area means more exposure to weathering agents.",
+      "why_wrong": [
+        "Age alone does not determine weathering rate — a very old hard granite in a cold dry climate can weather slower than younger limestone in a warm wet climate.",
+        "Rock color does not affect weathering rate — mineral composition and hardness are what matter.",
+        "Weathering happens at or near Earth's surface, not deep underground where rock is protected from water, air, and temperature changes."
+      ]
+    },
+    {
+      "id": "q20",
+      "q": "A limestone cliff and a granite cliff are in the same climate. Which weathers faster, and why?",
+      "correct": "Limestone, because its calcite mineral dissolves easily in acidic water",
+      "incorrect": [
+        "Granite, because it is darker and absorbs more heat",
+        "Both weather at the same rate since the climate is identical",
+        "Granite, because it has more cracks for water to enter"
+      ],
+      "why_correct": "Even in the same climate, rock type matters enormously. Calcite (limestone) is chemically reactive with acidic water; granite's quartz and feldspar minerals are much more resistant.",
+      "why_wrong": [
+        "Color does not affect weathering rate. Granite does absorb more heat but this does not cause it to weather faster than limestone.",
+        "Climate is only one of three factors. Even in the same climate, mineral composition causes different weathering rates.",
+        "While cracks do allow water in, granite's main resistance to weathering comes from its hard, chemically resistant minerals — not from a lack of cracks."
+      ]
+    }
+  ]
+}

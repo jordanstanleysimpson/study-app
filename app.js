@@ -72,7 +72,7 @@ function updateSubjectLabels() {
   document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
   document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
   document.getElementById('btn-match').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
-  const isMcqDirectional = isMcQuiz && state.currentList.quiz_mode === 'multiple-choice';
+  const isMcqDirectional = isMcQuiz && state.currentList.quiz_mode === 'multiple-choice' && state.currentList.directional !== false;
   document.getElementById('btn-mc-quiz-inline').classList.toggle('hidden', !isMcQuiz || isMcqDirectional);
   document.getElementById('btn-mc-quiz-end').classList.toggle('hidden', !isMcQuiz || isMcqDirectional);
   document.getElementById('btn-mcq-inline-es-en').classList.toggle('hidden', !isMcqDirectional);

@@ -1,0 +1,89 @@
+{
+  "id": "earth-science-unit3-questions",
+  "name": "Unit 3: Weathering",
+  "subject": "Earth Science",
+  "created": "2026-03-15",
+  "labels": { "front": "Question", "back": "Answer" },
+  "pairs": [
+    {
+      "es": "What is weathering?",
+      "en": "The breaking down of rocks and materials on Earth's surface into smaller pieces."
+    },
+    {
+      "es": "What are the two main types of weathering?",
+      "en": "Mechanical weathering (physical breaking) and chemical weathering (change in composition)."
+    },
+    {
+      "es": "What is mechanical weathering?",
+      "en": "When rocks are broken into smaller pieces without changing what they are made of."
+    },
+    {
+      "es": "What is chemical weathering?",
+      "en": "When rocks are broken down by changing their chemical makeup into new substances."
+    },
+    {
+      "es": "Where does weathering happen the MOST?",
+      "en": "In warm, wet (humid) climates — heat and water speed up both mechanical and chemical weathering."
+    },
+    {
+      "es": "Where does weathering happen the LEAST?",
+      "en": "In cold, dry climates — low temperatures and little water slow weathering significantly."
+    },
+    {
+      "es": "How does iron weather?",
+      "en": "Iron reacts with oxygen and water to form rust (iron oxide) — this is chemical weathering called oxidation."
+    },
+    {
+      "es": "How does limestone weather?",
+      "en": "Limestone dissolves in slightly acidic water (carbonation) — acid rain and groundwater slowly eat it away."
+    },
+    {
+      "es": "Why does granite weather more slowly than limestone?",
+      "en": "Granite is made of harder minerals that resist chemical weathering better than calcite in limestone."
+    },
+    {
+      "es": "How does freeze-thaw weathering work?",
+      "en": "Water seeps into cracks, freezes and expands, forcing the crack wider. Over many cycles, the rock breaks apart."
+    },
+    {
+      "es": "How do plant roots cause weathering?",
+      "en": "Roots grow into cracks in rocks and widen them as they grow — this is mechanical weathering."
+    },
+    {
+      "es": "How does surface area affect weathering rate?",
+      "en": "More surface area = faster weathering. Smaller or more jagged pieces weather faster because more rock is exposed."
+    },
+    {
+      "es": "What are the main products of weathering?",
+      "en": "Sediment (sand, silt, clay), soil, and dissolved minerals that wash into water."
+    },
+    {
+      "es": "What is soil made from?",
+      "en": "Weathered rock particles mixed with organic material (dead plants and animals)."
+    },
+    {
+      "es": "What is the difference between weathering and erosion?",
+      "en": "Weathering breaks rocks down; erosion moves the broken pieces to a new location."
+    },
+    {
+      "es": "What type of weathering is acid rain?",
+      "en": "Chemical weathering — acid rain dissolves minerals in rocks, especially limestone and marble."
+    },
+    {
+      "es": "Why do statues and buildings made of marble or limestone wear away over time?",
+      "en": "Acid rain chemically weathers the calcium carbonate in marble and limestone, dissolving their surface."
+    },
+    {
+      "es": "What natural material is known for rusting, and what type of weathering is it?",
+      "en": "Iron — it rusts through oxidation, which is chemical weathering."
+    },
+    {
+      "es": "What type of weathering is caused by wind carrying sand that scrapes against rocks?",
+      "en": "Mechanical weathering (abrasion) — the sand acts like sandpaper and wears the rock surface down."
+    },
+    {
+      "es": "What determines how fast a rock weathers?",
+      "en": "Type of rock (mineral hardness), climate (warm/wet = faster), and surface area (more exposed = faster)."
+    }
+  ]
+}
