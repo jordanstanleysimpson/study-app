@@ -326,6 +326,486 @@
         "Climate is only one of three factors. Even in the same climate, mineral composition causes different weathering rates.",
         "While cracks do allow water in, granite's main resistance to weathering comes from its hard, chemically resistant minerals — not from a lack of cracks."
       ]
+    },
+    {
+      "id": "q21",
+      "q": "What is oxidation in the context of weathering?",
+      "correct": "A chemical reaction where minerals combine with oxygen, often forming rust",
+      "incorrect": [
+        "A process where rocks are broken apart by expanding ice",
+        "The dissolving of minerals by acidic water",
+        "The physical scraping of rock by wind or water"
+      ],
+      "why_correct": "Oxidation is a chemical weathering process. When iron-bearing minerals react with oxygen and water, they form iron oxide (rust), permanently changing the mineral's composition.",
+      "why_wrong": [
+        "Rocks breaking apart from expanding ice is freeze-thaw mechanical weathering, not oxidation.",
+        "Dissolving minerals with acidic water is carbonation or acid weathering, not oxidation.",
+        "Physical scraping by wind or water is abrasion, a type of mechanical weathering."
+      ]
+    },
+    {
+      "id": "q22",
+      "q": "What is carbonation in weathering?",
+      "correct": "Rainwater mixed with CO₂ forms carbonic acid, which dissolves carbonate minerals like calcite",
+      "incorrect": [
+        "Carbon particles in the air physically scratching rock surfaces",
+        "Rock absorbing carbon and becoming heavier over time",
+        "Coal forming from the compression of organic material"
+      ],
+      "why_correct": "CO₂ + H₂O → carbonic acid (H₂CO₃). This weak acid dissolves calcite in limestone and marble, gradually wearing them away. It's responsible for cave formation.",
+      "why_wrong": [
+        "Carbon particles scratching rock would be abrasion — a mechanical process. Carbonation is chemical.",
+        "Rock does not absorb carbon and become heavier through weathering — carbonation dissolves rock, it doesn't add to it.",
+        "Coal formation is the compression of organic material over millions of years — completely unrelated to carbonation weathering."
+      ]
+    },
+    {
+      "id": "q23",
+      "q": "Which type of rock weathers most easily through chemical weathering and why?",
+      "correct": "Limestone, because its calcite mineral reacts readily with acidic water",
+      "incorrect": [
+        "Granite, because it has large crystals that break apart easily",
+        "Quartzite, because quartz dissolves quickly in water",
+        "Basalt, because it is dark and absorbs more heat"
+      ],
+      "why_correct": "Calcite (CaCO₃) in limestone is highly reactive with even weak acids. This makes limestone especially vulnerable to chemical weathering by acid rain and groundwater.",
+      "why_wrong": [
+        "Granite has large crystals but they are hard silicate minerals (quartz, feldspar) that resist chemical weathering well.",
+        "Quartz is actually one of the most chemically resistant minerals — it does not dissolve quickly in water.",
+        "Rock color and heat absorption do not determine chemical weathering rates — mineral reactivity does."
+      ]
+    },
+    {
+      "id": "q24",
+      "q": "What landform is created when carbonation weathering dissolves limestone underground over thousands of years?",
+      "correct": "Caves and caverns",
+      "incorrect": [
+        "Volcanoes",
+        "River deltas",
+        "Sand dunes"
+      ],
+      "why_correct": "Slightly acidic groundwater slowly dissolves calcite in limestone along cracks and joints underground, hollowing out caves and caverns over long periods of time.",
+      "why_wrong": [
+        "Volcanoes form from magma rising through the crust — they are not created by chemical weathering of limestone.",
+        "River deltas form where rivers deposit sediment at their mouths — erosion and deposition, not chemical weathering underground.",
+        "Sand dunes are formed by wind depositing sand — a process of erosion and deposition, not underground weathering."
+      ]
+    },
+    {
+      "id": "q25",
+      "q": "How does temperature change (thermal expansion) cause mechanical weathering?",
+      "correct": "Rock expands when heated and contracts when cooled; repeated cycles crack the rock",
+      "incorrect": [
+        "High temperatures melt the outer layer of rock, which then breaks off",
+        "Cold temperatures cause rock minerals to dissolve",
+        "Temperature has no effect on rock without water present"
+      ],
+      "why_correct": "Daily heating and cooling causes minerals in rock to expand and contract at slightly different rates. Over time, this stress creates cracks and causes outer layers to peel off (exfoliation).",
+      "why_wrong": [
+        "Surface temperatures are far too low to melt rock — melting occurs deep underground at hundreds of degrees.",
+        "Cold temperatures slow dissolution — they do not cause minerals to dissolve.",
+        "While water greatly accelerates weathering, thermal expansion and contraction can crack rock even in dry conditions."
+      ]
+    },
+    {
+      "id": "q26",
+      "q": "What is exfoliation in weathering?",
+      "correct": "When curved sheets or slabs of rock peel off the outer surface of a large rock mass",
+      "incorrect": [
+        "When ice splits a rock completely in two",
+        "When wind removes the top layer of soil",
+        "When acid rain eats into the center of a rock"
+      ],
+      "why_correct": "As overlying rock erodes away, pressure on deep rock is released. The rock expands outward and curved sheets peel off — like layers of an onion. This is called pressure release or exfoliation.",
+      "why_wrong": [
+        "Ice splitting a rock is freeze-thaw weathering, not exfoliation. Exfoliation produces curved sheets, not a clean split.",
+        "Wind removing top soil is erosion, not exfoliation of rock.",
+        "Acid rain eating into rock is chemical weathering (carbonation or oxidation), not exfoliation."
+      ]
+    },
+    {
+      "id": "q27",
+      "q": "Which of the following best describes biological weathering?",
+      "correct": "Weathering caused by living organisms, such as roots cracking rock or lichens releasing acid",
+      "incorrect": [
+        "Weathering that only occurs in areas with abundant wildlife",
+        "The breakdown of organic material into soil by bacteria",
+        "The movement of sediment by animals burrowing underground"
+      ],
+      "why_correct": "Biological weathering involves living things causing either mechanical (roots, burrowing) or chemical (acid from lichens, mosses) breakdown of rock.",
+      "why_wrong": [
+        "Biological weathering can occur anywhere organisms live — in deserts, tundra, mountains — not just areas with abundant wildlife.",
+        "Bacteria breaking down organic material is decomposition — related to soil formation but not rock weathering.",
+        "Animals moving sediment underground is bioturbation — a type of erosion/mixing, not weathering of rock."
+      ]
+    },
+    {
+      "id": "q28",
+      "q": "What do lichens do to rock surfaces?",
+      "correct": "They release weak acids that chemically dissolve minerals in the rock surface",
+      "incorrect": [
+        "They physically scratch the rock as they grow",
+        "They protect rock from rain and acid by covering it",
+        "They absorb minerals from the air and deposit them on rock"
+      ],
+      "why_correct": "Lichens are among the first organisms to colonize bare rock. They produce organic acids that chemically weather the rock surface, slowly breaking it down — this is biological chemical weathering.",
+      "why_wrong": [
+        "Lichens do not have hard enough structures to physically scratch rock — their weathering effect is chemical.",
+        "Lichens actually accelerate weathering rather than protect rock — their acids break down the surface.",
+        "Lichens obtain minerals from the rock itself through acid dissolution, not by depositing minerals from the air."
+      ]
+    },
+    {
+      "id": "q29",
+      "q": "Why does weathering happen faster in a city than in a remote wilderness area with the same climate?",
+      "correct": "City air pollution creates more acidic rain, speeding up chemical weathering",
+      "incorrect": [
+        "Cities are always warmer, which directly causes more mechanical weathering",
+        "More foot traffic in cities physically wears down rock faster",
+        "Cities have less vegetation, so there is more wind abrasion"
+      ],
+      "why_correct": "Burning fossil fuels releases sulfur dioxide and nitrogen oxides, which mix with rainwater to form sulfuric and nitric acid — making acid rain more acidic in urban areas and speeding up chemical weathering of stone.",
+      "why_wrong": [
+        "Cities are slightly warmer (urban heat island), but the main accelerating factor is acid rain from pollution, not temperature alone.",
+        "Foot traffic wears surfaces by abrasion, but this is insignificant compared to the effect of acid rain on stone buildings.",
+        "Less vegetation in cities does not significantly increase wind abrasion compared to the impact of acid rain."
+      ]
+    },
+    {
+      "id": "q30",
+      "q": "A headstone made of marble in 1800 is now hard to read. A nearby granite headstone from the same year is still clear. Why?",
+      "correct": "Marble weathers faster because its calcite dissolves in acid rain; granite's minerals resist acid",
+      "incorrect": [
+        "The marble was carved more shallowly, so it wore down faster",
+        "Granite is newer and has not had time to weather",
+        "Marble absorbs more water, causing more freeze-thaw damage"
+      ],
+      "why_correct": "Both are the same age and in the same environment. The difference is mineral composition: marble's calcite dissolves in acidic rainwater; granite's quartz and feldspar are highly acid-resistant.",
+      "why_wrong": [
+        "Carving depth is not given and is not the scientific reason — rock type explains the difference.",
+        "Both stones are from 1800 — they are the same age. Age is not the variable here.",
+        "While marble can absorb some water, the dominant weathering mechanism here is chemical (acid rain), not freeze-thaw."
+      ]
+    },
+    {
+      "id": "q31",
+      "q": "What happens to rock minerals during chemical weathering?",
+      "correct": "They are changed into new substances with different chemical compositions",
+      "incorrect": [
+        "They are broken into smaller pieces of the same mineral",
+        "They are compressed into denser forms of the same rock",
+        "They are transported to a new location by water or wind"
+      ],
+      "why_correct": "Chemical weathering involves actual chemical reactions — calcite becomes dissolved ions in water, iron becomes iron oxide (rust). The original mineral no longer exists in its original form.",
+      "why_wrong": [
+        "Breaking into smaller pieces of the same mineral describes mechanical weathering — no chemical change occurs.",
+        "Compressing into denser forms describes metamorphism, not weathering.",
+        "Transporting material to a new location is erosion, not weathering."
+      ]
+    },
+    {
+      "id": "q32",
+      "q": "What happens to rock during mechanical weathering?",
+      "correct": "It is broken into smaller pieces, but the mineral composition stays the same",
+      "incorrect": [
+        "Its minerals are chemically changed into new substances",
+        "It melts and recrystallizes into a new rock type",
+        "It is dissolved and carried away by water"
+      ],
+      "why_correct": "Mechanical weathering only changes the size and shape of rock — not what it is made of. A granite boulder broken by freeze-thaw is still made of quartz, feldspar, and mica.",
+      "why_wrong": [
+        "Minerals changing into new substances is chemical weathering, not mechanical.",
+        "Melting and recrystallizing describes igneous rock formation or metamorphism — not weathering.",
+        "Dissolving and being carried away involves chemical change and erosion — not mechanical weathering."
+      ]
+    },
+    {
+      "id": "q33",
+      "q": "Which of these materials would rust (oxidize) when exposed to air and water?",
+      "correct": "A metal fence post",
+      "incorrect": [
+        "A marble statue",
+        "A quartz pebble",
+        "A wooden fence post"
+      ],
+      "why_correct": "Rust is iron oxide — it only forms on iron-containing materials. A metal fence post made of iron or steel will oxidize (rust) when exposed to oxygen and water.",
+      "why_wrong": [
+        "Marble is made of calcite (calcium carbonate) — it weathers by carbonation (acid dissolution), not oxidation.",
+        "Quartz (SiO₂) is one of the most chemically resistant minerals and does not rust or oxidize under normal conditions.",
+        "Wood decays through biological decomposition, not oxidation/rusting. Rusting is specific to iron-containing materials."
+      ]
+    },
+    {
+      "id": "q34",
+      "q": "What is the correct order from largest to smallest sediment particle size?",
+      "correct": "Gravel → sand → silt → clay",
+      "incorrect": [
+        "Clay → silt → sand → gravel",
+        "Sand → gravel → clay → silt",
+        "Silt → clay → gravel → sand"
+      ],
+      "why_correct": "Gravel particles are the largest (>2mm), followed by sand (0.06–2mm), silt (0.002–0.06mm), and clay (the finest, <0.002mm). Weathering progressively breaks rock into smaller and smaller particles.",
+      "why_wrong": [
+        "This is the reverse order — clay is the smallest, gravel is the largest.",
+        "Sand is not larger than gravel — gravel is the largest particle size.",
+        "This order is incorrect — gravel is largest, clay is smallest."
+      ]
+    },
+    {
+      "id": "q35",
+      "q": "Which layer of soil contains the most organic material and is best for plant growth?",
+      "correct": "Topsoil (the A horizon)",
+      "incorrect": [
+        "Subsoil (the B horizon)",
+        "Bedrock (the C horizon)",
+        "Parent material"
+      ],
+      "why_correct": "Topsoil (A horizon) is the uppermost layer and contains the most humus — decomposed organic matter. It is dark, nutrient-rich, and supports most plant root growth.",
+      "why_wrong": [
+        "Subsoil (B horizon) is below the topsoil. It has less organic material and more minerals leached down from above — less ideal for plant growth.",
+        "Bedrock is not a soil horizon — it is the solid unweathered rock below the soil layers.",
+        "'Parent material' refers to the original rock that weathered to form soil — it is not a layer of soil itself."
+      ]
+    },
+    {
+      "id": "q36",
+      "q": "What is the 'parent material' in soil formation?",
+      "correct": "The original rock that weathered to produce the mineral particles in the soil",
+      "incorrect": [
+        "The organic layer at the top of the soil",
+        "The water table beneath the soil",
+        "The clay layer that prevents water drainage"
+      ],
+      "why_correct": "Soil inherits its mineral composition from its parent material — the bedrock or sediment that was broken down by weathering. Different parent rocks produce soils with different minerals.",
+      "why_wrong": [
+        "The organic layer at the top of the soil (humus) comes from decomposed organisms, not parent material.",
+        "The water table is the level of groundwater — it is not the same as parent material.",
+        "A clay layer that prevents drainage is called a hardpan — a soil condition, not the parent material."
+      ]
+    },
+    {
+      "id": "q37",
+      "q": "How long does it typically take for 1 inch of topsoil to form naturally?",
+      "correct": "Hundreds to thousands of years",
+      "incorrect": [
+        "A few weeks to months",
+        "10 to 20 years",
+        "Exactly 100 years"
+      ],
+      "why_correct": "Soil formation is extremely slow — weathering of rock and accumulation of organic matter takes hundreds to thousands of years per inch. This is why soil erosion is a serious environmental concern.",
+      "why_wrong": [
+        "A few weeks to months is far too fast — soil cannot form that quickly through natural weathering and organic accumulation.",
+        "10–20 years is still far too short for natural soil formation from rock weathering.",
+        "There is no fixed rate of exactly 100 years — soil formation rates vary widely by climate, rock type, and organism activity."
+      ]
+    },
+    {
+      "id": "q38",
+      "q": "Which agent of mechanical weathering is most responsible for smoothing and rounding pebbles in a riverbed?",
+      "correct": "Abrasion — pebbles collide and scrape against each other as the river carries them",
+      "incorrect": [
+        "Freeze-thaw — the river water freezes inside the pebbles at night",
+        "Carbonation — river water slowly dissolves the pebbles",
+        "Oxidation — the river water rusts the pebbles"
+      ],
+      "why_correct": "As a river carries rocks and pebbles, they constantly bump and scrape against each other and the riverbed. This abrasion gradually rounds and smooths their sharp edges.",
+      "why_wrong": [
+        "Rivers generally do not freeze solid enough to cause significant freeze-thaw inside riverbed pebbles during normal flow.",
+        "Carbonation would dissolve carbonate rocks (like limestone) chemically — it does not round them. Most river pebbles are smoothed mechanically.",
+        "Oxidation causes rusting of iron-rich minerals — it does not smooth or round pebble shapes."
+      ]
+    },
+    {
+      "id": "q39",
+      "q": "What is the main difference between how mechanical and chemical weathering affect rock minerals?",
+      "correct": "Mechanical weathering changes the size and shape of minerals; chemical weathering changes their composition",
+      "incorrect": [
+        "Mechanical weathering is faster; chemical weathering is slower",
+        "Mechanical weathering needs water; chemical weathering does not",
+        "Chemical weathering only affects igneous rocks; mechanical weathering affects all rocks"
+      ],
+      "why_correct": "This is the fundamental distinction: mechanical = physical breaking (same minerals, just smaller); chemical = new substances formed (minerals changed at the molecular level).",
+      "why_wrong": [
+        "Speed varies by conditions — chemical weathering can actually be faster than mechanical in warm, wet climates.",
+        "Freeze-thaw mechanical weathering does need water, but abrasion and thermal expansion do not. Chemical weathering always requires water or another chemical agent.",
+        "Chemical weathering affects all rock types — limestone, granite, basalt, etc. — not just igneous rocks."
+      ]
+    },
+    {
+      "id": "q40",
+      "q": "A rock sample has sharp, angular edges. What does this suggest about how long it has been weathering?",
+      "correct": "It has not been weathering long — weathering rounds and smooths edges over time",
+      "incorrect": [
+        "It has been weathering for a very long time — sharp edges are a sign of advanced weathering",
+        "It has been through intense chemical weathering — acid creates sharp edges",
+        "Sharp edges indicate the rock has never been weathered at all"
+      ],
+      "why_correct": "Fresh, newly broken rock has sharp, angular edges. Over time, abrasion and weathering round and smooth those edges. Angular rocks are relatively 'young' in terms of weathering history.",
+      "why_wrong": [
+        "Long-weathered rocks become rounded and smooth — sharp edges indicate recent breakage or minimal weathering.",
+        "Chemical weathering dissolves surfaces unevenly but generally rounds rather than sharpens edges over time.",
+        "Any exposed rock is being weathered — angular edges simply mean the rock broke recently and hasn't had much time to be smoothed."
+      ]
+    },
+    {
+      "id": "q41",
+      "q": "How does water contribute to both mechanical AND chemical weathering?",
+      "correct": "Water expands when frozen (mechanical) and acts as a solvent and acid carrier (chemical)",
+      "incorrect": [
+        "Water only contributes to mechanical weathering through erosion",
+        "Water only contributes to chemical weathering by dissolving minerals",
+        "Water does not directly cause weathering — it only transports sediment"
+      ],
+      "why_correct": "Water is the most important weathering agent overall. As ice, it mechanically cracks rock (freeze-thaw). As liquid, it dissolves minerals, carries carbonic acid, and enables oxidation reactions.",
+      "why_wrong": [
+        "Water contributes to both types — freeze-thaw is mechanical, and dissolving/acidic reactions are chemical. Erosion is a separate process.",
+        "Water's mechanical role (freeze-thaw) is just as important as its chemical role — it does both.",
+        "Water directly causes weathering in multiple ways — it is not just a transport medium for sediment."
+      ]
+    },
+    {
+      "id": "q42",
+      "q": "Why do rocks at high elevations (like mountaintops) often weather faster than rocks at lower elevations in the same region?",
+      "correct": "More freeze-thaw cycles at high elevation because temperatures cross the freezing point more often",
+      "incorrect": [
+        "Mountaintops are closer to the sun, so they receive more heat",
+        "High elevation rocks are newer and therefore weaker",
+        "Wind at high elevations prevents water from contacting rock"
+      ],
+      "why_correct": "At high elevations, temperatures fluctuate around 0°C more frequently — water freezes and thaws many times per day or season. Each cycle widens cracks, so mountaintop rocks break apart faster.",
+      "why_wrong": [
+        "While mountaintops are slightly closer to the sun, the difference is negligible. The key factor is temperature cycling around the freezing point.",
+        "Rock age does not determine how 'weak' it is — rock type and mineral composition are what matter.",
+        "Wind at high elevations can actually increase weathering through abrasion — it does not prevent water contact."
+      ]
+    },
+    {
+      "id": "q43",
+      "q": "What dissolved product is released when limestone undergoes carbonation weathering?",
+      "correct": "Calcium ions and bicarbonate ions dissolved in water",
+      "incorrect": [
+        "Carbon dioxide gas released into the air",
+        "Iron oxide deposited on the rock surface",
+        "Silicon dioxide grains left behind"
+      ],
+      "why_correct": "CaCO₃ + H₂CO₃ → Ca²⁺ + 2HCO₃⁻. The calcium and bicarbonate ions dissolve into the water and are carried away — this is how caves form and why limestone landscapes have sinkholes.",
+      "why_wrong": [
+        "CO₂ is absorbed from the air to make carbonic acid — carbonation consumes CO₂ rather than releasing it.",
+        "Iron oxide is the product of oxidation (rusting) of iron minerals — not carbonation of limestone.",
+        "Silicon dioxide (quartz) is not a product of limestone weathering. Limestone is calcite (CaCO₃), not silicate."
+      ]
+    },
+    {
+      "id": "q44",
+      "q": "Which of the following is NOT a cause of mechanical weathering?",
+      "correct": "Acid rain dissolving calcite in limestone",
+      "incorrect": [
+        "Water freezing and expanding in rock cracks",
+        "Tree roots growing into and widening cracks",
+        "Sand particles carried by wind scraping a rock face"
+      ],
+      "why_correct": "Acid rain dissolving calcite involves a chemical reaction that changes the mineral's composition — this is chemical weathering, not mechanical.",
+      "why_wrong": [
+        "Freeze-thaw (water expanding as ice) is a classic example of mechanical weathering — no chemical change occurs.",
+        "Tree roots physically widening cracks is mechanical weathering — the rock composition does not change.",
+        "Wind-blown sand scraping rock (abrasion) is mechanical weathering — it physically wears the surface with no chemical change."
+      ]
+    },
+    {
+      "id": "q45",
+      "q": "Two identical granite boulders are placed in different environments. Boulder A is in a warm, wet rainforest. Boulder B is in a cold, dry Arctic tundra. After 10,000 years, which will be more weathered?",
+      "correct": "Boulder A — warm and wet conditions greatly accelerate both mechanical and chemical weathering",
+      "incorrect": [
+        "Boulder B — cold climates have more freeze-thaw cycles that break rock faster",
+        "They will be equally weathered — they are the same type of rock",
+        "Boulder B — dry air prevents chemical reactions that would protect Boulder A"
+      ],
+      "why_correct": "Heat speeds up chemical reactions and abundant water enables both carbonation and oxidation. Warm, wet climates produce the fastest weathering rates overall.",
+      "why_wrong": [
+        "Cold climates do have freeze-thaw, but without abundant liquid water and chemical activity, total weathering is much less than in warm, wet climates.",
+        "Rock type is only one factor. Climate has an enormous effect — the same rock weathers very differently in different environments.",
+        "Dry air does reduce some chemical weathering, but the absence of water slows weathering overall — it does not protect Boulder A."
+      ]
+    },
+    {
+      "id": "q46",
+      "q": "What role does carbon dioxide (CO₂) play in chemical weathering?",
+      "correct": "It dissolves in rainwater to form carbonic acid, which dissolves carbonate rocks",
+      "incorrect": [
+        "It acts as an abrasive that physically scratches rock surfaces",
+        "It reacts with iron to cause rusting",
+        "It has no role in weathering — only liquid water causes chemical weathering"
+      ],
+      "why_correct": "CO₂ + H₂O → H₂CO₃ (carbonic acid). This weak acid is responsible for carbonation weathering of limestone and marble, and is a key driver of cave formation.",
+      "why_wrong": [
+        "CO₂ is a gas — it does not physically scratch surfaces. Abrasion is caused by solid particles like sand.",
+        "Rusting involves oxygen reacting with iron, not CO₂. CO₂'s role is in forming carbonic acid for carbonation.",
+        "CO₂ plays a direct and important role in chemical weathering — it is one of the main weathering agents."
+      ]
+    },
+    {
+      "id": "q47",
+      "q": "How does weathering contribute to the formation of sedimentary rock?",
+      "correct": "Weathering produces sediment, which is deposited in layers and eventually compresses into sedimentary rock",
+      "incorrect": [
+        "Weathering melts rock, which then solidifies into sedimentary rock",
+        "Weathering adds heat and pressure that transforms existing rock into sedimentary rock",
+        "Weathering has no connection to sedimentary rock formation"
+      ],
+      "why_correct": "Weathering → sediment → erosion → deposition → compaction/cementation → sedimentary rock. Weathering is the essential first step that produces the raw material (sediment) for sedimentary rock.",
+      "why_wrong": [
+        "Melting rock that solidifies produces igneous rock — not sedimentary rock. Sedimentary rock forms from compressed sediment, not melted rock.",
+        "Heat and pressure transforming rock produces metamorphic rock — not sedimentary rock.",
+        "Weathering is directly connected to sedimentary rock — it produces the sediment particles that eventually become sedimentary rock."
+      ]
+    },
+    {
+      "id": "q48",
+      "q": "Why is soil considered a nonrenewable resource on a human timescale?",
+      "correct": "Soil takes hundreds to thousands of years to form but can be lost to erosion in years or decades",
+      "incorrect": [
+        "Soil is made of rock which can never be replaced",
+        "Plants consume all soil nutrients within a few growing seasons",
+        "Soil washes into the ocean and is permanently lost"
+      ],
+      "why_correct": "Natural soil formation is extremely slow (centuries per inch). Human activities like farming, construction, and deforestation can erode soil far faster than it can form — making it effectively nonrenewable on human timescales.",
+      "why_wrong": [
+        "Rock is slowly replenished through weathering, and organic matter accumulates — the issue is the rate of formation vs. loss, not that rock can never be replaced.",
+        "While plants use soil nutrients, nutrients can be replenished through decomposition and proper farming practices — nutrient depletion is manageable.",
+        "Some eroded soil does reach the ocean, but much is deposited elsewhere on land or in river deltas, where it may eventually contribute to new soil."
+      ]
+    },
+    {
+      "id": "q49",
+      "q": "What type of weathering causes potholes to form in roads during winter?",
+      "correct": "Freeze-thaw mechanical weathering — water seeps into cracks, freezes, expands, and breaks the pavement",
+      "incorrect": [
+        "Oxidation — road materials rust and weaken over winter",
+        "Carbonation — acid rain dissolves the road surface",
+        "Abrasion — car tires physically scrape the road surface away"
+      ],
+      "why_correct": "Water seeps into small cracks in pavement. When it freezes, it expands by about 9% — widening the crack. After many freeze-thaw cycles, the pavement fragments and a pothole forms. This is exactly the same process that breaks apart natural rock.",
+      "why_wrong": [
+        "While road metals can corrode, potholes are primarily caused by freeze-thaw physical expansion, not oxidation.",
+        "Acid rain can slightly degrade road surfaces over time, but potholes form rapidly in winter due to freeze-thaw — not carbonation.",
+        "Car tires do wear road surfaces, but potholes form specifically in winter due to freeze-thaw beneath the surface, not from surface scraping."
+      ]
+    },
+    {
+      "id": "q50",
+      "q": "A scientist finds very rounded, smooth rocks at the base of a cliff in a cold, dry climate. What most likely happened?",
+      "correct": "The rocks fell from the cliff and were rounded by abrasion as they tumbled down or collided with each other",
+      "incorrect": [
+        "The rocks were rounded by long-term chemical weathering in the cold climate",
+        "The rocks were shaped by freeze-thaw weathering over thousands of years",
+        "The smooth shape means the rocks have not been weathered at all"
+      ],
+      "why_correct": "In a cold, dry climate, chemical weathering is minimal. The rounded shape most likely comes from abrasion — rocks tumbling down the cliff face and colliding, which smooths their edges mechanically.",
+      "why_wrong": [
+        "Cold, dry climates are among the worst for chemical weathering — very little acidic water is present to dissolve minerals and round rocks.",
+        "Freeze-thaw typically breaks rocks into angular pieces — it does not round them. Rounded shapes come from abrasion during transport.",
+        "Smooth, rounded shapes are a clear sign of mechanical abrasion weathering during transport — not an absence of weathering."
+      ]
     }
   ]
 }
