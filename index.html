@@ -63,7 +63,7 @@
     </main>
   </div>
 
-  <!-- ── Mode / Browse / Stats ── -->
+  <!-- ── Mode / Stats ── -->
   <div id="screen-mode" class="screen">
     <main class="screen-body">
 
@@ -77,16 +77,10 @@
           <option value="2000">2.0s</option>
           <option value="0">None</option>
         </select>
-        <label for="match-size-select" class="settings-label">Match size:</label>
-        <select id="match-size-select" class="settings-select" onchange="setMatchSize(this.value)">
-          <option value="5">5</option>
-          <option value="10">10</option>
-          <option value="15">15</option>
-          <option value="20" selected>20</option>
-          <option value="30">30</option>
-          <option value="40">40</option>
-          <option value="50">50</option>
-        </select>
+        <label class="settings-label exam-mode-label">
+          <input type="checkbox" id="exam-mode-checkbox" onchange="setExamMode(this.checked)">
+          Exam mode
+        </label>
       </div>
 
       <!-- Progress export / import / sync -->
@@ -115,61 +109,24 @@
 
       <!-- Study mode tiles -->
       <div class="mode-grid" id="mode-grid">
-        <button class="mode-card" id="btn-flashcard" onclick="startSession('flashcard')">
-          <span class="mode-icon">🃏</span>
-          <span class="mode-name">Flashcards</span>
-          <span class="mode-desc">Flip to reveal</span>
-        </button>
-        <button class="mode-card" id="btn-type-it" onclick="startSession('type')">
-          <span class="mode-icon">⌨️</span>
-          <span class="mode-name">Type It</span>
-          <span class="mode-desc" id="mode-desc-type">Spell the answer</span>
-        </button>
-        <button class="mode-card" id="btn-choice-fwd" onclick="startSession('choice')">
-          <span class="mode-icon" id="mode-icon-fwd">🇪🇸</span>
-          <span class="mode-name">Multiple Choice</span>
-          <span class="mode-desc" id="mode-desc-fwd">Spanish → English</span>
-        </button>
-        <button class="mode-card" id="btn-choice-rev" onclick="startSession('choice-en')">
-          <span class="mode-icon" id="mode-icon-rev">🇬🇧</span>
-          <span class="mode-name">Multiple Choice</span>
-          <span class="mode-desc" id="mode-desc-rev">English → Spanish</span>
-        </button>
-        <button class="mode-card mode-card--wide" id="btn-match" onclick="startSession('match')">
-          <span class="mode-icon">🔗</span>
-          <span class="mode-name">Match</span>
-          <span class="mode-desc" id="mode-desc-match">Connect Spanish to English</span>
-        </button>
-        <button class="mode-card hidden" id="btn-mc-quiz-inline" onclick="startMcQuiz('inline')">
+        <!-- Non-directional quiz -->
+        <button class="mode-card hidden" id="btn-mc-quiz" onclick="startMcQuiz(null)">
           <span class="mode-icon">📝</span>
           <span class="mode-name">Quiz</span>
-          <span class="mode-desc">Feedback after each question</span>
+          <span class="mode-desc">Multiple choice</span>
         </button>
-        <button class="mode-card hidden" id="btn-mc-quiz-end" onclick="startMcQuiz('end')">
-          <span class="mode-icon">📋</span>
-          <span class="mode-name">Quiz (exam)</span>
-          <span class="mode-desc">Graded at the end only</span>
-        </button>
-        <button class="mode-card hidden" id="btn-mcq-inline-es-en" onclick="startMcQuiz('inline','es_en')">
+        <!-- Directional quiz -->
+        <button class="mode-card hidden" id="btn-mcq-es-en" onclick="startMcQuiz('es_en')">
           <span class="mode-icon">🇪🇸</span>
           <span class="mode-name">Quiz</span>
           <span class="mode-desc">Spanish → English</span>
         </button>
-        <button class="mode-card hidden" id="btn-mcq-inline-en-es" onclick="startMcQuiz('inline','en_es')">
+        <button class="mode-card hidden" id="btn-mcq-en-es" onclick="startMcQuiz('en_es')">
           <span class="mode-icon">🇬🇧</span>
           <span class="mode-name">Quiz</span>
           <span class="mode-desc">English → Spanish</span>
         </button>
-        <button class="mode-card hidden" id="btn-mcq-end-es-en" onclick="startMcQuiz('end','es_en')">
-          <span class="mode-icon">🇪🇸</span>
-          <span class="mode-name">Exam</span>
-          <span class="mode-desc">Spanish → English</span>
-        </button>
-        <button class="mode-card hidden" id="btn-mcq-end-en-es" onclick="startMcQuiz('end','en_es')">
-          <span class="mode-icon">🇬🇧</span>
-          <span class="mode-name">Exam</span>
-          <span class="mode-desc">English → Spanish</span>
-        </button>
+        <!-- Translate mode -->
         <button class="mode-card hidden" id="btn-translate-es-en" onclick="startTranslate('es_en')">
           <span class="mode-icon">🇪🇸</span>
           <span class="mode-name">Translate</span>
@@ -187,29 +144,26 @@
         </button>
       </div>
 
-      <!-- Browse + Stats tiles -->
-      <div class="secondary-grid">
-        <button class="secondary-tile" id="tile-browse" onclick="switchTab('browse')">
-          <span class="secondary-tile-icon">📖</span>
-          <span class="secondary-tile-name">Browse</span>
+      <!-- All Terms + Reference buttons -->
+      <div class="mode-grid mode-grid--secondary" id="mode-grid-secondary">
+        <button class="mode-card hidden" id="btn-all-terms" onclick="showAllTerms()">
+          <span class="mode-icon">📖</span>
+          <span class="mode-name">All Terms</span>
+          <span class="mode-desc">View full list</span>
         </button>
+        <button class="mode-card hidden" id="btn-reference" onclick="showReferencePanel()">
+          <span class="mode-icon">📊</span>
+          <span class="mode-name">Reference</span>
+          <span class="mode-desc">Grammar tables</span>
+        </button>
+      </div>
+
+      <!-- Stats tile -->
+      <div class="secondary-grid">
         <button class="secondary-tile" id="tile-stats" onclick="switchTab('stats')">
           <span class="secondary-tile-icon">📊</span>
           <span class="secondary-tile-name">Stats</span>
         </button>
-      </div>
-
-      <!-- Browse content -->
-      <div id="tab-browse" class="hidden">
-        <table class="word-table">
-          <thead>
-            <tr>
-              <th class="sortable-col" id="browse-sort-es" onclick="setBrowseSort('es')">Spanish <span class="sort-indicator">↕</span></th>
-              <th class="sortable-col" id="browse-sort-en" onclick="setBrowseSort('en')">English <span class="sort-indicator">↕</span></th>
-            </tr>
-          </thead>
-          <tbody id="word-table-body"></tbody>
-        </table>
       </div>
 
       <!-- Tab: Stats -->
@@ -222,8 +176,8 @@
         <table class="word-table">
           <thead>
             <tr>
-              <th id="stats-col-front">Spanish</th>
-              <th id="stats-col-back">English</th>
+              <th id="stats-col-front">Term</th>
+              <th id="stats-col-back">Definition</th>
               <th class="col-num">Correct</th>
               <th class="col-num">Missed</th>
               <th class="col-num">%</th>
@@ -236,6 +190,25 @@
     </main>
   </div>
 
+  <!-- ── All Terms ── -->
+  <div id="screen-terms" class="screen">
+    <header class="app-header app-header--back">
+      <button class="back-btn" onclick="showScreen('screen-mode')">&#8592;</button>
+      <h2 id="terms-title">All Terms</h2>
+    </header>
+    <main class="screen-body">
+      <table class="word-table">
+        <thead>
+          <tr>
+            <th id="terms-col-term">Term</th>
+            <th id="terms-col-def">Definition</th>
+          </tr>
+        </thead>
+        <tbody id="all-terms-body"></tbody>
+      </table>
+    </main>
+  </div>
+
   <!-- ── Quiz ── -->
   <div id="screen-quiz" class="screen">
     <header class="quiz-header">
@@ -245,7 +218,6 @@
           <div id="progress-bar" class="progress-fill"></div>
         </div>
         <span id="progress-count" class="progress-count"></span>
-        <button class="ref-btn hidden" id="ref-btn" onclick="showReference()">📊 Chart</button>
         <div class="quiz-settings">
           <label for="quiz-auto-advance-select" class="quiz-settings-label">Auto:</label>
           <select id="quiz-auto-advance-select" class="quiz-settings-select" onchange="setAutoAdvanceDelay(this.value)">
@@ -260,93 +232,22 @@
     </header>
     <main class="screen-body" id="quiz-main">
 
-      <!-- Flashcard mode -->
-      <div id="mode-flashcard" class="quiz-mode hidden">
-        <div class="quiz-inner">
-          <div class="direction-badge" id="fc-direction"></div>
-          <img id="fc-diagram-img" class="fc-diagram-img hidden" src="" alt="Diagram">
-          <div class="fc-card" id="flashcard">
-            <span class="fc-term" id="fc-prompt"></span>
-          </div>
-          <div class="fc-definition hidden" id="fc-definition">
-            <span class="fc-def-text" id="fc-answer"></span>
-          </div>
-          <p class="hint-text" id="fc-hint">Tap to reveal</p>
-          <div class="answer-btns hidden" id="fc-answer-btns">
-            <button class="btn-wrong" id="fc-missed">Missed it</button>
-            <button class="btn-correct" id="fc-got-it">Got it</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Type it mode -->
-      <div id="mode-type" class="quiz-mode hidden">
-        <div class="quiz-inner">
-          <div class="direction-badge" id="type-direction"></div>
-          <div class="word-display" id="type-prompt"></div>
-          <div class="type-area">
-            <input
-              type="text"
-              id="type-input"
-              placeholder="Type your answer..."
-              autocomplete="off"
-              autocorrect="off"
-              autocapitalize="off"
-              spellcheck="false"
-            >
-            <button class="btn-check" id="type-check">Check</button>
-          </div>
-          <div id="type-feedback" class="feedback hidden"></div>
-          <button class="btn-next hidden" id="type-next">Next</button>
-        </div>
-      </div>
-
-      <!-- Multiple choice mode -->
-      <div id="mode-choice" class="quiz-mode hidden">
-        <div class="quiz-inner">
-          <div class="direction-badge" id="choice-direction"></div>
-          <div class="word-display" id="choice-prompt"></div>
-          <div class="choices-grid" id="choices-grid"></div>
-          <button class="btn-next hidden" id="choice-next">Next</button>
-        </div>
-      </div>
-
       <!-- MC Quiz mode -->
       <div id="mode-mc-quiz" class="quiz-mode hidden">
         <div class="quiz-inner mcq-inner">
           <img id="mcq-diagram-img" class="fc-diagram-img hidden" src="" alt="Diagram">
           <div class="mcq-question" id="mcq-question"></div>
+          <div class="mcq-tip-row" id="mcq-tip-row">
+            <button class="btn-tip hidden" id="mcq-tip-btn" onclick="showMcqTip()">💡 Tip</button>
+            <div class="mcq-tip hidden" id="mcq-tip"></div>
+          </div>
           <div class="mcq-choices" id="mcq-choices"></div>
           <div class="mcq-feedback hidden" id="mcq-feedback">
             <div class="mcq-feedback-badge" id="mcq-feedback-badge"></div>
             <div class="mcq-explanation" id="mcq-explanation"></div>
+            <div id="mcq-concept-summary"></div>
           </div>
           <button class="btn-next hidden" id="mcq-next">Next</button>
-        </div>
-      </div>
-
-      <!-- MC Quiz Fill-in-the-blank mode -->
-      <div id="mode-mc-quiz-fitb" class="quiz-mode hidden">
-        <div class="quiz-inner mcq-inner">
-          <img id="fitb-diagram-img" class="fc-diagram-img hidden" src="" alt="Diagram">
-          <div class="mcq-question" id="fitb-question"></div>
-          <div class="type-area">
-            <input
-              type="text"
-              id="fitb-input"
-              placeholder="Type your answer..."
-              autocomplete="off"
-              autocorrect="off"
-              autocapitalize="off"
-              spellcheck="false"
-            >
-            <button class="btn-check" id="fitb-check">Check</button>
-          </div>
-          <div class="mcq-feedback hidden" id="fitb-feedback">
-            <div class="mcq-feedback-badge" id="fitb-feedback-badge"></div>
-            <div class="mcq-explanation" id="fitb-explanation"></div>
-          </div>
-          <button class="btn-next hidden" id="fitb-next">Next</button>
         </div>
       </div>
 
@@ -379,20 +280,6 @@
         </div>
       </div>
 
-      <!-- Match mode -->
-      <div id="mode-match" class="quiz-mode hidden">
-        <div class="match-inner">
-          <div class="direction-badge" id="match-direction"></div>
-          <div class="match-columns">
-            <div class="match-col" id="match-col-es"></div>
-            <div class="match-col" id="match-col-en"></div>
-          </div>
-          <div class="match-complete hidden" id="match-complete">
-            <button class="btn-primary" id="match-done-btn">See Results</button>
-          </div>
-        </div>
-      </div>
-
     </main>
     <div class="quiz-footer" id="quiz-footer">
       <button class="quiz-nav-btn" id="nav-back-btn" onclick="goBack()">&#8592; Back</button>
@@ -410,17 +297,19 @@
       <div id="results-details"></div>
       <div class="results-actions">
         <button class="btn-secondary" onclick="showScreen('screen-mode')">Done</button>
-        <button class="btn-secondary" id="btn-retry-missed" onclick="retryMissed()">Study Missed</button>
         <button class="btn-primary" onclick="restartSession()">Again</button>
       </div>
     </main>
   </div>
 
-  <!-- Reference image overlay -->
-  <div id="ref-overlay" class="ref-overlay hidden" onclick="hideReference()">
-    <div class="ref-overlay-inner" onclick="event.stopPropagation()">
-      <button class="ref-overlay-close" onclick="hideReference()">&#x2715;</button>
-      <img id="ref-img" class="ref-img" src="" alt="Reference chart">
+  <!-- ── Reference panel overlay ── -->
+  <div id="reference-panel" class="reference-panel hidden">
+    <div class="reference-panel-inner">
+      <div class="reference-panel-header">
+        <h2 class="reference-panel-title">Reference</h2>
+        <button class="reference-panel-close" onclick="hideReferencePanel()">&#x2715;</button>
+      </div>
+      <div id="reference-panel-content" class="reference-panel-content"></div>
     </div>
   </div>
 

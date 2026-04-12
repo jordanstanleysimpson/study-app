@@ -116,6 +116,15 @@
       "created": "2026-03-12",
       "wordCount": 110,
       "file": "data/spanish/Claire 1/claire1-school-supplies-quiz.json"
+    },
+    {
+      "id": "spanish-unit4-quiz",
+      "name": "Unit 4: Reflexive Verbs",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-04-07",
+      "wordCount": 80,
+      "file": "data/spanish/Unit 4/spanish-unit4-quiz.json"
     }
   ]
 }

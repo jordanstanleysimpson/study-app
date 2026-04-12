@@ -1,0 +1,3223 @@
+{
+  "id": "spanish-unit4-quiz",
+  "name": "Unit 4: Reflexive Verbs & Daily Routine",
+  "subject": "Spanish",
+  "type": "quiz",
+  "directional": true,
+  "created": "2026-04-07",
+  "terms": [
+    {
+      "term": "levantarse",
+      "definition": "to get up; to stand up"
+    },
+    {
+      "term": "despertarse (e→ie)",
+      "definition": "to wake up"
+    },
+    {
+      "term": "ducharse",
+      "definition": "to shower; to take a shower"
+    },
+    {
+      "term": "bañarse",
+      "definition": "to take a bath; to bathe"
+    },
+    {
+      "term": "lavarse",
+      "definition": "to wash (oneself); to wash up"
+    },
+    {
+      "term": "peinarse",
+      "definition": "to comb one's hair; to brush one's hair"
+    },
+    {
+      "term": "cepillarse los dientes",
+      "definition": "to brush one's teeth"
+    },
+    {
+      "term": "maquillarse",
+      "definition": "to put on makeup; to do one's makeup"
+    },
+    {
+      "term": "afeitarse",
+      "definition": "to shave; to shave oneself"
+    },
+    {
+      "term": "vestirse (e→i)",
+      "definition": "to get dressed"
+    },
+    {
+      "term": "ponerse (la ropa)",
+      "definition": "to put on (clothing)"
+    },
+    {
+      "term": "quitarse (la ropa)",
+      "definition": "to take off (clothing)"
+    },
+    {
+      "term": "acostarse (o→ue)",
+      "definition": "to go to bed; to lie down"
+    },
+    {
+      "term": "dormirse (o→ue)",
+      "definition": "to fall asleep"
+    },
+    {
+      "term": "sentarse (e→ie)",
+      "definition": "to sit down"
+    },
+    {
+      "term": "llamarse",
+      "definition": "to be called; to be named"
+    },
+    {
+      "term": "divertirse (e→ie)",
+      "definition": "to have fun; to enjoy oneself"
+    },
+    {
+      "term": "sentirse (e→ie)",
+      "definition": "to feel (a certain way)"
+    },
+    {
+      "term": "enfermarse",
+      "definition": "to get sick; to become ill"
+    },
+    {
+      "term": "quedarse",
+      "definition": "to stay; to remain"
+    },
+    {
+      "term": "irse",
+      "definition": "to leave; to go away"
+    },
+    {
+      "term": "preocuparse",
+      "definition": "to worry; to be worried"
+    },
+    {
+      "term": "olvidarse",
+      "definition": "to forget"
+    },
+    {
+      "term": "alegrarse",
+      "definition": "to be glad; to be happy about something"
+    },
+    {
+      "term": "aburrirse",
+      "definition": "to get bored; to be bored"
+    },
+    {
+      "term": "cansarse",
+      "definition": "to get tired; to become tired"
+    },
+    {
+      "term": "prepararse",
+      "definition": "to get ready; to prepare oneself"
+    },
+    {
+      "term": "reunirse",
+      "definition": "to get together; to meet up"
+    },
+    {
+      "term": "darse prisa",
+      "definition": "to hurry; to rush"
+    },
+    {
+      "term": "encontrarse (con)",
+      "definition": "to meet up with; to run into (someone)"
+    },
+    {
+      "term": "me",
+      "definition": "reflexive pronoun for yo"
+    },
+    {
+      "term": "te",
+      "definition": "reflexive pronoun for tú"
+    },
+    {
+      "term": "se",
+      "definition": "reflexive pronoun for él/ella/usted and ellos/ellas/ustedes"
+    },
+    {
+      "term": "nos",
+      "definition": "reflexive pronoun for nosotros"
+    },
+    {
+      "term": "os",
+      "definition": "reflexive pronoun for vosotros"
+    },
+    {
+      "term": "dormir vs. dormirse",
+      "definition": "dormir = to sleep (general); dormirse = to fall asleep (the moment of falling asleep)"
+    },
+    {
+      "term": "lavar vs. lavarse",
+      "definition": "lavar = to wash something; lavarse = to wash oneself"
+    },
+    {
+      "term": "ir vs. irse",
+      "definition": "ir = to go (somewhere); irse = to leave; to go away"
+    },
+    {
+      "term": "despertar vs. despertarse",
+      "definition": "despertar = to wake someone up; despertarse = to wake up (yourself)"
+    },
+    {
+      "term": "la boca",
+      "definition": "mouth"
+    },
+    {
+      "term": "la cabeza",
+      "definition": "head"
+    },
+    {
+      "term": "el corazón",
+      "definition": "heart"
+    },
+    {
+      "term": "el dedo",
+      "definition": "finger; toe"
+    },
+    {
+      "term": "la espalda",
+      "definition": "back (of the body)"
+    },
+    {
+      "term": "el estómago",
+      "definition": "stomach"
+    },
+    {
+      "term": "el hombro",
+      "definition": "shoulder"
+    },
+    {
+      "term": "la mano",
+      "definition": "hand"
+    },
+    {
+      "term": "la nariz",
+      "definition": "nose"
+    },
+    {
+      "term": "la oreja",
+      "definition": "ear"
+    },
+    {
+      "term": "el pecho",
+      "definition": "chest"
+    },
+    {
+      "term": "el pie",
+      "definition": "foot; feet"
+    },
+    {
+      "term": "la pierna",
+      "definition": "leg"
+    },
+    {
+      "term": "la rodilla",
+      "definition": "knee"
+    },
+    {
+      "term": "el tobillo",
+      "definition": "ankle"
+    },
+    {
+      "term": "la pasta de dientes",
+      "definition": "toothpaste"
+    },
+    {
+      "term": "el cepillo de dientes",
+      "definition": "toothbrush"
+    },
+    {
+      "term": "el champú",
+      "definition": "shampoo"
+    },
+    {
+      "term": "el acondicionador",
+      "definition": "conditioner"
+    },
+    {
+      "term": "el desodorante",
+      "definition": "deodorant"
+    },
+    {
+      "term": "el jabón",
+      "definition": "soap"
+    },
+    {
+      "term": "la toalla",
+      "definition": "towel"
+    },
+    {
+      "term": "el perfume",
+      "definition": "perfume; cologne"
+    },
+    {
+      "term": "el peine",
+      "definition": "comb"
+    },
+    {
+      "term": "la brocha de afeitar",
+      "definition": "shaving brush"
+    },
+    {
+      "term": "el espejo",
+      "definition": "mirror"
+    },
+    {
+      "term": "primero",
+      "definition": "first"
+    },
+    {
+      "term": "segundo",
+      "definition": "second; next"
+    },
+    {
+      "term": "entonces",
+      "definition": "then; so"
+    },
+    {
+      "term": "después",
+      "definition": "after; afterwards; then"
+    },
+    {
+      "term": "luego",
+      "definition": "then; later; next"
+    },
+    {
+      "term": "normalmente",
+      "definition": "normally; usually"
+    },
+    {
+      "term": "finalmente",
+      "definition": "finally"
+    },
+    {
+      "term": "todos los días",
+      "definition": "every day"
+    },
+    {
+      "term": "cada día",
+      "definition": "each day; every day"
+    },
+    {
+      "term": "a veces",
+      "definition": "sometimes"
+    },
+    {
+      "term": "muchas veces",
+      "definition": "many times; often"
+    },
+    {
+      "term": "siempre",
+      "definition": "always"
+    },
+    {
+      "term": "nunca",
+      "definition": "never"
+    }
+  ],
+  "summaries": {
+    "reflexive-pronouns": {
+      "title": "Reflexive Pronouns",
+      "type": "table",
+      "headers": [
+        "Subject",
+        "Reflexive Pronoun",
+        "Example (levantarse)"
+      ],
+      "rows": [
+        [
+          "yo",
+          "me",
+          "Me levanto."
+        ],
+        [
+          "tú",
+          "te",
+          "Te levantas."
+        ],
+        [
+          "él / ella / usted",
+          "se",
+          "Se levanta."
+        ],
+        [
+          "nosotros",
+          "nos",
+          "Nos levantamos."
+        ],
+        [
+          "vosotros",
+          "os",
+          "Os levantáis."
+        ],
+        [
+          "ellos / ellas / ustedes",
+          "se",
+          "Se levantan."
+        ]
+      ]
+    },
+    "reflexive-pairs": {
+      "title": "Reflexive vs. Non-Reflexive Verbs",
+      "type": "table",
+      "headers": [
+        "Non-reflexive",
+        "Meaning",
+        "Reflexive",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "lavar",
+          "to wash (something)",
+          "lavarse",
+          "to wash oneself"
+        ],
+        [
+          "levantar",
+          "to lift; to raise",
+          "levantarse",
+          "to get up"
+        ],
+        [
+          "despertar",
+          "to wake (someone)",
+          "despertarse",
+          "to wake up"
+        ],
+        [
+          "vestir",
+          "to dress (someone)",
+          "vestirse",
+          "to get dressed"
+        ],
+        [
+          "llamar",
+          "to call",
+          "llamarse",
+          "to be named"
+        ],
+        [
+          "ir",
+          "to go",
+          "irse",
+          "to leave; to go away"
+        ],
+        [
+          "sentar",
+          "to seat (someone)",
+          "sentarse",
+          "to sit down"
+        ],
+        [
+          "acostar",
+          "to put to bed",
+          "acostarse",
+          "to go to bed"
+        ],
+        [
+          "dormir",
+          "to sleep",
+          "dormirse",
+          "to fall asleep"
+        ],
+        [
+          "divertir",
+          "to amuse (someone)",
+          "divertirse",
+          "to have fun"
+        ]
+      ]
+    },
+    "stem-change-eie": {
+      "title": "Stem-Change e→ie Reflexive Verbs",
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "despertarse",
+        "sentarse",
+        "divertirse",
+        "sentirse"
+      ],
+      "rows": [
+        [
+          "yo",
+          "me despierto",
+          "me siento",
+          "me divierto",
+          "me siento"
+        ],
+        [
+          "tú",
+          "te despiertas",
+          "te sientas",
+          "te diviertes",
+          "te sientes"
+        ],
+        [
+          "él/ella",
+          "se despierta",
+          "se sienta",
+          "se divierte",
+          "se siente"
+        ],
+        [
+          "nosotros",
+          "nos despertamos",
+          "nos sentamos",
+          "nos divertimos",
+          "nos sentimos"
+        ],
+        [
+          "vosotros",
+          "os despertáis",
+          "os sentáis",
+          "os divertís",
+          "os sentís"
+        ],
+        [
+          "ellos",
+          "se despiertan",
+          "se sientan",
+          "se divierten",
+          "se sienten"
+        ]
+      ]
+    },
+    "stem-change-oue": {
+      "title": "Stem-Change o→ue Reflexive Verbs",
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "acostarse",
+        "dormirse"
+      ],
+      "rows": [
+        [
+          "yo",
+          "me acuesto",
+          "me duermo"
+        ],
+        [
+          "tú",
+          "te acuestas",
+          "te duermes"
+        ],
+        [
+          "él/ella",
+          "se acuesta",
+          "se duerme"
+        ],
+        [
+          "nosotros",
+          "nos acostamos",
+          "nos dormimos"
+        ],
+        [
+          "vosotros",
+          "os acostáis",
+          "os dormís"
+        ],
+        [
+          "ellos",
+          "se acuestan",
+          "se duermen"
+        ]
+      ]
+    },
+    "stem-change-ei": {
+      "title": "Stem-Change e→i Reflexive Verbs (-IR only)",
+      "type": "table",
+      "headers": [
+        "Pronoun",
+        "vestirse",
+        "despedirse",
+        "divertirse (e→ie, not ei)"
+      ],
+      "rows": [
+        [
+          "yo",
+          "me visto",
+          "me despido",
+          "—"
+        ],
+        [
+          "tú",
+          "te vistes",
+          "te despides",
+          "—"
+        ],
+        [
+          "él/ella",
+          "se viste",
+          "se despide",
+          "—"
+        ],
+        [
+          "nosotros",
+          "nos vestimos",
+          "nos despedimos",
+          "—"
+        ],
+        [
+          "vosotros",
+          "os vestís",
+          "os despedís",
+          "—"
+        ],
+        [
+          "ellos",
+          "se visten",
+          "se despiden",
+          "—"
+        ]
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "direction": "es_en",
+      "q": "What does 'levantarse' mean?",
+      "correct": "to get up; to stand up",
+      "incorrect": [
+        "to fall asleep",
+        "to sit down",
+        "to lie down; to go to bed"
+      ],
+      "why_correct": "'Levantarse' contains 'levantar' (to lift/raise) — you lift yourself up. 'Me levanto' = I get up.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep — the opposite action from getting up.",
+        "'Sentarse' means to sit down — to lower yourself into a seat, not rise from one.",
+        "'Acostarse' means to go to bed / lie down — again the opposite, going horizontal."
+      ],
+      "tip": "Think about 'levantar' — to lift or raise. What would you do to yourself when getting out of bed?"
+    },
+    {
+      "id": "q002",
+      "direction": "en_es",
+      "q": "How do you say 'to get up; to stand up'?",
+      "correct": "levantarse",
+      "incorrect": [
+        "dormirse",
+        "sentarse",
+        "acostarse"
+      ],
+      "why_correct": "'Levantarse' is from 'levantar' (to lift/raise) + reflexive -se: you raise yourself.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep.",
+        "'Sentarse' means to sit down.",
+        "'Acostarse' means to go to bed; to lie down."
+      ],
+      "tip": "The root verb 'levantar' means to lift or raise — what is the reflexive form?"
+    },
+    {
+      "id": "q003",
+      "direction": "es_en",
+      "q": "What does 'despertarse' mean?",
+      "correct": "to wake up",
+      "incorrect": [
+        "to fall asleep",
+        "to get up",
+        "to yawn; to be sleepy"
+      ],
+      "why_correct": "'Despertarse' (e→ie) comes from 'despertar' (to awaken someone). The reflexive form means you wake yourself up — 'Me despierto a las siete' = I wake up at seven.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep — the opposite moment: when you close your eyes, not open them.",
+        "'Levantarse' means to get up (physically out of bed) — you can wake up before you get up.",
+        "There is no common reflexive verb for 'to yawn'; 'tener sueño' means to be sleepy."
+      ],
+      "tip": "Think of 'el despertador' — that's Spanish for an alarm clock. What does an alarm clock do to you?"
+    },
+    {
+      "id": "q004",
+      "direction": "en_es",
+      "q": "How do you say 'to wake up'?",
+      "correct": "despertarse",
+      "incorrect": [
+        "dormirse",
+        "levantarse",
+        "cansarse"
+      ],
+      "why_correct": "'Despertarse' is the reflexive form of 'despertar' (to wake someone). E→ie stem change: yo me despierto.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep — opposite of waking up.",
+        "'Levantarse' means to get up — the physical act of rising from bed, not the moment of waking.",
+        "'Cansarse' means to get tired."
+      ],
+      "tip": "The noun 'el despertador' (alarm clock) contains this verb. What does the alarm do?"
+    },
+    {
+      "id": "q005",
+      "direction": "es_en",
+      "q": "What does 'ducharse' mean?",
+      "correct": "to shower; to take a shower",
+      "incorrect": [
+        "to take a bath; to bathe",
+        "to wash one's hair",
+        "to get dressed"
+      ],
+      "why_correct": "'Ducharse' comes from 'la ducha' (shower). 'Me ducho por la mañana' = I shower in the morning.",
+      "why_wrong": [
+        "'Bañarse' means to take a bath — a tub bath, not a shower. 'El baño' = bathroom/bath.",
+        "'Lavarse el pelo' means to wash one's hair — a specific part of hygiene, not the full shower.",
+        "'Vestirse' means to get dressed — this happens after bathing, not during."
+      ],
+      "tip": "Think of 'la ducha' — what bathroom fixture is that in English?"
+    },
+    {
+      "id": "q006",
+      "direction": "en_es",
+      "q": "How do you say 'to shower; to take a shower'?",
+      "correct": "ducharse",
+      "incorrect": [
+        "bañarse",
+        "lavarse",
+        "peinarse"
+      ],
+      "why_correct": "'Ducharse' is from 'la ducha' (the shower). Regular -ar reflexive verb.",
+      "why_wrong": [
+        "'Bañarse' means to take a bath in a tub.",
+        "'Lavarse' means to wash (oneself) — more general, or used for specific body parts like 'lavarse las manos'.",
+        "'Peinarse' means to comb/brush one's hair."
+      ],
+      "tip": "The noun 'la ducha' means shower — what reflexive verb comes from it?"
+    },
+    {
+      "id": "q007",
+      "direction": "es_en",
+      "q": "What does 'bañarse' mean?",
+      "correct": "to take a bath; to bathe",
+      "incorrect": [
+        "to shower",
+        "to wash one's face",
+        "to swim"
+      ],
+      "why_correct": "'Bañarse' comes from 'el baño' (the bath/bathroom). In many Latin American countries, 'bañarse' is used more broadly to mean bathing in general (including showering).",
+      "why_wrong": [
+        "'Ducharse' specifically means to take a shower using a shower head.",
+        "'Lavarse la cara' means to wash one's face — a more specific action.",
+        "'Nadar' means to swim — though water is involved, 'bañarse' refers to bathing for hygiene, not sport."
+      ],
+      "tip": "Think of 'el baño' — what room in the house does that describe?"
+    },
+    {
+      "id": "q008",
+      "direction": "en_es",
+      "q": "How do you say 'to take a bath; to bathe'?",
+      "correct": "bañarse",
+      "incorrect": [
+        "ducharse",
+        "lavarse",
+        "mojarse"
+      ],
+      "why_correct": "'Bañarse' is from 'el baño' (bath/bathroom). Regular -ar reflexive verb.",
+      "why_wrong": [
+        "'Ducharse' means to take a shower specifically.",
+        "'Lavarse' means to wash (oneself) — general washing, not specifically bathing.",
+        "'Mojarse' means to get wet — not the same as intentionally bathing."
+      ],
+      "tip": "The noun 'el baño' (bath/bathroom) gives you the verb. What reflexive form does it take?"
+    },
+    {
+      "id": "q009",
+      "direction": "es_en",
+      "q": "What does 'lavarse' mean?",
+      "correct": "to wash (oneself); to wash up",
+      "incorrect": [
+        "to comb one's hair",
+        "to brush one's teeth",
+        "to dry off"
+      ],
+      "why_correct": "'Lavarse' = 'lavar' (to wash) + reflexive -se. 'Lavarse las manos' = to wash one's hands. The action of washing applies to oneself.",
+      "why_wrong": [
+        "'Peinarse' means to comb/brush one's hair — a grooming action, not washing.",
+        "'Cepillarse los dientes' means to brush one's teeth.",
+        "'Secarse' means to dry off — what you do after washing."
+      ],
+      "tip": "Think of 'lavar' (to wash something). Made reflexive — who receives the action?"
+    },
+    {
+      "id": "q010",
+      "direction": "en_es",
+      "q": "How do you say 'to wash (oneself); to wash up'?",
+      "correct": "lavarse",
+      "incorrect": [
+        "peinarse",
+        "cepillarse",
+        "secarse"
+      ],
+      "why_correct": "'Lavarse' = 'lavar' (to wash) made reflexive. 'Me lavo las manos' = I wash my hands.",
+      "why_wrong": [
+        "'Peinarse' means to comb/brush one's hair.",
+        "'Cepillarse' means to brush (teeth or hair).",
+        "'Secarse' means to dry oneself off."
+      ],
+      "tip": "Think of 'lavar' (to wash). 'Lavarse las manos' means to wash one's ___."
+    },
+    {
+      "id": "q011",
+      "direction": "es_en",
+      "q": "What does 'peinarse' mean?",
+      "correct": "to comb one's hair; to brush one's hair",
+      "incorrect": [
+        "to brush one's teeth",
+        "to put on makeup",
+        "to shave"
+      ],
+      "why_correct": "'Peinarse' comes from 'el peine' (comb). It means grooming your hair with a comb or brush. 'Me peino antes de salir' = I brush my hair before going out.",
+      "why_wrong": [
+        "'Cepillarse los dientes' means to brush one's teeth — a brush, but on teeth, not hair.",
+        "'Maquillarse' means to put on makeup — cosmetics, not hair grooming.",
+        "'Afeitarse' means to shave — a razor, not a comb."
+      ],
+      "tip": "Think of 'el peine' — what small grooming tool is that in English?"
+    },
+    {
+      "id": "q012",
+      "direction": "en_es",
+      "q": "How do you say 'to comb one's hair; to brush one's hair'?",
+      "correct": "peinarse",
+      "incorrect": [
+        "cepillarse los dientes",
+        "maquillarse",
+        "afeitarse"
+      ],
+      "why_correct": "'Peinarse' is from 'el peine' (comb). Regular -ar reflexive verb.",
+      "why_wrong": [
+        "'Cepillarse los dientes' means to brush one's teeth.",
+        "'Maquillarse' means to put on makeup.",
+        "'Afeitarse' means to shave."
+      ],
+      "tip": "The noun 'el peine' (comb) gives you the verb. What reflexive form does it take?"
+    },
+    {
+      "id": "q013",
+      "direction": "es_en",
+      "q": "What does 'cepillarse los dientes' mean?",
+      "correct": "to brush one's teeth",
+      "incorrect": [
+        "to comb one's hair",
+        "to put on lipstick",
+        "to rinse one's mouth"
+      ],
+      "why_correct": "'Cepillarse' comes from 'el cepillo' (brush). 'Los dientes' = the teeth. Together: to brush one's teeth. 'Me cepillo los dientes dos veces al día' = I brush my teeth twice a day.",
+      "why_wrong": [
+        "'Peinarse' means to comb/brush one's hair — also uses a brush, but for hair, not teeth.",
+        "There is no common reflexive verb for 'to put on lipstick'; it falls under 'maquillarse'.",
+        "'Enjuagarse' means to rinse oneself — different from brushing."
+      ],
+      "tip": "'El cepillo' means brush, 'los dientes' means the teeth — what daily hygiene task do these together describe?"
+    },
+    {
+      "id": "q014",
+      "direction": "en_es",
+      "q": "How do you say 'to brush one's teeth'?",
+      "correct": "cepillarse los dientes",
+      "incorrect": [
+        "peinarse",
+        "lavarse la cara",
+        "afeitarse"
+      ],
+      "why_correct": "'Cepillarse los dientes' = 'el cepillo' (brush) + reflexive + 'los dientes' (the teeth).",
+      "why_wrong": [
+        "'Peinarse' means to comb/brush one's hair, not teeth.",
+        "'Lavarse la cara' means to wash one's face.",
+        "'Afeitarse' means to shave — also involves the face, but with a razor, not a toothbrush."
+      ],
+      "tip": "You need the reflexive of 'el cepillo' (brush) combined with 'los dientes' (the teeth)."
+    },
+    {
+      "id": "q015",
+      "direction": "es_en",
+      "q": "What does 'maquillarse' mean?",
+      "correct": "to put on makeup; to do one's makeup",
+      "incorrect": [
+        "to shave",
+        "to get dressed",
+        "to comb one's hair"
+      ],
+      "why_correct": "'Maquillarse' comes from 'el maquillaje' (makeup). 'Me maquillo antes de salir' = I put on makeup before going out.",
+      "why_wrong": [
+        "'Afeitarse' means to shave — also a grooming task but involves a razor, not cosmetics.",
+        "'Vestirse' means to get dressed — putting on clothing, not cosmetics.",
+        "'Peinarse' means to comb/brush one's hair — hair grooming, not makeup."
+      ],
+      "tip": "Think of 'el maquillaje' — what beauty product is that in English?"
+    },
+    {
+      "id": "q016",
+      "direction": "en_es",
+      "q": "How do you say 'to put on makeup; to do one's makeup'?",
+      "correct": "maquillarse",
+      "incorrect": [
+        "afeitarse",
+        "vestirse",
+        "ponerse"
+      ],
+      "why_correct": "'Maquillarse' is from 'el maquillaje' (makeup). Regular -ar reflexive verb.",
+      "why_wrong": [
+        "'Afeitarse' means to shave.",
+        "'Vestirse' means to get dressed.",
+        "'Ponerse' means to put on clothing — not makeup specifically."
+      ],
+      "tip": "The noun 'el maquillaje' (makeup) gives you the verb."
+    },
+    {
+      "id": "q017",
+      "direction": "es_en",
+      "q": "What does 'afeitarse' mean?",
+      "correct": "to shave; to shave oneself",
+      "incorrect": [
+        "to brush one's teeth",
+        "to comb one's hair",
+        "to put on deodorant"
+      ],
+      "why_correct": "'Afeitarse' comes from 'la afeitadora' (razor/electric shaver) or 'afeitar' (to shave someone). The reflexive means you shave yourself. 'Mi padre se afeita cada mañana' = My father shaves every morning.",
+      "why_wrong": [
+        "'Cepillarse los dientes' means to brush one's teeth — a brush to the face area, but a very different action.",
+        "'Peinarse' means to comb/brush hair — grooming hair, not removing facial hair.",
+        "There is no common reflexive verb specifically for 'deodorant'; 'ponerse desodorante' would be used."
+      ],
+      "tip": "Think of 'la afeitadora' — what grooming appliance is that?"
+    },
+    {
+      "id": "q018",
+      "direction": "en_es",
+      "q": "How do you say 'to shave; to shave oneself'?",
+      "correct": "afeitarse",
+      "incorrect": [
+        "cepillarse los dientes",
+        "peinarse",
+        "maquillarse"
+      ],
+      "why_correct": "'Afeitarse' is from 'la afeitadora' (razor). Regular -ar reflexive verb.",
+      "why_wrong": [
+        "'Cepillarse los dientes' means to brush one's teeth.",
+        "'Peinarse' means to comb/brush one's hair.",
+        "'Maquillarse' means to put on makeup — applying something to the face, but cosmetics, not a razor."
+      ],
+      "tip": "The noun 'la afeitadora' (razor/shaver) gives you the verb."
+    },
+    {
+      "id": "q019",
+      "direction": "es_en",
+      "q": "What does 'vestirse' mean?",
+      "correct": "to get dressed",
+      "incorrect": [
+        "to put on (one garment)",
+        "to take off clothing",
+        "to try on clothing"
+      ],
+      "why_correct": "'Vestirse' (e→i) comes from 'vestir' (to dress someone). The reflexive means to dress yourself. 'Me visto rápidamente' = I get dressed quickly. Note: e→i stem change in all forms except nosotros/vosotros.",
+      "why_wrong": [
+        "'Ponerse' means to put on a single garment (a coat, shoes, etc.) — more specific than the full act of getting dressed.",
+        "'Quitarse' means to take off clothing — the opposite of vestirse.",
+        "'Probarse' means to try on clothing — in a fitting room, not getting dressed for the day."
+      ],
+      "tip": "Think of 'vestir' (to dress someone else). Made reflexive — who gets dressed now?"
+    },
+    {
+      "id": "q020",
+      "direction": "en_es",
+      "q": "How do you say 'to get dressed'?",
+      "correct": "vestirse",
+      "incorrect": [
+        "ponerse",
+        "quitarse",
+        "probarse"
+      ],
+      "why_correct": "'Vestirse' (e→i) is the full act of getting dressed. Conjugation: me visto, te vistes, se viste, nos vestimos.",
+      "why_wrong": [
+        "'Ponerse' means to put on a specific item of clothing.",
+        "'Quitarse' means to take off clothing — the opposite.",
+        "'Probarse' means to try on clothing in a store."
+      ],
+      "tip": "The non-reflexive 'vestir' means to dress someone else. Add the reflexive — who does the dressing now?"
+    },
+    {
+      "id": "q021",
+      "direction": "es_en",
+      "q": "What does 'ponerse (la ropa)' mean?",
+      "correct": "to put on (clothing)",
+      "incorrect": [
+        "to get dressed (completely)",
+        "to take off clothing",
+        "to wear; to be wearing"
+      ],
+      "why_correct": "'Ponerse' = 'poner' (to put/place) + reflexive. 'Me pongo el abrigo' = I put on my coat. It refers to the act of putting on a specific garment.",
+      "why_wrong": [
+        "'Vestirse' means to get dressed completely — the full morning routine of getting dressed, not a single item.",
+        "'Quitarse' means to take off clothing — the opposite action.",
+        "'Llevar' means to wear or to be wearing (a state, not an action)."
+      ],
+      "tip": "Think of 'poner' (to put or place). Made reflexive with 'la ropa' (clothing)."
+    },
+    {
+      "id": "q022",
+      "direction": "en_es",
+      "q": "How do you say 'to put on (clothing)'?",
+      "correct": "ponerse",
+      "incorrect": [
+        "vestirse",
+        "quitarse",
+        "llevar"
+      ],
+      "why_correct": "'Ponerse' = reflexive of 'poner' (to put). 'Me pongo los zapatos' = I put on my shoes.",
+      "why_wrong": [
+        "'Vestirse' means to get completely dressed.",
+        "'Quitarse' means to take off clothing.",
+        "'Llevar' means to wear (a state) — 'Llevo una camisa roja' = I'm wearing a red shirt."
+      ],
+      "tip": "The root verb 'poner' means to put or place. Made reflexive — what do you put on yourself?"
+    },
+    {
+      "id": "q023",
+      "direction": "es_en",
+      "q": "What does 'quitarse (la ropa)' mean?",
+      "correct": "to take off (clothing)",
+      "incorrect": [
+        "to put on clothing",
+        "to get undressed completely",
+        "to lose clothing"
+      ],
+      "why_correct": "'Quitarse' = 'quitar' (to remove/take away) + reflexive. 'Me quito los zapatos al llegar a casa' = I take off my shoes when I get home.",
+      "why_wrong": [
+        "'Ponerse' means to put on clothing — the opposite action.",
+        "'Desvestirse' or 'desnudarse' means to get completely undressed — quitarse refers to specific items.",
+        "No common reflexive verb means 'to lose clothing'; 'perder' (to lose) is non-reflexive here."
+      ],
+      "tip": "Think of 'quitar' (to remove or take away). Made reflexive with 'la ropa'."
+    },
+    {
+      "id": "q024",
+      "direction": "en_es",
+      "q": "How do you say 'to take off (clothing)'?",
+      "correct": "quitarse",
+      "incorrect": [
+        "ponerse",
+        "vestirse",
+        "desvestirse"
+      ],
+      "why_correct": "'Quitarse' = 'quitar' (to remove) + reflexive. 'Me quito la chaqueta' = I take off my jacket.",
+      "why_wrong": [
+        "'Ponerse' means to put on — the opposite.",
+        "'Vestirse' means to get dressed.",
+        "'Desvestirse' means to completely undress — broader than taking off a single item."
+      ],
+      "tip": "The root verb 'quitar' means to remove. Made reflexive — what do you remove from yourself?"
+    },
+    {
+      "id": "q025",
+      "direction": "es_en",
+      "q": "What does 'acostarse' mean?",
+      "correct": "to go to bed; to lie down",
+      "incorrect": [
+        "to fall asleep",
+        "to wake up",
+        "to get up"
+      ],
+      "why_correct": "'Acostarse' (o→ue) comes from 'acostar' (to put someone to bed). 'Me acuesto a las diez' = I go to bed at ten. Note the stem change: me acuesto, te acuestas, se acuesta.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep — what happens after you go to bed, not the act of going.",
+        "'Despertarse' means to wake up — the opposite end of the sleeping cycle.",
+        "'Levantarse' means to get up — the morning action, opposite of going to bed."
+      ],
+      "tip": "Think of 'acostar' (to put someone to bed). Made reflexive — what do you do to yourself at night?"
+    },
+    {
+      "id": "q026",
+      "direction": "en_es",
+      "q": "How do you say 'to go to bed; to lie down'?",
+      "correct": "acostarse",
+      "incorrect": [
+        "dormirse",
+        "despertarse",
+        "levantarse"
+      ],
+      "why_correct": "'Acostarse' (o→ue) = 'acostar' (to put to bed) made reflexive. Me acuesto, te acuestas, se acuesta.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep — different from the act of going to bed.",
+        "'Despertarse' means to wake up.",
+        "'Levantarse' means to get up — opposite action."
+      ],
+      "tip": "The root verb 'acostar' means to put someone to bed. Made reflexive, with o→ue stem change."
+    },
+    {
+      "id": "q027",
+      "direction": "es_en",
+      "q": "What does 'dormirse' mean?",
+      "correct": "to fall asleep",
+      "incorrect": [
+        "to sleep",
+        "to go to bed",
+        "to take a nap"
+      ],
+      "why_correct": "'Dormirse' (o→ue) = 'dormir' (to sleep) made reflexive. The reflexive emphasizes the moment of falling asleep. 'Me dormí en el sofá' = I fell asleep on the couch.",
+      "why_wrong": [
+        "'Dormir' (non-reflexive) means to sleep — the ongoing state of sleeping, not the moment of falling asleep.",
+        "'Acostarse' means to go to bed — the physical act of getting into bed, which happens before you fall asleep.",
+        "'Dormir una siesta' means to take a nap — a type of sleeping, but still 'dormir', not 'dormirse'."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Compare 'dormir' (to sleep) to its reflexive form. One captures a specific moment — which one?"
+    },
+    {
+      "id": "q028",
+      "direction": "en_es",
+      "q": "How do you say 'to fall asleep'?",
+      "correct": "dormirse",
+      "incorrect": [
+        "dormir",
+        "acostarse",
+        "descansar"
+      ],
+      "why_correct": "'Dormirse' (o→ue) is the reflexive of 'dormir'. It captures the moment of falling asleep. Me duermo, te duermes, se duerme.",
+      "why_wrong": [
+        "'Dormir' means to sleep (the ongoing state) — not the specific moment of falling asleep.",
+        "'Acostarse' means to go to bed — different from actually falling asleep.",
+        "'Descansar' means to rest — not necessarily to fall asleep."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "You need the reflexive of 'dormir'. Think: ongoing state of sleeping vs. the moment you fall asleep."
+    },
+    {
+      "id": "q029",
+      "direction": "es_en",
+      "q": "What does 'sentarse' mean?",
+      "correct": "to sit down",
+      "incorrect": [
+        "to stand up",
+        "to get up",
+        "to kneel down"
+      ],
+      "why_correct": "'Sentarse' (e→ie) = 'sentar' (to seat someone) made reflexive. 'Siéntate aquí' = Sit down here. Stem change: me siento, te sientas, se sienta.",
+      "why_wrong": [
+        "'Levantarse' means to stand up / get up — the opposite action.",
+        "'Ponerse de pie' means to stand up — again the opposite.",
+        "There is no common reflexive verb for 'to kneel'; 'arrodillarse' means to kneel."
+      ],
+      "tip": "Think of 'sentar' (to seat someone). Made reflexive — what do you do to yourself?"
+    },
+    {
+      "id": "q030",
+      "direction": "en_es",
+      "q": "How do you say 'to sit down'?",
+      "correct": "sentarse",
+      "incorrect": [
+        "levantarse",
+        "ponerse de pie",
+        "agacharse"
+      ],
+      "why_correct": "'Sentarse' (e→ie): me siento, te sientas, se sienta. From 'sentar' (to seat).",
+      "why_wrong": [
+        "'Levantarse' means to stand up / get up.",
+        "'Ponerse de pie' means to stand up (literally: to put oneself on foot).",
+        "'Agacharse' means to crouch down / bend over — not to sit."
+      ],
+      "tip": "The root verb 'sentar' means to seat someone. Made reflexive with e→ie stem change."
+    },
+    {
+      "id": "q031",
+      "direction": "es_en",
+      "q": "What does 'llamarse' mean?",
+      "correct": "to be called; to be named",
+      "incorrect": [
+        "to call (someone else)",
+        "to be famous",
+        "to introduce oneself"
+      ],
+      "why_correct": "'Llamarse' = 'llamar' (to call) made reflexive — you are called by a name. '¿Cómo te llamas?' = What is your name? (lit. What do you call yourself?)",
+      "why_wrong": [
+        "'Llamar' (non-reflexive) means to call someone else — 'Te llamo esta noche' = I'll call you tonight.",
+        "'Ser famoso' means to be famous — not related to one's name.",
+        "'Presentarse' means to introduce oneself — different from simply being named."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Think of the question '¿Cómo te llamas?' — the most familiar use of this verb."
+    },
+    {
+      "id": "q032",
+      "direction": "en_es",
+      "q": "How do you say 'to be called; to be named'?",
+      "correct": "llamarse",
+      "incorrect": [
+        "llamar",
+        "presentarse",
+        "nombrarse"
+      ],
+      "why_correct": "'Llamarse' = reflexive of 'llamar'. 'Me llamo Ana' = My name is Ana (I am called Ana).",
+      "why_wrong": [
+        "'Llamar' means to call someone else — non-reflexive.",
+        "'Presentarse' means to introduce oneself — more formal, not just stating your name.",
+        "'Nombrarse' is not commonly used for personal names in everyday Spanish."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "You use this verb every time you ask someone's name: '¿Cómo te ___?'"
+    },
+    {
+      "id": "q033",
+      "direction": "es_en",
+      "q": "What does 'divertirse' mean?",
+      "correct": "to have fun; to enjoy oneself",
+      "incorrect": [
+        "to amuse someone else",
+        "to play sports",
+        "to laugh; to joke"
+      ],
+      "why_correct": "'Divertirse' (e→ie) = 'divertir' (to amuse/entertain someone) made reflexive. You amuse yourself. '¡Diviértete!' = Have fun! Stem change: me divierto, te diviertes, se divierte.",
+      "why_wrong": [
+        "'Divertir' (non-reflexive) means to amuse or entertain someone else.",
+        "'Practicar deportes' means to play sports — an activity that might be fun, but not the same verb.",
+        "'Reírse' means to laugh — a possible result of having fun, but a different verb."
+      ],
+      "concepts": [
+        "reflexive-pairs",
+        "stem-change-eie"
+      ],
+      "tip": "Think of 'divertir' (to amuse someone else). Made reflexive — you amuse yourself."
+    },
+    {
+      "id": "q034",
+      "direction": "en_es",
+      "q": "How do you say 'to have fun; to enjoy oneself'?",
+      "correct": "divertirse",
+      "incorrect": [
+        "divertir",
+        "jugar",
+        "reírse"
+      ],
+      "why_correct": "'Divertirse' (e→ie): me divierto, te diviertes, se divierte, nos divertimos.",
+      "why_wrong": [
+        "'Divertir' means to entertain or amuse someone else.",
+        "'Jugar' means to play — a possible activity, but not 'to have fun' specifically.",
+        "'Reírse' means to laugh — a reaction, not the general concept of having fun."
+      ],
+      "concepts": [
+        "reflexive-pairs",
+        "stem-change-eie"
+      ],
+      "tip": "The root verb 'divertir' means to entertain someone. Made reflexive with e→ie stem change."
+    },
+    {
+      "id": "q035",
+      "direction": "es_en",
+      "q": "What does 'sentirse' mean?",
+      "correct": "to feel (a certain way)",
+      "incorrect": [
+        "to sit down",
+        "to sense (something external)",
+        "to feel pain"
+      ],
+      "why_correct": "'Sentirse' (e→ie) refers to emotional or physical feelings about oneself. 'Me siento cansada' = I feel tired. 'Me siento bien' = I feel well. Note: e→ie stem change.",
+      "why_wrong": [
+        "'Sentarse' (e→ie) means to sit down — completely different verb despite similar spelling. 'Sentarse' vs 'sentirse' is a common mix-up.",
+        "'Sentir' (non-reflexive) can mean to sense/perceive something external or to feel sorry ('Lo siento' = I'm sorry).",
+        "'Doler' means to hurt/ache — 'Me duele la cabeza' = My head hurts. Different construction."
+      ],
+      "concepts": [
+        "stem-change-eie"
+      ],
+      "tip": "Watch out — 'sentirse' and 'sentarse' look very similar. This one is about your internal state, not your position."
+    },
+    {
+      "id": "q036",
+      "direction": "en_es",
+      "q": "How do you say 'to feel (a certain way)'?",
+      "correct": "sentirse",
+      "incorrect": [
+        "sentarse",
+        "sentir",
+        "estar"
+      ],
+      "why_correct": "'Sentirse' (e→ie) = 'sentir' made reflexive. Used for how you feel. Me siento, te sientes, se siente.",
+      "why_wrong": [
+        "'Sentarse' means to sit down — easy to confuse with 'sentirse' but completely different.",
+        "'Sentir' means to feel/sense something external, or to feel sorry.",
+        "'Estar' is used with adjectives to describe states ('Estoy cansado'), but 'sentirse' is specifically 'to feel'."
+      ],
+      "concepts": [
+        "stem-change-eie"
+      ],
+      "tip": "Don't confuse this with 'sentarse' (to sit down). This verb describes how you feel inside."
+    },
+    {
+      "id": "q037",
+      "direction": "es_en",
+      "q": "What does 'enfermarse' mean?",
+      "correct": "to get sick; to become ill",
+      "incorrect": [
+        "to feel tired",
+        "to have a headache",
+        "to take medicine"
+      ],
+      "why_correct": "'Enfermarse' = 'enfermar' (to get sick) + reflexive. 'El/la enfermo/a' = sick person. 'Me enfermé la semana pasada' = I got sick last week.",
+      "why_wrong": [
+        "'Cansarse' means to get tired — uncomfortable, but not the same as becoming ill.",
+        "'Dolerle la cabeza' means to have a headache — a symptom, not the general concept of getting sick.",
+        "'Tomar medicina' / 'medicarse' means to take medicine — a response to being sick, not getting sick."
+      ],
+      "tip": "Think of 'el enfermo' or 'la enferma' — the Spanish word for a sick person."
+    },
+    {
+      "id": "q038",
+      "direction": "en_es",
+      "q": "How do you say 'to get sick; to become ill'?",
+      "correct": "enfermarse",
+      "incorrect": [
+        "cansarse",
+        "doler",
+        "recuperarse"
+      ],
+      "why_correct": "'Enfermarse' is from 'el/la enfermo/a' (sick person). Regular -ar reflexive verb.",
+      "why_wrong": [
+        "'Cansarse' means to get tired — not the same as getting sick.",
+        "'Doler' means to hurt/ache — a symptom, not the process of falling ill.",
+        "'Recuperarse' means to recover — what happens after you get sick."
+      ],
+      "tip": "The adjective 'enfermo/a' (sick) gives you the root. What reflexive verb comes from it?"
+    },
+    {
+      "id": "q039",
+      "direction": "es_en",
+      "q": "What does 'quedarse' mean?",
+      "correct": "to stay; to remain",
+      "incorrect": [
+        "to leave; to go away",
+        "to wait",
+        "to hide"
+      ],
+      "why_correct": "'Quedarse' = 'quedar' + reflexive. Emphasizes staying in one place. 'Me quedo en casa hoy' = I'm staying home today. 'Quédate aquí' = Stay here.",
+      "why_wrong": [
+        "'Irse' means to leave / go away — the opposite of staying.",
+        "'Esperar' means to wait — you might stay and wait, but they're different concepts.",
+        "'Esconderse' means to hide — different action."
+      ],
+      "tip": "Think of the command '¡Quédate aquí!' — what are you being told to do?"
+    },
+    {
+      "id": "q040",
+      "direction": "en_es",
+      "q": "How do you say 'to stay; to remain'?",
+      "correct": "quedarse",
+      "incorrect": [
+        "irse",
+        "esperar",
+        "volver"
+      ],
+      "why_correct": "'Quedarse' is the reflexive of 'quedar'. 'Me quedo' = I stay.",
+      "why_wrong": [
+        "'Irse' means to leave — opposite of staying.",
+        "'Esperar' means to wait — not the same as staying.",
+        "'Volver' means to return — implies you left and came back."
+      ],
+      "tip": "The root verb 'quedar' made reflexive. Think of '¡Quédate!' — what does it mean?"
+    },
+    {
+      "id": "q041",
+      "direction": "es_en",
+      "q": "What does 'irse' mean?",
+      "correct": "to leave; to go away",
+      "incorrect": [
+        "to go (somewhere specific)",
+        "to run away",
+        "to disappear"
+      ],
+      "why_correct": "'Irse' = 'ir' (to go) made reflexive. The reflexive adds the nuance of departing from the current location. '¡Vámonos!' = Let's get out of here! / Let's go! 'Se fue' = He/she left.",
+      "why_wrong": [
+        "'Ir' (non-reflexive) means to go to a specific destination — 'Voy al colegio' = I go to school. 'Irse' emphasizes leaving, not a specific destination.",
+        "'Escaparse' / 'huir' means to run away/flee — implies urgency or escape, not just leaving.",
+        "'Desaparecer' means to disappear — not the same as leaving."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Compare 'ir' (to go to a specific place) to its reflexive form. The reflexive adds the idea of departing."
+    },
+    {
+      "id": "q042",
+      "direction": "en_es",
+      "q": "How do you say 'to leave; to go away'?",
+      "correct": "irse",
+      "incorrect": [
+        "ir",
+        "salir",
+        "marcharse"
+      ],
+      "why_correct": "'Irse' = reflexive of 'ir'. 'Me voy' = I'm leaving. Conjugated like 'ir' but with reflexive pronouns.",
+      "why_wrong": [
+        "'Ir' means to go to somewhere specific, not to leave.",
+        "'Salir' means to go out / to exit — often used for leaving a place, but more literal than 'irse'.",
+        "'Marcharse' is a near-synonym of 'irse' (to leave/depart) — both are acceptable, but 'irse' is more common."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Compare 'ir' (to go somewhere) to its reflexive. Think: leaving where you are vs. going to a new place."
+    },
+    {
+      "id": "q043",
+      "direction": "es_en",
+      "q": "What does 'preocuparse' mean?",
+      "correct": "to worry; to be worried",
+      "incorrect": [
+        "to take care of someone",
+        "to be careful",
+        "to stress out (physically)"
+      ],
+      "why_correct": "'Preocuparse' = 'preocupar' (to worry someone) made reflexive. 'No te preocupes' = Don't worry. 'Me preocupa mucho' uses non-reflexive; 'Me preocupo' uses reflexive.",
+      "why_wrong": [
+        "'Cuidar' means to take care of someone — 'cuidar a alguien' — different word and concept.",
+        "'Tener cuidado' means to be careful — an entirely different phrase.",
+        "'Estresarse' means to get/be stressed — close in meaning but 'preocuparse' specifically means to worry."
+      ],
+      "tip": "Think of 'No te preocupes' — the most common Spanish phrase using this verb."
+    },
+    {
+      "id": "q044",
+      "direction": "en_es",
+      "q": "How do you say 'to worry; to be worried'?",
+      "correct": "preocuparse",
+      "incorrect": [
+        "cuidar",
+        "tener miedo",
+        "estresarse"
+      ],
+      "why_correct": "'Preocuparse' = 'preocupar' made reflexive. 'No te preocupes' = Don't worry.",
+      "why_wrong": [
+        "'Cuidar' means to take care of.",
+        "'Tener miedo' means to be afraid — fear, not worry.",
+        "'Estresarse' means to get stressed — related but different from worrying."
+      ],
+      "tip": "The phrase 'No te ___es' tells someone not to worry. What is the verb?"
+    },
+    {
+      "id": "q045",
+      "direction": "es_en",
+      "q": "What does 'olvidarse' mean?",
+      "correct": "to forget",
+      "incorrect": [
+        "to remember",
+        "to lose something",
+        "to ignore"
+      ],
+      "why_correct": "'Olvidarse' (de) = 'olvidar' (to forget) made reflexive. 'Se me olvidó' = I forgot (it slipped my mind). 'No te olvides de llamarme' = Don't forget to call me.",
+      "why_wrong": [
+        "'Recordar' means to remember — the opposite of forgetting.",
+        "'Perder' means to lose something physically — not the same as forgetting.",
+        "'Ignorar' means to ignore — you actively choose to ignore, whereas forgetting is unintentional."
+      ],
+      "tip": "Think of 'olvidar' (to forget something). Made reflexive with 'de'."
+    },
+    {
+      "id": "q046",
+      "direction": "en_es",
+      "q": "How do you say 'to forget'?",
+      "correct": "olvidarse",
+      "incorrect": [
+        "recordar",
+        "perder",
+        "ignorar"
+      ],
+      "why_correct": "'Olvidarse' (de) = reflexive of 'olvidar'. 'Me olvidé de tus llaves' = I forgot your keys.",
+      "why_wrong": [
+        "'Recordar' means to remember.",
+        "'Perder' means to physically lose something.",
+        "'Ignorar' means to ignore — intentional, not forgetful."
+      ],
+      "tip": "The root verb 'olvidar' means to forget. Made reflexive: 'olvidarse de algo'."
+    },
+    {
+      "id": "q047",
+      "direction": "es_en",
+      "q": "What does 'alegrarse' mean?",
+      "correct": "to be glad; to be happy about something",
+      "incorrect": [
+        "to be sad",
+        "to laugh; to have fun",
+        "to feel relieved"
+      ],
+      "why_correct": "'Alegrarse' = 'alegrar' (to make happy) made reflexive. 'Me alegro de verte' = I'm glad to see you. '¡Qué alegría!' = What joy!",
+      "why_wrong": [
+        "'Entristecerse' / 'ponerse triste' means to become sad — the opposite of alegrarse.",
+        "'Reírse' means to laugh; 'divertirse' means to have fun — related to happiness but different verbs.",
+        "'Aliviarse' means to feel relieved — a specific type of good feeling, not the same as gladness."
+      ],
+      "tip": "Think of the adjective 'alegre' (happy/cheerful). What reflexive verb comes from it?"
+    },
+    {
+      "id": "q048",
+      "direction": "en_es",
+      "q": "How do you say 'to be glad; to be happy about something'?",
+      "correct": "alegrarse",
+      "incorrect": [
+        "entristecerse",
+        "divertirse",
+        "aliviarse"
+      ],
+      "why_correct": "'Alegrarse' = reflexive of 'alegrar'. From 'alegre' (happy/joyful). 'Me alegro mucho' = I'm very glad.",
+      "why_wrong": [
+        "'Entristecerse' means to become sad.",
+        "'Divertirse' means to have fun — fun and gladness are related but distinct.",
+        "'Aliviarse' means to feel relieved."
+      ],
+      "tip": "The adjective 'alegre' (joyful) gives you the verb. 'Me alegro de verte' — what does that suggest?"
+    },
+    {
+      "id": "q049",
+      "direction": "es_en",
+      "q": "What does 'aburrirse' mean?",
+      "correct": "to get bored; to be bored",
+      "incorrect": [
+        "to bore someone else",
+        "to get tired",
+        "to feel annoyed"
+      ],
+      "why_correct": "'Aburrirse' = 'aburrir' (to bore someone) made reflexive. 'Me aburro en esa clase' = I get bored in that class. 'Estoy aburrido/a' = I'm bored.",
+      "why_wrong": [
+        "'Aburrir' (non-reflexive) means to bore someone else — 'Esa película me aburre' = That movie bores me.",
+        "'Cansarse' means to get tired — physically or mentally exhausted, not necessarily bored.",
+        "'Molestarse' / 'enfadarse' means to get annoyed/upset — stronger negative feeling than boredom."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Think of 'aburrir' (to bore someone). Made reflexive — you are now the one experiencing boredom."
+    },
+    {
+      "id": "q050",
+      "direction": "en_es",
+      "q": "How do you say 'to get bored; to be bored'?",
+      "correct": "aburrirse",
+      "incorrect": [
+        "aburrir",
+        "cansarse",
+        "molestarse"
+      ],
+      "why_correct": "'Aburrirse' = reflexive of 'aburrir'. 'Me aburro fácilmente' = I get bored easily.",
+      "why_wrong": [
+        "'Aburrir' means to bore someone else.",
+        "'Cansarse' means to get tired.",
+        "'Molestarse' means to get annoyed/bothered."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "The root verb 'aburrir' means to bore someone. Made reflexive — the feeling now happens to you."
+    },
+    {
+      "id": "q051",
+      "direction": "es_en",
+      "q": "What does 'cansarse' mean?",
+      "correct": "to get tired; to become tired",
+      "incorrect": [
+        "to fall asleep",
+        "to get bored",
+        "to feel sick"
+      ],
+      "why_correct": "'Cansarse' = 'cansar' (to tire someone) made reflexive. 'Me canso mucho en el gimnasio' = I get very tired at the gym. 'Estoy cansado/a' = I'm tired.",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep — what might happen after you get tired, but different moment.",
+        "'Aburrirse' means to get bored — mental fatigue, not physical tiredness.",
+        "'Enfermarse' means to get sick — a different physical state."
+      ],
+      "tip": "Think of 'el cansancio' (tiredness/fatigue). What reflexive verb comes from 'cansar'?"
+    },
+    {
+      "id": "q052",
+      "direction": "en_es",
+      "q": "How do you say 'to get tired; to become tired'?",
+      "correct": "cansarse",
+      "incorrect": [
+        "dormirse",
+        "aburrirse",
+        "enfermarse"
+      ],
+      "why_correct": "'Cansarse' = reflexive of 'cansar'. From 'el cansancio' (tiredness/fatigue).",
+      "why_wrong": [
+        "'Dormirse' means to fall asleep.",
+        "'Aburrirse' means to get bored.",
+        "'Enfermarse' means to get sick."
+      ],
+      "tip": "The noun 'el cansancio' (fatigue) gives you the root. What reflexive verb does 'cansar' become?"
+    },
+    {
+      "id": "q053",
+      "direction": "es_en",
+      "q": "What does 'prepararse' mean?",
+      "correct": "to get ready; to prepare oneself",
+      "incorrect": [
+        "to prepare food",
+        "to get dressed only",
+        "to pack a bag"
+      ],
+      "why_correct": "'Prepararse' = 'preparar' (to prepare something) made reflexive. It means to prepare yourself (shower, get dressed, do hair, etc.) for going out. 'Me preparo en 20 minutos' = I get ready in 20 minutes.",
+      "why_wrong": [
+        "'Preparar' (non-reflexive) means to prepare something else — 'Preparo el desayuno' = I prepare breakfast.",
+        "'Vestirse' is just one part of getting ready (clothing only) — 'prepararse' is the complete process.",
+        "'Hacer la maleta' means to pack a suitcase — a preparation, but a specific type."
+      ],
+      "tip": "Think of 'preparar' (to prepare something else). Made reflexive — who is being prepared?"
+    },
+    {
+      "id": "q054",
+      "direction": "en_es",
+      "q": "How do you say 'to get ready; to prepare oneself'?",
+      "correct": "prepararse",
+      "incorrect": [
+        "preparar",
+        "vestirse",
+        "arreglarse"
+      ],
+      "why_correct": "'Prepararse' = reflexive of 'preparar'. 'Me preparo rápido' = I get ready fast.",
+      "why_wrong": [
+        "'Preparar' means to prepare something — food, a lesson, etc.",
+        "'Vestirse' means only to get dressed.",
+        "'Arreglarse' means to get ready / fix oneself up — a near-synonym, but 'prepararse' is more common in daily routine contexts."
+      ],
+      "tip": "The root verb 'preparar' means to prepare something. Made reflexive — who is the subject and object?"
+    },
+    {
+      "id": "q055",
+      "direction": "es_en",
+      "q": "What does 'reunirse' mean?",
+      "correct": "to get together; to meet up",
+      "incorrect": [
+        "to run into someone by chance",
+        "to join a club",
+        "to get married"
+      ],
+      "why_correct": "'Reunirse' = 'reunir' (to gather/unite) made reflexive. Implies a planned meeting. 'Nos reunimos los viernes' = We get together on Fridays. 'La reunión' = the meeting.",
+      "why_wrong": [
+        "'Encontrarse con' means to run into someone or to meet up — can be planned or unplanned. 'Reunirse' is always a gathering.",
+        "'Unirse a' means to join a group/club — different context.",
+        "'Casarse' means to get married — not related."
+      ],
+      "tip": "Think of 'la reunión' — what type of gathering or event is that in English?"
+    },
+    {
+      "id": "q056",
+      "direction": "en_es",
+      "q": "How do you say 'to get together; to meet up'?",
+      "correct": "reunirse",
+      "incorrect": [
+        "encontrarse con",
+        "juntarse",
+        "casarse"
+      ],
+      "why_correct": "'Reunirse' is from 'la reunión' (meeting/gathering). 'Nos reunimos en el parque' = We meet up at the park.",
+      "why_wrong": [
+        "'Encontrarse con' means to meet up with / run into someone — often one-on-one rather than a group gathering.",
+        "'Juntarse' means to get together (near-synonym) — both are acceptable, but 'reunirse' is more formal.",
+        "'Casarse' means to get married."
+      ],
+      "tip": "The noun 'la reunión' (meeting/gathering) gives you the verb."
+    },
+    {
+      "id": "q057",
+      "direction": "es_en",
+      "q": "What does 'darse prisa' mean?",
+      "correct": "to hurry; to rush",
+      "incorrect": [
+        "to be in a hurry (state)",
+        "to run",
+        "to arrive on time"
+      ],
+      "why_correct": "'Darse prisa' = reflexive of 'dar' + 'prisa' (hurry/haste). It describes the act of hurrying. '¡Date prisa!' = Hurry up!",
+      "why_wrong": [
+        "'Tener prisa' means to be in a hurry (a state) — 'Tengo prisa' = I'm in a hurry. 'Darse prisa' is the action of hurrying.",
+        "'Correr' means to run — physical running, though you might run when you hurry.",
+        "'Llegar a tiempo' means to arrive on time — the goal, not the action of hurrying."
+      ],
+      "tip": "Think of '¡Date prisa!' — a common command. 'La prisa' means haste."
+    },
+    {
+      "id": "q058",
+      "direction": "en_es",
+      "q": "How do you say 'to hurry; to rush'?",
+      "correct": "darse prisa",
+      "incorrect": [
+        "tener prisa",
+        "correr",
+        "apresurarse"
+      ],
+      "why_correct": "'Darse prisa' = reflexive 'darse' + 'prisa' (haste). '¡Daos prisa!' = Hurry up (all of you)!",
+      "why_wrong": [
+        "'Tener prisa' means to be in a hurry (state) — 'Tengo prisa' = I'm in a hurry.",
+        "'Correr' means to run.",
+        "'Apresurarse' is a synonym — also means to hurry, but 'darse prisa' is the more common phrase."
+      ],
+      "tip": "The phrase literally means 'to give yourself haste'. 'La prisa' = haste or hurry."
+    },
+    {
+      "id": "q059",
+      "direction": "es_en",
+      "q": "What does 'encontrarse (con)' mean?",
+      "correct": "to meet up with; to run into (someone)",
+      "incorrect": [
+        "to find (an object)",
+        "to get together (as a group)",
+        "to discover something"
+      ],
+      "why_correct": "'Encontrarse con' = 'encontrar' (to find) made reflexive + 'con' (with). When used with people, it means to meet up with or bump into someone. 'Me encontré con Ana en el supermercado' = I ran into Ana at the supermarket.",
+      "why_wrong": [
+        "'Encontrar' (non-reflexive) means to find an object — 'Encontré mis llaves' = I found my keys.",
+        "'Reunirse' means to get together as a group — more planned and group-oriented than 'encontrarse'.",
+        "'Descubrir' means to discover something new — different from meeting a person."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Think of 'encontrar' (to find an object). Made reflexive + 'con' — what happens when you 'find' a person?"
+    },
+    {
+      "id": "q060",
+      "direction": "en_es",
+      "q": "How do you say 'to meet up with; to run into (someone)'?",
+      "correct": "encontrarse (con)",
+      "incorrect": [
+        "encontrar",
+        "reunirse",
+        "verse"
+      ],
+      "why_correct": "'Encontrarse con' = reflexive of 'encontrar' + 'con'. 'Nos encontramos en el café' = We met up at the café.",
+      "why_wrong": [
+        "'Encontrar' means to find an object.",
+        "'Reunirse' means to get together as a group — more formal/planned than running into someone.",
+        "'Verse' means to see each other — close in meaning but 'encontrarse' emphasizes the meeting point."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "Compare 'encontrar' (to find an object) to its reflexive form used with 'con'."
+    },
+    {
+      "id": "q061",
+      "direction": "es_en",
+      "q": "Which reflexive pronoun matches the subject 'yo'?",
+      "correct": "me",
+      "incorrect": [
+        "te",
+        "se",
+        "nos"
+      ],
+      "why_correct": "The reflexive pronouns follow subject pronouns: yo → me, tú → te, él/ella → se, nosotros → nos. 'Me levanto' = I get (myself) up.",
+      "why_wrong": [
+        "'Te' is the reflexive pronoun for 'tú' (you informal).",
+        "'Se' is the reflexive pronoun for él/ella/usted and ellos/ellas/ustedes.",
+        "'Nos' is the reflexive pronoun for 'nosotros'."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "There are 5 reflexive pronouns: me, te, se, nos, os — one for each subject pronoun."
+    },
+    {
+      "id": "q062",
+      "direction": "en_es",
+      "q": "Which reflexive pronoun matches 'nosotros'?",
+      "correct": "nos",
+      "incorrect": [
+        "me",
+        "os",
+        "se"
+      ],
+      "why_correct": "The reflexive pronoun for 'nosotros' is 'nos'. 'Nos levantamos temprano' = We get up early.",
+      "why_wrong": [
+        "'Me' is for 'yo'.",
+        "'Os' is for 'vosotros' (Spain).",
+        "'Se' is for él/ella/usted and ellos/ellas/ustedes."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "The word 'nosotros' contains a clue about its own reflexive pronoun."
+    },
+    {
+      "id": "q063",
+      "direction": "es_en",
+      "q": "How do you say 'I get up' using 'levantarse'?",
+      "correct": "Me levanto",
+      "incorrect": [
+        "Levanto me",
+        "Se levanto",
+        "Me levanta"
+      ],
+      "why_correct": "Reflexive pronoun 'me' goes directly before the conjugated verb: me + levanto (yo form of levantar). The pronoun is NEVER placed after a conjugated verb.",
+      "why_wrong": [
+        "'Levanto me' is wrong — the reflexive pronoun always comes before the conjugated verb in simple tenses.",
+        "'Se levanto' uses the wrong pronoun ('se' is for él/ella) and the wrong past tense.",
+        "'Me levanta' uses the él/ella form — not the yo form."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "The reflexive pronoun always goes directly before the conjugated verb. Which pronoun is for 'yo'?"
+    },
+    {
+      "id": "q064",
+      "direction": "en_es",
+      "q": "How do you say 'She gets dressed' using 'vestirse' (e→i)?",
+      "correct": "Se viste",
+      "incorrect": [
+        "Se vestise",
+        "Te viste",
+        "Se vesta"
+      ],
+      "why_correct": "'Vestirse' is e→i stem-changing and -IR. Ella form: se + viste (stem changes from vest- to vist-). Drop -ir, apply stem change: viste.",
+      "why_wrong": [
+        "'Se vestise' is not a valid conjugation — the stem must change.",
+        "'Te viste' uses the 'tú' reflexive pronoun — correct for 'you get dressed', not 'she'.",
+        "'Se vesta' applies an -AR ending (-a) to an -IR verb — wrong verb type ending."
+      ],
+      "concepts": [
+        "reflexive-pronouns",
+        "stem-change-ei"
+      ],
+      "tip": "'Ella' uses 'se'. Apply the e→i stem change to 'vestir'. What is the ella ending for -ir verbs?"
+    },
+    {
+      "id": "q065",
+      "direction": "es_en",
+      "q": "How do you say 'I go to bed' using 'acostarse' (o→ue)?",
+      "correct": "Me acuesto",
+      "incorrect": [
+        "Me acosto",
+        "Me acuesa",
+        "Nos acostamos"
+      ],
+      "why_correct": "'Acostarse' has an o→ue stem change. Yo form: me + acuesto (o→ue). The stem 'acost-' becomes 'acuest-' in all stressed forms except nosotros/vosotros.",
+      "why_wrong": [
+        "'Me acosto' forgets the stem change — 'acost-' must become 'acuest-' in the yo form.",
+        "'Me acuesa' applies an -AR ending incorrectly — it should be '-o' for yo, not '-a'.",
+        "'Nos acostamos' is the 'nosotros' form — correct conjugation but wrong subject (we, not I)."
+      ],
+      "concepts": [
+        "reflexive-pronouns",
+        "stem-change-oue"
+      ],
+      "tip": "Apply o→ue to 'acost-'. The yo form ends in -o. Don't forget the reflexive pronoun for 'yo'."
+    },
+    {
+      "id": "q066",
+      "direction": "en_es",
+      "q": "How do you say 'I fall asleep' using 'dormirse' (o→ue)?",
+      "correct": "Me duermo",
+      "incorrect": [
+        "Me dormo",
+        "Se duermo",
+        "Me duermeo"
+      ],
+      "why_correct": "'Dormirse' has o→ue stem change. Yo form: me + duermo. The yo form always ends in -o; the stem 'dorm-' becomes 'duerm-'.",
+      "why_wrong": [
+        "'Me dormo' forgets the stem change — must be 'duerm-' not 'dorm-' in the yo form.",
+        "'Se duermo' uses the wrong reflexive pronoun — 'se' is for él/ella, not yo.",
+        "'Me duermeo' adds a non-existent extra vowel — the yo ending is simply '-o'."
+      ],
+      "concepts": [
+        "reflexive-pronouns",
+        "stem-change-oue"
+      ],
+      "tip": "Apply o→ue to 'dorm-'. The yo form ends in -o. Which reflexive pronoun goes with 'yo'?"
+    },
+    {
+      "id": "q067",
+      "direction": "es_en",
+      "q": "How do you say 'You (tú) shower'?",
+      "correct": "Te duchas",
+      "incorrect": [
+        "Me duchas",
+        "Te ducha",
+        "Te duchás"
+      ],
+      "why_correct": "Tú reflexive pronoun = 'te'. Tú conjugation of -ar verb 'duchar': -as ending. Te + duchas.",
+      "why_wrong": [
+        "'Me duchas' uses the yo reflexive pronoun 'me' with the tú verb form — mismatched.",
+        "'Te ducha' uses the él/ella ending (-a) — wrong for tú.",
+        "'Te duchás' uses an Argentine voseo accent mark — not standard Spanish."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "The tú reflexive pronoun is 'te'. The tú ending for -ar verbs is '-as'. Apply to 'duchar'."
+    },
+    {
+      "id": "q068",
+      "direction": "en_es",
+      "q": "How do you say 'They (ellos) have fun' using 'divertirse' (e→ie)?",
+      "correct": "Se divierten",
+      "incorrect": [
+        "Se diverten",
+        "Se divertimos",
+        "Nos divertimos"
+      ],
+      "why_correct": "Ellos reflexive pronoun = 'se'. Ellos form of 'divertirse' (e→ie): se + divierten (stem 'divert-' → 'diviert-').",
+      "why_wrong": [
+        "'Se diverten' forgets the stem change — must be 'divierten' not 'diverten'.",
+        "'Se divertimos' uses the nosotros ending (-imos) with the ellos pronoun — wrong combination.",
+        "'Nos divertimos' is correct for 'we have fun', not 'they have fun'."
+      ],
+      "concepts": [
+        "reflexive-pronouns",
+        "stem-change-eie"
+      ],
+      "tip": "Ellos uses 'se'. Apply e→ie to 'divert-'. The ellos -ir ending is '-en'."
+    },
+    {
+      "id": "q069",
+      "direction": "es_en",
+      "q": "Where does the reflexive pronoun go in a sentence with one conjugated verb?",
+      "correct": "Directly before the conjugated verb",
+      "incorrect": [
+        "Directly after the conjugated verb",
+        "At the end of the sentence",
+        "Attached to the end of the conjugated verb"
+      ],
+      "why_correct": "In simple tenses with a single conjugated verb, the reflexive pronoun always goes directly before it: 'Me levanto', 'Te duchas', 'Se viste'. It is never split from the verb by other words.",
+      "why_wrong": [
+        "The pronoun never goes after the conjugated verb in simple tenses — 'Levanto me' is wrong.",
+        "The pronoun never goes at the end of the sentence.",
+        "Attaching to the end works only with infinitives and gerunds — 'levantarse', 'levantándome' — not with conjugated verbs."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "Look at any example: 'Me levanto', 'Te duchas', 'Se viste' — where exactly is the reflexive pronoun?"
+    },
+    {
+      "id": "q070",
+      "direction": "en_es",
+      "q": "In 'Voy a ducharme', where is the reflexive pronoun?",
+      "correct": "Attached to the end of the infinitive",
+      "incorrect": [
+        "Before the conjugated verb 'voy'",
+        "Between 'voy' and 'a'",
+        "After 'a'"
+      ],
+      "why_correct": "With a conjugated verb + infinitive, the pronoun can attach to the end of the infinitive: 'Voy a ducharme'. Alternatively, it can go before the conjugated verb: 'Me voy a duchar'. Both are correct.",
+      "why_wrong": [
+        "'Me voy a duchar' is also correct — so 'before the conjugated verb' works too, but this question shows the infinitive-attachment form.",
+        "'Voy me a duchar' is wrong — the pronoun cannot go between the conjugated verb and 'a'.",
+        "'Voy a me duchar' is wrong — the pronoun cannot go between 'a' and the infinitive without attaching."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "Look carefully at 'ducharme' — the pronoun is attached to one specific part of the verb form."
+    },
+    {
+      "id": "q071",
+      "direction": "es_en",
+      "q": "What is the difference between 'dormir' and 'dormirse'?",
+      "correct": "'Dormir' = to sleep (ongoing state); 'dormirse' = to fall asleep (the moment of falling asleep)",
+      "incorrect": [
+        "'Dormir' = to sleep a lot; 'dormirse' = to sleep a little",
+        "'Dormir' = to sleep at night; 'dormirse' = to nap during the day",
+        "'Dormir' and 'dormirse' mean the same thing — the -se is optional"
+      ],
+      "why_correct": "The reflexive -se changes the meaning. 'Duermo ocho horas' = I sleep eight hours (ongoing). 'Me dormí en el sofá' = I fell asleep on the couch (the moment it happened). This is the classic non-reflexive/reflexive pair.",
+      "why_wrong": [
+        "The distinction is not about duration or quantity — it's about the moment of falling asleep vs. the state of sleeping.",
+        "The distinction is not about time of day — both can occur at any time.",
+        "The -se is not optional and does change the meaning — 'dormir' ≠ 'dormirse'."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "One form describes the ongoing state of sleeping; the other captures the exact moment of drifting off."
+    },
+    {
+      "id": "q072",
+      "direction": "en_es",
+      "q": "What is the difference between 'lavar' and 'lavarse'?",
+      "correct": "'Lavar' = to wash something; 'lavarse' = to wash oneself",
+      "incorrect": [
+        "'Lavar' = to wash in cold water; 'lavarse' = to wash in hot water",
+        "'Lavar' = to wash by hand; 'lavarse' = to wash in a machine",
+        "'Lavar' and 'lavarse' are the same — -se just sounds more polite"
+      ],
+      "why_correct": "Adding -se makes the action reflexive — you wash yourself instead of something else. 'Lavo los platos' = I wash the dishes. 'Me lavo las manos' = I wash my hands (i.e., wash myself).",
+      "why_wrong": [
+        "Temperature has nothing to do with reflexive vs. non-reflexive.",
+        "Method of washing has nothing to do with it.",
+        "The -se is not a politeness marker — it fundamentally changes who receives the action."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "With 'lavar', what is the object? With 'lavarse', who receives the action?"
+    },
+    {
+      "id": "q073",
+      "direction": "es_en",
+      "q": "What does '¿Cómo te llamas?' mean?",
+      "correct": "What is your name? (lit. What do you call yourself?)",
+      "incorrect": [
+        "How do you feel?",
+        "What are you doing?",
+        "Who are you calling?"
+      ],
+      "why_correct": "'¿Cómo te llamas?' literally means 'How do you call yourself?' — the reflexive 'llamarse' is used to state one's name. The standard response is 'Me llamo [name]' = My name is [name].",
+      "why_wrong": [
+        "'¿Cómo te sientes?' means 'How do you feel?'",
+        "'¿Qué estás haciendo?' means 'What are you doing?'",
+        "'¿A quién llamas?' means 'Who are you calling?' — this uses non-reflexive 'llamar'."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "The verb 'llamarse' is used here — the reflexive of 'llamar'. '¿Cómo te ___?' = 'How do you ___ yourself?'"
+    },
+    {
+      "id": "q074",
+      "direction": "en_es",
+      "q": "What does 'Me llamo Ana' mean?",
+      "correct": "My name is Ana (lit. I call myself Ana)",
+      "incorrect": [
+        "I called Ana",
+        "Ana is calling me",
+        "I'm going to call Ana"
+      ],
+      "why_correct": "'Me llamo' = reflexive first person of 'llamarse'. Literally 'I call myself' — used to state your name. This is the standard way to introduce yourself in Spanish.",
+      "why_wrong": [
+        "'Llamé a Ana' means 'I called Ana' — past tense, non-reflexive.",
+        "'Ana me llama' means 'Ana is calling me' — non-reflexive, different subject.",
+        "'Voy a llamar a Ana' means 'I'm going to call Ana' — non-reflexive, different subject."
+      ],
+      "concepts": [
+        "reflexive-pairs"
+      ],
+      "tip": "'Me llamo' literally means 'I call myself ___'. Think about what the reflexive of 'llamar' conveys."
+    },
+    {
+      "id": "q075",
+      "direction": "es_en",
+      "q": "Nosotros form of 'levantarse' — which is correct?",
+      "correct": "Nos levantamos",
+      "incorrect": [
+        "Se levantamos",
+        "Nos levantemos",
+        "Nos levantan"
+      ],
+      "why_correct": "Nosotros: reflexive pronoun 'nos' + levantamos (nosotros -AR ending: -amos). No stem change for nosotros. 'Nos levantamos a las siete' = We get up at seven.",
+      "why_wrong": [
+        "'Se levantamos' uses the wrong pronoun — 'se' is for él/ella/ellos, not nosotros.",
+        "'Nos levantemos' is the subjunctive form — present indicative uses -amos.",
+        "'Nos levantan' uses the ellos -AR ending (-an) — wrong for nosotros."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "The nosotros reflexive pronoun is 'nos'. The nosotros -ar ending is '-amos'. Nosotros has no stem change."
+    },
+    {
+      "id": "q076",
+      "direction": "en_es",
+      "q": "Which reflexive pronoun goes with 'ellos / ellas / ustedes'?",
+      "correct": "se",
+      "incorrect": [
+        "nos",
+        "os",
+        "les"
+      ],
+      "why_correct": "Both the él/ella and ellos/ellas forms use 'se' as the reflexive pronoun. 'Se levantan' = they get up. Note: 'se' is used for singular and plural third person.",
+      "why_wrong": [
+        "'Nos' is the reflexive pronoun for 'nosotros'.",
+        "'Os' is the reflexive pronoun for 'vosotros' (Spain).",
+        "'Les' is an indirect object pronoun — not the reflexive pronoun. Don't confuse reflexive and indirect object pronouns."
+      ],
+      "concepts": [
+        "reflexive-pronouns"
+      ],
+      "tip": "The same reflexive pronoun is shared by singular and plural third person (él/ella AND ellos/ellas)."
+    },
+    {
+      "id": "q077",
+      "direction": "es_en",
+      "q": "What does '¿A qué hora te acuestas?' mean?",
+      "correct": "What time do you go to bed?",
+      "incorrect": [
+        "What time do you wake up?",
+        "What time do you fall asleep?",
+        "What time do you get up?"
+      ],
+      "why_correct": "'Acostarse' = to go to bed. 'Te acuestas' = you go to bed (tú, with o→ue stem change). '¿A qué hora?' = At what time?",
+      "why_wrong": [
+        "'¿A qué hora te despiertas?' means 'What time do you wake up?' — 'despertarse', not 'acostarse'.",
+        "'¿A qué hora te duermes?' means 'What time do you fall asleep?' — 'dormirse', which is after 'acostarse'.",
+        "'¿A qué hora te levantas?' means 'What time do you get up?' — 'levantarse', the morning action."
+      ],
+      "concepts": [
+        "stem-change-oue"
+      ],
+      "tip": "'Acostarse' means to go to bed. 'Te acuestas' is the tú form. '¿A qué hora?' = At what time?"
+    },
+    {
+      "id": "q078",
+      "direction": "en_es",
+      "q": "How do you say 'I feel tired' using 'sentirse' (e→ie)?",
+      "correct": "Me siento cansado/a",
+      "incorrect": [
+        "Me sento cansado/a",
+        "Me sienta cansado/a",
+        "Me sentío cansado/a"
+      ],
+      "why_correct": "'Sentirse' (e→ie): yo form = me siento (stem 'sent-' → 'sient-'). 'Cansado/a' agrees with the speaker's gender.",
+      "why_wrong": [
+        "'Me sento' forgets the stem change — must be 'sient-' not 'sent-' in the yo form.",
+        "'Me sienta' uses the él/ella ending (-a) — wrong for yo; also 'sienta' could be confused with 'sentarse' (to sit down).",
+        "'Me sentío' uses a false past tense form — not a standard Spanish conjugation."
+      ],
+      "concepts": [
+        "stem-change-eie"
+      ],
+      "tip": "Apply e→ie to 'sent-'. The yo form ends in -o. The adjective 'cansado/a' describes the feeling."
+    },
+    {
+      "id": "q079",
+      "direction": "es_en",
+      "q": "What is the yo form of 'vestirse' (e→i)?",
+      "correct": "Me visto",
+      "incorrect": [
+        "Me vesto",
+        "Me viste",
+        "Me vistío"
+      ],
+      "why_correct": "'Vestirse' is e→i (-IR verb). Yo: me + visto (stem 'vest-' → 'vist-'). The 'e' changes to 'i' in all stressed forms except nosotros/vosotros.",
+      "why_wrong": [
+        "'Me vesto' uses the wrong stem — 'vest-' must change to 'vist-' in the yo form.",
+        "'Me viste' uses the tú form — 'te vistes' = you get dressed; 'me visto' = I get dressed.",
+        "'Me vistío' is not a valid Spanish form."
+      ],
+      "concepts": [
+        "stem-change-ei"
+      ],
+      "tip": "Apply e→i to 'vest-'. The yo form ends in -o. Choose the correct reflexive pronoun for 'yo'."
+    },
+    {
+      "id": "q080",
+      "direction": "en_es",
+      "q": "Which sentence correctly says 'I wake up at 7'?",
+      "correct": "Me despierto a las siete",
+      "incorrect": [
+        "Me desperto a las siete",
+        "Se despierto a las siete",
+        "Me despierta a las siete"
+      ],
+      "why_correct": "'Despertarse' (e→ie): yo = me despierto (stem 'despert-' → 'despiert-'). '¿A qué hora te despiertas?' = What time do you wake up?",
+      "why_wrong": [
+        "'Me desperto' forgets the e→ie stem change — must be 'despierto'.",
+        "'Se despierto' uses the wrong reflexive pronoun — 'se' is for él/ella, not yo.",
+        "'Me despierta' uses the él/ella ending (-a) — the yo form must end in -o."
+      ],
+      "concepts": [
+        "stem-change-eie"
+      ],
+      "tip": "Apply e→ie to 'despert-'. The yo form ends in -o. Which reflexive pronoun goes with 'yo'?"
+    },
+    {
+      "id": "q081",
+      "direction": "es_en",
+      "q": "What does 'la boca' mean?",
+      "correct": "mouth",
+      "incorrect": ["ear", "nose", "shoulder"],
+      "why_correct": "'La boca' — 'bocadillo' (a Spanish sandwich) literally contains 'boca'. You eat a bocadillo with your mouth.",
+      "why_wrong": [
+        "'Ear' = la oreja.",
+        "'Nose' = la nariz.",
+        "'Shoulder' = el hombro."
+      ],
+      "tip": "Think of 'bocadillo' — a popular Spanish snack. What body part does its name contain?"
+    },
+    {
+      "id": "q082",
+      "direction": "en_es",
+      "q": "How do you say 'mouth'?",
+      "correct": "la boca",
+      "incorrect": ["la oreja", "la nariz", "el hombro"],
+      "why_correct": "'La boca' — found in 'bocadillo' (sandwich) and '¡Boca cerrada!' (Keep your mouth shut!).",
+      "why_wrong": [
+        "'La oreja' means ear.",
+        "'La nariz' means nose.",
+        "'El hombro' means shoulder."
+      ],
+      "tip": "Think of 'bocadillo' — a sandwich. What body part name does it contain?"
+    },
+    {
+      "id": "q083",
+      "direction": "es_en",
+      "q": "What does 'la cabeza' mean?",
+      "correct": "head",
+      "incorrect": ["shoulder", "chest", "back"],
+      "why_correct": "'La cabeza' shares a root with 'capital' (the head city of a country) and 'captain' (the head of a team).",
+      "why_wrong": [
+        "'Shoulder' = el hombro.",
+        "'Chest' = el pecho.",
+        "'Back' = la espalda."
+      ],
+      "tip": "Think of 'capital' — the leading city of a country. Both share a Latin root meaning this body part."
+    },
+    {
+      "id": "q084",
+      "direction": "en_es",
+      "q": "How do you say 'head'?",
+      "correct": "la cabeza",
+      "incorrect": ["el hombro", "el pecho", "la espalda"],
+      "why_correct": "'La cabeza' — related to 'capital' and 'cap' (a head covering). '¡Me duele la cabeza!' = My head hurts!",
+      "why_wrong": [
+        "'El hombro' means shoulder.",
+        "'El pecho' means chest.",
+        "'La espalda' means back."
+      ],
+      "tip": "Think of 'cap' (a hat) or 'capital city' — both relate to the top or leading position."
+    },
+    {
+      "id": "q085",
+      "direction": "es_en",
+      "q": "What does 'el corazón' mean?",
+      "correct": "heart",
+      "incorrect": ["stomach", "chest", "back"],
+      "why_correct": "'El corazón' shares the Latin root 'cor' with English 'cordial' (warm-hearted) and 'core'.",
+      "why_wrong": [
+        "'Stomach' = el estómago.",
+        "'Chest' = el pecho.",
+        "'Back' = la espalda."
+      ],
+      "tip": "Think of 'cordial' (warm and friendly) — its Latin root 'cor' points to a vital organ."
+    },
+    {
+      "id": "q086",
+      "direction": "en_es",
+      "q": "How do you say 'heart'?",
+      "correct": "el corazón",
+      "incorrect": ["el estómago", "el pecho", "el hombro"],
+      "why_correct": "'El corazón' — from Latin 'cor' (heart). 'Te quiero con todo mi corazón' = I love you with all my heart.",
+      "why_wrong": [
+        "'El estómago' means stomach.",
+        "'El pecho' means chest.",
+        "'El hombro' means shoulder."
+      ],
+      "tip": "Think of 'cordial' — the Latin root 'cor' connects to this vital organ."
+    },
+    {
+      "id": "q087",
+      "direction": "es_en",
+      "q": "What does 'el dedo' mean?",
+      "correct": "finger; toe",
+      "incorrect": ["hand", "foot", "ankle"],
+      "why_correct": "'El dedo' — from Latin 'digitus', the same root as English 'digit'. Fingers and toes are digits.",
+      "why_wrong": [
+        "'Hand' = la mano.",
+        "'Foot' = el pie.",
+        "'Ankle' = el tobillo."
+      ],
+      "tip": "Think of 'digit' — in math and anatomy, digits refer to individual units on the hands and feet."
+    },
+    {
+      "id": "q088",
+      "direction": "en_es",
+      "q": "How do you say 'finger; toe'?",
+      "correct": "el dedo",
+      "incorrect": ["la mano", "el pie", "el tobillo"],
+      "why_correct": "'El dedo' — from Latin 'digitus'. 'Dedo del pie' = toe; 'dedo de la mano' = finger.",
+      "why_wrong": [
+        "'La mano' means hand.",
+        "'El pie' means foot.",
+        "'El tobillo' means ankle."
+      ],
+      "tip": "Think of 'digit' — what are the individual units on your hands and feet called?"
+    },
+    {
+      "id": "q089",
+      "direction": "es_en",
+      "q": "What does 'la espalda' mean?",
+      "correct": "back (of the body)",
+      "incorrect": ["chest", "shoulder", "stomach"],
+      "why_correct": "'La espalda' is the part of your body that faces away. 'Me duele la espalda' = My back hurts.",
+      "why_wrong": [
+        "'Chest' = el pecho — the front side.",
+        "'Shoulder' = el hombro.",
+        "'Stomach' = el estómago."
+      ],
+      "tip": "Think of the part of your body that faces away when you turn around — the opposite of your chest."
+    },
+    {
+      "id": "q090",
+      "direction": "en_es",
+      "q": "How do you say 'back (of the body)'?",
+      "correct": "la espalda",
+      "incorrect": ["el pecho", "el hombro", "el estómago"],
+      "why_correct": "'La espalda' — the rear side of your torso. 'Me duele la espalda' = My back hurts.",
+      "why_wrong": [
+        "'El pecho' means chest — the front.",
+        "'El hombro' means shoulder.",
+        "'El estómago' means stomach."
+      ],
+      "tip": "Think of the body part opposite your chest — the side you can't see in a mirror."
+    },
+    {
+      "id": "q091",
+      "direction": "es_en",
+      "q": "What does 'el estómago' mean?",
+      "correct": "stomach",
+      "incorrect": ["chest", "heart", "back"],
+      "why_correct": "'El estómago' is a near-cognate of the English word. 'Me duele el estómago' = My stomach hurts.",
+      "why_wrong": [
+        "'Chest' = el pecho.",
+        "'Heart' = el corazón.",
+        "'Back' = la espalda."
+      ],
+      "tip": "This word looks and sounds very close to its English equivalent."
+    },
+    {
+      "id": "q092",
+      "direction": "en_es",
+      "q": "How do you say 'stomach'?",
+      "correct": "el estómago",
+      "incorrect": ["el pecho", "el corazón", "la espalda"],
+      "why_correct": "'El estómago' — near-cognate of English 'stomach'. 'Tengo dolor de estómago' = I have a stomachache.",
+      "why_wrong": [
+        "'El pecho' means chest.",
+        "'El corazón' means heart.",
+        "'La espalda' means back."
+      ],
+      "tip": "This word is a near-cognate — it looks almost identical to the English word."
+    },
+    {
+      "id": "q093",
+      "direction": "es_en",
+      "q": "What does 'el hombro' mean?",
+      "correct": "shoulder",
+      "incorrect": ["chest", "back", "ankle"],
+      "why_correct": "'El hombro' — the joint connecting your arm to your torso. 'Me encogí de hombros' = I shrugged.",
+      "why_wrong": [
+        "'Chest' = el pecho.",
+        "'Back' = la espalda.",
+        "'Ankle' = el tobillo."
+      ],
+      "tip": "Think of the joint at the top of your arm — what connects your arm to your body?"
+    },
+    {
+      "id": "q094",
+      "direction": "en_es",
+      "q": "How do you say 'shoulder'?",
+      "correct": "el hombro",
+      "incorrect": ["el pecho", "la espalda", "el tobillo"],
+      "why_correct": "'El hombro' — 'encogerse de hombros' = to shrug (literally 'to shrink the shoulders').",
+      "why_wrong": [
+        "'El pecho' means chest.",
+        "'La espalda' means back.",
+        "'El tobillo' means ankle."
+      ],
+      "tip": "Think of the joint at the top of your arm — what body part do you shrug with?"
+    },
+    {
+      "id": "q095",
+      "direction": "es_en",
+      "q": "What does 'la mano' mean?",
+      "correct": "hand",
+      "incorrect": ["finger", "foot", "leg"],
+      "why_correct": "'La mano' shares Latin 'manus' with English 'manual' (done by hand) and 'manufacture' (made by hand).",
+      "why_wrong": [
+        "'Finger' = el dedo.",
+        "'Foot' = el pie.",
+        "'Leg' = la pierna."
+      ],
+      "tip": "Think of 'manual' (done by this body part) or 'manufacture' — same Latin root 'manus'."
+    },
+    {
+      "id": "q096",
+      "direction": "en_es",
+      "q": "How do you say 'hand'?",
+      "correct": "la mano",
+      "incorrect": ["el dedo", "el pie", "la pierna"],
+      "why_correct": "'La mano' — from Latin 'manus'. Note: despite ending in -o, it's feminine: 'la mano'. 'Dame la mano' = Give me your hand.",
+      "why_wrong": [
+        "'El dedo' means finger/toe.",
+        "'El pie' means foot.",
+        "'La pierna' means leg."
+      ],
+      "tip": "Think of 'manual' or 'manipulate' — from Latin 'manus', meaning this body part."
+    },
+    {
+      "id": "q097",
+      "direction": "es_en",
+      "q": "What does 'la nariz' mean?",
+      "correct": "nose",
+      "incorrect": ["mouth", "ear", "head"],
+      "why_correct": "'La nariz' — related to English 'nasal' (of the nose). 'Me sangra la nariz' = My nose is bleeding.",
+      "why_wrong": [
+        "'Mouth' = la boca.",
+        "'Ear' = la oreja.",
+        "'Head' = la cabeza."
+      ],
+      "tip": "Think of 'nasal' — the adjective used to describe things relating to this facial feature."
+    },
+    {
+      "id": "q098",
+      "direction": "en_es",
+      "q": "How do you say 'nose'?",
+      "correct": "la nariz",
+      "incorrect": ["la boca", "la oreja", "la cabeza"],
+      "why_correct": "'La nariz' — from Latin 'naris'. Related to English 'nasal'. 'Tengo la nariz tapada' = My nose is stuffy.",
+      "why_wrong": [
+        "'La boca' means mouth.",
+        "'La oreja' means ear.",
+        "'La cabeza' means head."
+      ],
+      "tip": "Think of 'nasal' — what facial feature does that adjective describe?"
+    },
+    {
+      "id": "q099",
+      "direction": "es_en",
+      "q": "What does 'la oreja' mean?",
+      "correct": "ear",
+      "incorrect": ["nose", "mouth", "head"],
+      "why_correct": "'La oreja' — from Latin 'auricula' (little ear), related to English 'auricular' (of the ear).",
+      "why_wrong": [
+        "'Nose' = la nariz.",
+        "'Mouth' = la boca.",
+        "'Head' = la cabeza."
+      ],
+      "tip": "Think of 'auricular' — the adjective for things relating to this sense organ."
+    },
+    {
+      "id": "q100",
+      "direction": "en_es",
+      "q": "How do you say 'ear'?",
+      "correct": "la oreja",
+      "incorrect": ["la nariz", "la boca", "la cabeza"],
+      "why_correct": "'La oreja' — from Latin 'auricula'. 'Tengo los aretes en las orejas' = I have earrings in my ears.",
+      "why_wrong": [
+        "'La nariz' means nose.",
+        "'La boca' means mouth.",
+        "'La cabeza' means head."
+      ],
+      "tip": "Think of 'auricular' or 'audio' — from the Latin root for this sense organ."
+    },
+    {
+      "id": "q101",
+      "direction": "es_en",
+      "q": "What does 'el pecho' mean?",
+      "correct": "chest",
+      "incorrect": ["back", "shoulder", "stomach"],
+      "why_correct": "'El pecho' — related to 'pectoral' muscles, which are found in this area of the body.",
+      "why_wrong": [
+        "'Back' = la espalda — the opposite side.",
+        "'Shoulder' = el hombro.",
+        "'Stomach' = el estómago."
+      ],
+      "tip": "Think of 'pectoral' muscles — what area of the body do they belong to?"
+    },
+    {
+      "id": "q102",
+      "direction": "en_es",
+      "q": "How do you say 'chest'?",
+      "correct": "el pecho",
+      "incorrect": ["la espalda", "el hombro", "el estómago"],
+      "why_correct": "'El pecho' — from the same root as 'pectoral'. 'Me duele el pecho' = My chest hurts.",
+      "why_wrong": [
+        "'La espalda' means back.",
+        "'El hombro' means shoulder.",
+        "'El estómago' means stomach."
+      ],
+      "tip": "Think of 'pectoral' — the muscle group in this part of the torso."
+    },
+    {
+      "id": "q103",
+      "direction": "es_en",
+      "q": "What does 'el pie' mean?",
+      "correct": "foot; feet",
+      "incorrect": ["leg", "knee", "ankle"],
+      "why_correct": "'El pie' — from Latin 'pes/pedis', the same root as 'pedal', 'pedestrian', and 'pedicure'.",
+      "why_wrong": [
+        "'Leg' = la pierna.",
+        "'Knee' = la rodilla.",
+        "'Ankle' = el tobillo."
+      ],
+      "tip": "Think of 'pedal', 'pedestrian', or 'pedicure' — all from Latin 'pes/pedis'."
+    },
+    {
+      "id": "q104",
+      "direction": "en_es",
+      "q": "How do you say 'foot; feet'?",
+      "correct": "el pie",
+      "incorrect": ["la pierna", "la rodilla", "el tobillo"],
+      "why_correct": "'El pie' — from Latin 'pes/pedis'. 'Tengo frío en los pies' = My feet are cold.",
+      "why_wrong": [
+        "'La pierna' means leg.",
+        "'La rodilla' means knee.",
+        "'El tobillo' means ankle."
+      ],
+      "tip": "Think of 'pedestrian' or 'pedicure' — from Latin 'pes/pedis', this body part."
+    },
+    {
+      "id": "q105",
+      "direction": "es_en",
+      "q": "What does 'la pierna' mean?",
+      "correct": "leg",
+      "incorrect": ["foot", "knee", "ankle"],
+      "why_correct": "'La pierna' — the limb between your hip and your knee. 'Me rompí la pierna' = I broke my leg.",
+      "why_wrong": [
+        "'Foot' = el pie.",
+        "'Knee' = la rodilla.",
+        "'Ankle' = el tobillo."
+      ],
+      "tip": "Think of the full limb that connects your hip to your foot — not the joint, the whole limb."
+    },
+    {
+      "id": "q106",
+      "direction": "en_es",
+      "q": "How do you say 'leg'?",
+      "correct": "la pierna",
+      "incorrect": ["el pie", "la rodilla", "el tobillo"],
+      "why_correct": "'La pierna' — the full lower limb. 'Cruzar las piernas' = to cross your legs.",
+      "why_wrong": [
+        "'El pie' means foot.",
+        "'La rodilla' means knee.",
+        "'El tobillo' means ankle."
+      ],
+      "tip": "Think of the full limb you use to walk — from hip to foot, not just a joint."
+    },
+    {
+      "id": "q107",
+      "direction": "es_en",
+      "q": "What does 'la rodilla' mean?",
+      "correct": "knee",
+      "incorrect": ["ankle", "leg", "foot"],
+      "why_correct": "'La rodilla' — the joint in the middle of your leg. 'Arrodillarse' = to kneel (to put your rodilla on the ground).",
+      "why_wrong": [
+        "'Ankle' = el tobillo.",
+        "'Leg' = la pierna.",
+        "'Foot' = el pie."
+      ],
+      "tip": "Think of 'arrodillarse' (to kneel) — what body part touches the ground when you kneel?"
+    },
+    {
+      "id": "q108",
+      "direction": "en_es",
+      "q": "How do you say 'knee'?",
+      "correct": "la rodilla",
+      "incorrect": ["el tobillo", "la pierna", "el pie"],
+      "why_correct": "'La rodilla' — 'arrodillarse' = to kneel (to go down on your rodillas).",
+      "why_wrong": [
+        "'El tobillo' means ankle.",
+        "'La pierna' means leg.",
+        "'El pie' means foot."
+      ],
+      "tip": "Think of 'arrodillarse' — the verb for kneeling. What body part lands on the ground?"
+    },
+    {
+      "id": "q109",
+      "direction": "es_en",
+      "q": "What does 'el tobillo' mean?",
+      "correct": "ankle",
+      "incorrect": ["knee", "foot", "leg"],
+      "why_correct": "'El tobillo' — the joint connecting your foot to your leg. 'Me torcí el tobillo' = I twisted my ankle.",
+      "why_wrong": [
+        "'Knee' = la rodilla.",
+        "'Foot' = el pie.",
+        "'Leg' = la pierna."
+      ],
+      "tip": "Think of the joint you twist when you step awkwardly — between the foot and the leg."
+    },
+    {
+      "id": "q110",
+      "direction": "en_es",
+      "q": "How do you say 'ankle'?",
+      "correct": "el tobillo",
+      "incorrect": ["la rodilla", "el pie", "la pierna"],
+      "why_correct": "'El tobillo' — 'Me torcí el tobillo' = I sprained my ankle.",
+      "why_wrong": [
+        "'La rodilla' means knee.",
+        "'El pie' means foot.",
+        "'La pierna' means leg."
+      ],
+      "tip": "Think of the joint between the foot and the leg — the one you sprain on uneven ground."
+    },
+    {
+      "id": "q111",
+      "direction": "es_en",
+      "q": "What does 'la pasta de dientes' mean?",
+      "correct": "toothpaste",
+      "incorrect": ["shampoo", "soap", "deodorant"],
+      "why_correct": "'La pasta de dientes' — 'pasta' means paste, 'dientes' means teeth. The paste used on teeth.",
+      "why_wrong": [
+        "'Shampoo' = el champú.",
+        "'Soap' = el jabón.",
+        "'Deodorant' = el desodorante."
+      ],
+      "tip": "Think of 'pasta' (paste) and 'dientes' (teeth) — what two-part bathroom product does this describe?"
+    },
+    {
+      "id": "q112",
+      "direction": "en_es",
+      "q": "How do you say 'toothpaste'?",
+      "correct": "la pasta de dientes",
+      "incorrect": ["el champú", "el jabón", "el desodorante"],
+      "why_correct": "'La pasta de dientes' — literally 'the paste of teeth'. Used with 'el cepillo de dientes'.",
+      "why_wrong": [
+        "'El champú' means shampoo.",
+        "'El jabón' means soap.",
+        "'El desodorante' means deodorant."
+      ],
+      "tip": "Think of 'pasta' (paste) + 'dientes' (teeth) — two words that together name this product."
+    },
+    {
+      "id": "q113",
+      "direction": "es_en",
+      "q": "What does 'el cepillo de dientes' mean?",
+      "correct": "toothbrush",
+      "incorrect": ["comb", "shaving brush", "towel"],
+      "why_correct": "'El cepillo de dientes' — 'cepillo' means brush, 'dientes' means teeth. The brush used on teeth.",
+      "why_wrong": [
+        "'Comb' = el peine.",
+        "'Shaving brush' = la brocha de afeitar.",
+        "'Towel' = la toalla."
+      ],
+      "tip": "Think of 'cepillo' (a brush) + 'dientes' (teeth) — what grooming tool does this describe?"
+    },
+    {
+      "id": "q114",
+      "direction": "en_es",
+      "q": "How do you say 'toothbrush'?",
+      "correct": "el cepillo de dientes",
+      "incorrect": ["el peine", "la brocha de afeitar", "el espejo"],
+      "why_correct": "'El cepillo de dientes' — 'cepillo' = brush, 'dientes' = teeth. Used with 'cepillarse los dientes'.",
+      "why_wrong": [
+        "'El peine' means comb.",
+        "'La brocha de afeitar' means shaving brush.",
+        "'El espejo' means mirror."
+      ],
+      "tip": "Think of 'cepillo' (brush) + 'dientes' (teeth) — what tool is this?"
+    },
+    {
+      "id": "q115",
+      "direction": "es_en",
+      "q": "What does 'el champú' mean?",
+      "correct": "shampoo",
+      "incorrect": ["conditioner", "soap", "deodorant"],
+      "why_correct": "'El champú' is a near-cognate of English 'shampoo'. Used when 'ducharse' or 'bañarse'.",
+      "why_wrong": [
+        "'Conditioner' = el acondicionador.",
+        "'Soap' = el jabón.",
+        "'Deodorant' = el desodorante."
+      ],
+      "tip": "This word is a near-cognate — it looks and sounds very close to its English equivalent."
+    },
+    {
+      "id": "q116",
+      "direction": "en_es",
+      "q": "How do you say 'shampoo'?",
+      "correct": "el champú",
+      "incorrect": ["el acondicionador", "el jabón", "el desodorante"],
+      "why_correct": "'El champú' — near-cognate of English 'shampoo'. Used on the hair in the shower.",
+      "why_wrong": [
+        "'El acondicionador' means conditioner.",
+        "'El jabón' means soap.",
+        "'El desodorante' means deodorant."
+      ],
+      "tip": "This near-cognate sounds almost identical to the English word for the same product."
+    },
+    {
+      "id": "q117",
+      "direction": "es_en",
+      "q": "What does 'el acondicionador' mean?",
+      "correct": "conditioner",
+      "incorrect": ["shampoo", "soap", "deodorant"],
+      "why_correct": "'El acondicionador' is a near-cognate of English 'conditioner'. Used after el champú.",
+      "why_wrong": [
+        "'Shampoo' = el champú.",
+        "'Soap' = el jabón.",
+        "'Deodorant' = el desodorante."
+      ],
+      "tip": "This near-cognate is used after shampoo — it looks very close to the English word."
+    },
+    {
+      "id": "q118",
+      "direction": "en_es",
+      "q": "How do you say 'conditioner'?",
+      "correct": "el acondicionador",
+      "incorrect": ["el champú", "el jabón", "el desodorante"],
+      "why_correct": "'El acondicionador' — near-cognate of 'conditioner'. Typically used after el champú.",
+      "why_wrong": [
+        "'El champú' means shampoo.",
+        "'El jabón' means soap.",
+        "'El desodorante' means deodorant."
+      ],
+      "tip": "Near-cognate of the hair product used after shampoo."
+    },
+    {
+      "id": "q119",
+      "direction": "es_en",
+      "q": "What does 'el desodorante' mean?",
+      "correct": "deodorant",
+      "incorrect": ["shampoo", "soap", "perfume"],
+      "why_correct": "'El desodorante' is a near-cognate of 'deodorant'. 'Des-' = un-, 'odor' = smell.",
+      "why_wrong": [
+        "'Shampoo' = el champú.",
+        "'Soap' = el jabón.",
+        "'Perfume' = el perfume."
+      ],
+      "tip": "Near-cognate — think of 'de-odor-ant'. The prefix 'des-' means un- or remove."
+    },
+    {
+      "id": "q120",
+      "direction": "en_es",
+      "q": "How do you say 'deodorant'?",
+      "correct": "el desodorante",
+      "incorrect": ["el champú", "el jabón", "el perfume"],
+      "why_correct": "'El desodorante' — near-cognate of 'deodorant'. 'Me pongo el desodorante' = I put on deodorant.",
+      "why_wrong": [
+        "'El champú' means shampoo.",
+        "'El jabón' means soap.",
+        "'El perfume' means perfume."
+      ],
+      "tip": "Near-cognate — 'des-' (un-) + 'odor' + '-ante'. What product removes body odor?"
+    },
+    {
+      "id": "q121",
+      "direction": "es_en",
+      "q": "What does 'el jabón' mean?",
+      "correct": "soap",
+      "incorrect": ["shampoo", "deodorant", "toothpaste"],
+      "why_correct": "'El jabón' — the bar or liquid you lather up with. Related to French 'savon' and Latin 'sapo'.",
+      "why_wrong": [
+        "'Shampoo' = el champú.",
+        "'Deodorant' = el desodorante.",
+        "'Toothpaste' = la pasta de dientes."
+      ],
+      "tip": "Think of the slippery bar or liquid you lather your body with in the shower."
+    },
+    {
+      "id": "q122",
+      "direction": "en_es",
+      "q": "How do you say 'soap'?",
+      "correct": "el jabón",
+      "incorrect": ["el champú", "el desodorante", "la pasta de dientes"],
+      "why_correct": "'El jabón' — 'Lávate las manos con jabón' = Wash your hands with soap.",
+      "why_wrong": [
+        "'El champú' means shampoo.",
+        "'El desodorante' means deodorant.",
+        "'La pasta de dientes' means toothpaste."
+      ],
+      "tip": "Think of what you use to lather your hands or body — a bar or liquid cleanser."
+    },
+    {
+      "id": "q123",
+      "direction": "es_en",
+      "q": "What does 'la toalla' mean?",
+      "correct": "towel",
+      "incorrect": ["mirror", "toothpaste", "soap"],
+      "why_correct": "'La toalla' — the cloth you dry off with after 'ducharse' or 'bañarse'.",
+      "why_wrong": [
+        "'Mirror' = el espejo.",
+        "'Toothpaste' = la pasta de dientes.",
+        "'Soap' = el jabón."
+      ],
+      "tip": "Think of what you reach for immediately after getting out of the shower."
+    },
+    {
+      "id": "q124",
+      "direction": "en_es",
+      "q": "How do you say 'towel'?",
+      "correct": "la toalla",
+      "incorrect": ["el espejo", "la pasta de dientes", "el jabón"],
+      "why_correct": "'La toalla' — 'Necesito una toalla' = I need a towel. Used after ducharse.",
+      "why_wrong": [
+        "'El espejo' means mirror.",
+        "'La pasta de dientes' means toothpaste.",
+        "'El jabón' means soap."
+      ],
+      "tip": "Think of the cloth you wrap yourself in after getting out of the shower."
+    },
+    {
+      "id": "q125",
+      "direction": "es_en",
+      "q": "What does 'el perfume' mean?",
+      "correct": "perfume; cologne",
+      "incorrect": ["deodorant", "soap", "shampoo"],
+      "why_correct": "'El perfume' is a direct cognate of English 'perfume'. A scented liquid worn on the skin.",
+      "why_wrong": [
+        "'Deodorant' = el desodorante.",
+        "'Soap' = el jabón.",
+        "'Shampoo' = el champú."
+      ],
+      "tip": "This word is a direct cognate — it looks and means the same in both languages."
+    },
+    {
+      "id": "q126",
+      "direction": "en_es",
+      "q": "How do you say 'perfume; cologne'?",
+      "correct": "el perfume",
+      "incorrect": ["el desodorante", "el jabón", "el champú"],
+      "why_correct": "'El perfume' — direct cognate. 'Me pongo el perfume antes de salir' = I put on perfume before going out.",
+      "why_wrong": [
+        "'El desodorante' means deodorant.",
+        "'El jabón' means soap.",
+        "'El champú' means shampoo."
+      ],
+      "tip": "This is a direct cognate — identical in spelling to its English equivalent."
+    },
+    {
+      "id": "q127",
+      "direction": "es_en",
+      "q": "What does 'el peine' mean?",
+      "correct": "comb",
+      "incorrect": ["toothbrush", "shaving brush", "mirror"],
+      "why_correct": "'El peine' — the tool used to style hair. The reflexive verb 'peinarse' (to comb one's hair) comes from this noun.",
+      "why_wrong": [
+        "'Toothbrush' = el cepillo de dientes.",
+        "'Shaving brush' = la brocha de afeitar.",
+        "'Mirror' = el espejo."
+      ],
+      "tip": "Think of 'peinarse' — the reflexive verb that uses this grooming tool. What is the tool?"
+    },
+    {
+      "id": "q128",
+      "direction": "en_es",
+      "q": "How do you say 'comb'?",
+      "correct": "el peine",
+      "incorrect": ["el cepillo de dientes", "la brocha de afeitar", "el espejo"],
+      "why_correct": "'El peine' — 'peinarse' (to comb one's hair) comes from this noun. 'Necesito el peine' = I need the comb.",
+      "why_wrong": [
+        "'El cepillo de dientes' means toothbrush.",
+        "'La brocha de afeitar' means shaving brush.",
+        "'El espejo' means mirror."
+      ],
+      "tip": "Think of 'peinarse' — the reflexive verb that takes its name from this object."
+    },
+    {
+      "id": "q129",
+      "direction": "es_en",
+      "q": "What does 'la brocha de afeitar' mean?",
+      "correct": "shaving brush",
+      "incorrect": ["comb", "toothbrush", "mirror"],
+      "why_correct": "'La brocha de afeitar' — 'afeitar' is the root of 'afeitarse' (to shave). A brocha is a brush, used here for shaving.",
+      "why_wrong": [
+        "'Comb' = el peine.",
+        "'Toothbrush' = el cepillo de dientes.",
+        "'Mirror' = el espejo."
+      ],
+      "tip": "Think of 'afeitarse' (to shave) — what brush-shaped tool is used in that routine?"
+    },
+    {
+      "id": "q130",
+      "direction": "en_es",
+      "q": "How do you say 'shaving brush'?",
+      "correct": "la brocha de afeitar",
+      "incorrect": ["el peine", "el cepillo de dientes", "el espejo"],
+      "why_correct": "'La brocha de afeitar' — 'brocha' = brush, 'afeitar' = to shave. Used with shaving cream.",
+      "why_wrong": [
+        "'El peine' means comb.",
+        "'El cepillo de dientes' means toothbrush.",
+        "'El espejo' means mirror."
+      ],
+      "tip": "Think of 'afeitarse' — what specialized brush is used in that grooming routine?"
+    },
+    {
+      "id": "q131",
+      "direction": "es_en",
+      "q": "What does 'el espejo' mean?",
+      "correct": "mirror",
+      "incorrect": ["towel", "comb", "shaving brush"],
+      "why_correct": "'El espejo' — from Latin 'speculum' (mirror), related to 'specular' (mirror-like). '¿Quién es el más guapo del espejo?' echoes Snow White's famous mirror question.",
+      "why_wrong": [
+        "'Towel' = la toalla.",
+        "'Comb' = el peine.",
+        "'Shaving brush' = la brocha de afeitar."
+      ],
+      "tip": "Think of 'specular' (mirror-like) or 'inspect' — both from Latin 'specere' (to look)."
+    },
+    {
+      "id": "q132",
+      "direction": "en_es",
+      "q": "How do you say 'mirror'?",
+      "correct": "el espejo",
+      "incorrect": ["la toalla", "el peine", "la brocha de afeitar"],
+      "why_correct": "'El espejo' — from Latin 'speculum'. 'Me miro en el espejo' = I look at myself in the mirror.",
+      "why_wrong": [
+        "'La toalla' means towel.",
+        "'El peine' means comb.",
+        "'La brocha de afeitar' means shaving brush."
+      ],
+      "tip": "Think of 'specular' or 'inspect' — from Latin 'specere' (to look at). What object do you look into?"
+    },
+    {
+      "id": "q133",
+      "direction": "es_en",
+      "q": "What does 'primero' mean?",
+      "correct": "first",
+      "incorrect": ["second; next", "after; then", "finally"],
+      "why_correct": "'Primero' — near-cognate of 'primary' and 'prime'. The first step in a sequence.",
+      "why_wrong": [
+        "'Second; next' = segundo.",
+        "'After; then' = después.",
+        "'Finally' = finalmente."
+      ],
+      "tip": "Near-cognate of 'primary' or 'prime' — what position in a sequence do those words suggest?"
+    },
+    {
+      "id": "q134",
+      "direction": "en_es",
+      "q": "How do you say 'first' (in a sequence)?",
+      "correct": "primero",
+      "incorrect": ["segundo", "después", "finalmente"],
+      "why_correct": "'Primero' — near-cognate of 'primary'. 'Primero me ducho, luego me visto' = First I shower, then I get dressed.",
+      "why_wrong": [
+        "'Segundo' means second/next.",
+        "'Después' means after/then.",
+        "'Finalmente' means finally."
+      ],
+      "tip": "Near-cognate of 'primary' — what ordinal position does that word describe?"
+    },
+    {
+      "id": "q135",
+      "direction": "es_en",
+      "q": "What does 'segundo' mean?",
+      "correct": "second; next",
+      "incorrect": ["first", "then; so", "then; later; next"],
+      "why_correct": "'Segundo' — near-cognate of 'second'. Also used as a sequencing word meaning 'next'.",
+      "why_wrong": [
+        "'First' = primero.",
+        "'Then; so' = entonces.",
+        "'Then; later; next' = luego."
+      ],
+      "tip": "Near-cognate of 'second' — what ordinal position does that describe?"
+    },
+    {
+      "id": "q136",
+      "direction": "en_es",
+      "q": "How do you say 'second; next'?",
+      "correct": "segundo",
+      "incorrect": ["primero", "entonces", "luego"],
+      "why_correct": "'Segundo' — near-cognate of 'second'. 'Segundo, me cepillo los dientes' = Second, I brush my teeth.",
+      "why_wrong": [
+        "'Primero' means first.",
+        "'Entonces' means then/so.",
+        "'Luego' means then/later/next."
+      ],
+      "tip": "Near-cognate of 'second' — what number in a sequence is that?"
+    },
+    {
+      "id": "q137",
+      "direction": "es_en",
+      "q": "What does 'entonces' mean?",
+      "correct": "then; so",
+      "incorrect": ["after; afterwards", "then; later; next", "first"],
+      "why_correct": "'Entonces' — used to express a logical consequence or next step. '¿No tienes dinero? Entonces no puedes comprarlo.' = You don't have money? Then you can't buy it.",
+      "why_wrong": [
+        "'After; afterwards' = después.",
+        "'Then; later; next' = luego.",
+        "'First' = primero."
+      ],
+      "tip": "Think of a transition word used when drawing a conclusion or consequence — 'at that point' or 'in that case'."
+    },
+    {
+      "id": "q138",
+      "direction": "en_es",
+      "q": "How do you say 'then; so' (as in 'in that case')?",
+      "correct": "entonces",
+      "incorrect": ["después", "luego", "primero"],
+      "why_correct": "'Entonces' — used for logical consequence or transition. '¿Estás listo? Entonces, vamos.' = Ready? Then let's go.",
+      "why_wrong": [
+        "'Después' means after/afterwards.",
+        "'Luego' means then/later/next.",
+        "'Primero' means first."
+      ],
+      "tip": "Think of the word you use when drawing a conclusion or consequence from what was just said."
+    },
+    {
+      "id": "q139",
+      "direction": "es_en",
+      "q": "What does 'después' mean?",
+      "correct": "after; afterwards; then",
+      "incorrect": ["first", "finally", "then; later; next"],
+      "why_correct": "'Después' — marks what happens following something else. 'Después de ducharse, se viste' = After showering, he gets dressed.",
+      "why_wrong": [
+        "'First' = primero.",
+        "'Finally' = finalmente.",
+        "'Then; later; next' = luego."
+      ],
+      "tip": "Think of this word as marking what comes following something else — similar to 'after' or 'afterwards'."
+    },
+    {
+      "id": "q140",
+      "direction": "en_es",
+      "q": "How do you say 'after; afterwards; then'?",
+      "correct": "después",
+      "incorrect": ["primero", "finalmente", "luego"],
+      "why_correct": "'Después' — 'Primero me ducho y después me visto' = First I shower and afterwards I get dressed.",
+      "why_wrong": [
+        "'Primero' means first.",
+        "'Finalmente' means finally.",
+        "'Luego' means then/later/next."
+      ],
+      "tip": "Think of the word that follows 'primero' in a sequence — what comes 'after' the first step?"
+    },
+    {
+      "id": "q141",
+      "direction": "es_en",
+      "q": "What does 'luego' mean?",
+      "correct": "then; later; next",
+      "incorrect": ["after; afterwards", "then; so", "first"],
+      "why_correct": "'Luego' — used to sequence events. 'Primero me levanto, luego me ducho' = First I get up, then I shower. Also used informally for 'later' ('¡Hasta luego!' = See you later!).",
+      "why_wrong": [
+        "'After; afterwards' = después.",
+        "'Then; so' = entonces.",
+        "'First' = primero."
+      ],
+      "tip": "Think of '¡Hasta luego!' — the common farewell. What does 'luego' mean in that phrase?"
+    },
+    {
+      "id": "q142",
+      "direction": "en_es",
+      "q": "How do you say 'then; later; next'?",
+      "correct": "luego",
+      "incorrect": ["después", "entonces", "primero"],
+      "why_correct": "'Luego' — '¡Hasta luego!' = See you later! Also used to sequence: 'primero... luego...'",
+      "why_wrong": [
+        "'Después' means after/afterwards.",
+        "'Entonces' means then/so.",
+        "'Primero' means first."
+      ],
+      "tip": "Think of '¡Hasta luego!' — a common Spanish farewell. What does 'luego' convey?"
+    },
+    {
+      "id": "q143",
+      "direction": "es_en",
+      "q": "What does 'normalmente' mean?",
+      "correct": "normally; usually",
+      "incorrect": ["finally", "always", "sometimes"],
+      "why_correct": "'Normalmente' — near-cognate of 'normally'. 'Normalmente me levanto a las siete' = I normally get up at seven.",
+      "why_wrong": [
+        "'Finally' = finalmente.",
+        "'Always' = siempre.",
+        "'Sometimes' = a veces."
+      ],
+      "tip": "Near-cognate — this adverb ends in '-mente' (the Spanish equivalent of '-ly')."
+    },
+    {
+      "id": "q144",
+      "direction": "en_es",
+      "q": "How do you say 'normally; usually'?",
+      "correct": "normalmente",
+      "incorrect": ["finalmente", "siempre", "a veces"],
+      "why_correct": "'Normalmente' — near-cognate of 'normally'. '-mente' = '-ly'. 'Normalmente desayuno cereal' = I usually eat cereal for breakfast.",
+      "why_wrong": [
+        "'Finalmente' means finally.",
+        "'Siempre' means always.",
+        "'A veces' means sometimes."
+      ],
+      "tip": "Near-cognate of 'normally' — just add '-mente' (the Spanish '-ly' suffix)."
+    },
+    {
+      "id": "q145",
+      "direction": "es_en",
+      "q": "What does 'finalmente' mean?",
+      "correct": "finally",
+      "incorrect": ["first", "normally; usually", "after; then"],
+      "why_correct": "'Finalmente' — near-cognate of 'finally'. The last step in a sequence. 'Finalmente, me acuesto' = Finally, I go to bed.",
+      "why_wrong": [
+        "'First' = primero.",
+        "'Normally; usually' = normalmente.",
+        "'After; then' = después."
+      ],
+      "tip": "Near-cognate of 'finally' — the '-mente' suffix works just like '-ly' in English."
+    },
+    {
+      "id": "q146",
+      "direction": "en_es",
+      "q": "How do you say 'finally'?",
+      "correct": "finalmente",
+      "incorrect": ["primero", "normalmente", "después"],
+      "why_correct": "'Finalmente' — near-cognate of 'finally'. The last word in a daily routine sequence.",
+      "why_wrong": [
+        "'Primero' means first.",
+        "'Normalmente' means normally/usually.",
+        "'Después' means after/then."
+      ],
+      "tip": "Near-cognate of 'finally' — the '-mente' suffix is the Spanish equivalent of '-ly'."
+    },
+    {
+      "id": "q147",
+      "direction": "es_en",
+      "q": "What does 'todos los días' mean?",
+      "correct": "every day",
+      "incorrect": ["each day; every day", "sometimes", "many times; often"],
+      "why_correct": "'Todos los días' — 'todos' = all, 'días' = days. 'Me ducho todos los días' = I shower every day.",
+      "why_wrong": [
+        "'Cada día' also means 'each day/every day' — a near-synonym that uses 'each' rather than 'all'.",
+        "'Sometimes' = a veces.",
+        "'Many times; often' = muchas veces."
+      ],
+      "tip": "Think of 'todos' (all) + 'días' (days) — how often does this describe?"
+    },
+    {
+      "id": "q148",
+      "direction": "en_es",
+      "q": "How do you say 'every day' (using 'all the days')?",
+      "correct": "todos los días",
+      "incorrect": ["cada día", "a veces", "muchas veces"],
+      "why_correct": "'Todos los días' — literally 'all the days'. 'Me cepillo los dientes todos los días' = I brush my teeth every day.",
+      "why_wrong": [
+        "'Cada día' is a near-synonym meaning 'each day'.",
+        "'A veces' means sometimes.",
+        "'Muchas veces' means many times/often."
+      ],
+      "tip": "Think of 'todos' (all) + 'días' (days) — 'all the days' means what in English?"
+    },
+    {
+      "id": "q149",
+      "direction": "es_en",
+      "q": "What does 'cada día' mean?",
+      "correct": "each day; every day",
+      "incorrect": ["every day (all the days)", "sometimes", "many times; often"],
+      "why_correct": "'Cada día' — 'cada' = each, 'día' = day. Near-synonym of 'todos los días'. 'Cada día aprendo algo nuevo' = Each day I learn something new.",
+      "why_wrong": [
+        "'Todos los días' is a near-synonym using 'all the days'.",
+        "'Sometimes' = a veces.",
+        "'Many times; often' = muchas veces."
+      ],
+      "tip": "Think of 'cada' (each) + 'día' (day) — 'each day' describes what frequency?"
+    },
+    {
+      "id": "q150",
+      "direction": "en_es",
+      "q": "How do you say 'each day; every day' (using 'each')?",
+      "correct": "cada día",
+      "incorrect": ["todos los días", "a veces", "muchas veces"],
+      "why_correct": "'Cada día' — 'cada' = each. Near-synonym of 'todos los días'. 'Cada día me levanto temprano' = Each day I get up early.",
+      "why_wrong": [
+        "'Todos los días' is a near-synonym using 'all the days'.",
+        "'A veces' means sometimes.",
+        "'Muchas veces' means many times."
+      ],
+      "tip": "Think of 'cada' (each) + 'día' (day) — which two-word phrase is this?"
+    },
+    {
+      "id": "q151",
+      "direction": "es_en",
+      "q": "What does 'a veces' mean?",
+      "correct": "sometimes",
+      "incorrect": ["always", "never", "many times; often"],
+      "why_correct": "'A veces' — 'veces' is the plural of 'vez' (time/occasion). 'A veces' = at some times = sometimes.",
+      "why_wrong": [
+        "'Always' = siempre.",
+        "'Never' = nunca.",
+        "'Many times; often' = muchas veces."
+      ],
+      "tip": "Think of 'vez' (a time or occasion) — 'a veces' means 'at some occasions'. How would you say that in one word?"
+    },
+    {
+      "id": "q152",
+      "direction": "en_es",
+      "q": "How do you say 'sometimes'?",
+      "correct": "a veces",
+      "incorrect": ["siempre", "nunca", "muchas veces"],
+      "why_correct": "'A veces' — 'veces' = occasions. 'A veces me olvido el desayuno' = Sometimes I forget breakfast.",
+      "why_wrong": [
+        "'Siempre' means always.",
+        "'Nunca' means never.",
+        "'Muchas veces' means many times/often."
+      ],
+      "tip": "Think of 'vez' (occasion/time) — 'a veces' means 'at some ___'."
+    },
+    {
+      "id": "q153",
+      "direction": "es_en",
+      "q": "What does 'muchas veces' mean?",
+      "correct": "many times; often",
+      "incorrect": ["sometimes", "always", "every day"],
+      "why_correct": "'Muchas veces' — 'muchas' = many, 'veces' = times/occasions. 'Lo hago muchas veces' = I do it many times.",
+      "why_wrong": [
+        "'Sometimes' = a veces.",
+        "'Always' = siempre.",
+        "'Every day' = todos los días."
+      ],
+      "tip": "Think of 'muchas' (many) + 'veces' (times) — what frequency does 'many times' describe?"
+    },
+    {
+      "id": "q154",
+      "direction": "en_es",
+      "q": "How do you say 'many times; often'?",
+      "correct": "muchas veces",
+      "incorrect": ["a veces", "siempre", "todos los días"],
+      "why_correct": "'Muchas veces' — 'muchas' = many, 'veces' = times. 'Muchas veces llego tarde' = I'm often late.",
+      "why_wrong": [
+        "'A veces' means sometimes.",
+        "'Siempre' means always.",
+        "'Todos los días' means every day."
+      ],
+      "tip": "Think of 'muchas' (many) + 'veces' (times) — two words that together mean this."
+    },
+    {
+      "id": "q155",
+      "direction": "es_en",
+      "q": "What does 'siempre' mean?",
+      "correct": "always",
+      "incorrect": ["never", "sometimes", "many times; often"],
+      "why_correct": "'Siempre' — from Latin 'semper' (always). 'Semper Fi' (the Marine motto) uses the same root. 'Siempre llego a tiempo' = I always arrive on time.",
+      "why_wrong": [
+        "'Never' = nunca — the direct opposite.",
+        "'Sometimes' = a veces.",
+        "'Many times; often' = muchas veces."
+      ],
+      "tip": "Think of 'semper' — as in 'Semper Fi' (always faithful). What does 'semper' mean in Latin?"
+    },
+    {
+      "id": "q156",
+      "direction": "en_es",
+      "q": "How do you say 'always'?",
+      "correct": "siempre",
+      "incorrect": ["nunca", "a veces", "muchas veces"],
+      "why_correct": "'Siempre' — from Latin 'semper'. 'Siempre me lavo las manos antes de comer' = I always wash my hands before eating.",
+      "why_wrong": [
+        "'Nunca' means never — the direct opposite.",
+        "'A veces' means sometimes.",
+        "'Muchas veces' means many times."
+      ],
+      "tip": "Think of Latin 'semper' (as in 'Semper Fi') — what does it mean?"
+    },
+    {
+      "id": "q157",
+      "direction": "es_en",
+      "q": "What does 'nunca' mean?",
+      "correct": "never",
+      "incorrect": ["always", "sometimes", "many times; often"],
+      "why_correct": "'Nunca' — the opposite of 'siempre'. 'Nunca me olvido de cepillarme los dientes' = I never forget to brush my teeth.",
+      "why_wrong": [
+        "'Always' = siempre — the direct opposite.",
+        "'Sometimes' = a veces.",
+        "'Many times; often' = muchas veces."
+      ],
+      "tip": "Think of 'siempre' (always) — 'nunca' is its direct opposite."
+    },
+    {
+      "id": "q158",
+      "direction": "en_es",
+      "q": "How do you say 'never'?",
+      "correct": "nunca",
+      "incorrect": ["siempre", "a veces", "muchas veces"],
+      "why_correct": "'Nunca' — 'Nunca me acuesto tarde' = I never go to bed late.",
+      "why_wrong": [
+        "'Siempre' means always — the direct opposite.",
+        "'A veces' means sometimes.",
+        "'Muchas veces' means many times."
+      ],
+      "tip": "Think of 'siempre' (always) — 'nunca' is the word at the opposite end of the frequency scale."
+    }
+  ]
+}

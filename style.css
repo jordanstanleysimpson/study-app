@@ -603,10 +603,10 @@ button {
   color: var(--muted);
 }
 
-/* ── Secondary tiles (Browse / Stats) ── */
+/* ── Secondary tiles (Stats) ── */
 .secondary-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 10px;
   margin-bottom: 16px;
 }
@@ -1008,6 +1008,45 @@ button {
   color: var(--wrong);
 }
 
+/* ── Tip button & display ── */
+.mcq-tip-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.btn-tip {
+  padding: 5px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-tip:hover {
+  background: #fef9c3;
+  border-color: #ca8a04;
+  color: #92400e;
+}
+
+.mcq-tip {
+  font-size: 0.88rem;
+  font-style: italic;
+  color: #92400e;
+  background: #fefce8;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .btn-next {
   padding: 13px 36px;
   background: var(--primary);
@@ -1302,86 +1341,22 @@ button {
   background: rgba(79, 70, 229, 0.03);
 }
 
-/* ── Match mode ── */
-.match-inner {
+/* ── Exam mode checkbox ── */
+.exam-mode-label {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding-top: 12px;
-  max-width: 560px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.match-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.match-col {
-  display: flex;
-  flex-direction: column;
   gap: 6px;
-}
-
-.match-item {
-  width: 100%;
-  min-height: 58px;
-  padding: 10px 8px;
-  background: var(--surface);
-  border: 2px solid var(--border);
-  border-radius: 8px;
-  font-size: 0.88rem;
-  font-weight: 500;
   cursor: pointer;
-  text-align: center;
-  transition: border-color 0.15s, background 0.15s;
-  line-height: 1.3;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
 }
 
-.match-item-label {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  word-break: break-word;
-}
-
-.match-item:hover:not(:disabled) {
-  border-color: var(--primary);
-  background: rgba(79, 70, 229, 0.04);
-}
-
-.match-item.selected {
-  border-color: var(--primary);
-  background: rgba(79, 70, 229, 0.1);
-  color: var(--primary);
-}
-
-.match-item.matched {
-  border-color: var(--correct);
-  background: #dcfce7;
-  color: var(--correct);
-  cursor: default;
-}
-
-.match-item.wrong {
-  border-color: var(--wrong);
-  background: #fee2e2;
-  color: var(--wrong);
-}
-
-.match-complete {
-  padding: 16px 0 24px;
-  display: flex;
-  justify-content: center;
+.exam-mode-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--primary);
 }
 
 /* ── Update banner ── */
@@ -1822,7 +1797,154 @@ button {
   font-weight: 600;
 }
 
-/* ── Concept breakdown ── */
+/* ── Inline concept summary (after wrong answer) ── */
+#mcq-concept-summary:not(:empty) {
+  margin-top: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.concept-summary-section {
+  margin-bottom: 12px;
+}
+
+.concept-summary-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.summary-table th {
+  text-align: left;
+  padding: 5px 8px;
+  background: rgba(79, 70, 229, 0.07);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.summary-table td {
+  padding: 5px 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.summary-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.summary-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary-list li {
+  font-size: 0.85rem;
+  color: var(--text);
+  padding: 4px 8px;
+  border-left: 2px solid var(--primary);
+  background: rgba(79, 70, 229, 0.04);
+  border-radius: 0 4px 4px 0;
+}
+
+/* ── Reference panel overlay ── */
+.reference-panel {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 300;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.reference-panel.hidden {
+  display: none;
+}
+
+.reference-panel-inner {
+  background: var(--surface);
+  border-radius: var(--radius) var(--radius) 0 0;
+  width: 100%;
+  max-width: 560px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.18);
+}
+
+.reference-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.reference-panel-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.reference-panel-close {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  line-height: 1;
+}
+
+.reference-panel-close:hover {
+  color: var(--wrong);
+  background: #fef2f2;
+}
+
+.reference-panel-content {
+  overflow-y: auto;
+  padding: 16px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ref-summary-section {
+  margin-bottom: 0;
+}
+
+.ref-summary-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+/* ── app-header with back button ── */
+.app-header--back {
+  gap: 8px;
+}
+
+/* ── Concept breakdown (results) ── */
 .concept-breakdown {
   display: flex;
   flex-direction: column;

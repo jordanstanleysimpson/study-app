@@ -288,11 +288,7 @@ describe('exam mode: back navigation', () => {
     setupExam(ctx);
     ctx.state.mcqGradeMode = 'inline';
     ctx.state.mcqIndex     = 1;
-    // goBack in inline mode falls through to the flashcard back logic (no session history)
-    // The key requirement: mcqIndex must NOT change
-    const sessionHistoryBefore = ctx.state.sessionHistory.length;
     ctx.goBack();
-    // In inline mode, goBack does NOT touch mcqIndex (it handles sessionHistory instead)
     expect(ctx.state.mcqIndex).toBe(1);
   });
 });
@@ -411,6 +407,79 @@ describe('results: wrong answers sorted before correct answers', () => {
     const details = ctx.document._elements['results-details'];
     const listEl  = details.children[1];
     expect(listEl.children).toHaveLength(1); // only q1
+  });
+});
+
+// ─── buildMcqSession: direction filtering ─────────────────────────────────
+
+describe('buildMcqSession direction filtering', () => {
+  function makeDirectionalList(count = 10, id = 'dir-quiz') {
+    return {
+      id,
+      type: 'quiz',
+      directional: true,
+      questions: Array.from({ length: count }, (_, i) => ({
+        ...makeQuestion(`q${i}`),
+        direction: i % 2 === 0 ? 'es_en' : 'en_es',
+      })),
+    };
+  }
+
+  it('returns only es_en questions when direction is es_en', () => {
+    const list    = makeDirectionalList(10);
+    const session = ctx.buildMcqSession(list, 'es_en');
+    expect(session.every(q => q.direction === 'es_en')).toBe(true);
+  });
+
+  it('returns only en_es questions when direction is en_es', () => {
+    const list    = makeDirectionalList(10);
+    const session = ctx.buildMcqSession(list, 'en_es');
+    expect(session.every(q => q.direction === 'en_es')).toBe(true);
+  });
+
+  it('returns all questions when no direction is given', () => {
+    const list    = makeDirectionalList(10);
+    const session = ctx.buildMcqSession(list, null);
+    expect(session.length).toBe(10); // all 10 fit under SESSION_SIZE
+  });
+
+  it('returns empty array when no questions match the direction', () => {
+    const list = {
+      id: 'no-match',
+      type: 'quiz',
+      questions: [{ ...makeQuestion('q0'), direction: 'es_en' }],
+    };
+    const session = ctx.buildMcqSession(list, 'en_es');
+    expect(session).toHaveLength(0);
+  });
+
+  it('applies SESSION_SIZE cap after direction filtering', () => {
+    // 50 questions, all es_en — should still cap at 20
+    const list = {
+      id: 'big',
+      type: 'quiz',
+      questions: Array.from({ length: 50 }, (_, i) => ({
+        ...makeQuestion(`q${i}`),
+        direction: 'es_en',
+      })),
+    };
+    const session = ctx.buildMcqSession(list, 'es_en');
+    expect(session.length).toBeLessThanOrEqual(20);
+  });
+
+  it('questions without a direction field are excluded when direction is specified', () => {
+    const list = {
+      id: 'mixed',
+      type: 'quiz',
+      questions: [
+        { ...makeQuestion('q0'), direction: 'es_en' },
+        { ...makeQuestion('q1') },                    // no direction field
+        { ...makeQuestion('q2'), direction: 'en_es' },
+      ],
+    };
+    const session = ctx.buildMcqSession(list, 'es_en');
+    expect(session.every(q => q.direction === 'es_en')).toBe(true);
+    expect(session.some(q => q.id === 'q1')).toBe(false);
   });
 });
 

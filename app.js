@@ -3,39 +3,31 @@
 // ─────────────────────────────────────────────
 // Constants
 // ─────────────────────────────────────────────
-const COMFORT_STREAK  = 3;   // correct-in-a-row to unlock the reverse direction
-const SESSION_SIZE    = 20;  // max cards per session
+const SESSION_SIZE    = 20;
 const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
 const GITHUB_KEY      = 'study-app-github';
 const GIST_FILENAME   = 'study-progress.json';
-const APP_VERSION     = '2026-03-12T21:37:17Z';
+const APP_VERSION     = '2026-04-07T00:00:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
 // State
 // ─────────────────────────────────────────────
 const state = {
-  lists:          [],     // metadata from index.json
-  currentList:    null,   // full list object { id, pairs, … }
-  currentMode:    null,   // 'flashcard' | 'type' | 'choice' | 'mc-quiz' | 'translate'
-  session:        [],     // [{ pair: {es,en}, direction: 'es_en'|'en_es' }, …]
-  sessionIndex:   0,
-  sessionResults: [],     // [{ pair, direction, correct: bool }, …]
-  sessionHistory: [],     // [{ index, pair, direction, recorded, correct }] — for back/skip
-  subjectCache:   {},     // { [listId]: listObject } — other units in same subject, loaded in bg
-  progress:       {},     // persisted to localStorage
-  settings:       { autoAdvanceDelay: 1000 },  // app settings
-  currentAnswer:  null,   // correct answer for the active card
-  answered:       false,  // has the current card been evaluated?
-  flipped:        false,  // flashcard flip state
-  // MC Quiz state
-  mcqSession:     [],     // [{ question }, …] — 20 selected questions
-  mcqIndex:       0,
-  mcqResults:     {},     // { [questionId]: { question, chosen, correct, whyWrong } }
-  mcqChoices:     {},     // { [questionId]: shuffled choices array } — stable order for the session
-  mcqGradeMode:      'inline', // 'inline' | 'end'
-  mcqAdvanceTimeout: null,    // timeout ID for exam-mode auto-advance
+  lists:          [],
+  currentList:    null,
+  currentMode:    null,
+  progress:       {},
+  settings:       { autoAdvanceDelay: 1000, examMode: false },
+  // MCQ Quiz state
+  mcqSession:        [],
+  mcqIndex:          0,
+  mcqResults:        {},
+  mcqChoices:        {},
+  mcqGradeMode:      'inline',
+  mcqDirection:      null,
+  mcqAdvanceTimeout: null,
   // Translate mode state
   translateSession:   [],
   translateIndex:     0,
@@ -50,7 +42,7 @@ function normalize(str) {
   return str
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')  // strip diacritics for loose matching
+    .replace(/[\u0300-\u036f]/g, '')
     .trim();
 }
 
@@ -59,45 +51,34 @@ function listLabels() {
 }
 
 function updateSubjectLabels() {
-  const { front, back } = listLabels();
-  const fwd  = `${front} → ${back}`;
-  const rev  = `${back} → ${front}`;
+  const list          = state.currentList;
+  const isMcQuiz      = list.type === 'quiz';
+  const isTranslate   = list.type === 'translate';
+  const isDirectional = isMcQuiz && list.directional === true;
+  const hasSummaries  = list.summaries && Object.keys(list.summaries).length > 0;
+  const hasTerms      = Array.isArray(list.terms) && list.terms.length > 0;
 
-  const isDiagram   = state.currentList.type === 'diagram';
-  const isMcQuiz    = state.currentList.type === 'quiz';
-  const isTranslate = state.currentList.type === 'translate';
-
-  document.getElementById('btn-flashcard').classList.toggle('hidden', isMcQuiz || isTranslate);
-  document.getElementById('btn-type-it').classList.toggle('hidden', !!state.currentList.labels || isMcQuiz || isTranslate);
-  document.getElementById('btn-choice-fwd').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
-  document.getElementById('btn-choice-rev').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
-  document.getElementById('btn-match').classList.toggle('hidden', isDiagram || isMcQuiz || isTranslate);
-  const isMcqDirectional = isMcQuiz && state.currentList.quiz_mode === 'multiple-choice' && state.currentList.directional !== false;
-  document.getElementById('btn-mc-quiz-inline').classList.toggle('hidden', !isMcQuiz || isMcqDirectional);
-  document.getElementById('btn-mc-quiz-end').classList.toggle('hidden', !isMcQuiz || isMcqDirectional);
-  document.getElementById('btn-mcq-inline-es-en').classList.toggle('hidden', !isMcqDirectional);
-  document.getElementById('btn-mcq-inline-en-es').classList.toggle('hidden', !isMcqDirectional);
-  document.getElementById('btn-mcq-end-es-en').classList.toggle('hidden', !isMcqDirectional);
-  document.getElementById('btn-mcq-end-en-es').classList.toggle('hidden', !isMcqDirectional);
+  document.getElementById('btn-mc-quiz').classList.toggle('hidden',    !isMcQuiz || isDirectional);
+  document.getElementById('btn-mcq-es-en').classList.toggle('hidden',  !isDirectional);
+  document.getElementById('btn-mcq-en-es').classList.toggle('hidden',  !isDirectional);
   document.getElementById('btn-translate-es-en').classList.toggle('hidden', !isTranslate);
   document.getElementById('btn-translate-en-es').classList.toggle('hidden', !isTranslate);
-  document.getElementById('btn-translate-mix').classList.toggle('hidden', !isTranslate);
-  document.getElementById('mode-grid').classList.toggle('mode-grid--one', isDiagram);
-  document.getElementById('mode-grid').classList.toggle('mode-grid--two', isMcQuiz);
-  document.getElementById('mode-grid').classList.toggle('mode-grid--three', isTranslate || (!isDiagram && !isMcQuiz && !!state.currentList.labels));
+  document.getElementById('btn-translate-mix').classList.toggle('hidden',   !isTranslate);
+  document.getElementById('btn-all-terms').classList.toggle('hidden',  !hasTerms);
+  document.getElementById('btn-reference').classList.toggle('hidden',  !hasSummaries);
 
-  const isSubject = !!state.currentList.labels;
-  document.getElementById('mode-icon-fwd').textContent = isSubject ? '📋' : '🇪🇸';
-  document.getElementById('mode-icon-rev').textContent = isSubject ? '🔄' : '🇬🇧';
+  const grid = document.getElementById('mode-grid');
+  grid.classList.remove('mode-grid--one', 'mode-grid--two', 'mode-grid--three');
+  if (isTranslate)         grid.classList.add('mode-grid--three');
+  else if (isDirectional)  grid.classList.add('mode-grid--two');
+  else                     grid.classList.add('mode-grid--one');
 
-  const modeDescType  = document.getElementById('mode-desc-type');
-  const modeDescFwd   = document.getElementById('mode-desc-fwd');
-  const modeDescRev   = document.getElementById('mode-desc-rev');
-  const modeDescMatch = document.getElementById('mode-desc-match');
-  if (modeDescType)  modeDescType.textContent  = state.currentList.labels ? `See definition, type the term` : 'Spell the answer';
-  if (modeDescFwd)   modeDescFwd.textContent   = fwd;
-  if (modeDescRev)   modeDescRev.textContent   = rev;
-  if (modeDescMatch) modeDescMatch.textContent = `Connect ${front} to ${back}`;
+  const { front, back } = listLabels();
+
+  const esEnBtn = document.getElementById('btn-mcq-es-en');
+  const enEsBtn = document.getElementById('btn-mcq-en-es');
+  if (esEnBtn) esEnBtn.querySelector('.mode-desc').textContent = `${front} → ${back}`;
+  if (enEsBtn) enEsBtn.querySelector('.mode-desc').textContent = `${back} → ${front}`;
 
   const thFront = document.getElementById('browse-sort-es');
   const thBack  = document.getElementById('browse-sort-en');
@@ -136,7 +117,6 @@ function idbOpen() {
 }
 
 function idbSave(data) {
-  // Fire-and-forget — never blocks the UI
   idbOpen()
     .then(db => db.transaction(IDB_STORE, 'readwrite').objectStore(IDB_STORE).put(data, 'main'))
     .catch(() => {});
@@ -146,9 +126,9 @@ function idbLoad() {
   return new Promise(resolve => {
     idbOpen()
       .then(db => {
-        const req      = db.transaction(IDB_STORE).objectStore(IDB_STORE).get('main');
-        req.onsuccess  = e => resolve(e.target.result ?? null);
-        req.onerror    = ()  => resolve(null);
+        const req     = db.transaction(IDB_STORE).objectStore(IDB_STORE).get('main');
+        req.onsuccess = e => resolve(e.target.result ?? null);
+        req.onerror   = ()  => resolve(null);
       })
       .catch(() => resolve(null));
   });
@@ -157,13 +137,9 @@ function idbLoad() {
 async function loadProgress() {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) {
-      state.progress = JSON.parse(stored);
-      return;
-    }
+    if (stored) { state.progress = JSON.parse(stored); return; }
   } catch {}
 
-  // localStorage empty — try IndexedDB
   try {
     const backup = await idbLoad();
     if (backup && typeof backup === 'object') {
@@ -173,7 +149,6 @@ async function loadProgress() {
     }
   } catch {}
 
-  // IndexedDB also empty — try GitHub Gist
   try {
     const gistData = await gistFetch();
     if (gistData) {
@@ -254,8 +229,6 @@ async function gistFetch() {
 async function connectGithub() {
   const token = document.getElementById('github-token-input').value.trim();
   if (!token) return;
-
-  // Verify token by hitting the user endpoint
   try {
     const res = await fetch('https://api.github.com/user', {
       headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github+json' },
@@ -265,7 +238,7 @@ async function connectGithub() {
     saveGithubSettings({ token, gistId: null, user: user.login });
     document.getElementById('github-token-input').value = '';
     closeGithubPanel();
-    await gistSync(); // create the gist immediately
+    await gistSync();
     updateGithubStatus();
   } catch {
     document.getElementById('github-token-error').classList.remove('hidden');
@@ -313,12 +286,15 @@ function updateGithubStatus() {
   }
 }
 
+// ─────────────────────────────────────────────
+// Settings
+// ─────────────────────────────────────────────
 function loadSettings() {
   try {
     const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}');
-    state.settings = { autoAdvanceDelay: 1000, matchSize: 20, ...saved };
+    state.settings = { autoAdvanceDelay: 1000, examMode: false, ...saved };
   } catch {
-    state.settings = { autoAdvanceDelay: 1000, matchSize: 20 };
+    state.settings = { autoAdvanceDelay: 1000, examMode: false };
   }
 }
 
@@ -326,148 +302,29 @@ function saveSettings() {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(state.settings));
 }
 
-function getWordRecord(listId, word) {
-  if (!state.progress[listId])       state.progress[listId] = {};
-  if (!state.progress[listId][word]) {
-    state.progress[listId][word] = {
-      es_en: { correct: 0, incorrect: 0, streak: 0, comfortable: false },
-      en_es: { correct: 0, incorrect: 0, streak: 0, comfortable: false },
-    };
-  }
-  return state.progress[listId][word];
+function setAutoAdvanceDelay(value) {
+  state.settings.autoAdvanceDelay = parseInt(value, 10);
+  saveSettings();
+  updateAutoAdvanceUI();
 }
 
-function recordAnswer(listId, word, direction, correct) {
-  const dir = getWordRecord(listId, word)[direction];
-  if (correct) {
-    dir.correct++;
-    dir.streak++;
-    if (dir.streak >= COMFORT_STREAK) dir.comfortable = true;
-  } else {
-    dir.incorrect++;
-    dir.streak = 0;
-  }
-  saveProgress();
+function updateAutoAdvanceUI() {
+  const value   = state.settings.autoAdvanceDelay.toString();
+  const select1 = document.getElementById('auto-advance-select');
+  const select2 = document.getElementById('quiz-auto-advance-select');
+  if (select1) select1.value = value;
+  if (select2) select2.value = value;
 }
 
-function undoRecordAnswer(listId, word, direction, correct) {
-  const dir = getWordRecord(listId, word)[direction];
-  if (correct) {
-    dir.correct   = Math.max(0, dir.correct - 1);
-    dir.streak    = Math.max(0, dir.streak - 1);
-  } else {
-    dir.incorrect = Math.max(0, dir.incorrect - 1);
-  }
-  saveProgress();
+function setExamMode(checked) {
+  state.settings.examMode = checked;
+  saveSettings();
+  updateExamModeUI();
 }
 
-function skipCard() {
-  if (state.currentMode === 'mc-quiz') { skipMcqCard(); return; }
-  if (state.currentMode === 'translate') { skipTranslateCard(); return; }
-  if (state.answered) return;
-  const { pair, direction } = state.session[state.sessionIndex];
-  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: false, correct: null });
-  state.sessionIndex++;
-  renderCard();
-}
-
-function goBack() {
-  // Exam mode mc-quiz: undo last answer and step back
-  if (state.currentMode === 'mc-quiz' && state.mcqGradeMode === 'end') {
-    if (state.mcqIndex === 0) return;
-    if (state.mcqAdvanceTimeout !== null) {
-      clearTimeout(state.mcqAdvanceTimeout);
-      state.mcqAdvanceTimeout = null;
-    }
-    state.mcqIndex--;
-    updateNavBar();
-    renderMcqCard();
-    return;
-  }
-
-  if (state.sessionHistory.length === 0) return;
-  const last = state.sessionHistory.pop();
-  if (last.recorded) {
-    undoRecordAnswer(state.currentList.id, last.pair.es, last.direction, last.correct);
-    state.sessionResults.pop();
-  }
-  state.sessionIndex = last.index;
-  state.answered = false;
-  renderCard();
-}
-
-function updateNavBar() {
-  const isMatch  = state.currentMode === 'match';
-  const isMcQuiz = state.currentMode === 'mc-quiz';
-  const footer   = document.getElementById('quiz-footer');
-  if (footer) footer.classList.toggle('hidden', isMatch);
-
-  const backBtn = document.getElementById('nav-back-btn');
-  const skipBtn = document.getElementById('nav-skip-btn');
-
-  // Exam mode: show back (disabled until at least one answer recorded), show skip
-  if (isMcQuiz && state.mcqGradeMode === 'end') {
-    if (backBtn) { backBtn.classList.remove('hidden'); backBtn.disabled = state.mcqIndex === 0; }
-    if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
-    return;
-  }
-
-  // Inline mc-quiz and translate: skip only, no back
-  if (isMcQuiz || state.currentMode === 'translate') {
-    if (backBtn) backBtn.classList.add('hidden');
-    if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
-    return;
-  }
-  if (backBtn) backBtn.classList.remove('hidden');
-  if (skipBtn) skipBtn.classList.remove('hidden');
-  if (backBtn) backBtn.disabled = state.sessionHistory.length === 0;
-  if (skipBtn) skipBtn.disabled = state.answered;
-}
-
-function isEsEnComfortable(listId, word) {
-  return getWordRecord(listId, word).es_en.comfortable;
-}
-
-// ─────────────────────────────────────────────
-// Session builder — weighted card pool
-//
-// es→en: always included; weight = 4 (new), 3 (seen but not comfortable), 1 (comfortable)
-// en→es: only added once the word's es→en direction is comfortable
-// ─────────────────────────────────────────────
-function getWeight(listId, word, direction) {
-  const dir = getWordRecord(listId, word)[direction];
-  const total = dir.correct + dir.incorrect;
-  if (total === 0)        return 4;
-  if (!dir.comfortable)  return 3;
-  return 1;
-}
-
-function buildSession(list) {
-  const pool = [];
-
-  for (const pair of list.pairs) {
-    const w = getWeight(list.id, pair.es, 'es_en');
-    for (let i = 0; i < w; i++) pool.push({ pair, direction: 'es_en' });
-
-    if (isEsEnComfortable(list.id, pair.es)) {
-      const w2 = getWeight(list.id, pair.es, 'en_es');
-      for (let i = 0; i < w2; i++) pool.push({ pair, direction: 'en_es' });
-    }
-  }
-
-  // Shuffle then trim, avoiding back-to-back repetition of the same word
-  const shuffled = shuffle(pool);
-  const session  = [];
-  let lastWord   = null;
-
-  for (const card of shuffled) {
-    if (session.length >= SESSION_SIZE) break;
-    if (card.pair.es === lastWord) continue;
-    session.push(card);
-    lastWord = card.pair.es;
-  }
-
-  return session;
+function updateExamModeUI() {
+  const checkbox = document.getElementById('exam-mode-checkbox');
+  if (checkbox) checkbox.checked = !!state.settings.examMode;
 }
 
 // ─────────────────────────────────────────────
@@ -490,58 +347,20 @@ function goHome() {
 }
 
 function switchTab(name) {
-  const browseTab  = document.getElementById('tab-browse');
-  const statsTab   = document.getElementById('tab-stats');
-  const browseTile = document.getElementById('tile-browse');
-  const statsTile  = document.getElementById('tile-stats');
+  const statsTab  = document.getElementById('tab-stats');
+  const statsTile = document.getElementById('tile-stats');
 
-  if (name === 'browse') {
-    const opening = browseTab.classList.contains('hidden');
-    browseTab.classList.toggle('hidden', !opening);
-    statsTab.classList.add('hidden');
-    browseTile.classList.toggle('active', opening);
-    statsTile.classList.remove('active');
-    if (opening) renderBrowse();
-  } else if (name === 'stats') {
+  if (name === 'stats') {
     const opening = statsTab.classList.contains('hidden');
     statsTab.classList.toggle('hidden', !opening);
-    browseTab.classList.add('hidden');
     statsTile.classList.toggle('active', opening);
-    browseTile.classList.remove('active');
     if (opening) renderStats();
   }
 }
 
 function closeTabs() {
-  document.getElementById('tab-browse').classList.add('hidden');
   document.getElementById('tab-stats').classList.add('hidden');
-  document.getElementById('tile-browse').classList.remove('active');
   document.getElementById('tile-stats').classList.remove('active');
-}
-
-function setAutoAdvanceDelay(value) {
-  state.settings.autoAdvanceDelay = parseInt(value, 10);
-  saveSettings();
-  updateAutoAdvanceUI();
-}
-
-function setMatchSize(value) {
-  state.settings.matchSize = parseInt(value, 10);
-  saveSettings();
-  updateMatchSizeUI();
-}
-
-function updateMatchSizeUI() {
-  const select = document.getElementById('match-size-select');
-  if (select) select.value = state.settings.matchSize.toString();
-}
-
-function updateAutoAdvanceUI() {
-  const value = state.settings.autoAdvanceDelay.toString();
-  const select1 = document.getElementById('auto-advance-select');
-  const select2 = document.getElementById('quiz-auto-advance-select');
-  if (select1) select1.value = value;
-  if (select2) select2.value = value;
 }
 
 function confirmQuit() {
@@ -557,7 +376,7 @@ async function init() {
   updateGithubStatus();
   setupEventListeners();
   updateAutoAdvanceUI();
-  updateMatchSizeUI();
+  updateExamModeUI();
   checkForUpdate();
 
   try {
@@ -566,7 +385,6 @@ async function init() {
     state.lists = data.lists.filter(l => !l.hidden).sort((a, b) => b.created.localeCompare(a.created));
     buildClassPicker();
 
-    // Auto-select first class and first list
     if (state.lists.length > 0) {
       const firstClass = state.lists[0].subject;
       selectedClass = firstClass;
@@ -594,9 +412,7 @@ function computeListProgress(listId, wordCount, type) {
     }).length;
     return Math.round((mastered / wordCount) * 100);
   }
-  const comfortable = Object.values(state.progress[listId])
-    .filter(w => w.es_en.comfortable).length;
-  return Math.round((comfortable / wordCount) * 100);
+  return 0;
 }
 
 // ─────────────────────────────────────────────
@@ -605,7 +421,7 @@ function computeListProgress(listId, wordCount, type) {
 let selectedClass = null;
 
 function buildClassPicker() {
-  const classes = [...new Set(state.lists.map(l => l.subject))];
+  const classes  = [...new Set(state.lists.map(l => l.subject))];
   const dropdown = document.getElementById('class-picker-dropdown');
   dropdown.innerHTML = '';
 
@@ -614,10 +430,7 @@ function buildClassPicker() {
     btn.className       = 'list-picker-option';
     btn.textContent     = cls;
     btn.dataset.subject = cls;
-    btn.addEventListener('click', () => {
-      closeAllPickers();
-      switchClass(cls);
-    });
+    btn.addEventListener('click', () => { closeAllPickers(); switchClass(cls); });
     dropdown.appendChild(btn);
   }
 }
@@ -632,10 +445,7 @@ function buildUnitPicker(subject) {
     btn.className   = 'list-picker-option';
     btn.textContent = list.name;
     btn.dataset.id  = list.id;
-    btn.addEventListener('click', () => {
-      closeAllPickers();
-      selectList(list);
-    });
+    btn.addEventListener('click', () => { closeAllPickers(); selectList(list); });
     dropdown.appendChild(btn);
   }
 }
@@ -644,8 +454,6 @@ function switchClass(cls) {
   selectedClass = cls;
   buildUnitPicker(cls);
   updateClassHighlight();
-
-  // Auto-load first unit in this class
   const first = state.lists.find(l => l.subject === cls);
   if (first) selectList(first);
 }
@@ -654,7 +462,6 @@ function updatePickerLabels() {
   const list = state.currentList;
   document.getElementById('class-picker-value').textContent = list.subject;
   document.getElementById('unit-picker-value').textContent  = list.name;
-
   updateClassHighlight();
   document.querySelectorAll('#unit-picker-dropdown .list-picker-option').forEach(btn => {
     btn.classList.toggle('current', btn.dataset.id === list.id);
@@ -696,7 +503,6 @@ function renderHome() {
   const container = document.getElementById('lists-container');
   container.innerHTML = '';
 
-  // Group by subject
   const bySubject = {};
   for (const list of state.lists) {
     if (!bySubject[list.subject]) bySubject[list.subject] = [];
@@ -707,8 +513,8 @@ function renderHome() {
     const section  = document.createElement('div');
     section.className = 'subject-section';
 
-    const heading  = document.createElement('h2');
-    heading.className = 'subject-title';
+    const heading = document.createElement('h2');
+    heading.className   = 'subject-title';
     heading.textContent = subject;
     section.appendChild(heading);
 
@@ -717,22 +523,20 @@ function renderHome() {
       const card = document.createElement('button');
       card.className = 'list-card';
 
-      const info = document.createElement('div');
+      const info  = document.createElement('div');
       info.className = 'list-card-info';
 
-      const name = document.createElement('span');
-      name.className = 'list-name';
+      const name  = document.createElement('span');
+      name.className   = 'list-name';
       name.textContent = meta.name;
 
       const count = document.createElement('span');
-      count.className = 'list-meta';
-      count.textContent = meta.type === 'diagram'
-        ? `${meta.wordCount} diagram questions`
-        : meta.type === 'quiz'
-          ? `${meta.wordCount} quiz questions`
-          : meta.type === 'translate'
-            ? `${meta.wordCount} sentences`
-            : `${meta.wordCount} words`;
+      count.className   = 'list-meta';
+      count.textContent = meta.type === 'quiz'
+        ? `${meta.wordCount} questions`
+        : meta.type === 'translate'
+          ? `${meta.wordCount} sentences`
+          : `${meta.wordCount} items`;
 
       info.appendChild(name);
       info.appendChild(count);
@@ -740,8 +544,8 @@ function renderHome() {
       const bar  = document.createElement('div');
       bar.className = 'list-progress-bar';
       const fill = document.createElement('div');
-      fill.className = 'list-progress-fill';
-      fill.style.width = pct + '%';
+      fill.className    = 'list-progress-fill';
+      fill.style.width  = pct + '%';
       bar.appendChild(fill);
 
       card.appendChild(info);
@@ -755,7 +559,7 @@ function renderHome() {
 }
 
 // ─────────────────────────────────────────────
-// Mode selection screen
+// Mode selection
 // ─────────────────────────────────────────────
 async function selectList(meta) {
   try {
@@ -766,28 +570,17 @@ async function selectList(meta) {
     return;
   }
 
-  // Rebuild unit picker if class changed
   if (state.currentList.subject !== selectedClass) {
     selectedClass = state.currentList.subject;
     buildUnitPicker(selectedClass);
   }
   updatePickerLabels();
   updateSubjectLabels();
-  updateReferenceButton();
   renderListStats();
   closeTabs();
   showScreen('screen-mode');
 
-  // Background-fetch other lists in same subject for 80/20 cross-unit mixing
-  const subject = state.currentList.subject;
-  for (const m of state.lists) {
-    if (m.subject === subject && m.id !== state.currentList.id && m.type !== 'diagram' && m.type !== 'quiz' && !state.subjectCache[m.id]) {
-      fetch(m.file).then(r => r.json()).then(l => { state.subjectCache[m.id] = l; }).catch(() => {});
-    }
-  }
-
-  // Browse tile is always visible (quiz lists show terms reference)
-  document.getElementById('tile-browse').classList.remove('hidden');
+  document.getElementById('tile-stats').classList.remove('hidden');
 }
 
 function renderListStats() {
@@ -799,8 +592,8 @@ function renderListStats() {
 
   const makestat = (num, label) => {
     const s = document.createElement('div');
-    s.className = 'stat';
-    s.innerHTML = `<span class="stat-num">${num}</span><span class="stat-label">${label}</span>`;
+    s.className   = 'stat';
+    s.innerHTML   = `<span class="stat-num">${num}</span><span class="stat-label">${label}</span>`;
     return s;
   };
 
@@ -813,8 +606,8 @@ function renderListStats() {
         const t = rec.correct + rec.incorrect;
         if (t > 0) {
           seen++;
-          totalCorrect   += rec.correct;
-          totalAttempts  += t;
+          totalCorrect  += rec.correct;
+          totalAttempts += t;
           if (rec.correct / t >= 0.8) mastered++;
         }
       }
@@ -822,297 +615,70 @@ function renderListStats() {
     const pct = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
     stats.appendChild(makestat(questions.length, 'questions'));
     stats.appendChild(makestat(seen,             'attempted'));
-    stats.appendChild(makestat(`${mastered}`,    '≥80% accuracy'));
+    stats.appendChild(makestat(mastered,         '≥80% accuracy'));
     stats.appendChild(makestat(totalAttempts > 0 ? `${pct}%` : '—', 'overall accuracy'));
     container.appendChild(stats);
     return;
   }
 
-  const { id, pairs } = state.currentList;
-  let comfortableEsEn = 0;
-  let comfortableEnEs = 0;
-
-  for (const pair of pairs) {
-    const rec = getWordRecord(id, pair.es);
-    if (rec.es_en.comfortable) comfortableEsEn++;
-    if (rec.en_es.comfortable) comfortableEnEs++;
+  if (state.currentList.type === 'translate') {
+    stats.appendChild(makestat(state.currentList.sentences?.length ?? 0, 'sentences'));
+    container.appendChild(stats);
+    return;
   }
-
-  const { front, back } = listLabels();
-  stats.appendChild(makestat(pairs.length,       'words'));
-  stats.appendChild(makestat(comfortableEsEn,    `confident ${front}→${back}`));
-  stats.appendChild(makestat(comfortableEnEs,    `confident ${back}→${front}`));
-  container.appendChild(stats);
 }
 
 // ─────────────────────────────────────────────
-// Quiz session
+// Navigation (skip / back / nav bar)
 // ─────────────────────────────────────────────
-function startSession(mode) {
-  if (mode === 'match') {
-    startMatch();
-    return;
-  }
+function skipCard() {
+  if (state.currentMode === 'mc-quiz')  { skipMcqCard();      return; }
+  if (state.currentMode === 'translate') { skipTranslateCard(); return; }
+}
 
-  let session;
-  if (mode === 'choice-en') {
-    // Force back → front for every card
-    session = shuffle([...state.currentList.pairs])
-      .slice(0, SESSION_SIZE)
-      .map(pair => ({ pair, direction: 'en_es' }));
-  } else if (mode === 'type' && state.currentList.labels) {
-    // Non-language lists: always show definition, type the term (short answer)
-    session = shuffle([...state.currentList.pairs])
-      .slice(0, SESSION_SIZE)
-      .map(pair => ({ pair, direction: 'en_es' }));
-  } else {
-    session = buildSession(state.currentList);
-  }
-
-  if (session.length === 0) {
-    alert('No words to study in this list.');
-    return;
-  }
-
-  // 80/20 cross-unit mixing: replace up to 20% of session with cards from other units
-  if (state.currentList.type !== 'diagram') {
-    const otherPairs = Object.values(state.subjectCache).flatMap(l => l.pairs || []);
-    if (otherPairs.length > 0) {
-      const mixCount  = Math.max(1, Math.round(session.length * 0.2));
-      const mainCount = session.length - mixCount;
-      const mixed = shuffle(otherPairs)
-        .slice(0, mixCount)
-        .map(pair => ({ pair, direction: 'es_en' }));
-      session = shuffle([...session.slice(0, mainCount), ...mixed]);
+function goBack() {
+  if (state.currentMode === 'mc-quiz' && state.mcqGradeMode === 'end') {
+    if (state.mcqIndex === 0) return;
+    if (state.mcqAdvanceTimeout !== null) {
+      clearTimeout(state.mcqAdvanceTimeout);
+      state.mcqAdvanceTimeout = null;
     }
+    state.mcqIndex--;
+    updateNavBar();
+    renderMcqCard();
   }
-
-  state.currentMode    = mode;
-  state.session        = session;
-  state.sessionIndex   = 0;
-  state.sessionResults = [];
-  state.sessionHistory = [];
-
-  showScreen('screen-quiz');
-  updateAutoAdvanceUI();
-  renderCard();
 }
 
-function updateProgressBar() {
-  const pct = (state.sessionIndex / state.session.length) * 100;
-  document.getElementById('progress-bar').style.width     = pct + '%';
-  document.getElementById('progress-count').textContent   =
-    `${state.sessionIndex}/${state.session.length}`;
-}
+function updateNavBar() {
+  const isMcQuiz = state.currentMode === 'mc-quiz';
+  const footer   = document.getElementById('quiz-footer');
+  if (footer) footer.classList.remove('hidden');
 
-function renderCard() {
-  updateProgressBar();
+  const backBtn = document.getElementById('nav-back-btn');
+  const skipBtn = document.getElementById('nav-skip-btn');
 
-  if (state.sessionIndex >= state.session.length) {
-    showResults();
+  if (isMcQuiz && state.mcqGradeMode === 'end') {
+    if (backBtn) { backBtn.classList.remove('hidden'); backBtn.disabled = state.mcqIndex === 0; }
+    if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
     return;
   }
 
-  const { pair, direction } = state.session[state.sessionIndex];
-  const prompt   = direction === 'es_en' ? pair.es : pair.en;
-  const answer   = direction === 'es_en' ? pair.en : pair.es;
-  const { front, back } = listLabels();
-  const dirLabel = direction === 'es_en' ? `${front} → ${back}` : `${back} → ${front}`;
-
-  state.currentAnswer = answer;
-  state.answered      = false;
-
-  updateNavBar();
-  if      (state.currentMode === 'flashcard') renderFlashcard(dirLabel, prompt, answer, pair);
-  else if (state.currentMode === 'type')      renderTypeIt(dirLabel, prompt);
-  else if (state.currentMode.startsWith('choice')) renderChoice(dirLabel, prompt);
-}
-
-// ─────────────────────────────────────────────
-// Flashcard mode
-// ─────────────────────────────────────────────
-function renderFlashcard(dirLabel, prompt, answer, pair) {
-  state.flipped = false;
-  showQuizMode('flashcard');
-
-  document.getElementById('fc-direction').textContent = dirLabel;
-  document.getElementById('fc-prompt').textContent    = prompt;
-  document.getElementById('fc-answer').textContent    = answer;
-  document.getElementById('fc-definition').classList.add('hidden');
-  document.getElementById('fc-hint').classList.remove('hidden');
-  document.getElementById('fc-answer-btns').classList.add('hidden');
-
-  const diagramImg = document.getElementById('fc-diagram-img');
-  const hasDiagram = !!(pair && pair.img);
-  if (hasDiagram) {
-    diagramImg.src = pair.img;
-    diagramImg.classList.remove('hidden');
-  } else {
-    diagramImg.src = '';
-    diagramImg.classList.add('hidden');
-  }
-  document.getElementById('flashcard').classList.toggle('fc-card--question', hasDiagram);
-}
-
-function flipCard() {
-  if (state.flipped) {
-    flashcardAnswer(true);
-    return;
-  }
-  state.flipped = true;
-  document.getElementById('fc-definition').classList.remove('hidden');
-  document.getElementById('fc-answer-btns').classList.remove('hidden');
-  document.getElementById('fc-hint').classList.add('hidden');
-}
-
-function flashcardAnswer(correct) {
-  const { pair, direction } = state.session[state.sessionIndex];
-  recordAnswer(state.currentList.id, pair.es, direction, correct);
-  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: true, correct });
-  state.sessionResults.push({ pair, direction, correct });
-  state.sessionIndex++;
-  renderCard();
-}
-
-// ─────────────────────────────────────────────
-// Type it mode
-// ─────────────────────────────────────────────
-function renderTypeIt(dirLabel, prompt) {
-  showQuizMode('type');
-
-  document.getElementById('type-direction').textContent = dirLabel;
-  document.getElementById('type-prompt').textContent    = prompt;
-
-  const input = document.getElementById('type-input');
-  input.value       = '';
-  input.disabled    = false;
-  input.placeholder = state.currentList.labels ? 'Type the term…' : 'Type the translation…';
-  input.focus();
-
-  document.getElementById('type-feedback').className = 'feedback hidden';
-  document.getElementById('type-next').classList.add('hidden');
-}
-
-function checkTypeAnswer() {
-  // If already answered, Enter/Check acts as "Next"
-  if (state.answered) {
-    advanceCard();
+  if (isMcQuiz || state.currentMode === 'translate') {
+    if (backBtn) backBtn.classList.add('hidden');
+    if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
     return;
   }
 
-  const input      = document.getElementById('type-input');
-  const userAnswer = input.value;
-  if (!userAnswer.trim()) return;
-
-  state.answered = true;
-  input.disabled = true;
-
-  const correct  = normalize(userAnswer) === normalize(state.currentAnswer);
-  const feedback = document.getElementById('type-feedback');
-  feedback.className   = `feedback ${correct ? 'feedback-correct' : 'feedback-wrong'}`;
-  feedback.textContent = correct ? 'Correct!' : `Answer: ${state.currentAnswer}`;
-
-  document.getElementById('type-next').classList.remove('hidden');
-
-  const { pair, direction } = state.session[state.sessionIndex];
-  recordAnswer(state.currentList.id, pair.es, direction, correct);
-  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: true, correct });
-  state.sessionResults.push({ pair, direction, correct });
-  updateNavBar();
-
-  // Auto-advance on correct answers only
-  if (correct && state.settings.autoAdvanceDelay > 0) {
-    setTimeout(() => {
-      if (state.answered && state.currentMode === 'type') {
-        advanceCard();
-      }
-    }, state.settings.autoAdvanceDelay);
-  }
+  if (backBtn) backBtn.classList.add('hidden');
+  if (skipBtn) skipBtn.classList.add('hidden');
 }
 
 // ─────────────────────────────────────────────
-// Multiple choice mode
-// ─────────────────────────────────────────────
-function renderChoice(dirLabel, prompt) {
-  showQuizMode('choice');
-
-  document.getElementById('choice-direction').textContent = dirLabel;
-  document.getElementById('choice-prompt').textContent    = prompt;
-  document.getElementById('choice-next').classList.add('hidden');
-
-  const { direction } = state.session[state.sessionIndex];
-  const correct       = state.currentAnswer;
-  const allPairs      = state.currentList.pairs;
-
-  const wrongPool  = allPairs
-    .map(p => direction === 'es_en' ? p.en : p.es)
-    .filter(a => normalize(a) !== normalize(correct));
-
-  const distractors = shuffle(wrongPool).slice(0, 3);
-  const choices     = shuffle([correct, ...distractors]);
-
-  const grid = document.getElementById('choices-grid');
-  grid.innerHTML = '';
-
-  for (const choice of choices) {
-    const btn  = document.createElement('button');
-    btn.className   = 'choice-btn';
-    btn.textContent = choice;
-    btn.addEventListener('click', () => checkChoice(btn, choice));
-    grid.appendChild(btn);
-  }
-}
-
-function checkChoice(btn, chosen) {
-  if (state.answered) {
-    advanceCard();
-    return;
-  }
-  state.answered = true;
-
-  const correct = normalize(chosen) === normalize(state.currentAnswer);
-
-  document.querySelectorAll('.choice-btn').forEach(b => {
-    b.disabled = true;
-    if (normalize(b.textContent) === normalize(state.currentAnswer)) {
-      b.classList.add('choice-correct');
-    }
-  });
-
-  if (!correct) btn.classList.add('choice-wrong');
-
-  document.getElementById('choice-next').classList.remove('hidden');
-
-  const { pair, direction } = state.session[state.sessionIndex];
-  recordAnswer(state.currentList.id, pair.es, direction, correct);
-  state.sessionHistory.push({ index: state.sessionIndex, pair, direction, recorded: true, correct });
-  state.sessionResults.push({ pair, direction, correct });
-  updateNavBar();
-
-  // Auto-advance on correct answers only
-  if (correct && state.settings.autoAdvanceDelay > 0) {
-    setTimeout(() => {
-      if (state.answered && state.currentMode.startsWith('choice')) {
-        advanceCard();
-      }
-    }, state.settings.autoAdvanceDelay);
-  }
-}
-
-// ─────────────────────────────────────────────
-// Advance
-// ─────────────────────────────────────────────
-function advanceCard() {
-  state.sessionIndex++;
-  renderCard();
-}
-
-// ─────────────────────────────────────────────
-// MC Quiz mode
+// MC Quiz — progress tracking
 // ─────────────────────────────────────────────
 function getQuizRecord(listId, questionId) {
-  if (!state.progress[listId])                 state.progress[listId] = {};
-  if (!state.progress[listId][questionId])     state.progress[listId][questionId] = { correct: 0, incorrect: 0 };
+  if (!state.progress[listId])             state.progress[listId] = {};
+  if (!state.progress[listId][questionId]) state.progress[listId][questionId] = { correct: 0, incorrect: 0 };
   return state.progress[listId][questionId];
 }
 
@@ -1140,24 +706,28 @@ function getMcqWeight(listId, questionId) {
   return 1;
 }
 
-function isEnEsQuestion(q) {
-  const c = q.correct;
-  return c.startsWith('el ') || c.startsWith('la ') || c.startsWith('los ') || c.startsWith('las ');
-}
-
+// ─────────────────────────────────────────────
+// MC Quiz — session builder
+//
+// direction: 'es_en' | 'en_es' | null (null = all questions)
+// Uses explicit q.direction field; no heuristic inference.
+// ─────────────────────────────────────────────
 function buildMcqSession(list, direction) {
   let questions = list.questions;
-  if (direction === 'en_es') questions = questions.filter(q =>  isEnEsQuestion(q));
-  if (direction === 'es_en') questions = questions.filter(q => !isEnEsQuestion(q));
+
+  if (direction) {
+    questions = questions.filter(q => q.direction === direction);
+  }
+
   const pool = [];
   for (const q of questions) {
     const w = getMcqWeight(list.id, q.id);
     for (let i = 0; i < w; i++) pool.push(q);
   }
+
   const shuffled = shuffle(pool);
-  // Deduplicate by id while preserving order, limit to SESSION_SIZE
-  const seen    = new Set();
-  const session = [];
+  const seen     = new Set();
+  const session  = [];
   for (const q of shuffled) {
     if (seen.has(q.id)) continue;
     seen.add(q.id);
@@ -1167,27 +737,32 @@ function buildMcqSession(list, direction) {
   return session;
 }
 
-function startMcQuiz(gradeMode, direction) {
+// ─────────────────────────────────────────────
+// MC Quiz — start / render / answer
+// ─────────────────────────────────────────────
+function startMcQuiz(direction) {
   const list = state.currentList;
   if (!list || list.type !== 'quiz') return;
 
+  state.mcqDirection = direction || null;
   state.mcqSession   = buildMcqSession(list, direction);
   state.mcqIndex     = 0;
   state.mcqResults   = {};
   state.mcqChoices   = {};
-  state.mcqGradeMode = gradeMode || 'inline'; // 'inline' | 'end'
+  state.mcqGradeMode = state.settings.examMode ? 'end' : 'inline';
   state.currentMode  = 'mc-quiz';
 
   document.getElementById('progress-bar').style.width   = '0%';
   document.getElementById('progress-count').textContent = `0/${state.mcqSession.length}`;
 
   updateNavBar();
-
   showScreen('screen-quiz');
   renderMcqCard();
 }
 
 function renderMcqCard() {
+  clearConceptSummary();
+
   const session = state.mcqSession;
 
   document.getElementById('progress-bar').style.width   = `${(state.mcqIndex / session.length) * 100}%`;
@@ -1199,12 +774,6 @@ function renderMcqCard() {
   }
 
   const q = session[state.mcqIndex];
-
-  if (state.currentList.quiz_mode !== 'multiple-choice') {
-    renderFitbCard(q);
-    return;
-  }
-
   showQuizMode('mc-quiz');
 
   const diagramImg = document.getElementById('mcq-diagram-img');
@@ -1220,32 +789,39 @@ function renderMcqCard() {
   document.getElementById('mcq-feedback').classList.add('hidden');
   document.getElementById('mcq-next').classList.add('hidden');
 
-  // Build shuffled choices once per question; reuse on back/forward navigation
+  const tipBtn = document.getElementById('mcq-tip-btn');
+  const tipDiv = document.getElementById('mcq-tip');
+  tipDiv.textContent = '';
+  tipDiv.classList.add('hidden');
+  if (q.tip) {
+    tipBtn.classList.remove('hidden');
+  } else {
+    tipBtn.classList.add('hidden');
+  }
+
   if (!state.mcqChoices[q.id]) {
     state.mcqChoices[q.id] = shuffle([
-      { text: q.correct,        isCorrect: true,  wrongIdx: -1 },
-      { text: q.incorrect[0],   isCorrect: false, wrongIdx: 0  },
-      { text: q.incorrect[1],   isCorrect: false, wrongIdx: 1  },
-      { text: q.incorrect[2],   isCorrect: false, wrongIdx: 2  },
+      { text: q.correct,       isCorrect: true,  wrongIdx: -1 },
+      { text: q.incorrect[0],  isCorrect: false, wrongIdx: 0  },
+      { text: q.incorrect[1],  isCorrect: false, wrongIdx: 1  },
+      { text: q.incorrect[2],  isCorrect: false, wrongIdx: 2  },
     ]);
   }
   const choices = state.mcqChoices[q.id];
 
-  const container  = document.getElementById('mcq-choices');
+  const container = document.getElementById('mcq-choices');
   container.innerHTML = '';
 
-  // Blur any focused element so the browser doesn't auto-focus the first new button
   if (document.activeElement && document.activeElement !== document.body) {
     document.activeElement.blur();
   }
 
   const prevResult = state.mcqResults[q.id];
 
-  choices.forEach((choice, i) => {
+  choices.forEach(choice => {
     const btn = document.createElement('button');
     btn.className   = 'mcq-choice-btn';
     btn.textContent = choice.text;
-    // Pre-highlight the previously chosen answer when navigating back
     if (prevResult && choice.text === prevResult.chosen) {
       btn.classList.add('mcq-choice-selected');
     }
@@ -1255,16 +831,14 @@ function renderMcqCard() {
 }
 
 function selectMcqAnswer(btn, choice, allChoices) {
-  // Ignore if already answered
   if (!document.getElementById('mcq-next').classList.contains('hidden')) return;
 
   const q         = state.mcqSession[state.mcqIndex];
   const isCorrect = choice.isCorrect;
 
-  // Always disable all buttons
   document.querySelectorAll('.mcq-choice-btn').forEach(b => { b.disabled = true; });
+  document.getElementById('mcq-tip-btn').classList.add('hidden');
 
-  // Undo previous answer for this question if the user is re-answering after going back
   const prev = state.mcqResults[q.id];
   if (prev) undoRecordQuizAnswer(state.currentList.id, q.id, prev.correct);
 
@@ -1277,7 +851,6 @@ function selectMcqAnswer(btn, choice, allChoices) {
   };
 
   if (state.mcqGradeMode === 'end') {
-    // Exam mode: no feedback, auto-advance after brief highlight
     btn.classList.add('mcq-choice-selected');
     updateNavBar();
     state.mcqAdvanceTimeout = setTimeout(() => {
@@ -1285,7 +858,6 @@ function selectMcqAnswer(btn, choice, allChoices) {
       advanceMcqCard();
     }, 400);
   } else {
-    // Inline mode: show correct/wrong colours + explanation
     document.querySelectorAll('.mcq-choice-btn').forEach((b, i) => {
       if (allChoices[i].isCorrect) b.classList.add('choice-correct');
     });
@@ -1298,105 +870,23 @@ function selectMcqAnswer(btn, choice, allChoices) {
       badge.textContent = 'Correct!';
       badge.className   = 'mcq-feedback-badge mcq-badge--correct';
       explanation.textContent = q.why_correct;
+      if (state.settings.autoAdvanceDelay > 0) {
+        state.mcqAdvanceTimeout = setTimeout(() => {
+          state.mcqAdvanceTimeout = null;
+          advanceMcqCard();
+        }, state.settings.autoAdvanceDelay);
+      }
     } else {
       badge.textContent = 'Incorrect';
       badge.className   = 'mcq-feedback-badge mcq-badge--wrong';
       const whyWrong    = choice.wrongIdx >= 0 ? q.why_wrong[choice.wrongIdx] : '';
       explanation.innerHTML = `<strong>Why that's wrong:</strong> ${whyWrong}<br><br><strong>Correct answer:</strong> ${q.correct}<br>${q.why_correct}`;
+      showConceptSummary(q.concepts);
     }
 
     document.getElementById('mcq-feedback').classList.remove('hidden');
     document.getElementById('mcq-next').classList.remove('hidden');
   }
-}
-
-function renderFitbCard(q) {
-  showQuizMode('mc-quiz-fitb');
-  document.getElementById('fitb-check').textContent = state.mcqGradeMode === 'end' ? 'Next' : 'Check';
-
-  const diagramImg = document.getElementById('fitb-diagram-img');
-  if (q.img) {
-    diagramImg.src = q.img;
-    diagramImg.classList.remove('hidden');
-  } else {
-    diagramImg.src = '';
-    diagramImg.classList.add('hidden');
-  }
-
-  document.getElementById('fitb-question').textContent = q.q;
-  document.getElementById('fitb-feedback').classList.add('hidden');
-  document.getElementById('fitb-next').classList.add('hidden');
-
-  const input = document.getElementById('fitb-input');
-  input.value    = '';
-  input.readOnly = false;
-
-  const prevResult = state.mcqResults[q.id];
-  if (prevResult && state.mcqGradeMode !== 'end') {
-    input.value    = prevResult.chosen;
-    input.readOnly = true;
-    showFitbFeedback(q, prevResult.correct, prevResult.chosen);
-    document.getElementById('fitb-next').classList.remove('hidden');
-  } else if (prevResult && state.mcqGradeMode === 'end') {
-    input.value = prevResult.chosen;
-    input.focus();
-  } else {
-    input.focus();
-  }
-}
-
-function checkFitbAnswer() {
-  const input = document.getElementById('fitb-input');
-  if (input.readOnly) { advanceMcqCard(); return; }
-
-  const userAnswer = input.value.trim();
-  if (!userAnswer) return;
-
-  const q         = state.mcqSession[state.mcqIndex];
-  const isCorrect = normalize(userAnswer) === normalize(q.correct);
-
-  input.readOnly = true;
-
-  const prev = state.mcqResults[q.id];
-  if (prev) undoRecordQuizAnswer(state.currentList.id, q.id, prev.correct);
-
-  recordQuizAnswer(state.currentList.id, q.id, isCorrect);
-  state.mcqResults[q.id] = {
-    question: q,
-    chosen:   userAnswer,
-    correct:  isCorrect,
-    whyWrong: null,
-  };
-
-  updateNavBar();
-
-  if (state.mcqGradeMode === 'end') {
-    state.mcqAdvanceTimeout = setTimeout(() => {
-      state.mcqAdvanceTimeout = null;
-      advanceMcqCard();
-    }, 400);
-  } else {
-    showFitbFeedback(q, isCorrect, userAnswer);
-    document.getElementById('fitb-check').textContent = 'Next';
-    document.getElementById('fitb-next').classList.remove('hidden');
-  }
-}
-
-function showFitbFeedback(q, isCorrect, userAnswer) {
-  const badge       = document.getElementById('fitb-feedback-badge');
-  const explanation = document.getElementById('fitb-explanation');
-
-  if (isCorrect) {
-    badge.textContent = 'Correct!';
-    badge.className   = 'mcq-feedback-badge mcq-badge--correct';
-    explanation.textContent = q.why_correct;
-  } else {
-    badge.textContent = 'Incorrect';
-    badge.className   = 'mcq-feedback-badge mcq-badge--wrong';
-    explanation.innerHTML = `<strong>Correct answer:</strong> ${q.correct}<br><br>${q.why_correct}`;
-  }
-
-  document.getElementById('fitb-feedback').classList.remove('hidden');
 }
 
 function advanceMcqCard() {
@@ -1406,24 +896,19 @@ function advanceMcqCard() {
 }
 
 function skipMcqCard() {
-  // Only skip if not yet answered
-  const nextBtn = document.getElementById('fitb-next');
-  if (!nextBtn.classList.contains('hidden')) return;
-  // Remove the question entirely — skipped questions are not revisited or scored
+  if (!document.getElementById('mcq-next').classList.contains('hidden')) return;
   state.mcqSession.splice(state.mcqIndex, 1);
+  updateNavBar();
   renderMcqCard();
 }
 
 function showMcqResults() {
-  // Collect results in session order, skip any questions that were never answered
   const results  = state.mcqSession.map(q => state.mcqResults[q.id]).filter(Boolean);
-  // Wrong answers first, then correct
   results.sort((a, b) => (a.correct === b.correct ? 0 : a.correct ? 1 : -1));
   const numRight = results.filter(r => r.correct).length;
   const total    = results.length;
   const pct      = total > 0 ? Math.round((numRight / total) * 100) : 0;
-
-  const grade = pct >= 90 ? 'A' : pct >= 80 ? 'B' : pct >= 70 ? 'C' : pct >= 60 ? 'D' : 'F';
+  const grade    = pct >= 90 ? 'A' : pct >= 80 ? 'B' : pct >= 70 ? 'C' : pct >= 60 ? 'D' : 'F';
 
   document.getElementById('results-title').textContent = 'Quiz Results';
   document.getElementById('results-summary').innerHTML = `
@@ -1466,150 +951,161 @@ function showMcqResults() {
   }
 
   details.appendChild(list);
-
-  // For quiz mode: hide Study Missed (not applicable), show Again
-  document.getElementById('btn-retry-missed').style.display = 'none';
-  document.getElementById('results-title').textContent = 'Quiz Results';
   showScreen('screen-results');
 }
 
 // ─────────────────────────────────────────────
-// Match mode
+// Concept summaries (inline after wrong answer)
 // ─────────────────────────────────────────────
-function startMatch() {
-  state.currentMode    = 'match';
-  state.sessionResults = [];
+function buildSummaryTable(def) {
+  const table = document.createElement('table');
+  table.className = 'summary-table';
 
-  const pairs = shuffle([...state.currentList.pairs]).slice(0, state.settings.matchSize);
-  state.matchPairs        = pairs;
-  state.matchSelected     = null;
-  state.matchMatched      = new Set();
-  state.matchFirstAttempt = pairs.map(() => true);
-  state.matchFlashing     = false;
-
-  document.getElementById('progress-bar').style.width   = '0%';
-  document.getElementById('progress-count').textContent = `0/${pairs.length}`;
-
-  showScreen('screen-quiz');
-  updateAutoAdvanceUI();
-  renderMatch();
-}
-
-function renderMatch() {
-  showQuizMode('match');
-  const { front: mFront, back: mBack } = listLabels();
-  document.getElementById('match-direction').textContent = `${mFront} — ${mBack}`;
-  document.getElementById('match-complete').classList.add('hidden');
-
-  const esCol = document.getElementById('match-col-es');
-  const enCol = document.getElementById('match-col-en');
-  esCol.innerHTML = '';
-  enCol.innerHTML = '';
-
-  // EN column in a different shuffle order
-  const enOrder = shuffle(state.matchPairs.map((_, i) => i));
-
-  state.matchPairs.forEach((pair, pairIndex) => {
-    const esBtn  = document.createElement('button');
-    esBtn.className   = 'match-item';
-    esBtn.dataset.pair = pairIndex;
-    esBtn.addEventListener('click', () => selectEsItem(pairIndex));
-    const esSpan = document.createElement('span');
-    esSpan.className  = 'match-item-label';
-    esSpan.textContent = pair.es;
-    esBtn.appendChild(esSpan);
-    esCol.appendChild(esBtn);
-  });
-
-  enOrder.forEach(pairIndex => {
-    const enBtn  = document.createElement('button');
-    enBtn.className   = 'match-item';
-    enBtn.dataset.pair = pairIndex;
-    enBtn.addEventListener('click', () => selectEnItem(pairIndex));
-    const enSpan = document.createElement('span');
-    enSpan.className  = 'match-item-label';
-    enSpan.textContent = state.matchPairs[pairIndex].en;
-    enBtn.appendChild(enSpan);
-    enCol.appendChild(enBtn);
-  });
-}
-
-function esItemBtn(pairIndex) {
-  return document.querySelector(`#match-col-es .match-item[data-pair="${pairIndex}"]`);
-}
-
-function enItemBtn(pairIndex) {
-  return document.querySelector(`#match-col-en .match-item[data-pair="${pairIndex}"]`);
-}
-
-function selectEsItem(pairIndex) {
-  if (state.matchFlashing) return;
-  if (state.matchMatched.has(pairIndex)) return;
-
-  // Toggle deselect
-  if (state.matchSelected === pairIndex) {
-    state.matchSelected = null;
-    esItemBtn(pairIndex).classList.remove('selected');
-    return;
-  }
-
-  // Clear previous selection
-  if (state.matchSelected !== null) {
-    esItemBtn(state.matchSelected).classList.remove('selected');
-  }
-
-  state.matchSelected = pairIndex;
-  esItemBtn(pairIndex).classList.add('selected');
-}
-
-function selectEnItem(pairIndex) {
-  if (state.matchFlashing) return;
-  if (state.matchMatched.has(pairIndex)) return;
-  if (state.matchSelected === null) return;
-
-  const selectedEs = state.matchSelected;
-
-  if (selectedEs === pairIndex) {
-    // Correct match
-    state.matchSelected = null;
-    state.matchMatched.add(pairIndex);
-
-    esItemBtn(pairIndex).classList.remove('selected');
-    esItemBtn(pairIndex).classList.add('matched');
-    esItemBtn(pairIndex).disabled = true;
-    enItemBtn(pairIndex).classList.add('matched');
-    enItemBtn(pairIndex).disabled = true;
-
-    const correct = state.matchFirstAttempt[pairIndex];
-    const pair    = state.matchPairs[pairIndex];
-    recordAnswer(state.currentList.id, pair.es, 'es_en', correct);
-    state.sessionResults.push({ pair, direction: 'es_en', correct });
-
-    updateMatchProgress();
-
-    if (state.matchMatched.size === state.matchPairs.length) {
-      document.getElementById('match-complete').classList.remove('hidden');
+  if (def.headers) {
+    const thead = document.createElement('thead');
+    const tr    = document.createElement('tr');
+    for (const h of def.headers) {
+      const th = document.createElement('th');
+      th.textContent = h;
+      tr.appendChild(th);
     }
-  } else {
-    // Wrong
-    state.matchFirstAttempt[selectedEs] = false;
-    state.matchFlashing = true;
+    thead.appendChild(tr);
+    table.appendChild(thead);
+  }
 
-    esItemBtn(selectedEs).classList.remove('selected');
-    esItemBtn(selectedEs).classList.add('wrong');
-    enItemBtn(pairIndex).classList.add('wrong');
+  const tbody = document.createElement('tbody');
+  for (const row of (def.rows || [])) {
+    const tr = document.createElement('tr');
+    for (const cell of row) {
+      const td = document.createElement('td');
+      td.textContent = cell;
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+  table.appendChild(tbody);
+  return table;
+}
 
-    setTimeout(() => {
-      esItemBtn(selectedEs).classList.remove('wrong');
-      enItemBtn(pairIndex).classList.remove('wrong');
-      state.matchSelected = null;
-      state.matchFlashing = false;
-    }, 600);
+function buildSummaryList(def) {
+  const ul = document.createElement('ul');
+  ul.className = 'summary-list';
+  for (const item of (def.items || [])) {
+    const li = document.createElement('li');
+    li.textContent = item;
+    ul.appendChild(li);
+  }
+  return ul;
+}
+
+function showConceptSummary(concepts) {
+  const container = document.getElementById('mcq-concept-summary');
+  if (!container || !concepts || !concepts.length) return;
+
+  const summaries = state.currentList?.summaries || {};
+  const relevant  = concepts.filter(c => summaries[c]);
+  if (!relevant.length) { container.innerHTML = ''; return; }
+
+  container.innerHTML = '';
+
+  for (const slug of relevant) {
+    const def = summaries[slug];
+
+    const section = document.createElement('div');
+    section.className = 'concept-summary-section';
+
+    const title = document.createElement('div');
+    title.className   = 'concept-summary-title';
+    title.textContent = def.title;
+    section.appendChild(title);
+
+    if (def.type === 'table')     section.appendChild(buildSummaryTable(def));
+    else if (def.type === 'list') section.appendChild(buildSummaryList(def));
+
+    container.appendChild(section);
+  }
+}
+
+function clearConceptSummary() {
+  const container = document.getElementById('mcq-concept-summary');
+  if (container) container.innerHTML = '';
+}
+
+function showMcqTip() {
+  const q = state.mcqSession[state.mcqIndex];
+  if (!q || !q.tip) return;
+  document.getElementById('mcq-tip-btn').classList.add('hidden');
+  const tipDiv = document.getElementById('mcq-tip');
+  tipDiv.textContent = q.tip;
+  tipDiv.classList.remove('hidden');
+}
+
+// ─────────────────────────────────────────────
+// Reference panel (all summaries for current unit)
+// ─────────────────────────────────────────────
+function showReferencePanel() {
+  renderReferencePanelContent();
+  document.getElementById('reference-panel').classList.remove('hidden');
+}
+
+function hideReferencePanel() {
+  document.getElementById('reference-panel').classList.add('hidden');
+}
+
+function renderReferencePanelContent() {
+  const summaries = state.currentList?.summaries || {};
+  const container = document.getElementById('reference-panel-content');
+  container.innerHTML = '';
+
+  for (const def of Object.values(summaries)) {
+    const section = document.createElement('div');
+    section.className = 'ref-summary-section';
+
+    const title = document.createElement('h3');
+    title.className   = 'ref-summary-title';
+    title.textContent = def.title;
+    section.appendChild(title);
+
+    if (def.type === 'table')     section.appendChild(buildSummaryTable(def));
+    else if (def.type === 'list') section.appendChild(buildSummaryList(def));
+
+    container.appendChild(section);
   }
 }
 
 // ─────────────────────────────────────────────
-// Stats mode
+// All Terms screen
+// ─────────────────────────────────────────────
+function showAllTerms() {
+  renderAllTerms();
+  showScreen('screen-terms');
+}
+
+function renderAllTerms() {
+  const list  = state.currentList;
+  const terms = list.terms || [];
+
+  document.getElementById('terms-title').textContent = list.name;
+
+  const tbody = document.getElementById('all-terms-body');
+  tbody.innerHTML = '';
+
+  for (const t of terms) {
+    const row   = document.createElement('tr');
+    const tdTerm = document.createElement('td');
+    const tdDef  = document.createElement('td');
+    tdTerm.textContent = t.term;
+    tdTerm.className   = 'terms-term';
+    tdDef.textContent  = t.definition;
+    tdDef.className    = 'terms-def';
+    row.appendChild(tdTerm);
+    row.appendChild(tdDef);
+    tbody.appendChild(row);
+  }
+}
+
+// ─────────────────────────────────────────────
+// Stats
 // ─────────────────────────────────────────────
 let currentStatsSort = 'missed';
 
@@ -1624,70 +1120,10 @@ function sortStats(by) {
 }
 
 function renderStats() {
-  const listId = state.currentList.id;
-
   if (state.currentList.type === 'quiz') {
-    renderQuizStats(listId);
+    renderQuizStats(state.currentList.id);
     return;
   }
-
-  const rows = state.currentList.pairs.map(pair => {
-    const rec       = getWordRecord(listId, pair.es);
-    const correct   = rec.es_en.correct   + rec.en_es.correct;
-    const incorrect = rec.es_en.incorrect + rec.en_es.incorrect;
-    const total     = correct + incorrect;
-    const accuracy  = total > 0 ? Math.round((correct / total) * 100) : null;
-    return { pair, correct, incorrect, total, accuracy };
-  });
-
-  if (currentStatsSort === 'missed') {
-    rows.sort((a, b) => {
-      if (a.total === 0 && b.total === 0) return 0;
-      if (a.total === 0) return 1;
-      if (b.total === 0) return -1;
-      return b.incorrect - a.incorrect || a.pair.es.localeCompare(b.pair.es);
-    });
-  } else if (currentStatsSort === 'correct') {
-    rows.sort((a, b) => {
-      if (a.total === 0 && b.total === 0) return 0;
-      if (a.total === 0) return 1;
-      if (b.total === 0) return -1;
-      return b.correct - a.correct || a.pair.es.localeCompare(b.pair.es);
-    });
-  } else {
-    rows.sort((a, b) => a.pair.es.localeCompare(b.pair.es));
-  }
-
-  const tbody = document.getElementById('stats-table-body');
-  tbody.innerHTML = '';
-
-  for (const r of rows) {
-    const row = document.createElement('tr');
-    if (r.total === 0) row.classList.add('stats-unseen');
-
-    const accText  = r.accuracy !== null ? r.accuracy + '%' : '—';
-    const accClass = r.accuracy === null ? '' :
-                     r.accuracy >= 80   ? 'acc-good' :
-                     r.accuracy >= 50   ? 'acc-ok'   : 'acc-bad';
-
-    const addCell = (text, cls) => {
-      const td = document.createElement('td');
-      td.textContent = text;
-      if (cls) td.className = cls;
-      row.appendChild(td);
-    };
-
-    addCell(r.pair.es, 'stats-es');
-    addCell(r.pair.en);
-    addCell(r.correct   > 0 ? r.correct   : '—', 'stats-num');
-    addCell(r.incorrect > 0 ? r.incorrect : '—', 'stats-num');
-    addCell(accText, `stats-acc ${accClass}`);
-
-    tbody.appendChild(row);
-  }
-
-  document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
-  document.getElementById('sort-' + currentStatsSort).classList.add('active');
 }
 
 function renderQuizStats(listId) {
@@ -1720,7 +1156,6 @@ function renderQuizStats(listId) {
     rows.sort((a, b) => a.q.q.localeCompare(b.q.q));
   }
 
-  // Update table headers
   const statFront = document.getElementById('stats-col-front');
   const statBack  = document.getElementById('stats-col-back');
   if (statFront) statFront.textContent = 'Question';
@@ -1745,7 +1180,7 @@ function renderQuizStats(listId) {
       row.appendChild(td);
     };
 
-    addCell(r.q.q,         'stats-es');
+    addCell(r.q.q,                            'stats-es');
     addCell(r.q.correct);
     addCell(r.correct   > 0 ? r.correct   : '—', 'stats-num');
     addCell(r.incorrect > 0 ? r.incorrect : '—', 'stats-num');
@@ -1759,361 +1194,14 @@ function renderQuizStats(listId) {
 }
 
 // ─────────────────────────────────────────────
-// Browse mode
-// ─────────────────────────────────────────────
-function startBrowse() {
-  switchTab('browse');
-}
-
-let browseSort     = 'none';
-let browseSortDir  = 'asc';
-
-function renderBrowse() {
-  if (state.currentList.type === 'quiz') {
-    renderTermsBrowse();
-    return;
-  }
-
-  let pairs = [...state.currentList.pairs];
-  if (browseSort !== 'none') {
-    pairs.sort((a, b) => {
-      const cmp = a[browseSort].localeCompare(b[browseSort]);
-      return browseSortDir === 'asc' ? cmp : -cmp;
-    });
-  }
-
-  const tbody = document.getElementById('word-table-body');
-  tbody.innerHTML = '';
-  for (const pair of pairs) {
-    const row = document.createElement('tr');
-    const es  = document.createElement('td');
-    const en  = document.createElement('td');
-    es.textContent = pair.es;
-    en.textContent = pair.en;
-    row.appendChild(es);
-    row.appendChild(en);
-    tbody.appendChild(row);
-  }
-
-  ['es', 'en'].forEach(col => {
-    const th = document.getElementById('browse-sort-' + col);
-    th.classList.remove('sort-asc', 'sort-desc');
-    const ind = th.querySelector('.sort-indicator');
-    if (browseSort === col) {
-      th.classList.add(browseSortDir === 'asc' ? 'sort-asc' : 'sort-desc');
-      ind.textContent = browseSortDir === 'asc' ? ' ↑' : ' ↓';
-    } else {
-      ind.textContent = ' ↕';
-    }
-  });
-}
-
-function renderTermsBrowse() {
-  const terms = state.currentList.terms || [];
-
-  // Update column headers
-  const thFront = document.getElementById('browse-sort-es');
-  const thBack  = document.getElementById('browse-sort-en');
-  if (thFront) thFront.innerHTML = `Term / Question <span class="sort-indicator"></span>`;
-  if (thBack)  thBack.innerHTML  = `Definition / Answer <span class="sort-indicator"></span>`;
-
-  const tbody = document.getElementById('word-table-body');
-  tbody.innerHTML = '';
-  for (const t of terms) {
-    const row = document.createElement('tr');
-    const tdTerm = document.createElement('td');
-    const tdDef  = document.createElement('td');
-    tdTerm.textContent = t.term;
-    tdTerm.className   = 'terms-term';
-    tdDef.textContent  = t.definition;
-    tdDef.className    = 'terms-def';
-    row.appendChild(tdTerm);
-    row.appendChild(tdDef);
-    tbody.appendChild(row);
-  }
-}
-
-function setBrowseSort(col) {
-  if (browseSort === col) {
-    browseSortDir = browseSortDir === 'asc' ? 'desc' : 'asc';
-  } else {
-    browseSort    = col;
-    browseSortDir = 'asc';
-  }
-  renderBrowse();
-}
-
-function updateMatchProgress() {
-  const matched = state.matchMatched.size;
-  const total   = state.matchPairs.length;
-  document.getElementById('progress-bar').style.width   = `${(matched / total) * 100}%`;
-  document.getElementById('progress-count').textContent = `${matched}/${total}`;
-}
-
-// ─────────────────────────────────────────────
 // Results
 // ─────────────────────────────────────────────
-function showResults() {
-  document.getElementById('results-title').textContent = 'Session Complete';
-  document.getElementById('btn-retry-missed').style.display = '';
-  showScreen('screen-results');
-
-  const results = state.sessionResults;
-  const correct = results.filter(r => r.correct).length;
-  const total   = results.length;
-  const pct     = total > 0 ? Math.round((correct / total) * 100) : 0;
-
-  document.getElementById('results-summary').innerHTML = `
-    <div class="results-score">
-      <span class="score-big">${pct}%</span>
-      <span class="score-sub">${correct} of ${total} correct</span>
-    </div>
-  `;
-
-  const missed  = results.filter(r => !r.correct);
-  const details = document.getElementById('results-details');
-
-  if (missed.length === 0) {
-    details.innerHTML = '<p class="all-correct">Perfect session!</p>';
-  } else {
-    details.innerHTML = '';
-
-    const heading = document.createElement('h3');
-    heading.textContent = 'Review these:';
-    details.appendChild(heading);
-
-    const list = document.createElement('div');
-    list.className = 'missed-list';
-
-    for (const r of missed) {
-      const promptText = r.direction === 'es_en' ? r.pair.es : r.pair.en;
-      const answerText = r.direction === 'es_en' ? r.pair.en : r.pair.es;
-
-      const item   = document.createElement('div');
-      item.className = 'missed-item';
-
-      const p = document.createElement('span');
-      p.className   = 'missed-prompt';
-      p.textContent = promptText;
-
-      const arrow  = document.createElement('span');
-      arrow.className   = 'missed-arrow';
-      arrow.textContent = '→';
-
-      const a = document.createElement('span');
-      a.className   = 'missed-answer';
-      a.textContent = answerText;
-
-      item.appendChild(p);
-      item.appendChild(arrow);
-      item.appendChild(a);
-      list.appendChild(item);
-    }
-
-    details.appendChild(list);
-  }
-
-  document.getElementById('btn-retry-missed').style.display =
-    missed.length > 0 ? '' : 'none';
-}
-
-function retryMissed() {
-  const missed = state.sessionResults.filter(r => !r.correct);
-  state.session        = missed;
-  state.sessionIndex   = 0;
-  state.sessionResults = [];
-  if (state.currentMode === 'match') state.currentMode = 'flashcard';
-  showScreen('screen-quiz');
-  updateAutoAdvanceUI();
-  renderCard();
-}
-
 function restartSession() {
   if (state.currentMode === 'mc-quiz') {
-    startMcQuiz(state.mcqGradeMode);
+    startMcQuiz(state.mcqDirection);
   } else if (state.currentMode === 'translate') {
     startTranslate(state.translateDirection);
-  } else {
-    startSession(state.currentMode);
   }
-}
-
-// ─────────────────────────────────────────────
-// Update check
-// ─────────────────────────────────────────────
-async function checkForUpdate() {
-  try {
-    const res  = await fetch(`version.json?_=${Date.now()}`);
-    const data = await res.json();
-    if (data.version > APP_VERSION) {
-      document.getElementById('update-banner').classList.remove('hidden');
-    }
-  } catch {
-    // Network unavailable or local file — silently ignore
-  }
-}
-
-setInterval(checkForUpdate, 10 * 60 * 1000); // re-check every 10 minutes
-
-function reloadApp() {
-  window.location.reload();
-}
-
-function dismissUpdateBanner() {
-  document.getElementById('update-banner').classList.add('hidden');
-}
-
-// ─────────────────────────────────────────────
-// Install tip (shown once, dismissible)
-// ─────────────────────────────────────────────
-function showInstallTip() {
-  if (localStorage.getItem(INSTALL_TIP_KEY)) return;
-
-  const body = document.querySelector('#screen-home .screen-body');
-  if (!body) return;
-
-  const tip = document.createElement('div');
-  tip.id        = 'install-tip';
-  tip.className = 'install-tip';
-  tip.innerHTML = `
-    <button class="install-tip-dismiss" id="install-tip-dismiss">&#x2715;</button>
-    <p class="install-tip-title">Add to Home Screen</p>
-    <p class="install-tip-text">
-      <strong>iPhone/iPad:</strong> tap the Share icon (&uarr;) in Safari, then "Add to Home Screen".<br>
-      <strong>Android:</strong> tap the Chrome menu (&vellip;), then "Add to Home Screen".
-    </p>
-  `;
-  body.prepend(tip);
-
-  document.getElementById('install-tip-dismiss').addEventListener('click', dismissInstallTip);
-}
-
-function dismissInstallTip() {
-  localStorage.setItem(INSTALL_TIP_KEY, '1');
-  const el = document.getElementById('install-tip');
-  if (el) el.remove();
-}
-
-// ─────────────────────────────────────────────
-// Event listeners (attached once at init)
-// ─────────────────────────────────────────────
-function setupEventListeners() {
-  // Class + Unit pickers
-  document.getElementById('class-picker-btn').addEventListener('click', toggleClassPicker);
-  document.getElementById('unit-picker-btn').addEventListener('click', toggleUnitPicker);
-  document.addEventListener('click', e => {
-    const inClass = document.getElementById('class-picker').contains(e.target);
-    const inUnit  = document.getElementById('unit-picker').contains(e.target);
-    if (!inClass && !inUnit) closeAllPickers();
-  });
-
-  // Flashcard
-  document.getElementById('flashcard').addEventListener('click', flipCard);
-  document.getElementById('fc-missed').addEventListener('click', () => flashcardAnswer(false));
-  document.getElementById('fc-got-it').addEventListener('click', () => flashcardAnswer(true));
-
-  // Type it
-  document.getElementById('type-check').addEventListener('click', checkTypeAnswer);
-  document.getElementById('type-next').addEventListener('click', advanceCard);
-  document.getElementById('type-input').addEventListener('keydown', e => {
-    if (e.key === 'Enter') checkTypeAnswer();
-  });
-
-  // Multiple choice
-  document.getElementById('choice-next').addEventListener('click', advanceCard);
-
-  // MC Quiz
-  document.getElementById('mcq-next').addEventListener('click', advanceMcqCard);
-
-  // MC Quiz Fill-in-the-blank
-  document.getElementById('fitb-check').addEventListener('click', checkFitbAnswer);
-  document.getElementById('fitb-next').addEventListener('click', advanceMcqCard);
-  document.getElementById('fitb-input').addEventListener('keydown', e => {
-    if (e.key === 'Enter') checkFitbAnswer();
-  });
-
-  // Translate
-  document.getElementById('translate-check').addEventListener('click', checkTranslateAnswer);
-  document.getElementById('translate-input').addEventListener('keydown', e => {
-    if (e.key === 'Enter') checkTranslateAnswer();
-  });
-  document.getElementById('translate-got-it').addEventListener('click', () => translateSelfGrade(true));
-  document.getElementById('translate-missed').addEventListener('click', () => translateSelfGrade(false));
-
-  // Keyboard shortcuts for quiz screen
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') {
-      const overlay = document.getElementById('ref-overlay');
-      if (!overlay.classList.contains('hidden')) { hideReference(); return; }
-      if (state.currentMode) { confirmQuit(); return; }
-    }
-    const inQuiz = state.currentMode && state.currentMode !== 'match';
-    if (inQuiz && e.key === 'ArrowLeft'  && !e.metaKey && !e.altKey) { e.preventDefault(); goBack(); }
-    if (inQuiz && e.key === 'ArrowRight' && !e.metaKey && !e.altKey) { e.preventDefault(); skipCard(); }
-    if (state.currentMode && state.currentMode.startsWith('choice') && state.answered && (e.key === 'Enter' || e.key === ' ')) {
-      e.preventDefault();
-      advanceCard();
-    }
-  });
-
-  // Match
-  document.getElementById('match-done-btn').addEventListener('click', showResults);
-}
-
-// ─────────────────────────────────────────────
-// Progress export / import
-// ─────────────────────────────────────────────
-function exportProgress() {
-  const data = JSON.stringify(state.progress, null, 2);
-  const blob = new Blob([data], { type: 'application/json' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = 'study-progress.json';
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-function importProgress(event) {
-  const file = event.target.files[0];
-  if (!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    try {
-      const data = JSON.parse(e.target.result);
-      if (typeof data !== 'object' || Array.isArray(data)) throw new Error();
-      state.progress = data;
-      saveProgress();
-      event.target.value = '';
-      alert('Progress imported.');
-      if (state.currentList) renderListStats();
-    } catch {
-      alert('Invalid file. Please use a file exported from this app.');
-    }
-  };
-  reader.readAsText(file);
-}
-
-// ─────────────────────────────────────────────
-// Reference chart overlay
-// ─────────────────────────────────────────────
-function updateReferenceButton() {
-  const btn = document.getElementById('ref-btn');
-  const ref = state.currentList?.reference;
-  btn.classList.add('hidden');
-  if (!ref) return;
-  const img = document.getElementById('ref-img');
-  img.onload  = () => btn.classList.remove('hidden');
-  img.onerror = () => btn.classList.add('hidden');
-  img.src = ref;
-}
-
-function showReference() {
-  document.getElementById('ref-overlay').classList.remove('hidden');
-}
-
-function hideReference() {
-  document.getElementById('ref-overlay').classList.add('hidden');
 }
 
 // ─────────────────────────────────────────────
@@ -2200,7 +1288,6 @@ function skipTranslateCard() {
 function translateSelfGrade(isCorrect) {
   const { sentence, direction } = state.translateSession[state.translateIndex];
   const userAnswer = document.getElementById('translate-input').value.trim();
-
   state.translateResults.push({ sentence, direction, userAnswer, correct: isCorrect });
   state.translateIndex++;
   renderTranslateCard();
@@ -2232,7 +1319,6 @@ function showTranslateResults() {
     p.textContent = 'Perfect session!';
     details.appendChild(p);
   } else {
-    // Missed sentences
     const h = document.createElement('h3');
     h.textContent = 'Review these sentences:';
     details.appendChild(h);
@@ -2255,7 +1341,6 @@ function showTranslateResults() {
     }
     details.appendChild(list);
 
-    // Concept breakdown
     const conceptCounts = {};
     for (const r of missed) {
       for (const c of (r.sentence.concepts || [])) {
@@ -2281,8 +1366,143 @@ function showTranslateResults() {
     }
   }
 
-  document.getElementById('btn-retry-missed').style.display = 'none';
   showScreen('screen-results');
+}
+
+// ─────────────────────────────────────────────
+// Update check
+// ─────────────────────────────────────────────
+async function checkForUpdate() {
+  try {
+    const res  = await fetch(`version.json?_=${Date.now()}`);
+    const data = await res.json();
+    if (data.version > APP_VERSION) {
+      document.getElementById('update-banner').classList.remove('hidden');
+    }
+  } catch {}
+}
+
+setInterval(checkForUpdate, 10 * 60 * 1000);
+
+function reloadApp() {
+  window.location.reload();
+}
+
+function dismissUpdateBanner() {
+  document.getElementById('update-banner').classList.add('hidden');
+}
+
+// ─────────────────────────────────────────────
+// Install tip (shown once, dismissible)
+// ─────────────────────────────────────────────
+function showInstallTip() {
+  if (localStorage.getItem(INSTALL_TIP_KEY)) return;
+
+  const body = document.querySelector('#screen-home .screen-body');
+  if (!body) return;
+
+  const tip = document.createElement('div');
+  tip.id        = 'install-tip';
+  tip.className = 'install-tip';
+  tip.innerHTML = `
+    <button class="install-tip-dismiss" id="install-tip-dismiss">&#x2715;</button>
+    <p class="install-tip-title">Add to Home Screen</p>
+    <p class="install-tip-text">
+      <strong>iPhone/iPad:</strong> tap the Share icon (&uarr;) in Safari, then "Add to Home Screen".<br>
+      <strong>Android:</strong> tap the Chrome menu (&vellip;), then "Add to Home Screen".
+    </p>
+  `;
+  body.prepend(tip);
+  document.getElementById('install-tip-dismiss').addEventListener('click', dismissInstallTip);
+}
+
+function dismissInstallTip() {
+  localStorage.setItem(INSTALL_TIP_KEY, '1');
+  const el = document.getElementById('install-tip');
+  if (el) el.remove();
+}
+
+// ─────────────────────────────────────────────
+// Progress export / import
+// ─────────────────────────────────────────────
+function exportProgress() {
+  const data = JSON.stringify(state.progress, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'study-progress.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importProgress(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (typeof data !== 'object' || Array.isArray(data)) throw new Error();
+      state.progress = data;
+      saveProgress();
+      event.target.value = '';
+      alert('Progress imported.');
+      if (state.currentList) renderListStats();
+    } catch {
+      alert('Invalid file. Please use a file exported from this app.');
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ─────────────────────────────────────────────
+// Reference chart overlay (existing per-list image ref)
+// ─────────────────────────────────────────────
+// ─────────────────────────────────────────────
+// Event listeners (attached once at init)
+// ─────────────────────────────────────────────
+function setupEventListeners() {
+  // Class + Unit pickers
+  document.getElementById('class-picker-btn').addEventListener('click', toggleClassPicker);
+  document.getElementById('unit-picker-btn').addEventListener('click', toggleUnitPicker);
+  document.addEventListener('click', e => {
+    const inClass = document.getElementById('class-picker').contains(e.target);
+    const inUnit  = document.getElementById('unit-picker').contains(e.target);
+    if (!inClass && !inUnit) closeAllPickers();
+  });
+
+  // Exam mode checkbox
+  document.getElementById('exam-mode-checkbox').addEventListener('change', e => {
+    setExamMode(e.target.checked);
+  });
+
+  // MCQ
+  document.getElementById('mcq-next').addEventListener('click', advanceMcqCard);
+
+  // Translate
+  document.getElementById('translate-check').addEventListener('click', checkTranslateAnswer);
+  document.getElementById('translate-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') checkTranslateAnswer();
+  });
+  document.getElementById('translate-got-it').addEventListener('click', () => translateSelfGrade(true));
+  document.getElementById('translate-missed').addEventListener('click', () => translateSelfGrade(false));
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      const refPanel = document.getElementById('reference-panel');
+      if (refPanel && !refPanel.classList.contains('hidden')) { hideReferencePanel(); return; }
+      if (state.currentMode) { confirmQuit(); return; }
+      const termsScreen = document.getElementById('screen-terms');
+      if (termsScreen && termsScreen.classList.contains('active')) { showScreen('screen-mode'); return; }
+    }
+    const inMcQuiz = state.currentMode === 'mc-quiz';
+    if (inMcQuiz && state.mcqGradeMode === 'end') {
+      if (e.key === 'ArrowLeft'  && !e.metaKey && !e.altKey) { e.preventDefault(); goBack(); }
+      if (e.key === 'ArrowRight' && !e.metaKey && !e.altKey) { e.preventDefault(); skipCard(); }
+    }
+  });
 }
 
 // ─────────────────────────────────────────────
