@@ -19,6 +19,15 @@
       "file": "data/earth-science/Unit 3/earth-science-unit3-quiz.json"
     },
     {
+      "id": "earth-science-unit4-quiz",
+      "name": "Unit 4: Water Cycle & Groundwater",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-04-12",
+      "wordCount": 30,
+      "file": "data/earth-science/Unit 4/earth-science-unit4-quiz.json"
+    },
+    {
       "id": "spanish-regular",
       "name": "Unit 1: Regular Verbs",
       "subject": "Spanish",

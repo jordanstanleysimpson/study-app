@@ -1,0 +1,593 @@
+{
+  "id": "earth-science-unit4-quiz",
+  "name": "Unit 4: Water Cycle & Groundwater",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-04-12",
+  "questions": [
+
+    {
+      "id": "q01",
+      "q": "What is the primary energy source that drives the water cycle?",
+      "correct": "The sun",
+      "incorrect": [
+        "Earth's internal heat",
+        "Wind",
+        "Gravity"
+      ],
+      "why_correct": "Solar energy powers evaporation and transpiration — without it, water would not change into vapor and rise into the atmosphere.",
+      "why_wrong": [
+        "Earth's internal heat drives plate tectonics and volcanism, not the water cycle.",
+        "Wind helps move water vapor but is itself powered by the sun — wind is not the primary driver.",
+        "Gravity returns water to Earth's surface (precipitation, runoff) but does not drive evaporation — the sun does."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/water-cycle.png",
+      "concepts": ["water-cycle"],
+      "tip": "What causes water to evaporate from the ocean surface? Think about what provides the heat energy."
+    },
+
+    {
+      "id": "q02",
+      "q": "What is evaporation?",
+      "correct": "The process by which liquid water changes into water vapor and enters the atmosphere",
+      "incorrect": [
+        "The process by which water vapor cools and forms liquid water droplets",
+        "The release of water vapor from plant leaves",
+        "The movement of water through soil into the ground"
+      ],
+      "why_correct": "Evaporation is a phase change from liquid to gas (water vapor), driven by heat from the sun — it is how water enters the atmosphere from oceans, lakes, and rivers.",
+      "why_wrong": [
+        "Water vapor cooling and forming droplets describes condensation, not evaporation.",
+        "Water vapor released from plant leaves describes transpiration, not evaporation.",
+        "Water moving through soil into the ground describes infiltration, not evaporation."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Evaporation is the opposite of condensation — one turns liquid to gas, the other turns gas to liquid. Which is which?"
+    },
+
+    {
+      "id": "q03",
+      "q": "What is condensation in the water cycle?",
+      "correct": "The process by which water vapor cools and changes into liquid water droplets, forming clouds",
+      "incorrect": [
+        "The process by which liquid water changes into water vapor",
+        "The falling of water from clouds to Earth's surface",
+        "The absorption of water into soil"
+      ],
+      "why_correct": "As warm, moist air rises and cools, water vapor condenses onto tiny particles in the atmosphere, forming the droplets that make up clouds.",
+      "why_wrong": [
+        "Liquid water changing into vapor is evaporation, the reverse of condensation.",
+        "Water falling from clouds to the surface describes precipitation, not condensation.",
+        "Water absorbing into soil is infiltration, not condensation."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/water-cycle.png",
+      "concepts": ["water-cycle"],
+      "tip": "Think about a cold glass on a humid day — water forms on the outside. What process is that?"
+    },
+
+    {
+      "id": "q04",
+      "q": "Which term describes all forms of water that fall from the atmosphere to Earth's surface?",
+      "correct": "Precipitation",
+      "incorrect": [
+        "Condensation",
+        "Runoff",
+        "Transpiration"
+      ],
+      "why_correct": "Precipitation includes rain, snow, sleet, and hail — any water that falls from clouds and reaches the surface.",
+      "why_wrong": [
+        "Condensation is the formation of water droplets in the atmosphere (clouds), not the falling itself.",
+        "Runoff is water that flows across the land surface after precipitation has already landed.",
+        "Transpiration is water vapor released by plants — it goes up into the atmosphere, not down from it."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Precipitation is what you feel when you go outside and it is raining or snowing — it is water coming down."
+    },
+
+    {
+      "id": "q05",
+      "q": "What is transpiration?",
+      "correct": "The release of water vapor from plant leaves into the atmosphere",
+      "incorrect": [
+        "The process of water vapor forming clouds",
+        "The movement of water underground through rock",
+        "The freezing of water vapor into ice crystals"
+      ],
+      "why_correct": "Plants absorb water through roots and release it as vapor through tiny pores (stomata) in their leaves — this is transpiration, a key part of the water cycle.",
+      "why_wrong": [
+        "Water vapor forming clouds is condensation, not transpiration.",
+        "Water moving underground through rock describes groundwater flow or percolation, not transpiration.",
+        "Water vapor freezing into ice crystals describes the formation of snow or frost, not transpiration."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Trans- means 'across.' Plants absorb water from the ground and release it across into the air. What is that process called?"
+    },
+
+    {
+      "id": "q06",
+      "q": "What is surface runoff?",
+      "correct": "Precipitation that flows across the land surface into streams and rivers rather than soaking into the ground",
+      "incorrect": [
+        "Water that evaporates directly from soil",
+        "Water stored underground in rock layers",
+        "Water vapor carried horizontally by wind"
+      ],
+      "why_correct": "When precipitation falls faster than soil can absorb it — or when the ground is saturated or impermeable — water flows downhill across the surface as runoff, eventually reaching streams, rivers, and oceans.",
+      "why_wrong": [
+        "Water evaporating from soil is evaporation, not runoff.",
+        "Water stored underground in rock layers describes groundwater, not runoff.",
+        "Water vapor moved by wind is atmospheric transport, not runoff."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/runoff-layers.png",
+      "concepts": ["water-cycle", "runoff"],
+      "tip": "After heavy rain, water flows down streets and hillsides into ditches and streams. What is that called?"
+    },
+
+    {
+      "id": "q07",
+      "q": "What is infiltration?",
+      "correct": "The process by which water seeps downward through soil and rock into the ground",
+      "incorrect": [
+        "The process by which water flows across the surface into rivers",
+        "The process by which water evaporates from the soil",
+        "The process by which plants release water vapor"
+      ],
+      "why_correct": "Infiltration is the downward movement of water from the surface into the soil and underlying rock — it recharges groundwater supplies.",
+      "why_wrong": [
+        "Water flowing across the surface into rivers is runoff, not infiltration.",
+        "Water evaporating from soil is evaporation, not infiltration.",
+        "Plants releasing water vapor is transpiration, not infiltration."
+      ],
+      "concepts": ["water-cycle", "groundwater"],
+      "tip": "In- means 'into.' Infiltration is water moving into the ground. What is the opposite process (water moving out as vapor)?"
+    },
+
+    {
+      "id": "q08",
+      "q": "From which reservoir does the MOST evaporation occur on Earth?",
+      "correct": "The oceans",
+      "incorrect": [
+        "Lakes and rivers",
+        "Glaciers and ice sheets",
+        "Soil and vegetation"
+      ],
+      "why_correct": "Oceans cover about 71% of Earth's surface and contain about 97% of all water — they are by far the largest source of evaporation.",
+      "why_wrong": [
+        "Lakes and rivers contribute evaporation but cover a tiny fraction of Earth's surface compared to oceans.",
+        "Glaciers and ice sheets are mostly frozen — sublimation occurs but at a much smaller rate than ocean evaporation.",
+        "Soil and vegetation contribute through evaporation and transpiration, but less than the enormous ocean surface area."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Think about what covers most of Earth's surface. Where would the most evaporation logically come from?"
+    },
+
+    {
+      "id": "q09",
+      "q": "What is the water table?",
+      "correct": "The upper boundary of the zone of saturation, where groundwater fills all pores in the rock or soil",
+      "incorrect": [
+        "The layer of impermeable rock that blocks groundwater from moving deeper",
+        "The surface of a lake or river",
+        "The depth at which all water turns to steam underground"
+      ],
+      "why_correct": "The water table is the top of the zone of saturation — above it, pores contain air and water; below it, all pores are completely filled with water (saturated).",
+      "why_wrong": [
+        "An impermeable layer that blocks groundwater is called an aquitard or confining layer, not the water table.",
+        "The water table is underground, not the surface of a lake or river.",
+        "Water does not turn to steam at typical groundwater depths — that only occurs near volcanic features at great depth."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/groundwater-layers.png",
+      "concepts": ["groundwater"],
+      "tip": "The word 'table' suggests a flat surface. The water table is the top surface of underground water — what lies below it?"
+    },
+
+    {
+      "id": "q10",
+      "q": "What is an aquifer?",
+      "correct": "A layer of permeable rock or sediment that holds and transmits groundwater",
+      "incorrect": [
+        "A layer of impermeable rock that stops groundwater from moving",
+        "A surface reservoir where rainwater is collected",
+        "A type of deep-sea trench where ocean water collects"
+      ],
+      "why_correct": "An aquifer is a saturated, permeable underground formation — sand, gravel, or porous rock — that stores and allows water to flow through it, making it a usable source of groundwater.",
+      "why_wrong": [
+        "An impermeable layer that stops water is an aquitard (or confining layer), the opposite of an aquifer.",
+        "A surface reservoir collects water above ground — an aquifer is underground.",
+        "Deep-sea trenches are ocean floor features, not underground water storage layers."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/groundwater-layers.png",
+      "concepts": ["groundwater"],
+      "tip": "Aquifer comes from Latin: 'aqua' (water) + 'ferre' (to carry). What does something that carries water underground sound like?"
+    },
+
+    {
+      "id": "q11",
+      "q": "What is porosity?",
+      "correct": "The percentage of open spaces (pores) in a rock or sediment that can hold water or air",
+      "incorrect": [
+        "The rate at which water moves through a material",
+        "The weight of water a rock can absorb before cracking",
+        "The depth at which groundwater is found"
+      ],
+      "why_correct": "Porosity measures how much empty space exists in a material — high porosity means more room for water to be stored.",
+      "why_wrong": [
+        "The rate at which water moves through a material is permeability, not porosity.",
+        "Rocks do not have an absorption weight limit — this is not a real earth science concept.",
+        "The depth at which groundwater is found is the water table depth, not porosity."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Porosity is about space — how much of a material is empty? Permeability is about flow — how easily can water move through it? Which one is porosity?"
+    },
+
+    {
+      "id": "q12",
+      "q": "What is permeability?",
+      "correct": "The ability of a rock or sediment to allow water to flow through it",
+      "incorrect": [
+        "The total amount of water a rock can hold",
+        "The rate at which water evaporates from soil",
+        "The thickness of an aquifer"
+      ],
+      "why_correct": "Permeability describes how easily water can pass through a material. Connected pores allow flow; isolated pores do not — a material can be porous but not permeable.",
+      "why_wrong": [
+        "The total amount of water a rock can hold is its storage capacity, related to porosity — not permeability.",
+        "Evaporation from soil is a surface process unrelated to permeability of underground rock.",
+        "Aquifer thickness is a physical measurement, not a measure of how easily water flows through it."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Per- means 'through.' Permeability is how easily water can pass through. A permeable material lets water flow; an impermeable one does not."
+    },
+
+    {
+      "id": "q13",
+      "q": "Which material has the HIGHEST permeability?",
+      "correct": "Gravel",
+      "incorrect": [
+        "Clay",
+        "Granite",
+        "Shale"
+      ],
+      "why_correct": "Gravel has large, well-connected pore spaces that allow water to flow through easily — it is one of the most permeable common earth materials.",
+      "why_wrong": [
+        "Clay has very tiny pores that are not well-connected, making it nearly impermeable even though it has high porosity.",
+        "Granite is solid crystalline rock with almost no pore space — it is impermeable unless heavily fractured.",
+        "Shale is compacted fine-grained sediment with low permeability — it is often used as a confining layer above aquifers."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Think about which material has the largest, most open spaces. Would it be easier for water to flow through gravel or through packed clay?"
+    },
+
+    {
+      "id": "q14",
+      "q": "What is the zone of saturation?",
+      "correct": "The underground zone where all pore spaces in rock and soil are completely filled with water",
+      "incorrect": [
+        "The layer of soil near the surface that absorbs the most precipitation",
+        "The area of the atmosphere where clouds form",
+        "The region of the ocean floor where sediment collects"
+      ],
+      "why_correct": "Below the water table, all pores and cracks in rock and soil are filled with water — this saturated region is where groundwater (and aquifers) are found.",
+      "why_wrong": [
+        "Near-surface soil that absorbs precipitation is part of the zone of aeration (above the water table), not the zone of saturation.",
+        "The zone of saturation is underground, not in the atmosphere.",
+        "Ocean floor sediment regions are unrelated to the groundwater zone of saturation."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/groundwater-layers.png",
+      "concepts": ["groundwater"],
+      "tip": "Saturated means completely soaked — no more room for water. Which zone has all its pores filled?"
+    },
+
+    {
+      "id": "q15",
+      "q": "What is the zone of aeration?",
+      "correct": "The unsaturated zone above the water table where pores contain both water and air",
+      "incorrect": [
+        "The zone below the water table where all pores are filled with water",
+        "The atmospheric layer where wind carries water vapor",
+        "The surface layer of soil where plants grow"
+      ],
+      "why_correct": "Above the water table, pore spaces contain a mixture of air and water — this is the zone of aeration (also called the unsaturated zone or vadose zone).",
+      "why_wrong": [
+        "The zone where all pores are filled with water is the zone of saturation, not the zone of aeration.",
+        "The atmosphere is above ground — the zone of aeration is an underground zone.",
+        "The surface soil layer where plants grow is the topsoil horizon — the zone of aeration extends from there down to the water table."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/groundwater-layers.png",
+      "concepts": ["groundwater"],
+      "tip": "Aeration means air is present. The zone of aeration has both air AND water in its pores — it is above the water table."
+    },
+
+    {
+      "id": "q16",
+      "q": "What is an aquitard?",
+      "correct": "An impermeable layer of rock or sediment that blocks the flow of groundwater",
+      "incorrect": [
+        "A permeable layer that stores and transmits groundwater",
+        "A surface lake formed above a high water table",
+        "A type of underground spring"
+      ],
+      "why_correct": "An aquitard (confining layer) is made of impermeable material — like clay or shale — that prevents water from flowing through it, trapping water in aquifers below.",
+      "why_wrong": [
+        "A permeable layer that stores and transmits water is an aquifer, the opposite of an aquitard.",
+        "A surface lake is above ground — an aquitard is an underground rock layer.",
+        "A spring is a place where groundwater reaches the surface — not an impermeable layer."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Aquifer = water carrier (permeable). Aquitard = water stopper (impermeable). Which one blocks flow?"
+    },
+
+    {
+      "id": "q17",
+      "q": "What factors INCREASE surface runoff? (Choose the best answer)",
+      "correct": "Steep slopes, impermeable surfaces, and heavy or fast rainfall",
+      "incorrect": [
+        "Flat land, dense vegetation, and sandy soil",
+        "Porous soil, thick forest cover, and gentle rain",
+        "High temperatures, low humidity, and strong winds"
+      ],
+      "why_correct": "Steep slopes speed water downhill before it can infiltrate; impermeable surfaces (pavement, clay) block infiltration; heavy rain overwhelms the soil's capacity to absorb — all three maximize runoff.",
+      "why_wrong": [
+        "Flat land slows water movement and increases infiltration time; dense vegetation intercepts rain and roots absorb it; sandy soil is highly permeable — all three reduce runoff.",
+        "Porous soil absorbs water quickly; thick forest canopy intercepts and slows rain; gentle rain gives the soil time to infiltrate — all three reduce runoff.",
+        "Temperature, humidity, and wind are atmospheric factors affecting evaporation, not surface runoff."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/runoff-layers.png",
+      "concepts": ["runoff"],
+      "tip": "Think about a parking lot vs. a forest after a rainstorm. Which one produces more runoff and why?"
+    },
+
+    {
+      "id": "q18",
+      "q": "Why does pavement and concrete in cities INCREASE flooding risk compared to natural land?",
+      "correct": "Impermeable surfaces prevent infiltration, so more precipitation becomes runoff",
+      "incorrect": [
+        "Cities are always built near rivers, increasing flood exposure",
+        "Concrete absorbs heat and causes extra evaporation",
+        "Buildings block wind, which increases precipitation"
+      ],
+      "why_correct": "Natural soil absorbs and stores rainwater through infiltration. Concrete and asphalt are impermeable — water cannot soak in, so it all runs off, overwhelming storm drains and streams.",
+      "why_wrong": [
+        "While some cities are near rivers, the flooding increase is caused by impermeable surfaces — not just proximity to water.",
+        "Concrete absorbing heat (urban heat island) is a real effect but affects evaporation, not immediate flood risk from runoff.",
+        "Buildings do not meaningfully increase precipitation — this is not a recognized mechanism for flood risk."
+      ],
+      "concepts": ["runoff"],
+      "tip": "What happens to rainwater when it hits a parking lot vs. a grassy field? Which surface absorbs water?"
+    },
+
+    {
+      "id": "q19",
+      "q": "What is a watershed (drainage basin)?",
+      "correct": "The entire land area that drains precipitation into a single river, lake, or other body of water",
+      "incorrect": [
+        "An underground aquifer that supplies water to a river",
+        "A dam or reservoir that collects rainwater for human use",
+        "The area along a riverbank that floods during heavy rain"
+      ],
+      "why_correct": "A watershed includes all the land whose precipitation — as runoff or groundwater — eventually flows into the same river or water body. Ridges and hills divide neighboring watersheds.",
+      "why_wrong": [
+        "An underground aquifer is a groundwater feature — a watershed is a surface drainage area.",
+        "A dam or reservoir is a human-built structure — a watershed is a natural geographic area.",
+        "The area that floods along a river is a floodplain — a watershed is the much larger drainage area upstream."
+      ],
+      "concepts": ["runoff"],
+      "tip": "Every drop of rain that falls on a watershed ends up in the same river or body of water. What determines which watershed a raindrop belongs to?"
+    },
+
+    {
+      "id": "q20",
+      "q": "What is groundwater recharge?",
+      "correct": "The process by which precipitation infiltrates the ground and replenishes an aquifer",
+      "incorrect": [
+        "The pumping of water from a well into an aquifer",
+        "The evaporation of groundwater back to the atmosphere",
+        "The flow of groundwater into the ocean"
+      ],
+      "why_correct": "Recharge occurs when water infiltrates through the soil and percolates down to the saturated zone, adding to the groundwater supply — it is how aquifers are naturally refilled.",
+      "why_wrong": [
+        "Pumping water into an aquifer describes artificial (or managed) aquifer recharge — the natural process uses precipitation, not pumps.",
+        "Groundwater evaporating to the atmosphere is discharge, not recharge — and it is uncommon for deep groundwater.",
+        "Groundwater flowing into the ocean is a form of discharge (submarine groundwater discharge), not recharge."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Recharge means to refill. How does an aquifer naturally get refilled after water is pumped out?"
+    },
+
+    {
+      "id": "q21",
+      "q": "What is a spring?",
+      "correct": "A place where groundwater naturally flows out of the ground at the surface",
+      "incorrect": [
+        "A human-drilled hole used to pump groundwater to the surface",
+        "A seasonal stream that only flows during heavy rain",
+        "A type of artesian well powered by pressure"
+      ],
+      "why_correct": "A spring forms naturally where the water table intersects the land surface or where groundwater is forced to the surface by an impermeable barrier — no drilling or pumping needed.",
+      "why_wrong": [
+        "A human-drilled hole for pumping water is a well, not a spring.",
+        "A stream that flows only after rain is an intermittent stream — a spring flows from groundwater, not surface runoff.",
+        "An artesian well does use pressure to bring water up, but it is a drilled well — not a natural spring."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "A spring is natural — no human construction required. Where does the water come from in a spring?"
+    },
+
+    {
+      "id": "q22",
+      "q": "What is the difference between point source and non-point source pollution?",
+      "correct": "Point source pollution comes from a single, identifiable location; non-point source comes from many spread-out locations",
+      "incorrect": [
+        "Point source is natural pollution; non-point source is human-caused",
+        "Point source affects only groundwater; non-point source affects only surface water",
+        "Point source pollution is more dangerous; non-point source is harmless"
+      ],
+      "why_correct": "A factory pipe or sewage outfall is point source — you can point to exactly where it enters the water. Fertilizer runoff from many farms across a watershed is non-point source — it comes from everywhere at once.",
+      "why_wrong": [
+        "Both types can be human-caused or natural — the distinction is about location (specific vs. spread out), not origin.",
+        "Both types can affect groundwater and surface water — the distinction is about source location, not which water body is affected.",
+        "Non-point source pollution is the leading cause of water quality problems in the U.S. — it is not harmless."
+      ],
+      "concepts": ["pollutants"],
+      "tip": "Can you point to exactly where the pollution is entering the water? If yes = point source. If it comes from everywhere = non-point source."
+    },
+
+    {
+      "id": "q23",
+      "q": "Which of the following is an example of NON-POINT source pollution?",
+      "correct": "Fertilizer and pesticides washing off farmland into a river during rainfall",
+      "incorrect": [
+        "A factory pipe discharging chemicals directly into a river",
+        "A sewage treatment plant releasing treated water into a stream",
+        "An oil tanker spilling oil into the ocean"
+      ],
+      "why_correct": "Fertilizer and pesticides washing off farmland come from a large, spread-out area with no single entry point — this is the classic example of non-point source pollution.",
+      "why_wrong": [
+        "A factory pipe is a single, identifiable discharge point — that is point source pollution.",
+        "A sewage plant releasing water is a single discharge point — that is point source pollution, even if treated.",
+        "An oil tanker spill originates from a specific location (the ship) — that is point source pollution."
+      ],
+      "concepts": ["pollutants"],
+      "tip": "Non-point source = no single pipe or outlet. Which of these comes from a large, spread-out area rather than one specific spot?"
+    },
+
+    {
+      "id": "q24",
+      "q": "What is leaching in the context of groundwater pollution?",
+      "correct": "The process by which water carries dissolved pollutants downward through soil into groundwater",
+      "incorrect": [
+        "The evaporation of pollutants from soil into the air",
+        "The dumping of liquid waste directly into a well",
+        "The filtering of pollutants out of groundwater by clay layers"
+      ],
+      "why_correct": "As water moves through soil, it dissolves chemicals — pesticides, fertilizers, heavy metals — and carries them downward into the groundwater supply. This is leaching.",
+      "why_wrong": [
+        "Evaporation of pollutants into the air is volatilization, not leaching.",
+        "Dumping waste into a well is direct contamination, not leaching — leaching is a natural water-movement process.",
+        "Clay filtering out pollutants describes natural attenuation or filtration — leaching moves pollutants downward, not removes them."
+      ],
+      "concepts": ["pollutants", "groundwater"],
+      "tip": "Leaching involves water moving pollutants from above (soil surface) downward into groundwater. Which direction does leaching go?"
+    },
+
+    {
+      "id": "q25",
+      "q": "Which of the following is a common source of groundwater contamination?",
+      "correct": "Leaking underground storage tanks at gas stations",
+      "incorrect": [
+        "Snow melting on mountain glaciers",
+        "Evaporation from the ocean surface",
+        "Condensation forming on cold pipes"
+      ],
+      "why_correct": "Underground storage tanks (gasoline, diesel) can corrode and leak petroleum products that seep into the soil and groundwater — a major source of contamination at gas stations and industrial sites.",
+      "why_wrong": [
+        "Snowmelt from glaciers is clean water that recharges rivers and aquifers — it is not a source of contamination.",
+        "Ocean evaporation produces clean water vapor — it does not contaminate groundwater.",
+        "Condensation on cold pipes is a household humidity phenomenon — it does not affect groundwater."
+      ],
+      "concepts": ["pollutants"],
+      "tip": "Think about what is stored underground near many roads and gas stations. What could leak from those containers into the soil?"
+    },
+
+    {
+      "id": "q26",
+      "q": "Why is groundwater contamination especially difficult to clean up?",
+      "correct": "Groundwater moves slowly and is underground, making it hard to access, remove, or treat the contamination",
+      "incorrect": [
+        "Groundwater pollutants evaporate quickly underground",
+        "Underground rock filters out all contaminants before they spread",
+        "Groundwater flows so fast that pollutants are quickly diluted"
+      ],
+      "why_correct": "Groundwater moves very slowly through rock and sediment — contaminants can spread for years. Pumping out contaminated water, treating it, and reinjecting it is expensive and slow. Some sites take decades to remediate.",
+      "why_wrong": [
+        "Groundwater is underground and cool — pollutants do not evaporate there. Evaporation is a surface process.",
+        "Rock does filter some contaminants, but porous materials allow many chemicals to pass right through — it is not a complete barrier.",
+        "Groundwater moves extremely slowly (sometimes feet per year) — dilution is not fast and pollutants remain concentrated for a long time."
+      ],
+      "concepts": ["pollutants", "groundwater"],
+      "tip": "Think about how slowly groundwater moves compared to a river. What makes cleaning up a problem that is deep underground especially challenging?"
+    },
+
+    {
+      "id": "q27",
+      "q": "What is a contaminant plume?",
+      "correct": "A zone of contaminated groundwater that spreads outward and downward from a pollution source",
+      "incorrect": [
+        "A column of smoke rising from a factory chimney",
+        "A layer of impermeable rock that traps pollution underground",
+        "A seasonal rise in the water table after heavy rain"
+      ],
+      "why_correct": "As a pollutant enters the groundwater, it spreads in the direction of groundwater flow, forming a plume-shaped zone of contamination that can travel long distances from the original source.",
+      "why_wrong": [
+        "A factory smoke column is an air pollution feature — a contaminant plume is specifically underground groundwater contamination.",
+        "An impermeable layer that traps water is an aquitard — not a plume.",
+        "A seasonal rise in the water table describes recharge — not the spread of contamination."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/contaminant-plume.png",
+      "concepts": ["pollutants", "groundwater"],
+      "tip": "Picture ink dropped into a slow-moving stream — it spreads in the direction of flow. A contaminant plume behaves the same way underground."
+    },
+
+    {
+      "id": "q28",
+      "q": "Which soil layer (horizon) has the MOST organic material and is most important for infiltration and plant growth?",
+      "correct": "Topsoil (A horizon)",
+      "incorrect": [
+        "Subsoil (B horizon)",
+        "Bedrock (R horizon)",
+        "Parent material (C horizon)"
+      ],
+      "why_correct": "The A horizon (topsoil) is the uppermost soil layer — rich in organic matter (humus) from decomposed plants and animals. It is most porous and biologically active, making it critical for water infiltration and plant roots.",
+      "why_wrong": [
+        "The B horizon (subsoil) has less organic matter and more minerals leached down from above — it is less fertile and less porous than topsoil.",
+        "Bedrock (R horizon) is solid unweathered rock at the base of the soil profile — it has no organic matter and is essentially impermeable.",
+        "The C horizon (parent material) is partially weathered rock just above bedrock — it has little organic matter and poor soil structure."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/soil-horizons.png",
+      "concepts": ["runoff", "soil"],
+      "tip": "Which layer do you see when you dig just below the grass? That dark, rich layer near the top is which horizon?"
+    },
+
+    {
+      "id": "q29",
+      "q": "How does vegetation (plants and trees) REDUCE surface runoff?",
+      "correct": "Plant roots increase soil porosity, canopies intercept rain, and roots absorb water — all slowing or reducing runoff",
+      "incorrect": [
+        "Vegetation creates impermeable surfaces that block water from reaching the soil",
+        "Plants increase the slope of the land, which slows water movement",
+        "Vegetation causes more evaporation, which removes water before it can run off"
+      ],
+      "why_correct": "Roots create channels in soil that improve infiltration; leaves intercept rainfall and slow it down; roots absorb water directly. Together, vegetated land absorbs far more water than bare or paved land.",
+      "why_wrong": [
+        "Vegetation does the opposite of creating impermeable surfaces — roots and leaf litter increase permeability.",
+        "Plants do not change slope — slope is a topographic feature of the land itself.",
+        "While evapotranspiration does remove some water, the main way vegetation reduces runoff is through improved infiltration — not primarily through evaporation."
+      ],
+      "concepts": ["runoff"],
+      "tip": "Why does a forest floor absorb more rain than bare soil? What do roots and leaf litter do to the soil's ability to absorb water?"
+    },
+
+    {
+      "id": "q30",
+      "q": "What happens to the water table when large amounts of groundwater are pumped out of an aquifer faster than it is recharged?",
+      "correct": "The water table drops, forming a cone of depression around the well",
+      "incorrect": [
+        "The water table rises as surrounding groundwater flows in to fill the gap",
+        "The aquifer refills immediately from rain that has just fallen",
+        "The water table stays the same because aquifers are always recharged from the ocean"
+      ],
+      "why_correct": "Rapid pumping removes water faster than it is replaced — the water table falls in a cone shape around the well called a cone of depression. If pumping continues, the aquifer can be depleted.",
+      "why_wrong": [
+        "Surrounding water does flow toward the well, which is what creates the cone shape — but this does not raise the table, it just slows the drop. Overpumping still lowers the overall water table.",
+        "Recharge from rain is very slow — aquifers can take years or decades to refill. Immediate refilling does not occur.",
+        "Most aquifers are not connected to the ocean and receive recharge from local precipitation, not seawater."
+      ],
+      "img": "data/earth-science/Unit 4/diagrams/cone-of-depression.png",
+      "concepts": ["groundwater"],
+      "tip": "Picture sucking a thick milkshake too fast through a straw — the surface near the straw drops. What does that look like in a groundwater aquifer?"
+    }
+
+  ]
+}
