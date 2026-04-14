@@ -1,0 +1,696 @@
+{
+  "id": "civics-unit4-quiz",
+  "name": "Unit 4: Political Parties and Elections",
+  "subject": "Civics",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-04-14",
+  "questions": [
+
+    {
+      "id": "q01",
+      "q": "What type of party system does the U.S. have?",
+      "correct": "Two-party system",
+      "incorrect": [
+        "Single-party system",
+        "Multi-party system",
+        "Non-partisan system"
+      ],
+      "why_correct": "Nearly all U.S. elections are contested between Democrats and Republicans.",
+      "why_wrong": [
+        "A single-party system allows only one party — the U.S. has free, competitive elections.",
+        "Multi-party systems have many parties regularly winning power — third parties rarely win major U.S. offices.",
+        "The U.S. officially recognizes parties and organizes primaries by party."
+      ],
+      "concepts": ["party-systems"],
+      "tip": "Think about every presidential election — which two parties always have the candidates?"
+    },
+
+    {
+      "id": "q02",
+      "q": "What does it mean to be a CONSERVATIVE?",
+      "correct": "Favoring traditional values, limited government, and free markets",
+      "incorrect": [
+        "Favoring expanded programs, social equality, and progressive change",
+        "Believing government should have no role in society at all",
+        "Supporting government ownership of major businesses and industries"
+      ],
+      "why_correct": "Conservatives want to preserve traditional institutions, limit government size, and let the market operate with minimal regulation.",
+      "why_wrong": [
+        "Expanded programs and progressive change describe a liberal viewpoint.",
+        "Rejecting all government involvement describes libertarianism — conservatives still support some government roles.",
+        "Government ownership of industry is socialism — conservatives favor private ownership."
+      ],
+      "concepts": ["political-ideology"],
+      "tip": "'Conserve' means to keep. Conservatives want to keep traditional values and limit change."
+    },
+
+    {
+      "id": "q03",
+      "q": "What does it mean to be a LIBERAL?",
+      "correct": "Favoring government action to promote social equality and opportunity",
+      "incorrect": [
+        "Favoring limited government and traditional social values instead",
+        "Believing government should never regulate the economy or society",
+        "Wanting to replace democracy with a different form of government"
+      ],
+      "why_correct": "Liberals support using government programs to reduce inequality and expand opportunity.",
+      "why_wrong": [
+        "Limited government and traditional values describe a conservative.",
+        "Opposing all regulation describes libertarianism — liberals support regulation to protect people.",
+        "Liberalism works within the democratic system — it does not seek to replace government."
+      ],
+      "concepts": ["political-ideology"],
+      "tip": "Liberals focus on expanding freedoms and opportunities for all through government action."
+    },
+
+    {
+      "id": "q04",
+      "q": "What is a THIRD PARTY?",
+      "correct": "Any party other than the Democratic or Republican parties",
+      "incorrect": [
+        "A breakaway faction inside the Republican Party",
+        "A party that controls one chamber but not the other",
+        "A temporary alliance formed between the two major parties"
+      ],
+      "why_correct": "Third parties — like the Green, Libertarian, or historic Bull Moose Party — are any parties outside the two dominant ones.",
+      "why_wrong": [
+        "A third party is a separate, independent party — not an internal faction.",
+        "Control of chambers does not define a third party.",
+        "A temporary alliance is a coalition — not a third party."
+      ],
+      "concepts": ["party-systems"],
+      "tip": "If there are already two main parties, what would you call any other competing party?"
+    },
+
+    {
+      "id": "q05",
+      "q": "What is a party PLANK?",
+      "correct": "One specific policy position on a single issue",
+      "incorrect": [
+        "The full collection of all the party's positions",
+        "The party's official name and visual branding",
+        "The complete list of candidates the party nominated"
+      ],
+      "why_correct": "A plank is one specific policy stance — e.g., 'support Medicare for all.' Many planks together form the platform.",
+      "why_wrong": [
+        "The full collection of all positions is the platform — a plank is just one piece.",
+        "Name and branding are the party's identity — not a policy position.",
+        "Nominated candidates are the party's ticket — not a plank."
+      ],
+      "concepts": ["party-platform"],
+      "tip": "A platform is built from individual planks. Which is the whole, and which is just one part?"
+    },
+
+    {
+      "id": "q06",
+      "q": "What is a party PLATFORM?",
+      "correct": "The complete set of all the party's policy positions",
+      "incorrect": [
+        "A single specific position on one policy issue",
+        "The physical stage where party candidates give speeches",
+        "The party's official strategy for raising campaign funds"
+      ],
+      "why_correct": "The platform covers all major issues — economy, healthcare, foreign policy — and tells voters what the party stands for.",
+      "why_wrong": [
+        "A single policy position is a plank — the platform is the full collection.",
+        "The physical stage is a podium — a platform is a document of policy positions.",
+        "Fundraising strategy is a campaign operation, not the platform."
+      ],
+      "concepts": ["party-platform"],
+      "tip": "A platform is what a party STANDS on. Individual pieces of it (single issues) are called planks."
+    },
+
+    {
+      "id": "q07",
+      "q": "What is political POLARIZATION?",
+      "correct": "Parties moving toward extremes, making compromise harder",
+      "incorrect": [
+        "An equal division of seats between parties in Congress",
+        "The process of redrawing congressional district boundaries",
+        "A formal alliance formed between two political parties"
+      ],
+      "why_correct": "Polarization means Democrats move further left and Republicans further right, reducing common ground.",
+      "why_wrong": [
+        "An equal seat split describes a divided Congress — polarization is about ideological distance.",
+        "Redrawing districts is gerrymandering — related to elections but not polarization.",
+        "A formal alliance is a coalition — polarization is increased division, not alliance."
+      ],
+      "concepts": ["polarization"],
+      "tip": "Think of a magnet's poles pulling apart — polarization means the two sides keep moving farther away."
+    },
+
+    {
+      "id": "q08",
+      "q": "Which is a role of political parties?",
+      "correct": "Recruiting candidates and linking voters to elected officials",
+      "incorrect": [
+        "Writing, passing, and enforcing all government laws",
+        "Appointing federal judges and approving the cabinet",
+        "Setting interest rates and managing the money supply"
+      ],
+      "why_correct": "Parties bridge citizens and government — they select candidates, mobilize voters, and coordinate government.",
+      "why_wrong": [
+        "Laws are written by Congress and enforced by the executive branch.",
+        "Judges are appointed by the President and confirmed by the Senate.",
+        "Interest rates and money supply are controlled by the Federal Reserve."
+      ],
+      "concepts": ["party-roles"],
+      "tip": "Think of parties as organizers and connectors between voters and the people who run government."
+    },
+
+    {
+      "id": "q09",
+      "q": "What is a CAUCUS?",
+      "correct": "A local party meeting where members vote for preferred candidates",
+      "incorrect": [
+        "A secret ballot election that is open to all voters",
+        "A televised debate held between the presidential candidates",
+        "A closed party meeting where leaders quietly pick the nominee"
+      ],
+      "why_correct": "In a caucus, voters meet in person, discuss candidates, and indicate their preference — unlike a private primary ballot.",
+      "why_wrong": [
+        "A secret ballot open to all voters describes a primary — not a caucus.",
+        "A televised debate is a campaign event, not a caucus.",
+        "In a caucus, regular members vote — it's not limited to leaders picking in secret."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "A caucus is a meeting where people show up together. How is that different from casting a secret ballot alone?"
+    },
+
+    {
+      "id": "q10",
+      "q": "What is an ABSENTEE BALLOT?",
+      "correct": "A ballot cast by mail when a voter can't be present on Election Day",
+      "incorrect": [
+        "A ballot thrown out because the voter forgot to sign it",
+        "A ballot used by voters who missed the registration deadline",
+        "A temporary ballot given when registration can't be confirmed"
+      ],
+      "why_correct": "Absentee ballots let voters who are traveling or ill participate by mailing in their vote before Election Day.",
+      "why_wrong": [
+        "An unsigned ballot may be rejected, but that's not what absentee means.",
+        "Missing the registration deadline means you generally can't vote — absentee is for registered voters.",
+        "A ballot for unconfirmed registrations is a provisional ballot — different from absentee."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "'Absent' means not present. An absentee ballot lets you vote when you can't appear in person."
+    },
+
+    {
+      "id": "q11",
+      "q": "What is a PRECINCT?",
+      "correct": "The smallest local geographic unit for organizing elections",
+      "incorrect": [
+        "The national headquarters building of a political party",
+        "A large congressional district covering multiple counties",
+        "The official deadline window for returning absentee ballots"
+      ],
+      "why_correct": "A precinct is a neighborhood-level unit — voters are assigned to one based on their address, and it has its own polling place.",
+      "why_wrong": [
+        "National party HQ is a centralized office — a precinct is a small local area.",
+        "A congressional district is much larger and contains many precincts.",
+        "A ballot deadline is an election rule — not a geographic unit."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "A precinct is the smallest piece of the election map — your local voting neighborhood."
+    },
+
+    {
+      "id": "q12",
+      "q": "What is an INITIATIVE?",
+      "correct": "Citizens propose a new law by collecting enough voter signatures",
+      "incorrect": [
+        "Voters remove an elected official before the term ends",
+        "Voters approve or reject a law passed by the legislature",
+        "A party formally announces its goals and policy positions"
+      ],
+      "why_correct": "Through an initiative, citizens bypass the legislature — they write a law, gather signatures, and put it on the ballot.",
+      "why_wrong": [
+        "Voters removing an official is a recall — not an initiative.",
+        "Voters approving a legislative law is a referendum — not an initiative.",
+        "A party's formal goals are its platform — not an initiative."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "An initiative lets citizens take the initiative — they start the process of creating a law."
+    },
+
+    {
+      "id": "q13",
+      "q": "What is a REFERENDUM?",
+      "correct": "Voters directly approve or reject a specific law or measure",
+      "incorrect": [
+        "Citizens propose a new law by gathering voter signatures",
+        "Voters remove an elected official before the term ends",
+        "Voters choose a party's nominee in a preliminary election"
+      ],
+      "why_correct": "In a referendum, voters decide directly on a measure — often a law from the legislature sent to the public for approval.",
+      "why_wrong": [
+        "Citizens proposing laws through signatures is an initiative.",
+        "Removing an official is a recall.",
+        "Choosing a party's nominee is a primary."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "A referendum refers a question to the voters — the proposal usually comes from the government."
+    },
+
+    {
+      "id": "q14",
+      "q": "What is a RECALL election?",
+      "correct": "Voters remove an elected official before the term ends",
+      "incorrect": [
+        "Citizens propose a new law by collecting signatures",
+        "Voters approve or reject a law passed by the legislature",
+        "A disputed election is repeated to confirm the results"
+      ],
+      "why_correct": "Citizens gather signatures to put the question on the ballot, then voters decide whether to remove the official.",
+      "why_wrong": [
+        "Citizens proposing a new law through signatures is an initiative.",
+        "Voters approving a legislative law is a referendum.",
+        "Repeating a disputed election is a revote — not a recall."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "'Recall' means to call back. A recall election calls an official back out of office."
+    },
+
+    {
+      "id": "q15",
+      "q": "What is a STRAIGHT TICKET vote?",
+      "correct": "Voting for every candidate from the same party",
+      "incorrect": [
+        "Voting for candidates from more than one party",
+        "Voting early rather than on Election Day itself",
+        "Voting only for the top of the ballot (president or governor)"
+      ],
+      "why_correct": "A straight-ticket voter selects the same party's candidate for every office on the ballot.",
+      "why_wrong": [
+        "Choosing candidates from more than one party is a split ticket.",
+        "When you vote has nothing to do with straight vs. split ticket.",
+        "Voting only for top offices is an incomplete ballot — not a straight ticket."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "Straight = same party all the way down. Split = mixing parties for different offices."
+    },
+
+    {
+      "id": "q16",
+      "q": "What is a CLOSED PRIMARY?",
+      "correct": "Only registered party members may vote in that party's primary",
+      "incorrect": [
+        "Any registered voter may vote in any party's primary",
+        "The primary is conducted entirely through mail-in ballots",
+        "The primary is canceled when only one candidate files to run"
+      ],
+      "why_correct": "In a closed primary, you must be a registered Democrat to vote in the Democratic primary — independents can't participate.",
+      "why_wrong": [
+        "Any voter choosing any party's primary describes an open primary.",
+        "Voting method is unrelated to the open/closed distinction.",
+        "Closed refers to who is eligible to vote — not whether there's competition."
+      ],
+      "concepts": ["primary-types"],
+      "tip": "Closed = restricted to party members only. Which type leaves out independent voters?"
+    },
+
+    {
+      "id": "q17",
+      "q": "What is an OPEN PRIMARY?",
+      "correct": "Any registered voter may vote regardless of party affiliation",
+      "incorrect": [
+        "Only registered party members may vote in that party's primary",
+        "The primary ballot is open for viewing by the general public",
+        "Primary results are announced publicly as soon as polls close"
+      ],
+      "why_correct": "In an open primary, voters don't need a party registration — anyone can choose which party's primary to vote in.",
+      "why_wrong": [
+        "Only party members voting describes a closed primary.",
+        "'Open' refers to voter eligibility — not ballot transparency.",
+        "Announcing results is standard election procedure — not what defines an open primary."
+      ],
+      "concepts": ["primary-types"],
+      "tip": "Open = open to everyone. Which type lets independent voters participate?"
+    },
+
+    {
+      "id": "q18",
+      "q": "What is a DIRECT PRIMARY?",
+      "correct": "Voters directly choose their party's nominee for the general election",
+      "incorrect": [
+        "Party leaders meet privately and choose the nominee themselves",
+        "The primary stage is skipped and candidates go straight to general",
+        "Only voters who donated to the party may participate in choosing"
+      ],
+      "why_correct": "A direct primary puts nominee selection in voters' hands — now the standard method in U.S. elections.",
+      "why_wrong": [
+        "Party leaders choosing the nominee without voters is a brokered or convention system.",
+        "A direct primary is still a primary — 'direct' means voters choose, not that it's skipped.",
+        "Donation requirements for voting do not exist and are unconstitutional."
+      ],
+      "concepts": ["primary-types"],
+      "tip": "Direct = voters decide directly. Who makes the final choice of the nominee in a direct primary?"
+    },
+
+    {
+      "id": "q19",
+      "q": "What is a GENERAL ELECTION?",
+      "correct": "The final election where voters choose between party nominees for office",
+      "incorrect": [
+        "A preliminary election where parties narrow down their candidates",
+        "An election held specifically for congressional seats only",
+        "A local election covering only a single city or county district"
+      ],
+      "why_correct": "The general election — held in November — is the main contest where the winner takes office.",
+      "why_wrong": [
+        "Narrowing candidates within a party is a primary — the general comes after.",
+        "General elections include presidential and state races — not just Congress.",
+        "General elections are held at all levels — federal, state, and local."
+      ],
+      "concepts": ["primary-types"],
+      "tip": "Primary → General. The primary picks one nominee per party. The general is the final contest."
+    },
+
+    {
+      "id": "q20",
+      "q": "How many Electoral College votes are needed to win the presidency?",
+      "correct": "270 out of 538 total electoral votes",
+      "incorrect": [
+        "A simple majority of the national popular vote",
+        "300 or more out of 538 total electoral votes",
+        "Two-thirds of all 538 electoral votes (about 359)"
+      ],
+      "why_correct": "There are 538 total electoral votes. A candidate needs a majority — 270 — to win outright.",
+      "why_wrong": [
+        "Winning the popular vote doesn't guarantee the presidency — Al Gore won it in 2000 but lost the Electoral College.",
+        "300 is not the threshold — 270 is the majority of 538.",
+        "Two-thirds is a supermajority — only a simple majority (270) is required."
+      ],
+      "concepts": ["electoral-college"],
+      "tip": "538 total votes. You need one more than half. What is half of 538?"
+    },
+
+    {
+      "id": "q21",
+      "q": "What is a PLURALITY of votes?",
+      "correct": "Getting more votes than any other candidate, even without 50%",
+      "incorrect": [
+        "Getting more than 50% of all the votes that were cast",
+        "Getting votes from supporters in both major political parties",
+        "Getting more electoral votes than any other candidate"
+      ],
+      "why_correct": "A plurality means the most votes — even 35% wins if opponents each get less.",
+      "why_wrong": [
+        "More than 50% is a majority — a plurality only requires more than any single opponent.",
+        "Support from both parties describes bipartisan appeal — not a plurality.",
+        "Electoral votes apply to the presidential race — plurality refers to raw vote totals."
+      ],
+      "concepts": ["voting-terms"],
+      "tip": "Majority = more than half. Plurality = just the most. Which is easier with many candidates?"
+    },
+
+    {
+      "id": "q22",
+      "q": "What is GLITTERING GENERALITY propaganda?",
+      "correct": "Vague positive words like 'freedom' that sound good but mean nothing specific",
+      "incorrect": [
+        "Connecting a candidate to a beloved national symbol or figure",
+        "Claiming that everyone is already supporting a candidate",
+        "Insulting an opponent with a negative label or name"
+      ],
+      "why_correct": "Glittering generalities use virtuous-sounding words that appeal to emotions without making any concrete claim.",
+      "why_wrong": [
+        "Connecting a candidate to a respected symbol is transfer propaganda.",
+        "Claiming everyone supports something is bandwagon propaganda.",
+        "Insulting with a negative label is name-calling propaganda."
+      ],
+      "concepts": ["propaganda"],
+      "tip": "Glittering generalities sound great but say nothing specific. What do 'freedom' and 'family values' actually promise?"
+    },
+
+    {
+      "id": "q23",
+      "q": "What is BANDWAGON propaganda?",
+      "correct": "Pressuring people to agree because 'everyone else is doing it'",
+      "incorrect": [
+        "Using vague emotional words that appeal to shared values",
+        "Showing only the evidence that favors your side",
+        "Connecting a candidate to a trusted person or symbol"
+      ],
+      "why_correct": "Bandwagon exploits the desire to belong — 'everyone is already on board' — pressuring conformity without giving facts.",
+      "why_wrong": [
+        "Vague emotional words that appeal to values are glittering generalities.",
+        "Showing only favorable evidence is stacked cards.",
+        "Connecting to a trusted person or symbol is testimonial or transfer propaganda."
+      ],
+      "concepts": ["propaganda"],
+      "tip": "'Jump on the bandwagon' means join the winning side. How does that pressure someone without using facts?"
+    },
+
+    {
+      "id": "q24",
+      "q": "What is JUST-PLAIN FOLKS propaganda?",
+      "correct": "Acting like an ordinary person to seem relatable to average voters",
+      "incorrect": [
+        "Calling an opponent an out-of-touch elite who doesn't care",
+        "Using complex language to appear smarter than the opponent",
+        "Featuring a celebrity to make the candidate seem glamorous"
+      ],
+      "why_correct": "Just-plain-folks shows a candidate eating at diners or talking about humble roots — the goal is to seem trustworthy and relatable.",
+      "why_wrong": [
+        "Calling an opponent out-of-touch is name-calling — this technique is about the candidate's own image.",
+        "Complex language would make a candidate seem less accessible — the opposite of this technique.",
+        "Celebrity glamour is testimonial or transfer propaganda."
+      ],
+      "concepts": ["propaganda"],
+      "tip": "Politicians sometimes wear hard hats or visit farms. What impression are they trying to create?"
+    },
+
+    {
+      "id": "q25",
+      "q": "What is STACKED CARDS propaganda?",
+      "correct": "Showing only the facts that favor your side and hiding the rest",
+      "incorrect": [
+        "Claiming that everyone is already supporting your candidate",
+        "Using a respected symbol to make a candidate look patriotic",
+        "Using vague positive words with no specific real meaning"
+      ],
+      "why_correct": "Card stacking selects only favorable evidence and hides anything that contradicts the message.",
+      "why_wrong": [
+        "Claiming everyone supports something is bandwagon propaganda.",
+        "Using respected symbols is transfer propaganda.",
+        "Vague positive words with no meaning are glittering generalities."
+      ],
+      "concepts": ["propaganda"],
+      "tip": "Stacking the deck means rigging it in your favor. In propaganda, what gets left out?"
+    },
+
+    {
+      "id": "q26",
+      "q": "What is NAME-CALLING propaganda?",
+      "correct": "Labeling someone with a negative term instead of arguing the facts",
+      "incorrect": [
+        "Overstating a candidate's achievements to make them look better",
+        "Using vague positive language to make a candidate seem virtuous",
+        "Hiding unfavorable facts while highlighting only the good ones"
+      ],
+      "why_correct": "Name-calling targets emotions — labels like 'radical' or 'elitist' bypass real argument and persuade through negative association.",
+      "why_wrong": [
+        "Overstating achievements is puffery or plain-folks — name-calling attacks with labels.",
+        "Vague positive language is glittering generalities — name-calling uses negative labels.",
+        "Hiding unfavorable facts is stacked cards — name-calling attacks directly."
+      ],
+      "concepts": ["propaganda"],
+      "tip": "Name-calling skips the argument and goes straight to insults. Why is that persuasive to some people?"
+    },
+
+    {
+      "id": "q27",
+      "q": "What is HARD MONEY in campaign finance?",
+      "correct": "Donations given directly to a candidate's campaign, subject to federal limits",
+      "incorrect": [
+        "Donations given to parties or outside groups with fewer restrictions",
+        "Large cash donations made secretly without any public disclosure",
+        "Donations of goods or services rather than actual money"
+      ],
+      "why_correct": "Hard money goes directly to a candidate and is tightly regulated — there are legal limits on how much individuals and groups can give.",
+      "why_wrong": [
+        "Donations to parties and outside groups with fewer restrictions describes soft money.",
+        "All campaign donations must be disclosed — secret donations are illegal.",
+        "Donations of goods or services are in-kind contributions — not the hard/soft distinction."
+      ],
+      "concepts": ["campaign-finance"],
+      "tip": "Hard = hard rules, strict limits. Soft = softer rules, fewer limits. Which goes directly to the candidate?"
+    },
+
+    {
+      "id": "q28",
+      "q": "What is a SPECIAL INTEREST GROUP?",
+      "correct": "An organized group that works to influence government on shared goals",
+      "incorrect": [
+        "Voters who consistently support one political party every election",
+        "A congressional committee that oversees a specific policy area",
+        "A branch of a major party that focuses on a single issue"
+      ],
+      "why_correct": "Groups like the NRA, AARP, or Sierra Club organize around shared interests and use lobbying and donations to push for preferred policies.",
+      "why_wrong": [
+        "Voters who always support one party are a party's base — not an interest group.",
+        "A congressional committee is a government body — not an outside interest group.",
+        "Interest groups are independent organizations — not branches of a party."
+      ],
+      "concepts": ["interest-groups"],
+      "tip": "Special interest groups represent a specific interest. How do they use that to influence government?"
+    },
+
+    {
+      "id": "q29",
+      "q": "What do LOBBYISTS do?",
+      "correct": "Try to influence lawmakers on behalf of an interest group",
+      "incorrect": [
+        "Run voter registration drives for their preferred political party",
+        "Investigate and report on corruption for news organizations",
+        "Manage the day-to-day staff operations of Congress members"
+      ],
+      "why_correct": "Lobbyists meet with lawmakers, provide research and arguments, and use influence to shape legislation for their clients.",
+      "why_wrong": [
+        "Voter registration drives are run by campaigns and nonprofits — not lobbyists.",
+        "Investigating corruption is journalism — not lobbying.",
+        "Congressional staff manage day-to-day operations — not lobbyists."
+      ],
+      "concepts": ["interest-groups"],
+      "tip": "Named for waiting in the lobby of legislatures — what is a lobbyist's main job once inside?"
+    },
+
+    {
+      "id": "q30",
+      "q": "What is a Political Action Committee (PAC)?",
+      "correct": "An organization that raises money to elect or defeat candidates",
+      "incorrect": [
+        "A government agency that investigates campaign finance violations",
+        "A party committee that officially selects the party's nominees",
+        "A citizen group that organizes protests and public demonstrations"
+      ],
+      "why_correct": "PACs — often tied to corporations, unions, or interest groups — collect and spend money to support or oppose candidates.",
+      "why_wrong": [
+        "The FEC investigates campaign finance violations — a PAC is not a government agency.",
+        "Nominees are selected through primaries and conventions — not PACs.",
+        "Protest organizers may be advocacy groups — a PAC focuses on campaign spending."
+      ],
+      "concepts": ["campaign-finance"],
+      "tip": "PAC = Political Action Committee. Their action is spending money to influence who gets elected."
+    },
+
+    {
+      "id": "q31",
+      "q": "What are the basic qualifications to vote in the U.S.?",
+      "correct": "U.S. citizen, at least 18 years old, and registered to vote",
+      "incorrect": [
+        "Must own property and have paid federal income taxes",
+        "Must pass a literacy test and pay a voting fee",
+        "Must hold a college degree and a government-issued passport"
+      ],
+      "why_correct": "The three core federal requirements are citizenship, age 18+, and registration. Property and education tests are unconstitutional.",
+      "why_wrong": [
+        "Property and tax requirements were used historically but are now unconstitutional.",
+        "Literacy tests and poll taxes were banned by the Voting Rights Act of 1965.",
+        "Education and passport requirements do not exist — voting is a right of citizenship."
+      ],
+      "concepts": ["voting-rights"],
+      "tip": "What barriers to voting have been removed over U.S. history? What requirements actually remain today?"
+    },
+
+    {
+      "id": "q32",
+      "q": "How have voting rights expanded over U.S. history?",
+      "correct": "Key amendments extended voting to Black Americans, women, and 18-year-olds",
+      "incorrect": [
+        "Voting rights have gradually narrowed due to stricter ID laws",
+        "Voting rights have remained the same since the Constitution was ratified",
+        "Federal laws — but no constitutional amendments — changed voting rights"
+      ],
+      "why_correct": "The 15th (1870), 19th (1920), 24th (1964), and 26th (1971) Amendments each expanded access.",
+      "why_wrong": [
+        "The overall arc over 200 years has been expansion — not narrowing.",
+        "Originally only white male property owners could vote — rights changed dramatically.",
+        "Constitutional amendments were the critical tools for expanding voting rights."
+      ],
+      "concepts": ["voting-rights"],
+      "tip": "Who could vote when the Constitution was written? Which amendments changed that over time?"
+    },
+
+    {
+      "id": "q33",
+      "q": "What is the purpose of a NATIONAL CONVENTION?",
+      "correct": "To officially nominate the party's presidential ticket and adopt its platform",
+      "incorrect": [
+        "To cast the final votes that officially determine the election winner",
+        "To formally swear in the newly elected president and vice president",
+        "To select the delegates who will later vote in the state primaries"
+      ],
+      "why_correct": "Delegates gather to officially nominate the presidential and vice-presidential candidates and approve the party's platform.",
+      "why_wrong": [
+        "The final votes that determine the winner are cast by the Electoral College.",
+        "Swearing in the president is the inauguration, held in January.",
+        "Delegates are selected before the convention — through primaries and caucuses."
+      ],
+      "concepts": ["electoral-process"],
+      "tip": "The convention comes after primaries and before the general election. What is its main job?"
+    },
+
+    {
+      "id": "q34",
+      "q": "What is an OPINION POLL?",
+      "correct": "A survey measuring what the public thinks about candidates or issues",
+      "incorrect": [
+        "A survey taken outside polling places right after people vote",
+        "A survey using loaded questions to push people toward one view",
+        "An official government count of all eligible registered voters"
+      ],
+      "why_correct": "Opinion polls sample the population to gauge their views — the goal is to measure, not change, public opinion.",
+      "why_wrong": [
+        "A survey taken as voters leave polling places is an exit poll.",
+        "A survey designed to change opinions through loaded questions is a push poll.",
+        "Counting registered voters is a government function — not a poll."
+      ],
+      "concepts": ["public-opinion"],
+      "tip": "Opinion polls measure what people think. Which type of poll tries to change what people think?"
+    },
+
+    {
+      "id": "q35",
+      "q": "What is an EXIT POLL?",
+      "correct": "A survey taken outside polling places asking how people just voted",
+      "incorrect": [
+        "A survey asking registered voters why they decided not to vote",
+        "A poll that plants negative information to shift voter opinions",
+        "A mail survey sent to voters before Election Day to predict results"
+      ],
+      "why_correct": "Exit polls are taken as voters leave — news organizations use results to project winners before official counts are in.",
+      "why_wrong": [
+        "Asking non-voters why they didn't vote is a non-voter survey — not an exit poll.",
+        "Planting negative information to shift opinions is a push poll.",
+        "Mail surveys sent before Election Day are pre-election opinion polls."
+      ],
+      "concepts": ["public-opinion"],
+      "tip": "Exit polls happen at the exit — after people vote. Why are they more reliable than pre-election polls?"
+    },
+
+    {
+      "id": "q36",
+      "q": "What is a PUSH POLL?",
+      "correct": "A poll using misleading questions to push people toward one opinion",
+      "incorrect": [
+        "A poll that honestly measures what voters currently think",
+        "A poll taken outside polling places right after people vote",
+        "A poll conducted by the government to check voter registration"
+      ],
+      "why_correct": "A push poll is a campaign tactic disguised as a poll — loaded questions plant negative information about an opponent to shift opinion.",
+      "why_wrong": [
+        "Honestly measuring voter opinion is an opinion poll — push polls try to change opinion.",
+        "Polling voters right after they vote is an exit poll.",
+        "Checking voter registration is an administrative function — not a poll."
+      ],
+      "concepts": ["public-opinion"],
+      "tip": "A push poll 'pushes' you toward a conclusion. How is that different from a real poll?"
+    }
+
+  ]
+}
