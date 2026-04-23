@@ -136,6 +136,15 @@
       "file": "data/spanish/Unit 4/spanish-unit4-quiz.json"
     },
     {
+      "id": "earth-science-unit5-quiz",
+      "name": "Unit 5: Hydrosphere",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-04-23",
+      "wordCount": 32,
+      "file": "data/earth-science/Unit 5/earth-science-unit5-quiz.json"
+    },
+    {
       "id": "civics-unit4-quiz",
       "name": "Unit 4: Political Parties and Elections",
       "subject": "Civics",

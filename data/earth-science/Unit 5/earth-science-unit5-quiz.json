@@ -1,0 +1,620 @@
+{
+  "id": "earth-science-unit5-quiz",
+  "name": "Unit 5: Hydrosphere",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-04-23",
+  "questions": [
+
+    {
+      "id": "q01",
+      "q": "What percentage of Earth's water is salt water?",
+      "correct": "About 97%",
+      "incorrect": [
+        "About 50%",
+        "About 75%",
+        "About 25%"
+      ],
+      "why_correct": "Oceans hold roughly 97% of all Earth's water — leaving only about 3% as freshwater.",
+      "why_wrong": [
+        "50% would mean equal fresh and salt water — oceans dominate by far.",
+        "75% underestimates ocean coverage — the actual share is closer to 97%.",
+        "25% is far too low — only about 3% of Earth's water is fresh."
+      ],
+      "concepts": ["water-distribution"],
+      "tip": "Think about how much of Earth's surface is ocean. Would that be 50% of the water or much more?"
+    },
+
+    {
+      "id": "q02",
+      "q": "Where is most of Earth's freshwater stored?",
+      "correct": "Glaciers and ice caps",
+      "incorrect": [
+        "Rivers and streams",
+        "Underground aquifers",
+        "Lakes and ponds"
+      ],
+      "why_correct": "About 69% of Earth's freshwater is locked in glaciers and ice caps — mostly in Antarctica and Greenland.",
+      "why_wrong": [
+        "Rivers and streams hold a tiny fraction of total freshwater.",
+        "Groundwater holds about 30% — significant, but less than glaciers.",
+        "Lakes and ponds hold only a small fraction of total freshwater."
+      ],
+      "concepts": ["water-distribution"],
+      "tip": "Most freshwater is frozen and inaccessible. Where are the largest masses of ice on Earth?"
+    },
+
+    {
+      "id": "q03",
+      "q": "Where do humans get most of their drinking water?",
+      "correct": "Groundwater and surface water (rivers and lakes)",
+      "incorrect": [
+        "Glaciers and polar ice caps melted for use",
+        "Desalinated ocean water pumped inland",
+        "Water vapor collected directly from the atmosphere"
+      ],
+      "why_correct": "Humans rely primarily on groundwater pumped from aquifers and surface water drawn from rivers and lakes.",
+      "why_wrong": [
+        "Glacier melt is a minor and impractical drinking source for most people.",
+        "Desalination exists but is expensive and supplies only a small fraction of global drinking water.",
+        "Collecting water vapor at scale is not a practical drinking water source."
+      ],
+      "concepts": ["water-distribution"],
+      "tip": "Think about where your tap water actually comes from — a well or a river/lake treatment plant."
+    },
+
+    {
+      "id": "q04",
+      "q": "What does it mean when soil is FULLY SATURATED?",
+      "correct": "All pore spaces in the soil are completely filled with water",
+      "incorrect": [
+        "The soil surface is covered by a thin layer of standing water",
+        "The soil has absorbed the maximum amount of nutrients possible",
+        "The soil is too dry to absorb any more water or rainfall"
+      ],
+      "why_correct": "Saturation means no air remains in the pores — every space between soil particles is occupied by water.",
+      "why_wrong": [
+        "Surface standing water can occur, but saturation is specifically about pores being full.",
+        "Nutrient absorption is a biological process — saturation refers to water filling pore spaces.",
+        "Saturation means fully wet, not dry — it is the opposite of too dry to absorb water."
+      ],
+      "concepts": ["infiltration"],
+      "tip": "Saturated means completely soaked. What fills every gap between soil particles when soil is saturated?"
+    },
+
+    {
+      "id": "q05",
+      "q": "What happens when saturated soil continues to receive rain?",
+      "correct": "Water can no longer infiltrate, so it becomes surface runoff",
+      "incorrect": [
+        "The soil compresses and pushes water deeper underground",
+        "The extra water evaporates immediately back into the air",
+        "The soil expands to create more pore space for the water"
+      ],
+      "why_correct": "Once pores are full, there is nowhere for new water to go — it flows across the surface as runoff.",
+      "why_wrong": [
+        "Saturated soil does not compress and push water down — it simply blocks further infiltration.",
+        "Evaporation is far too slow to remove rainfall as fast as it arrives.",
+        "Soil does not significantly expand to create new pore space during rain."
+      ],
+      "concepts": ["infiltration", "runoff"],
+      "tip": "If a sponge is already soaking wet, what happens when you add more water to it?"
+    },
+
+    {
+      "id": "q06",
+      "q": "How does steep slope affect the rate of water infiltration?",
+      "correct": "Steeper slopes increase runoff speed, reducing time for infiltration",
+      "incorrect": [
+        "Steeper slopes force water deeper into the ground faster",
+        "Slope has no effect on infiltration — only soil type matters",
+        "Steeper slopes trap water in place, increasing infiltration"
+      ],
+      "why_correct": "On steep slopes, gravity moves water downhill quickly — it doesn't stay in one place long enough to soak in.",
+      "why_wrong": [
+        "Slope increases runoff, not downward infiltration — water moves sideways, not straight down.",
+        "Slope is a major factor in runoff vs. infiltration — it cannot be ignored.",
+        "Steep slopes cause water to move faster, not pool — pooling increases infiltration, not steep slopes."
+      ],
+      "concepts": ["infiltration"],
+      "tip": "Picture rain falling on a steep hillside vs. flat ground. Where does water have more time to soak in?"
+    },
+
+    {
+      "id": "q07",
+      "q": "How does sediment POROSITY affect the amount of water retained?",
+      "correct": "Higher porosity means more pore space, so more water is stored",
+      "incorrect": [
+        "Higher porosity means less space, so less water is stored",
+        "Porosity only affects how fast water moves, not how much is held",
+        "Higher porosity causes water to drain immediately to bedrock"
+      ],
+      "why_correct": "Porosity is the percentage of open space in a material — more open space means more room to hold water.",
+      "why_wrong": [
+        "Higher porosity means MORE space — the opposite of less.",
+        "Porosity affects both storage and flow — it directly determines how much water can be held.",
+        "High porosity holds water in pores — it doesn't automatically drain to bedrock."
+      ],
+      "concepts": ["infiltration"],
+      "tip": "Porosity = open space. More open space means more room for what?"
+    },
+
+    {
+      "id": "q08",
+      "q": "How does particle size relate to porosity and permeability?",
+      "correct": "Larger particles have larger pores and higher permeability",
+      "incorrect": [
+        "Larger particles pack tighter, reducing both pore size and flow",
+        "Particle size affects porosity only, not permeability at all",
+        "Smaller particles always have higher permeability than larger ones"
+      ],
+      "why_correct": "Gravel has large, well-connected pores that let water flow freely — sand and clay have smaller, less connected pores.",
+      "why_wrong": [
+        "Larger particles actually leave bigger gaps between them — they pack loosely, not tightly.",
+        "Particle size affects both porosity and permeability — they are related properties.",
+        "Smaller particles (like clay) have very low permeability despite high porosity — pores are tiny and poorly connected."
+      ],
+      "concepts": ["infiltration"],
+      "tip": "Which has bigger gaps between particles — a pile of marbles or a pile of fine sand?"
+    },
+
+    {
+      "id": "q09",
+      "q": "What causes FLASH FLOODING?",
+      "correct": "Intense rainfall over a short time that exceeds the ground's infiltration rate",
+      "incorrect": [
+        "Slow steady rain that gradually raises the water table over weeks",
+        "Tidal surges pushing ocean water inland over flat coastal plains",
+        "Snowmelt that releases water slowly over several warm spring days"
+      ],
+      "why_correct": "Flash floods happen when rain falls too fast for soil to absorb — water rapidly accumulates on the surface and rushes downhill.",
+      "why_wrong": [
+        "Slow steady rain infiltrates gradually — it can raise rivers but rarely causes flash floods.",
+        "Tidal surges are a coastal storm surge event — not flash flooding.",
+        "Gradual snowmelt over days is slow enough for rivers to handle — not flash flood conditions."
+      ],
+      "concepts": ["runoff", "flash-flooding"],
+      "tip": "Flash floods are sudden — what kind of rain causes water to pile up faster than the ground can absorb it?"
+    },
+
+    {
+      "id": "q10",
+      "q": "Why are mountainous regions especially prone to flash flooding?",
+      "correct": "Steep slopes speed runoff, and short intense storms are common",
+      "incorrect": [
+        "Mountains receive less rain, so soil stays dry and cracks open",
+        "Mountain soil is always saturated from snowmelt year-round",
+        "High altitude winds evaporate rain before it can hit the ground"
+      ],
+      "why_correct": "Steep terrain moves water downhill very fast, and mountains often receive heavy localized downpours — a dangerous combination.",
+      "why_wrong": [
+        "Mountains typically receive more precipitation — and dry, cracked soil causes infiltration, not flash flooding.",
+        "Permanent saturation is not typical — flash flooding occurs during sudden rain events.",
+        "Rain does reach the ground in mountainous regions — high altitude winds do not evaporate it."
+      ],
+      "concepts": ["flash-flooding"],
+      "tip": "Two factors combine in mountains: the steepness of the land and the type of rainfall. What are they?"
+    },
+
+    {
+      "id": "q11",
+      "q": "What is GROUNDWATER RECHARGE?",
+      "correct": "Precipitation infiltrates through soil and replenishes underground aquifers",
+      "incorrect": [
+        "Water is pumped from rivers into underground storage tanks",
+        "Saltwater from the ocean seeps in to replace pumped groundwater",
+        "Evaporation pulls groundwater up and returns it to the surface"
+      ],
+      "why_correct": "Recharge happens naturally when rainwater or snowmelt soaks through soil down to the saturated zone, refilling aquifers.",
+      "why_wrong": [
+        "Pumping water into underground tanks is artificial recharge — natural recharge uses precipitation.",
+        "Saltwater intrusion contaminates groundwater — it does not recharge aquifers.",
+        "Evaporation moves water upward from the surface — it does not recharge underground aquifers."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Recharge means to refill. How does an aquifer naturally get refilled after water is pumped out?"
+    },
+
+    {
+      "id": "q12",
+      "q": "What is the WATER TABLE?",
+      "correct": "The upper boundary of the underground zone where all pores are saturated",
+      "incorrect": [
+        "The surface level of a lake, river, or other body of water",
+        "The depth at which impermeable bedrock blocks further infiltration",
+        "The layer of soil at the surface that absorbs the most rainfall"
+      ],
+      "why_correct": "The water table is the top surface of the saturated zone — above it, pores contain air; below it, pores are completely full of water.",
+      "why_wrong": [
+        "The water table is underground — it is not the surface level of a lake or river.",
+        "The depth of impermeable bedrock is the base of an aquifer — not the water table.",
+        "The surface soil layer is the topsoil horizon — the water table is deeper underground."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "The water table is a surface underground — above it is partly dry, below it is fully saturated."
+    },
+
+    {
+      "id": "q13",
+      "q": "What human activities can LOWER the water table?",
+      "correct": "Overpumping wells and paving land that reduces recharge",
+      "incorrect": [
+        "Planting forests and increasing vegetated ground cover",
+        "Building reservoirs and storing surface water in lakes",
+        "Reducing industrial water use and recycling wastewater"
+      ],
+      "why_correct": "Pumping water faster than recharge replenishes it depletes the aquifer. Pavement also prevents rainfall from infiltrating and recharging.",
+      "why_wrong": [
+        "Forests increase infiltration and help recharge groundwater — they raise, not lower, the water table.",
+        "Reservoirs store surface water — they don't deplete underground aquifers.",
+        "Reducing use and recycling water helps maintain the water table — it does not lower it."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "The water table drops when water leaves faster than it is replaced. What removes water faster than recharge?"
+    },
+
+    {
+      "id": "q14",
+      "q": "What is the difference between a CONFINED and UNCONFINED aquifer?",
+      "correct": "Confined: trapped between impermeable layers; unconfined: open to the surface above",
+      "incorrect": [
+        "Confined: near the surface; unconfined: deep below an impermeable layer",
+        "Confined: holds saltwater; unconfined: holds only freshwater",
+        "Confined: replenished by rain; unconfined: replenished by rivers only"
+      ],
+      "why_correct": "An unconfined aquifer sits below the water table with permeable material above. A confined aquifer is sandwiched between two impermeable layers.",
+      "why_wrong": [
+        "This is backwards — confined aquifers are deeper, trapped below an impermeable cap layer.",
+        "Both types can hold freshwater — salt vs. fresh is not what defines them.",
+        "Both types can be recharged by precipitation — that distinction is not what separates them."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Confined means trapped. Which type is sandwiched between impermeable layers, and which can be recharged directly from above?"
+    },
+
+    {
+      "id": "q15",
+      "q": "What is SALTWATER INTRUSION?",
+      "correct": "Saltwater seeps into a freshwater aquifer when it is overpumped near the coast",
+      "incorrect": [
+        "Ocean tides flood low-lying coastal freshwater lakes and rivers",
+        "Salt naturally accumulates in soil when surface water evaporates",
+        "Saltwater enters rivers from melting sea ice in polar regions"
+      ],
+      "why_correct": "When coastal wells are overpumped, water pressure drops and saltwater from the ocean moves in to fill the void, contaminating the aquifer.",
+      "why_wrong": [
+        "Tidal flooding is a surface event — saltwater intrusion is a groundwater problem.",
+        "Salt accumulating as water evaporates is salinization — not saltwater intrusion.",
+        "Sea ice melt dilutes water with fresh water — it does not introduce saltwater to rivers."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "What fills the space left when too much groundwater is pumped out of a coastal aquifer?"
+    },
+
+    {
+      "id": "q16",
+      "q": "How does stream VELOCITY affect sediment transport?",
+      "correct": "Faster streams carry larger and more sediment; slower streams drop it",
+      "incorrect": [
+        "Slower streams carry more sediment because water holds it longer",
+        "Stream velocity only affects how far sediment travels, not what size",
+        "Velocity has no effect — sediment load depends only on stream depth"
+      ],
+      "why_correct": "Fast-moving water has more energy to pick up and carry sediment. When a stream slows, it loses energy and deposits material.",
+      "why_wrong": [
+        "Slower streams have less energy — they drop sediment rather than carry it.",
+        "Velocity determines both the size and amount of sediment a stream can carry.",
+        "Velocity is the primary control on sediment transport — depth alone does not determine it."
+      ],
+      "concepts": ["erosion-deposition"],
+      "tip": "Think about a fast river vs. a slow one. Which can carry heavier rocks and more sand?"
+    },
+
+    {
+      "id": "q17",
+      "q": "What erosion and deposition pattern occurs in an old, meandering river?",
+      "correct": "Erosion on the outer curve; deposition on the inner curve",
+      "incorrect": [
+        "Erosion on the inner curve; deposition on the outer curve",
+        "Equal erosion and deposition on both sides of every curve",
+        "Erosion only at the mouth; deposition only at the source"
+      ],
+      "why_correct": "Water moves faster on the outside of a bend, cutting into the bank. On the inside, water slows and drops sediment, forming a point bar.",
+      "why_wrong": [
+        "This is backwards — the outer curve gets eroded because water moves fastest there.",
+        "The two sides of a meander bend behave very differently — equal erosion/deposition does not happen.",
+        "Erosion and deposition happen along the entire length of a meandering river, not just at the ends."
+      ],
+      "concepts": ["erosion-deposition"],
+      "tip": "On a curve, where does water travel faster — the inside or outside of the bend? Faster water erodes."
+    },
+
+    {
+      "id": "q18",
+      "q": "Why do DELTAS form at a river's mouth?",
+      "correct": "The river slows as it enters still water and drops its sediment load",
+      "incorrect": [
+        "Ocean waves pile up river sediment as they push water upstream",
+        "River water sinks beneath denser ocean water, dragging sediment down",
+        "Sediment dissolves in saltwater and recrystallizes at the river mouth"
+      ],
+      "why_correct": "When a fast-moving river meets a calm ocean or lake, it loses velocity — and with it, the energy to carry sediment, which is deposited.",
+      "why_wrong": [
+        "Ocean waves actually erode deltas — they do not build them by pushing sediment upstream.",
+        "River water does not sink beneath ocean water in a way that builds a delta — it spreads and slows.",
+        "Sediment is insoluble solid material — it does not dissolve in saltwater."
+      ],
+      "concepts": ["erosion-deposition"],
+      "tip": "Deposition happens when a stream loses energy. What causes a river to slow down when it reaches the ocean?"
+    },
+
+    {
+      "id": "q19",
+      "q": "What is a LEVEE and how does it form?",
+      "correct": "A natural ridge of sediment deposited along a river's banks during floods",
+      "incorrect": [
+        "A deep trench carved into a riverbank by fast-moving floodwater",
+        "A hard rock outcrop that blocks a river's path and slows its flow",
+        "A wide flat plain created when a river deposits silt far from its banks"
+      ],
+      "why_correct": "During a flood, water overflows the banks and slows suddenly — heavier sediment drops right at the edge, building up ridges over time.",
+      "why_wrong": [
+        "Levees are built-up ridges — not trenches carved by water.",
+        "A rock outcrop is a natural geologic feature — not a levee formed by deposition.",
+        "A wide flat plain of silt describes a floodplain — not a levee."
+      ],
+      "concepts": ["erosion-deposition"],
+      "tip": "When floodwater spills over a river's edge, it slows immediately. What does slowing water do to the sediment it carries?"
+    },
+
+    {
+      "id": "q20",
+      "q": "Why might farmers want to use FLOODPLAINS for agriculture?",
+      "correct": "Floods deposit rich, fertile sediment that makes excellent farmland",
+      "incorrect": [
+        "Floodplains drain quickly, keeping soil dry and easy to work",
+        "Floodplains are elevated, protecting crops from standing water",
+        "Floodplain soil has low nutrients, requiring less fertilizer to manage"
+      ],
+      "why_correct": "Rivers deposit nutrient-rich silt on floodplains during floods — this has made floodplains like the Nile some of the most productive farmland in history.",
+      "why_wrong": [
+        "Floodplains are frequently wet and flood regularly — they do not drain quickly.",
+        "Floodplains are low-lying areas beside rivers — not elevated.",
+        "Floodplain soil is nutrient-rich from repeated sediment deposits — not low in nutrients."
+      ],
+      "concepts": ["erosion-deposition"],
+      "tip": "Some of the oldest farming civilizations settled on floodplains. What did the annual floods leave behind?"
+    },
+
+    {
+      "id": "q21",
+      "q": "What two factors most affect the DENSITY of ocean water?",
+      "correct": "Temperature and salinity",
+      "incorrect": [
+        "Depth and wave height",
+        "Pressure and current speed",
+        "Oxygen content and pH level"
+      ],
+      "why_correct": "Cold water is denser than warm water; saltier water is denser than fresher water. These two factors drive ocean circulation.",
+      "why_wrong": [
+        "Depth and wave height describe physical features — they do not directly set water density.",
+        "Pressure increases with depth but is a result of density, not a cause. Current speed is driven by density differences.",
+        "Oxygen and pH affect marine life but are not the primary controls on water density."
+      ],
+      "concepts": ["ocean-currents"],
+      "tip": "Think about what makes water heavier — being colder or saltier both increase density. What are those two variables?"
+    },
+
+    {
+      "id": "q22",
+      "q": "What determines whether an ocean current is warm or cold?",
+      "correct": "Where the water originates — polar regions produce cold currents; tropical regions produce warm ones",
+      "incorrect": [
+        "The depth of the current — surface currents are warm; deep ones are cold",
+        "The speed of the current — fast currents warm up; slow currents stay cold",
+        "The color of the seafloor — dark floors absorb heat into the current"
+      ],
+      "why_correct": "Ocean currents carry water from their source region — water from near the poles is cold, and water from near the equator is warm.",
+      "why_wrong": [
+        "While deep water tends to be cold, a surface current from the poles is also cold — origin matters more than depth alone.",
+        "Current speed does not determine temperature — origin does.",
+        "The seafloor color does not meaningfully heat ocean currents."
+      ],
+      "concepts": ["ocean-currents"],
+      "tip": "The Gulf Stream is warm because it originates in the tropics. What makes a current cold?"
+    },
+
+    {
+      "id": "q23",
+      "q": "What is UPWELLING?",
+      "correct": "Cold, nutrient-rich deep water rising to the ocean surface",
+      "incorrect": [
+        "Warm surface water sinking to replace colder deep water below",
+        "Ocean water evaporating and rising into the atmosphere as vapor",
+        "Waves pushing surface water upward along steep coastal cliffs"
+      ],
+      "why_correct": "Wind pushes surface water away from the coast, and cold, nutrient-rich deep water rises to replace it — supporting huge fish populations.",
+      "why_wrong": [
+        "Warm surface water sinking is downwelling — the opposite of upwelling.",
+        "Water evaporating into vapor is the water cycle — not ocean upwelling.",
+        "Waves interact with cliffs but do not cause upwelling — upwelling is driven by wind and Earth's rotation."
+      ],
+      "concepts": ["ocean-currents"],
+      "tip": "Upwelling brings nutrients from the deep. Why do fishing industries love coastlines where upwelling occurs?"
+    },
+
+    {
+      "id": "q24",
+      "q": "Why does water STICK to other surfaces (adhesion) and to itself (cohesion)?",
+      "correct": "Water molecules are polar and form hydrogen bonds with each other and other surfaces",
+      "incorrect": [
+        "Water molecules are heavy and gravity pulls them tightly together",
+        "Water contains dissolved salts that act as a natural adhesive",
+        "Water is a liquid, and all liquids bond to surfaces they contact"
+      ],
+      "why_correct": "Water's oxygen-hydrogen structure creates partial charges — this polarity lets water molecules attract each other (cohesion) and cling to other polar surfaces (adhesion).",
+      "why_wrong": [
+        "Weight and gravity cause water to flow — they do not create molecular bonding.",
+        "Pure water (no salts) still exhibits strong cohesion and adhesion — it is not caused by dissolved salts.",
+        "Not all liquids bond equally to surfaces — water's polarity makes it unusually sticky compared to most liquids."
+      ],
+      "concepts": ["water-properties"],
+      "tip": "Water is a polar molecule — it has a positive side and a negative side. What does that allow it to do with other molecules?"
+    },
+
+    {
+      "id": "q25",
+      "q": "What is EUTROPHICATION?",
+      "correct": "Excess nutrients in water cause algae blooms that deplete oxygen and kill aquatic life",
+      "incorrect": [
+        "Saltwater intrudes into freshwater lakes, raising salinity and killing fish",
+        "Sediment runoff fills a lake or river until it becomes too shallow for life",
+        "Excess heat from industrial discharge raises water temperature and evaporates the lake"
+      ],
+      "why_correct": "Nutrient runoff (often fertilizers) feeds massive algae growth. When algae die, decomposition consumes oxygen, creating dead zones.",
+      "why_wrong": [
+        "Saltwater intrusion is a groundwater problem — eutrophication is driven by nutrients, not salt.",
+        "Sediment filling a waterway is siltation — not eutrophication.",
+        "Thermal pollution from heat discharge raises temperature but does not cause the algae-oxygen cycle of eutrophication."
+      ],
+      "concepts": ["water-quality"],
+      "tip": "Eutrophication starts with nutrients — what grows when nutrients are added to water, and what happens when that organism dies?"
+    },
+
+    {
+      "id": "q26",
+      "q": "What are three common problems caused by excess RUNOFF?",
+      "correct": "Erosion, flooding, and water pollution from carried chemicals and sediment",
+      "incorrect": [
+        "Drought, aquifer depletion, and decreased river flow over time",
+        "Saltwater intrusion, soil compaction, and reduced plant growth",
+        "Increased groundwater recharge, higher water tables, and spring formation"
+      ],
+      "why_correct": "Runoff strips topsoil (erosion), overwhelms streams (flooding), and carries fertilizers, pesticides, and pollutants into waterways.",
+      "why_wrong": [
+        "Drought and aquifer depletion result from too little water — runoff is excess water.",
+        "Saltwater intrusion and soil compaction are separate issues — not direct effects of runoff.",
+        "Increased recharge is a benefit of slow infiltration — fast runoff actually reduces recharge."
+      ],
+      "concepts": ["runoff"],
+      "tip": "What happens to soil, streams, and water quality when large volumes of water rush quickly across the land?"
+    },
+
+    {
+      "id": "q27",
+      "q": "What factors influence how much a WATERSHED affects a stream?",
+      "correct": "Size of the watershed, land cover, slope, and soil type",
+      "incorrect": [
+        "Water temperature, fish population, and stream depth only",
+        "Distance from the ocean, tidal range, and wave height",
+        "Air pressure, wind speed, and seasonal temperature changes"
+      ],
+      "why_correct": "A larger watershed delivers more water; forests slow runoff; steep slopes speed it; permeable soil absorbs more — all affect the stream.",
+      "why_wrong": [
+        "Fish population and stream depth are outcomes, not factors that control how the watershed functions.",
+        "Distance from the ocean and tidal range affect coastal streams but are not general watershed factors.",
+        "Atmospheric conditions affect precipitation but are not intrinsic watershed characteristics."
+      ],
+      "concepts": ["runoff"],
+      "tip": "A watershed is the land that drains into a stream. What features of that land determine how much and how fast water reaches the stream?"
+    },
+
+    {
+      "id": "q28",
+      "q": "Which human use sector consumes the MOST water globally?",
+      "correct": "Agriculture",
+      "incorrect": [
+        "Industrial use",
+        "Municipal (household) use",
+        "Energy production"
+      ],
+      "why_correct": "Agriculture — primarily irrigation — accounts for about 70% of global freshwater withdrawals, far more than any other sector.",
+      "why_wrong": [
+        "Industry uses significant water but accounts for a smaller share than agriculture globally.",
+        "Municipal household use is the smallest of the three major sectors.",
+        "Energy production uses water for cooling but is generally counted within industrial use and is less than agriculture."
+      ],
+      "concepts": ["water-distribution"],
+      "tip": "Think about how much water it takes to grow all the food for billions of people. Which sector uses the most?"
+    },
+
+    {
+      "id": "q29",
+      "q": "What happens to excess urban runoff from roads and parking lots?",
+      "correct": "It flows into storm drains and is discharged directly into local waterways",
+      "incorrect": [
+        "It is collected in tanks below the street and sent to treatment plants",
+        "It soaks through concrete and gravel into underground aquifers",
+        "It evaporates quickly from hot paved surfaces before reaching streams"
+      ],
+      "why_correct": "Storm drains carry runoff — along with oil, chemicals, and trash — directly to rivers and streams without treatment.",
+      "why_wrong": [
+        "Storm drains typically bypass treatment plants — only sanitary sewers go to treatment.",
+        "Concrete and asphalt are impermeable — water cannot soak through them into aquifers.",
+        "Some evaporation occurs, but most runoff volume reaches waterways — it does not all evaporate."
+      ],
+      "concepts": ["water-quality", "runoff"],
+      "tip": "Storm drains and sanitary sewers are different systems. Where does storm drain water go — treatment plant or directly to a stream?"
+    },
+
+    {
+      "id": "q30",
+      "q": "What are the basic steps of WASTEWATER treatment?",
+      "correct": "Screening solids, settling, biological treatment, disinfection, then release",
+      "incorrect": [
+        "Evaporation, condensation, filtration through sand, then deep injection",
+        "Boiling, chemical neutralization, UV exposure, and ocean disposal",
+        "Mixing with freshwater, aeration, and pumping back into the water table"
+      ],
+      "why_correct": "Wastewater treatment removes solids, then uses bacteria to break down organic material, then disinfects before releasing treated water.",
+      "why_wrong": [
+        "Evaporation and deep injection are not standard wastewater treatment steps.",
+        "Boiling is not practical at scale — and wastewater is not routinely dumped in the ocean.",
+        "Dilution with freshwater is not treatment — it just reduces concentration without removing pollutants."
+      ],
+      "concepts": ["water-quality"],
+      "tip": "Wastewater treatment removes physical solids first, then biological waste, then disinfects. What is the goal at each stage?"
+    },
+
+    {
+      "id": "q31",
+      "q": "In what form is water stored in the atmosphere?",
+      "correct": "Water vapor (gas)",
+      "incorrect": [
+        "Liquid droplets suspended throughout the entire atmosphere",
+        "Ice crystals distributed evenly at all altitudes",
+        "Dissolved minerals bonded to nitrogen and oxygen molecules"
+      ],
+      "why_correct": "Atmospheric water is primarily in the gas phase as water vapor — clouds form when vapor condenses into liquid droplets.",
+      "why_wrong": [
+        "Liquid droplets only exist in clouds — the bulk of atmospheric water is invisible vapor.",
+        "Ice crystals exist in high-altitude clouds but are not how most atmospheric water is stored.",
+        "Water molecules do not bond to nitrogen or oxygen in the atmosphere — they exist as independent gas molecules."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "You can't see water vapor in clear air, but it's always there. In what state of matter is it stored in the atmosphere?"
+    },
+
+    {
+      "id": "q32",
+      "q": "What causes SUBSIDENCE in areas of heavy groundwater pumping?",
+      "correct": "Removing water from pores causes the soil and rock to compact and sink",
+      "incorrect": [
+        "Water carries minerals away, leaving hollow caves that collapse suddenly",
+        "Heavy pump machinery vibrates the ground and compresses it downward",
+        "Cold groundwater keeps soil frozen; removing it causes it to thaw and settle"
+      ],
+      "why_correct": "When water is removed from pore spaces, the sediment grains lose their support and compress — the ground surface sinks, sometimes permanently.",
+      "why_wrong": [
+        "Mineral removal describes dissolution (karst), not the compaction-type subsidence from pumping.",
+        "Pump vibration is not a significant cause of widespread land subsidence.",
+        "Ground freezing is related to permafrost — not the groundwater pumping subsidence seen in cities like Mexico City."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Think of pore spaces as tiny pillars holding up the ground. What happens when the water filling those spaces is removed?"
+    }
+
+  ]
+}
