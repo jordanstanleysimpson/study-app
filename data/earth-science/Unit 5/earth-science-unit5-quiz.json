@@ -614,6 +614,348 @@
       ],
       "concepts": ["groundwater"],
       "tip": "Think of pore spaces as tiny pillars holding up the ground. What happens when the water filling those spaces is removed?"
+    },
+
+    {
+      "id": "q33",
+      "q": "What is EVAPORATION in the water cycle?",
+      "correct": "Liquid water absorbs heat energy and changes into water vapor",
+      "incorrect": [
+        "Water vapor cools and changes back into liquid water droplets",
+        "Water falls from clouds to Earth's surface as rain or snow",
+        "Water soaks downward through soil into underground rock layers"
+      ],
+      "why_correct": "Evaporation is a phase change from liquid to gas — driven by heat from the sun, primarily from oceans, lakes, and rivers.",
+      "why_wrong": [
+        "Water vapor cooling into liquid droplets is condensation — the reverse of evaporation.",
+        "Water falling from clouds is precipitation — not evaporation.",
+        "Water soaking into the ground is infiltration — not evaporation."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Evaporation moves water from liquid at the surface into the air as gas. What energy source drives this process?"
+    },
+
+    {
+      "id": "q34",
+      "q": "What is CONDENSATION in the water cycle?",
+      "correct": "Water vapor cools and changes back into liquid water droplets, forming clouds",
+      "incorrect": [
+        "Liquid water heats up and escapes into the atmosphere as vapor",
+        "Rain and snow fall from clouds to Earth's surface below",
+        "Plants release water vapor through tiny pores in their leaves"
+      ],
+      "why_correct": "As warm, moist air rises and cools, water vapor condenses onto tiny particles — forming the droplets that make up clouds.",
+      "why_wrong": [
+        "Liquid water heating and escaping as vapor is evaporation — the reverse of condensation.",
+        "Rain and snow falling from clouds is precipitation — not condensation.",
+        "Plants releasing water vapor is transpiration — not condensation."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Think of a cold glass on a humid day — water forms on the outside. What process is that?"
+    },
+
+    {
+      "id": "q35",
+      "q": "What is TRANSPIRATION in the water cycle?",
+      "correct": "Plants release water vapor through tiny pores in their leaves",
+      "incorrect": [
+        "Water soaks into the soil and moves downward to the water table",
+        "Liquid water on the soil surface turns into vapor from solar heat",
+        "Water vapor in clouds cools and forms liquid water droplets"
+      ],
+      "why_correct": "Plants absorb water through their roots and release it as vapor through stomata in their leaves — a significant source of atmospheric moisture.",
+      "why_wrong": [
+        "Water soaking into soil moving downward is infiltration — not transpiration.",
+        "Liquid water turning to vapor from solar heat is evaporation — not transpiration.",
+        "Vapor cooling into liquid droplets is condensation — not transpiration."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Trans- means 'across.' Plants move water absorbed from the ground across into the air. What is that called?"
+    },
+
+    {
+      "id": "q36",
+      "q": "What is INFILTRATION in the water cycle?",
+      "correct": "Water seeps downward through soil and rock toward the water table",
+      "incorrect": [
+        "Water flows across the land surface into rivers and streams",
+        "Water vapor is absorbed by plants through their root systems",
+        "Water evaporates from soil and enters the atmosphere as vapor"
+      ],
+      "why_correct": "Infiltration is the downward movement of water from the surface into the soil and underlying rock — it recharges groundwater.",
+      "why_wrong": [
+        "Water flowing across the surface into streams is runoff — not infiltration.",
+        "Plants absorb liquid water through roots, but that is not infiltration — infiltration is movement into the ground.",
+        "Water evaporating from soil is evaporation — not infiltration."
+      ],
+      "concepts": ["water-cycle", "infiltration"],
+      "tip": "In- means 'into.' Infiltration is water moving into the ground. What is the opposite — water moving across the ground surface?"
+    },
+
+    {
+      "id": "q37",
+      "q": "What is PRECIPITATION in the water cycle?",
+      "correct": "Water falls from clouds to Earth's surface as rain, snow, sleet, or hail",
+      "incorrect": [
+        "Water vapor rises from the ocean surface into the atmosphere above",
+        "Water droplets in clouds combine and grow into larger cloud masses",
+        "Water soaks into the ground and moves toward underground aquifers"
+      ],
+      "why_correct": "Precipitation is any form of water falling from the atmosphere — it is the main way water returns from the atmosphere to Earth's surface.",
+      "why_wrong": [
+        "Water vapor rising from the ocean is evaporation — the step before precipitation.",
+        "Cloud droplets combining is cloud formation — not precipitation, which requires falling.",
+        "Water soaking into the ground is infiltration — it comes after precipitation reaches the surface."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Precipitation is what you feel when it rains or snows — water coming down from clouds. What comes before it in the water cycle?"
+    },
+
+    {
+      "id": "q38",
+      "q": "Right after heavy rain ends in a mountain stream, how does stream volume change?",
+      "correct": "Volume increases rapidly as runoff from steep slopes reaches the stream quickly",
+      "incorrect": [
+        "Volume decreases as soil absorbs the rain before it can reach the stream",
+        "Volume stays the same since precipitation and evaporation balance out",
+        "Volume slowly rises over several days as groundwater seeps into the stream"
+      ],
+      "why_correct": "Steep mountain slopes move water to streams very fast — stream volume spikes quickly after a rain event.",
+      "why_wrong": [
+        "On steep slopes, water moves too fast to soak in — runoff dominates over infiltration.",
+        "Evaporation cannot keep up with the volume of runoff reaching the stream.",
+        "Gradual groundwater seepage describes baseflow, not the rapid rise after mountain rain."
+      ],
+      "concepts": ["runoff", "flash-flooding"],
+      "tip": "Steep slopes = fast runoff. How quickly does that runoff reach the stream after rain stops?"
+    },
+
+    {
+      "id": "q39",
+      "q": "Right after heavy rain in mountains, how does the stream's EROSION RATE change?",
+      "correct": "Erosion increases sharply because the faster, larger stream carries more sediment",
+      "incorrect": [
+        "Erosion decreases because more water lubricates and protects the streambed",
+        "Erosion stays the same since the streambed is already fully eroded",
+        "Erosion decreases because sediment settles out in the higher water volume"
+      ],
+      "why_correct": "A larger, faster stream has far more energy — it picks up and transports much more sediment, cutting into banks and the bed.",
+      "why_wrong": [
+        "More water does not protect the bed — faster water has more erosive power.",
+        "Streambeds are never 'fully eroded' — there is always material to pick up.",
+        "Sediment settles when water slows — a flooded mountain stream is faster, not slower."
+      ],
+      "concepts": ["erosion-deposition", "flash-flooding"],
+      "tip": "Faster water = more energy = more erosion. What happens to a stream's energy when volume and speed both increase?"
+    },
+
+    {
+      "id": "q40",
+      "q": "What is a WATERSHED?",
+      "correct": "All the land that drains precipitation into a single river or body of water",
+      "incorrect": [
+        "An underground rock layer that stores and transmits groundwater",
+        "A dam or reservoir built to collect and store rainwater for human use",
+        "The area along a river's banks that floods during heavy rainfall"
+      ],
+      "why_correct": "A watershed (drainage basin) includes every hillside, valley, and stream that eventually flows to the same outlet river or lake.",
+      "why_wrong": [
+        "An underground rock layer that stores water is an aquifer — not a watershed.",
+        "A dam or reservoir is a human-built structure — a watershed is a natural geographic area.",
+        "The area that floods along a river is a floodplain — a watershed is the much larger drainage area."
+      ],
+      "concepts": ["runoff"],
+      "tip": "Every raindrop falling in a watershed ends up in the same river. What natural feature divides neighboring watersheds?"
+    },
+
+    {
+      "id": "q41",
+      "q": "What are ways to PREVENT runoff from polluting streams?",
+      "correct": "Planting buffer strips, maintaining vegetation, and using retention ponds",
+      "incorrect": [
+        "Paving more land to speed runoff away from farmland and roads",
+        "Channeling all runoff directly into storm drains as fast as possible",
+        "Removing streamside vegetation to give runoff an open path to flow"
+      ],
+      "why_correct": "Vegetated buffers slow and filter runoff; plants absorb nutrients; retention ponds let sediment settle before water reaches a stream.",
+      "why_wrong": [
+        "Paving increases runoff and prevents infiltration — it makes pollution worse, not better.",
+        "Channeling runoff into storm drains rushes pollutants directly to waterways without filtering.",
+        "Removing streamside vegetation increases erosion and removes the natural filter — the opposite of prevention."
+      ],
+      "concepts": ["runoff", "water-quality"],
+      "tip": "Slowing runoff down and filtering it through vegetation are key strategies. What would speed it up and make pollution worse?"
+    },
+
+    {
+      "id": "q42",
+      "q": "How does VEGETATION reduce the amount of surface runoff?",
+      "correct": "Roots increase soil porosity, canopies slow rainfall, and roots absorb water",
+      "incorrect": [
+        "Leaves block all rain from ever reaching the soil surface below",
+        "Plant roots seal the soil surface, preventing runoff from forming",
+        "Vegetation increases slope steepness, which slows water movement"
+      ],
+      "why_correct": "Plant roots create channels that improve infiltration; canopies intercept and slow rain; roots take up water directly — all reduce runoff.",
+      "why_wrong": [
+        "Canopies slow rain but don't block all of it — significant rain still reaches the ground.",
+        "Roots do the opposite of sealing soil — they open it up and improve absorption.",
+        "Plants have no effect on slope angle — slope is a fixed landscape feature."
+      ],
+      "concepts": ["runoff"],
+      "tip": "A forest floor absorbs far more rain than bare soil. What do plant roots and leaf litter do to the soil?"
+    },
+
+    {
+      "id": "q43",
+      "q": "Can a material be POROUS but NOT permeable?",
+      "correct": "Yes — clay has many tiny pores but they are poorly connected, blocking flow",
+      "incorrect": [
+        "No — any material with pores always allows water to flow through it",
+        "No — porosity and permeability always increase and decrease together",
+        "Yes — gravel has high porosity but is the least permeable common material"
+      ],
+      "why_correct": "Clay is the classic example — it has high porosity (many pores) but very low permeability because the tiny pores are not well-connected.",
+      "why_wrong": [
+        "Clay proves this wrong — pores can exist without being connected enough for flow.",
+        "Clay again disproves this — it has high porosity but very low permeability.",
+        "Gravel is actually the most permeable common material — large, connected pores allow easy flow."
+      ],
+      "concepts": ["infiltration"],
+      "tip": "Porosity = open space exists. Permeability = water can flow through. Which property requires the pores to be connected?"
+    },
+
+    {
+      "id": "q44",
+      "q": "Where is most of the world's ACCESSIBLE liquid freshwater found?",
+      "correct": "Underground in aquifers (groundwater)",
+      "incorrect": [
+        "In rivers and streams on the surface",
+        "In polar ice caps and glaciers",
+        "In the atmosphere as water vapor"
+      ],
+      "why_correct": "Most surface freshwater is frozen in glaciers. Of the remaining liquid freshwater, the vast majority is underground in aquifers.",
+      "why_wrong": [
+        "Rivers and streams hold only a tiny fraction of total liquid freshwater.",
+        "Glaciers hold the most total freshwater, but it is frozen and not readily accessible.",
+        "Atmospheric water vapor is a very small fraction of total freshwater."
+      ],
+      "concepts": ["water-distribution"],
+      "tip": "Glaciers hold the most freshwater — but it's frozen. Of the liquid freshwater that humans can actually access, where is most of it?"
+    },
+
+    {
+      "id": "q45",
+      "q": "What is an ARTESIAN WELL?",
+      "correct": "A well where water rises on its own due to pressure in a confined aquifer",
+      "incorrect": [
+        "A well drilled into an unconfined aquifer just below the water table",
+        "A well that must be pumped continuously to bring water to the surface",
+        "A shallow well dug by hand that collects surface water and rainwater"
+      ],
+      "why_correct": "In a confined aquifer, water is under pressure from the weight of overlying rock. When a well is drilled through the cap layer, that pressure pushes water up.",
+      "why_wrong": [
+        "An unconfined aquifer well does not have pressurized water — it must be pumped.",
+        "Artesian wells flow naturally without pumping — that's what makes them distinct.",
+        "Artesian wells are drilled deep into confined aquifers — not shallow hand-dug pits."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Artesian wells flow without pumping. What creates the pressure that pushes the water up on its own?"
+    },
+
+    {
+      "id": "q46",
+      "q": "How does UPWELLING support sea life and fishing industries?",
+      "correct": "Cold deep water brings nutrients to the surface, supporting plankton and fish",
+      "incorrect": [
+        "Warm surface water rises and heats the upper ocean, expanding fish habitat",
+        "Upwelling pushes fish toward the shore where they are easier to catch",
+        "Deep water brings oxygen to the surface, replacing oxygen used by fish"
+      ],
+      "why_correct": "Deep water is rich in nutrients from decomposed organic matter. When it rises, it feeds phytoplankton — the base of the marine food web — supporting huge fish populations.",
+      "why_wrong": [
+        "Upwelling brings cold deep water up — it cools, not warms, the surface.",
+        "Upwelling doesn't physically push fish anywhere — it attracts them by creating a food-rich environment.",
+        "The ocean surface already has adequate oxygen from the atmosphere — upwelling is valued for nutrients, not oxygen."
+      ],
+      "concepts": ["ocean-currents"],
+      "tip": "Upwelling brings what from the deep ocean to the surface? Why does that matter for fish?"
+    },
+
+    {
+      "id": "q47",
+      "q": "What are the four steps of EUTROPHICATION?",
+      "correct": "Nutrients enter water → algae bloom → algae die → decomposition depletes oxygen",
+      "incorrect": [
+        "Sediment fills lake → water warms → fish leave → lake becomes a swamp",
+        "Salt enters lake → water becomes toxic → plants die → lake becomes a dead zone",
+        "Rain dilutes nutrients → algae shrink → oxygen increases → fish population grows"
+      ],
+      "why_correct": "Excess nutrients (like fertilizer) fuel algae growth. When the algae die, bacteria decompose them — consuming massive amounts of dissolved oxygen, suffocating aquatic life.",
+      "why_wrong": [
+        "Sediment filling a lake is siltation — a different process than eutrophication.",
+        "Salt entering a lake is salinization — eutrophication is driven by nutrients like nitrogen and phosphorus.",
+        "This describes recovery, not eutrophication — the actual process moves in the opposite direction."
+      ],
+      "concepts": ["water-quality"],
+      "tip": "Eutrophication ends with oxygen depletion. What causes oxygen levels to crash — and what causes that process to start?"
+    },
+
+    {
+      "id": "q48",
+      "q": "What is NON-POINT SOURCE water pollution?",
+      "correct": "Pollution that comes from many spread-out areas with no single identifiable source",
+      "incorrect": [
+        "Pollution released from a single pipe or specific discharge location",
+        "Pollution that occurs only during heavy rainfall and storm events",
+        "Pollution caused by natural processes rather than human activity"
+      ],
+      "why_correct": "Fertilizer and pesticide runoff from farms across a whole watershed is non-point source — it enters water from everywhere at once, making it hard to regulate.",
+      "why_wrong": [
+        "A single pipe or discharge point is point source pollution — the opposite of non-point source.",
+        "Non-point source pollution can occur at any time — not only during storms, though rain does worsen it.",
+        "Non-point source pollution is primarily human-caused — it's not defined by being natural."
+      ],
+      "concepts": ["water-quality", "runoff"],
+      "tip": "Can you point to exactly one spot where the pollution enters the water? If no, it's non-point source."
+    },
+
+    {
+      "id": "q49",
+      "q": "What is the ZONE OF AERATION?",
+      "correct": "The unsaturated zone above the water table where pores contain both air and water",
+      "incorrect": [
+        "The saturated zone below the water table where all pores are full of water",
+        "The layer of the atmosphere just above the soil where humidity is highest",
+        "The top layer of soil where plant roots and organic material are found"
+      ],
+      "why_correct": "Above the water table, pore spaces hold a mix of air and water — this unsaturated zone is called the zone of aeration.",
+      "why_wrong": [
+        "The zone where all pores are full of water is the zone of saturation — below the water table.",
+        "The zone of aeration is underground — not a layer of the atmosphere.",
+        "The top layer of soil with roots and organic material is the topsoil horizon — the zone of aeration extends deeper."
+      ],
+      "concepts": ["groundwater"],
+      "tip": "Aeration means air is present. Which zone has both air AND water in its pores — above or below the water table?"
+    },
+
+    {
+      "id": "q50",
+      "q": "What is the HYDROSPHERE?",
+      "correct": "All of Earth's water in every form — liquid, solid, and gas — on and below the surface",
+      "incorrect": [
+        "Only the liquid water found in oceans, rivers, and lakes on Earth's surface",
+        "The layer of water vapor and clouds found in Earth's lower atmosphere",
+        "The underground zone where groundwater is stored in rock and sediment"
+      ],
+      "why_correct": "The hydrosphere includes all water on Earth — oceans, ice caps, groundwater, rivers, lakes, and atmospheric water vapor.",
+      "why_wrong": [
+        "The hydrosphere includes all forms and locations of water — not just liquid surface water.",
+        "Atmospheric water vapor is part of the hydrosphere but is not the whole of it.",
+        "Groundwater is part of the hydrosphere, but the hydrosphere also includes all surface and atmospheric water."
+      ],
+      "concepts": ["water-distribution"],
+      "tip": "Hydro = water. The hydrosphere is the 'water sphere' of Earth. Does it include only liquid water, or all forms?"
     }
 
   ]
