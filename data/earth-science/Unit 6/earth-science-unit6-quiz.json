@@ -1,0 +1,981 @@
+{
+  "id": "earth-science-unit6-quiz",
+  "name": "Unit 6: Sunlight, Energy & Carbon Cycle",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-05-04",
+  "questions": [
+
+    {
+      "id": "q01",
+      "q": "What is the primary energy source that heats Earth's surface?",
+      "correct": "The sun",
+      "incorrect": [
+        "Earth's internal heat",
+        "The moon's gravity",
+        "Geothermal vents"
+      ],
+      "why_correct": "The sun delivers electromagnetic radiation that warms Earth's surface and drives weather, climate, and the carbon cycle.",
+      "why_wrong": [
+        "Earth's internal heat drives volcanoes and tectonics — it contributes very little surface heat.",
+        "The moon's gravity drives tides, not heating.",
+        "Geothermal vents are a tiny local heat source, not a global one."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-energy"],
+      "tip": "Picture a cold room with one lamp. That lamp is the sun — everything else is in the dark and cold."
+    },
+
+    {
+      "id": "q02",
+      "q": "What is the ANGLE OF INCIDENCE for sunlight?",
+      "correct": "The angle at which sunlight strikes Earth's surface",
+      "incorrect": [
+        "The distance between Earth and the sun",
+        "The speed at which sunlight travels",
+        "The color of light absorbed by soil"
+      ],
+      "why_correct": "Angle of incidence describes how steeply or shallowly sunlight hits the surface — steep = more energy per area, shallow = less.",
+      "why_wrong": [
+        "Earth-sun distance affects total solar energy received, not angle of incidence.",
+        "Light speed is constant — it doesn't define the angle of strike.",
+        "Light color (wavelength) is a different property entirely."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle"],
+      "tip": "Imagine shining a flashlight straight down vs. at a tilt. 'Straight down' = high angle of incidence = brighter spot."
+    },
+
+    {
+      "id": "q03",
+      "q": "Why does high-angle sunlight heat the ground MORE than low-angle sunlight?",
+      "correct": "It concentrates energy on a smaller area",
+      "incorrect": [
+        "It travels a shorter distance through space",
+        "It contains more UV radiation",
+        "It reflects less off clouds"
+      ],
+      "why_correct": "High-angle rays hit a compact spot — same energy packed into less surface area means more intense heating.",
+      "why_wrong": [
+        "The sun-to-Earth distance barely changes — that's not what controls intensity at a location.",
+        "UV content is the same regardless of angle.",
+        "Cloud reflection (albedo) is a separate factor from angle of incidence."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle"],
+      "tip": "Flashlight straight down = tiny bright circle = HOT. Flashlight tilted = big dim oval = cool. Same light, different spread."
+    },
+
+    {
+      "id": "q04",
+      "q": "Why is the equator warmer than the poles year-round?",
+      "correct": "The sun hits the equator at a near-90° angle",
+      "incorrect": [
+        "The equator is closer to the sun",
+        "The equator has thinner atmosphere",
+        "The equator has no ice to reflect sunlight"
+      ],
+      "why_correct": "At the equator, sunlight strikes nearly straight down — energy is concentrated, producing intense, consistent heating.",
+      "why_wrong": [
+        "The difference in Earth-sun distance between equator and poles is negligible.",
+        "Atmospheric thickness varies with altitude, not latitude — and it's not the main factor.",
+        "Ice albedo is a result of being cold, not a cause of the equator being warm."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle", "latitude"],
+      "tip": "Think of a globe with a lamp shining at its middle. The middle (equator) gets hit straight-on; the top and bottom (poles) get a glancing blow."
+    },
+
+    {
+      "id": "q05",
+      "q": "Why are the poles colder than the equator?",
+      "correct": "Sunlight hits at a low angle and spreads over a large area",
+      "incorrect": [
+        "The poles are much farther from the sun",
+        "The poles have no sunlight at all",
+        "Cold air at the poles reflects sunlight away"
+      ],
+      "why_correct": "Low-angle solar rays are spread over more surface area — the same energy heats a much larger patch, so any one spot gets less heat.",
+      "why_wrong": [
+        "The poles are not significantly farther from the sun than the equator.",
+        "Poles do receive sunlight — just at a very low angle.",
+        "Cold air doesn't reflect light — ice and snow on the surface do (albedo), but the main factor is angle."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle", "latitude"],
+      "tip": "Same pizza, different slice size. Low-angle sun = big slice per person = everyone gets less. High angle = small slice = everyone gets more."
+    },
+
+    {
+      "id": "q06",
+      "q": "What causes Earth's SEASONS?",
+      "correct": "Earth's 23.5° axial tilt as it orbits the sun",
+      "incorrect": [
+        "Earth moving closer to the sun in summer",
+        "The sun producing more energy in summer",
+        "Earth rotating faster in summer"
+      ],
+      "why_correct": "Earth's tilted axis means each hemisphere is angled toward or away from the sun during different parts of the orbit — this changes the angle of incoming sunlight.",
+      "why_wrong": [
+        "Earth is actually slightly farther from the sun during Northern Hemisphere summer.",
+        "The sun's energy output barely changes — Earth's tilt is the cause.",
+        "Earth's rotation speed doesn't change seasonally."
+      ],
+      "concepts": ["seasons", "axial-tilt"],
+      "tip": "Tilt your head toward a lamp — your face gets warmer. Tilt away — it gets cooler. Earth does this for 6 months at a time."
+    },
+
+    {
+      "id": "q07",
+      "q": "During Northern Hemisphere summer, which way is Earth's axis tilted?",
+      "correct": "Toward the sun",
+      "incorrect": [
+        "Away from the sun",
+        "Perpendicular to the sun",
+        "The axis is straight up — no tilt in summer"
+      ],
+      "why_correct": "When the Northern Hemisphere tilts toward the sun, it receives more direct sunlight and more hours of daylight — this is summer.",
+      "why_wrong": [
+        "Tilting away gives less direct light — that's winter for the Northern Hemisphere.",
+        "Perpendicular tilt describes the equinox, not summer.",
+        "Earth's tilt is constant at 23.5° — it doesn't change between seasons."
+      ],
+      "concepts": ["seasons", "axial-tilt"],
+      "tip": "Summer = TOWARD the sun. Winter = AWAY. The axis never changes its angle — only which direction it's pointing relative to the sun changes."
+    },
+
+    {
+      "id": "q08",
+      "q": "What is the SUMMER SOLSTICE in the Northern Hemisphere?",
+      "correct": "The day with the most direct sunlight and the longest day",
+      "incorrect": [
+        "The day Earth is closest to the sun",
+        "The first day of equal day and night",
+        "The day the sun is directly over the equator"
+      ],
+      "why_correct": "Around June 21, the Northern Hemisphere is maximally tilted toward the sun — highest sun angle, longest day, most intense solar heating.",
+      "why_wrong": [
+        "Earth is closest to the sun in early January (perihelion) — near Northern Hemisphere winter.",
+        "Equal day and night describes the equinox (March or September), not solstice.",
+        "Sun directly over the equator describes the equinox, not solstice."
+      ],
+      "concepts": ["seasons", "solstice"],
+      "tip": "Sol = sun, stice = standing still. At solstice, the sun 'pauses' at its highest (summer) or lowest (winter) point in the sky."
+    },
+
+    {
+      "id": "q09",
+      "q": "What is an EQUINOX?",
+      "correct": "A day with roughly equal hours of daylight and night",
+      "incorrect": [
+        "The day with the shortest daylight of the year",
+        "The day Earth is farthest from the sun",
+        "The day with the highest sun angle"
+      ],
+      "why_correct": "At the spring (March) and fall (September) equinoxes, neither hemisphere is tilted toward the sun — day and night are roughly 12 hours each.",
+      "why_wrong": [
+        "Shortest daylight describes the winter solstice.",
+        "Earth's farthest point from the sun (aphelion) is in early July.",
+        "Highest sun angle describes the summer solstice."
+      ],
+      "concepts": ["seasons", "equinox"],
+      "tip": "Equi = equal, nox = night. Equal night AND day. It's the balance point between summer and winter."
+    },
+
+    {
+      "id": "q10",
+      "q": "What is INSOLATION?",
+      "correct": "Solar radiation received at Earth's surface",
+      "incorrect": [
+        "The process of insulating a building from heat loss",
+        "The reflection of sunlight back into space",
+        "Energy released by Earth's interior"
+      ],
+      "why_correct": "Insolation (INcoming SOLar radiATION) measures how much solar energy actually reaches a given area of Earth's surface.",
+      "why_wrong": [
+        "Insolation sounds like insulation but means something different — it refers to incoming sun energy.",
+        "Reflection of sunlight back into space is albedo, not insolation.",
+        "Energy from Earth's interior is geothermal energy, not insolation."
+      ],
+      "concepts": ["solar-energy", "insolation"],
+      "tip": "INSOLATION = INcoming SOLar radiATION. Break the word apart: IN-SOL-ATION. The sun comes IN."
+    },
+
+    {
+      "id": "q11",
+      "q": "What is ALBEDO?",
+      "correct": "The fraction of sunlight reflected by a surface",
+      "incorrect": [
+        "The amount of sunlight absorbed by the ocean",
+        "The angle at which sunlight hits Earth",
+        "The total solar energy reaching the atmosphere"
+      ],
+      "why_correct": "Albedo is the reflectivity of a surface — high albedo (like snow/ice) reflects most sunlight; low albedo (like dark soil) absorbs most.",
+      "why_wrong": [
+        "Albedo measures reflection, not absorption — the ocean has low albedo because it absorbs sunlight.",
+        "Sunlight's angle is angle of incidence, not albedo.",
+        "Total solar energy reaching the atmosphere is insolation."
+      ],
+      "concepts": ["albedo"],
+      "tip": "Think 'Al-BEDO' like a bed of white snow — white things bounce light back (high albedo). Dark things soak it up (low albedo)."
+    },
+
+    {
+      "id": "q12",
+      "q": "Which surface has the HIGHEST albedo?",
+      "correct": "Fresh snow or ice",
+      "incorrect": [
+        "Dark ocean water",
+        "Dry dark soil",
+        "Asphalt pavement"
+      ],
+      "why_correct": "Fresh snow reflects 80–90% of incoming sunlight — it bounces almost all energy back into space.",
+      "why_wrong": [
+        "Dark ocean water absorbs most sunlight — it has very low albedo.",
+        "Dark soil absorbs most sunlight — low albedo.",
+        "Asphalt is one of the lowest albedo surfaces — it absorbs heat intensely."
+      ],
+      "concepts": ["albedo"],
+      "tip": "White = reflect. Dark = absorb. Snow is white → bounces light away. Asphalt is black → soaks heat up. Think about wearing a black vs. white shirt on a sunny day."
+    },
+
+    {
+      "id": "q13",
+      "q": "As latitude increases from equator to pole, solar energy intensity ___.",
+      "correct": "Decreases",
+      "incorrect": [
+        "Increases",
+        "Stays the same",
+        "First increases, then decreases"
+      ],
+      "why_correct": "Higher latitudes are farther from the equator — the sun's angle gets lower, spreading energy over more area and reducing intensity.",
+      "why_wrong": [
+        "Energy increases toward the equator, not the poles.",
+        "Energy intensity changes dramatically with latitude.",
+        "Energy doesn't increase then decrease — it steadily decreases from equator to poles."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle", "latitude"],
+      "tip": "Picture the globe. The middle (equator = latitude 0°) is the bullseye hit straight-on. The edge (poles = 90°) gets a glancing shot."
+    },
+
+    {
+      "id": "q14",
+      "q": "What is the GREENHOUSE EFFECT?",
+      "correct": "Atmospheric gases trap heat from Earth's surface",
+      "incorrect": [
+        "The sun's rays are blocked by greenhouse glass",
+        "Plants absorb heat through photosynthesis",
+        "Clouds reflect sunlight back into space"
+      ],
+      "why_correct": "Greenhouse gases (CO₂, water vapor, methane) absorb infrared radiation from Earth's surface and re-emit it, warming the lower atmosphere.",
+      "why_wrong": [
+        "The greenhouse effect involves the atmosphere, not glass — it's named for the analogy, not actual glass.",
+        "Photosynthesis uses light energy for chemical reactions — it doesn't trap heat.",
+        "Clouds reflecting sunlight is albedo, not the greenhouse effect."
+      ],
+      "concepts": ["greenhouse-effect"],
+      "tip": "A real greenhouse: sunlight goes IN through glass, heat can't get OUT. Earth's CO₂ is the 'glass' — lets light in, traps heat from escaping."
+    },
+
+    {
+      "id": "q15",
+      "q": "Which gas is the most important greenhouse gas produced by human activity?",
+      "correct": "Carbon dioxide (CO₂)",
+      "incorrect": [
+        "Oxygen (O₂)",
+        "Nitrogen (N₂)",
+        "Hydrogen (H₂)"
+      ],
+      "why_correct": "Burning fossil fuels releases enormous amounts of CO₂, which accumulates in the atmosphere and intensifies the greenhouse effect.",
+      "why_wrong": [
+        "Oxygen is not a greenhouse gas — it doesn't trap heat.",
+        "Nitrogen makes up 78% of the atmosphere but is not a greenhouse gas.",
+        "Hydrogen is not a significant atmospheric greenhouse gas."
+      ],
+      "concepts": ["greenhouse-effect", "carbon-cycle"],
+      "tip": "CO₂ = Carbon Dioxide = the carbon cycle's villain when there's too much of it. Burning stuff (fuels, forests) = more CO₂."
+    },
+
+    {
+      "id": "q16",
+      "q": "Why do areas near the equator have consistently high temperatures year-round?",
+      "correct": "The sun angle stays high and day length is consistent all year",
+      "incorrect": [
+        "Equatorial regions are closer to the sun than other areas",
+        "Equatorial oceans store heat and release it constantly",
+        "The equator has no axial tilt effects"
+      ],
+      "why_correct": "Because Earth's tilt doesn't dramatically change the sun's angle at the equator throughout the year — it stays near 90° year-round.",
+      "why_wrong": [
+        "The equator is not meaningfully closer to the sun.",
+        "Ocean heat storage is a secondary factor — the primary cause is consistent sun angle.",
+        "The equator is affected by tilt but the effect on sun angle is minimal compared to the poles."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle", "latitude", "seasons"],
+      "tip": "The equator is like being in the center of a bullseye. No matter how Earth tilts, the center barely moves."
+    },
+
+    {
+      "id": "q17",
+      "q": "When sunlight strikes at a LOW angle, the energy is spread over a ___.",
+      "correct": "Larger area — less energy per square meter",
+      "incorrect": [
+        "Smaller area — more energy per square meter",
+        "Larger area — more energy per square meter",
+        "The area doesn't change — only the color of light changes"
+      ],
+      "why_correct": "A low-angle beam fans out across more surface area — the same energy packet covers more ground, so each square meter gets less.",
+      "why_wrong": [
+        "Low angle = spread out = LESS energy per square meter, not more.",
+        "Large area and more energy per square meter contradicts physics — spreading energy out dilutes it.",
+        "Light color doesn't change with angle."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
+      "concepts": ["solar-angle"],
+      "tip": "Tilted flashlight = big dim oval. Straight-down flashlight = small bright circle. Same battery, different coverage."
+    },
+
+    {
+      "id": "q18",
+      "q": "What happens to solar energy that is NOT reflected or absorbed by the atmosphere?",
+      "correct": "It reaches and heats Earth's surface",
+      "incorrect": [
+        "It returns to the sun",
+        "It is destroyed in the upper atmosphere",
+        "It converts to wind energy immediately"
+      ],
+      "why_correct": "Solar energy passing through the atmosphere reaches Earth's surface, where it heats land and water.",
+      "why_wrong": [
+        "Energy doesn't return to the sun — it is absorbed or reflected.",
+        "Energy is transformed, never destroyed (law of conservation of energy).",
+        "Wind is a result of uneven surface heating — solar energy doesn't convert directly to wind in the atmosphere."
+      ],
+      "concepts": ["solar-energy"],
+      "tip": "Think of the atmosphere as a filter. Some energy bounces off (albedo), some is caught by gases (greenhouse), the rest slips through and warms the ground."
+    },
+
+    {
+      "id": "q19",
+      "q": "Which electromagnetic radiation from the sun carries the most energy?",
+      "correct": "Ultraviolet (UV) radiation",
+      "incorrect": [
+        "Visible light",
+        "Infrared radiation",
+        "Radio waves"
+      ],
+      "why_correct": "UV radiation has shorter wavelengths and carries more energy per photon — that's why it causes sunburn and is blocked by ozone.",
+      "why_wrong": [
+        "Visible light carries significant energy but less than UV per photon.",
+        "Infrared carries less energy per photon — we sense it as heat.",
+        "Radio waves have the longest wavelengths and lowest energy per photon."
+      ],
+      "concepts": ["solar-energy", "electromagnetic-spectrum"],
+      "tip": "Short wavelength = high energy. UV is short and punchy (causes sunburn). Radio waves are long and lazy (just carry sound)."
+    },
+
+    {
+      "id": "q20",
+      "q": "Earth absorbs sunlight (visible) but radiates heat back as ___.",
+      "correct": "Infrared radiation",
+      "incorrect": [
+        "UV radiation",
+        "Radio waves",
+        "Visible light"
+      ],
+      "why_correct": "Earth's surface is cooler than the sun, so it emits longer-wavelength infrared radiation — this is what greenhouse gases trap.",
+      "why_wrong": [
+        "UV is emitted by very hot objects like the sun — not by Earth's relatively cool surface.",
+        "Radio waves are emitted by even cooler/lower-energy sources — not Earth's surface heat.",
+        "Earth re-emits energy at longer wavelengths (infrared), not the same visible light wavelengths it absorbed."
+      ],
+      "concepts": ["greenhouse-effect", "solar-energy"],
+      "tip": "Sun → sends visible light. Earth → absorbs it, then sends back infrared (heat). Greenhouse gases grab that heat before it escapes."
+    },
+
+    {
+      "id": "q21",
+      "q": "What is the CARBON CYCLE?",
+      "correct": "The continuous movement of carbon through the atmosphere, biosphere, oceans, and rocks",
+      "incorrect": [
+        "The process by which plants convert carbon to oxygen",
+        "The cycle of carbon dioxide being destroyed and recreated",
+        "The annual increase in atmospheric CO₂"
+      ],
+      "why_correct": "Carbon atoms cycle endlessly between living things, air, water, and Earth's rocks — never created or destroyed, just moved.",
+      "why_wrong": [
+        "Plants move carbon but don't convert it to oxygen — photosynthesis converts CO₂ to sugar (C₆H₁₂O₆), releasing O₂ as a byproduct.",
+        "Carbon is never destroyed — it's a law of conservation of matter.",
+        "Rising CO₂ is a current symptom of imbalance, not the definition of the cycle."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle"],
+      "tip": "Carbon is like a traveler with many passports. Same atom of carbon can be in a leaf, then air, then ocean, then rock — endlessly touring."
+    },
+
+    {
+      "id": "q22",
+      "q": "What are the four main CARBON RESERVOIRS?",
+      "correct": "Atmosphere, biosphere, hydrosphere, lithosphere",
+      "incorrect": [
+        "Sun, moon, oceans, and soil",
+        "Plants, animals, rivers, and clouds",
+        "CO₂, O₂, methane, and water vapor"
+      ],
+      "why_correct": "Carbon is stored in the air (atmosphere), living things (biosphere), water (hydrosphere), and rocks/fossil fuels (lithosphere).",
+      "why_wrong": [
+        "The sun and moon are not carbon reservoirs for Earth's carbon cycle.",
+        "Plants and animals are part of the biosphere reservoir — they are subcategories.",
+        "These are molecules, not reservoirs — carbon exists in all of them across the four reservoirs."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "carbon-reservoirs"],
+      "tip": "4 reservoirs: Air, Life, Water, Rock. Or: Atmo-Bio-Hydro-Litho. ABHL — 'A Big Heavy Load' of carbon in each."
+    },
+
+    {
+      "id": "q23",
+      "q": "Which carbon reservoir contains the MOST carbon?",
+      "correct": "The lithosphere (rocks and fossil fuels)",
+      "incorrect": [
+        "The atmosphere",
+        "The biosphere",
+        "The hydrosphere"
+      ],
+      "why_correct": "The lithosphere holds the vast majority of Earth's carbon — locked in limestone, coal, oil, and gas over millions of years.",
+      "why_wrong": [
+        "The atmosphere holds only about 0.04% CO₂ — a tiny fraction of total carbon.",
+        "All living things combined hold far less carbon than rocks and fossil fuels.",
+        "Oceans hold significant dissolved carbon, but the lithosphere still dwarfs all other reservoirs."
+      ],
+      "concepts": ["carbon-cycle", "carbon-reservoirs"],
+      "tip": "Rocks have been stockpiling carbon for BILLIONS of years. All the oil, coal, and limestone = enormous storage. The atmosphere is a thin sliver by comparison."
+    },
+
+    {
+      "id": "q24",
+      "q": "What is PHOTOSYNTHESIS in the context of the carbon cycle?",
+      "correct": "Plants absorb CO₂ from the air and convert it to sugar",
+      "incorrect": [
+        "Plants release CO₂ into the air during growth",
+        "Animals convert food into CO₂ and energy",
+        "Sunlight breaks down CO₂ into carbon and oxygen"
+      ],
+      "why_correct": "Photosynthesis pulls carbon OUT of the atmosphere and locks it into glucose (sugar) — this is how carbon enters the food chain.",
+      "why_wrong": [
+        "Plants release CO₂ during respiration, not photosynthesis — photosynthesis does the opposite.",
+        "Animals converting food to CO₂ is cellular respiration, not photosynthesis.",
+        "Sunlight doesn't break down CO₂ directly — plants use it as energy to power the conversion."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "photosynthesis"],
+      "tip": "Photo = light, synthesis = building. Plants BUILD sugar from CO₂ using sunlight. Carbon goes IN (from air) and gets LOCKED into the plant."
+    },
+
+    {
+      "id": "q25",
+      "q": "What is the simplified equation for PHOTOSYNTHESIS?",
+      "correct": "CO₂ + H₂O + sunlight → glucose + O₂",
+      "incorrect": [
+        "O₂ + glucose → CO₂ + H₂O + energy",
+        "CO₂ + O₂ → glucose + H₂O",
+        "Glucose + sunlight → CO₂ + H₂O"
+      ],
+      "why_correct": "Plants take in carbon dioxide and water, use sunlight as energy, and produce glucose (food) plus oxygen as a byproduct.",
+      "why_wrong": [
+        "O₂ + glucose → CO₂ + H₂O + energy is the equation for respiration — the reverse of photosynthesis.",
+        "Oxygen is a product of photosynthesis, not a reactant.",
+        "Glucose breaking down with sunlight describes the reverse — photosynthesis makes glucose, not breaks it."
+      ],
+      "concepts": ["carbon-cycle", "photosynthesis"],
+      "tip": "Inputs: CO₂ + water + sun. Outputs: sugar + O₂. Think 'Plants EAT CO₂ and BREATHE OUT oxygen.'"
+    },
+
+    {
+      "id": "q26",
+      "q": "What is CELLULAR RESPIRATION in the carbon cycle?",
+      "correct": "Organisms break down glucose and release CO₂ and energy",
+      "incorrect": [
+        "Organisms absorb CO₂ to build cells",
+        "Plants release oxygen during sunlight hours",
+        "Carbon is stored in bones and shells permanently"
+      ],
+      "why_correct": "All living things (plants, animals, fungi) respire — they break down sugar for energy and release CO₂ back to the atmosphere.",
+      "why_wrong": [
+        "Absorbing CO₂ to build cells is photosynthesis, not respiration.",
+        "Releasing oxygen during daylight is photosynthesis — respiration releases CO₂.",
+        "Carbon in shells/bones is a temporary store — it returns to the cycle when organisms die."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "respiration"],
+      "tip": "Respiration = reverse of photosynthesis. You breathe IN oxygen, burn sugar, breathe OUT CO₂. Every breath adds carbon back to the air."
+    },
+
+    {
+      "id": "q27",
+      "q": "What is the equation for CELLULAR RESPIRATION?",
+      "correct": "Glucose + O₂ → CO₂ + H₂O + energy",
+      "incorrect": [
+        "CO₂ + H₂O + sunlight → glucose + O₂",
+        "CO₂ + energy → glucose + O₂",
+        "Glucose + CO₂ → O₂ + H₂O + energy"
+      ],
+      "why_correct": "Respiration 'burns' sugar using oxygen, releasing energy for the organism and releasing CO₂ and water as waste.",
+      "why_wrong": [
+        "CO₂ + H₂O + sunlight → glucose + O₂ is photosynthesis — the exact reverse.",
+        "Respiration releases energy, it doesn't use CO₂ as a reactant.",
+        "CO₂ is a product of respiration, not a reactant."
+      ],
+      "concepts": ["carbon-cycle", "respiration"],
+      "tip": "RESPIRATION eats glucose and produces CO₂. PHOTOSYNTHESIS eats CO₂ and produces glucose. They're exact opposites — flip the arrow."
+    },
+
+    {
+      "id": "q28",
+      "q": "How do DECOMPOSERS return carbon to the atmosphere?",
+      "correct": "They break down dead organic matter and release CO₂",
+      "incorrect": [
+        "They absorb CO₂ from the air to digest dead matter",
+        "They convert carbon in soil directly into rock",
+        "They release oxygen when breaking down dead matter"
+      ],
+      "why_correct": "Bacteria and fungi decompose dead plants and animals — the carbon in that organic matter is released as CO₂ through their respiration.",
+      "why_wrong": [
+        "Decomposers release CO₂ — they don't absorb it.",
+        "Decomposers break down organic matter into simpler molecules, not rocks.",
+        "Decomposers release CO₂, not O₂, as their main gas output."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "decomposition"],
+      "tip": "Decomposers are nature's recyclers. Dead leaf falls → decomposers eat it → CO₂ puffs back into the air. Nothing is wasted."
+    },
+
+    {
+      "id": "q29",
+      "q": "What is COMBUSTION in the carbon cycle?",
+      "correct": "Burning organic matter or fossil fuels releases stored carbon as CO₂",
+      "incorrect": [
+        "Carbon combines with oxygen underground to form coal",
+        "Plants absorb CO₂ during forest fires",
+        "Decomposers burn dead matter to release nutrients"
+      ],
+      "why_correct": "Combustion rapidly oxidizes carbon-containing material — whether a campfire or a power plant, carbon locked in fuel is released as CO₂.",
+      "why_wrong": [
+        "Coal forms from compressed organic matter over millions of years — combustion is the burning of coal, not its formation.",
+        "Forest fires release CO₂ — plants cannot photosynthesize during fires.",
+        "Decomposers don't burn matter — they chemically break it down without combustion."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "combustion"],
+      "tip": "Combustion = burning. Fire + carbon fuel = CO₂ poured into the air. Burning a forest in minutes releases carbon stored for centuries."
+    },
+
+    {
+      "id": "q30",
+      "q": "What are FOSSIL FUELS?",
+      "correct": "Remains of ancient organisms compressed over millions of years",
+      "incorrect": [
+        "Minerals mined from volcanic rock formations",
+        "Carbon gas trapped in ice cores from polar regions",
+        "Chemical compounds created in the sun's corona"
+      ],
+      "why_correct": "Coal, oil, and natural gas formed when ancient plants and animals were buried, compressed, and transformed over millions of years — they are carbon-rich stores from prehistoric life.",
+      "why_wrong": [
+        "Fossil fuels are organic in origin (from ancient life), not volcanic minerals.",
+        "Ice cores contain trapped ancient air but are not fossil fuels.",
+        "Fossil fuels formed on Earth from organic matter — they have no solar origin."
+      ],
+      "concepts": ["carbon-cycle", "fossil-fuels"],
+      "tip": "FOSSIL fuels = made from FOSSILS (ancient dead organisms). Coal used to be swamp forests. Oil used to be tiny sea creatures. Millions of years, compressed."
+    },
+
+    {
+      "id": "q31",
+      "q": "How do fossil fuels release carbon into the atmosphere?",
+      "correct": "By being burned (combustion), releasing CO₂",
+      "incorrect": [
+        "By slowly evaporating underground over centuries",
+        "By reacting with groundwater to produce CO₂",
+        "By being eaten by decomposers in the soil"
+      ],
+      "why_correct": "When coal, oil, or gas is burned, the carbon locked in those fuels for millions of years is rapidly oxidized to CO₂ and released.",
+      "why_wrong": [
+        "Fossil fuels don't evaporate — they require combustion to release carbon.",
+        "Fossil fuels reacting with groundwater is not a significant carbon-release pathway.",
+        "Decomposers break down organic matter, but deep fossil fuels are inaccessible to soil microbes."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "fossil-fuels", "combustion"],
+      "tip": "Fossil fuel = ancient carbon bank. Burning = withdrawing all that carbon at once. It took millions of years to deposit — we're spending it in decades."
+    },
+
+    {
+      "id": "q32",
+      "q": "What is a CARBON SINK?",
+      "correct": "A reservoir that absorbs more carbon than it releases",
+      "incorrect": [
+        "A reservoir that releases more carbon than it absorbs",
+        "A place where carbon is permanently destroyed",
+        "A type of deep-sea volcanic vent"
+      ],
+      "why_correct": "Carbon sinks pull CO₂ out of the atmosphere — forests, oceans, and soil are major sinks.",
+      "why_wrong": [
+        "A reservoir releasing more carbon than it absorbs is a carbon source, not a sink.",
+        "Carbon is never destroyed — it's just moved between reservoirs.",
+        "Deep-sea vents release carbon — they are sources, not sinks."
+      ],
+      "concepts": ["carbon-cycle", "carbon-sink"],
+      "tip": "A sink drains water away from you. A carbon SINK drains CO₂ away from the atmosphere. Forests and oceans suck CO₂ in — they're sinks."
+    },
+
+    {
+      "id": "q33",
+      "q": "What is a CARBON SOURCE?",
+      "correct": "A reservoir that releases more carbon than it absorbs",
+      "incorrect": [
+        "A reservoir that absorbs more carbon than it releases",
+        "A rock formation rich in limestone",
+        "A plant that absorbs large amounts of CO₂"
+      ],
+      "why_correct": "Burning fossil fuels and deforestation are examples of carbon sources — they add net CO₂ to the atmosphere.",
+      "why_wrong": [
+        "A reservoir absorbing more than it releases is a carbon sink, not source.",
+        "Limestone stores carbon — it's a reservoir, not a source unless it weathers or is burned.",
+        "Plants that absorb CO₂ are carbon sinks."
+      ],
+      "concepts": ["carbon-cycle", "carbon-source"],
+      "tip": "Source = adds CO₂ to air. Sink = removes CO₂ from air. Power plants are sources. Forests are sinks. When we burn forests, a sink becomes a source."
+    },
+
+    {
+      "id": "q34",
+      "q": "Is the OCEAN a carbon sink or carbon source?",
+      "correct": "Primarily a carbon sink — it absorbs CO₂ from the atmosphere",
+      "incorrect": [
+        "Primarily a carbon source — it releases more CO₂ than it absorbs",
+        "Neither — oceans have no role in the carbon cycle",
+        "A sink when cold, a source when warm — it switches daily"
+      ],
+      "why_correct": "Oceans absorb about 25% of human CO₂ emissions annually — CO₂ dissolves in seawater and is used by marine organisms.",
+      "why_wrong": [
+        "While some CO₂ does outgas from warm ocean areas, globally oceans are net carbon sinks.",
+        "Oceans are one of the largest active carbon reservoirs on Earth.",
+        "While temperature affects CO₂ solubility, oceans don't switch roles daily."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "carbon-sink"],
+      "tip": "The ocean is like a giant sponge for CO₂. Cold seawater absorbs it especially well. Marine phytoplankton also pull it in through photosynthesis."
+    },
+
+    {
+      "id": "q35",
+      "q": "How does carbon from the atmosphere get into ocean water?",
+      "correct": "CO₂ dissolves directly into seawater",
+      "incorrect": [
+        "Rain washes CO₂ into the ocean as carbonic acid",
+        "Fish absorb atmospheric CO₂ through their gills",
+        "Underwater volcanoes pull CO₂ from surface water"
+      ],
+      "why_correct": "At the ocean surface, CO₂ from the air dissolves into the water — forming carbonic acid (H₂CO₃), which makes the ocean slightly acidic.",
+      "why_wrong": [
+        "While rain does carry some CO₂, direct dissolution at the surface is the primary pathway.",
+        "Fish absorb dissolved oxygen, not atmospheric CO₂.",
+        "Underwater volcanoes are carbon sources, not sinks."
+      ],
+      "concepts": ["carbon-cycle", "ocean-carbon"],
+      "tip": "Like a carbonated drink: CO₂ gas dissolves into liquid. The ocean absorbs CO₂ the same way — from the surface where air and water meet."
+    },
+
+    {
+      "id": "q36",
+      "q": "What role do MARINE ORGANISMS play in the carbon cycle?",
+      "correct": "They absorb CO₂ for photosynthesis or shells, then sink carbon to the ocean floor",
+      "incorrect": [
+        "They pump CO₂ from the ocean floor to the surface",
+        "They convert CO₂ into oxygen and release it into the atmosphere only",
+        "They have no significant role in the carbon cycle"
+      ],
+      "why_correct": "Phytoplankton photosynthesize with dissolved CO₂; shellfish build calcium carbonate (CaCO₃) shells. When they die and sink, carbon is buried deep.",
+      "why_wrong": [
+        "Marine organisms move carbon DOWN, not up — dead organisms sink, carrying carbon to the deep ocean.",
+        "They do release oxygen, but they also lock carbon in shells and tissues — that's the key role.",
+        "Marine organisms are critical — phytoplankton alone absorb roughly half of all photosynthesis on Earth."
+      ],
+      "concepts": ["carbon-cycle", "ocean-carbon"],
+      "tip": "Tiny ocean plants (phytoplankton) are CO₂ vacuum cleaners. When they die, they sink like snowflakes — carrying carbon down to the deep sea floor."
+    },
+
+    {
+      "id": "q37",
+      "q": "How is carbon stored in LIMESTONE rock?",
+      "correct": "Marine organisms build calcium carbonate shells that become limestone when compacted",
+      "incorrect": [
+        "CO₂ gas freezes at the seafloor and crystallizes into limestone",
+        "Volcanic lava cools and captures CO₂ in limestone formations",
+        "Plant roots break down and harden into limestone over time"
+      ],
+      "why_correct": "When shelled marine organisms die, their CaCO₃ shells accumulate on the seafloor. Over millions of years, pressure compacts them into limestone — a long-term carbon store.",
+      "why_wrong": [
+        "CO₂ doesn't freeze into rock — it dissolves into water and gets incorporated into shells biologically.",
+        "Volcanic rock (basalt) forms differently — limestone is sedimentary, not igneous.",
+        "Plant material forms coal, not limestone — limestone comes from marine shells."
+      ],
+      "concepts": ["carbon-cycle", "long-term-cycle"],
+      "tip": "Limestone = billions of ancient shells stacked and squeezed. A chunk of limestone is essentially millions of years of dead sea creatures — all that carbon locked in rock."
+    },
+
+    {
+      "id": "q38",
+      "q": "How is carbon released from rocks back into the atmosphere?",
+      "correct": "Volcanic eruptions and chemical weathering of limestone",
+      "incorrect": [
+        "Rocks dissolve in rainwater and carbon floats up",
+        "Tectonic plates compress rocks until carbon explodes out",
+        "Bacteria eat rocks and exhale the carbon as CO₂"
+      ],
+      "why_correct": "Volcanoes outgas CO₂ from magma. Rainwater (slightly acidic) weathers limestone — CaCO₃ slowly breaks down, releasing carbon into waterways and eventually the atmosphere.",
+      "why_wrong": [
+        "Carbon from rock dissolution goes into water, not directly into the atmosphere as gas.",
+        "Tectonic compression doesn't cause carbon to 'explode' — it takes volcanic pathways to release it.",
+        "Some bacteria do weather rock, but the main pathways are volcanic outgassing and acid weathering."
+      ],
+      "concepts": ["carbon-cycle", "long-term-cycle", "volcanic-outgassing"],
+      "tip": "Rocks hold carbon like a vault. Volcanoes are the vault cracking open. Acid rain is a slow lockpick. Both put carbon back into the air — just at very different speeds."
+    },
+
+    {
+      "id": "q39",
+      "q": "What is the SHORT-TERM carbon cycle?",
+      "correct": "Carbon moving between the atmosphere, plants, and animals (years to decades)",
+      "incorrect": [
+        "Carbon moving between rocks and the atmosphere (millions of years)",
+        "Carbon locked in ice caps during ice ages",
+        "Carbon transferred between the sun and Earth"
+      ],
+      "why_correct": "The biological carbon cycle — photosynthesis, respiration, decomposition — cycles carbon over months to decades.",
+      "why_wrong": [
+        "Carbon moving through rocks over millions of years is the long-term (geological) carbon cycle.",
+        "Ice cap storage is part of the long-term cycle — glacial/interglacial timescales span thousands of years.",
+        "The sun is not part of Earth's carbon reservoirs."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "short-term-cycle"],
+      "tip": "Short-term = biological. The carbon in your lunch was in a plant last season. That plant pulled it from air last spring. Fast loop — years to decades."
+    },
+
+    {
+      "id": "q40",
+      "q": "What is the LONG-TERM carbon cycle?",
+      "correct": "Carbon moving through rocks, fossil fuels, and volcanic activity (millions of years)",
+      "incorrect": [
+        "Carbon cycling between plants and animals each year",
+        "Daily CO₂ exchange between leaves and the air",
+        "Carbon released by burning wood"
+      ],
+      "why_correct": "The geological carbon cycle involves carbon being buried in sediments, compressed into rock or fossil fuels, and released by volcanic activity — timescales of millions of years.",
+      "why_wrong": [
+        "Annual plant-animal carbon exchange is the short-term (biological) cycle.",
+        "Daily leaf gas exchange is part of the short-term cycle.",
+        "Wood burning is combustion — a short-term rapid release."
+      ],
+      "concepts": ["carbon-cycle", "long-term-cycle"],
+      "tip": "Long-term = geological. Think deep time. Carbon slowly sinks to ocean floor → gets buried → squeezed into rock over millions of years → volcano burps it back out."
+    },
+
+    {
+      "id": "q41",
+      "q": "Why has atmospheric CO₂ increased since the Industrial Revolution?",
+      "correct": "Burning fossil fuels adds ancient carbon to the air faster than natural sinks can absorb it",
+      "incorrect": [
+        "Plants are producing more CO₂ through faster photosynthesis",
+        "The oceans have stopped absorbing CO₂ entirely",
+        "Volcanic activity has significantly increased"
+      ],
+      "why_correct": "Fossil fuels release carbon that was buried for millions of years — humans are releasing it in centuries, far faster than forests and oceans can absorb it.",
+      "why_wrong": [
+        "Plants absorb CO₂ — more CO₂ can actually stimulate some plant growth, but plants are net absorbers.",
+        "Oceans still absorb CO₂, but can't keep pace with how fast humans release it.",
+        "Volcanic activity hasn't significantly increased — human emissions are 100× greater than current volcanic CO₂ output."
+      ],
+      "concepts": ["carbon-cycle", "climate-change"],
+      "tip": "Imagine slowly filling a bathtub (natural carbon burial = millions of years) then draining it all at once (burning fossil fuels = 200 years). The balance breaks."
+    },
+
+    {
+      "id": "q42",
+      "q": "What is DEFORESTATION's impact on the carbon cycle?",
+      "correct": "It removes carbon sinks and releases stored carbon as CO₂",
+      "incorrect": [
+        "It increases photosynthesis in remaining trees",
+        "It has no net effect because carbon goes back into soil",
+        "It helps by exposing soil which absorbs more CO₂"
+      ],
+      "why_correct": "Forests store enormous amounts of carbon in wood and soil. Cutting and burning them releases that carbon AND removes future photosynthesis capacity.",
+      "why_wrong": [
+        "Remaining trees can't compensate for the large-scale loss of forest coverage.",
+        "Burning trees releases much more CO₂ than the soil can reabsorb quickly.",
+        "Bare soil has low albedo and limited carbon absorption — it's a net loss."
+      ],
+      "concepts": ["carbon-cycle", "carbon-sink", "climate-change"],
+      "tip": "A living forest = CO₂ vacuum. A burning forest = CO₂ smokestack. Deforestation flips a sink into a source — doubly bad for the atmosphere."
+    },
+
+    {
+      "id": "q43",
+      "q": "What is CARBON SEQUESTRATION?",
+      "correct": "Capturing and storing carbon to keep it out of the atmosphere",
+      "incorrect": [
+        "Releasing carbon from fossil fuels for energy",
+        "Measuring CO₂ levels in the atmosphere",
+        "Converting CO₂ into oxygen through chemical reactions"
+      ],
+      "why_correct": "Sequestration means long-term storage — natural examples include ocean absorption and forest growth; artificial examples include pumping CO₂ underground.",
+      "why_wrong": [
+        "Releasing carbon from fossil fuels is the opposite — combustion, not sequestration.",
+        "Measuring CO₂ is monitoring, not sequestration.",
+        "Converting CO₂ directly into O₂ would require splitting the molecule — not how sequestration works."
+      ],
+      "concepts": ["carbon-cycle", "carbon-sink"],
+      "tip": "Sequester = to hide away or lock up. Carbon sequestration = locking carbon AWAY from the atmosphere. Planting forests = natural sequestration."
+    },
+
+    {
+      "id": "q44",
+      "q": "Which of the following is an example of NATURAL carbon sequestration?",
+      "correct": "Phytoplankton dying and sinking to the ocean floor",
+      "incorrect": [
+        "A coal power plant burning fuel",
+        "A wildfire consuming a forest",
+        "A cow digesting grass and releasing methane"
+      ],
+      "why_correct": "When phytoplankton die, they sink with their carbon to the ocean floor — this is the 'biological pump' that sequesters carbon in deep ocean sediments.",
+      "why_wrong": [
+        "A coal plant releases CO₂ — it's a carbon source, not sequestration.",
+        "Wildfires release CO₂ — carbon is returned to air, not stored.",
+        "Methane from digestion is a carbon emission — the opposite of sequestration."
+      ],
+      "concepts": ["carbon-cycle", "carbon-sink", "ocean-carbon"],
+      "tip": "Dead phytoplankton = tiny carbon packages raining down to the seafloor. Over millions of years this becomes oil and rock. Nature's original carbon capture."
+    },
+
+    {
+      "id": "q45",
+      "q": "What is the BIOLOGICAL PUMP in the carbon cycle?",
+      "correct": "Marine organisms absorbing CO₂ then carrying carbon to the deep ocean when they die",
+      "incorrect": [
+        "A machine used to pump carbon dioxide into the deep sea",
+        "Whale migration patterns that distribute carbon across oceans",
+        "The process by which deep ocean water rises to the surface"
+      ],
+      "why_correct": "Phytoplankton and zooplankton fix carbon through photosynthesis and feeding, then die and sink — pumping carbon from surface to deep ocean.",
+      "why_wrong": [
+        "The biological pump is a natural ecological process, not a machine.",
+        "Whale migration does distribute some nutrients but is not the biological pump.",
+        "Deep ocean water rising to the surface is upwelling — the biological pump moves carbon DOWN."
+      ],
+      "concepts": ["carbon-cycle", "ocean-carbon"],
+      "tip": "Tiny ocean creatures: eat CO₂ at the surface → die → sink. They're little packages pumping carbon DOWN into the deep. Natural elevator going one way: down."
+    },
+
+    {
+      "id": "q46",
+      "q": "How does SOIL store carbon?",
+      "correct": "Dead organic matter (leaves, roots) decomposes slowly and leaves carbon in the soil",
+      "incorrect": [
+        "Soil crystals trap CO₂ gas in air pockets permanently",
+        "Soil absorbs CO₂ directly from the air like a sponge",
+        "Rock minerals in soil contain newly formed carbon from sunlight"
+      ],
+      "why_correct": "As plants and animals die and partially decompose, carbon-rich organic matter (humus) accumulates in soil — soil is a major carbon reservoir.",
+      "why_wrong": [
+        "Soil doesn't trap gas in crystals — it stores carbon in organic compounds within the soil itself.",
+        "Soil doesn't absorb CO₂ directly from the air — plants do, and their decay transfers carbon to soil.",
+        "Rock minerals hold ancient carbon, not newly formed carbon from sunlight."
+      ],
+      "concepts": ["carbon-cycle", "carbon-reservoirs"],
+      "tip": "Rich dark soil = carbon-packed soil. All those dead leaves, roots, and organisms slowly became humus. Topsoil is literally made of ancient life — carbon stored as organic matter."
+    },
+
+    {
+      "id": "q47",
+      "q": "What happens to carbon when an organism DIES without decomposing (buried in swamp)?",
+      "correct": "It may become part of fossil fuels over millions of years",
+      "incorrect": [
+        "It evaporates immediately as CO₂ into the atmosphere",
+        "It is converted to oxygen by bacteria",
+        "It dissolves and enters the groundwater as sugar"
+      ],
+      "why_correct": "Organic matter buried without oxygen (anaerobic conditions) — like swamp sediments — doesn't fully decompose. Over millions of years, heat and pressure transform it into coal or oil.",
+      "why_wrong": [
+        "Buried organic matter doesn't evaporate — it's cut off from the atmosphere.",
+        "Bacteria can't convert carbon to oxygen — they break down organic compounds, releasing CO₂ or methane.",
+        "Carbon doesn't dissolve as sugar — the molecules break down under pressure into fossil fuels."
+      ],
+      "concepts": ["carbon-cycle", "fossil-fuels", "long-term-cycle"],
+      "tip": "No oxygen = no decomposition = matter gets preserved. Ancient swamp forests got buried, squeezed for millions of years = coal. We burn that coal today and release their carbon."
+    },
+
+    {
+      "id": "q48",
+      "q": "What is OCEAN ACIDIFICATION?",
+      "correct": "Oceans becoming more acidic as they absorb excess CO₂",
+      "incorrect": [
+        "Acid rain falling into the ocean from industrial smoke",
+        "Volcanic vents releasing sulfur acid into the ocean",
+        "Fish waste making shallow coastal waters more acidic"
+      ],
+      "why_correct": "CO₂ + H₂O → H₂CO₃ (carbonic acid) — as oceans absorb more atmospheric CO₂, they become more acidic, threatening marine life.",
+      "why_wrong": [
+        "Acid rain is a separate problem — ocean acidification is from dissolved CO₂ directly.",
+        "Volcanic vents contribute locally, but global ocean acidification is driven by atmospheric CO₂ absorption.",
+        "Fish waste is minimal compared to the scale of CO₂ absorption driving global acidification."
+      ],
+      "concepts": ["carbon-cycle", "ocean-carbon", "climate-change"],
+      "tip": "Drop CO₂ into water → carbonic acid forms → ocean gets acidic. It's like making sparkling water — CO₂ + water = acidic drink. More CO₂ in air = more acidic ocean."
+    },
+
+    {
+      "id": "q49",
+      "q": "Which step of the carbon cycle removes CO₂ from the atmosphere?",
+      "correct": "Photosynthesis",
+      "incorrect": [
+        "Respiration",
+        "Combustion",
+        "Decomposition"
+      ],
+      "why_correct": "Photosynthesis is the only major biological process that pulls CO₂ OUT of the atmosphere and locks it into organic molecules.",
+      "why_wrong": [
+        "Respiration releases CO₂ back to the atmosphere.",
+        "Combustion rapidly releases large amounts of CO₂.",
+        "Decomposition releases CO₂ as organic matter is broken down."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "photosynthesis"],
+      "tip": "The carbon cycle has steps that ADD CO₂ (respiration, combustion, decomposition) and one main step that REMOVES it (photosynthesis). Plants are the only CO₂ vacuum cleaners."
+    },
+
+    {
+      "id": "q50",
+      "q": "Which process ADDS carbon to the atmosphere?",
+      "correct": "Combustion (burning)",
+      "incorrect": [
+        "Photosynthesis",
+        "Carbon sequestration",
+        "Ocean absorption"
+      ],
+      "why_correct": "Combustion oxidizes carbon-rich fuel and releases CO₂ — whether from a fire, engine, or power plant.",
+      "why_wrong": [
+        "Photosynthesis removes CO₂ from the atmosphere.",
+        "Carbon sequestration stores carbon AWAY from the atmosphere.",
+        "Ocean absorption removes CO₂ from the atmosphere."
+      ],
+      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
+      "concepts": ["carbon-cycle", "combustion"],
+      "tip": "Sources vs. sinks. COMBUSTION (burning) = source = adds CO₂. PHOTOSYNTHESIS = sink = removes CO₂. One pollutes, one cleans."
+    }
+
+  ]
+}

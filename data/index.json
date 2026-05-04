@@ -145,6 +145,15 @@
       "file": "data/earth-science/Unit 5/earth-science-unit5-quiz.json"
     },
     {
+      "id": "earth-science-unit6-quiz",
+      "name": "Unit 6: Sunlight, Energy & Carbon Cycle",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-05-04",
+      "wordCount": 50,
+      "file": "data/earth-science/Unit 6/earth-science-unit6-quiz.json"
+    },
+    {
       "id": "civics-unit4-quiz",
       "name": "Unit 4: Political Parties and Elections",
       "subject": "Civics",
