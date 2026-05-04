@@ -23,7 +23,6 @@
         "The moon's gravity drives tides, not heating.",
         "Geothermal vents are a tiny local heat source, not a global one."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-energy"],
       "tip": "Picture a cold room with one lamp. That lamp is the sun — everything else is in the dark and cold."
     },
@@ -43,7 +42,6 @@
         "Light speed is constant — it doesn't define the angle of strike.",
         "Light color (wavelength) is a different property entirely."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle"],
       "tip": "Imagine shining a flashlight straight down vs. at a tilt. 'Straight down' = high angle of incidence = brighter spot."
     },
@@ -63,7 +61,6 @@
         "UV content is the same regardless of angle.",
         "Cloud reflection (albedo) is a separate factor from angle of incidence."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle"],
       "tip": "Flashlight straight down = tiny bright circle = HOT. Flashlight tilted = big dim oval = cool. Same light, different spread."
     },
@@ -83,7 +80,6 @@
         "Atmospheric thickness varies with altitude, not latitude — and it's not the main factor.",
         "Ice albedo is a result of being cold, not a cause of the equator being warm."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle", "latitude"],
       "tip": "Think of a globe with a lamp shining at its middle. The middle (equator) gets hit straight-on; the top and bottom (poles) get a glancing blow."
     },
@@ -103,7 +99,6 @@
         "Poles do receive sunlight — just at a very low angle.",
         "Cold air doesn't reflect light — ice and snow on the surface do (albedo), but the main factor is angle."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle", "latitude"],
       "tip": "Same pizza, different slice size. Low-angle sun = big slice per person = everyone gets less. High angle = small slice = everyone gets more."
     },
@@ -256,7 +251,6 @@
         "Energy intensity changes dramatically with latitude.",
         "Energy doesn't increase then decrease — it steadily decreases from equator to poles."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle", "latitude"],
       "tip": "Picture the globe. The middle (equator = latitude 0°) is the bullseye hit straight-on. The edge (poles = 90°) gets a glancing shot."
     },
@@ -314,7 +308,6 @@
         "Ocean heat storage is a secondary factor — the primary cause is consistent sun angle.",
         "The equator is affected by tilt but the effect on sun angle is minimal compared to the poles."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle", "latitude", "seasons"],
       "tip": "The equator is like being in the center of a bullseye. No matter how Earth tilts, the center barely moves."
     },
@@ -334,7 +327,6 @@
         "Large area and more energy per square meter contradicts physics — spreading energy out dilutes it.",
         "Light color doesn't change with angle."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/solar-angles.svg",
       "concepts": ["solar-angle"],
       "tip": "Tilted flashlight = big dim oval. Straight-down flashlight = small bright circle. Same battery, different coverage."
     },
@@ -411,7 +403,6 @@
         "Carbon is never destroyed — it's a law of conservation of matter.",
         "Rising CO₂ is a current symptom of imbalance, not the definition of the cycle."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle"],
       "tip": "Carbon is like a traveler with many passports. Same atom of carbon can be in a leaf, then air, then ocean, then rock — endlessly touring."
     },
@@ -431,7 +422,6 @@
         "Plants and animals are part of the biosphere reservoir — they are subcategories.",
         "These are molecules, not reservoirs — carbon exists in all of them across the four reservoirs."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "carbon-reservoirs"],
       "tip": "4 reservoirs: Air, Life, Water, Rock. Or: Atmo-Bio-Hydro-Litho. ABHL — 'A Big Heavy Load' of carbon in each."
     },
@@ -470,7 +460,6 @@
         "Animals converting food to CO₂ is cellular respiration, not photosynthesis.",
         "Sunlight doesn't break down CO₂ directly — plants use it as energy to power the conversion."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "photosynthesis"],
       "tip": "Photo = light, synthesis = building. Plants BUILD sugar from CO₂ using sunlight. Carbon goes IN (from air) and gets LOCKED into the plant."
     },
@@ -509,7 +498,6 @@
         "Releasing oxygen during daylight is photosynthesis — respiration releases CO₂.",
         "Carbon in shells/bones is a temporary store — it returns to the cycle when organisms die."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "respiration"],
       "tip": "Respiration = reverse of photosynthesis. You breathe IN oxygen, burn sugar, breathe OUT CO₂. Every breath adds carbon back to the air."
     },
@@ -548,7 +536,6 @@
         "Decomposers break down organic matter into simpler molecules, not rocks.",
         "Decomposers release CO₂, not O₂, as their main gas output."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "decomposition"],
       "tip": "Decomposers are nature's recyclers. Dead leaf falls → decomposers eat it → CO₂ puffs back into the air. Nothing is wasted."
     },
@@ -568,7 +555,6 @@
         "Forest fires release CO₂ — plants cannot photosynthesize during fires.",
         "Decomposers don't burn matter — they chemically break it down without combustion."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "combustion"],
       "tip": "Combustion = burning. Fire + carbon fuel = CO₂ poured into the air. Burning a forest in minutes releases carbon stored for centuries."
     },
@@ -607,7 +593,6 @@
         "Fossil fuels reacting with groundwater is not a significant carbon-release pathway.",
         "Decomposers break down organic matter, but deep fossil fuels are inaccessible to soil microbes."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "fossil-fuels", "combustion"],
       "tip": "Fossil fuel = ancient carbon bank. Burning = withdrawing all that carbon at once. It took millions of years to deposit — we're spending it in decades."
     },
@@ -665,7 +650,6 @@
         "Oceans are one of the largest active carbon reservoirs on Earth.",
         "While temperature affects CO₂ solubility, oceans don't switch roles daily."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "carbon-sink"],
       "tip": "The ocean is like a giant sponge for CO₂. Cold seawater absorbs it especially well. Marine phytoplankton also pull it in through photosynthesis."
     },
@@ -761,7 +745,6 @@
         "Ice cap storage is part of the long-term cycle — glacial/interglacial timescales span thousands of years.",
         "The sun is not part of Earth's carbon reservoirs."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "short-term-cycle"],
       "tip": "Short-term = biological. The carbon in your lunch was in a plant last season. That plant pulled it from air last spring. Fast loop — years to decades."
     },
@@ -952,7 +935,6 @@
         "Combustion rapidly releases large amounts of CO₂.",
         "Decomposition releases CO₂ as organic matter is broken down."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "photosynthesis"],
       "tip": "The carbon cycle has steps that ADD CO₂ (respiration, combustion, decomposition) and one main step that REMOVES it (photosynthesis). Plants are the only CO₂ vacuum cleaners."
     },
@@ -972,7 +954,6 @@
         "Carbon sequestration stores carbon AWAY from the atmosphere.",
         "Ocean absorption removes CO₂ from the atmosphere."
       ],
-      "img": "data/earth-science/Unit 6/diagrams/carbon-cycle.svg",
       "concepts": ["carbon-cycle", "combustion"],
       "tip": "Sources vs. sinks. COMBUSTION (burning) = source = adds CO₂. PHOTOSYNTHESIS = sink = removes CO₂. One pollutes, one cleans."
     }
