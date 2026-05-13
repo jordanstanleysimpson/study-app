@@ -1,0 +1,1450 @@
+{
+  "id": "spanish-unit5-quiz",
+  "name": "Unit 5: Combined Object Pronouns",
+  "subject": "Spanish",
+  "type": "quiz",
+  "quiz_mode": "fill-in",
+  "created": "2026-05-13",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "In a sentence with both object pronouns, the _____ comes first.",
+      "correct": "indirect object pronoun",
+      "incorrect": [
+        "direct object pronoun",
+        "subject pronoun",
+        "reflexive pronoun"
+      ],
+      "why_correct": "The indirect object pronoun (me, te, se, nos) always precedes the direct object pronoun (lo, la, los, las).",
+      "why_wrong": [
+        "The direct object pronoun always comes second.",
+        "Subject pronouns are separate from object pronouns.",
+        "Reflexive pronouns are a different concept."
+      ],
+      "direction": "grammar",
+      "tip": "IOP + DOP — indirect always first."
+    },
+    {
+      "id": "q002",
+      "q": "\"Le\" changes to \"se\" when it comes before _____.",
+      "correct": "lo, la, los, or las",
+      "incorrect": [
+        "me or te",
+        "a verb",
+        "another indirect pronoun"
+      ],
+      "why_correct": "Le and les both change to se before lo, la, los, las to avoid awkward pronunciation.",
+      "why_wrong": [
+        "Me and te never trigger this change.",
+        "The change happens before another pronoun, not a verb.",
+        "Two IO pronouns wouldn't appear together."
+      ],
+      "direction": "grammar",
+      "tip": "le/les → se before lo, la, los, las."
+    },
+    {
+      "id": "q003",
+      "q": "In \"Yo se lo di,\" what does \"se\" replace?",
+      "correct": "le (3rd person indirect)",
+      "incorrect": [
+        "los (direct object)",
+        "me (1st person indirect)",
+        "les (stays as les)"
+      ],
+      "why_correct": "Se replaces le (or les) when followed by lo, la, los, or las.",
+      "why_wrong": [
+        "Lo is the direct object pronoun in this sentence.",
+        "Me is 1st person — se replaces 3rd person le/les.",
+        "Les also changes to se before a direct object pronoun."
+      ],
+      "direction": "grammar",
+      "tip": "se = le or les in combined pronouns."
+    },
+    {
+      "id": "q004",
+      "q": "In \"Me la trajo,\" what does \"la\" represent?",
+      "correct": "direct object (fem.)",
+      "incorrect": [
+        "indirect object",
+        "the subject",
+        "indirect object (fem.)"
+      ],
+      "why_correct": "La is a direct object pronoun (feminine singular). Me is the indirect object.",
+      "why_wrong": [
+        "Me is the indirect object pronoun here.",
+        "Neither pronoun is the subject.",
+        "La is always a direct object pronoun."
+      ],
+      "direction": "grammar",
+      "tip": "In IOP + DOP: first = indirect, second = direct."
+    },
+    {
+      "id": "q005",
+      "q": "Yo di la ensalada al camarero. → Yo _____ di.",
+      "correct": "se la",
+      "incorrect": [
+        "le la",
+        "me la",
+        "la se"
+      ],
+      "why_correct": "Al camarero → le → se (before la); la ensalada → la. Combined: se la.",
+      "why_wrong": [
+        "Le la is never correct — le becomes se before la.",
+        "Me = to me; the recipient is the waiter.",
+        "IO always comes before DO."
+      ],
+      "direction": "grammar",
+      "tip": "le + la = se la."
+    },
+    {
+      "id": "q006",
+      "q": "Ellos pasaron los papeles a ti. → Ellos _____ pasaron.",
+      "correct": "te los",
+      "incorrect": [
+        "los te",
+        "se los",
+        "te las"
+      ],
+      "why_correct": "A ti → te (IOP); los papeles → los (DOP). Combined: te los.",
+      "why_wrong": [
+        "IO always comes before DO.",
+        "Se replaces le/les, not te.",
+        "Las is feminine — papeles is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a ti = te."
+    },
+    {
+      "id": "q007",
+      "q": "Nosotros trajimos las pizzas a los chicos. → Nosotros _____ trajimos.",
+      "correct": "se las",
+      "incorrect": [
+        "les las",
+        "nos las",
+        "se los"
+      ],
+      "why_correct": "A los chicos → les → se (before las); las pizzas → las. Combined: se las.",
+      "why_wrong": [
+        "Les las is never correct — les becomes se before las.",
+        "Nos = to us; the recipients are los chicos.",
+        "Los is masculine — pizzas is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "les + las = se las."
+    },
+    {
+      "id": "q008",
+      "q": "Tú nunca revelaste el secreto a mí. → Tú nunca _____ revelaste.",
+      "correct": "me lo",
+      "incorrect": [
+        "lo me",
+        "se lo",
+        "te lo"
+      ],
+      "why_correct": "A mí → me (IOP); el secreto → lo (DOP). Combined: me lo.",
+      "why_wrong": [
+        "IO always comes before DO.",
+        "Se replaces le/les — me stays as me.",
+        "Te = to you; the recipient is me."
+      ],
+      "direction": "grammar",
+      "tip": "a mí = me."
+    },
+    {
+      "id": "q009",
+      "q": "Mis hermanas dieron los regalos a mí. → Mis hermanas _____ dieron.",
+      "correct": "me los",
+      "incorrect": [
+        "se los",
+        "te los",
+        "me las"
+      ],
+      "why_correct": "A mí → me (IOP); los regalos → los (DOP). Combined: me los.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "Te = to you — the recipient is me.",
+        "Las is feminine — regalos is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a mí = me; regalos = los."
+    },
+    {
+      "id": "q010",
+      "q": "Yo decía la verdad a mi madre. → Yo _____ decía.",
+      "correct": "se la",
+      "incorrect": [
+        "le la",
+        "nos la",
+        "me la"
+      ],
+      "why_correct": "A mi madre → le → se (before la); la verdad → la. Combined: se la.",
+      "why_wrong": [
+        "Le la is never correct — le becomes se before la.",
+        "Nos = to us; the recipient is the mother.",
+        "Me = to me; the recipient is the mother."
+      ],
+      "direction": "grammar",
+      "tip": "a mi madre = le → se."
+    },
+    {
+      "id": "q011",
+      "q": "Él compró los zapatos para ti. → Él _____ compró.",
+      "correct": "te los",
+      "incorrect": [
+        "se los",
+        "me los",
+        "te las"
+      ],
+      "why_correct": "Para ti → te (IOP); los zapatos → los (DOP). Combined: te los.",
+      "why_wrong": [
+        "Se replaces le/les only — te stays.",
+        "Me = to me — the recipient is you.",
+        "Las is feminine — zapatos is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "para ti = te."
+    },
+    {
+      "id": "q012",
+      "q": "Mamá preparó la cena para nosotros. → Mamá _____ preparó.",
+      "correct": "nos la",
+      "incorrect": [
+        "se la",
+        "nos lo",
+        "me la"
+      ],
+      "why_correct": "Para nosotros → nos (IOP); la cena → la (DOP). Combined: nos la.",
+      "why_wrong": [
+        "Se replaces le/les — nos stays.",
+        "Lo is masculine — cena is feminine.",
+        "Me = to me; the recipient is us."
+      ],
+      "direction": "grammar",
+      "tip": "para nosotros = nos."
+    },
+    {
+      "id": "q013",
+      "q": "El maestro explicó la lección a los estudiantes. → El maestro _____ explicó.",
+      "correct": "se la",
+      "incorrect": [
+        "les la",
+        "nos la",
+        "me la"
+      ],
+      "why_correct": "A los estudiantes → les → se (before la); la lección → la. Combined: se la.",
+      "why_wrong": [
+        "Les la is never correct — les becomes se before la.",
+        "Nos = to us; the recipients are the students.",
+        "Me = to me; the recipients are the students."
+      ],
+      "direction": "grammar",
+      "tip": "les + la = se la."
+    },
+    {
+      "id": "q014",
+      "q": "Yo leí el cuento a los niños. → Yo _____ leí.",
+      "correct": "se lo",
+      "incorrect": [
+        "les lo",
+        "me lo",
+        "nos lo"
+      ],
+      "why_correct": "A los niños → les → se (before lo); el cuento → lo. Combined: se lo.",
+      "why_wrong": [
+        "Les lo is never correct — les becomes se before lo.",
+        "Me = to me; the recipients are the children.",
+        "Nos = to us; the recipients are the children."
+      ],
+      "direction": "grammar",
+      "tip": "les + lo = se lo."
+    },
+    {
+      "id": "q015",
+      "q": "IO \"me\" + DO \"la\" = _____",
+      "correct": "me la",
+      "incorrect": [
+        "se la",
+        "la me",
+        "me lo"
+      ],
+      "why_correct": "Me (IO) + la (DO) = me la. Me does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "Lo is masculine."
+      ],
+      "direction": "grammar",
+      "tip": "me + la = me la."
+    },
+    {
+      "id": "q016",
+      "q": "IO \"le\" + DO \"lo\" = _____",
+      "correct": "se lo",
+      "incorrect": [
+        "le lo",
+        "lo le",
+        "se la"
+      ],
+      "why_correct": "Le changes to se before lo, la, los, las. Le + lo = se lo.",
+      "why_wrong": [
+        "Le lo is never correct.",
+        "IO always comes before DO.",
+        "La is feminine."
+      ],
+      "direction": "grammar",
+      "tip": "le + lo = se lo."
+    },
+    {
+      "id": "q017",
+      "q": "IO \"nos\" + DO \"los\" = _____",
+      "correct": "nos los",
+      "incorrect": [
+        "se los",
+        "los nos",
+        "nos lo"
+      ],
+      "why_correct": "Nos (IO) + los (DO) = nos los. Nos does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "Lo is singular — use los for plural."
+      ],
+      "direction": "grammar",
+      "tip": "nos + los = nos los."
+    },
+    {
+      "id": "q018",
+      "q": "IO \"les\" + DO \"las\" = _____",
+      "correct": "se las",
+      "incorrect": [
+        "les las",
+        "las les",
+        "se los"
+      ],
+      "why_correct": "Les changes to se before las. Les + las = se las.",
+      "why_wrong": [
+        "Les las is never correct.",
+        "IO always comes before DO.",
+        "Los is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "les + las = se las."
+    },
+    {
+      "id": "q019",
+      "q": "IO \"te\" + DO \"la\" = _____",
+      "correct": "te la",
+      "incorrect": [
+        "se la",
+        "la te",
+        "te lo"
+      ],
+      "why_correct": "Te (IO) + la (DO) = te la. Te does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "Lo is masculine."
+      ],
+      "direction": "grammar",
+      "tip": "te + la = te la."
+    },
+    {
+      "id": "q020",
+      "q": "IO \"me\" + DO \"los\" = _____",
+      "correct": "me los",
+      "incorrect": [
+        "se los",
+        "los me",
+        "me las"
+      ],
+      "why_correct": "Me (IO) + los (DO) = me los. Me does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "Las is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "me + los = me los."
+    },
+    {
+      "id": "q021",
+      "q": "IO \"te\" + DO \"lo\" = _____",
+      "correct": "te lo",
+      "incorrect": [
+        "se lo",
+        "lo te",
+        "te la"
+      ],
+      "why_correct": "Te (IO) + lo (DO) = te lo. Te does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "La is feminine."
+      ],
+      "direction": "grammar",
+      "tip": "te + lo = te lo."
+    },
+    {
+      "id": "q022",
+      "q": "IO \"le\" + DO \"las\" = _____",
+      "correct": "se las",
+      "incorrect": [
+        "le las",
+        "las le",
+        "se los"
+      ],
+      "why_correct": "Le changes to se before las. Le + las = se las.",
+      "why_wrong": [
+        "Le las is never correct.",
+        "IO always comes before DO.",
+        "Los is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "le + las = se las."
+    },
+    {
+      "id": "q023",
+      "q": "IO \"nos\" + DO \"la\" = _____",
+      "correct": "nos la",
+      "incorrect": [
+        "se la",
+        "la nos",
+        "nos lo"
+      ],
+      "why_correct": "Nos (IO) + la (DO) = nos la. Nos does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "Lo is masculine."
+      ],
+      "direction": "grammar",
+      "tip": "nos + la = nos la."
+    },
+    {
+      "id": "q024",
+      "q": "IO \"les\" + DO \"lo\" = _____",
+      "correct": "se lo",
+      "incorrect": [
+        "les lo",
+        "lo les",
+        "se la"
+      ],
+      "why_correct": "Les changes to se before lo. Les + lo = se lo.",
+      "why_wrong": [
+        "Les lo is never correct.",
+        "IO always comes before DO.",
+        "La is feminine."
+      ],
+      "direction": "grammar",
+      "tip": "les + lo = se lo."
+    },
+    {
+      "id": "q025",
+      "q": "IO \"te\" + DO \"las\" = _____",
+      "correct": "te las",
+      "incorrect": [
+        "se las",
+        "las te",
+        "te los"
+      ],
+      "why_correct": "Te (IO) + las (DO) = te las. Te does not change.",
+      "why_wrong": [
+        "Se replaces le/les only.",
+        "IO always comes before DO.",
+        "Los is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "te + las = te las."
+    },
+    {
+      "id": "q026",
+      "q": "IO \"le\" + DO \"lo\" + IO \"le\" before DO → _____",
+      "correct": "se lo (le → se before lo)",
+      "incorrect": [
+        "le lo (no change needed)",
+        "lo se (DO first)",
+        "se le (reversed)"
+      ],
+      "why_correct": "Le must always change to se when directly before lo, la, los, or las.",
+      "why_wrong": [
+        "Le lo is never a valid combination.",
+        "IO always precedes DO.",
+        "Se is the IO, lo is the DO — IO comes first."
+      ],
+      "direction": "grammar",
+      "tip": "le before any DO pronoun → se."
+    },
+    {
+      "id": "q027",
+      "q": "\"I gave it (masc.) to you (tú).\" → _____",
+      "correct": "Te lo di.",
+      "incorrect": [
+        "Se lo di.",
+        "Me lo di.",
+        "Lo te di."
+      ],
+      "why_correct": "A ti → te (IOP); it masc. → lo (DOP). Verb: di (yo, preterite of dar).",
+      "why_wrong": [
+        "Se replaces le/les, not te.",
+        "Me = to me — the recipient is you.",
+        "IO always comes before DO."
+      ],
+      "direction": "en_es",
+      "tip": "to you (tú) = te."
+    },
+    {
+      "id": "q028",
+      "q": "\"She told it (fem.) to us.\" → _____",
+      "correct": "Nos la dijo.",
+      "incorrect": [
+        "Se la dijo.",
+        "Me la dijo.",
+        "La nos dijo."
+      ],
+      "why_correct": "To us → nos (IOP); it fem. → la (DOP). Verb: dijo (ella, preterite of decir).",
+      "why_wrong": [
+        "Se replaces le/les, not nos.",
+        "Me = to me — the recipient is us.",
+        "IO always comes before DO."
+      ],
+      "direction": "en_es",
+      "tip": "to us = nos."
+    },
+    {
+      "id": "q029",
+      "q": "\"He sent them (masc.) to her.\" → _____",
+      "correct": "Se los mandó.",
+      "incorrect": [
+        "Le los mandó.",
+        "Los se mandó.",
+        "Nos los mandó."
+      ],
+      "why_correct": "To her → le → se (before los); them masc. → los. Verb: mandó.",
+      "why_wrong": [
+        "Le los is never correct — le becomes se before los.",
+        "IO always comes before DO.",
+        "Nos = to us — the recipient is her."
+      ],
+      "direction": "en_es",
+      "tip": "to her = le → se."
+    },
+    {
+      "id": "q030",
+      "q": "\"You (tú) never told it (masc.) to me.\" → _____",
+      "correct": "Nunca me lo dijiste.",
+      "incorrect": [
+        "Me lo nunca dijiste.",
+        "Nunca lo me dijiste.",
+        "Nunca se lo dijiste."
+      ],
+      "why_correct": "Nunca + me (IO) + lo (DO) + verb. Adverb goes before the pronouns.",
+      "why_wrong": [
+        "Nunca precedes the pronouns, not the verb.",
+        "IO always comes before DO.",
+        "Se replaces le/les — me stays as me."
+      ],
+      "direction": "en_es",
+      "tip": "Word order: nunca + IOP + DOP + verb."
+    },
+    {
+      "id": "q031",
+      "q": "\"We showed it (fem.) to you (tú).\" → _____",
+      "correct": "Te la mostramos.",
+      "incorrect": [
+        "Se la mostramos.",
+        "Me la mostramos.",
+        "Nos la mostramos."
+      ],
+      "why_correct": "A ti → te (IOP); it fem. → la (DOP). Verb: mostramos (nosotros).",
+      "why_wrong": [
+        "Se replaces le/les, not te.",
+        "Me = to me; the recipient is you.",
+        "Nos = to us; the recipient is you."
+      ],
+      "direction": "en_es",
+      "tip": "to you (tú) = te."
+    },
+    {
+      "id": "q032",
+      "q": "\"They gave them (fem.) to us.\" → _____",
+      "correct": "Nos las dieron.",
+      "incorrect": [
+        "Se las dieron.",
+        "Me las dieron.",
+        "Nos los dieron."
+      ],
+      "why_correct": "To us → nos (IOP); them fem. → las (DOP). Verb: dieron (ellos).",
+      "why_wrong": [
+        "Se replaces le/les, not nos.",
+        "Me = to me; the recipients are us.",
+        "Los is masculine plural."
+      ],
+      "direction": "en_es",
+      "tip": "to us = nos; fem. plural = las."
+    },
+    {
+      "id": "q033",
+      "q": "\"I want to send it (masc.) to them.\" → _____",
+      "correct": "Se lo quiero mandar.",
+      "incorrect": [
+        "Les lo quiero mandar.",
+        "Te lo quiero mandar.",
+        "Me lo quiero mandar."
+      ],
+      "why_correct": "To them → les → se (before lo); it masc. → lo. Combined: se lo.",
+      "why_wrong": [
+        "Les lo is never correct — les becomes se before lo.",
+        "Te = to you; the recipients are them.",
+        "Me = to me; the recipients are them."
+      ],
+      "direction": "en_es",
+      "tip": "to them = les → se."
+    },
+    {
+      "id": "q034",
+      "q": "\"Can you (tú) bring it (masc.) to me?\" → _____",
+      "correct": "¿Me lo puedes traer?",
+      "incorrect": [
+        "¿Se lo puedes traer?",
+        "¿Me la puedes traer?",
+        "¿Lo me puedes traer?"
+      ],
+      "why_correct": "To me → me (IOP); it masc. → lo (DOP). Pronouns go before the auxiliary.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "La is feminine — use lo for masculine.",
+        "IO always comes before DO."
+      ],
+      "direction": "en_es",
+      "tip": "With auxiliary verbs: IOP + DOP before the auxiliary."
+    },
+    {
+      "id": "q035",
+      "q": "Nosotros dimos el dinero a ustedes. → Nosotros _____ dimos.",
+      "correct": "se lo",
+      "incorrect": [
+        "les lo",
+        "nos lo",
+        "te lo"
+      ],
+      "why_correct": "A ustedes → les → se (before lo); el dinero → lo. Combined: se lo.",
+      "why_wrong": [
+        "Les lo is never correct — les becomes se before lo.",
+        "Nos = to us; the recipients are ustedes.",
+        "Te = to you (tú); the recipients are ustedes."
+      ],
+      "direction": "grammar",
+      "tip": "a ustedes = les → se."
+    },
+    {
+      "id": "q036",
+      "q": "Ella trajo las flores a mí. → Ella _____ trajo.",
+      "correct": "me las",
+      "incorrect": [
+        "se las",
+        "te las",
+        "me los"
+      ],
+      "why_correct": "A mí → me (IOP); las flores → las (DOP). Combined: me las.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "Te = to you; the recipient is me.",
+        "Los is masculine — flores is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a mí = me; flores = las."
+    },
+    {
+      "id": "q037",
+      "q": "Tú mandaste el mensaje a nosotros. → Tú _____ mandaste.",
+      "correct": "nos lo",
+      "incorrect": [
+        "se lo",
+        "me lo",
+        "nos la"
+      ],
+      "why_correct": "A nosotros → nos (IOP); el mensaje → lo (DOP). Combined: nos lo.",
+      "why_wrong": [
+        "Se replaces le/les, not nos.",
+        "Me = to me; the recipients are nosotros.",
+        "La is feminine — mensaje is masculine."
+      ],
+      "direction": "grammar",
+      "tip": "a nosotros = nos."
+    },
+    {
+      "id": "q038",
+      "q": "El chef preparó los tacos para ellos. → El chef _____ preparó.",
+      "correct": "se los",
+      "incorrect": [
+        "les los",
+        "me los",
+        "nos los"
+      ],
+      "why_correct": "Para ellos → les → se (before los); los tacos → los. Combined: se los.",
+      "why_wrong": [
+        "Les los is never correct — les becomes se before los.",
+        "Me = to me; the recipients are ellos.",
+        "Nos = to us; the recipients are ellos."
+      ],
+      "direction": "grammar",
+      "tip": "para ellos = les → se."
+    },
+    {
+      "id": "q039",
+      "q": "Papá contó el chiste a ti. → Papá _____ contó.",
+      "correct": "te lo",
+      "incorrect": [
+        "se lo",
+        "me lo",
+        "te la"
+      ],
+      "why_correct": "A ti → te (IOP); el chiste → lo (DOP). Combined: te lo.",
+      "why_wrong": [
+        "Se replaces le/les, not te.",
+        "Me = to me; the recipient is ti.",
+        "La is feminine — chiste is masculine."
+      ],
+      "direction": "grammar",
+      "tip": "a ti = te; chiste = lo."
+    },
+    {
+      "id": "q040",
+      "q": "Mi amiga prestó los apuntes a mí. → Mi amiga _____ prestó.",
+      "correct": "me los",
+      "incorrect": [
+        "se los",
+        "te los",
+        "me las"
+      ],
+      "why_correct": "A mí → me (IOP); los apuntes → los (DOP). Combined: me los.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "Te = to you; the recipient is me.",
+        "Las is feminine — apuntes is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a mí = me; apuntes = los."
+    },
+    {
+      "id": "q041",
+      "q": "Ustedes explicaron el problema a nosotros. → Ustedes _____ explicaron.",
+      "correct": "nos lo",
+      "incorrect": [
+        "se lo",
+        "me lo",
+        "nos la"
+      ],
+      "why_correct": "A nosotros → nos (IOP); el problema → lo (DOP). Combined: nos lo.",
+      "why_wrong": [
+        "Se replaces le/les, not nos.",
+        "Me = to me; the recipients are nosotros.",
+        "La is feminine — problema is masculine."
+      ],
+      "direction": "grammar",
+      "tip": "a nosotros = nos."
+    },
+    {
+      "id": "q042",
+      "q": "Mi hermano mandó las fotos a ti. → Mi hermano _____ mandó.",
+      "correct": "te las",
+      "incorrect": [
+        "se las",
+        "me las",
+        "te los"
+      ],
+      "why_correct": "A ti → te (IOP); las fotos → las (DOP). Combined: te las.",
+      "why_wrong": [
+        "Se replaces le/les, not te.",
+        "Me = to me; the recipient is ti.",
+        "Los is masculine — fotos is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a ti = te; fotos = las."
+    },
+    {
+      "id": "q043",
+      "q": "Yo vendo el coche a él. → Yo _____ vendo.",
+      "correct": "se lo",
+      "incorrect": [
+        "le lo",
+        "me lo",
+        "nos lo"
+      ],
+      "why_correct": "A él → le → se (before lo); el coche → lo. Combined: se lo.",
+      "why_wrong": [
+        "Le lo is never correct — le becomes se before lo.",
+        "Me = to me; the recipient is él.",
+        "Nos = to us; the recipient is él."
+      ],
+      "direction": "grammar",
+      "tip": "a él = le → se."
+    },
+    {
+      "id": "q044",
+      "q": "Ella siempre compra flores para él. → Ella siempre _____ compra.",
+      "correct": "se las",
+      "incorrect": [
+        "le las",
+        "me las",
+        "se los"
+      ],
+      "why_correct": "Para él → le → se (before las); las flores → las. Combined: se las.",
+      "why_wrong": [
+        "Le las is never correct — le becomes se before las.",
+        "Me = to me; the recipient is él.",
+        "Los is masculine — flores is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "para él = le → se; flores = las."
+    },
+    {
+      "id": "q045",
+      "q": "La tienda envió los paquetes a nosotros. → La tienda _____ envió.",
+      "correct": "nos los",
+      "incorrect": [
+        "se los",
+        "me los",
+        "nos las"
+      ],
+      "why_correct": "A nosotros → nos (IOP); los paquetes → los (DOP). Combined: nos los.",
+      "why_wrong": [
+        "Se replaces le/les, not nos.",
+        "Me = to me; the recipients are nosotros.",
+        "Las is feminine — paquetes is masculine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a nosotros = nos; paquetes = los."
+    },
+    {
+      "id": "q046",
+      "q": "El médico recetó las pastillas a ella. → El médico _____ recetó.",
+      "correct": "se las",
+      "incorrect": [
+        "le las",
+        "me las",
+        "se los"
+      ],
+      "why_correct": "A ella → le → se (before las); las pastillas → las. Combined: se las.",
+      "why_wrong": [
+        "Le las is never correct — le becomes se before las.",
+        "Me = to me; the recipient is ella.",
+        "Los is masculine — pastillas is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "a ella = le → se; pastillas = las."
+    },
+    {
+      "id": "q047",
+      "q": "Mi madre enseñó la receta a mí. → Mi madre _____ enseñó.",
+      "correct": "me la",
+      "incorrect": [
+        "se la",
+        "te la",
+        "me lo"
+      ],
+      "why_correct": "A mí → me (IOP); la receta → la (DOP). Combined: me la.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "Te = to you; the recipient is me.",
+        "Lo is masculine — receta is feminine."
+      ],
+      "direction": "grammar",
+      "tip": "a mí = me; receta = la."
+    },
+    {
+      "id": "q048",
+      "q": "Los estudiantes hicieron preguntas al maestro. → Los estudiantes _____ hicieron.",
+      "correct": "se las",
+      "incorrect": [
+        "les las",
+        "me las",
+        "se los"
+      ],
+      "why_correct": "Al maestro → le → se (before las); las preguntas → las. Combined: se las.",
+      "why_wrong": [
+        "Les las is never correct — les becomes se before las.",
+        "Me = to me; the recipient is el maestro.",
+        "Los is masculine — preguntas is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "al maestro = le → se; preguntas = las."
+    },
+    {
+      "id": "q049",
+      "q": "Tú me diste tu número. Replace the direct object: Tú _____ diste.",
+      "correct": "me lo",
+      "incorrect": [
+        "se lo",
+        "lo me",
+        "te lo"
+      ],
+      "why_correct": "Me stays (IO = to me); tu número → lo (masculine singular DO). Combined: me lo.",
+      "why_wrong": [
+        "Se replaces le/les — me stays.",
+        "IO always comes before DO.",
+        "Te = to you; the recipient is me."
+      ],
+      "direction": "grammar",
+      "tip": "número = lo."
+    },
+    {
+      "id": "q050",
+      "q": "Carlos va a prestar el libro a mí. → Carlos _____ va a prestar.",
+      "correct": "me lo",
+      "incorrect": [
+        "se lo",
+        "me la",
+        "te lo"
+      ],
+      "why_correct": "A mí → me (IOP); el libro → lo (DOP). Pronouns go before the auxiliary va.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "La is feminine — libro is masculine.",
+        "Te = to you; the recipient is me."
+      ],
+      "direction": "grammar",
+      "tip": "Pronouns go before the auxiliary verb."
+    },
+    {
+      "id": "q051",
+      "q": "In a negative sentence, combined pronouns go _____.",
+      "correct": "after \"no,\" before the verb",
+      "incorrect": [
+        "before \"no\"",
+        "after the verb",
+        "between the two pronouns"
+      ],
+      "why_correct": "Word order: no + IOP + DOP + verb. Example: No me lo digas.",
+      "why_wrong": [
+        "Pronouns always follow the negation word.",
+        "Pronouns precede the conjugated verb.",
+        "The two pronouns always stay together."
+      ],
+      "direction": "grammar",
+      "tip": "no + me/te/se/nos + lo/la/los/las + verb."
+    },
+    {
+      "id": "q052",
+      "q": "\"Ella me lo compró\" means _____.",
+      "correct": "She bought it (masc.) for me.",
+      "incorrect": [
+        "I bought it for her.",
+        "She bought it (fem.) for me.",
+        "She bought me."
+      ],
+      "why_correct": "Ella = she (subject); me = to/for me (IO); lo = it, masculine (DO); compró = bought.",
+      "why_wrong": [
+        "The subject is ella, not yo.",
+        "Lo is masculine — la would be feminine.",
+        "Me is the recipient, not the thing bought."
+      ],
+      "direction": "es_en",
+      "tip": "me = for me; lo = it (masc.)."
+    },
+    {
+      "id": "q053",
+      "q": "\"Ella nos lo dijo\" means _____.",
+      "correct": "She told it to us.",
+      "incorrect": [
+        "She told us to him.",
+        "We told it to her.",
+        "She told it to them."
+      ],
+      "why_correct": "Ella = she; nos = to us (IO); lo = it (DO); dijo = told.",
+      "why_wrong": [
+        "Nos = to us, not him.",
+        "The subject is ella, not we.",
+        "Nos = to us, not to them."
+      ],
+      "direction": "es_en",
+      "tip": "nos = to us."
+    },
+    {
+      "id": "q054",
+      "q": "\"Yo te lo prometo\" means _____.",
+      "correct": "I promise it to you.",
+      "incorrect": [
+        "You promised it to me.",
+        "He promises it to you.",
+        "I promise you something."
+      ],
+      "why_correct": "Yo = I; te = to you (IO); lo = it (DO); prometo = I promise.",
+      "why_wrong": [
+        "Yo = I; prometo = 1st person present.",
+        "Yo = I, not he.",
+        "Lo specifies 'it' as the direct object."
+      ],
+      "direction": "es_en",
+      "tip": "te = to you; lo = it."
+    },
+    {
+      "id": "q055",
+      "q": "\"Nos las enviaron\" means _____.",
+      "correct": "They sent them (fem.) to us.",
+      "incorrect": [
+        "We sent them to her.",
+        "They sent them (masc.) to us.",
+        "She sent them to us."
+      ],
+      "why_correct": "Nos = to us (IO); las = them, feminine (DO); enviaron = they sent.",
+      "why_wrong": [
+        "Nos = to us; enviaron = they.",
+        "Las = feminine plural — use los for masculine.",
+        "Enviaron = they (plural), not she."
+      ],
+      "direction": "es_en",
+      "tip": "nos = to us; las = them (fem.)."
+    },
+    {
+      "id": "q056",
+      "q": "\"¿Cuándo me lo vas a decir?\" means _____.",
+      "correct": "When are you going to tell it to me?",
+      "incorrect": [
+        "When am I going to tell it to you?",
+        "When is he going to tell me?",
+        "Are you going to tell me when?"
+      ],
+      "why_correct": "Me = to me (IO); lo = it (DO); vas a decir = you're going to tell.",
+      "why_wrong": [
+        "Vas = you're going to — not I.",
+        "Me = to me; lo = it (DO is present).",
+        "It's a question word (cuándo), not a yes/no question."
+      ],
+      "direction": "es_en",
+      "tip": "me lo = it to me; vas = you (tú)."
+    },
+    {
+      "id": "q057",
+      "q": "\"Te la traje ayer\" — which word order is correct?",
+      "correct": "Te la traje ayer.",
+      "incorrect": [
+        "Lo te traje ayer.",
+        "Traje te la ayer.",
+        "Te traje la ayer."
+      ],
+      "why_correct": "IO (te) + DO (la) both come before the conjugated verb (traje).",
+      "why_wrong": [
+        "IO always precedes DO.",
+        "Both pronouns go before the verb, not after.",
+        "Both pronouns must stay together before the verb."
+      ],
+      "direction": "grammar",
+      "tip": "IOP + DOP always together, before the verb."
+    },
+    {
+      "id": "q058",
+      "q": "Which sentence has an error?",
+      "correct": "Yo le lo di.",
+      "incorrect": [
+        "Ella te la trajo.",
+        "Nos los enviaron.",
+        "Me la regalaron."
+      ],
+      "why_correct": "Le before lo is incorrect — le must change to se: Yo se lo di.",
+      "why_wrong": [
+        "Te la is correct (te + la).",
+        "Nos los is correct (nos + los).",
+        "Me la is correct (me + la)."
+      ],
+      "direction": "grammar",
+      "tip": "le + lo is always wrong — use se lo."
+    },
+    {
+      "id": "q059",
+      "q": "Which sentence has an error?",
+      "correct": "Ellos les las mandaron.",
+      "incorrect": [
+        "Ellos se las mandaron.",
+        "Ella me lo explicó.",
+        "Nosotros te lo dijimos."
+      ],
+      "why_correct": "Les las is incorrect — les must change to se before las: se las.",
+      "why_wrong": [
+        "Se las is correct (les → se before las).",
+        "Me lo is correct (me + lo).",
+        "Te lo is correct (te + lo)."
+      ],
+      "direction": "grammar",
+      "tip": "les + las is always wrong — use se las."
+    },
+    {
+      "id": "q060",
+      "q": "When do we use \"se\" in combined pronouns?",
+      "correct": "When the IO is 3rd person (le/les)",
+      "incorrect": [
+        "When the IO is 1st person",
+        "When the IO is 2nd person",
+        "Always with combined pronouns"
+      ],
+      "why_correct": "Only le (3rd person singular) and les (3rd person plural) change to se before lo/la/los/las.",
+      "why_wrong": [
+        "1st person uses me, which never changes.",
+        "2nd person uses te, which never changes.",
+        "Nos and te keep their forms."
+      ],
+      "direction": "grammar",
+      "tip": "Only le and les → se."
+    },
+    {
+      "id": "q061",
+      "q": "In \"Te los mandé,\" the subject is _____.",
+      "correct": "yo (implied)",
+      "incorrect": [
+        "tú",
+        "ellos",
+        "él"
+      ],
+      "why_correct": "\"Mandé\" is 1st person singular preterite (yo). Te = to you (IO), los = them (DO).",
+      "why_wrong": [
+        "Tú would use mandaste.",
+        "Ellos would use mandaron.",
+        "Él would use mandó."
+      ],
+      "direction": "grammar",
+      "tip": "-é ending = yo in preterite."
+    },
+    {
+      "id": "q062",
+      "q": "\"Quiero darte los zapatos.\" With combined pronouns attached to the infinitive: _____",
+      "correct": "Quiero dártelos.",
+      "incorrect": [
+        "Quiero te los dar.",
+        "Te los quiero dar only.",
+        "Quiero dar te los."
+      ],
+      "why_correct": "Combined pronouns attach to the END of the infinitive: dar + te + los = dártelos (written accent added).",
+      "why_wrong": [
+        "Pronouns attach at the end of the infinitive, not before it.",
+        "Placing them before the auxiliary is also valid, but not the only option.",
+        "Pronouns must attach directly to the infinitive end."
+      ],
+      "direction": "grammar",
+      "tip": "Attach to end of infinitive: dár-te-los."
+    },
+    {
+      "id": "q063",
+      "q": "\"Voy a mostrarte el proyecto.\" Rewrite with combined pronouns on the infinitive: _____",
+      "correct": "Voy a mostrártelo.",
+      "incorrect": [
+        "Voy a te lo mostrar.",
+        "Te lo voy mostrarlo.",
+        "Voy a mostrar te lo."
+      ],
+      "why_correct": "Mostrar + te + lo = mostrártelo (accent on the stressed syllable).",
+      "why_wrong": [
+        "Pronouns attach at the end of the infinitive.",
+        "The combined form replaces the separate pronouns.",
+        "Pronouns attach directly to the infinitive end."
+      ],
+      "direction": "grammar",
+      "tip": "Infinitive + te + lo = mostrártelo."
+    },
+    {
+      "id": "q064",
+      "q": "In affirmative commands, combined pronouns go _____.",
+      "correct": "attached to the end of the command",
+      "incorrect": [
+        "before the command verb",
+        "after a comma following the verb",
+        "between the two pronouns"
+      ],
+      "why_correct": "With affirmative commands, pronouns attach to the end: Dámelo (da + me + lo).",
+      "why_wrong": [
+        "Pronouns precede the verb in negative commands, not affirmative ones.",
+        "There is no comma — pronouns attach directly.",
+        "The two pronouns always stay together."
+      ],
+      "direction": "grammar",
+      "tip": "Affirmative command + IOP + DOP attached at end."
+    },
+    {
+      "id": "q065",
+      "q": "In negative commands, combined pronouns go _____.",
+      "correct": "before the command verb",
+      "incorrect": [
+        "attached to the end of the verb",
+        "after the verb",
+        "before \"no\""
+      ],
+      "why_correct": "Negative commands: no + IOP + DOP + verb. Example: No me lo digas.",
+      "why_wrong": [
+        "Attaching to the end is only for affirmative commands.",
+        "Pronouns precede the conjugated command verb.",
+        "Pronouns follow \"no\" in negative commands."
+      ],
+      "direction": "grammar",
+      "tip": "Negative: no + me/te/se + lo/la + verb."
+    },
+    {
+      "id": "q066",
+      "q": "\"Dámelo\" = da + _____ + _____",
+      "correct": "me + lo",
+      "incorrect": [
+        "lo + me",
+        "se + lo",
+        "me + la"
+      ],
+      "why_correct": "Da (affirmative command) + me (IO) + lo (DO) = dámelo.",
+      "why_wrong": [
+        "IO comes before DO, even when attached.",
+        "Se replaces le/les — me stays.",
+        "Lo is masculine — use la for feminine."
+      ],
+      "direction": "grammar",
+      "tip": "Command + IO first, then DO."
+    },
+    {
+      "id": "q067",
+      "q": "\"No se lo digas\" — which type of command is this?",
+      "correct": "negative tú command",
+      "incorrect": [
+        "affirmative tú command",
+        "negative nosotros command",
+        "affirmative usted command"
+      ],
+      "why_correct": "No + se lo + digas: negative command. Digas is the tú subjunctive form.",
+      "why_wrong": [
+        "Affirmative commands have pronouns attached to the end.",
+        "Nosotros command would use digamos.",
+        "Usted command would use diga."
+      ],
+      "direction": "grammar",
+      "tip": "no + pronouns + verb = negative command."
+    },
+    {
+      "id": "q068",
+      "q": "To clarify who \"se\" refers to, we can add _____ to the sentence.",
+      "correct": "a él / a ella / a usted / a ellos",
+      "incorrect": [
+        "a mí / a nosotros",
+        "a ti / a vosotros",
+        "nothing — context is always clear"
+      ],
+      "why_correct": "Se can mean le (him, her, you formal) or les (them, you all). A prepositional phrase clarifies the recipient.",
+      "why_wrong": [
+        "A mí and a nosotros go with me and nos, not se.",
+        "A ti and a vosotros go with te and os, not se.",
+        "Se is often ambiguous without a clarifying phrase."
+      ],
+      "direction": "grammar",
+      "tip": "Add a + pronoun/noun to clarify se."
+    },
+    {
+      "id": "q069",
+      "q": "\"Se lo expliqué a los estudiantes.\" The phrase \"a los estudiantes\" _____.",
+      "correct": "clarifies who \"se\" refers to",
+      "incorrect": [
+        "replaces \"se\" in the sentence",
+        "is redundant and should be removed",
+        "changes the meaning of \"lo\""
+      ],
+      "why_correct": "Se can be ambiguous (him, her, them, you). The a-phrase makes clear the recipient is los estudiantes.",
+      "why_wrong": [
+        "Se must still appear — the a-phrase only clarifies.",
+        "The a-phrase is helpful and commonly used for clarity.",
+        "Lo refers to the direct object, unaffected by the a-phrase."
+      ],
+      "direction": "grammar",
+      "tip": "Se = ambiguous; a-phrase = clarification."
+    },
+    {
+      "id": "q070",
+      "q": "Which group of pronouns can be the IO in a combined pair?",
+      "correct": "me, te, se, nos",
+      "incorrect": [
+        "lo, la, los, las",
+        "yo, tú, él, ella",
+        "lo, me, te, se"
+      ],
+      "why_correct": "Indirect object pronouns are me (yo), te (tú), se (él/ella/ud./ellos), nos (nosotros).",
+      "why_wrong": [
+        "Lo, la, los, las are direct object pronouns.",
+        "Yo, tú, él, ella are subject pronouns.",
+        "Lo is a direct object pronoun, not indirect."
+      ],
+      "direction": "grammar",
+      "tip": "IO: me, te, se, nos. DO: lo, la, los, las."
+    },
+    {
+      "id": "q071",
+      "q": "Which group of pronouns can be the DO in a combined pair?",
+      "correct": "lo, la, los, las",
+      "incorrect": [
+        "me, te, se, nos",
+        "yo, tú, él, ella",
+        "se, me, te, le"
+      ],
+      "why_correct": "Direct object pronouns are lo (masc. sg.), la (fem. sg.), los (masc. pl.), las (fem. pl.).",
+      "why_wrong": [
+        "Me, te, se, nos are indirect object pronouns.",
+        "Yo, tú, él, ella are subject pronouns.",
+        "Se and me are indirect; le is replaced by se."
+      ],
+      "direction": "grammar",
+      "tip": "DO: lo, la, los, las."
+    },
+    {
+      "id": "q072",
+      "q": "\"Mis padres me la regalaron.\" \"Me la\" means _____.",
+      "correct": "it (fem.) to me",
+      "incorrect": [
+        "me (direct), her",
+        "it (masc.) to me",
+        "it (fem.) from me"
+      ],
+      "why_correct": "Me = to me (IO); la = it, feminine (DO). Regalaron = they gave as a gift.",
+      "why_wrong": [
+        "Me is the indirect object here, not direct.",
+        "La is feminine — lo would be masculine.",
+        "Me = to me (recipient), not from me."
+      ],
+      "direction": "es_en",
+      "tip": "me = to me; la = it (fem.)."
+    },
+    {
+      "id": "q073",
+      "q": "\"¿Por qué no me lo dijiste?\" means _____.",
+      "correct": "Why didn't you tell it to me?",
+      "incorrect": [
+        "Why didn't I tell it to you?",
+        "Why didn't he tell me?",
+        "Why didn't you tell me?"
+      ],
+      "why_correct": "Me = to me (IO); lo = it (DO); dijiste = you told (tú, preterite).",
+      "why_wrong": [
+        "Dijiste = you (tú), not I.",
+        "Lo = it (DO is present); me = to me.",
+        "Lo confirms 'it' is the direct object."
+      ],
+      "direction": "es_en",
+      "tip": "me lo = it to me; dijiste = you told."
+    },
+    {
+      "id": "q074",
+      "q": "Rewrite: \"Ellos quieren mandarme las flores.\" → _____",
+      "correct": "Ellos me las quieren mandar.",
+      "incorrect": [
+        "Ellos les las quieren mandar.",
+        "Ellos se las quieren mandar.",
+        "Ellos me los quieren mandar."
+      ],
+      "why_correct": "A mí → me; las flores → las. Combined: me las. Pronouns go before the auxiliary quieren.",
+      "why_wrong": [
+        "Les las is never correct — les becomes se.",
+        "Se replaces le/les, not me.",
+        "Los is masculine — flores is feminine plural."
+      ],
+      "direction": "grammar",
+      "tip": "Detach from infinitive and place before auxiliary."
+    },
+    {
+      "id": "q075",
+      "q": "\"¿Me puedes dar el número?\" → with combined pronouns: _____",
+      "correct": "¿Me lo puedes dar?",
+      "incorrect": [
+        "¿Le lo puedes dar?",
+        "¿Me la puedes dar?",
+        "¿Lo me puedes dar?"
+      ],
+      "why_correct": "Me stays (IO); el número → lo (masculine DO). Combined: me lo.",
+      "why_wrong": [
+        "Le lo is never correct — use se lo for 3rd person.",
+        "La is feminine — número is masculine.",
+        "IO always comes before DO."
+      ],
+      "direction": "grammar",
+      "tip": "número = lo; IO before DO."
+    },
+    {
+      "id": "q076",
+      "q": "\"¿Puedes prestarme los apuntes?\" → pronouns before auxiliary: _____",
+      "correct": "¿Me los puedes prestar?",
+      "incorrect": [
+        "¿Se los puedes prestar?",
+        "¿Me las puedes prestar?",
+        "¿Los me puedes prestar?"
+      ],
+      "why_correct": "Me stays (IO); los apuntes → los (DO). Combined: me los before the auxiliary puedes.",
+      "why_wrong": [
+        "Se replaces le/les, not me.",
+        "Las is feminine — apuntes is masculine plural.",
+        "IO always comes before DO."
+      ],
+      "direction": "grammar",
+      "tip": "Detach pronouns and place before the auxiliary."
+    },
+    {
+      "id": "q077",
+      "q": "\"Estoy haciéndotelo\" = estoy + haciendo + _____ + _____",
+      "correct": "te + lo",
+      "incorrect": [
+        "lo + te",
+        "se + lo",
+        "me + lo"
+      ],
+      "why_correct": "Haciendo + te (IO) + lo (DO) = haciéndotelo. IO attaches first, then DO.",
+      "why_wrong": [
+        "IO attaches before DO.",
+        "Se replaces le/les — te stays.",
+        "Me = to me; the recipient is tú."
+      ],
+      "direction": "grammar",
+      "tip": "Gerund + IO + DO attached at end."
+    },
+    {
+      "id": "q078",
+      "q": "\"Ella está explicándoselo a los niños.\" What does \"se\" replace?",
+      "correct": "les (to the children)",
+      "incorrect": [
+        "me (to me)",
+        "nos (to us)",
+        "te (to you)"
+      ],
+      "why_correct": "A los niños → les → se (before lo). Combined: se lo, attached to the gerund.",
+      "why_wrong": [
+        "Me = 1st person; the recipients are the children.",
+        "Nos = 1st person plural; the recipients are the children.",
+        "Te = 2nd person; the recipients are the children."
+      ],
+      "direction": "grammar",
+      "tip": "a los niños = les → se."
+    },
+    {
+      "id": "q079",
+      "q": "\"Se la voy a comprar a mi abuela.\" The phrase \"a mi abuela\" tells us _____.",
+      "correct": "who \"se\" refers to",
+      "incorrect": [
+        "what \"la\" refers to",
+        "why the purchase is happening",
+        "when the purchase will happen"
+      ],
+      "why_correct": "Se can mean le (him, her, you formal) or les. \"A mi abuela\" clarifies the recipient is la abuela.",
+      "why_wrong": [
+        "La is the direct object — \"a mi abuela\" is the indirect object clarifier.",
+        "The a-phrase identifies who, not why.",
+        "Voy a indicates timing — a mi abuela specifies the recipient."
+      ],
+      "direction": "grammar",
+      "tip": "a + person clarifies who se refers to."
+    },
+    {
+      "id": "q080",
+      "q": "Complete: \"¿Quién _____ explicó la tarea?\" (to you, tú)",
+      "correct": "te la",
+      "incorrect": [
+        "se la",
+        "me la",
+        "le la"
+      ],
+      "why_correct": "To you (tú) → te (IO); la tarea → la (DO). Combined: te la.",
+      "why_wrong": [
+        "Se replaces le/les, not te.",
+        "Me = to me; the recipient is tú.",
+        "Le la is never correct."
+      ],
+      "direction": "grammar",
+      "tip": "to you (tú) = te; tarea = la."
+    }
+  ]
+}

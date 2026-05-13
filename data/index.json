@@ -161,6 +161,15 @@
       "created": "2026-04-14",
       "wordCount": 36,
       "file": "data/civics/Unit 4/civics-unit4-quiz.json"
+    },
+    {
+      "id": "spanish-unit5-quiz",
+      "name": "Unit 5: Combined Object Pronouns",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-05-13",
+      "wordCount": 80,
+      "file": "data/spanish/Unit 5/spanish-unit5-quiz.json"
     }
   ]
 }
