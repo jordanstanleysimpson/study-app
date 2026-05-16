@@ -1,0 +1,1627 @@
+{
+  "id": "earth-science-unit7-quiz",
+  "name": "Unit 7: Weather Fronts & Atmospheric Processes",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-05-16",
+  "questions": [
+
+    {
+      "id": "q01",
+      "q": "What is the DEW POINT?",
+      "correct": "Temperature at which water vapor condenses",
+      "incorrect": [
+        "Temperature at which water boils",
+        "The amount of water vapor in air",
+        "The freezing point of raindrops"
+      ],
+      "why_correct": "The dew point is the temperature air must cool to before water vapor begins condensing into liquid water.",
+      "why_wrong": [
+        "Boiling point is 100°C — unrelated to dew point.",
+        "Amount of water vapor describes humidity, not dew point.",
+        "Freezing point of rain is a separate concept."
+      ],
+      "concepts": ["dew-point", "condensation"],
+      "tip": "Think of a cold glass on a humid day — the outside gets wet when the air near the glass cools to the dew point."
+    },
+
+    {
+      "id": "q02",
+      "q": "What happens to water vapor molecules when temperature drops?",
+      "correct": "They lose energy, slow down, and condense",
+      "incorrect": [
+        "They gain energy and evaporate",
+        "They spread apart and rise",
+        "They freeze immediately into ice"
+      ],
+      "why_correct": "Lower temperature = less energy = slower molecules = condensation into liquid water.",
+      "why_wrong": [
+        "Gaining energy and evaporating is what happens when temperature rises.",
+        "Spreading apart describes warming, not cooling.",
+        "Freezing requires much colder temperatures than condensation."
+      ],
+      "concepts": ["condensation", "molecular-energy"],
+      "tip": "Cold = slow. When molecules slow down enough, they stick together — that's condensation."
+    },
+
+    {
+      "id": "q03",
+      "q": "When air molecules gain energy, what happens?",
+      "correct": "They move faster, spread apart, and air becomes less dense",
+      "incorrect": [
+        "They slow down and contract",
+        "They sink toward the ground",
+        "They form clouds immediately"
+      ],
+      "why_correct": "More energy = faster movement = molecules spread apart = lower density. Less dense air rises.",
+      "why_wrong": [
+        "Slowing and contracting describes losing energy, not gaining it.",
+        "Less dense air rises — it doesn't sink.",
+        "Clouds form when air cools and condenses, not when it warms."
+      ],
+      "concepts": ["air-density", "molecular-energy"],
+      "tip": "Hot air balloon: warm air expands and becomes lighter — it rises because it's less dense."
+    },
+
+    {
+      "id": "q04",
+      "q": "Which air is more dense?",
+      "correct": "Cool air — molecules move slowly and contract",
+      "incorrect": [
+        "Warm air — molecules move fast and expand",
+        "Humid air — water vapor adds weight",
+        "High-altitude air — it has more pressure"
+      ],
+      "why_correct": "Cool air molecules have less energy, move slower, and stay packed closer together — making it denser.",
+      "why_wrong": [
+        "Warm air is less dense, not more — that's why it rises.",
+        "Humid air is actually slightly less dense than dry air (water vapor is lighter than N₂/O₂).",
+        "High-altitude air has lower pressure and is less dense, not more."
+      ],
+      "concepts": ["air-density", "temperature"],
+      "tip": "Dense = heavy = sinks. Cool air sinks; warm air rises."
+    },
+
+    {
+      "id": "q05",
+      "q": "Less dense air ____ ; more dense air ____.",
+      "correct": "Rises; sinks",
+      "incorrect": [
+        "Sinks; rises",
+        "Spreads out; contracts",
+        "Cools; warms"
+      ],
+      "why_correct": "Less dense (lighter) air floats up; denser (heavier) air falls down — same principle as oil floating on water.",
+      "why_wrong": [
+        "That's backwards — denser air sinks, not rises.",
+        "Spreading out and contracting describe molecular behavior, not vertical movement.",
+        "Cooling and warming describe temperature changes, not direction of movement."
+      ],
+      "concepts": ["air-density", "atmospheric-motion"],
+      "tip": "Density = weight. Lighter floats up, heavier falls down."
+    },
+
+    {
+      "id": "q06",
+      "q": "In which direction does wind blow?",
+      "correct": "From high pressure to low pressure",
+      "incorrect": [
+        "From low pressure to high pressure",
+        "From cold air to warm air",
+        "From land to sea only"
+      ],
+      "why_correct": "Air flows from where it's packed tightly (high pressure) toward where there's more space (low pressure).",
+      "why_wrong": [
+        "Air does not flow toward high pressure — that would be moving against the gradient.",
+        "Wind direction is determined by pressure, not temperature directly.",
+        "Land-to-sea breezes are a local phenomenon, not the universal rule."
+      ],
+      "concepts": ["wind", "pressure-gradient"],
+      "tip": "Think of a balloon: air rushes OUT from high pressure inside to lower pressure outside."
+    },
+
+    {
+      "id": "q07",
+      "q": "What causes wind?",
+      "correct": "Differences in air pressure",
+      "incorrect": [
+        "Differences in humidity",
+        "The rotation of the moon",
+        "Ocean currents pulling air"
+      ],
+      "why_correct": "Pressure differences create a pressure gradient — air moves from high to low pressure, creating wind.",
+      "why_wrong": [
+        "Humidity differences can affect weather but don't directly cause wind.",
+        "The moon drives tides, not wind.",
+        "Ocean currents affect climate but don't pull air to create wind."
+      ],
+      "concepts": ["wind", "pressure-gradient"],
+      "tip": "Pressure gradient = air's urge to move from crowded (high) to open (low) areas."
+    },
+
+    {
+      "id": "q08",
+      "q": "Warm air has ____ pressure; cool air has ____ pressure.",
+      "correct": "Lower; higher",
+      "incorrect": [
+        "Higher; lower",
+        "Equal; equal",
+        "Higher; equal"
+      ],
+      "why_correct": "Warm air expands and becomes less dense → lower pressure. Cool air contracts and is more dense → higher pressure.",
+      "why_wrong": [
+        "That's reversed — warm air is less dense and has lower pressure.",
+        "Temperature differences directly create pressure differences.",
+        "Cool air is always higher pressure than warm air in the same conditions."
+      ],
+      "concepts": ["air-pressure", "temperature"],
+      "tip": "Warm = expanded = spread out = low pressure. Cool = compressed = packed = high pressure."
+    },
+
+    {
+      "id": "q09",
+      "q": "High pressure systems are associated with what type of weather?",
+      "correct": "Clear, sunny skies",
+      "incorrect": [
+        "Heavy thunderstorms",
+        "Persistent fog",
+        "Tornadoes"
+      ],
+      "why_correct": "High pressure = sinking air. Sinking air warms and dries out, preventing cloud formation → clear skies.",
+      "why_wrong": [
+        "Thunderstorms occur with low pressure systems, where air rises rapidly.",
+        "Fog can form in high pressure overnight, but high pressure generally means clearing.",
+        "Tornadoes require low pressure and rising unstable air."
+      ],
+      "concepts": ["high-pressure", "weather-patterns"],
+      "tip": "High = sinking air = drying = no clouds = sunshine."
+    },
+
+    {
+      "id": "q10",
+      "q": "Why does low pressure cause stormy weather?",
+      "correct": "Air rises, cools, and condenses into clouds",
+      "incorrect": [
+        "Air sinks and warms, evaporating moisture",
+        "Wind stops, allowing rain to fall freely",
+        "Cold air masses push warm air underground"
+      ],
+      "why_correct": "In low pressure, air converges and rises. Rising air cools, reaches the dew point, and water vapor condenses into clouds and precipitation.",
+      "why_wrong": [
+        "Sinking and warming describes high pressure — that's the opposite of stormy.",
+        "Wind doesn't stop in low pressure — it increases as air rushes toward the center.",
+        "Air masses don't push each other underground."
+      ],
+      "concepts": ["low-pressure", "cloud-formation"],
+      "tip": "Low pressure = air elevator going up → cloud floor at the dew point → rain."
+    },
+
+    {
+      "id": "q11",
+      "q": "Which sequence correctly shows how clouds form?",
+      "correct": "Sun heats surface → water evaporates → air rises and cools → condensation → clouds",
+      "incorrect": [
+        "Clouds form → air cools → water evaporates → sun heats surface",
+        "Air sinks → cools → condenses → clouds → sun heats",
+        "Water condenses → air rises → sun heats → evaporation → clouds"
+      ],
+      "why_correct": "Solar heating drives evaporation; warm moist air rises and cools until it hits the dew point and condenses into clouds.",
+      "why_wrong": [
+        "Clouds don't form before evaporation — that's backwards.",
+        "Sinking air warms and dries — it suppresses clouds, not creates them.",
+        "The sequence must begin with solar heating driving evaporation."
+      ],
+      "concepts": ["cloud-formation", "water-cycle"],
+      "tip": "Follow the water: liquid → vapor (evaporation) → rises → cools → liquid (condensation) → cloud."
+    },
+
+    {
+      "id": "q12",
+      "q": "What is EVAPORATION?",
+      "correct": "Liquid water changes to water vapor (molecules gain energy)",
+      "incorrect": [
+        "Water vapor changes to liquid (molecules lose energy)",
+        "Ice melts into liquid water",
+        "Rain falls from clouds to the ground"
+      ],
+      "why_correct": "Evaporation is the phase change from liquid to gas. Molecules at the surface gain enough energy to escape into the air as vapor.",
+      "why_wrong": [
+        "That describes condensation — the opposite process.",
+        "Ice melting is fusion, not evaporation.",
+        "Rain falling is precipitation, not evaporation."
+      ],
+      "concepts": ["evaporation", "phase-change"],
+      "tip": "Evaporation = escape. Water molecules gain energy and escape the liquid surface."
+    },
+
+    {
+      "id": "q13",
+      "q": "What is CONDENSATION?",
+      "correct": "Water vapor changes to liquid (molecules lose energy)",
+      "incorrect": [
+        "Liquid water changes to water vapor",
+        "Ice changes directly to vapor",
+        "Rain freezes into hail"
+      ],
+      "why_correct": "Condensation is the phase change from gas to liquid. Molecules lose energy, slow down, and cling together as liquid water.",
+      "why_wrong": [
+        "Liquid → vapor is evaporation, the opposite process.",
+        "Solid directly to vapor is sublimation.",
+        "Rain freezing into hail is a different atmospheric process."
+      ],
+      "concepts": ["condensation", "phase-change"],
+      "tip": "Condensation = collection. Vapor molecules lose energy and collect into liquid droplets."
+    },
+
+    {
+      "id": "q14",
+      "q": "Sinking air leads to what atmospheric conditions?",
+      "correct": "Warming, drying, and clear skies",
+      "incorrect": [
+        "Cooling, condensation, and clouds",
+        "Rising pressure and thunderstorms",
+        "Fog and heavy precipitation"
+      ],
+      "why_correct": "As air descends, it compresses and warms — raising its capacity to hold moisture, so clouds evaporate and skies clear.",
+      "why_wrong": [
+        "Cooling and condensation occur when air rises, not sinks.",
+        "Sinking air is high pressure — it suppresses storms.",
+        "Fog and precipitation need rising, cooling air to form."
+      ],
+      "concepts": ["sinking-air", "high-pressure"],
+      "tip": "Sinking air = air dryer. It warms up and soaks up any moisture in its path."
+    },
+
+    {
+      "id": "q15",
+      "q": "What weather map symbol represents a COLD FRONT?",
+      "correct": "Blue line with triangles",
+      "incorrect": [
+        "Red line with semicircles",
+        "Purple line with alternating symbols",
+        "Green dashed line"
+      ],
+      "why_correct": "Cold fronts are shown as blue lines with filled triangles (pointing in the direction the front moves).",
+      "why_wrong": [
+        "Red line with semicircles is the symbol for a warm front.",
+        "Purple with alternating symbols represents an occluded front.",
+        "Green dashed lines are not a standard front symbol."
+      ],
+      "concepts": ["cold-front", "weather-symbols"],
+      "tip": "Blue = cold. Triangles are sharp — like the sharp, sudden weather change cold fronts bring."
+    },
+
+    {
+      "id": "q16",
+      "q": "What weather map symbol represents a WARM FRONT?",
+      "correct": "Red line with semicircles",
+      "incorrect": [
+        "Blue line with triangles",
+        "Orange line with squares",
+        "Black dashed line"
+      ],
+      "why_correct": "Warm fronts are shown as red lines with filled semicircles (bumps) pointing in the direction of movement.",
+      "why_wrong": [
+        "Blue with triangles is the cold front symbol.",
+        "Orange lines with squares are not standard meteorological symbols.",
+        "Black dashed lines represent troughs, not warm fronts."
+      ],
+      "concepts": ["warm-front", "weather-symbols"],
+      "tip": "Red = warm. Semicircles are smooth and round — like the gentle, gradual rain warm fronts bring."
+    },
+
+    {
+      "id": "q17",
+      "q": "What happens when a cold air mass meets a warm air mass in a cold front?",
+      "correct": "Cold air pushes under warm air, forcing it steeply upward",
+      "incorrect": [
+        "Warm air gradually slides over cold air",
+        "Both air masses mix evenly together",
+        "Cold air rises over the warm air"
+      ],
+      "why_correct": "Cold air is denser and acts like a wedge, pushing rapidly under the lighter warm air and forcing it to rise steeply.",
+      "why_wrong": [
+        "Warm air gradually sliding over cold air describes a warm front.",
+        "Air masses don't mix easily — they maintain their identities along the front.",
+        "Cold air is denser, so it stays low and pushes under — not over."
+      ],
+      "concepts": ["cold-front", "air-masses"],
+      "tip": "Cold air = dense snowplow. It scoops under warm air and shoves it up fast."
+    },
+
+    {
+      "id": "q18",
+      "q": "Which type of clouds are associated with cold fronts?",
+      "correct": "Cumulonimbus (tall thunderstorm clouds)",
+      "incorrect": [
+        "Stratus (low, flat, layered clouds)",
+        "Cirrus (high, wispy clouds)",
+        "Fog (ground-level clouds)"
+      ],
+      "why_correct": "The rapid, steep lifting of warm air in a cold front creates towering cumulonimbus clouds and intense thunderstorms.",
+      "why_wrong": [
+        "Stratus clouds form with warm fronts — gradual lifting creates wide, flat layers.",
+        "Cirrus clouds are high-altitude ice clouds unrelated to frontal lifting.",
+        "Fog forms from surface cooling, not from frontal lifting."
+      ],
+      "concepts": ["cold-front", "cloud-types"],
+      "tip": "Cold front = fast, steep = TALL clouds. Cumulonimbus towers are built by rapid uplift."
+    },
+
+    {
+      "id": "q19",
+      "q": "Which type of precipitation is typical of a cold front?",
+      "correct": "Heavy rain and thunderstorms",
+      "incorrect": [
+        "Light steady drizzle over a wide area",
+        "Snow only, with no lightning",
+        "Dew and frost at night"
+      ],
+      "why_correct": "Cold fronts force warm air up steeply and rapidly — creating intense convection, cumulonimbus clouds, and heavy thunderstorms.",
+      "why_wrong": [
+        "Light steady drizzle over a wide area is the hallmark of a warm front.",
+        "Cold fronts bring storms that can include snow but also heavy rain — and lightning.",
+        "Dew and frost are overnight radiation cooling phenomena, not frontal precipitation."
+      ],
+      "concepts": ["cold-front", "precipitation"],
+      "tip": "Cold front = fast and fierce. Think heavy downpour, thunder, lightning — then sudden clearing."
+    },
+
+    {
+      "id": "q20",
+      "q": "After a cold front passes, temperatures typically ____.",
+      "correct": "Drop rapidly",
+      "incorrect": [
+        "Rise gradually",
+        "Stay the same",
+        "Fluctuate unpredictably for days"
+      ],
+      "why_correct": "The cold air mass following the front replaces the warm air — temperatures fall quickly after passage.",
+      "why_wrong": [
+        "Gradual temperature rise follows a warm front, not a cold front.",
+        "Temperature changes significantly after a front — it doesn't stay the same.",
+        "While there can be variability, the defining feature is a sharp, rapid drop."
+      ],
+      "concepts": ["cold-front", "temperature-change"],
+      "tip": "Cold front = cold air arrives. That's literally what happens — cold air moves in and temperature drops."
+    },
+
+    {
+      "id": "q21",
+      "q": "How fast does a cold front typically move compared to a warm front?",
+      "correct": "Faster — weather changes quickly",
+      "incorrect": [
+        "Slower — weather changes gradually",
+        "At the same speed",
+        "Cold fronts are stationary"
+      ],
+      "why_correct": "Cold fronts are fast-moving and bring sudden, dramatic weather changes that pass through in hours.",
+      "why_wrong": [
+        "Slow, gradual change describes warm fronts.",
+        "Cold fronts are generally faster than warm fronts.",
+        "Stationary fronts are a separate category — cold fronts move."
+      ],
+      "concepts": ["cold-front", "front-speed"],
+      "tip": "Cold = quick. Think of cold fronts as fast-moving weather bulldozers."
+    },
+
+    {
+      "id": "q22",
+      "q": "In a WARM FRONT, how does warm air move relative to cold air?",
+      "correct": "Warm air rises gradually and gently over the cold air",
+      "incorrect": [
+        "Warm air pushes rapidly under cold air",
+        "Warm air and cold air mix at the surface",
+        "Cold air rises over the warm air"
+      ],
+      "why_correct": "Warm air is less dense than cold air, so it glides up and over the cold air mass at a shallow angle.",
+      "why_wrong": [
+        "Pushing under cold air describes what cold fronts do — dense cold air under light warm air.",
+        "Air masses don't mix at the surface — the boundary (front) separates them.",
+        "Cold air is denser and stays near the surface — warm air rises over it."
+      ],
+      "concepts": ["warm-front", "air-masses"],
+      "tip": "Warm air is light — it floats up over heavy cold air like a gentle ramp, not a steep wall."
+    },
+
+    {
+      "id": "q23",
+      "q": "What type of precipitation does a warm front typically bring?",
+      "correct": "Light, steady rain over a wide area for a long time",
+      "incorrect": [
+        "Brief, intense thunderstorms",
+        "Hail and tornadoes",
+        "Heavy snow in a narrow band"
+      ],
+      "why_correct": "Warm air rises slowly over a large area → gradual condensation → wide, thick stratus clouds → long-lasting light rain.",
+      "why_wrong": [
+        "Brief intense thunderstorms are cold front weather — rapid lifting causes intense convection.",
+        "Hail and tornadoes require the violent uplift of cold fronts or supercells.",
+        "Heavy snow in a narrow band is more characteristic of cold front snowbands."
+      ],
+      "concepts": ["warm-front", "precipitation"],
+      "tip": "Warm front = slow and wide. Imagine a long, gray, drizzly day — that's a warm front."
+    },
+
+    {
+      "id": "q24",
+      "q": "Which clouds are associated with a warm front?",
+      "correct": "Stratus clouds (low, wide, layered)",
+      "incorrect": [
+        "Cumulonimbus (tall thunderstorm clouds)",
+        "Cumulus (puffy fair-weather clouds)",
+        "Cirrostratus only, at high altitude"
+      ],
+      "why_correct": "The gentle, gradual lifting of warm air over a cold air mass creates wide, layered stratus clouds.",
+      "why_wrong": [
+        "Cumulonimbus clouds form with rapid, steep lifting — that's cold fronts.",
+        "Cumulus clouds are associated with fair weather or isolated convection.",
+        "Cirrostratus appears early as a warm front approaches, but stratus is what brings the rain."
+      ],
+      "concepts": ["warm-front", "cloud-types"],
+      "tip": "Warm front = slow rise = flat clouds. Stratus = spread out and layered."
+    },
+
+    {
+      "id": "q25",
+      "q": "After a warm front passes, temperatures typically ____.",
+      "correct": "Rise gradually",
+      "incorrect": [
+        "Drop rapidly",
+        "Stay the same",
+        "Drop briefly, then spike"
+      ],
+      "why_correct": "The warm air mass moves in behind the front, replacing the cold air and causing a steady temperature increase.",
+      "why_wrong": [
+        "Rapid temperature drop occurs after a cold front — the opposite situation.",
+        "Warm fronts bring a clear, recognizable temperature change.",
+        "Temperature rises steadily — there's no spike and drop pattern."
+      ],
+      "concepts": ["warm-front", "temperature-change"],
+      "tip": "Warm front = warm air arriving. Temperature slowly climbs as the warm air mass takes over."
+    },
+
+    {
+      "id": "q26",
+      "q": "Compare cold and warm fronts: which brings more intense, shorter-duration storms?",
+      "correct": "Cold fronts",
+      "incorrect": [
+        "Warm fronts",
+        "Both bring equal intensity storms",
+        "Neither — fronts only bring clear skies"
+      ],
+      "why_correct": "Cold fronts force rapid, steep uplift → intense convection → short-lived but violent thunderstorms.",
+      "why_wrong": [
+        "Warm fronts bring prolonged light rain, not intense short storms.",
+        "Cold front storms are distinctly more intense; warm front rain is gentler and longer.",
+        "Fronts are defined by the weather changes they bring, including precipitation."
+      ],
+      "concepts": ["cold-front", "warm-front", "comparison"],
+      "tip": "Cold = intense and quick. Warm = gentle and long. Opposite personalities."
+    },
+
+    {
+      "id": "q27",
+      "q": "Which front moves more slowly and brings gradual weather change?",
+      "correct": "Warm front",
+      "incorrect": [
+        "Cold front",
+        "Occluded front",
+        "Stationary front"
+      ],
+      "why_correct": "Warm fronts advance slowly as warm air gently pushes over cold air — the weather transition takes hours to days.",
+      "why_wrong": [
+        "Cold fronts are fast-moving and bring sudden weather changes.",
+        "Occluded fronts form when a cold front catches a warm front — different situation.",
+        "Stationary fronts don't move at all — they stall in place."
+      ],
+      "concepts": ["warm-front", "front-speed"],
+      "tip": "Warm front = slow. Plan for a long, rainy day — not a passing storm."
+    },
+
+    {
+      "id": "q28",
+      "q": "As air rises in the atmosphere, what happens to it?",
+      "correct": "It cools and may form clouds",
+      "incorrect": [
+        "It warms and dries out",
+        "It increases in pressure",
+        "It immediately turns to precipitation"
+      ],
+      "why_correct": "Rising air expands as pressure decreases → temperature drops → may reach dew point → condensation → clouds.",
+      "why_wrong": [
+        "Warming and drying out describes sinking air.",
+        "Pressure decreases as air rises — atmospheric pressure is lower at altitude.",
+        "Clouds must form first; precipitation requires cloud droplets to combine and grow."
+      ],
+      "concepts": ["rising-air", "cloud-formation"],
+      "tip": "Rising air = cooling air. The higher it goes, the cooler it gets — eventually forming clouds."
+    },
+
+    {
+      "id": "q29",
+      "q": "As air descends (sinks) in the atmosphere, what happens to it?",
+      "correct": "It warms and dries out",
+      "incorrect": [
+        "It cools and forms clouds",
+        "It loses pressure and expands",
+        "It immediately drops as rain"
+      ],
+      "why_correct": "Descending air is compressed by increasing atmospheric pressure → warms → can hold more moisture → clouds evaporate.",
+      "why_wrong": [
+        "Cooling and forming clouds describes rising air.",
+        "Descending air gains pressure (not loses) as it moves into denser lower atmosphere.",
+        "Sinking, dry air produces no precipitation."
+      ],
+      "concepts": ["sinking-air", "adiabatic-warming"],
+      "tip": "Sinking = squeezing = warming. A bike pump warms as you compress the air — same idea."
+    },
+
+    {
+      "id": "q30",
+      "q": "What type of weather is associated with HIGH PRESSURE systems?",
+      "correct": "Clear and sunny",
+      "incorrect": [
+        "Stormy and rainy",
+        "Foggy and overcast",
+        "Windy with heavy snow"
+      ],
+      "why_correct": "High pressure = air sinking → warms → dries → no cloud formation → clear, sunny weather.",
+      "why_wrong": [
+        "Stormy and rainy is low pressure weather.",
+        "Fog can occur at night in high pressure, but the dominant pattern is clearing.",
+        "Heavy snow requires low pressure and storm dynamics."
+      ],
+      "concepts": ["high-pressure", "weather-patterns"],
+      "tip": "H on the weather map = Happy, sunny weather."
+    },
+
+    {
+      "id": "q31",
+      "q": "What type of weather is associated with LOW PRESSURE systems?",
+      "correct": "Stormy, cloudy, and rainy",
+      "incorrect": [
+        "Clear and sunny",
+        "Hot and dry",
+        "Calm with no wind"
+      ],
+      "why_correct": "Low pressure = air rising → cools → condenses → clouds → precipitation → storms.",
+      "why_wrong": [
+        "Clear and sunny is high pressure weather.",
+        "Hot and dry results from sinking air in high pressure — the opposite.",
+        "Low pressure centers are associated with strong winds converging inward."
+      ],
+      "concepts": ["low-pressure", "weather-patterns"],
+      "tip": "L on the weather map = Lousy, stormy weather."
+    },
+
+    {
+      "id": "q32",
+      "q": "Which sequence correctly shows what happens in a HIGH PRESSURE system?",
+      "correct": "Air sinks → warms → dries → clear skies",
+      "incorrect": [
+        "Air rises → cools → condenses → clouds form",
+        "Air cools → sinks → becomes humid → fog",
+        "Air warms → rises → condenses → storms"
+      ],
+      "why_correct": "In high pressure, air descends and compresses → warming → drying → suppressed cloud formation → clear conditions.",
+      "why_wrong": [
+        "Rising, cooling, condensing describes a low pressure system.",
+        "While air does cool and sink initially, the compression warming prevents fog — it dries.",
+        "Warming, rising, and condensing describes low pressure convective weather."
+      ],
+      "concepts": ["high-pressure", "sequence"],
+      "tip": "High pressure = air elevator going DOWN → dries everything out."
+    },
+
+    {
+      "id": "q33",
+      "q": "Why does warm air create LOW PRESSURE at the surface?",
+      "correct": "Warm air is less dense and rises, reducing surface pressure",
+      "incorrect": [
+        "Warm air is heavier and pushes down on the surface",
+        "Warm air traps cold air at the surface",
+        "Warm air increases friction with the ground"
+      ],
+      "why_correct": "Warm, less dense air rises away from the surface, leaving behind fewer air molecules — reducing surface pressure.",
+      "why_wrong": [
+        "Warm air is lighter, not heavier — it rises rather than pushing down.",
+        "Warm air doesn't trap cold air — it rises above and displaces it.",
+        "Surface friction is unrelated to pressure caused by temperature."
+      ],
+      "concepts": ["low-pressure", "temperature", "air-density"],
+      "tip": "Warm air runs away from the surface (rises up) → less air left behind → lower pressure."
+    },
+
+    {
+      "id": "q34",
+      "q": "Which is true about cold air and pressure?",
+      "correct": "Cold air sinks and creates high pressure at the surface",
+      "incorrect": [
+        "Cold air rises and creates low pressure at the surface",
+        "Cold air has no effect on surface pressure",
+        "Cold air creates low pressure because it is heavy"
+      ],
+      "why_correct": "Cold, dense air sinks toward the surface, piling up air molecules and increasing surface pressure.",
+      "why_wrong": [
+        "Cold air sinks (doesn't rise) and creates HIGH pressure, not low.",
+        "Cold air directly creates high pressure by sinking to the surface.",
+        "Cold air does create high pressure — but through sinking and piling up, not just weight."
+      ],
+      "concepts": ["high-pressure", "cold-air", "air-density"],
+      "tip": "Cold air falls down and piles up at the surface = high pressure."
+    },
+
+    {
+      "id": "q35",
+      "q": "What is LA NIÑA?",
+      "correct": "A cooling of Pacific Ocean surface temperatures",
+      "incorrect": [
+        "A warming of Pacific Ocean surface temperatures",
+        "A type of tropical hurricane",
+        "An atmospheric front in the Pacific"
+      ],
+      "why_correct": "La Niña is defined by cooler-than-average sea surface temperatures in the central and eastern Pacific Ocean.",
+      "why_wrong": [
+        "Warming of Pacific Ocean temperatures describes El Niño, La Niña's opposite.",
+        "La Niña is an ocean temperature pattern, not a storm.",
+        "La Niña is an ocean-atmosphere climate pattern, not an atmospheric front."
+      ],
+      "concepts": ["la-nina", "ocean-temperature"],
+      "tip": "La Niña = La fría (Spanish for cold). It's the cool phase — opposite of El Niño."
+    },
+
+    {
+      "id": "q36",
+      "q": "How does La Niña affect the southeastern United States?",
+      "correct": "Generally brings drier and warmer conditions",
+      "incorrect": [
+        "Brings heavy flooding and cool temperatures",
+        "Has no effect on the southeastern US",
+        "Brings increased snowfall and blizzards"
+      ],
+      "why_correct": "During La Niña, the jet stream shifts northward, bringing drier, warmer-than-average conditions to the southeastern US.",
+      "why_wrong": [
+        "Heavy flooding and cool temperatures are more associated with El Niño in the southeast.",
+        "La Niña significantly affects US weather patterns, especially in the south.",
+        "La Niña typically brings drought conditions to the southeast, not snow."
+      ],
+      "concepts": ["la-nina", "regional-weather"],
+      "tip": "La Niña = dry south. Drought conditions often follow La Niña years in the southeastern US."
+    },
+
+    {
+      "id": "q37",
+      "q": "La Niña affects ____.",
+      "correct": "Global weather patterns",
+      "incorrect": [
+        "Only local Pacific coastal weather",
+        "Only ocean currents, not weather",
+        "Only Southern Hemisphere weather"
+      ],
+      "why_correct": "La Niña's cooler Pacific waters alter atmospheric circulation worldwide, changing precipitation and temperature patterns globally.",
+      "why_wrong": [
+        "La Niña's effects extend far beyond the Pacific coast — they're worldwide.",
+        "Ocean temperature changes like La Niña directly drive changes in atmospheric weather patterns.",
+        "La Niña affects both hemispheres — it is a global phenomenon."
+      ],
+      "concepts": ["la-nina", "global-weather"],
+      "tip": "The ocean and atmosphere are connected. Changes in one ripple across the entire globe."
+    },
+
+    {
+      "id": "q38",
+      "q": "What phase change occurs when morning dew forms on grass?",
+      "correct": "Condensation — water vapor turns to liquid",
+      "incorrect": [
+        "Evaporation — liquid turns to vapor",
+        "Precipitation — water falls from clouds",
+        "Sublimation — ice turns to vapor"
+      ],
+      "why_correct": "At night, surfaces cool below the dew point → water vapor in the air condenses into liquid droplets on the grass.",
+      "why_wrong": [
+        "Evaporation is the reverse — liquid turning to vapor, which happens as the day warms.",
+        "Precipitation falls from clouds above — dew forms directly on surfaces.",
+        "Sublimation is solid to gas — no liquid stage and no dew."
+      ],
+      "concepts": ["condensation", "dew-point"],
+      "tip": "Dew = condensation on surfaces cooled below the dew point. Same process as clouds, just at ground level."
+    },
+
+    {
+      "id": "q39",
+      "q": "If the dew point equals the air temperature, what is true?",
+      "correct": "The air is saturated and condensation is occurring or about to occur",
+      "incorrect": [
+        "The air is very dry with no moisture",
+        "Evaporation is at its maximum rate",
+        "A cold front is guaranteed to arrive"
+      ],
+      "why_correct": "When air temperature drops to the dew point, relative humidity is 100% — the air can hold no more vapor and condensation begins.",
+      "why_wrong": [
+        "Dry air has a very low dew point, far below the air temperature.",
+        "Maximum evaporation happens when the air is dry and hot — far from saturated.",
+        "Reaching the dew point is about local moisture saturation, not frontal activity."
+      ],
+      "concepts": ["dew-point", "saturation"],
+      "tip": "Dew point = air temp means 100% humidity. Fog or dew forms when this happens at the surface."
+    },
+
+    {
+      "id": "q40",
+      "q": "Why does a cold can of soda get wet on the outside on a humid day?",
+      "correct": "The can cools nearby air below the dew point, causing condensation",
+      "incorrect": [
+        "The soda leaks through the can",
+        "The can causes nearby water to evaporate onto it",
+        "Cold metal naturally attracts water molecules from the air"
+      ],
+      "why_correct": "The cold can chills the air immediately around it below the dew point, causing water vapor to condense into liquid on the surface.",
+      "why_wrong": [
+        "Soda cans are sealed — liquid doesn't pass through the metal.",
+        "Evaporation moves moisture away from surfaces into the air — the opposite direction.",
+        "Water condenses because the air cools past the dew point — it's a thermodynamic process, not attraction."
+      ],
+      "concepts": ["condensation", "dew-point"],
+      "tip": "Same as clouds: cool the air below the dew point and water vapor becomes liquid."
+    },
+
+    {
+      "id": "q41",
+      "q": "Which statement correctly contrasts HIGH and LOW pressure?",
+      "correct": "High pressure = sinking air, clear skies; Low pressure = rising air, stormy skies",
+      "incorrect": [
+        "High pressure = rising air, storms; Low pressure = sinking air, clear skies",
+        "Both high and low pressure bring storms — just different types",
+        "High pressure brings rain; low pressure brings drought"
+      ],
+      "why_correct": "High pressure forces air down → clear; low pressure draws air up → clouds and storms. This is the fundamental weather pattern relationship.",
+      "why_wrong": [
+        "That's completely reversed — high is sinking/clear, low is rising/stormy.",
+        "High pressure consistently suppresses storm formation.",
+        "High pressure brings dry, clear weather; low pressure brings precipitation."
+      ],
+      "concepts": ["high-pressure", "low-pressure", "comparison"],
+      "tip": "H = Happy (clear); L = Lousy (storms). The vertical motion of air explains it all."
+    },
+
+    {
+      "id": "q42",
+      "q": "Identify the front: brings heavy thunderstorms, rapidly dropping temperatures, cumulonimbus clouds.",
+      "correct": "Cold front",
+      "incorrect": [
+        "Warm front",
+        "Stationary front",
+        "High pressure system"
+      ],
+      "why_correct": "All three clues — sudden heavy storms, rapidly falling temperature, and cumulonimbus clouds — are hallmarks of a cold front.",
+      "why_wrong": [
+        "Warm fronts bring gradual, light rain and stratus clouds — no sudden temperature drop.",
+        "Stationary fronts stall in place and bring prolonged, steady precipitation — not sudden violent storms.",
+        "High pressure systems bring clear weather — no thunderstorms."
+      ],
+      "concepts": ["cold-front", "identification"],
+      "tip": "Three cold front clues: heavy rain, rapid temperature drop, tall thunderstorm clouds."
+    },
+
+    {
+      "id": "q43",
+      "q": "Identify the front: brings light steady rain, gradual temperature rise, stratus clouds.",
+      "correct": "Warm front",
+      "incorrect": [
+        "Cold front",
+        "Occluded front",
+        "Low pressure center"
+      ],
+      "why_correct": "All three clues — prolonged light rain, gradual warming, and wide stratus clouds — point to a warm front's gentle, slow lifting.",
+      "why_wrong": [
+        "Cold fronts bring sudden heavy rain and temperature drop — the opposite pattern.",
+        "Occluded fronts combine cold and warm front characteristics — more complex.",
+        "A low pressure center is the system, not the front — the front is the boundary."
+      ],
+      "concepts": ["warm-front", "identification"],
+      "tip": "Three warm front clues: light steady rain, slow temperature rise, wide flat clouds."
+    },
+
+    {
+      "id": "q44",
+      "q": "Why does air rise in a LOW PRESSURE system?",
+      "correct": "Air converges at the surface and has nowhere to go but up",
+      "incorrect": [
+        "Air is pushed down by high pressure above",
+        "The sun heats the center of the system directly",
+        "Friction with the ground forces air upward"
+      ],
+      "why_correct": "Winds spiral inward toward low pressure centers. All that converging air piles up at the surface and must rise — creating clouds and storms.",
+      "why_wrong": [
+        "High pressure above would suppress lifting — the opposite of what happens in a low.",
+        "Direct solar heating can cause local convection but doesn't explain all low pressure systems.",
+        "Ground friction slows air but doesn't force it upward on a large scale."
+      ],
+      "concepts": ["low-pressure", "air-motion"],
+      "tip": "Low pressure = air traffic jam at the surface. Nowhere to go but up."
+    },
+
+    {
+      "id": "q45",
+      "q": "Which scenario would MOST LIKELY produce clear weather?",
+      "correct": "Air sinking over a region under high pressure",
+      "incorrect": [
+        "A warm front approaching from the south",
+        "A cold front moving through the area",
+        "Air rising rapidly over a heated surface"
+      ],
+      "why_correct": "Sinking air under high pressure warms and dries, preventing clouds from forming — clear weather results.",
+      "why_wrong": [
+        "An approaching warm front brings clouds and rain.",
+        "A cold front brings heavy rain and thunderstorms.",
+        "Rapidly rising air over a heated surface creates convective clouds and possible storms."
+      ],
+      "concepts": ["high-pressure", "clear-weather"],
+      "tip": "Clear weather = sinking air = high pressure. If air isn't rising, clouds can't form."
+    },
+
+    {
+      "id": "q46",
+      "q": "A weather forecaster says 'a blue line with triangles is moving through the region.' What should you expect?",
+      "correct": "Heavy rain or thunderstorms, then rapidly cooling temperatures",
+      "incorrect": [
+        "Light drizzle for several days with gradual warming",
+        "Clear, sunny skies for the next week",
+        "Fog in the morning with afternoon clearing"
+      ],
+      "why_correct": "A blue line with triangles = cold front. Cold fronts bring intense storms followed by a rapid temperature drop.",
+      "why_wrong": [
+        "Light drizzle for days with gradual warming describes a warm front (red line with semicircles).",
+        "Clear skies come from high pressure systems — no fronts.",
+        "Morning fog and afternoon clearing is a local radiation pattern, not a frontal passage."
+      ],
+      "concepts": ["cold-front", "weather-symbols", "prediction"],
+      "tip": "Blue triangles = cold front coming. Pack an umbrella — and a jacket for afterward."
+    },
+
+    {
+      "id": "q47",
+      "q": "Which correctly pairs an air mass characteristic with its pressure and movement?",
+      "correct": "Warm air → low pressure → rises",
+      "incorrect": [
+        "Warm air → high pressure → sinks",
+        "Cold air → low pressure → rises",
+        "Cold air → low pressure → sinks"
+      ],
+      "why_correct": "Warm air is less dense → lower pressure → rises. These three properties always go together.",
+      "why_wrong": [
+        "Warm air creates LOW pressure, not high — and it rises, not sinks.",
+        "Cold air creates HIGH pressure, not low — it sinks.",
+        "Cold air creates high pressure and sinks — it's high pressure, not low."
+      ],
+      "concepts": ["air-pressure", "temperature", "air-density"],
+      "tip": "Remember the chain: Warm → light → low pressure → rises. Cold → heavy → high pressure → sinks."
+    },
+
+    {
+      "id": "q48",
+      "q": "Which correctly pairs an air mass characteristic with its pressure and movement?",
+      "correct": "Cold air → high pressure → sinks",
+      "incorrect": [
+        "Cold air → low pressure → rises",
+        "Warm air → high pressure → sinks",
+        "Cold air → high pressure → rises"
+      ],
+      "why_correct": "Cold air is denser → higher pressure → sinks. Dense heavy air falls toward the surface.",
+      "why_wrong": [
+        "Cold air creates HIGH pressure and sinks — not low pressure and rise.",
+        "Warm air creates low pressure and rises — high pressure belongs to cold air.",
+        "Cold air creates high pressure correctly, but it sinks — it does not rise."
+      ],
+      "concepts": ["air-pressure", "temperature", "air-density"],
+      "tip": "Cold → heavy → high pressure → sinks. It's the opposite of warm air in every way."
+    },
+
+    {
+      "id": "q49",
+      "q": "Which statement about La Niña is FALSE?",
+      "correct": "La Niña warms Pacific Ocean surface temperatures",
+      "incorrect": [
+        "La Niña cools Pacific Ocean surface temperatures",
+        "La Niña affects global weather patterns",
+        "La Niña brings drier conditions to the southeastern US"
+      ],
+      "why_correct": "La Niña is defined by COOLER Pacific surface temperatures — warming is El Niño, its opposite.",
+      "why_wrong": [
+        "This is true — La Niña is a cooling event in the Pacific.",
+        "This is true — La Niña alters global atmospheric circulation.",
+        "This is true — the southeastern US typically gets drier conditions during La Niña."
+      ],
+      "concepts": ["la-nina", "identification"],
+      "tip": "La Niña = cool Pacific. El Niño = warm Pacific. They are opposites."
+    },
+
+    {
+      "id": "q50",
+      "q": "A student says: 'High pressure means bad weather; low pressure means good weather.' Is this correct?",
+      "correct": "No — high pressure brings clear weather; low pressure brings storms",
+      "incorrect": [
+        "Yes — high pressure compresses clouds; low pressure frees them",
+        "Yes — high pressure blocks the sun; low pressure allows sunlight",
+        "Partially — high pressure causes fog; low pressure causes rain"
+      ],
+      "why_correct": "High pressure = sinking, drying air = clear skies. Low pressure = rising, cooling air = clouds and storms. The student has it backwards.",
+      "why_wrong": [
+        "High pressure disperses clouds by sinking and drying the air — it doesn't 'compress' them.",
+        "High pressure brings sunshine — it doesn't block the sun.",
+        "High pressure is associated with clear skies overall — not consistently foggy."
+      ],
+      "concepts": ["high-pressure", "low-pressure", "misconception"],
+      "tip": "H = clear and happy. L = lousy storms. Don't flip them!"
+    },
+
+    {
+      "id": "q51",
+      "q": "What is a STATIONARY FRONT?",
+      "correct": "A boundary between air masses that is not moving",
+      "incorrect": [
+        "A cold front that slows down near mountains",
+        "A warm front that stalls at the equator",
+        "A front that switches direction every day"
+      ],
+      "why_correct": "When neither air mass has enough force to push the other, the front stalls in place — producing prolonged clouds and rain in one area.",
+      "why_wrong": [
+        "Mountains can influence fronts, but that's not what defines a stationary front.",
+        "Stationary fronts can form at any latitude — not just the equator.",
+        "Fronts don't switch direction daily; a stationary front simply stops moving."
+      ],
+      "concepts": ["stationary-front", "weather-fronts"],
+      "tip": "Stationary = staying put. Same gray, rainy weather for days over one region."
+    },
+
+    {
+      "id": "q52",
+      "q": "Which front produces the longest-lasting precipitation in one location?",
+      "correct": "Stationary front — it stays in place for days",
+      "incorrect": [
+        "Cold front — it moves fast and drops heavy rain quickly",
+        "Warm front — it moves slowly but still passes through",
+        "High pressure — it brings steady rain for days"
+      ],
+      "why_correct": "A stationary front doesn't move, so the same area gets continuous clouds and rain as long as the front remains stalled.",
+      "why_wrong": [
+        "Cold fronts move through quickly — heavy rain but short duration.",
+        "Warm fronts bring prolonged rain but eventually pass — stationary fronts stay put.",
+        "High pressure brings clear weather — not rain."
+      ],
+      "concepts": ["stationary-front", "precipitation"],
+      "tip": "Stationary front = stuck. If it parks over your city, pack for days of rain."
+    },
+
+    {
+      "id": "q53",
+      "q": "What is an OCCLUDED FRONT?",
+      "correct": "A cold front that overtakes a warm front, lifting the warm air off the ground",
+      "incorrect": [
+        "A front where two cold air masses collide",
+        "A warm front that turns into a cold front",
+        "A front with no precipitation at all"
+      ],
+      "why_correct": "Cold fronts move faster than warm fronts. When the cold front catches the warm front, it shoves the warm air upward — creating an occluded front with complex weather.",
+      "why_wrong": [
+        "An occluded front involves warm air being cut off — not just two cold air masses colliding.",
+        "A warm front doesn't become a cold front — the cold front simply overtakes it.",
+        "Occluded fronts bring significant precipitation — not the absence of it."
+      ],
+      "concepts": ["occluded-front", "weather-fronts"],
+      "tip": "Occluded = cut off. Warm air gets cut off from the surface when cold air catches it."
+    },
+
+    {
+      "id": "q54",
+      "q": "What does HUMIDITY measure?",
+      "correct": "The amount of water vapor in the air",
+      "incorrect": [
+        "The amount of rainfall over a day",
+        "The temperature of the air",
+        "The speed at which clouds move"
+      ],
+      "why_correct": "Humidity is the measure of water vapor content in the atmosphere — high humidity feels muggy and sticky.",
+      "why_wrong": [
+        "Rainfall is precipitation — not the same as water vapor already in the air.",
+        "Temperature is separate from humidity; a day can be hot and dry, or cool and humid.",
+        "Cloud movement speed relates to wind — not humidity."
+      ],
+      "concepts": ["humidity", "water-vapor"],
+      "tip": "Humidity = water vapor hanging in the air. High humidity = that sticky, heavy feeling on a summer day."
+    },
+
+    {
+      "id": "q55",
+      "q": "What is RELATIVE HUMIDITY?",
+      "correct": "The percentage of water vapor the air holds compared to its maximum capacity",
+      "incorrect": [
+        "The exact grams of water vapor per cubic meter",
+        "The dew point temperature in Celsius",
+        "The chance of rain as a percentage"
+      ],
+      "why_correct": "Relative humidity compares current vapor to what the air could hold at that temperature — 100% means the air is saturated.",
+      "why_wrong": [
+        "Grams per cubic meter is absolute humidity — relative humidity is a percentage.",
+        "Dew point is a temperature value — not the same as relative humidity.",
+        "Relative humidity measures saturation, not probability of rain."
+      ],
+      "concepts": ["humidity", "relative-humidity"],
+      "tip": "100% relative humidity = air is full. Any cooling = condensation. Below 100% = still room for more vapor."
+    },
+
+    {
+      "id": "q56",
+      "q": "As air temperature RISES with the same amount of water vapor, relative humidity ____.",
+      "correct": "Decreases — warmer air can hold more vapor",
+      "incorrect": [
+        "Increases — warmer air squeezes water out",
+        "Stays the same — vapor content didn't change",
+        "Drops to zero — heat destroys water vapor"
+      ],
+      "why_correct": "Warmer air has more capacity for water vapor — so the same amount of vapor fills a smaller fraction of that capacity, lowering relative humidity.",
+      "why_wrong": [
+        "Squeezing water out is what COOLING does — warming increases capacity.",
+        "Relative humidity depends on temperature too — same vapor in warmer air = lower percentage.",
+        "Heat doesn't destroy water vapor — it just means the air can hold more."
+      ],
+      "concepts": ["humidity", "temperature"],
+      "tip": "Bigger sponge (warm air) holds the same water = less full = lower relative humidity."
+    },
+
+    {
+      "id": "q57",
+      "q": "What is the PRESSURE GRADIENT?",
+      "correct": "The change in air pressure over distance",
+      "incorrect": [
+        "The height difference between a mountain and valley",
+        "The speed of wind at the surface",
+        "The difference in temperature between two air masses"
+      ],
+      "why_correct": "The pressure gradient is how steeply pressure changes between two areas — a steep gradient drives fast wind; a gentle gradient drives slow wind.",
+      "why_wrong": [
+        "Height difference is topography — not pressure gradient.",
+        "Wind speed results from the gradient — the gradient itself is the pressure difference.",
+        "Temperature difference between air masses is the thermal gradient — not pressure gradient."
+      ],
+      "concepts": ["pressure-gradient", "wind"],
+      "tip": "Pressure gradient = slope of the pressure hill. Steep slope = fast wind downhill."
+    },
+
+    {
+      "id": "q58",
+      "q": "Which causes STRONGER winds — a large pressure difference or a small one?",
+      "correct": "Large pressure difference — steeper gradient drives faster airflow",
+      "incorrect": [
+        "Small pressure difference — air moves slowly and steadily",
+        "Pressure difference has no effect on wind speed",
+        "Equal pressure on both sides creates the fastest wind"
+      ],
+      "why_correct": "The larger the pressure difference over a given distance, the steeper the pressure gradient — and the faster air accelerates from high to low.",
+      "why_wrong": [
+        "Small differences produce light breezes — not strong winds.",
+        "Pressure gradient is the direct cause of wind speed — larger difference = stronger wind.",
+        "Equal pressure means no gradient and no wind at all."
+      ],
+      "concepts": ["pressure-gradient", "wind"],
+      "tip": "Steep hill = fast ball rolling down. Big pressure difference = steep hill = fast wind."
+    },
+
+    {
+      "id": "q59",
+      "q": "What is CONVECTION in weather?",
+      "correct": "Circular heat transfer through rising warm air and sinking cool air",
+      "incorrect": [
+        "Heat transfer through direct contact between molecules",
+        "Heat transfer by electromagnetic waves",
+        "Wind blowing heat horizontally across a flat surface"
+      ],
+      "why_correct": "Convection is the vertical loop: warm air rises, cools, sinks, warms again — transferring heat through movement of the air itself.",
+      "why_wrong": [
+        "Heat transfer through direct contact is conduction — not convection.",
+        "Heat transfer by electromagnetic waves is radiation — what the sun does.",
+        "Horizontal wind transfer is advection — convection is specifically the vertical loop."
+      ],
+      "concepts": ["convection", "heat-transfer"],
+      "tip": "Convection = circular loop. Warm up → rise → cool → sink → warm up again. Like a lava lamp."
+    },
+
+    {
+      "id": "q60",
+      "q": "A sea breeze blows from ____.",
+      "correct": "Ocean toward land (during the day)",
+      "incorrect": [
+        "Land toward ocean (during the day)",
+        "Ocean toward land (at night)",
+        "Mountains toward valleys (any time)"
+      ],
+      "why_correct": "During the day, land heats faster than water → warm air rises over land → low pressure → cool ocean air flows in = sea breeze.",
+      "why_wrong": [
+        "Land toward ocean during the day is a land breeze — but that happens at night, not day.",
+        "Ocean to land at night doesn't occur — at night the land cools and the land breeze flows the other direction.",
+        "Mountain-valley winds are a separate local wind phenomenon."
+      ],
+      "concepts": ["sea-breeze", "wind", "pressure-gradient"],
+      "tip": "Day: land heats → air rises → ocean breezes IN. Sea breeze = from the sea = cooling you down on a hot beach day."
+    },
+
+    {
+      "id": "q61",
+      "q": "A land breeze blows from ____.",
+      "correct": "Land toward ocean (at night)",
+      "incorrect": [
+        "Ocean toward land (at night)",
+        "Land toward ocean (during the day)",
+        "Mountains toward the sea (any time)"
+      ],
+      "why_correct": "At night, land cools faster than water. Warmer ocean air rises → low pressure over water → cool land air flows out = land breeze.",
+      "why_wrong": [
+        "Ocean toward land at night doesn't occur — the warmer air is over the ocean at night.",
+        "Land toward ocean during the day is incorrect — daytime is when sea breezes blow.",
+        "Mountain-sea winds are a separate phenomenon."
+      ],
+      "concepts": ["land-breeze", "wind"],
+      "tip": "Night: land cools fast → air sinks → blows OUT toward the warmer ocean. Land breeze = from the land."
+    },
+
+    {
+      "id": "q62",
+      "q": "What is the CORIOLIS EFFECT?",
+      "correct": "The deflection of moving air to the right (NH) or left (SH) due to Earth's rotation",
+      "incorrect": [
+        "The warming of air as it approaches the equator",
+        "The increase in wind speed at higher altitudes",
+        "The slowing of wind by surface friction"
+      ],
+      "why_correct": "Earth's spin causes moving air to curve — right in the Northern Hemisphere, left in the Southern — shaping large-scale wind and storm rotation patterns.",
+      "why_wrong": [
+        "Air warming near the equator is from solar heating — not the Coriolis effect.",
+        "Wind does increase with altitude, but that's due to reduced friction — not Coriolis.",
+        "Surface friction slowing wind is a friction effect — separate from Coriolis deflection."
+      ],
+      "concepts": ["coriolis-effect", "wind"],
+      "tip": "Spin a globe and try to draw a straight line — it curves. That's Coriolis. NH winds curve right; SH winds curve left."
+    },
+
+    {
+      "id": "q63",
+      "q": "Which scenario correctly describes a COLD FRONT cause-and-effect?",
+      "correct": "Cold dense air pushes under warm air → warm air rises fast → storms form",
+      "incorrect": [
+        "Warm air gradually slides over cold air → slow rise → light rain",
+        "Two cold air masses meet → air sinks → clear skies",
+        "High pressure sinks → air dries → cold temperatures arrive"
+      ],
+      "why_correct": "Cold front mechanism: dense cold air acts as a wedge, forcing warm air up steeply and rapidly — this triggers intense convection and storm development.",
+      "why_wrong": [
+        "Warm air gradually sliding over cold air is the warm front mechanism.",
+        "Two cold masses meeting is not the cold front definition — it needs a warm air mass being lifted.",
+        "High pressure sinking describes a clear-sky high pressure system, not a cold front."
+      ],
+      "concepts": ["cold-front", "cause-effect"],
+      "tip": "Cold front: cold air bully → scoops under warm air → shoves it up hard → explosive storms."
+    },
+
+    {
+      "id": "q64",
+      "q": "Which scenario correctly describes a WARM FRONT cause-and-effect?",
+      "correct": "Warm air advances and gently slides over cold air → slow rise → steady rain",
+      "incorrect": [
+        "Cold air pushes under warm air → fast rise → thunderstorms",
+        "Air sinks over a warm ocean → dries out → clear skies",
+        "Two warm air masses collide → one rises → hailstorm"
+      ],
+      "why_correct": "Warm front mechanism: less-dense warm air glides up over cold air at a shallow angle — gradual lifting over a wide area produces steady, widespread rain.",
+      "why_wrong": [
+        "Cold air pushing under warm air is the cold front mechanism — fast and intense.",
+        "Sinking air over ocean describes subsidence under high pressure — not a warm front.",
+        "Two warm air masses don't typically create fronts — fronts form where warm meets cold."
+      ],
+      "concepts": ["warm-front", "cause-effect"],
+      "tip": "Warm front: warm air politely slides up over cold air → slow rise → wide, steady rain."
+    },
+
+    {
+      "id": "q65",
+      "q": "What must happen for PRECIPITATION to occur from a cloud?",
+      "correct": "Droplets must combine and grow heavy enough to fall",
+      "incorrect": [
+        "The cloud must reach the ground",
+        "Wind must stop completely",
+        "The sun must be blocked for at least 6 hours"
+      ],
+      "why_correct": "Cloud droplets are tiny and stay suspended. They collide and coalesce until they're large and heavy enough that gravity overcomes updrafts — then they fall as precipitation.",
+      "why_wrong": [
+        "Clouds don't need to reach the ground — precipitation falls from high-altitude clouds all the time.",
+        "Wind has no requirement of stopping — in fact, stormy precipitation often accompanies strong winds.",
+        "Sun blocking is not a requirement for rain — precipitation happens at night too."
+      ],
+      "concepts": ["precipitation", "cloud-formation"],
+      "tip": "Tiny droplets float. Big droplets fall. Thousands of collisions grow a droplet from microscopic to raindrop size."
+    },
+
+    {
+      "id": "q66",
+      "q": "What causes FOG?",
+      "correct": "Surface air cools to the dew point and water vapor condenses near the ground",
+      "incorrect": [
+        "Warm air rises and forms clouds at ground level",
+        "Heavy precipitation soaks the ground and evaporates",
+        "High pressure forces moisture downward"
+      ],
+      "why_correct": "Fog is essentially a cloud at ground level — when the air at the surface cools to the dew point (often at night), water vapor condenses into tiny droplets.",
+      "why_wrong": [
+        "Warm air rises — it doesn't stay at ground level. Fog forms when air cools and stays near the surface.",
+        "Ground evaporation after rain can contribute to humidity but doesn't directly cause fog.",
+        "High pressure dries the air — it suppresses, not creates, fog."
+      ],
+      "concepts": ["condensation", "dew-point", "fog"],
+      "tip": "Fog = cloud at ground. Same process: air cools to dew point → vapor condenses. Just happens right at the surface instead of high up."
+    },
+
+    {
+      "id": "q67",
+      "q": "Why does a mountain range cause a RAIN SHADOW on its leeward side?",
+      "correct": "Moist air loses moisture as rain on the windward side, arriving dry on the other side",
+      "incorrect": [
+        "Mountains block sunlight, cooling the leeward side",
+        "Wind reverses direction on the leeward side and blows moisture away",
+        "Cold mountain air sinks and warms, but stays cold enough for rain"
+      ],
+      "why_correct": "Air forced up the windward slope cools, condenses, and rains out its moisture. By the time it descends the leeward side, it's dry — creating desert-like conditions.",
+      "why_wrong": [
+        "Sunlight blockage is not the mechanism — air losing moisture through precipitation is.",
+        "Wind continues over and down the mountain — it doesn't reverse.",
+        "Sinking leeward air warms adiabatically and is too warm and dry for rain."
+      ],
+      "concepts": ["precipitation", "rain-shadow"],
+      "tip": "Windward = wet. Leeward = desert dry. Mountains squeeze moisture out of air on one side; the other side gets none."
+    },
+
+    {
+      "id": "q68",
+      "q": "What is OROGRAPHIC LIFT?",
+      "correct": "Air being forced upward by a mountain, causing cooling and precipitation",
+      "incorrect": [
+        "Warm air rising naturally over flat land",
+        "Air sinking on the windward side of a mountain",
+        "Cold front pushing air over the Rockies"
+      ],
+      "why_correct": "Orographic lift is the forced uplift of air when it encounters elevated terrain. The air rises, cools, reaches the dew point, and precipitation falls on the windward slopes.",
+      "why_wrong": [
+        "Air rising over flat land by heating is convection — not orographic lift.",
+        "Air sinks on the LEEWARD side — it rises on the windward side during orographic lift.",
+        "Cold fronts can interact with mountains, but orographic lift is specifically terrain-forced lifting."
+      ],
+      "concepts": ["orographic-lift", "precipitation"],
+      "tip": "Oro = mountain. Orographic lift = mountain forces air UP. Up = cool = rain on that side."
+    },
+
+    {
+      "id": "q69",
+      "q": "The TROPOSPHERE is the layer of atmosphere where ____.",
+      "correct": "Most weather occurs",
+      "incorrect": [
+        "The ozone layer is found",
+        "Satellites orbit Earth",
+        "Air pressure is zero"
+      ],
+      "why_correct": "The troposphere is the lowest atmospheric layer (0–12 km), containing 75% of the atmosphere's mass — virtually all weather happens here.",
+      "why_wrong": [
+        "The ozone layer is in the stratosphere, directly above the troposphere.",
+        "Satellites orbit in the thermosphere/exosphere — far above the troposphere.",
+        "Air pressure is zero in the vacuum of space — the troposphere has the highest pressure."
+      ],
+      "concepts": ["troposphere", "atmosphere"],
+      "tip": "Tropo = turning or changing. The troposphere is always mixing and changing — that's where weather lives."
+    },
+
+    {
+      "id": "q70",
+      "q": "Temperature in the TROPOSPHERE ____ as altitude increases.",
+      "correct": "Decreases",
+      "incorrect": [
+        "Increases",
+        "Stays the same",
+        "Increases then decreases"
+      ],
+      "why_correct": "In the troposphere, temperature drops with altitude (about 6.5°C per 1,000 m) because air is primarily heated from the surface below — not from above.",
+      "why_wrong": [
+        "Temperature increasing with altitude describes the stratosphere — not the troposphere.",
+        "Temperature changes consistently with altitude in the troposphere.",
+        "Increases then decreases is the pattern spanning the troposphere and stratosphere combined."
+      ],
+      "concepts": ["troposphere", "temperature", "lapse-rate"],
+      "tip": "Higher = colder in the troposphere. Mountains are cold. Planes fly in very cold air. Heat comes from the warm ground below."
+    },
+
+    {
+      "id": "q71",
+      "q": "Which correctly describes the order of events in a COLD FRONT passage?",
+      "correct": "Warm and humid → storms → cold and clear",
+      "incorrect": [
+        "Cold and clear → storms → warm and humid",
+        "Light rain → warming → thunderstorms → clearing",
+        "High cirrus clouds → stratus rain → gradual warming"
+      ],
+      "why_correct": "Before a cold front: warm, moist air mass. During: violent uplift = storms. After: cold air mass takes control = cold and clear.",
+      "why_wrong": [
+        "Cold and clear → storms → warm describes a warm front approaching a cold air mass — reversed.",
+        "Light rain → warming → thunderstorms is a warm front pattern, not cold.",
+        "High cirrus → stratus rain → gradual warming is the warm front cloud sequence."
+      ],
+      "concepts": ["cold-front", "sequence"],
+      "tip": "Cold front in three acts: warm setup → storm climax → cold clear ending. Fast drama."
+    },
+
+    {
+      "id": "q72",
+      "q": "Which correctly describes the order of events in a WARM FRONT passage?",
+      "correct": "High cirrus clouds → thickening clouds → steady rain → warming",
+      "incorrect": [
+        "Sudden storms → clearing → temperature drop",
+        "Clear skies → cold snap → heavy snow → warming",
+        "Dense fog → thunderstorms → gradual cooling"
+      ],
+      "why_correct": "Warm fronts announce themselves far in advance with high thin cirrus, then clouds lower and thicken as the front nears, producing steady rain, then warming when the front passes.",
+      "why_wrong": [
+        "Sudden storms → clearing → temperature drop is the cold front pattern.",
+        "Cold snaps and heavy snow then warming is not a standard warm front sequence.",
+        "Dense fog → thunderstorms is not the warm front progression."
+      ],
+      "concepts": ["warm-front", "sequence"],
+      "tip": "Warm front slow reveal: first you see high thin clouds way ahead. Clouds lower over hours. Rain begins. Front arrives. Warmth follows."
+    },
+
+    {
+      "id": "q73",
+      "q": "Which type of front would you identify from: slow approach, high cirrus clouds first, steady light rain, temperature gradually rising?",
+      "correct": "Warm front",
+      "incorrect": [
+        "Cold front",
+        "Stationary front",
+        "High pressure system"
+      ],
+      "why_correct": "Every clue points to a warm front: slow approach, cirrus clouds far ahead, widening cloud cover, gentle steady rain, gradual temperature rise.",
+      "why_wrong": [
+        "Cold fronts approach quickly with cumulonimbus clouds and bring sudden heavy rain then a temperature drop.",
+        "Stationary fronts don't approach — they're already in place.",
+        "High pressure systems bring clear skies — no rain or approaching clouds."
+      ],
+      "concepts": ["warm-front", "identification"],
+      "tip": "Slow, high clouds first, steady light rain, warming after = warm front every time."
+    },
+
+    {
+      "id": "q74",
+      "q": "Which type of front would you identify from: fast-moving, cumulonimbus clouds, heavy thunderstorms, sudden temperature drop?",
+      "correct": "Cold front",
+      "incorrect": [
+        "Warm front",
+        "Stationary front",
+        "Low pressure ridge"
+      ],
+      "why_correct": "All clues match a cold front: fast movement, tall explosive clouds, intense short-lived storms, and a sharp temperature drop after passage.",
+      "why_wrong": [
+        "Warm fronts move slowly, produce stratus clouds, and bring gradual rain with a temperature rise.",
+        "Stationary fronts are stalled — they don't move fast.",
+        "A low pressure ridge is a pressure feature, not a front boundary."
+      ],
+      "concepts": ["cold-front", "identification"],
+      "tip": "Fast + cumulonimbus + thunderstorm + sudden cold = cold front. All four clues point the same way."
+    },
+
+    {
+      "id": "q75",
+      "q": "What happens to HUMIDITY after a cold front passes?",
+      "correct": "Humidity drops — cold air is dry",
+      "incorrect": [
+        "Humidity rises — cold air holds more moisture",
+        "Humidity stays the same",
+        "Humidity spikes then slowly drops over days"
+      ],
+      "why_correct": "Cold air masses that form over continental regions are typically dry — after a cold front passes, relative humidity drops and the air feels crisp and dry.",
+      "why_wrong": [
+        "Cold air actually holds LESS moisture than warm air — so humidity drops after a cold front.",
+        "Humidity changes dramatically when an air mass changes.",
+        "A single spike then slow drop is not the typical cold front humidity pattern."
+      ],
+      "concepts": ["cold-front", "humidity"],
+      "tip": "After cold front: cold AND dry. Before: warm AND muggy. The whole air mass changes."
+    },
+
+    {
+      "id": "q76",
+      "q": "What happens to HUMIDITY as a warm front approaches?",
+      "correct": "Humidity increases — the approaching warm air mass carries more moisture",
+      "incorrect": [
+        "Humidity decreases — the cold air dries the region first",
+        "Humidity stays the same until the front fully passes",
+        "Humidity drops as clouds form"
+      ],
+      "why_correct": "The warm, moist air mass advancing with the front brings increasing humidity — air feels more muggy as the warm front nears.",
+      "why_wrong": [
+        "Humidity increases as the warm moist air approaches — the cold air retreats.",
+        "Humidity changes are gradual but begin well before the front fully passes.",
+        "Cloud formation is caused by increasing humidity — they occur together."
+      ],
+      "concepts": ["warm-front", "humidity"],
+      "tip": "Warm front approaching = more moisture in the air. The muggy feeling builds before the rain starts."
+    },
+
+    {
+      "id": "q77",
+      "q": "Which comparison between fronts and pressure is CORRECT?",
+      "correct": "Cold fronts are associated with rising low pressure ahead; warm fronts are also tied to low pressure systems",
+      "incorrect": [
+        "Cold fronts bring high pressure; warm fronts bring low pressure",
+        "Both cold and warm fronts always bring high pressure",
+        "Warm fronts bring high pressure; cold fronts bring low pressure"
+      ],
+      "why_correct": "Both cold and warm fronts are features of mid-latitude low pressure systems. They form on the edges of low pressure centers where air masses meet.",
+      "why_wrong": [
+        "Cold fronts don't bring high pressure — they're associated with the low pressure storm system.",
+        "Fronts (cold and warm) both bring clouds and precipitation — associated with low, not high, pressure.",
+        "Warm fronts are not associated with high pressure — both fronts exist within low pressure systems."
+      ],
+      "concepts": ["cold-front", "warm-front", "air-pressure"],
+      "tip": "Both types of fronts are part of low pressure storm systems. High pressure = no fronts, just clear skies."
+    },
+
+    {
+      "id": "q78",
+      "q": "What causes the SOUND of THUNDER during a cold front thunderstorm?",
+      "correct": "Lightning superheats air, which expands rapidly and creates a shockwave",
+      "incorrect": [
+        "Cold and warm air masses collide and compress air",
+        "Heavy rain hitting the ground creates loud booms",
+        "Clouds colliding with each other produce the sound"
+      ],
+      "why_correct": "Lightning instantly heats the surrounding air to tens of thousands of degrees — the explosive expansion of that air creates the pressure wave we hear as thunder.",
+      "why_wrong": [
+        "Air mass collision creates fronts and wind — not the sharp crack of thunder.",
+        "Rain hitting the ground makes noise but nothing like thunder.",
+        "Clouds don't collide — thunder is produced by lightning's explosive heating."
+      ],
+      "concepts": ["cold-front", "thunderstorms"],
+      "tip": "Lightning = instant extreme heat → air explodes outward → shockwave = thunder. The longer the gap between flash and boom, the farther away the lightning."
+    },
+
+    {
+      "id": "q79",
+      "q": "What energy transfer process heats Earth's surface and drives atmospheric energy?",
+      "correct": "Radiation — the sun transfers energy through electromagnetic waves",
+      "incorrect": [
+        "Conduction — the sun physically touches Earth's surface",
+        "Convection — the sun stirs the atmosphere directly",
+        "Precipitation — rain carries solar energy to the ground"
+      ],
+      "why_correct": "The sun's energy travels 150 million km through the vacuum of space as electromagnetic radiation (light) — no medium needed. This heats the surface, which then drives convection.",
+      "why_wrong": [
+        "Conduction requires physical contact — the sun is 150 million km away.",
+        "Convection in the atmosphere is driven by solar energy but the sun itself doesn't stir the air directly.",
+        "Precipitation is a result of atmospheric energy — not how solar energy reaches Earth."
+      ],
+      "concepts": ["solar-energy", "radiation", "heat-transfer"],
+      "tip": "Sun → space → Earth via radiation (no contact needed). Then Earth warms air via conduction. Then air circulates via convection."
+    },
+
+    {
+      "id": "q80",
+      "q": "Which step in the atmosphere energy sequence comes FIRST?",
+      "correct": "Sun heats Earth's surface",
+      "incorrect": [
+        "Water evaporates from the surface",
+        "Air rises and forms clouds",
+        "Cold air sinks and creates high pressure"
+      ],
+      "why_correct": "The sun heating the surface is the initial energy input — all subsequent atmospheric processes (evaporation, convection, cloud formation, wind) are downstream effects.",
+      "why_wrong": [
+        "Evaporation is driven by surface heating — it comes after the sun heats the surface.",
+        "Air rising and forming clouds is step three or four — well after initial surface heating.",
+        "Cold air sinking is part of the convection loop — it requires warm air to have already risen first."
+      ],
+      "concepts": ["solar-energy", "atmosphere", "sequence"],
+      "tip": "Everything starts with the sun. No sun = no heat = no evaporation = no wind = no weather. Sun is always step one."
+    },
+
+    {
+      "id": "q81",
+      "q": "Place these in correct CAUSE-AND-EFFECT ORDER: wind forms, pressure difference, sun heats surface unevenly, warm air rises.",
+      "correct": "Sun heats unevenly → warm air rises → pressure difference → wind forms",
+      "incorrect": [
+        "Wind forms → pressure difference → sun heats → warm air rises",
+        "Pressure difference → sun heats → wind → warm air rises",
+        "Warm air rises → sun heats → wind → pressure difference"
+      ],
+      "why_correct": "Uneven solar heating creates rising warm air → departure of air from surface creates low pressure → surrounding higher pressure air flows in = wind.",
+      "why_wrong": [
+        "Wind is the final result — it doesn't start the sequence.",
+        "Pressure difference is caused by uneven heating — it comes after, not before.",
+        "Warm air rises because of solar heating — rising air doesn't precede the sun."
+      ],
+      "concepts": ["solar-energy", "wind", "cause-effect"],
+      "tip": "Sun → heat → rise → pressure gap → wind. The chain always starts with the sun and ends with wind."
+    },
+
+    {
+      "id": "q82",
+      "q": "Place these in correct ORDER: condensation occurs, water vapor rises, temperature drops, clouds form.",
+      "correct": "Water vapor rises → temperature drops → condensation occurs → clouds form",
+      "incorrect": [
+        "Clouds form → condensation occurs → temperature drops → water vapor rises",
+        "Temperature drops → clouds form → water vapor rises → condensation",
+        "Condensation occurs → temperature drops → water vapor rises → clouds form"
+      ],
+      "why_correct": "Vapor rises with warm air → altitude brings lower temperature → cooling triggers condensation → condensed droplets make up the cloud.",
+      "why_wrong": [
+        "Clouds are the final result — they can't come before condensation.",
+        "Temperature drops because the vapor rises — the drop is caused by rising, not before it.",
+        "Condensation is caused by temperature drop — it can't precede the drop."
+      ],
+      "concepts": ["cloud-formation", "sequence"],
+      "tip": "Up → cool → condense → cloud. Follow the water molecule on its journey upward."
+    },
+
+    {
+      "id": "q83",
+      "q": "Which is an example of CONDUCTION in the atmosphere?",
+      "correct": "Earth's warm surface directly heating the air molecules touching it",
+      "incorrect": [
+        "Warm air rising and cool air sinking in a loop",
+        "The sun sending energy through space to Earth",
+        "Wind carrying warm air from one place to another"
+      ],
+      "why_correct": "Conduction is heat transfer through direct contact — the warm ground heats air molecules that touch its surface through molecular collision.",
+      "why_wrong": [
+        "Warm air rising and cool air sinking is convection.",
+        "Energy through space from the sun is radiation.",
+        "Wind carrying warm air is advection — a form of heat transfer by bulk movement."
+      ],
+      "concepts": ["conduction", "heat-transfer"],
+      "tip": "Conduction = contact. Ground touches air molecules directly → heat passes by molecular bumping."
+    },
+
+    {
+      "id": "q84",
+      "q": "Which correctly describes RADIATION as it applies to weather?",
+      "correct": "The sun transfers energy through space via electromagnetic waves",
+      "incorrect": [
+        "Heat moves through direct contact between land and air",
+        "Heat is transferred by circulating air currents",
+        "Moisture falls from clouds through the air"
+      ],
+      "why_correct": "Radiation doesn't need a medium — the sun's energy travels 150 million km through the vacuum of space as electromagnetic waves and heats Earth's surface.",
+      "why_wrong": [
+        "Direct contact is conduction — radiation requires no contact.",
+        "Circulating air currents is convection — a separate heat transfer process.",
+        "Moisture falling from clouds is precipitation — not radiation."
+      ],
+      "concepts": ["radiation", "solar-energy", "heat-transfer"],
+      "tip": "Radiation = no contact needed. Sunlight travels through empty space. That's radiation reaching Earth."
+    },
+
+    {
+      "id": "q85",
+      "q": "Which of the following is NOT a type of weather front?",
+      "correct": "Barometric front",
+      "incorrect": [
+        "Cold front",
+        "Warm front",
+        "Stationary front"
+      ],
+      "why_correct": "The four main front types are cold, warm, stationary, and occluded. 'Barometric front' is not a meteorological term.",
+      "why_wrong": [
+        "Cold front is a real and major front type.",
+        "Warm front is a real and major front type.",
+        "Stationary front is a real front type — when neither air mass advances."
+      ],
+      "concepts": ["weather-fronts", "identification"],
+      "tip": "Know your four fronts: cold, warm, stationary, occluded. Anything else is not a front type."
+    }
+
+  ]
+}

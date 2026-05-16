@@ -163,6 +163,15 @@
       "file": "data/civics/Unit 4/civics-unit4-quiz.json"
     },
     {
+      "id": "civics-unit5-quiz",
+      "name": "Unit 5: State and Local Government",
+      "subject": "Civics",
+      "type": "quiz",
+      "created": "2026-05-16",
+      "wordCount": 90,
+      "file": "data/civics/Unit 5/civics-unit5-quiz.json"
+    },
+    {
       "id": "spanish-unit5-quiz",
       "name": "Unit 5: Combined Object Pronouns",
       "subject": "Spanish",
@@ -170,6 +179,15 @@
       "created": "2026-05-13",
       "wordCount": 80,
       "file": "data/spanish/Unit 5/spanish-unit5-quiz.json"
+    },
+    {
+      "id": "earth-science-unit7-quiz",
+      "name": "Unit 7: Weather Fronts & Atmospheric Processes",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-05-16",
+      "wordCount": 85,
+      "file": "data/earth-science/Unit 7/earth-science-unit7-quiz.json"
     }
   ]
 }
