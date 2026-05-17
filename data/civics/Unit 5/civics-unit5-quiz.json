@@ -55,7 +55,7 @@
         "A 2/3 majority in both chambers",
         "A unanimous vote in the Senate only"
       ],
-      "why_correct": "NC requires 3/5 of both the Senate and House to override a Governor's veto — a higher bar than a simple majority.",
+      "why_correct": "NC requires 3/5 of both the Senate and House to override a Governor's veto.",
       "why_wrong": [
         "A simple majority is not enough in NC.",
         "NC uses 3/5, not 2/3.",
@@ -93,7 +93,7 @@
         "Only one term total — can never run again",
         "Three terms maximum with no break required"
       ],
-      "why_correct": "NC's Governor is limited to 2 consecutive terms but may run again after a term out of office, unlike states that ban a third term entirely.",
+      "why_correct": "NC's Governor is limited to 2 consecutive terms but may run again after a term out of office.",
       "why_wrong": [
         "NC does have term limits.",
         "The Governor may run again after sitting out a term.",
@@ -114,7 +114,7 @@
       ],
       "why_correct": "The Lt. Governor presides over the Senate and is next in line to become Governor if the Governor is unable to serve.",
       "why_wrong": [
-        "The Speaker of the House leads the House, not the Lt. Governor.",
+        "The Speaker of the House leads the House.",
         "The Chief Justice heads the judicial system.",
         "The State Budget Director is a separate appointed role."
       ],
@@ -131,9 +131,9 @@
         "The legislature selects the Lt. Governor independently",
         "The Governor appoints a Lt. Governor from the opposing party"
       ],
-      "why_correct": "Unlike the President and Vice President who run together, NC's Governor and Lt. Governor are elected separately — voters can choose different parties for each.",
+      "why_correct": "Unlike the President and VP who run together, NC's Governor and Lt. Governor are elected separately — voters can choose different parties for each.",
       "why_wrong": [
-        "No law requires different parties — it can happen naturally from separate races.",
+        "No law requires different parties.",
         "The Lt. Governor is elected by voters, not the legislature.",
         "The Governor does not appoint the Lt. Governor."
       ],
@@ -143,44 +143,139 @@
 
     {
       "id": "q08",
-      "q": "Which of the following is one of the Governor's duties?",
-      "correct": "Signs or vetoes bills passed by the General Assembly",
+      "q": "Which of the following is one of the duties the Governor of North Carolina performs?",
+      "correct": "Appoints officials to state boards, commissions, and vacancies",
       "incorrect": [
         "Presides over sessions of the NC Senate",
-        "Appoints members of the General Assembly",
-        "Serves as Chief Justice of the NC Supreme Court"
+        "Serves as Chief Justice of the NC Supreme Court",
+        "Approves the state budget without legislative input"
       ],
-      "why_correct": "A core executive duty is signing legislation into law or vetoing it to send it back to the legislature.",
+      "why_correct": "One of the Governor's key duties is appointing people to serve on state boards, commissions, and filling vacancies in government offices.",
       "why_wrong": [
         "The Lt. Governor presides over the Senate.",
-        "General Assembly members are elected, not appointed by the Governor.",
-        "The Chief Justice is a judicial role, not an executive one."
+        "The Chief Justice is a judicial role, not executive.",
+        "The budget must be approved by the General Assembly."
       ],
       "concepts": ["governor", "executive-duties"],
-      "tip": "Governor signs or vetoes bills — key check on the legislature."
+      "tip": "Governor duties include appointing officials, signing/vetoing bills, commanding the National Guard, and more."
     },
 
     {
       "id": "q09",
-      "q": "Which of the following is one of the six roles of the NC Governor?",
-      "correct": "Commander-in-Chief of the NC National Guard",
+      "q": "The Governor's role as COMMANDER-IN-CHIEF means the Governor _____.",
+      "correct": "Commands the NC National Guard",
       "incorrect": [
-        "Chief Justice of the NC Supreme Court",
-        "President of the NC Senate",
-        "Chair of the General Assembly"
+        "Leads all federal military forces in NC",
+        "Directs the NC State Highway Patrol only",
+        "Oversees the NC Supreme Court"
       ],
-      "why_correct": "The Governor is the Commander-in-Chief of NC's state military forces (the National Guard), one of the six official roles.",
+      "why_correct": "As Commander-in-Chief of the NC National Guard, the Governor can deploy state troops in emergencies.",
       "why_wrong": [
-        "The Chief Justice leads the courts — a judicial role.",
-        "The Lt. Governor is President of the Senate.",
-        "The General Assembly is led by its own elected leaders."
+        "Federal military forces answer to the President, not the Governor.",
+        "The Highway Patrol falls under the executive branch but Commander-in-Chief specifically refers to the National Guard.",
+        "The Supreme Court is a separate judicial branch."
       ],
-      "concepts": ["governor", "six-roles"],
-      "tip": "Six roles: Commander-in-Chief, Chief Executive, Budget Director, Ceremonial Leader, Chief Legislator, Chief of Appointments."
+      "concepts": ["governor", "commander-in-chief"],
+      "tip": "Commander-in-Chief = NC National Guard."
     },
 
     {
       "id": "q10",
+      "q": "The Governor's role as CHIEF EXECUTIVE means the Governor _____.",
+      "correct": "Enforces and implements state laws",
+      "incorrect": [
+        "Passes new state legislation",
+        "Interprets disputed state laws",
+        "Sets the state tax rates"
+      ],
+      "why_correct": "As Chief Executive, the Governor runs state government and ensures that laws passed by the General Assembly are carried out.",
+      "why_wrong": [
+        "Passing legislation is the General Assembly's job.",
+        "Interpreting laws is the judicial branch's job.",
+        "Tax rates are set by the legislature."
+      ],
+      "concepts": ["governor", "chief-executive"],
+      "tip": "Chief Executive = runs state government, enforces laws."
+    },
+
+    {
+      "id": "q11",
+      "q": "The Governor's role as BUDGET DIRECTOR means the Governor _____.",
+      "correct": "Proposes the state budget to the General Assembly",
+      "incorrect": [
+        "Approves all state spending without legislative review",
+        "Collects state taxes directly",
+        "Audits state agencies for waste"
+      ],
+      "why_correct": "The Governor prepares and proposes the state budget, but the General Assembly must approve it.",
+      "why_wrong": [
+        "The legislature must approve the budget — the Governor cannot spend unilaterally.",
+        "Tax collection is handled by the Department of Revenue.",
+        "Auditing state agencies is the role of the State Auditor."
+      ],
+      "concepts": ["governor", "budget-director"],
+      "tip": "Budget Director = proposes the budget; legislature approves it."
+    },
+
+    {
+      "id": "q12",
+      "q": "The Governor's role as CEREMONIAL LEADER means the Governor _____.",
+      "correct": "Represents NC at official events and welcomes dignitaries",
+      "incorrect": [
+        "Presides over the General Assembly",
+        "Serves as NC's ambassador to the federal government",
+        "Signs all state contracts on behalf of NC"
+      ],
+      "why_correct": "As Ceremonial Leader, the Governor is the public face of NC — attending events, hosting officials, and representing the state.",
+      "why_wrong": [
+        "The Lt. Governor and Speaker of the House preside over their chambers.",
+        "NC has a federal congressional delegation for federal representation.",
+        "Contracts are handled by state agencies, not personally by the Governor."
+      ],
+      "concepts": ["governor", "ceremonial-leader"],
+      "tip": "Ceremonial Leader = public face of the state."
+    },
+
+    {
+      "id": "q13",
+      "q": "The Governor's role as CHIEF LEGISLATOR means the Governor _____.",
+      "correct": "Proposes legislation and signs or vetoes bills",
+      "incorrect": [
+        "Writes and votes on bills in the General Assembly",
+        "Appoints all members of the legislature",
+        "Sets the legislative calendar for the session"
+      ],
+      "why_correct": "The Governor influences legislation by recommending bills, delivering the State of the State address, and using the veto or signature on passed bills.",
+      "why_wrong": [
+        "The Governor is not a member of the General Assembly and cannot vote.",
+        "General Assembly members are elected, not appointed.",
+        "Legislative scheduling is handled by legislative leaders."
+      ],
+      "concepts": ["governor", "chief-legislator"],
+      "tip": "Chief Legislator = proposes laws, signs or vetoes bills."
+    },
+
+    {
+      "id": "q14",
+      "q": "The Governor's role as CHIEF OF APPOINTMENTS means the Governor _____.",
+      "correct": "Appoints people to state boards, commissions, and vacant offices",
+      "incorrect": [
+        "Elects members of the Council of State",
+        "Assigns judges to specific courts",
+        "Selects the Speaker of the House"
+      ],
+      "why_correct": "The Governor fills hundreds of positions on state boards, commissions, and vacant offices through the power of appointment.",
+      "why_wrong": [
+        "Council of State members are elected by voters.",
+        "Superior Court judges are elected; the Governor may fill vacancies but doesn't assign judges.",
+        "The Speaker of the House is chosen by House members, not the Governor."
+      ],
+      "concepts": ["governor", "chief-of-appointments"],
+      "tip": "Chief of Appointments = fills boards, commissions, and vacancies."
+    },
+
+    {
+      "id": "q15",
       "q": "What is the Council of State in NC?",
       "correct": "Ten elected executive officials who run state government departments",
       "incorrect": [
@@ -188,37 +283,113 @@
         "The upper chamber of the General Assembly",
         "A committee of NC Supreme Court justices"
       ],
-      "why_correct": "The Council of State is made up of ten independently elected officials — including the Attorney General, State Treasurer, and others — who oversee major state departments.",
+      "why_correct": "The Council of State is made up of ten independently elected officials who oversee major state departments — including the Attorney General, Treasurer, and Superintendent of Public Instruction.",
       "why_wrong": [
         "Council of State members are elected statewide, not appointed by the Governor.",
-        "The Senate is the upper chamber of the legislature — a different body entirely.",
-        "The Supreme Court justices are the judicial branch, not the Council of State."
+        "The Senate is the upper chamber of the legislature.",
+        "The Supreme Court justices are the judicial branch."
       ],
       "concepts": ["council-of-state", "executive-branch"],
-      "tip": "10 elected officials — Attorney General, Treasurer, Superintendent, and more."
+      "tip": "10 elected officials running major state departments."
     },
 
     {
-      "id": "q11",
+      "id": "q16",
+      "q": "What is the role of the ATTORNEY GENERAL on the Council of State?",
+      "correct": "Chief legal officer — represents NC in court and enforces state law",
+      "incorrect": [
+        "Manages state investments and the pension fund",
+        "Oversees NC's public school system",
+        "Audits state agencies for financial efficiency"
+      ],
+      "why_correct": "The Attorney General is NC's top lawyer, responsible for defending the state in lawsuits and enforcing consumer protection, civil rights, and criminal laws.",
+      "why_wrong": [
+        "Managing investments is the State Treasurer's role.",
+        "Overseeing public schools is the Superintendent of Public Instruction's role.",
+        "Auditing agencies is the State Auditor's role."
+      ],
+      "concepts": ["council-of-state", "attorney-general"],
+      "tip": "Attorney General = NC's chief lawyer."
+    },
+
+    {
+      "id": "q17",
+      "q": "What is the role of the STATE TREASURER on the Council of State?",
+      "correct": "Manages state investments and the state employee retirement fund",
+      "incorrect": [
+        "Collects state taxes from residents",
+        "Audits state agencies for waste and fraud",
+        "Oversees NC's banking regulations"
+      ],
+      "why_correct": "The State Treasurer manages billions in state investments and oversees the pension fund for state employees and teachers.",
+      "why_wrong": [
+        "Tax collection is handled by the Department of Revenue, not the Treasurer.",
+        "Auditing is the State Auditor's role.",
+        "Banking regulation is handled by the NC Commissioner of Banks."
+      ],
+      "concepts": ["council-of-state", "state-treasurer"],
+      "tip": "State Treasurer = manages state investments and retirement fund."
+    },
+
+    {
+      "id": "q18",
+      "q": "What is the role of the SUPERINTENDENT OF PUBLIC INSTRUCTION on the Council of State?",
+      "correct": "Oversees NC's public K–12 school system",
+      "incorrect": [
+        "Manages the state university system",
+        "Sets teacher pay rates for all districts",
+        "Appoints principals for public schools"
+      ],
+      "why_correct": "The Superintendent of Public Instruction leads the NC Department of Public Instruction and is responsible for implementing state education policy in K–12 schools.",
+      "why_wrong": [
+        "The university system is governed by the UNC Board of Governors.",
+        "Teacher pay is set by the General Assembly.",
+        "Principals are hired locally by school districts."
+      ],
+      "concepts": ["council-of-state", "superintendent"],
+      "tip": "Superintendent of Public Instruction = K–12 public schools."
+    },
+
+    {
+      "id": "q19",
+      "q": "What is the role of the STATE AUDITOR on the Council of State?",
+      "correct": "Audits state agencies to check for waste, fraud, and efficiency",
+      "incorrect": [
+        "Collects state income taxes",
+        "Manages the state budget",
+        "Represents NC in federal court"
+      ],
+      "why_correct": "The State Auditor independently reviews state agencies to ensure taxpayer money is being spent properly and efficiently.",
+      "why_wrong": [
+        "Tax collection is the Department of Revenue's job.",
+        "The Governor proposes the budget; the legislature approves it.",
+        "Federal court representation is the Attorney General's role."
+      ],
+      "concepts": ["council-of-state", "state-auditor"],
+      "tip": "State Auditor = watchdog for state spending."
+    },
+
+    {
+      "id": "q20",
       "q": "What are the two types of trial courts in NC?",
       "correct": "District Courts and Superior Courts",
       "incorrect": [
         "Municipal Courts and County Courts",
         "Circuit Courts and Supreme Courts",
-        "Trial Courts and Appellate Courts"
+        "Lower Courts and Appellate Courts"
       ],
-      "why_correct": "NC's trial court system has two levels: District Courts (lower) for minor matters and Superior Courts (higher) for serious cases.",
+      "why_correct": "NC's trial court system has two levels: District Courts for minor matters and Superior Courts for serious cases.",
       "why_wrong": [
-        "NC does not use a municipal/county court structure at the trial level.",
+        "NC does not use a municipal/county trial court structure.",
         "Circuit courts exist in other states; NC uses District and Superior Courts.",
-        "'Trial' and 'Appellate' describe court functions, not NC's specific court names."
+        "'Lower' and 'Appellate' describe court levels, not NC's specific court names."
       ],
       "concepts": ["trial-courts", "nc-court-system"],
-      "tip": "District = lower; Superior = higher — both are trial courts."
+      "tip": "District = lower trial court; Superior = higher trial court."
     },
 
     {
-      "id": "q12",
+      "id": "q21",
       "q": "What is the key difference between NC's District and Superior Courts?",
       "correct": "Superior Courts use jury trials; District Courts do not",
       "incorrect": [
@@ -226,29 +397,29 @@
         "Superior Courts only handle civil cases",
         "District Courts are statewide; Superior Courts are local"
       ],
-      "why_correct": "District Courts have a judge decide cases alone (no jury). Superior Courts handle more serious cases and use jury trials.",
+      "why_correct": "District Courts have a judge decide alone (no jury) for misdemeanors and small cases. Superior Courts handle felonies and major civil cases with jury trials.",
       "why_wrong": [
         "It's the opposite — Superior Courts handle felonies, District Courts handle misdemeanors.",
         "Superior Courts handle both criminal and civil cases.",
-        "Both court types operate in districts across the state."
+        "Both court types operate across the state."
       ],
       "concepts": ["district-court", "superior-court", "jury-trial"],
       "tip": "Superior = jury trial. District = judge alone."
     },
 
     {
-      "id": "q13",
+      "id": "q22",
       "q": "What is the role of the NC Court of Appeals?",
       "correct": "Reviews decisions made by trial courts",
       "incorrect": [
-        "Hears criminal trials for the most serious felonies",
-        "Passes final judgment with no further appeal possible",
+        "Hears original criminal trials for serious felonies",
+        "Makes final, unreviewable rulings on NC law",
         "Selects judges for the lower courts"
       ],
-      "why_correct": "The Court of Appeals is an intermediate appellate court — it reviews whether trial court decisions followed the law, but does not hold new trials.",
+      "why_correct": "The Court of Appeals is an intermediate appellate court — it reviews whether trial court decisions followed the law correctly.",
       "why_wrong": [
-        "The Court of Appeals does not conduct original trials — it reviews completed ones.",
-        "Decisions from the Court of Appeals can still be appealed to the NC Supreme Court.",
+        "The Court of Appeals does not hold original trials.",
+        "Its decisions can still be appealed to the NC Supreme Court.",
         "Judges are elected or appointed through a separate process."
       ],
       "concepts": ["court-of-appeals", "appellate-courts"],
@@ -256,17 +427,17 @@
     },
 
     {
-      "id": "q14",
-      "q": "Which NC court uses jury trials, and which does not?",
+      "id": "q23",
+      "q": "Which type of NC court uses jury trials, and which does not?",
       "correct": "Superior Court uses jury trials; District Court does not",
       "incorrect": [
         "District Court uses jury trials; Superior Court does not",
         "Both courts use jury trials for all cases",
         "Neither court uses jury trials — judges decide all cases"
       ],
-      "why_correct": "Superior Courts try felonies and major civil cases with juries. District Courts handle lesser matters with a judge deciding alone.",
+      "why_correct": "Superior Courts try felonies and major civil cases with juries. District Courts have a judge decide alone.",
       "why_wrong": [
-        "District Courts do not use juries — judges decide alone.",
+        "District Courts do not use juries.",
         "District Courts do not use juries.",
         "Superior Courts do use jury trials."
       ],
@@ -275,7 +446,7 @@
     },
 
     {
-      "id": "q15",
+      "id": "q24",
       "q": "Which statement about NC's Supreme Court is correct?",
       "correct": "It is the highest court in NC, with 7 justices",
       "incorrect": [
@@ -287,14 +458,14 @@
       "why_wrong": [
         "The Supreme Court does not hold original trials — it reviews appeals.",
         "NC's Supreme Court has 7 justices, not 9.",
-        "It can hear any case from the Court of Appeals, not only constitutional ones."
+        "It reviews any case from the Court of Appeals, not only constitutional ones."
       ],
       "concepts": ["nc-supreme-court"],
-      "tip": "NC Supreme Court = highest in state, 7 justices, last stop for appeals."
+      "tip": "NC Supreme Court = highest in state, 7 justices."
     },
 
     {
-      "id": "q16",
+      "id": "q25",
       "q": "What is the difference between a statute and an ordinance?",
       "correct": "A statute is state law; an ordinance is local law (city or county)",
       "incorrect": [
@@ -306,14 +477,14 @@
       "why_wrong": [
         "It is the opposite — statutes are state, ordinances are local.",
         "They are made by different levels of government.",
-        "Neither is defined by how long it lasts."
+        "Neither is defined by duration."
       ],
       "concepts": ["statute", "ordinance", "state-vs-local"],
       "tip": "Statute = state law. Ordinance = local law."
     },
 
     {
-      "id": "q17",
+      "id": "q26",
       "q": "What is the purpose of the Sheriff's Department?",
       "correct": "County-level law enforcement and operating the county jail",
       "incorrect": [
@@ -321,10 +492,10 @@
         "Prosecuting criminal cases in court",
         "Managing state prisons"
       ],
-      "why_correct": "The Sheriff's Department provides law enforcement for county areas (outside city limits) and runs the county jail.",
+      "why_correct": "The Sheriff's Department provides law enforcement for county areas and runs the county jail.",
       "why_wrong": [
         "City police departments handle law enforcement within city limits.",
-        "Prosecutors (District Attorneys) handle criminal cases in court.",
+        "District Attorneys handle prosecutions.",
         "State prisons are managed by the NC Department of Adult Correction."
       ],
       "concepts": ["sheriff", "local-law-enforcement"],
@@ -332,7 +503,7 @@
     },
 
     {
-      "id": "q18",
+      "id": "q27",
       "q": "What is the role of the City Manager in local government?",
       "correct": "A hired professional who manages day-to-day city operations",
       "incorrect": [
@@ -342,16 +513,16 @@
       ],
       "why_correct": "City Managers are professional administrators hired (not elected) to run city departments and implement policies set by the city council.",
       "why_wrong": [
-        "City Managers are hired, not elected — that's what makes them different from mayors.",
+        "City Managers are hired, not elected.",
         "City representatives in the legislature are state legislators, a separate role.",
-        "The Police Chief oversees the police department — the City Manager oversees all departments."
+        "The Police Chief oversees the police department under the City Manager."
       ],
       "concepts": ["city-manager", "local-government"],
-      "tip": "City Manager = hired professional, not elected — runs daily operations."
+      "tip": "City Manager = hired professional — runs daily operations."
     },
 
     {
-      "id": "q19",
+      "id": "q28",
       "q": "What is the purpose of the city council in local government?",
       "correct": "To set city policy and pass local ordinances",
       "incorrect": [
@@ -370,7 +541,7 @@
     },
 
     {
-      "id": "q20",
+      "id": "q29",
       "q": "What is an excise tax?",
       "correct": "A tax on specific goods such as gasoline, tobacco, and alcohol",
       "incorrect": [
@@ -389,7 +560,7 @@
     },
 
     {
-      "id": "q21",
+      "id": "q30",
       "q": "How do state governments generate most of their revenue?",
       "correct": "Through income taxes and sales taxes",
       "incorrect": [
@@ -408,8 +579,8 @@
     },
 
     {
-      "id": "q22",
-      "q": "A city passes a rule requiring businesses to close by midnight. This rule is called a(n) _____.",
+      "id": "q31",
+      "q": "A city passes a rule requiring businesses to close by midnight. This is called a(n) _____.",
       "correct": "Ordinance",
       "incorrect": [
         "Statute",
@@ -419,7 +590,7 @@
       "why_correct": "Cities pass ordinances — local laws that apply within the city's jurisdiction.",
       "why_wrong": [
         "Statutes are passed by the state legislature, not a city.",
-        "Executive orders are issued by the Governor or President, not city councils.",
+        "Executive orders are issued by the Governor or President.",
         "A veto is a rejection of a bill, not a law itself."
       ],
       "concepts": ["ordinance", "local-government"],
@@ -427,7 +598,7 @@
     },
 
     {
-      "id": "q23",
+      "id": "q32",
       "q": "NC's state legislature passes a new minimum wage law. This is called a _____.",
       "correct": "Statute",
       "incorrect": [
@@ -446,45 +617,7 @@
     },
 
     {
-      "id": "q24",
-      "q": "Which court would handle a felony armed robbery trial in NC?",
-      "correct": "Superior Court",
-      "incorrect": [
-        "District Court",
-        "Court of Appeals",
-        "NC Supreme Court"
-      ],
-      "why_correct": "Felony cases are tried in Superior Court, which also uses jury trials.",
-      "why_wrong": [
-        "District Courts handle misdemeanors and small civil cases.",
-        "The Court of Appeals reviews decisions — it does not hold trials.",
-        "The Supreme Court reviews appeals — it does not hold original trials."
-      ],
-      "concepts": ["superior-court", "felony"],
-      "tip": "Felony trial = Superior Court."
-    },
-
-    {
-      "id": "q25",
-      "q": "Which court would handle a speeding ticket in NC?",
-      "correct": "District Court",
-      "incorrect": [
-        "Superior Court",
-        "Court of Appeals",
-        "NC Supreme Court"
-      ],
-      "why_correct": "Traffic violations and minor infractions are heard in District Court, which handles misdemeanors and small matters without a jury.",
-      "why_wrong": [
-        "Superior Court handles felonies and larger civil cases.",
-        "The Court of Appeals does not hear original cases.",
-        "The Supreme Court only reviews appellate cases."
-      ],
-      "concepts": ["district-court", "traffic"],
-      "tip": "Minor offense = District Court."
-    },
-
-    {
-      "id": "q26",
+      "id": "q33",
       "q": "If the NC Governor is unable to serve, who takes over?",
       "correct": "The Lieutenant Governor",
       "incorrect": [
@@ -503,26 +636,7 @@
     },
 
     {
-      "id": "q27",
-      "q": "Which NC court is the final stop for a state-level appeal?",
-      "correct": "NC Supreme Court",
-      "incorrect": [
-        "Court of Appeals",
-        "Superior Court",
-        "District Court"
-      ],
-      "why_correct": "The NC Supreme Court is the state's highest court — its decisions are final within NC.",
-      "why_wrong": [
-        "The Court of Appeals is intermediate — its decisions can still be appealed.",
-        "Superior Court is a trial court, not the final appellate court.",
-        "District Court is the lowest trial court in NC."
-      ],
-      "concepts": ["nc-supreme-court", "appeals"],
-      "tip": "Supreme Court = final appeal within NC."
-    },
-
-    {
-      "id": "q28",
+      "id": "q34",
       "q": "Property taxes are the primary revenue source for which level of government?",
       "correct": "Local government (cities and counties)",
       "incorrect": [
@@ -530,71 +644,33 @@
         "Federal government",
         "All levels equally"
       ],
-      "why_correct": "Property taxes fund local governments — schools, fire departments, and county services — not the state or federal government.",
+      "why_correct": "Property taxes fund local governments — schools, fire departments, and county services.",
       "why_wrong": [
         "States rely mainly on income and sales taxes.",
         "The federal government does not collect property taxes.",
-        "Property tax revenue flows to local governments, not shared equally."
+        "Property tax revenue flows to local governments."
       ],
       "concepts": ["property-tax", "local-revenue"],
       "tip": "Property tax = local government funding."
     },
 
     {
-      "id": "q29",
-      "q": "Which of these officials is a member of NC's Council of State?",
-      "correct": "Attorney General",
+      "id": "q35",
+      "q": "What is the role of the COMMISSIONER OF AGRICULTURE on the Council of State?",
+      "correct": "Oversees farming, food safety, and agricultural programs in NC",
       "incorrect": [
-        "Chief Justice of the Supreme Court",
-        "Speaker of the House",
-        "U.S. Senator from NC"
+        "Manages state parks and natural resources",
+        "Regulates the insurance industry",
+        "Enforces workplace safety laws"
       ],
-      "why_correct": "The Attorney General is one of the ten elected members of NC's Council of State, which also includes the Treasurer, Superintendent of Public Instruction, and others.",
+      "why_correct": "The Commissioner of Agriculture runs the NC Department of Agriculture and Consumer Services, which supports farmers and ensures food safety.",
       "why_wrong": [
-        "The Chief Justice leads the courts — a separate branch entirely.",
-        "The Speaker of the House is a legislative leader, not a Council of State member.",
-        "U.S. Senators are federal officials, not part of NC's Council of State."
+        "Natural resources are managed by the Department of Natural and Cultural Resources.",
+        "Insurance regulation is handled by the Commissioner of Insurance.",
+        "Workplace safety is enforced by the Commissioner of Labor."
       ],
-      "concepts": ["council-of-state"],
-      "tip": "Council of State = 10 elected state executive officials."
-    },
-
-    {
-      "id": "q30",
-      "q": "What makes the council-manager form of local government distinct?",
-      "correct": "An elected council sets policy; a hired manager runs operations",
-      "incorrect": [
-        "The mayor controls all decisions without a council",
-        "The manager is elected and the council is appointed",
-        "State government appoints both the council and the manager"
-      ],
-      "why_correct": "In the council-manager model, voters elect the council for policy decisions while the council hires a professional City Manager for administration.",
-      "why_wrong": [
-        "The council still holds authority — the manager works for the council.",
-        "The manager is hired (not elected); the council is elected (not appointed).",
-        "Both positions are determined locally, not by the state."
-      ],
-      "concepts": ["city-manager", "council-manager", "local-government"],
-      "tip": "Council = policy (elected). Manager = operations (hired)."
-    },
-
-    {
-      "id": "q31",
-      "q": "The NC Governor's role as 'Budget Director' involves _____.",
-      "correct": "Proposing the state budget to the General Assembly",
-      "incorrect": [
-        "Approving all state spending without legislative review",
-        "Collecting state taxes directly",
-        "Auditing state agencies for waste"
-      ],
-      "why_correct": "The Governor proposes the state budget, but the General Assembly must approve it — a key check and balance.",
-      "why_wrong": [
-        "The legislature must approve the budget; the Governor cannot spend unilaterally.",
-        "Tax collection is handled by the Department of Revenue.",
-        "Auditing is the role of the State Auditor, a Council of State member."
-      ],
-      "concepts": ["governor", "six-roles", "budget"],
-      "tip": "Governor proposes budget; legislature approves it."
+      "concepts": ["council-of-state", "commissioner-of-agriculture"],
+      "tip": "Commissioner of Agriculture = farming and food safety."
     }
 
   ]
