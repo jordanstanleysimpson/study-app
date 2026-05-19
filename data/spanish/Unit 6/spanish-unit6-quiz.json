@@ -1,0 +1,766 @@
+{
+  "id": "spanish-unit6-quiz",
+  "name": "Unit 6: La Ropa, Object Pronouns & Present Progressive",
+  "subject": "Spanish",
+  "type": "quiz",
+  "quiz_mode": "fill-in",
+  "created": "2026-05-19",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "\"El abrigo\" means _____.",
+      "correct": "coat",
+      "incorrect": ["jacket", "raincoat", "vest"],
+      "direction": "es-to-en",
+      "tip": "El abrigo is heavier than a jacket."
+    },
+    {
+      "id": "q002",
+      "q": "\"Raincoat\" in Spanish is _____.",
+      "correct": "el impermeable",
+      "incorrect": ["el abrigo", "la chaqueta", "el chaleco"],
+      "direction": "en-to-es",
+      "tip": "Impermeable = waterproof."
+    },
+    {
+      "id": "q003",
+      "q": "\"La chaqueta\" means _____.",
+      "correct": "jacket",
+      "incorrect": ["coat", "vest", "raincoat"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q004",
+      "q": "\"Belt\" in Spanish is _____.",
+      "correct": "el cinturón",
+      "incorrect": ["el chaleco", "la bufanda", "el collar"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q005",
+      "q": "\"La falda\" means _____.",
+      "correct": "skirt",
+      "incorrect": ["dress", "shorts", "pants"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q006",
+      "q": "\"Dress\" in Spanish is _____.",
+      "correct": "el vestido",
+      "incorrect": ["la falda", "la camisa", "la sudadera"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q007",
+      "q": "\"La camiseta\" means _____.",
+      "correct": "t-shirt",
+      "incorrect": ["dress shirt", "sweatshirt", "jacket"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q008",
+      "q": "\"Sweatshirt\" in Spanish is _____.",
+      "correct": "la sudadera",
+      "incorrect": ["la camiseta", "la camisa", "la chaqueta"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q009",
+      "q": "\"La camisa\" means _____.",
+      "correct": "button-up shirt",
+      "incorrect": ["t-shirt", "sweatshirt", "undershirt"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q010",
+      "q": "\"Los pantalones cortos\" means _____.",
+      "correct": "shorts",
+      "incorrect": ["pants", "socks", "sandals"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q011",
+      "q": "\"El chaleco\" means _____.",
+      "correct": "vest",
+      "incorrect": ["jacket", "coat", "raincoat"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q012",
+      "q": "\"Las chanclas\" means _____.",
+      "correct": "flip-flops",
+      "incorrect": ["sandals", "sneakers", "high heels"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q013",
+      "q": "\"Sneakers / athletic shoes\" in Spanish is _____.",
+      "correct": "las zapatillas deportivas",
+      "incorrect": ["las chanclas", "las sandalias", "las botas"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q014",
+      "q": "\"Los zapatos de tacón\" means _____.",
+      "correct": "high heels",
+      "incorrect": ["boots", "sandals", "sneakers"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q015",
+      "q": "\"Boots\" in Spanish is _____.",
+      "correct": "las botas",
+      "incorrect": ["los zapatos", "las sandalias", "las chanclas"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q016",
+      "q": "\"La pulsera\" means _____.",
+      "correct": "bracelet",
+      "incorrect": ["necklace", "ring", "earring"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q017",
+      "q": "\"Ring\" in Spanish is _____.",
+      "correct": "el anillo",
+      "incorrect": ["la pulsera", "el collar", "la bufanda"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q018",
+      "q": "\"El collar\" means _____.",
+      "correct": "necklace",
+      "incorrect": ["ring", "bracelet", "scarf"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q019",
+      "q": "\"Scarf\" in Spanish is _____.",
+      "correct": "la bufanda",
+      "incorrect": ["el cinturón", "el collar", "la pulsera"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q020",
+      "q": "\"El sombrero\" means _____.",
+      "correct": "hat",
+      "incorrect": ["scarf", "belt", "umbrella"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q021",
+      "q": "\"Umbrella\" in Spanish is _____.",
+      "correct": "el paraguas",
+      "incorrect": ["el sombrero", "el impermeable", "la bufanda"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q022",
+      "q": "\"De rayas\" means _____.",
+      "correct": "striped",
+      "incorrect": ["plaid", "solid color", "polka-dotted"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q023",
+      "q": "\"Plaid / checkered\" in Spanish is _____.",
+      "correct": "de cuadros",
+      "incorrect": ["de rayas", "en oferta", "a la moda"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q024",
+      "q": "\"Quedar bien\" means _____.",
+      "correct": "to fit / look good on",
+      "incorrect": ["to be in style", "to be on sale", "to be too tight"],
+      "direction": "es-to-en",
+      "tip": "Quedar bien is about how something fits on a person."
+    },
+    {
+      "id": "q025",
+      "q": "\"Quedar mal\" means _____.",
+      "correct": "to not fit / look bad on",
+      "incorrect": ["to be out of style", "to be on clearance", "to be too loose"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q026",
+      "q": "\"Estar a la moda\" means _____.",
+      "correct": "to be in style",
+      "incorrect": ["to fit well", "to be on sale", "to look bad on"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q027",
+      "q": "\"Barato/a\" means _____.",
+      "correct": "cheap / inexpensive",
+      "incorrect": ["expensive", "tight-fitting", "loose-fitting"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q028",
+      "q": "\"Caro/a\" means _____.",
+      "correct": "expensive",
+      "incorrect": ["cheap", "tight", "loose"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q029",
+      "q": "\"Apretado/a\" means _____.",
+      "correct": "tight-fitting",
+      "incorrect": ["loose-fitting", "inexpensive", "striped"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q030",
+      "q": "\"Ancho/a\" means _____.",
+      "correct": "loose / wide",
+      "incorrect": ["tight / fitted", "cheap / on sale", "striped / checkered"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q031",
+      "q": "\"El dinero en efectivo\" means _____.",
+      "correct": "cash",
+      "incorrect": ["credit card", "store credit", "bank check"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q032",
+      "q": "\"Credit card\" in Spanish is _____.",
+      "correct": "la tarjeta de crédito",
+      "incorrect": ["el dinero en efectivo", "la cuenta bancaria", "el cheque de caja"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q033",
+      "q": "\"La oferta\" means _____.",
+      "correct": "sale / deal",
+      "incorrect": ["price / cost", "store / shop", "size / fit"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q034",
+      "q": "\"En oferta / liquidación\" means _____.",
+      "correct": "on sale / clearance",
+      "incorrect": ["in fashion / trendy", "in stock / available", "on credit / charged"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q035",
+      "q": "\"La zapatería\" is a store that sells _____.",
+      "correct": "shoes",
+      "incorrect": ["jewelry", "books", "clothing"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q036",
+      "q": "\"La joyería\" is a store that sells _____.",
+      "correct": "jewelry",
+      "incorrect": ["shoes", "books", "clothing"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q037",
+      "q": "\"La librería\" means _____.",
+      "correct": "bookstore",
+      "incorrect": ["library", "jewelry store", "clothing store"],
+      "direction": "es-to-en",
+      "tip": "Cuidado: librería = bookstore. Library = la biblioteca."
+    },
+    {
+      "id": "q038",
+      "q": "\"La moda\" means _____.",
+      "correct": "fashion / trend",
+      "incorrect": ["sale / deal", "brand / label", "size / style"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q039",
+      "q": "\"Los lentes de contacto\" means _____.",
+      "correct": "contact lenses",
+      "incorrect": ["sunglasses", "reading glasses", "eye drops"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q040",
+      "q": "\"Las zapatillas deportivas\" are specifically _____.",
+      "correct": "athletic / sports shoes",
+      "incorrect": ["dress shoes", "high-heeled shoes", "rubber rain boots"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q041",
+      "q": "With infinitives, object pronouns can go before the conjugated verb OR _____.",
+      "correct": "attached to the end of the infinitive",
+      "incorrect": ["after the sentence", "before the infinitive", "before the subject noun"],
+      "direction": "grammar",
+      "tip": "Two valid spots: before the conjugated verb OR on the infinitive."
+    },
+    {
+      "id": "q042",
+      "q": "\"Yo quiero comprarlo.\" The \"-lo\" is attached to the _____.",
+      "correct": "infinitive",
+      "incorrect": ["conjugated verb", "subject", "indirect object"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q043",
+      "q": "\"Yo lo quiero comprar.\" Here \"lo\" is placed _____.",
+      "correct": "before the conjugated verb",
+      "incorrect": ["after the infinitive", "at the end of the sentence", "after the subject"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q044",
+      "q": "\"Yo quiero comprarlo\" and \"Yo lo quiero comprar\" are _____.",
+      "correct": "both correct",
+      "incorrect": ["both incorrect", "different in meaning", "different in tense"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q045",
+      "q": "With AFFIRMATIVE commands, pronouns must _____.",
+      "correct": "attach to the end of the command",
+      "incorrect": ["go before the command", "stay separate from the verb", "go after the subject"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q046",
+      "q": "\"Léamelo\" means _____.",
+      "correct": "Read it to me.",
+      "incorrect": ["Give it to me.", "Tell it to me.", "Bring it to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q047",
+      "q": "\"Dímelo\" means _____.",
+      "correct": "Tell it to me.",
+      "incorrect": ["Read it to me.", "Give it to me.", "Write it to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q048",
+      "q": "In \"Léaselo,\" which pronoun is the IOP?",
+      "correct": "se (replacing le/les)",
+      "incorrect": ["lo", "la", "le"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q049",
+      "q": "When attaching pronouns to an infinitive or gerund, you often need _____.",
+      "correct": "an accent mark",
+      "incorrect": ["a hyphen", "a new word", "a capital letter"],
+      "direction": "grammar",
+      "tip": "Adding syllables shifts stress, so add an accent."
+    },
+    {
+      "id": "q050",
+      "q": "\"Yo voy a explicársela.\" The \"-se\" replaced what original pronoun?",
+      "correct": "le",
+      "incorrect": ["los", "me", "nos"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q051",
+      "q": "In \"Yo voy a explicársela,\" which pronoun is the DOP?",
+      "correct": "la",
+      "incorrect": ["se", "a", "yo"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q052",
+      "q": "\"A ella le gusta decírselo.\" This means _____.",
+      "correct": "She likes to tell it to him.",
+      "incorrect": ["She told it to them.", "He likes telling it to her.", "She needs to explain it to us."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q053",
+      "q": "With progressive verbs, pronouns can go before estar OR _____.",
+      "correct": "attached to the end of the gerund",
+      "incorrect": ["after the subject", "at the end of the sentence", "before the infinitive"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q054",
+      "q": "\"Ella está llamándome\" and \"Ella me está llamando\" are _____.",
+      "correct": "both correct",
+      "incorrect": ["both incorrect", "different meanings", "different tenses"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q055",
+      "q": "\"Yo estoy hablándole\" means _____.",
+      "correct": "I am talking to him/her.",
+      "incorrect": ["I was talking to him.", "I talk to her daily.", "I had talked to him."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q056",
+      "q": "\"Nosotros estamos considerándola.\" The \"-la\" is the _____.",
+      "correct": "direct object pronoun",
+      "incorrect": ["indirect object pronoun", "subject pronoun", "reflexive pronoun"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q057",
+      "q": "\"¿Quién está diéndonosla?\" means _____.",
+      "correct": "Who is telling it to us?",
+      "incorrect": ["Who told it to them?", "Who is giving it to me?", "Who was reading it to us?"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q058",
+      "q": "In \"¿Quién está diéndonosla?\", the IOP is _____.",
+      "correct": "nos",
+      "incorrect": ["la", "está", "quién"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q059",
+      "q": "What causes le/les to change to se in combined pronouns?",
+      "correct": "being followed by lo, la, los, or las",
+      "incorrect": ["being in a command", "being attached to a gerund", "being used with infinitives"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q060",
+      "q": "\"Ella está llamándome.\" The \"-me\" tells us _____.",
+      "correct": "the call is directed to me",
+      "incorrect": ["she is calling them", "she called me once", "the call has ended"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q061",
+      "q": "\"Nosotros la estamos considerando\" — the pronoun \"la\" is placed _____.",
+      "correct": "before the conjugated verb",
+      "incorrect": ["after the gerund", "at the end", "after the subject"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q062",
+      "q": "\"Tú necesitas hacerla.\" The \"-la\" is attached to the _____.",
+      "correct": "infinitive",
+      "incorrect": ["conjugated verb", "subject", "object noun"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q063",
+      "q": "In which THREE contexts can pronouns attach to a verb form?",
+      "correct": "infinitives, commands, progressives",
+      "incorrect": ["only commands", "nouns and infinitives", "any verb at any time"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q064",
+      "q": "In a NEGATIVE command, pronouns go _____.",
+      "correct": "before the command",
+      "incorrect": ["attached to the end", "after the subject", "at the end of the sentence"],
+      "direction": "grammar",
+      "tip": "Negative command = pronouns in front, like normal. Affirmative = attach."
+    },
+    {
+      "id": "q065",
+      "q": "\"Ella está llamándome\" — attach the pronoun differently: _____.",
+      "correct": "Ella me está llamando.",
+      "incorrect": ["Ella está me llamando.", "Ella está llamando me.", "Me ella está llamando."],
+      "direction": "grammar"
+    },
+    {
+      "id": "q066",
+      "q": "The present progressive uses _____ + the present participle.",
+      "correct": "estar",
+      "incorrect": ["ser", "tener", "ir"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q067",
+      "q": "Estar conjugated as yo: _____.",
+      "correct": "estoy",
+      "incorrect": ["soy", "tengo", "voy"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q068",
+      "q": "Estar conjugated as tú: _____.",
+      "correct": "estás",
+      "incorrect": ["eres", "tienes", "vas"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q069",
+      "q": "Estar conjugated as él/ella: _____.",
+      "correct": "está",
+      "incorrect": ["es", "tiene", "va"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q070",
+      "q": "Estar conjugated as nosotros: _____.",
+      "correct": "estamos",
+      "incorrect": ["somos", "tenemos", "vamos"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q071",
+      "q": "Estar conjugated as ellos/ellas: _____.",
+      "correct": "están",
+      "incorrect": ["son", "tienen", "van"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q072",
+      "q": "To form the present participle of -AR verbs, replace -ar with _____.",
+      "correct": "-ando",
+      "incorrect": ["-iendo", "-endo", "-yendo"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q073",
+      "q": "To form the present participle of -ER and -IR verbs, replace the ending with _____.",
+      "correct": "-iendo",
+      "incorrect": ["-ando", "-yendo", "-endo"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q074",
+      "q": "Present progressive is used to describe _____.",
+      "correct": "what is happening right now",
+      "incorrect": ["what happened in the past", "habits and routines", "what will happen later"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q075",
+      "q": "\"Hablar\" → present participle: _____.",
+      "correct": "hablando",
+      "incorrect": ["habliendo", "hablado", "habliando"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q076",
+      "q": "\"Comer\" → present participle: _____.",
+      "correct": "comiendo",
+      "incorrect": ["comando", "comado", "comiando"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q077",
+      "q": "\"Vivir\" → present participle: _____.",
+      "correct": "viviendo",
+      "incorrect": ["vivando", "vivado", "viviando"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q078",
+      "q": "\"Yo estoy hablando.\" This means _____.",
+      "correct": "I am speaking right now.",
+      "incorrect": ["I was speaking then.", "I speak regularly.", "I will speak soon."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q079",
+      "q": "\"Ellos están comiendo.\" This means _____.",
+      "correct": "They are eating right now.",
+      "incorrect": ["They were eating earlier.", "They eat every day.", "They will be eating soon."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q080",
+      "q": "\"Ella está aprendiendo español.\" Translate this: _____.",
+      "correct": "She is learning Spanish.",
+      "incorrect": ["She learned Spanish.", "She will learn Spanish.", "She learns Spanish."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q081",
+      "q": "\"Dormir\" → irregular present participle: _____.",
+      "correct": "durmiendo",
+      "incorrect": ["dormiendo", "dormando", "durmando"],
+      "direction": "grammar",
+      "tip": "o → u in the stem: dormir → durmiendo."
+    },
+    {
+      "id": "q082",
+      "q": "\"Servir\" → irregular present participle: _____.",
+      "correct": "sirviendo",
+      "incorrect": ["serviendo", "servando", "sirvando"],
+      "direction": "grammar",
+      "tip": "e → i in the stem: servir → sirviendo."
+    },
+    {
+      "id": "q083",
+      "q": "\"Pedir\" → irregular present participle: _____.",
+      "correct": "pidiendo",
+      "incorrect": ["pediendo", "pedando", "piediando"],
+      "direction": "grammar",
+      "tip": "e → i: pedir → pidiendo."
+    },
+    {
+      "id": "q084",
+      "q": "\"Seguir\" → irregular present participle: _____.",
+      "correct": "siguiendo",
+      "incorrect": ["seguiendo", "seguando", "sigando"],
+      "direction": "grammar",
+      "tip": "e → i: seguir → siguiendo."
+    },
+    {
+      "id": "q085",
+      "q": "\"Decir\" → irregular present participle: _____.",
+      "correct": "diciendo",
+      "incorrect": ["deciendo", "decando", "diciando"],
+      "direction": "grammar",
+      "tip": "e → i: decir → diciendo."
+    },
+    {
+      "id": "q086",
+      "q": "\"Poder\" → irregular present participle: _____.",
+      "correct": "pudiendo",
+      "incorrect": ["podiendo", "podando", "puediendo"],
+      "direction": "grammar",
+      "tip": "o → u: poder → pudiendo."
+    },
+    {
+      "id": "q087",
+      "q": "\"Venir\" → irregular present participle: _____.",
+      "correct": "viniendo",
+      "incorrect": ["veniendo", "venando", "veniando"],
+      "direction": "grammar",
+      "tip": "e → i: venir → viniendo."
+    },
+    {
+      "id": "q088",
+      "q": "\"Mentir\" → irregular present participle: _____.",
+      "correct": "mintiendo",
+      "incorrect": ["mentiendo", "mentando", "mintiando"],
+      "direction": "grammar",
+      "tip": "e → i: mentir → mintiendo."
+    },
+    {
+      "id": "q089",
+      "q": "\"Repetir\" → irregular present participle: _____.",
+      "correct": "repitiendo",
+      "incorrect": ["repetiendo", "repetando", "repitiando"],
+      "direction": "grammar",
+      "tip": "e → i: repetir → repitiendo."
+    },
+    {
+      "id": "q090",
+      "q": "\"Morir\" → irregular present participle: _____.",
+      "correct": "muriendo",
+      "incorrect": ["moriendo", "morando", "muriando"],
+      "direction": "grammar",
+      "tip": "o → u: morir → muriendo."
+    },
+    {
+      "id": "q091",
+      "q": "\"Competir\" → irregular present participle: _____.",
+      "correct": "compitiendo",
+      "incorrect": ["competiendo", "competando", "competiando"],
+      "direction": "grammar",
+      "tip": "e → i: competir → compitiendo."
+    },
+    {
+      "id": "q092",
+      "q": "The irregular participle pattern for most stem-changing -ir verbs is _____.",
+      "correct": "e → i in the stem",
+      "incorrect": ["o → ue in the stem", "e → ie in the stem", "no change in the stem"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q093",
+      "q": "\"Dormir\" and \"poder\" both change _____.",
+      "correct": "o → u in the stem",
+      "incorrect": ["e → i in the stem", "e → ie in the stem", "u → ue in the stem"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q094",
+      "q": "\"Mi hermano está durmiendo en su cuarto.\" Translate this: _____.",
+      "correct": "My brother is sleeping in his room.",
+      "incorrect": ["My brother slept in his room.", "My brother sleeps in his room.", "My brother was sleeping outside."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q095",
+      "q": "\"Carlos está trayendo los libros.\" Translate this: _____.",
+      "correct": "Carlos is bringing the books.",
+      "incorrect": ["Carlos brought the books.", "Carlos will bring the books.", "Carlos brings the books."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q096",
+      "q": "\"Nosotros estamos siguiendo al jefe.\" Translate this: _____.",
+      "correct": "We are following the boss.",
+      "incorrect": ["We followed the boss.", "We were following him.", "We follow the boss daily."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q097",
+      "q": "\"Yo estoy leyéndola.\" Another correct way to say this: _____.",
+      "correct": "Yo la estoy leyendo.",
+      "incorrect": ["Yo estoy la leyendo.", "Yo estoy leyendo la.", "La yo estoy leyendo."],
+      "direction": "grammar"
+    },
+    {
+      "id": "q098",
+      "q": "\"Ellos la están escuchando.\" Another correct way to say this: _____.",
+      "correct": "Ellos están escuchándola.",
+      "incorrect": ["Ellos están la escuchando.", "Ellos están escuchando la.", "Ellos la escuchándola están."],
+      "direction": "grammar"
+    },
+    {
+      "id": "q099",
+      "q": "\"Yo estoy leyéndola\" — the \"-la\" refers to _____.",
+      "correct": "a feminine direct object",
+      "incorrect": ["a feminine indirect object", "a masculine direct object", "a reflexive pronoun"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q100",
+      "q": "In \"Yo estoy leyéndola,\" the accent is needed because _____.",
+      "correct": "attaching a pronoun shifts the stress",
+      "incorrect": ["all gerunds take an accent", "la always requires an accent", "it is a spelling rule"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q101",
+      "q": "\"Yo estoy escuchando música.\" Replace \"música\" with a pronoun: _____.",
+      "correct": "Yo la estoy escuchando.",
+      "incorrect": ["Yo lo estoy escuchando.", "Yo estoy la escuchando.", "Yo estoy escuchando la."],
+      "direction": "grammar",
+      "tip": "Música is feminine → la."
+    },
+    {
+      "id": "q102",
+      "q": "\"Usted está comprando un libro.\" Replace \"un libro\" with a pronoun: _____.",
+      "correct": "Usted lo está comprando.",
+      "incorrect": ["Usted la está comprando.", "Usted está lo comprando.", "Usted está comprando lo."],
+      "direction": "grammar",
+      "tip": "Libro is masculine → lo."
+    },
+    {
+      "id": "q103",
+      "q": "Which sentence is WRONG in pronoun placement?",
+      "correct": "Yo estoy la leyendo.",
+      "incorrect": ["Yo la estoy leyendo.", "Yo estoy leyéndola.", "¿La estoy leyendo yo?"],
+      "direction": "grammar",
+      "tip": "Pronouns can't go between estar and the gerund."
+    },
+    {
+      "id": "q104",
+      "q": "\"Nosotros estamos considerándola.\" The \"-la\" is attached to the _____.",
+      "correct": "gerund",
+      "incorrect": ["conjugated verb", "subject", "preposition"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q105",
+      "q": "\"Yo le estoy hablando\" — another correct form: _____.",
+      "correct": "Yo estoy hablándole.",
+      "incorrect": ["Yo estoy le hablando.", "Yo estoy hablando le.", "Le yo estoy hablando."],
+      "direction": "grammar"
+    }
+  ]
+}

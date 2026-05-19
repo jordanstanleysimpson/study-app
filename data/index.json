@@ -188,6 +188,15 @@
       "created": "2026-05-16",
       "wordCount": 85,
       "file": "data/earth-science/Unit 7/earth-science-unit7-quiz.json"
+    },
+    {
+      "id": "spanish-unit6-quiz",
+      "name": "Unit 6: La Ropa, Object Pronouns & Present Progressive",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-05-19",
+      "wordCount": 105,
+      "file": "data/spanish/Unit 6/spanish-unit6-quiz.json"
     }
   ]
 }
