@@ -847,7 +847,7 @@ function selectMcqAnswer(btn, choice, allChoices) {
     question: q,
     chosen:   choice.text,
     correct:  isCorrect,
-    whyWrong: choice.wrongIdx >= 0 ? q.why_wrong[choice.wrongIdx] : null,
+    whyWrong: choice.wrongIdx >= 0 && q.why_wrong ? q.why_wrong[choice.wrongIdx] : null,
   };
 
   if (state.mcqGradeMode === 'end') {
@@ -879,7 +879,7 @@ function selectMcqAnswer(btn, choice, allChoices) {
     } else {
       badge.textContent = 'Incorrect';
       badge.className   = 'mcq-feedback-badge mcq-badge--wrong';
-      const whyWrong    = choice.wrongIdx >= 0 ? q.why_wrong[choice.wrongIdx] : '';
+      const whyWrong    = choice.wrongIdx >= 0 && q.why_wrong ? q.why_wrong[choice.wrongIdx] : '';
       explanation.innerHTML = `<strong>Why that's wrong:</strong> ${whyWrong}<br><br><strong>Correct answer:</strong> ${q.correct}<br>${q.why_correct}`;
       showConceptSummary(q.concepts);
     }
