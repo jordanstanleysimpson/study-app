@@ -1,0 +1,312 @@
+{
+  "id": "spanish-unit6b-vocab-quiz",
+  "name": "Unit 6: La Ropa – Vocabulary MCQ",
+  "subject": "Spanish",
+  "type": "quiz",
+  "quiz_mode": "fill-in",
+  "created": "2026-05-20",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "\"el abrigo\" means _____.",
+      "correct": "coat",
+      "incorrect": ["jacket", "raincoat", "vest"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q002",
+      "q": "\"coat\" in Spanish is _____.",
+      "correct": "el abrigo",
+      "incorrect": ["la chaqueta", "el chaleco", "el impermeable"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q003",
+      "q": "\"la chaqueta\" means _____.",
+      "correct": "jacket",
+      "incorrect": ["vest", "coat", "raincoat"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q004",
+      "q": "\"el impermeable\" means _____.",
+      "correct": "raincoat",
+      "incorrect": ["jacket", "vest", "coat"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q005",
+      "q": "\"el chaleco\" means _____.",
+      "correct": "vest",
+      "incorrect": ["jacket", "coat", "belt"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q006",
+      "q": "\"belt\" in Spanish is _____.",
+      "correct": "el cinturón",
+      "incorrect": ["la bufanda", "el collar", "la pulsera"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q007",
+      "q": "\"la falda\" means _____.",
+      "correct": "skirt",
+      "incorrect": ["dress", "shorts", "pants"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q008",
+      "q": "\"dress\" in Spanish is _____.",
+      "correct": "el vestido",
+      "incorrect": ["la falda", "la camisa", "la sudadera"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q009",
+      "q": "\"la camisa\" means _____.",
+      "correct": "shirt",
+      "incorrect": ["t-shirt", "sweatshirt", "jacket"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q010",
+      "q": "\"t-shirt\" in Spanish is _____.",
+      "correct": "la camiseta",
+      "incorrect": ["la camisa", "la sudadera", "la chaqueta"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q011",
+      "q": "\"la sudadera\" means _____.",
+      "correct": "sweatshirt",
+      "incorrect": ["t-shirt", "shirt", "jacket"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q012",
+      "q": "\"los pantalones cortos\" means _____.",
+      "correct": "shorts",
+      "incorrect": ["pants", "socks", "sandals"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q013",
+      "q": "\"el sombrero\" means _____.",
+      "correct": "hat",
+      "incorrect": ["scarf", "belt", "umbrella"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q014",
+      "q": "\"umbrella\" in Spanish is _____.",
+      "correct": "el paraguas",
+      "incorrect": ["el sombrero", "el impermeable", "la bufanda"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q015",
+      "q": "\"los lentes de contacto\" means _____.",
+      "correct": "contact lenses",
+      "incorrect": ["sunglasses", "reading glasses", "eyedrops"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q016",
+      "q": "\"la pulsera\" means _____.",
+      "correct": "bracelet",
+      "incorrect": ["necklace", "ring", "earring"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q017",
+      "q": "\"ring\" in Spanish is _____.",
+      "correct": "el anillo",
+      "incorrect": ["la pulsera", "el collar", "la bufanda"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q018",
+      "q": "\"el collar\" means _____.",
+      "correct": "necklace",
+      "incorrect": ["ring", "bracelet", "scarf"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q019",
+      "q": "\"scarf\" in Spanish is _____.",
+      "correct": "la bufanda",
+      "incorrect": ["el collar", "la pulsera", "el cinturón"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q020",
+      "q": "\"las chanclas\" means _____.",
+      "correct": "flip-flops",
+      "incorrect": ["sandals", "sneakers", "heels"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q021",
+      "q": "\"boots\" in Spanish is _____.",
+      "correct": "las botas",
+      "incorrect": ["las chanclas", "las sandalias", "los zapatos"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q022",
+      "q": "\"las zapatillas deportivas\" means _____.",
+      "correct": "sneakers",
+      "incorrect": ["sandals", "flip-flops", "high heels"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q023",
+      "q": "\"los zapatos de tacón\" means _____.",
+      "correct": "high heels",
+      "incorrect": ["boots", "sandals", "sneakers"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q024",
+      "q": "\"sandals\" in Spanish is _____.",
+      "correct": "las sandalias",
+      "incorrect": ["las chanclas", "las botas", "los zapatos de tacón"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q025",
+      "q": "\"de cuadros\" means _____.",
+      "correct": "plaid",
+      "incorrect": ["striped", "solid", "patterned"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q026",
+      "q": "\"striped\" in Spanish is _____.",
+      "correct": "de rayas",
+      "incorrect": ["de cuadros", "a la moda", "en oferta"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q027",
+      "q": "\"la moda\" means _____.",
+      "correct": "fashion",
+      "incorrect": ["sale", "style guide", "trend setter"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q028",
+      "q": "\"quedar bien\" means _____.",
+      "correct": "to fit well",
+      "incorrect": ["to be in style", "to be on sale", "to be loose"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q029",
+      "q": "\"to not fit\" in Spanish is _____.",
+      "correct": "quedar mal",
+      "incorrect": ["quedar bien", "estar a la moda", "ser barato"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q030",
+      "q": "\"estar a la moda\" means _____.",
+      "correct": "to be in style",
+      "incorrect": ["to fit well", "to be on sale", "to look bad"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q031",
+      "q": "\"barato\" means _____.",
+      "correct": "cheap",
+      "incorrect": ["expensive", "tight", "loose"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q032",
+      "q": "\"expensive\" in Spanish is _____.",
+      "correct": "caro",
+      "incorrect": ["barato", "apretado", "ancho"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q033",
+      "q": "\"apretado\" means _____.",
+      "correct": "tight",
+      "incorrect": ["loose", "cheap", "striped"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q034",
+      "q": "\"loose\" in Spanish is _____.",
+      "correct": "ancho",
+      "incorrect": ["apretado", "barato", "caro"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q035",
+      "q": "\"el dinero en efectivo\" means _____.",
+      "correct": "cash",
+      "incorrect": ["credit card", "bank check", "store credit"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q036",
+      "q": "\"credit card\" in Spanish is _____.",
+      "correct": "la tarjeta de crédito",
+      "incorrect": ["el dinero en efectivo", "la cuenta bancaria", "el cheque"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q037",
+      "q": "\"la oferta\" means _____.",
+      "correct": "sale",
+      "incorrect": ["price", "store", "size"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q038",
+      "q": "\"on sale\" in Spanish is _____.",
+      "correct": "en oferta",
+      "incorrect": ["a la moda", "de cuadros", "de rayas"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q039",
+      "q": "\"la liquidación\" means _____.",
+      "correct": "clearance",
+      "incorrect": ["sale", "discount", "refund"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q040",
+      "q": "\"la zapatería\" sells _____.",
+      "correct": "shoes",
+      "incorrect": ["jewelry", "books", "clothing"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q041",
+      "q": "\"jewelry store\" in Spanish is _____.",
+      "correct": "la joyería",
+      "incorrect": ["la zapatería", "la librería", "la tienda"],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q042",
+      "q": "\"la librería\" means _____.",
+      "correct": "bookstore",
+      "incorrect": ["library", "jewelry store", "shoe store"],
+      "direction": "es-to-en",
+      "tip": "Cuidado: librería = bookstore, not library."
+    },
+    {
+      "id": "q043",
+      "q": "\"shoe store\" in Spanish is _____.",
+      "correct": "la zapatería",
+      "incorrect": ["la joyería", "la librería", "la boutique"],
+      "direction": "en-to-es"
+    }
+  ]
+}

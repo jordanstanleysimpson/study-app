@@ -197,6 +197,42 @@
       "created": "2026-05-19",
       "wordCount": 105,
       "file": "data/spanish/Unit 6/spanish-unit6-quiz.json"
+    },
+    {
+      "id": "spanish-unit6b-vocab-translate",
+      "name": "Unit 6: La Ropa – Vocabulary Typing",
+      "subject": "Spanish",
+      "type": "translate",
+      "created": "2026-05-20",
+      "wordCount": 43,
+      "file": "data/spanish/Unit 6/spanish-unit6b-vocab-translate.json"
+    },
+    {
+      "id": "spanish-unit6b-vocab-quiz",
+      "name": "Unit 6: La Ropa – Vocabulary MCQ",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-05-20",
+      "wordCount": 43,
+      "file": "data/spanish/Unit 6/spanish-unit6b-vocab-quiz.json"
+    },
+    {
+      "id": "spanish-unit6b-sentences-translate",
+      "name": "Unit 6: Sentences – Typing",
+      "subject": "Spanish",
+      "type": "translate",
+      "created": "2026-05-20",
+      "wordCount": 32,
+      "file": "data/spanish/Unit 6/spanish-unit6b-sentences-translate.json"
+    },
+    {
+      "id": "spanish-unit6b-sentences-quiz",
+      "name": "Unit 6: Sentences – Multiple Choice",
+      "subject": "Spanish",
+      "type": "quiz",
+      "created": "2026-05-20",
+      "wordCount": 35,
+      "file": "data/spanish/Unit 6/spanish-unit6b-sentences-quiz.json"
     }
   ]
 }

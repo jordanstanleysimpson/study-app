@@ -1265,6 +1265,8 @@ function renderTranslateCard() {
   checkBtn.classList.remove('hidden');
   checkBtn.disabled = false;
   feedback.classList.add('hidden');
+  document.getElementById('translate-missed').classList.remove('hidden');
+  document.getElementById('translate-got-it').classList.remove('hidden');
 
   input.focus();
 }
@@ -1272,11 +1274,18 @@ function renderTranslateCard() {
 function checkTranslateAnswer() {
   const { sentence, direction } = state.translateSession[state.translateIndex];
   const correct = direction === 'es_en' ? sentence.en : sentence.es;
+  const userAnswer = document.getElementById('translate-input').value.trim();
 
   document.getElementById('translate-input').disabled     = true;
   document.getElementById('translate-check').disabled     = true;
   document.getElementById('translate-correct-text').textContent = correct;
   document.getElementById('translate-feedback').classList.remove('hidden');
+
+  if (normalize(userAnswer) === normalize(correct)) {
+    document.getElementById('translate-missed').classList.add('hidden');
+    document.getElementById('translate-got-it').classList.add('hidden');
+    setTimeout(() => translateSelfGrade(true), 1000);
+  }
 }
 
 function skipTranslateCard() {

@@ -1,0 +1,257 @@
+{
+  "id": "spanish-unit6b-sentences-quiz",
+  "name": "Unit 6: Sentences – Multiple Choice",
+  "subject": "Spanish",
+  "type": "quiz",
+  "quiz_mode": "fill-in",
+  "created": "2026-05-20",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "\"Yo estoy hablando\" means _____.",
+      "correct": "I am speaking.",
+      "incorrect": ["I was speaking.", "I speak regularly.", "I will speak."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q002",
+      "q": "\"Ellos están comiendo\" means _____.",
+      "correct": "They are eating.",
+      "incorrect": ["They were eating.", "They eat every day.", "They will eat."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q003",
+      "q": "\"Ella está aprendiendo español\" means _____.",
+      "correct": "She is learning Spanish.",
+      "incorrect": ["She learned Spanish.", "She will learn Spanish.", "She learns Spanish."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q004",
+      "q": "\"Mi hermano está durmiendo\" means _____.",
+      "correct": "My brother is sleeping.",
+      "incorrect": ["My brother was sleeping.", "My brother sleeps here.", "My brother will sleep."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q005",
+      "q": "\"¿Qué están haciendo?\" means _____.",
+      "correct": "What are they doing?",
+      "incorrect": ["What were they doing?", "What did they do?", "What will they do?"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q006",
+      "q": "\"Ella está mintiendo\" means _____.",
+      "correct": "She is lying.",
+      "incorrect": ["She was lying.", "She lied yesterday.", "She will lie."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q007",
+      "q": "\"Yo se la di\" means _____.",
+      "correct": "I gave it to him.",
+      "incorrect": ["He gave it to me.", "I gave it to them.", "You gave it to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q008",
+      "q": "\"Tú nunca me lo revelaste\" means _____.",
+      "correct": "You never revealed it to me.",
+      "incorrect": ["I never revealed it to you.", "He never told it to you.", "You always told it to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q009",
+      "q": "\"Nosotros se las trajimos\" means _____.",
+      "correct": "We brought them to them.",
+      "incorrect": ["They brought them to us.", "We gave them to her.", "I brought it to them."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q010",
+      "q": "\"Mis hermanas me los dieron\" means _____.",
+      "correct": "My sisters gave them to me.",
+      "incorrect": ["I gave them to my sisters.", "My sisters gave it to her.", "My sister gave one to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q011",
+      "q": "\"Dímelo\" means _____.",
+      "correct": "Tell it to me.",
+      "incorrect": ["Give it to me.", "Read it to me.", "Show it to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q012",
+      "q": "\"Léamelo\" means _____.",
+      "correct": "Read it to me.",
+      "incorrect": ["Tell it to me.", "Give it to me.", "Bring it to me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q013",
+      "q": "\"Yo no quiero leerlo\" means _____.",
+      "correct": "I don't want to read it.",
+      "incorrect": ["I don't want to write it.", "I can't read it.", "I didn't want to read it."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q014",
+      "q": "\"A ella le gusta decírselo\" means _____.",
+      "correct": "She likes to tell it to him.",
+      "incorrect": ["She told it to them.", "He likes telling it to her.", "She needs to explain it to us."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q015",
+      "q": "\"Yo la estoy leyendo\" means _____.",
+      "correct": "I am reading it.",
+      "incorrect": ["I was reading it.", "I read it.", "I will read it."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q016",
+      "q": "\"Ella me está llamando\" means _____.",
+      "correct": "She is calling me.",
+      "incorrect": ["I am calling her.", "She was calling me.", "She called me."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q017",
+      "q": "\"¿Quién está diéndonosla?\" means _____.",
+      "correct": "Who is telling it to us?",
+      "incorrect": ["Who told it to them?", "Who is giving it to me?", "Who was reading it to us?"],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q018",
+      "q": "\"La chaqueta me queda bien\" means _____.",
+      "correct": "The jacket fits me well.",
+      "incorrect": ["The jacket is very cheap.", "The jacket is on sale.", "The jacket is too tight."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q019",
+      "q": "\"Esos zapatos son muy caros\" means _____.",
+      "correct": "Those shoes are very expensive.",
+      "incorrect": ["Those shoes are very cheap.", "Those shoes fit well.", "Those shoes are on sale."],
+      "direction": "es-to-en"
+    },
+    {
+      "id": "q020",
+      "q": "Translate: \"I am asking for the bill.\"",
+      "correct": "Yo estoy pidiendo la cuenta.",
+      "incorrect": ["Yo estoy pediendo la cuenta.", "Yo estoy pidando la cuenta.", "Yo estoy pedir la cuenta."],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q021",
+      "q": "Translate: \"They are competing.\"",
+      "correct": "Ellos están compitiendo.",
+      "incorrect": ["Ellos están competiendo.", "Ellos están competando.", "Ellos están competiando."],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q022",
+      "q": "Translate: \"We are following the boss.\"",
+      "correct": "Nosotros estamos siguiendo al jefe.",
+      "incorrect": ["Nosotros estamos seguiendo al jefe.", "Nosotros estamos seguando al jefe.", "Nosotros estamos sigiendo al jefe."],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q023",
+      "q": "Translate: \"Carlos is bringing the books.\"",
+      "correct": "Carlos está trayendo los libros.",
+      "incorrect": ["Carlos está traendo los libros.", "Carlos está triando los libros.", "Carlos está llevando los libros."],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q024",
+      "q": "Translate: \"I am talking to him.\"",
+      "correct": "Yo estoy hablándole.",
+      "incorrect": ["Yo estoy le hablando.", "Yo estoy hablando le.", "Yo le hablando estoy."],
+      "direction": "en-to-es"
+    },
+    {
+      "id": "q025",
+      "q": "Translate: \"We are considering it.\"",
+      "correct": "Nosotros lo estamos considerando.",
+      "incorrect": ["Nosotros estamos lo considerando.", "Nosotros estamos considerando lo.", "Nosotros la estamos considerando."],
+      "direction": "en-to-es",
+      "tip": "It (masculine) = lo, placed before estar."
+    },
+    {
+      "id": "q026",
+      "q": "Which sentence correctly places the pronoun with a progressive verb?",
+      "correct": "Yo la estoy leyendo.",
+      "incorrect": ["Yo estoy la leyendo.", "Yo estoy leyendo la.", "La leyendo yo estoy."],
+      "direction": "grammar"
+    },
+    {
+      "id": "q027",
+      "q": "Which sentence correctly attaches the pronoun to the gerund?",
+      "correct": "Ella está llamándome.",
+      "incorrect": ["Ella está me llamando.", "Ella está llamando me.", "Ella me llamando está."],
+      "direction": "grammar"
+    },
+    {
+      "id": "q028",
+      "q": "\"Yo quiero comprarlo\" — the pronoun is attached to the _____.",
+      "correct": "infinitive",
+      "incorrect": ["conjugated verb", "subject", "object noun"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q029",
+      "q": "\"Yo lo quiero comprar\" — the pronoun goes _____.",
+      "correct": "before the conjugated verb",
+      "incorrect": ["after the infinitive", "after the subject", "at the end"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q030",
+      "q": "Which sentence uses the WRONG pronoun order?",
+      "correct": "Yo le lo di.",
+      "incorrect": ["Yo se lo di.", "Ella me lo dio.", "Tú te los enviaste."],
+      "direction": "grammar",
+      "tip": "le + lo = se lo (not le lo)."
+    },
+    {
+      "id": "q031",
+      "q": "\"Yo voy a explicársela\" — the \"-se\" replaced _____.",
+      "correct": "le",
+      "incorrect": ["lo", "me", "nos"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q032",
+      "q": "In \"Yo voy a explicársela,\" the DOP is _____.",
+      "correct": "la",
+      "incorrect": ["se", "a", "yo"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q033",
+      "q": "With affirmative commands, pronouns must _____.",
+      "correct": "attach to the end of the command",
+      "incorrect": ["go before the command", "stay on a separate word", "go after the subject"],
+      "direction": "grammar"
+    },
+    {
+      "id": "q034",
+      "q": "Which sentence has a CORRECT affirmative command?",
+      "correct": "Léamelo.",
+      "incorrect": ["Me lo lea.", "Lo léame.", "Lea me lo."],
+      "direction": "grammar"
+    },
+    {
+      "id": "q035",
+      "q": "\"Carlos la está trayendo\" and \"Carlos está trayéndola\" are _____.",
+      "correct": "both correct",
+      "incorrect": ["both incorrect", "different meanings", "different tenses"],
+      "direction": "grammar"
+    }
+  ]
+}
