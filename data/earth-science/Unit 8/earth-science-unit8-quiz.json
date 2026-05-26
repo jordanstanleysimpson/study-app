@@ -1,0 +1,2005 @@
+{
+  "id": "earth-science-unit8-quiz",
+  "name": "Unit 8: Atmosphere, Meteorology & Climate",
+  "subject": "Earth Science",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-05-26",
+  "questions": [
+
+    {
+      "id": "q01",
+      "q": "Which layer of the atmosphere contains most of Earth's weather?",
+      "correct": "Troposphere",
+      "incorrect": ["Stratosphere", "Mesosphere", "Thermosphere"],
+      "why_correct": "The troposphere is the lowest layer; it contains most water vapor and is where clouds and storms form.",
+      "why_wrong": [
+        "The stratosphere contains the ozone layer, not weather.",
+        "The mesosphere is where meteors burn up — no weather.",
+        "The thermosphere is very high and extremely thin."
+      ],
+      "concepts": ["atmosphere-layers"],
+      "tip": "Troposphere = 'turning sphere' — it's constantly stirred up by weather."
+    },
+
+    {
+      "id": "q02",
+      "q": "What happens to air pressure as altitude increases?",
+      "correct": "It decreases",
+      "incorrect": ["It increases", "It stays the same", "It first increases, then decreases"],
+      "why_correct": "There is less air above you at higher altitudes, so pressure from the weight of air above decreases.",
+      "why_wrong": [
+        "Pressure does not increase with altitude — there is less air above.",
+        "Pressure is not constant with altitude.",
+        "Pressure consistently decreases; it never increases then decreases."
+      ],
+      "concepts": ["air-pressure", "altitude"],
+      "tip": "Less air above = less weight pressing down = lower pressure."
+    },
+
+    {
+      "id": "q03",
+      "q": "What happens to temperature in the troposphere as altitude increases?",
+      "correct": "Temperature decreases",
+      "incorrect": ["Temperature increases", "Temperature stays constant", "Temperature increases then decreases"],
+      "why_correct": "The troposphere is heated from Earth's surface, so temperature drops as you move away from the surface.",
+      "why_wrong": [
+        "Temperature increases with altitude in the stratosphere, not the troposphere.",
+        "Temperature is not constant in the troposphere.",
+        "This describes the stratosphere's behavior, not the troposphere."
+      ],
+      "concepts": ["troposphere", "temperature-altitude"],
+      "tip": "Mountaintops are cold — higher up in the troposphere = farther from the heat source (Earth's surface)."
+    },
+
+    {
+      "id": "q04",
+      "q": "What happens to temperature in the STRATOSPHERE as altitude increases?",
+      "correct": "Temperature increases",
+      "incorrect": ["Temperature decreases", "Temperature stays constant", "Temperature drops sharply"],
+      "why_correct": "The ozone layer absorbs UV radiation in the stratosphere, heating it — so temperature rises with altitude there.",
+      "why_wrong": [
+        "Temperature decreasing describes the troposphere.",
+        "Temperature is not constant in the stratosphere.",
+        "A sharp drop describes the mesosphere above the stratosphere."
+      ],
+      "concepts": ["stratosphere", "ozone-layer"],
+      "tip": "Ozone absorbs UV = heat. More ozone higher up = warmer higher up."
+    },
+
+    {
+      "id": "q05",
+      "q": "In which layer do meteors usually burn up?",
+      "correct": "Mesosphere",
+      "incorrect": ["Troposphere", "Stratosphere", "Thermosphere"],
+      "why_correct": "The mesosphere has enough air to create friction that burns up most meteors before they reach Earth.",
+      "why_wrong": [
+        "The troposphere is too low — meteors burn up before reaching it.",
+        "The stratosphere is below the mesosphere.",
+        "Meteors would burn before reaching the thermosphere."
+      ],
+      "concepts": ["mesosphere"],
+      "tip": "'Shooting stars' you see are meteors burning in the mesosphere."
+    },
+
+    {
+      "id": "q06",
+      "q": "The Aurora Borealis (Northern Lights) occurs in which layer?",
+      "correct": "Thermosphere",
+      "incorrect": ["Troposphere", "Mesosphere", "Stratosphere"],
+      "why_correct": "The thermosphere (ionosphere) contains charged particles that interact with solar wind to create auroras.",
+      "why_wrong": [
+        "The troposphere is the weather layer, not where auroras occur.",
+        "The mesosphere is where meteors burn — no auroras.",
+        "The stratosphere is the ozone layer, not aurora territory."
+      ],
+      "concepts": ["thermosphere", "aurora"],
+      "tip": "Thermo = heat. The thermosphere is extremely hot but very thin."
+    },
+
+    {
+      "id": "q07",
+      "q": "Which layer of the atmosphere contains the ozone layer?",
+      "correct": "Stratosphere",
+      "incorrect": ["Troposphere", "Mesosphere", "Thermosphere"],
+      "why_correct": "The ozone layer sits in the lower stratosphere and absorbs most of the Sun's harmful UV radiation.",
+      "why_wrong": [
+        "The troposphere is the weather layer and has very little ozone.",
+        "The mesosphere is above the stratosphere.",
+        "The thermosphere is far above the ozone layer."
+      ],
+      "concepts": ["stratosphere", "ozone"],
+      "tip": "Strato = layered. The stratosphere has stable layers including the ozone layer."
+    },
+
+    {
+      "id": "q08",
+      "q": "Moving from the ground upward, what is the correct order of the first four atmosphere layers?",
+      "correct": "Troposphere, Stratosphere, Mesosphere, Thermosphere",
+      "incorrect": [
+        "Stratosphere, Troposphere, Thermosphere, Mesosphere",
+        "Troposphere, Mesosphere, Stratosphere, Thermosphere",
+        "Mesosphere, Troposphere, Stratosphere, Thermosphere"
+      ],
+      "why_correct": "From lowest to highest: Troposphere (0–12 km), Stratosphere (12–50 km), Mesosphere (50–80 km), Thermosphere (80+ km).",
+      "why_wrong": [
+        "Stratosphere is above troposphere, not below it.",
+        "Mesosphere is above stratosphere, not between troposphere and stratosphere.",
+        "Mesosphere is not the lowest layer."
+      ],
+      "concepts": ["atmosphere-layers"],
+      "tip": "The Sphere Man Talks = Troposphere, Stratosphere, Mesosphere, Thermosphere."
+    },
+
+    {
+      "id": "q09",
+      "q": "What are the two most abundant gases in Earth's atmosphere?",
+      "correct": "Nitrogen (~78%) and Oxygen (~21%)",
+      "incorrect": [
+        "Oxygen (~78%) and Nitrogen (~21%)",
+        "Nitrogen (~78%) and Carbon Dioxide (~21%)",
+        "Oxygen (~50%) and Carbon Dioxide (~25%)"
+      ],
+      "why_correct": "Nitrogen makes up about 78% and oxygen about 21% of dry air. Together they account for nearly 99%.",
+      "why_wrong": [
+        "Oxygen is only ~21%; nitrogen is the dominant gas at ~78%.",
+        "CO2 is a trace gas (~0.04%), not 21%.",
+        "These percentages are completely wrong."
+      ],
+      "concepts": ["atmospheric-composition"],
+      "tip": "N2 dominates — O2 is about 1/4 of nitrogen's share."
+    },
+
+    {
+      "id": "q10",
+      "q": "Carbon dioxide makes up approximately what percentage of the atmosphere?",
+      "correct": "About 0.04%",
+      "incorrect": ["About 21%", "About 1%", "About 5%"],
+      "why_correct": "CO2 is only a trace gas at roughly 0.04%, though it plays a major role in the greenhouse effect.",
+      "why_wrong": [
+        "21% is oxygen, not CO2.",
+        "1% is closer to argon.",
+        "5% would be enormous — CO2 is a tiny trace gas."
+      ],
+      "concepts": ["atmospheric-composition", "CO2"],
+      "tip": "CO2 is tiny but mighty — it punches above its weight in the greenhouse effect."
+    },
+
+    {
+      "id": "q11",
+      "q": "What type of weather is associated with HIGH pressure systems?",
+      "correct": "Clear, calm, fair weather",
+      "incorrect": [
+        "Heavy rain and storms",
+        "Strong thunderstorms",
+        "Fog and drizzle"
+      ],
+      "why_correct": "In high pressure, air sinks and warms, which prevents cloud formation — resulting in clear skies.",
+      "why_wrong": [
+        "Heavy rain is associated with low pressure, not high.",
+        "Thunderstorms form under low pressure systems.",
+        "Fog can occur but widespread fair weather is the hallmark of high pressure."
+      ],
+      "concepts": ["high-pressure", "weather-patterns"],
+      "tip": "High = Happy weather. Sunny and calm."
+    },
+
+    {
+      "id": "q12",
+      "q": "What type of weather is associated with LOW pressure systems?",
+      "correct": "Cloudy, stormy, precipitation",
+      "incorrect": [
+        "Clear, sunny skies",
+        "Dry, warm conditions",
+        "No wind"
+      ],
+      "why_correct": "In low pressure, air rises and cools, causing water vapor to condense into clouds and precipitation.",
+      "why_wrong": [
+        "Clear sunny skies are high pressure, not low.",
+        "Dry warm conditions are associated with high pressure.",
+        "Low pressure systems typically have strong winds."
+      ],
+      "concepts": ["low-pressure", "weather-patterns"],
+      "tip": "Low = stormy and wet. Air rises, cools, forms clouds."
+    },
+
+    {
+      "id": "q13",
+      "q": "In the Northern Hemisphere, which direction do winds circulate around a HIGH pressure system?",
+      "correct": "Clockwise (outward)",
+      "incorrect": [
+        "Counterclockwise (inward)",
+        "Clockwise (inward)",
+        "Counterclockwise (outward)"
+      ],
+      "why_correct": "In the Northern Hemisphere, the Coriolis effect deflects winds to the right, causing clockwise outward rotation around highs.",
+      "why_wrong": [
+        "Counterclockwise inward describes a low pressure system.",
+        "Clockwise inward is not how high pressure systems work — air sinks and flows OUT.",
+        "Counterclockwise outward describes Southern Hemisphere high pressure."
+      ],
+      "concepts": ["high-pressure", "coriolis"],
+      "tip": "High: air sinks, spreads out clockwise in NH. Low: air rises, spirals in counterclockwise."
+    },
+
+    {
+      "id": "q14",
+      "q": "In the Northern Hemisphere, which direction do winds circulate around a LOW pressure system?",
+      "correct": "Counterclockwise (inward)",
+      "incorrect": [
+        "Clockwise (outward)",
+        "Counterclockwise (outward)",
+        "Clockwise (inward)"
+      ],
+      "why_correct": "Low pressure draws air inward; Coriolis deflects it to the right, causing counterclockwise rotation in the NH.",
+      "why_wrong": [
+        "Clockwise outward describes Northern Hemisphere high pressure.",
+        "Counterclockwise outward is not a feature of low pressure.",
+        "Clockwise inward would require Coriolis deflection to the left, which is the Southern Hemisphere."
+      ],
+      "concepts": ["low-pressure", "coriolis"],
+      "tip": "Picture a drain: low pressure spins counterclockwise inward in the NH."
+    },
+
+    {
+      "id": "q15",
+      "q": "Which type of air mass forms over cold land (like Canada)?",
+      "correct": "Continental Polar (cP)",
+      "incorrect": [
+        "Maritime Tropical (mT)",
+        "Continental Tropical (cT)",
+        "Maritime Polar (mP)"
+      ],
+      "why_correct": "Continental = land (dry), Polar = cold. Air masses take on the characteristics of their source region.",
+      "why_wrong": [
+        "Maritime tropical forms over warm ocean water — warm and moist.",
+        "Continental tropical forms over warm deserts — hot and dry.",
+        "Maritime polar forms over cold ocean water — cold and moist."
+      ],
+      "concepts": ["air-masses"],
+      "tip": "Continental = dry (over land). Maritime = moist (over water). Polar = cold. Tropical = warm."
+    },
+
+    {
+      "id": "q16",
+      "q": "Which air mass brings hot, humid weather to the central and eastern United States in summer?",
+      "correct": "Maritime Tropical (mT)",
+      "incorrect": [
+        "Continental Polar (cP)",
+        "Continental Tropical (cT)",
+        "Maritime Polar (mP)"
+      ],
+      "why_correct": "Maritime tropical air masses form over warm tropical oceans (like the Gulf of Mexico) and carry warm, moist air.",
+      "why_wrong": [
+        "Continental polar brings cold, dry air from Canada.",
+        "Continental tropical brings hot, dry air from deserts.",
+        "Maritime polar brings cool, moist air from cold oceans."
+      ],
+      "concepts": ["air-masses"],
+      "tip": "mT = warm ocean → warm and moist. Think summer humidity from the Gulf."
+    },
+
+    {
+      "id": "q17",
+      "q": "What causes the Coriolis effect?",
+      "correct": "Earth's rotation",
+      "incorrect": [
+        "Earth's tilt",
+        "The Sun's gravity",
+        "Differences in air pressure"
+      ],
+      "why_correct": "Earth's rotation causes moving air (and water) to be deflected — to the right in the Northern Hemisphere.",
+      "why_wrong": [
+        "Earth's tilt causes seasons, not the Coriolis effect.",
+        "The Sun's gravity causes tides, not wind deflection.",
+        "Pressure differences drive winds, but Coriolis curves them due to rotation."
+      ],
+      "concepts": ["coriolis"],
+      "tip": "Coriolis = caused by rotation. Spin the globe and watch things curve."
+    },
+
+    {
+      "id": "q18",
+      "q": "In the Northern Hemisphere, the Coriolis effect deflects winds in which direction?",
+      "correct": "To the right",
+      "incorrect": ["To the left", "Upward", "Downward"],
+      "why_correct": "In the Northern Hemisphere, Earth's rotation causes moving objects (including air) to curve to the right.",
+      "why_wrong": [
+        "Deflection to the left is what happens in the Southern Hemisphere.",
+        "Coriolis does not move air up or down — only curves horizontal motion.",
+        "Coriolis does not move air downward."
+      ],
+      "concepts": ["coriolis"],
+      "tip": "NH = right. SH = left."
+    },
+
+    {
+      "id": "q19",
+      "q": "What are the THREE ways heat energy is transferred?",
+      "correct": "Radiation, conduction, convection",
+      "incorrect": [
+        "Evaporation, condensation, precipitation",
+        "Reflection, absorption, refraction",
+        "Conduction, sublimation, advection"
+      ],
+      "why_correct": "Radiation = energy through waves (no medium needed), conduction = direct contact, convection = fluid (air/water) movement.",
+      "why_wrong": [
+        "These are water cycle processes, not heat transfer methods.",
+        "These relate to light behavior, not heat transfer.",
+        "Sublimation is a phase change; advection is horizontal fluid movement — not the three standard types."
+      ],
+      "concepts": ["energy-transfer"],
+      "tip": "R-C-C: Radiation, Conduction, Convection."
+    },
+
+    {
+      "id": "q20",
+      "q": "Which type of heat transfer requires NO medium (works through space)?",
+      "correct": "Radiation",
+      "incorrect": ["Conduction", "Convection", "Evaporation"],
+      "why_correct": "Radiation travels as electromagnetic waves and needs no matter — it is how the Sun heats Earth across the vacuum of space.",
+      "why_wrong": [
+        "Conduction requires direct contact between objects.",
+        "Convection requires a fluid (liquid or gas) to transfer heat.",
+        "Evaporation is a phase change, not a heat transfer mechanism."
+      ],
+      "concepts": ["radiation"],
+      "tip": "The Sun heats Earth through empty space = radiation."
+    },
+
+    {
+      "id": "q21",
+      "q": "Which type of heat transfer occurs through DIRECT CONTACT?",
+      "correct": "Conduction",
+      "incorrect": ["Radiation", "Convection", "Insolation"],
+      "why_correct": "Conduction transfers heat between objects in direct contact — like a hot pan heating your hand.",
+      "why_wrong": [
+        "Radiation transfers heat through waves without contact.",
+        "Convection transfers heat through fluid circulation.",
+        "Insolation refers to incoming solar radiation, not heat transfer type."
+      ],
+      "concepts": ["conduction"],
+      "tip": "Conduction = contact. Touch a hot stove — that's conduction."
+    },
+
+    {
+      "id": "q22",
+      "q": "Which type of heat transfer involves warm fluid RISING and cool fluid SINKING?",
+      "correct": "Convection",
+      "incorrect": ["Conduction", "Radiation", "Sublimation"],
+      "why_correct": "Convection currents form when warm (less dense) fluid rises and cool (more dense) fluid sinks, creating circular flow.",
+      "why_wrong": [
+        "Conduction requires direct contact — no fluid movement.",
+        "Radiation transfers energy through waves, not fluid circulation.",
+        "Sublimation is ice turning directly to vapor."
+      ],
+      "concepts": ["convection"],
+      "tip": "Hot air rises, cold air sinks = convection. Think of a boiling pot."
+    },
+
+    {
+      "id": "q23",
+      "q": "Land heats and cools _____ compared to water.",
+      "correct": "Faster",
+      "incorrect": ["Slower", "At the same rate", "Only faster in summer"],
+      "why_correct": "Land has lower heat capacity than water, so it heats up and cools down more quickly for the same amount of energy.",
+      "why_wrong": [
+        "Water has high heat capacity — it heats and cools more slowly, not faster.",
+        "Land and water have very different heat capacities.",
+        "Land always heats and cools faster than water, in all seasons."
+      ],
+      "concepts": ["heat-capacity"],
+      "tip": "Beach sand vs ocean — sand gets scorching hot and freezing cold quickly; the ocean stays moderate."
+    },
+
+    {
+      "id": "q24",
+      "q": "During the DAY at the coast, wind blows in which direction?",
+      "correct": "From ocean to land (sea breeze)",
+      "incorrect": [
+        "From land to ocean (land breeze)",
+        "From north to south",
+        "Along the coast"
+      ],
+      "why_correct": "During the day, land heats faster creating lower pressure over land; cooler ocean air flows toward land as a sea breeze.",
+      "why_wrong": [
+        "Land breeze blows from land to ocean at NIGHT when land cools faster.",
+        "Coastal breezes are driven by land/sea temperature, not north-south.",
+        "Sea breezes blow perpendicular to the coast, not along it."
+      ],
+      "concepts": ["sea-breeze", "land-breeze"],
+      "tip": "Day = sea breeze (ocean to land). Night = land breeze (land to ocean)."
+    },
+
+    {
+      "id": "q25",
+      "q": "During the NIGHT at the coast, wind blows in which direction?",
+      "correct": "From land to ocean (land breeze)",
+      "incorrect": [
+        "From ocean to land (sea breeze)",
+        "It stops completely",
+        "From south to north"
+      ],
+      "why_correct": "At night, land cools faster than water; now ocean is relatively warmer, creating low pressure over the water. Air flows from cool land to warmer ocean.",
+      "why_wrong": [
+        "Sea breeze is a daytime phenomenon when land is warmer.",
+        "Coastal winds reverse direction at night — they don't stop.",
+        "Wind direction is determined by temperature, not compass direction here."
+      ],
+      "concepts": ["land-breeze"],
+      "tip": "Night = land breeze. Land chills fast, ocean stays warm — air moves toward warmth."
+    },
+
+    {
+      "id": "q26",
+      "q": "Where is the jet stream located?",
+      "correct": "Upper troposphere, near the tropopause",
+      "incorrect": [
+        "Lower troposphere near the surface",
+        "Stratosphere above the ozone layer",
+        "Mesosphere"
+      ],
+      "why_correct": "Jet streams are fast-moving bands of air at high altitudes in the upper troposphere (8–12 km up), near the boundary with the stratosphere.",
+      "why_wrong": [
+        "The jet stream is high up, not near the surface.",
+        "The jet stream is in the troposphere, not the stratosphere.",
+        "The mesosphere is far too high for jet streams."
+      ],
+      "concepts": ["jet-stream"],
+      "tip": "Airplanes sometimes ride the jet stream to travel faster."
+    },
+
+    {
+      "id": "q27",
+      "q": "In which general direction does the jet stream flow?",
+      "correct": "West to east",
+      "incorrect": ["East to west", "North to south", "South to north"],
+      "why_correct": "Jet streams generally flow from west to east due to Earth's rotation and temperature gradients between polar and tropical air.",
+      "why_wrong": [
+        "East to west is the opposite — trade winds blow east to west, not jet streams.",
+        "North-south is not the primary direction of jet stream flow.",
+        "South to north is not the jet stream direction."
+      ],
+      "concepts": ["jet-stream"],
+      "tip": "Jet stream = west to east, like weather systems that travel across the US."
+    },
+
+    {
+      "id": "q28",
+      "q": "What are 'Santa Ana winds'?",
+      "correct": "Hot, dry winds in California blowing from the northeast",
+      "incorrect": [
+        "Moist winds off the Pacific Ocean",
+        "Cold polar winds from Canada",
+        "Tropical winds from the Gulf of Mexico"
+      ],
+      "why_correct": "Santa Ana winds blow from the northeast, descending from high desert plateaus; they are hot, dry, and increase wildfire risk in California.",
+      "why_wrong": [
+        "Pacific winds bring moisture — Santa Anas are dry.",
+        "Polar winds from Canada are cold — Santa Anas are hot.",
+        "Gulf winds are warm and moist — Santa Anas are hot and DRY."
+      ],
+      "concepts": ["dry-winds", "santa-ana"],
+      "tip": "Santa Ana = notorious California fire winds, hot and dry from the northeast."
+    },
+
+    {
+      "id": "q29",
+      "q": "What are Chinook (or Föhn) winds?",
+      "correct": "Warm, dry winds on the leeward side of mountains",
+      "incorrect": [
+        "Cold, wet winds on the windward side",
+        "Tropical winds from the Gulf",
+        "Polar winds from the Arctic"
+      ],
+      "why_correct": "Chinook/Föhn winds form when air descends the leeward side of a mountain range, warming and drying as it compresses.",
+      "why_wrong": [
+        "The windward side gets wet weather — the leeward side gets the dry winds.",
+        "Chinooks are not tropical winds — they result from orographic descent.",
+        "Chinooks are warm, not cold polar winds."
+      ],
+      "concepts": ["chinook", "leeward-winds"],
+      "tip": "Chinooks can melt snow rapidly in areas east of the Rockies — 'snow eaters.'"
+    },
+
+    {
+      "id": "q30",
+      "q": "When air is holding the MAXIMUM amount of water vapor it can at a given temperature, it is called ___.",
+      "correct": "Saturated",
+      "incorrect": ["Condensed", "Supersaturated", "Humid"],
+      "why_correct": "Saturated air holds all the water vapor possible at that temperature — relative humidity is 100%.",
+      "why_wrong": [
+        "Condensed means water vapor has already turned to liquid.",
+        "Supersaturated is possible in special lab conditions, not standard meteorology.",
+        "Humid is a general term; 'saturated' is the precise term for 100% humidity."
+      ],
+      "concepts": ["saturation", "humidity"],
+      "tip": "Saturated = full. Like a soaked sponge that can't hold any more."
+    },
+
+    {
+      "id": "q31",
+      "q": "As air temperature INCREASES, how does its capacity to hold water vapor change?",
+      "correct": "It can hold MORE water vapor",
+      "incorrect": [
+        "It can hold LESS water vapor",
+        "Its capacity stays the same",
+        "It immediately releases water vapor"
+      ],
+      "why_correct": "Warmer air has more energy to keep water molecules in the vapor state, so its water-holding capacity increases.",
+      "why_wrong": [
+        "Cooler air holds less water vapor — not warmer air.",
+        "Temperature and water vapor capacity are directly linked; they change together.",
+        "Air doesn't immediately release vapor when warming — it gains capacity."
+      ],
+      "concepts": ["water-vapor-capacity"],
+      "tip": "Hot air can hold more moisture. Cold air can't — that's why cold air feels dry."
+    },
+
+    {
+      "id": "q32",
+      "q": "What is RELATIVE HUMIDITY?",
+      "correct": "The ratio of actual water vapor to the maximum possible, expressed as a percent",
+      "incorrect": [
+        "The total amount of water vapor in the air",
+        "The temperature at which dew forms",
+        "The rate of evaporation"
+      ],
+      "why_correct": "Relative humidity = (actual water vapor ÷ maximum capacity) × 100%. It tells you how close air is to saturation.",
+      "why_wrong": [
+        "Total water vapor is called absolute humidity or specific humidity.",
+        "The temperature at which dew forms is the dew point.",
+        "Evaporation rate is related but is not the definition of relative humidity."
+      ],
+      "concepts": ["relative-humidity"],
+      "tip": "Relative = compared to maximum. 70% RH = air holds 70% of what it could."
+    },
+
+    {
+      "id": "q33",
+      "q": "When air temperature equals the dew point, what is the relative humidity?",
+      "correct": "100%",
+      "incorrect": ["0%", "50%", "75%"],
+      "why_correct": "When temperature equals dew point, the air is fully saturated — it's holding the maximum water vapor possible.",
+      "why_wrong": [
+        "0% would mean completely dry air.",
+        "50% would mean air is at half capacity, not saturated.",
+        "75% means air is still below saturation."
+      ],
+      "concepts": ["dew-point", "saturation"],
+      "tip": "Temp = dew point → 100% humidity. Air is completely saturated."
+    },
+
+    {
+      "id": "q34",
+      "q": "What does the DEW POINT tell you?",
+      "correct": "The temperature at which air becomes saturated (100% RH)",
+      "incorrect": [
+        "The current temperature of the air",
+        "The amount of rain expected",
+        "The boiling point of water in the atmosphere"
+      ],
+      "why_correct": "The dew point is the temperature air must cool to before it becomes saturated and condensation begins.",
+      "why_wrong": [
+        "Current air temperature is measured separately by a dry-bulb thermometer.",
+        "Dew point doesn't directly predict rain — it tells you when condensation starts.",
+        "Boiling point is 100°C and is unrelated to dew point."
+      ],
+      "concepts": ["dew-point"],
+      "tip": "Dew point = the temperature that 'triggers' dew, fog, or clouds."
+    },
+
+    {
+      "id": "q35",
+      "q": "If the air temperature is 20°C and the dew point is 19°C, the relative humidity is ___.",
+      "correct": "Very high (close to 100%)",
+      "incorrect": [
+        "Very low (close to 0%)",
+        "Exactly 50%",
+        "Impossible to determine"
+      ],
+      "why_correct": "When the dew point is very close to air temperature, the air is nearly saturated — relative humidity is very high.",
+      "why_wrong": [
+        "Low humidity means dew point is far below air temperature.",
+        "50% humidity means a large spread between temperature and dew point.",
+        "A close temperature/dew point gap always indicates high humidity."
+      ],
+      "concepts": ["dew-point", "relative-humidity"],
+      "tip": "Dew point close to temp = muggy, high humidity. Far apart = dry."
+    },
+
+    {
+      "id": "q36",
+      "q": "What does the DRY BULB thermometer measure in a psychrometer?",
+      "correct": "The actual air temperature",
+      "incorrect": [
+        "The dew point temperature",
+        "The wet bulb temperature",
+        "The temperature after evaporation"
+      ],
+      "why_correct": "The dry bulb is a standard thermometer measuring actual (ambient) air temperature.",
+      "why_wrong": [
+        "The dew point is calculated by comparing dry and wet bulb readings with a chart.",
+        "Wet bulb temperature is measured by the WET bulb thermometer.",
+        "Evaporative cooling is what the WET bulb measures."
+      ],
+      "concepts": ["psychrometer", "dry-bulb"],
+      "tip": "Dry bulb = normal thermometer. Wet bulb = wrapped in wet cloth, always cooler."
+    },
+
+    {
+      "id": "q37",
+      "q": "Why is the WET BULB temperature always lower than or equal to the dry bulb?",
+      "correct": "Evaporation from the wet cloth cools the thermometer",
+      "incorrect": [
+        "The wet cloth reflects sunlight",
+        "Water absorbs heat from the air",
+        "The wet cloth blocks airflow"
+      ],
+      "why_correct": "Evaporation is a cooling process — the wet cloth loses water vapor, removing heat energy from the thermometer.",
+      "why_wrong": [
+        "The cloth doesn't reflect sunlight — evaporation causes the cooling.",
+        "Water absorbing heat would warm it — but evaporation removes heat, cooling the bulb.",
+        "Blocking airflow would not cause cooling — airflow actually enhances evaporation."
+      ],
+      "concepts": ["psychrometer", "wet-bulb"],
+      "tip": "Sweating cools you — same idea. Wet bulb = evaporative cooling."
+    },
+
+    {
+      "id": "q38",
+      "q": "If the dry bulb is 20°C and the wet bulb is ALSO 20°C, what does that tell you?",
+      "correct": "Humidity is 100% — no evaporation is occurring",
+      "incorrect": [
+        "The air is very dry",
+        "The wet cloth dried out",
+        "There is a malfunction"
+      ],
+      "why_correct": "If wet = dry, evaporation has stopped because the air is already saturated (100% RH). No evaporative cooling occurred.",
+      "why_wrong": [
+        "Very dry air would cause rapid evaporation and a BIG difference between bulbs.",
+        "If the cloth dried out, the wet bulb reading would be invalid, but equal readings indicate saturation.",
+        "Equal readings are expected and correct when humidity is 100%."
+      ],
+      "concepts": ["psychrometer", "saturation"],
+      "tip": "No difference = no evaporation = air is saturated. Big difference = dry air."
+    },
+
+    {
+      "id": "q39",
+      "q": "A larger difference between dry and wet bulb temperatures indicates ___.",
+      "correct": "Lower relative humidity (drier air)",
+      "incorrect": [
+        "Higher relative humidity (more humid)",
+        "Saturation (100% humidity)",
+        "No relationship to humidity"
+      ],
+      "why_correct": "In dry air, evaporation is rapid and cools the wet bulb much more. Big gap = lots of evaporation = dry air.",
+      "why_wrong": [
+        "High humidity would SLOW evaporation, giving a SMALLER difference.",
+        "100% humidity means wet = dry (no difference).",
+        "The difference between bulbs is directly used to determine humidity."
+      ],
+      "concepts": ["psychrometer", "humidity"],
+      "tip": "Big gap = dry. Small gap = humid. Zero gap = saturated."
+    },
+
+    {
+      "id": "q40",
+      "q": "How do clouds form?",
+      "correct": "Air rises, cools to the dew point, and water vapor condenses",
+      "incorrect": [
+        "Air sinks and warms up",
+        "Water evaporates directly into cloud form",
+        "Air pressure increases rapidly"
+      ],
+      "why_correct": "Rising air expands and cools. When it cools to the dew point, water vapor condenses around dust particles to form cloud droplets.",
+      "why_wrong": [
+        "Sinking air warms and prevents cloud formation — this is what high pressure does.",
+        "Evaporation puts water INTO the air; condensation of that vapor forms clouds.",
+        "Rising air pressure prevents clouds — LOW pressure causes rising air and clouds."
+      ],
+      "concepts": ["cloud-formation"],
+      "tip": "Clouds = rising air + dew point reached + condensation."
+    },
+
+    {
+      "id": "q41",
+      "q": "What are CIRRUS clouds?",
+      "correct": "High, wispy ice crystal clouds",
+      "incorrect": [
+        "Low, flat gray clouds",
+        "Puffy white fair-weather clouds",
+        "Towering storm clouds"
+      ],
+      "why_correct": "Cirrus clouds form high in the atmosphere where temperatures are very cold; they are made of ice crystals and appear thin and wispy.",
+      "why_wrong": [
+        "Low flat gray clouds are stratus clouds.",
+        "Puffy white fair-weather clouds are cumulus clouds.",
+        "Towering storm clouds are cumulonimbus."
+      ],
+      "concepts": ["cloud-types", "cirrus"],
+      "tip": "Cirrus = high and wispy, like white streaks painted across a blue sky."
+    },
+
+    {
+      "id": "q42",
+      "q": "What are CUMULUS clouds?",
+      "correct": "Puffy, flat-bottomed fair-weather clouds",
+      "incorrect": [
+        "High ice crystal clouds",
+        "Low gray rain clouds",
+        "Dark anvil-shaped storm clouds"
+      ],
+      "why_correct": "Cumulus clouds are the classic fluffy white clouds. They indicate fair weather when small, but can grow into storm clouds.",
+      "why_wrong": [
+        "High ice crystal clouds are cirrus.",
+        "Low gray rain clouds are stratus or nimbostratus.",
+        "Dark anvil-shaped clouds are cumulonimbus."
+      ],
+      "concepts": ["cloud-types", "cumulus"],
+      "tip": "Cumulus = fluffy cotton-ball clouds. 'Cumulo' means 'heap' in Latin."
+    },
+
+    {
+      "id": "q43",
+      "q": "What are STRATUS clouds?",
+      "correct": "Low, flat, gray clouds covering the sky in layers",
+      "incorrect": [
+        "Puffy white clouds with flat bottoms",
+        "High wispy ice crystal clouds",
+        "Towering storm clouds"
+      ],
+      "why_correct": "Stratus clouds form in low, flat sheets or layers, often causing overcast skies with light drizzle.",
+      "why_wrong": [
+        "Puffy flat-bottomed clouds are cumulus.",
+        "High wispy ice crystal clouds are cirrus.",
+        "Towering storm clouds are cumulonimbus."
+      ],
+      "concepts": ["cloud-types", "stratus"],
+      "tip": "Stratus = 'layered.' Think of an overcast, gloomy sky."
+    },
+
+    {
+      "id": "q44",
+      "q": "What are CUMULONIMBUS clouds?",
+      "correct": "Tall, dark storm clouds that produce heavy rain, lightning, and hail",
+      "incorrect": [
+        "Low flat rain clouds",
+        "High wispy clouds indicating fair weather",
+        "Puffy white clouds on a sunny day"
+      ],
+      "why_correct": "Cumulonimbus are massive, towering clouds extending from low altitudes to the top of the troposphere; they are responsible for thunderstorms.",
+      "why_wrong": [
+        "Low flat rain clouds are nimbostratus.",
+        "High wispy fair-weather clouds are cirrus.",
+        "Puffy white fair-weather clouds are cumulus."
+      ],
+      "concepts": ["cloud-types", "cumulonimbus"],
+      "tip": "'Nimbus' = rain or storm. Cumulo + nimbus = heaping storm cloud."
+    },
+
+    {
+      "id": "q45",
+      "q": "Which cloud type is associated with a COLD FRONT's arrival?",
+      "correct": "Cumulonimbus (thunderstorms)",
+      "incorrect": [
+        "Cirrus (wispy, high)",
+        "Stratus (flat, low gray)",
+        "Nimbostratus (steady rain)"
+      ],
+      "why_correct": "Cold fronts force air upward rapidly, creating tall cumulonimbus clouds and sudden, intense thunderstorms.",
+      "why_wrong": [
+        "Cirrus clouds appear far AHEAD of a warm front.",
+        "Stratus clouds are not typically associated with cold fronts.",
+        "Nimbostratus steady rain is characteristic of warm fronts, not cold."
+      ],
+      "concepts": ["cold-front", "cloud-types"],
+      "tip": "Cold front = sudden storm → cumulonimbus. Warm front = gradual rain → nimbostratus."
+    },
+
+    {
+      "id": "q46",
+      "q": "Which cloud types typically appear in sequence ahead of a WARM FRONT?",
+      "correct": "Cirrus → cirrostratus → altostratus → nimbostratus",
+      "incorrect": [
+        "Cumulonimbus → cumulus → stratus",
+        "Stratus → cumulus → cirrus",
+        "Nimbostratus → altostratus → cirrus"
+      ],
+      "why_correct": "Warm fronts have a gradual slope; clouds develop in sequence from high (cirrus) to low (nimbostratus) as the front approaches over 1–2 days.",
+      "why_wrong": [
+        "Cumulonimbus first is a cold front pattern.",
+        "Stratus to cirrus would be the cloud sequence AFTER the front passes.",
+        "The order is reversed — cirrus appears first, nimbostratus last."
+      ],
+      "concepts": ["warm-front", "cloud-sequence"],
+      "tip": "Warm front gives you a weather forecast: first see cirrus = rain in 1–2 days."
+    },
+
+    {
+      "id": "q47",
+      "q": "What weather does a COLD FRONT typically bring?",
+      "correct": "Sudden heavy storms followed by cold, clear weather",
+      "incorrect": [
+        "Gradual rain lasting 1–2 days",
+        "Warm, humid conditions",
+        "Clear skies immediately"
+      ],
+      "why_correct": "Cold fronts move fast and force warm air up sharply, causing intense but brief storms. Cold, drier air follows behind.",
+      "why_wrong": [
+        "Gradual rain over 1–2 days is characteristic of warm fronts.",
+        "Cold fronts bring cool, dry air — not warm humid conditions.",
+        "Clear skies come AFTER the brief storms pass."
+      ],
+      "concepts": ["cold-front", "weather-changes"],
+      "tip": "Cold front = COLD air pushes in, causing sudden storms → clears up fast."
+    },
+
+    {
+      "id": "q48",
+      "q": "What weather does a WARM FRONT typically bring?",
+      "correct": "Gradual, widespread precipitation over 1–2 days followed by warmer weather",
+      "incorrect": [
+        "Sudden violent thunderstorms",
+        "Immediate clear skies",
+        "Heavy snow followed by fog"
+      ],
+      "why_correct": "Warm fronts have a gentle slope, causing warm air to rise slowly over cold air — producing extended light-to-moderate rain or snow.",
+      "why_wrong": [
+        "Sudden violent thunderstorms are a cold front signature.",
+        "Clear skies come after the front fully passes, not right away.",
+        "This is not the typical warm front pattern."
+      ],
+      "concepts": ["warm-front", "weather-changes"],
+      "tip": "Warm front = slow and wet. Gradual rise, prolonged rain."
+    },
+
+    {
+      "id": "q49",
+      "q": "On a weather map, a COLD FRONT is drawn as ___.",
+      "correct": "A blue line with triangles pointing in the direction of movement",
+      "incorrect": [
+        "A red line with semicircles pointing in the direction of movement",
+        "A purple line alternating triangles and semicircles",
+        "A dashed green line"
+      ],
+      "why_correct": "Cold fronts are shown in blue (cold = blue) with triangles (like spikes of cold air) pointing the way the front is moving.",
+      "why_wrong": [
+        "Red with semicircles is a WARM front.",
+        "Purple alternating triangles and semicircles is an OCCLUDED front.",
+        "Dashed lines are stationary fronts — and not green."
+      ],
+      "concepts": ["weather-maps", "cold-front"],
+      "tip": "Blue triangles = cold front. Red bumps = warm front."
+    },
+
+    {
+      "id": "q50",
+      "q": "On a weather map, a WARM FRONT is drawn as ___.",
+      "correct": "A red line with semicircles pointing in the direction of movement",
+      "incorrect": [
+        "A blue line with triangles",
+        "A purple line with alternating triangles and semicircles",
+        "A yellow line with circles"
+      ],
+      "why_correct": "Warm fronts are drawn in red (warm = red) with bumpy semicircles facing the direction the warm air is advancing.",
+      "why_wrong": [
+        "Blue triangles mark cold fronts.",
+        "Purple alternating is an occluded front.",
+        "There is no yellow line with circles on standard weather maps."
+      ],
+      "concepts": ["weather-maps", "warm-front"],
+      "tip": "Red bumps (semicircles) = warm front. Think: red = warm."
+    },
+
+    {
+      "id": "q51",
+      "q": "What are ISOBARS on a weather map?",
+      "correct": "Lines connecting areas of equal air pressure",
+      "incorrect": [
+        "Lines connecting areas of equal temperature",
+        "Lines showing wind direction",
+        "Lines marking frontal boundaries"
+      ],
+      "why_correct": "Isobars are contour lines on weather maps connecting all points with the same atmospheric pressure, usually measured in millibars.",
+      "why_wrong": [
+        "Lines connecting equal temperature are isotherms.",
+        "Wind direction is shown with wind barbs, not isobars.",
+        "Front lines show the boundary between air masses, not pressure values."
+      ],
+      "concepts": ["isobars", "weather-maps"],
+      "tip": "Iso = equal. Bar = pressure. Isobar = equal pressure line."
+    },
+
+    {
+      "id": "q52",
+      "q": "What are ISOTHERMS on a weather map?",
+      "correct": "Lines connecting areas of equal temperature",
+      "incorrect": [
+        "Lines connecting areas of equal pressure",
+        "Lines showing rainfall amounts",
+        "Lines marking the jet stream"
+      ],
+      "why_correct": "Isotherms connect all locations with the same temperature, allowing you to visualize temperature gradients across a region.",
+      "why_wrong": [
+        "Equal pressure lines are isobars.",
+        "Rainfall is shown with isohyets or color shading.",
+        "Jet streams are shown separately and are not temperature lines."
+      ],
+      "concepts": ["isotherms", "weather-maps"],
+      "tip": "Iso = equal. Therm = temperature. Isotherm = equal temperature line."
+    },
+
+    {
+      "id": "q53",
+      "q": "What does closely-spaced isobars on a weather map indicate?",
+      "correct": "Strong winds",
+      "incorrect": [
+        "Calm, gentle winds",
+        "High temperature",
+        "Low humidity"],
+      "why_correct": "Closely-spaced isobars mean a steep pressure gradient — air flows rapidly from high to low pressure, creating stronger winds.",
+      "why_wrong": [
+        "Widely spaced isobars indicate gentle, weak winds.",
+        "Isobars show pressure, not temperature — that's isotherms.",
+        "Humidity is not shown by isobar spacing."
+      ],
+      "concepts": ["isobars", "wind-speed"],
+      "tip": "Tight isobars = steep pressure slope = fast wind. Like water rushing down a steep hill."
+    },
+
+    {
+      "id": "q54",
+      "q": "How is HAIL formed?",
+      "correct": "Ice pellets are repeatedly swept upward by updrafts and coated with layers of ice",
+      "incorrect": [
+        "Raindrops freeze as they fall through cold air",
+        "Snow melts and refreezes near the ground",
+        "Water vapor freezes directly into snowflakes"
+      ],
+      "why_correct": "Inside cumulonimbus clouds, strong updrafts carry ice pellets up repeatedly. Each trip through the cloud adds another layer of ice until the hailstone is too heavy to stay aloft.",
+      "why_wrong": [
+        "Raindrops freezing while falling describes sleet, not hail.",
+        "Melting and refreezing near the ground describes freezing rain or sleet.",
+        "Water vapor freezing directly describes snow formation."
+      ],
+      "concepts": ["hail", "precipitation"],
+      "tip": "Cut a hailstone open — each ring is one trip up through the cloud!"
+    },
+
+    {
+      "id": "q55",
+      "q": "How is SLEET formed?",
+      "correct": "Rain falls through a layer of freezing cold air and turns to ice pellets",
+      "incorrect": [
+        "Ice pellets are swept upward by updrafts",
+        "Water vapor freezes directly in a cloud",
+        "Dew freezes on the ground overnight"
+      ],
+      "why_correct": "Sleet forms when raindrops fall from a warm layer of air into a cold sub-freezing layer, freezing before reaching the ground.",
+      "why_wrong": [
+        "Updraft sweeping ice pellets repeatedly describes hail.",
+        "Water vapor freezing directly in a cloud describes snow.",
+        "Dew freezing describes frost, not sleet."
+      ],
+      "concepts": ["sleet", "precipitation"],
+      "tip": "Sleet = rain that freezes on the way down. Hail = ice built up by updrafts inside a storm."
+    },
+
+    {
+      "id": "q56",
+      "q": "How is SNOW formed?",
+      "correct": "Water vapor freezes directly into ice crystals inside a cloud",
+      "incorrect": [
+        "Rain passes through cold air and freezes",
+        "Hail melts then refreezes",
+        "Dew drops freeze on plant surfaces"
+      ],
+      "why_correct": "Snow forms when water vapor in clouds freezes directly into ice crystals (a process called deposition), which then clump together and fall.",
+      "why_wrong": [
+        "Rain freezing while falling describes sleet.",
+        "Hail refreezing is not how snow forms.",
+        "Dew freezing on surfaces describes frost, not snow."
+      ],
+      "concepts": ["snow", "precipitation"],
+      "tip": "Snow = vapor → ice crystals in cloud. Sleet = rain → ice en route to ground."
+    },
+
+    {
+      "id": "q57",
+      "q": "What causes Earth to have different SEASONS?",
+      "correct": "Earth's 23.5° axial tilt as it orbits the Sun",
+      "incorrect": [
+        "Earth's changing distance from the Sun",
+        "Changes in the Sun's energy output",
+        "The Moon's gravitational pull"
+      ],
+      "why_correct": "Earth's axis is tilted 23.5°; as it orbits the Sun, different hemispheres are tilted toward or away from the Sun, causing seasons.",
+      "why_wrong": [
+        "Earth is actually slightly CLOSER to the Sun during Northern Hemisphere winter — distance is not the cause.",
+        "The Sun's output is essentially constant on seasonal timescales.",
+        "The Moon affects tides, not seasons."
+      ],
+      "concepts": ["seasons", "axial-tilt"],
+      "tip": "Tilt = seasons. When your hemisphere leans toward the Sun, days are longer and sunlight is more direct."
+    },
+
+    {
+      "id": "q58",
+      "q": "Why does the Sun's angle affect how much Earth's surface heats up?",
+      "correct": "Direct (high-angle) sunlight concentrates energy in a smaller area",
+      "incorrect": [
+        "High-angle sunlight travels through less atmosphere",
+        "Low-angle sunlight is reflected more by clouds",
+        "The Sun is physically closer at high angles"
+      ],
+      "why_correct": "When sunlight hits at a high angle (close to 90°), the same energy is concentrated in a smaller area — more heating. At a low angle, the energy spreads over a larger area.",
+      "why_wrong": [
+        "While high-angle light travels less through the atmosphere, the main heating factor is the surface area over which energy is spread.",
+        "Cloud reflection is a separate factor unrelated to sun angle.",
+        "Earth's distance from the Sun doesn't change with latitude."
+      ],
+      "concepts": ["solar-angle", "heating"],
+      "tip": "Flashlight straight down = bright spot. Angle the flashlight = same light, bigger area, dimmer."
+    },
+
+    {
+      "id": "q59",
+      "q": "The TROPIC OF CANCER is at approximately ___.",
+      "correct": "23.5°N latitude",
+      "incorrect": ["23.5°S latitude", "66.5°N latitude", "0° latitude"],
+      "why_correct": "The Tropic of Cancer is at 23.5°N — the northernmost latitude where the Sun can be directly overhead (on the summer solstice).",
+      "why_wrong": [
+        "23.5°S is the Tropic of Capricorn.",
+        "66.5°N is the Arctic Circle.",
+        "0° is the equator."
+      ],
+      "concepts": ["latitude-lines", "tropics"],
+      "tip": "Cancer = North. Capricorn = South. Both at 23.5°."
+    },
+
+    {
+      "id": "q60",
+      "q": "The ARCTIC CIRCLE is at approximately ___.",
+      "correct": "66.5°N latitude",
+      "incorrect": ["23.5°N latitude", "90°N latitude", "45°N latitude"],
+      "why_correct": "The Arctic Circle at 66.5°N is the southernmost latitude that experiences 24-hour daylight (on the summer solstice) or 24-hour darkness (on the winter solstice).",
+      "why_wrong": [
+        "23.5°N is the Tropic of Cancer.",
+        "90°N is the North Pole.",
+        "45°N is mid-latitude — no special solar phenomenon there."
+      ],
+      "concepts": ["arctic-circle", "latitude-lines"],
+      "tip": "90° - 23.5° = 66.5°. The Arctic Circle and Tropic are complementary angles."
+    },
+
+    {
+      "id": "q61",
+      "q": "Where on Earth can the Sun be DIRECTLY OVERHEAD (at 90°)?",
+      "correct": "Between 23.5°N and 23.5°S (the Tropics)",
+      "incorrect": [
+        "Only at the equator",
+        "Anywhere on Earth",
+        "Only at the poles"
+      ],
+      "why_correct": "The Sun can only be directly overhead between the Tropics of Cancer (23.5°N) and Capricorn (23.5°S) due to Earth's 23.5° tilt.",
+      "why_wrong": [
+        "The Sun is directly overhead at the equator only during equinoxes — other times it's overhead between the tropics.",
+        "The Sun is never directly overhead at latitudes above 23.5°.",
+        "The poles receive sunlight at very low angles, never directly overhead."
+      ],
+      "concepts": ["solar-overhead", "tropics"],
+      "tip": "Direct overhead sunlight = tropics only. The 23.5° tilt limits where the Sun can be straight up."
+    },
+
+    {
+      "id": "q62",
+      "q": "Where on Earth experience 24 hours of DAYLIGHT at the summer solstice?",
+      "correct": "North of the Arctic Circle (66.5°N and above)",
+      "incorrect": [
+        "At the equator",
+        "South of the Antarctic Circle",
+        "At the Tropic of Cancer"
+      ],
+      "why_correct": "At the summer solstice (June), the North Pole is tilted toward the Sun, and all areas within the Arctic Circle receive continuous daylight.",
+      "why_wrong": [
+        "The equator always has roughly 12 hours of daylight.",
+        "At the Northern summer solstice, it's winter in Antarctica — 24 hours of DARKNESS there.",
+        "The Tropic of Cancer has a long day but not 24 hours."
+      ],
+      "concepts": ["arctic-circle", "solstice"],
+      "tip": "Midnight Sun = Arctic Circle and above. The Sun never sets during polar summer."
+    },
+
+    {
+      "id": "q63",
+      "q": "What are the THREE main climate zones based on latitude?",
+      "correct": "Tropical, Temperate, and Polar",
+      "incorrect": [
+        "Equatorial, Continental, and Arctic",
+        "Desert, Tundra, and Rainforest",
+        "Hot, Mild, and Cold"
+      ],
+      "why_correct": "The three major climate zones are tropical (0°–23.5°), temperate (23.5°–66.5°), and polar (66.5°–90°) in each hemisphere.",
+      "why_wrong": [
+        "These are not the standard three climate zone names.",
+        "These are biomes, not the three main latitude-based climate zones.",
+        "These are informal descriptors, not the scientific climate zone names."
+      ],
+      "concepts": ["climate-zones"],
+      "tip": "Tropical = hot near equator. Temperate = moderate middle latitudes. Polar = cold near poles."
+    },
+
+    {
+      "id": "q64",
+      "q": "Which climate zone does most of the continental United States fall in?",
+      "correct": "Temperate",
+      "incorrect": ["Tropical", "Polar", "Equatorial"],
+      "why_correct": "The continental US lies between roughly 25°N and 49°N — within the temperate zone (23.5°–66.5°N).",
+      "why_wrong": [
+        "Tropical climate is for latitudes up to 23.5° — only southern Florida and Hawaii are near the tropics.",
+        "Polar climate is above 66.5° — Alaska touches this but most of the US does not.",
+        "Equatorial is the same as tropical; the US does not span the equator."
+      ],
+      "concepts": ["climate-zones", "temperate"],
+      "tip": "The US has four seasons = temperate zone. Tropics have little seasonal change."
+    },
+
+    {
+      "id": "q65",
+      "q": "What is the OROGRAPHIC EFFECT?",
+      "correct": "Mountains force air to rise, causing rain on the windward side and a dry rain shadow on the leeward side",
+      "incorrect": [
+        "Mountains block cold Arctic winds",
+        "Mountains create thermal updrafts that cool the climate",
+        "Mountains redirect ocean currents"
+      ],
+      "why_correct": "Air is pushed up a mountain (windward side), cools, and drops precipitation. The descending air on the other side (leeward) is dry — called the rain shadow.",
+      "why_wrong": [
+        "While mountains can block some winds, the orographic effect specifically refers to precipitation patterns from forced rising air.",
+        "Thermal updrafts are a different process.",
+        "Mountains affect air patterns, not ocean currents."
+      ],
+      "concepts": ["orographic-effect", "rain-shadow"],
+      "tip": "Windward = wet and cool. Leeward = dry and warm (rain shadow)."
+    },
+
+    {
+      "id": "q66",
+      "q": "The WINDWARD side of a mountain is ___.",
+      "correct": "The side facing the wind — cooler and wetter",
+      "incorrect": [
+        "The sheltered side — warmer and drier",
+        "The side with the most sunshine",
+        "The side facing away from the ocean"
+      ],
+      "why_correct": "Windward faces the prevailing wind; rising air cools and drops precipitation, making it wetter and cooler.",
+      "why_wrong": [
+        "The sheltered, warmer, drier side is the LEEWARD side.",
+        "Sunshine depends on many factors — not simply windward/leeward position.",
+        "Windward faces INTO the wind/ocean — not away from it."
+      ],
+      "concepts": ["windward", "orographic"],
+      "tip": "Windward = INTO the wind = wet. Leeward = AWAY from wind = dry."
+    },
+
+    {
+      "id": "q67",
+      "q": "The LEEWARD side of a mountain (rain shadow) is ___.",
+      "correct": "Sheltered from wind — warmer and drier",
+      "incorrect": [
+        "Facing into the wind — cooler and wetter",
+        "Always covered in glaciers",
+        "Always facing north"
+      ],
+      "why_correct": "The leeward side is sheltered; air descending down the mountain warms and dries out, creating a rain shadow desert or dry zone.",
+      "why_wrong": [
+        "Facing into wind and being wet is windward, not leeward.",
+        "Rain shadow areas are often deserts, not glaciers.",
+        "Leeward depends on wind direction, not compass direction."
+      ],
+      "concepts": ["leeward", "rain-shadow"],
+      "tip": "Death Valley is in the rain shadow of the Sierra Nevada — extreme desert from orographic effect."
+    },
+
+    {
+      "id": "q68",
+      "q": "Besides mountains, what other geographic feature can significantly affect regional climate?",
+      "correct": "Proximity to large bodies of water",
+      "incorrect": [
+        "Number of rivers in the area",
+        "Amount of farmland",
+        "Distance from the nearest city"
+      ],
+      "why_correct": "Water has high heat capacity — areas near oceans have milder, more moderate climates (maritime climate) compared to inland areas.",
+      "why_wrong": [
+        "Rivers can have local effects but don't significantly alter regional climate.",
+        "Farmland can affect local albedo and moisture slightly but isn't a major climate factor.",
+        "Cities create urban heat islands but are not major geographic climate drivers."
+      ],
+      "concepts": ["geographic-climate", "maritime"],
+      "tip": "Cities near oceans = mild winters and cool summers. Inland = extreme hot/cold swings."
+    },
+
+    {
+      "id": "q69",
+      "q": "On a weather station model, where is the TEMPERATURE displayed?",
+      "correct": "Upper left of the station circle",
+      "incorrect": [
+        "Upper right",
+        "Lower left",
+        "Lower right"
+      ],
+      "why_correct": "By convention, the temperature (in °F in the US) is placed in the upper left corner of the station model.",
+      "why_wrong": [
+        "Upper right shows pressure (last three digits of millibars).",
+        "Lower left shows dew point temperature.",
+        "Lower right shows current weather or visibility information."
+      ],
+      "concepts": ["weather-station-model"],
+      "tip": "Station model: Temp = upper left. Dew point = lower left. Pressure = upper right."
+    },
+
+    {
+      "id": "q70",
+      "q": "On a weather station model, where is the DEW POINT displayed?",
+      "correct": "Lower left of the station circle",
+      "incorrect": [
+        "Upper left",
+        "Upper right",
+        "Inside the circle"
+      ],
+      "why_correct": "Dew point is always placed in the lower left corner of the station model, below the temperature.",
+      "why_wrong": [
+        "Upper left is the temperature.",
+        "Upper right is the pressure.",
+        "Inside the circle shows cloud cover (how filled in the circle is)."
+      ],
+      "concepts": ["weather-station-model"],
+      "tip": "Think of it: Temperature is 'above' the dew point on the model, just as temp is always ≥ dew point."
+    },
+
+    {
+      "id": "q71",
+      "q": "On a weather station model, what does the FILLED portion of the station circle show?",
+      "correct": "Cloud cover (fraction of sky covered)",
+      "incorrect": [
+        "Wind speed",
+        "Precipitation type",
+        "Air pressure"
+      ],
+      "why_correct": "The station circle is filled in proportionally to show cloud cover: empty = clear, half-filled = partly cloudy, fully filled = overcast.",
+      "why_wrong": [
+        "Wind speed is shown by the number and size of wind barbs.",
+        "Precipitation type is shown by symbols near the station.",
+        "Air pressure is shown as a number in the upper right."
+      ],
+      "concepts": ["weather-station-model", "cloud-cover"],
+      "tip": "Circle fill = how cloudy. Empty circle = clear sky. Filled circle = overcast."
+    },
+
+    {
+      "id": "q72",
+      "q": "On a weather station model, the LINE extending from the circle shows ___.",
+      "correct": "Wind direction (points toward where wind comes FROM)",
+      "incorrect": [
+        "Wind direction (points toward where wind is going)",
+        "The nearest front",
+        "The direction to the nearest high pressure"
+      ],
+      "why_correct": "The wind barb line points in the direction the wind is coming FROM. A line pointing NE means wind is coming from the northeast.",
+      "why_wrong": [
+        "The barb shows where wind comes FROM, not where it goes.",
+        "The line does not point toward fronts.",
+        "The line shows wind, not pressure systems."
+      ],
+      "concepts": ["weather-station-model", "wind-direction"],
+      "tip": "Wind is named for where it COMES from. A north wind blows FROM the north — barb points north."
+    },
+
+    {
+      "id": "q73",
+      "q": "On a weather station model, what do the BARBS (tick marks) on the wind line represent?",
+      "correct": "Wind speed (each full barb = 10 knots; half barb = 5 knots)",
+      "incorrect": [
+        "Wind gusts",
+        "Humidity",
+        "Number of weather events in the past hour"
+      ],
+      "why_correct": "Each full tick mark (barb) on the wind line represents 10 knots; half-barbs represent 5 knots. A pennant/flag = 50 knots.",
+      "why_wrong": [
+        "Gusts are not shown separately on standard station models.",
+        "Humidity is shown via dew point, not wind barbs.",
+        "Barbs show wind speed, not event count."
+      ],
+      "concepts": ["weather-station-model", "wind-speed"],
+      "tip": "Count the barbs, multiply by 10 knots. Two barbs = 20 knots."
+    },
+
+    {
+      "id": "q74",
+      "q": "On a weather station model, pressure is shown as ___.",
+      "correct": "The last 3 digits of the pressure in millibars (upper right)",
+      "incorrect": [
+        "Full pressure in inches of mercury (lower right)",
+        "A color-coded symbol",
+        "The trend arrow (rising or falling)"
+      ],
+      "why_correct": "The pressure is encoded as the last 3 digits of millibars with a decimal implied. For example, '132' = 1013.2 mb.",
+      "why_wrong": [
+        "Station models use millibars, not inches of mercury, and they abbreviate to last 3 digits.",
+        "Pressure is a number, not a color symbol.",
+        "Pressure trend (rising/falling) is shown separately with a line/symbol."
+      ],
+      "concepts": ["weather-station-model", "pressure"],
+      "tip": "If upper right shows '132' → 1013.2 mb. If '978' → 997.8 mb (below 1000, starts with 9)."
+    },
+
+    {
+      "id": "q75",
+      "q": "What is an AIR MASS?",
+      "correct": "A large body of air with uniform temperature and humidity",
+      "incorrect": [
+        "A boundary between two different air types",
+        "A rotating storm system",
+        "A layer of the atmosphere"
+      ],
+      "why_correct": "An air mass is a large volume of air (can be thousands of kilometers wide) that has relatively uniform temperature and moisture, acquired from its source region.",
+      "why_wrong": [
+        "A boundary between two air masses is called a FRONT.",
+        "A rotating storm system is a cyclone or hurricane.",
+        "Layers of the atmosphere are the troposphere, stratosphere, etc."
+      ],
+      "concepts": ["air-masses"],
+      "tip": "Air mass = large, uniform blob of air. When two meet, a front forms."
+    },
+
+    {
+      "id": "q76",
+      "q": "What is a WEATHER FRONT?",
+      "correct": "The boundary between two different air masses",
+      "incorrect": [
+        "A large area of uniform temperature",
+        "A storm with rotating winds",
+        "The leading edge of the jet stream"
+      ],
+      "why_correct": "A front is the transition zone where two air masses with different temperatures and/or humidities meet.",
+      "why_wrong": [
+        "Uniform temperature describes an air mass, not a front.",
+        "A rotating storm is a cyclone.",
+        "The jet stream is a band of fast-moving air, not a front."
+      ],
+      "concepts": ["fronts"],
+      "tip": "Front = battle line between air masses. Expect weather changes at fronts."
+    },
+
+    {
+      "id": "q77",
+      "q": "What is a STATIONARY FRONT?",
+      "correct": "A front that is not moving — two air masses stalled against each other",
+      "incorrect": [
+        "A front that moves very quickly",
+        "A front between two warm air masses",
+        "A front that forms over the ocean"
+      ],
+      "why_correct": "A stationary front forms when neither air mass can push the other back. It can cause prolonged cloudiness or rain in one area.",
+      "why_wrong": [
+        "Fast-moving fronts are active cold or warm fronts.",
+        "A stationary front is between warm and cold air masses that stop moving.",
+        "Stationary fronts can form anywhere — not exclusively over oceans."
+      ],
+      "concepts": ["stationary-front"],
+      "tip": "Stationary = stuck. Prolonged bad weather in one region."
+    },
+
+    {
+      "id": "q78",
+      "q": "What is the PRIMARY source of energy that drives Earth's weather?",
+      "correct": "The Sun (solar radiation)",
+      "incorrect": [
+        "Earth's internal heat",
+        "The Moon's gravity",
+        "Volcanic eruptions"
+      ],
+      "why_correct": "Almost all atmospheric energy comes from the Sun. Solar radiation heats Earth's surface unevenly, driving wind, ocean currents, and the water cycle.",
+      "why_wrong": [
+        "Earth's internal heat is very small compared to solar input and mainly drives tectonic processes.",
+        "The Moon causes tides, not weather.",
+        "Volcanism can temporarily affect climate but is not the primary driver."
+      ],
+      "concepts": ["solar-energy", "weather-drivers"],
+      "tip": "Sun = Earth's weather engine. No Sun → no weather."
+    },
+
+    {
+      "id": "q79",
+      "q": "What drives the WATER CYCLE?",
+      "correct": "Solar energy (drives evaporation) and gravity (pulls precipitation down)",
+      "incorrect": [
+        "The Moon's gravity alone",
+        "Earth's rotation",
+        "Ocean currents"
+      ],
+      "why_correct": "The Sun provides energy for evaporation; gravity pulls water vapor down as precipitation after it condenses in clouds.",
+      "why_wrong": [
+        "The Moon causes tides but not the water cycle.",
+        "Earth's rotation affects wind patterns but doesn't drive the water cycle.",
+        "Ocean currents are part of the water cycle but don't drive it."
+      ],
+      "concepts": ["water-cycle"],
+      "tip": "Sun evaporates → clouds form → gravity brings rain down."
+    },
+
+    {
+      "id": "q80",
+      "q": "Which process in the water cycle adds water vapor to the atmosphere?",
+      "correct": "Evaporation and transpiration",
+      "incorrect": [
+        "Condensation",
+        "Precipitation",
+        "Runoff"
+      ],
+      "why_correct": "Evaporation (from water surfaces) and transpiration (from plants) convert liquid water to water vapor, adding it to the atmosphere.",
+      "why_wrong": [
+        "Condensation removes water vapor FROM the air (turns it into droplets).",
+        "Precipitation removes water from the atmosphere.",
+        "Runoff moves water along the surface — it doesn't add vapor to the air."
+      ],
+      "concepts": ["water-cycle", "evaporation"],
+      "tip": "Evaporation + transpiration = evapotranspiration. Both put vapor INTO the air."
+    },
+
+    {
+      "id": "q81",
+      "q": "Air pressure is measured in ___.",
+      "correct": "Millibars (mb) or hectopascals (hPa)",
+      "incorrect": [
+        "Knots",
+        "Degrees Celsius",
+        "Meters per second"
+      ],
+      "why_correct": "Standard sea-level pressure is 1013.25 mb (or hPa). These are the units used on weather maps and station models.",
+      "why_wrong": [
+        "Knots measure wind speed.",
+        "Degrees Celsius measure temperature.",
+        "Meters per second measure wind speed."
+      ],
+      "concepts": ["air-pressure", "units"],
+      "tip": "Standard pressure = 1013 mb. Values above 1013 = high pressure; below = low pressure."
+    },
+
+    {
+      "id": "q82",
+      "q": "What is a SEA BREEZE?",
+      "correct": "Wind blowing from ocean to land during the day",
+      "incorrect": [
+        "Wind blowing from land to ocean at night",
+        "Wind blowing parallel to the coast",
+        "Warm wind from tropical oceans"
+      ],
+      "why_correct": "During the day, land heats faster than water. Lower pressure forms over land, drawing in cooler ocean air as a sea breeze.",
+      "why_wrong": [
+        "Wind blowing from land to ocean at night is a LAND breeze.",
+        "Coastal winds blow perpendicular to the coast, not parallel.",
+        "Sea breeze is specifically about the daytime coastal circulation, not tropical winds."
+      ],
+      "concepts": ["sea-breeze"],
+      "tip": "Sea breeze = cool ocean air flows inland. Perfect for afternoon sailing."
+    },
+
+    {
+      "id": "q83",
+      "q": "What happens when cooler air SINKS in a high pressure system?",
+      "correct": "Air warms, humidity drops, and skies clear",
+      "incorrect": [
+        "Air cools further and forms clouds",
+        "Rain begins to fall",
+        "Winds become stronger"
+      ],
+      "why_correct": "Sinking air compresses and warms, which increases its capacity for water vapor, reducing relative humidity and preventing cloud formation.",
+      "why_wrong": [
+        "Cooling that forms clouds is what happens when air RISES, not sinks.",
+        "Rain comes from rising air, not sinking air.",
+        "High pressure systems typically have calmer winds than low pressure."
+      ],
+      "concepts": ["high-pressure", "sinking-air"],
+      "tip": "Sinking air warms and dries out → no clouds → sunny weather."
+    },
+
+    {
+      "id": "q84",
+      "q": "What is the TROPOPAUSE?",
+      "correct": "The boundary between the troposphere and the stratosphere",
+      "incorrect": [
+        "The top of the mesosphere",
+        "The ozone layer",
+        "The layer where meteors burn up"
+      ],
+      "why_correct": "The tropopause is the boundary layer at the top of the troposphere (around 12 km high at mid-latitudes) where temperature stops decreasing.",
+      "why_wrong": [
+        "The top of the mesosphere is the mesopause.",
+        "The ozone layer is in the stratosphere, not at the tropopause.",
+        "Meteors burn in the mesosphere, far above the tropopause."
+      ],
+      "concepts": ["tropopause", "atmosphere-layers"],
+      "tip": "The '-pause' layers are boundaries: tropo-PAUSE = where troposphere stops."
+    },
+
+    {
+      "id": "q85",
+      "q": "Which type of front typically moves the FASTEST?",
+      "correct": "Cold front",
+      "incorrect": [
+        "Warm front",
+        "Stationary front",
+        "Occluded front"
+      ],
+      "why_correct": "Cold fronts are pushed by dense, heavy cold air that bulldozes under warm air rapidly. Warm fronts glide more slowly over cold air.",
+      "why_wrong": [
+        "Warm fronts move slowly because they rise gradually over cold air.",
+        "Stationary fronts don't move at all.",
+        "Occluded fronts are slower than cold fronts."
+      ],
+      "concepts": ["cold-front", "front-speed"],
+      "tip": "Cold front = fast and violent. Warm front = slow and gentle."
+    },
+
+    {
+      "id": "q86",
+      "q": "What does it mean if two locations at the SAME LATITUDE have very different climates?",
+      "correct": "Geographic features (mountains, oceans) are modifying the climate",
+      "incorrect": [
+        "One location receives more sunlight than the other",
+        "The latitude data must be wrong",
+        "One location is in the northern hemisphere and the other in the southern"
+      ],
+      "why_correct": "Latitude controls the amount of solar energy received, but geographic features like mountains, oceans, or continentality can create very different climates at the same latitude.",
+      "why_wrong": [
+        "Locations at the same latitude receive the same solar angle — that's not the difference.",
+        "Two places can absolutely be at the same latitude and have very different climates.",
+        "Both can be in the same hemisphere at the same latitude."
+      ],
+      "concepts": ["climate-geography"],
+      "tip": "San Francisco and Denver are both ~37–38°N but have very different climates — ocean vs. inland/mountains."
+    },
+
+    {
+      "id": "q87",
+      "q": "What is RELATIVE HUMIDITY's relationship to dew point depression (temp – dew point)?",
+      "correct": "Larger depression = lower relative humidity",
+      "incorrect": [
+        "Larger depression = higher relative humidity",
+        "Dew point depression has no relationship to humidity",
+        "Zero depression = 0% humidity"
+      ],
+      "why_correct": "Dew point depression = (air temp – dew point). When the gap is large, air is far from saturation = low humidity. When the gap is small or zero, humidity is high or 100%.",
+      "why_wrong": [
+        "Larger gap means air is far from saturation — humidity is LOW, not high.",
+        "Dew point depression directly measures how far air is from saturation.",
+        "Zero depression means temp = dew point = 100% humidity, not 0%."
+      ],
+      "concepts": ["dew-point", "relative-humidity"],
+      "tip": "Small gap = muggy. Big gap = dry. Zero gap = fog/dew forming."
+    },
+
+    {
+      "id": "q88",
+      "q": "Which layer of the atmosphere is the thinnest but contains the hottest temperatures?",
+      "correct": "Thermosphere",
+      "incorrect": ["Troposphere", "Stratosphere", "Mesosphere"],
+      "why_correct": "The thermosphere absorbs high-energy solar radiation, making its sparse molecules move extremely fast — but the air is so thin it doesn't feel hot.",
+      "why_wrong": [
+        "The troposphere is the thickest in terms of mass and has moderate temperatures.",
+        "The stratosphere is warm due to ozone but not the hottest.",
+        "The mesosphere is actually the coldest layer."
+      ],
+      "concepts": ["thermosphere", "temperature-altitude"],
+      "tip": "Thermosphere = extremely hot temperatures, but almost no molecules — you'd freeze in a spacesuit!"
+    },
+
+    {
+      "id": "q89",
+      "q": "Which atmosphere layer is the COLDEST?",
+      "correct": "Mesosphere",
+      "incorrect": ["Troposphere", "Stratosphere", "Thermosphere"],
+      "why_correct": "The mesosphere (50–80 km high) has no ozone to absorb UV and no ground heat — temperatures drop to as low as –90°C.",
+      "why_wrong": [
+        "The troposphere is cold at its top but the mesosphere is colder.",
+        "The stratosphere warms due to ozone.",
+        "The thermosphere is extremely 'hot' in terms of molecule speed."
+      ],
+      "concepts": ["mesosphere", "temperature-altitude"],
+      "tip": "Mesosphere = coldest layer. Meteors still burn here though, due to friction with sparse air."
+    },
+
+    {
+      "id": "q90",
+      "q": "What is the approximate standard sea-level air pressure?",
+      "correct": "1013 millibars (mb)",
+      "incorrect": ["500 mb", "760 mb", "2000 mb"],
+      "why_correct": "Standard atmospheric pressure at sea level is 1013.25 mb (also equal to 29.92 inches of mercury or 760 mmHg).",
+      "why_wrong": [
+        "500 mb is at approximately 5,500 meters altitude — in the middle troposphere.",
+        "760 is the pressure in mmHg, but standard mb is 1013.",
+        "2000 mb would be nearly double sea-level pressure — not realistic on Earth."
+      ],
+      "concepts": ["air-pressure"],
+      "tip": "Standard sea level = ~1013 mb. Numbers above = high pressure; below = low pressure."
+    },
+
+    {
+      "id": "q91",
+      "q": "On a weather station model with 50% cloud cover, the station circle would be ___.",
+      "correct": "Half-filled (like a half-moon shape)",
+      "incorrect": [
+        "Completely filled in",
+        "Empty",
+        "Filled with an X"
+      ],
+      "why_correct": "Cloud cover on station models uses a graduated fill: empty = 0%, quarter-filled = 25%, half-filled = 50%, three-quarters = 75%, fully filled = 100% (overcast).",
+      "why_wrong": [
+        "Completely filled means overcast (100% cloud cover).",
+        "Empty means clear skies (0% cloud cover).",
+        "An X is not a standard cloud cover symbol."
+      ],
+      "concepts": ["weather-station-model", "cloud-cover"],
+      "tip": "Think of the circle as a pie chart of the sky: fill it in proportionally."
+    },
+
+    {
+      "id": "q92",
+      "q": "What causes surface winds to blow from HIGH pressure to LOW pressure?",
+      "correct": "The pressure gradient force — air moves from areas of greater pressure to lesser pressure",
+      "incorrect": [
+        "The Coriolis effect",
+        "Gravity pulling air downward",
+        "Solar radiation heating the surface"
+      ],
+      "why_correct": "The pressure gradient force pushes air from high to low pressure. The Coriolis effect then curves those winds, but the gradient drives their initial movement.",
+      "why_wrong": [
+        "The Coriolis effect curves the wind but does not cause it to start blowing.",
+        "Gravity pulls air downward in high pressure but the horizontal movement is driven by pressure gradient.",
+        "Solar radiation drives temperature differences that create pressure differences — but the direct cause of wind is the pressure gradient."
+      ],
+      "concepts": ["pressure-gradient", "wind"],
+      "tip": "Air is 'lazy' — it flows from high to low pressure like water downhill."
+    },
+
+    {
+      "id": "q93",
+      "q": "What two instruments make up a PSYCHROMETER?",
+      "correct": "A dry bulb thermometer and a wet bulb thermometer",
+      "incorrect": [
+        "A barometer and a thermometer",
+        "A rain gauge and a hygrometer",
+        "Two identical thermometers"
+      ],
+      "why_correct": "A psychrometer uses two thermometers: a standard dry bulb and one with a water-soaked wick (wet bulb). Their temperature difference is used to find relative humidity from a chart.",
+      "why_wrong": [
+        "A barometer measures pressure — not part of a psychrometer.",
+        "A rain gauge measures precipitation; a hygrometer is a different humidity instrument.",
+        "The two thermometers are NOT identical — one has a wet wick, one does not."
+      ],
+      "concepts": ["psychrometer"],
+      "tip": "Psychrometer = two thermometers + humidity chart. Use the difference to find relative humidity."
+    },
+
+    {
+      "id": "q94",
+      "q": "What are CONDENSATION NUCLEI?",
+      "correct": "Tiny particles (dust, pollen, salt) that water vapor condenses onto to form cloud droplets",
+      "incorrect": [
+        "Ice crystals at the top of clouds",
+        "The center of a hurricane",
+        "Raindrops that have frozen"
+      ],
+      "why_correct": "Water vapor needs a surface to condense on; tiny particles in the air act as condensation nuclei, allowing cloud and fog droplets to form.",
+      "why_wrong": [
+        "Ice crystals are already condensed/frozen water — not nuclei.",
+        "Hurricane centers are eye walls — unrelated to condensation nuclei.",
+        "Frozen raindrops are sleet or hail — not condensation nuclei."
+      ],
+      "concepts": ["cloud-formation", "condensation-nuclei"],
+      "tip": "Dust, sea salt, pollen → cloud seeds. Without them, clouds can't form even when air is saturated."
+    },
+
+    {
+      "id": "q95",
+      "q": "Which of these best describes the weather AFTER a cold front passes?",
+      "correct": "Clear skies, lower temperatures, lower humidity",
+      "incorrect": [
+        "Warm, muggy, overcast conditions",
+        "Continued heavy rain",
+        "Increasing cirrus clouds"
+      ],
+      "why_correct": "Once a cold front passes, the cold dry air mass replaces the warm moist air — temperature drops, humidity decreases, and skies clear.",
+      "why_wrong": [
+        "Warm, muggy, overcast is what existed BEFORE the cold front.",
+        "Heavy rain occurs AT the front — after it passes, skies clear.",
+        "Increasing cirrus clouds signal an approaching WARM front, not the aftermath of a cold front."
+      ],
+      "concepts": ["cold-front", "post-front-weather"],
+      "tip": "Cold front passing = cleanup crew. Takes away warmth and humidity, leaves clear, cool air."
+    },
+
+    {
+      "id": "q96",
+      "q": "Which of these best describes the weather AFTER a warm front passes?",
+      "correct": "Warmer temperatures, higher humidity, clearing skies",
+      "incorrect": [
+        "Sudden drop in temperature",
+        "Violent thunderstorms",
+        "Clear and dry conditions"
+      ],
+      "why_correct": "After a warm front passes, the warm moist air mass is now overhead — temperatures rise, humidity increases, and skies gradually clear.",
+      "why_wrong": [
+        "A temperature drop occurs after a COLD front.",
+        "Violent thunderstorms are a cold front feature.",
+        "Clear and dry conditions follow cold fronts, not warm fronts."
+      ],
+      "concepts": ["warm-front", "post-front-weather"],
+      "tip": "Warm front passing = warmer and more humid weather replaces the old cold air."
+    },
+
+    {
+      "id": "q97",
+      "q": "What is the approximate latitude of the Tropic of Capricorn?",
+      "correct": "23.5°S",
+      "incorrect": ["23.5°N", "66.5°S", "0°"],
+      "why_correct": "The Tropic of Capricorn at 23.5°S is where the Sun is directly overhead on the winter solstice (December 21 for the Northern Hemisphere).",
+      "why_wrong": [
+        "23.5°N is the Tropic of Cancer (Northern Hemisphere).",
+        "66.5°S is the Antarctic Circle.",
+        "0° is the equator."
+      ],
+      "concepts": ["tropic-of-capricorn", "latitude-lines"],
+      "tip": "Cancer = North. Capricorn = South. Both 23.5° from equator."
+    },
+
+    {
+      "id": "q98",
+      "q": "What is the approximate latitude of the ANTARCTIC CIRCLE?",
+      "correct": "66.5°S",
+      "incorrect": ["23.5°S", "45°S", "90°S"],
+      "why_correct": "The Antarctic Circle at 66.5°S is the northernmost latitude in the Southern Hemisphere that experiences 24-hour daylight (at Southern summer solstice).",
+      "why_wrong": [
+        "23.5°S is the Tropic of Capricorn.",
+        "45°S is mid-latitude — no special solar phenomenon.",
+        "90°S is the South Pole."
+      ],
+      "concepts": ["antarctic-circle", "latitude-lines"],
+      "tip": "Arctic Circle = 66.5°N. Antarctic Circle = 66.5°S. Symmetric around equator."
+    },
+
+    {
+      "id": "q99",
+      "q": "What is the SUMMER SOLSTICE (June 21) in the Northern Hemisphere?",
+      "correct": "The longest day of the year; Sun is overhead at the Tropic of Cancer",
+      "incorrect": [
+        "The shortest day of the year",
+        "When day and night are equal length",
+        "When the Sun is overhead at the equator"
+      ],
+      "why_correct": "On June 21, the Northern Hemisphere is tilted maximally toward the Sun. The Sun is overhead at 23.5°N (Tropic of Cancer) and days are longest in the NH.",
+      "why_wrong": [
+        "The shortest day is the WINTER solstice (December 21).",
+        "Equal day/night is an equinox, not a solstice.",
+        "The Sun overhead at the equator happens at the equinoxes (March 21 and September 22)."
+      ],
+      "concepts": ["solstice", "seasons"],
+      "tip": "Summer solstice = longest day. Sun as far north as it gets (23.5°N)."
+    },
+
+    {
+      "id": "q100",
+      "q": "What is the WINTER SOLSTICE (December 21) in the Northern Hemisphere?",
+      "correct": "The shortest day of the year; Sun is overhead at the Tropic of Capricorn",
+      "incorrect": [
+        "The longest day of the year",
+        "When day and night are equal",
+        "When the Sun is overhead at the equator"
+      ],
+      "why_correct": "On December 21, the Northern Hemisphere is tilted away from the Sun. Days are shortest in the NH and the Sun is overhead at 23.5°S (Tropic of Capricorn).",
+      "why_wrong": [
+        "The longest day is the summer solstice (June 21).",
+        "Equal day/night is an equinox.",
+        "Sun overhead at equator = equinox, not solstice."
+      ],
+      "concepts": ["solstice", "seasons"],
+      "tip": "Winter solstice = shortest day NH, longest day SH. Solstices are opposites for each hemisphere."
+    },
+
+    {
+      "id": "q101",
+      "q": "What is an EQUINOX?",
+      "correct": "When day and night are approximately equal in length everywhere on Earth",
+      "incorrect": [
+        "The longest day of the year",
+        "When the Sun is at its highest point",
+        "The first day of summer"
+      ],
+      "why_correct": "During equinoxes (around March 21 and September 22), Earth's axis is perpendicular to the Sun — neither hemisphere is tilted toward the Sun, so day = night.",
+      "why_wrong": [
+        "The longest day is the summer solstice.",
+        "The Sun's highest point varies by season and latitude.",
+        "The first day of summer is the summer solstice, not an equinox."
+      ],
+      "concepts": ["equinox", "seasons"],
+      "tip": "Equinox = equal night. Day = night = 12 hours each, everywhere."
+    },
+
+    {
+      "id": "q102",
+      "q": "Why does the equator generally have a WARMER climate than higher latitudes?",
+      "correct": "Sunlight hits at a higher (more direct) angle year-round",
+      "incorrect": [
+        "The equator is closer to the Sun",
+        "The equator has no clouds",
+        "Ocean currents warm the equatorial region"
+      ],
+      "why_correct": "At the equator, the Sun is always nearly overhead — sunlight is concentrated on a small area, delivering more energy per square meter.",
+      "why_wrong": [
+        "The equator is not meaningfully closer to the Sun — Earth's radius vs. Sun's distance is negligible.",
+        "The equator actually has abundant clouds (ITCZ).",
+        "While ocean currents matter, the primary reason is the direct solar angle."
+      ],
+      "concepts": ["solar-angle", "climate-zones"],
+      "tip": "Direct sunlight = more energy per unit area = more heating = warm climate."
+    },
+
+    {
+      "id": "q103",
+      "q": "What is the INTERTROPICAL CONVERGENCE ZONE (ITCZ)?",
+      "correct": "A band of low pressure near the equator where trade winds meet and air rises",
+      "incorrect": [
+        "The jet stream at mid-latitudes",
+        "A high-pressure belt near 30° latitude",
+        "The boundary between tropical and temperate zones"
+      ],
+      "why_correct": "Near the equator, intense heating causes air to rise, creating persistent low pressure. Trade winds from both hemispheres converge here, producing heavy rainfall.",
+      "why_wrong": [
+        "The jet stream is at mid-latitudes in the upper troposphere.",
+        "High pressure belts near 30° are the subtropical highs — opposite of ITCZ.",
+        "The ITCZ is specifically near the equator, not the tropic lines."
+      ],
+      "concepts": ["ITCZ", "pressure-belts"],
+      "tip": "ITCZ = where tropical trade winds meet. Lots of rain = tropical rainforests found here."
+    },
+
+    {
+      "id": "q104",
+      "q": "Why does the polar region receive LESS solar energy per unit area?",
+      "correct": "Sunlight hits at a low angle and spreads over a larger surface area",
+      "incorrect": [
+        "Polar regions are physically farther from the Sun",
+        "Ice reflects all incoming sunlight",
+        "Polar regions have no atmosphere"
+      ],
+      "why_correct": "At high latitudes, the Sun is always low on the horizon — the same amount of solar energy is spread over a much larger area, resulting in less heating.",
+      "why_wrong": [
+        "The poles are not meaningfully farther from the Sun — Earth's radius doesn't change.",
+        "While ice does reflect sunlight (high albedo), the primary reason is low solar angle.",
+        "Polar regions have the same atmosphere as anywhere else."
+      ],
+      "concepts": ["solar-angle", "polar-climate"],
+      "tip": "Low angle sunlight = energy 'diluted' over a big area = cold poles."
+    },
+
+    {
+      "id": "q105",
+      "q": "Which front is shown on a weather map as alternating triangles and semicircles on the SAME side?",
+      "correct": "Occluded front",
+      "incorrect": [
+        "Warm front",
+        "Cold front",
+        "Stationary front"
+      ],
+      "why_correct": "An occluded front forms when a cold front catches up with a warm front. It's shown in purple with alternating cold-front triangles and warm-front semicircles on the same side.",
+      "why_wrong": [
+        "Warm front = red semicircles only.",
+        "Cold front = blue triangles only.",
+        "Stationary front = alternating on OPPOSITE sides (blue triangles one side, red bumps the other)."
+      ],
+      "concepts": ["occluded-front", "weather-maps"],
+      "tip": "Occluded = purple, alternating same side. Stationary = alternating opposite sides."
+    },
+
+    {
+      "id": "q106",
+      "q": "Which front is shown on a weather map as alternating triangles and semicircles on OPPOSITE sides?",
+      "correct": "Stationary front",
+      "incorrect": [
+        "Occluded front",
+        "Warm front",
+        "Cold front"
+      ],
+      "why_correct": "A stationary front doesn't move — blue triangles point one way (from the cold air side), and red semicircles point the opposite way (from the warm air side).",
+      "why_wrong": [
+        "Occluded front has alternating symbols on the SAME side in purple.",
+        "Warm front has only red semicircles.",
+        "Cold front has only blue triangles."
+      ],
+      "concepts": ["stationary-front", "weather-maps"],
+      "tip": "Stationary = two sides pulling against each other. Cold arrows one way, warm bumps the other."
+    },
+
+    {
+      "id": "q107",
+      "q": "Fog forms when ___.",
+      "correct": "Air near the ground cools to its dew point and water vapor condenses",
+      "incorrect": [
+        "Air near the ground warms rapidly",
+        "High pressure causes air to sink",
+        "Clouds descend to the surface"
+      ],
+      "why_correct": "Fog is essentially a low-altitude cloud — when surface air cools to the dew point (overnight or over cold water), water vapor condenses into tiny droplets.",
+      "why_wrong": [
+        "Rapid warming evaporates fog — it doesn't form it.",
+        "Sinking air warms and becomes less humid — clears fog.",
+        "Fog forms at the surface, not by descending clouds."
+      ],
+      "concepts": ["fog", "dew-point"],
+      "tip": "Fog = ground-level cloud = surface air cooled to dew point."
+    },
+
+    {
+      "id": "q108",
+      "q": "What is the GREENHOUSE EFFECT?",
+      "correct": "Certain gases trap heat radiated from Earth's surface, warming the lower atmosphere",
+      "incorrect": [
+        "The ozone layer blocking UV rays",
+        "Sunlight heating Earth's surface directly",
+        "Heat rising from Earth's core"
+      ],
+      "why_correct": "Greenhouse gases (CO2, water vapor, methane) absorb outgoing infrared radiation from Earth and re-emit it, keeping the lower atmosphere warm.",
+      "why_wrong": [
+        "The ozone layer absorbs UV — that's a different process.",
+        "Sunlight heating Earth is insolation — the greenhouse effect involves trapping outgoing heat.",
+        "Earth's core heat is geothermal — minimal compared to solar + greenhouse warming."
+      ],
+      "concepts": ["greenhouse-effect"],
+      "tip": "Greenhouse = traps OUTGOING heat. Like a blanket around Earth."
+    },
+
+    {
+      "id": "q109",
+      "q": "What is the ALBEDO of a surface?",
+      "correct": "The fraction of sunlight reflected by the surface",
+      "incorrect": [
+        "The amount of sunlight absorbed",
+        "The surface temperature",
+        "The amount of infrared radiation emitted"
+      ],
+      "why_correct": "Albedo is the reflectivity of a surface. Snow and ice have high albedo (reflect most light); dark ocean and forests have low albedo (absorb most light).",
+      "why_wrong": [
+        "Absorption is the opposite of reflection — high albedo = high reflection = low absorption.",
+        "Albedo relates to reflection, not the actual temperature.",
+        "Infrared emission is related to temperature, not albedo."
+      ],
+      "concepts": ["albedo"],
+      "tip": "White snow = high albedo (reflects sunlight). Dark soil = low albedo (absorbs sunlight)."
+    },
+
+    {
+      "id": "q110",
+      "q": "A dew point temperature of 20°C (68°F) indicates ___.",
+      "correct": "Muggy, humid air with a high moisture content",
+      "incorrect": [
+        "Very dry air",
+        "Air that is near freezing",
+        "Extremely low humidity"
+      ],
+      "why_correct": "A high dew point (above 18°C / 65°F) indicates significant moisture in the air, creating uncomfortable humid conditions.",
+      "why_wrong": [
+        "Dry air has a very LOW dew point (below 0°C or lower).",
+        "A dew point of 20°C is warm — not near freezing.",
+        "High dew point = high humidity, not low."
+      ],
+      "concepts": ["dew-point", "humidity-comfort"],
+      "tip": "Dew point > 60°F = muggy. Dew point < 40°F = dry and comfortable."
+    }
+
+  ]
+}

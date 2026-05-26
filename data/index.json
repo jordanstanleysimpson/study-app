@@ -233,6 +233,15 @@
       "created": "2026-05-20",
       "wordCount": 35,
       "file": "data/spanish/Unit 6/spanish-unit6b-sentences-quiz.json"
+    },
+    {
+      "id": "earth-science-unit8-quiz",
+      "name": "Unit 8: Atmosphere, Meteorology & Climate",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-05-26",
+      "wordCount": 110,
+      "file": "data/earth-science/Unit 8/earth-science-unit8-quiz.json"
     }
   ]
 }
