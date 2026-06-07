@@ -242,6 +242,15 @@
       "created": "2026-05-26",
       "wordCount": 110,
       "file": "data/earth-science/Unit 8/earth-science-unit8-quiz.json"
+    },
+    {
+      "id": "earth-science-unit9-quiz",
+      "name": "Unit 9: Final Exam Review",
+      "subject": "Earth Science",
+      "type": "quiz",
+      "created": "2026-06-07",
+      "wordCount": 150,
+      "file": "data/earth-science/Unit 9/earth-science-unit9-quiz.json"
     }
   ]
 }
