@@ -12,9 +12,9 @@
       "q": "What does meteorology study?",
       "correct": "Weather and the atmosphere",
       "incorrect": [
-        "Stars and space",
-        "Rocks and minerals",
-        "Maps and landforms"
+        "Stars, planets, and outer space",
+        "Rocks and rock-forming minerals",
+        "Maps, terrain, and landforms"
       ],
       "why_correct": "Meteorology is the science of the atmosphere, weather patterns, and forecasting.",
       "why_wrong": [
@@ -192,9 +192,9 @@
       "q": "The contour interval on a map is 20 meters. Two adjacent contour lines are 60 m and 80 m. What is the elevation of the land between them?",
       "correct": "Between 60 m and 80 m",
       "incorrect": [
-        "Exactly 70 m",
-        "Below 60 m",
-        "Above 80 m"
+        "Exactly 70 m (the midpoint)",
+        "Somewhere below 60 m",
+        "Somewhere above 80 m"
       ],
       "why_correct": "Land between two contour lines falls somewhere between those two elevations — it is not a precise value.",
       "why_wrong": [
@@ -586,9 +586,9 @@
       "q": "Which evidence best supports the theory of continental drift?",
       "correct": "Matching fossils found on opposite sides of the Atlantic Ocean",
       "incorrect": [
-        "Different rock types found on separated continents",
-        "Ocean trenches forming close to nearby coastlines",
-        "Volcanoes occurring only along mid-ocean ridges"
+        "Different rock types found on opposite sides of the Atlantic Ocean",
+        "Ocean trenches forming very close to nearby continental coastlines",
+        "Volcanoes occurring only along mid-ocean spreading ridges"
       ],
       "why_correct": "Identical fossils of the same species on now-separated continents indicate those landmasses were once connected.",
       "why_wrong": [
@@ -813,9 +813,9 @@
       "q": "P waves are ___.",
       "correct": "Compressional — they push and pull rock in the direction the wave travels",
       "incorrect": [
-        "Shear — they move rock up and down perpendicular to travel",
-        "Circular — they move rock in a continuous rolling motion",
-        "Transverse — they travel only along Earth's outermost surface"
+        "Shear — they move rock up and down perpendicular to the travel direction",
+        "Circular — they move rock in a continuous rolling motion along the ground",
+        "Transverse — they can only travel along the very outermost surface of Earth"
       ],
       "why_correct": "P waves compress and expand rock in the same direction the wave moves — like a slinky pushed end-to-end.",
       "why_wrong": [
@@ -854,9 +854,9 @@
       "q": "Which plate boundary type produces the most earthquakes?",
       "correct": "Transform (strike-slip) and convergent boundaries",
       "incorrect": [
-        "Along divergent plate boundaries only",
-        "At volcanic hot spot locations only",
-        "Along passive continental margins only"
+        "Along divergent plate boundaries where new crust is created",
+        "At volcanic hot spot locations far beneath the ocean floor",
+        "Along slow-moving passive continental margins only"
       ],
       "why_correct": "Transform and convergent boundaries involve plates grinding or colliding, creating intense seismic activity.",
       "why_wrong": [
@@ -1021,9 +1021,9 @@
       "q": "What is the water table?",
       "correct": "The upper boundary of the zone of saturation",
       "incorrect": [
-        "The surface of the ocean water",
-        "A layer of impermeable rock",
-        "The average yearly rainfall amount"
+        "The visible surface of the ocean water above sea level",
+        "A solid layer of completely impermeable rock underground",
+        "The average total amount of yearly rainfall received"
       ],
       "why_correct": "The water table is the level below which all soil and rock pores are saturated with groundwater.",
       "why_wrong": [
@@ -1105,9 +1105,9 @@
       "q": "What is an aquifer?",
       "correct": "An underground layer of permeable rock that holds and supplies groundwater",
       "incorrect": [
-        "An underground channel through which a river flows below ground",
-        "The uppermost thin layer of topsoil at Earth's surface",
-        "A completely impermeable underground rock layer that blocks water"
+        "An underground channel through which a river flows below the ground",
+        "The uppermost thin layer of topsoil found at the surface of Earth",
+        "A completely impermeable underground rock layer that blocks all water flow"
       ],
       "why_correct": "An aquifer is a saturated, permeable layer of rock or sediment that humans can tap with wells for drinking water.",
       "why_wrong": [
@@ -1231,9 +1231,9 @@
       "q": "How often do high tides occur each day?",
       "correct": "Approximately twice (about every 12.5 hours)",
       "incorrect": [
-        "Once per day (every 24 hours)",
-        "Four times per day (every 6 hours)",
-        "Once per week (every 7 days)"
+        "Once per day, cycling once every full 24 hours",
+        "Four times per day, cycling once every 6 hours",
+        "Once per week, cycling once every full 7 days"
       ],
       "why_correct": "There are two tidal bulges on opposite sides of Earth, so most coastal locations experience two high tides per day.",
       "why_wrong": [
@@ -1335,9 +1335,9 @@
       "q": "What causes the Moon's phases?",
       "correct": "The changing angle between the Moon, Earth, and Sun as the Moon orbits Earth",
       "incorrect": [
-        "Earth's shadow gradually crossing and darkening the Moon's face",
-        "The Moon slowly rotating once on its own axis per month",
-        "Thick clouds covering and obscuring different portions of the Moon"
+        "Earth's shadow gradually crossing and completely darkening the Moon's face",
+        "The Moon slowly rotating exactly once on its own axis per month",
+        "Thick clouds gradually covering and blocking different visible portions of the Moon"
       ],
       "why_correct": "As the Moon orbits Earth, we see different portions of the Moon's sunlit half from our perspective.",
       "why_wrong": [
@@ -1625,9 +1625,9 @@
       "q": "What is the Coriolis effect?",
       "correct": "The deflection of moving air and water due to Earth's rotation",
       "incorrect": [
-        "The gradual warming of rising air in the atmosphere",
-        "The flow of ocean water driven by density differences",
-        "The cooling of air masses as they move over cold land"
+        "The gradual warming of rising air currents in the atmosphere",
+        "The flow of ocean water driven by temperature and density differences",
+        "The gradual cooling of air masses as they move across cold land surfaces"
       ],
       "why_correct": "Earth's rotation causes freely moving objects (air, water, projectiles) to appear to curve — right in the Northern Hemisphere, left in the Southern.",
       "why_wrong": [
@@ -1913,9 +1913,9 @@
       "q": "Deposition occurs when ___.",
       "correct": "An agent of erosion loses energy and drops the sediment it carries",
       "incorrect": [
-        "Rock breaks down and weathers in place on the surface",
-        "Flowing water picks up and carries away even more sediment",
-        "Wind speed picks up and begins to increase significantly"
+        "Rock slowly breaks down and weathers in place on the surface",
+        "Flowing water speeds up and picks up and carries away even more sediment",
+        "Wind speed picks up significantly and begins to increase more and more"
       ],
       "why_correct": "When a river slows, wind drops, or a glacier melts, the moving material loses kinetic energy and sediment is deposited.",
       "why_wrong": [
@@ -1954,9 +1954,9 @@
       "q": "What is a warm front?",
       "correct": "The boundary where warm air advances and rises over colder air",
       "incorrect": [
-        "The boundary where cold air pushes under warm air",
-        "A zone where two air masses of equal temperature meet",
-        "A stationary boundary between two air masses"
+        "The boundary where cold air pushes underneath and lifts warm air",
+        "A zone where two air masses of exactly equal temperature come together",
+        "A stationary boundary between two air masses of equal strength"
       ],
       "why_correct": "A warm front forms when a warmer air mass advances, riding up and over the cooler air ahead of it.",
       "why_wrong": [
@@ -2367,9 +2367,9 @@
       "q": "What is the dew point?",
       "correct": "The temperature at which air becomes saturated and condensation begins",
       "incorrect": [
-        "The specific temperature at which the air drops to exactly 0°C",
-        "The total amount of water vapor currently present in the air",
-        "The peak daily high temperature recorded in the afternoon"
+        "The specific temperature at which the air cools all the way down to exactly 0°C",
+        "The total amount of water vapor currently present and measured in the air",
+        "The peak daily high temperature that is recorded in the afternoon hours"
       ],
       "why_correct": "When air cools to the dew point, it reaches 100% relative humidity and water vapor starts condensing as dew, fog, or clouds.",
       "why_wrong": [
@@ -2570,9 +2570,9 @@
       "q": "What is storm surge?",
       "correct": "A dangerous rise in sea level caused by a hurricane pushing water onshore",
       "incorrect": [
-        "The extremely heavy rainfall a hurricane dumps over land",
-        "The sudden rapid intensification of a hurricane's wind speed",
-        "Dangerous thunder and lightning inside the hurricane eyewall"
+        "The extremely heavy rainfall a hurricane dumps far over inland areas",
+        "The sudden dramatic rapid intensification of a hurricane's maximum wind speed",
+        "Dangerous thunder and lightning occurring deep inside the hurricane eyewall"
       ],
       "why_correct": "Storm surge occurs when a hurricane's strong winds push ocean water toward shore, flooding coastal areas — often the deadliest part of a hurricane.",
       "why_wrong": [
@@ -2710,9 +2710,9 @@
       "q": "Why is it always warmer near the equator than near the poles?",
       "correct": "Sunlight hits at a more direct angle near the equator, concentrating energy",
       "incorrect": [
-        "The equator sits physically closer to the Sun than the poles do",
-        "There is much more land surface near the equator to absorb heat",
-        "The equator has almost no cloud cover to block incoming sunlight"
+        "The equator sits physically much closer in distance to the Sun than the poles",
+        "There is much more land surface near the equator available to absorb heat",
+        "The equator has almost no significant cloud cover to block incoming sunlight"
       ],
       "why_correct": "Near the equator, the Sun is nearly overhead — its rays are direct and concentrate energy. Near the poles, rays arrive at a low angle and spread over a larger area.",
       "why_wrong": [
@@ -2793,9 +2793,9 @@
       "q": "How does elevation affect climate?",
       "correct": "Higher elevation = lower temperature (about 6.5°C per 1,000 m rise)",
       "incorrect": [
-        "Higher elevation = consistently higher temperatures instead",
-        "Elevation alone has absolutely no effect on temperature",
-        "Higher elevation = same temperature but with much more rain"
+        "Higher elevation = consistently and significantly higher temperatures instead",
+        "Elevation alone has absolutely no measurable effect on temperature at all",
+        "Higher elevation = exactly the same temperature but with considerably more rain"
       ],
       "why_correct": "Temperature decreases with altitude in the troposphere — mountain peaks are much colder than their surrounding lowlands.",
       "why_wrong": [
@@ -2855,9 +2855,9 @@
       "q": "What is the difference between intrusive and extrusive igneous rocks?",
       "correct": "Intrusive cools underground slowly (large crystals); extrusive cools at the surface fast (small crystals)",
       "incorrect": [
-        "Intrusive is the volcanic type that erupts at the surface; extrusive cools slowly underground",
-        "Intrusive is always significantly darker in color; extrusive is always noticeably much lighter",
-        "There is absolutely no meaningful difference in crystal size or overall rock texture"
+        "Intrusive rocks are always significantly much darker in color; extrusive rocks are always noticeably much lighter",
+        "Intrusive is the volcanic type that erupts at the surface; extrusive cools very slowly underground",
+        "There is absolutely no meaningful difference whatsoever in crystal size or overall rock texture"
       ],
       "why_correct": "Slow cooling underground allows time for large crystals to grow (granite). Rapid surface cooling doesn't allow crystal growth (basalt).",
       "why_wrong": [
@@ -2876,9 +2876,9 @@
       "q": "How does sedimentary rock form?",
       "correct": "Sediment is compacted and cemented together over time",
       "incorrect": [
-        "Magma cools at Earth's surface",
-        "Existing rock is changed by heat and pressure",
-        "Minerals crystallize directly from seawater"
+        "Magma cools and solidifies at or near Earth's surface",
+        "Existing rock is slowly changed by intense heat and pressure",
+        "Minerals slowly crystallize and precipitate directly out of seawater"
       ],
       "why_correct": "Weathering produces sediment; erosion transports it; deposition layers it; then compaction and cementation lithify it into sedimentary rock.",
       "why_wrong": [
@@ -2961,7 +2961,7 @@
       "incorrect": [
         "Rocks are always physically much larger and heavier in overall size than any mineral",
         "Minerals are always synthetically man-made compounds; only rocks can form naturally",
-        "A rock is always a single chemically pure element; a mineral is always a complex mixture"
+        "A rock is a single chemically pure element or substance; a mineral is always a complex mixture"
       ],
       "why_correct": "Minerals have a specific chemical composition and crystal structure. Rocks are aggregates of minerals (or sometimes organic material).",
       "why_wrong": [
@@ -2999,9 +2999,9 @@
       "q": "What does the Mohs hardness scale measure?",
       "correct": "A mineral's resistance to being scratched",
       "incorrect": [
-        "A mineral's density",
-        "How much light a mineral reflects",
-        "The color of a mineral's powder"
+        "A mineral's overall density and specific gravity",
+        "How much light a mineral's surface reflects back",
+        "The color left behind by a mineral's fine powder"
       ],
       "why_correct": "The Mohs scale ranks minerals from 1 (talc, softest) to 10 (diamond, hardest) based on which minerals can scratch each other.",
       "why_wrong": [
