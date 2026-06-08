@@ -7,1656 +7,3092 @@
   "directional": false,
   "created": "2026-06-07",
   "questions": [
-
     {
       "id": "q01",
       "q": "What does meteorology study?",
       "correct": "Weather and the atmosphere",
-      "incorrect": ["Stars and space", "Rocks and minerals", "Maps and landforms"],
+      "incorrect": [
+        "Stars and space",
+        "Rocks and minerals",
+        "Maps and landforms"
+      ],
       "why_correct": "Meteorology is the science of the atmosphere, weather patterns, and forecasting.",
-      "why_wrong": ["That is astronomy.", "That is geology/mineralogy.", "That is topography/cartography."],
-      "concepts": ["earth-science-branches"],
+      "why_wrong": [
+        "That is astronomy.",
+        "That is geology/mineralogy.",
+        "That is topography/cartography."
+      ],
+      "concepts": [
+        "earth-science-branches"
+      ],
       "tip": "Meteor- = atmosphere; meteorology = weather science."
     },
-
     {
       "id": "q02",
       "q": "What does astronomy study?",
       "correct": "Stars, planets, and space",
-      "incorrect": ["Weather patterns", "Rivers and erosion", "Volcanoes and earthquakes"],
+      "incorrect": [
+        "Weather patterns",
+        "Rivers and erosion",
+        "Volcanoes and earthquakes"
+      ],
       "why_correct": "Astronomy is the study of celestial objects including stars, planets, moons, and galaxies.",
-      "why_wrong": ["That is meteorology.", "That is hydrology/geomorphology.", "That is seismology/volcanology."],
-      "concepts": ["earth-science-branches"],
+      "why_wrong": [
+        "That is meteorology.",
+        "That is hydrology/geomorphology.",
+        "That is seismology/volcanology."
+      ],
+      "concepts": [
+        "earth-science-branches"
+      ],
       "tip": "Astro- = star."
     },
-
     {
       "id": "q03",
       "q": "What does topography study?",
       "correct": "The shape and features of Earth's surface",
-      "incorrect": ["The layers of the atmosphere", "The motion of ocean currents", "The origin of rocks"],
+      "incorrect": [
+        "The layers of the atmosphere above Earth",
+        "The motion of ocean water currents",
+        "The origin and age of rocks"
+      ],
       "why_correct": "Topography describes the shape of the land — elevation, hills, valleys, and surface features.",
-      "why_wrong": ["That is atmospheric science/meteorology.", "That is oceanography.", "That is petrology/geology."],
-      "concepts": ["earth-science-branches"],
+      "why_wrong": [
+        "That is atmospheric science/meteorology.",
+        "That is oceanography.",
+        "That is petrology/geology."
+      ],
+      "concepts": [
+        "earth-science-branches"
+      ],
       "tip": "Topo- = place; -graphy = writing/mapping."
     },
-
     {
       "id": "q04",
       "q": "What does taxonomy involve?",
       "correct": "Classifying and naming living organisms",
-      "incorrect": ["Measuring rainfall", "Mapping the ocean floor", "Studying rock layers"],
+      "incorrect": [
+        "Measuring and recording rainfall totals",
+        "Mapping and charting the ocean floor",
+        "Studying and describing rock layers"
+      ],
       "why_correct": "Taxonomy is the science of organizing living things into groups based on shared characteristics.",
-      "why_wrong": ["That is hydrology/meteorology.", "That is bathymetry/oceanography.", "That is stratigraphy."],
-      "concepts": ["earth-science-branches"],
+      "why_wrong": [
+        "That is hydrology/meteorology.",
+        "That is bathymetry/oceanography.",
+        "That is stratigraphy."
+      ],
+      "concepts": [
+        "earth-science-branches"
+      ],
       "tip": "Taxo- = arrangement; taxonomy = organizing life."
     },
-
     {
       "id": "q05",
       "q": "Which tool do scientists use to measure rainfall?",
       "correct": "Rain gauge",
-      "incorrect": ["Barometer", "Anemometer", "Hygrometer"],
+      "incorrect": [
+        "Barometer",
+        "Anemometer",
+        "Hygrometer"
+      ],
       "why_correct": "A rain gauge collects and measures the amount of liquid precipitation that falls.",
-      "why_wrong": ["A barometer measures air pressure.", "An anemometer measures wind speed.", "A hygrometer measures humidity."],
-      "concepts": ["scientific-tools"],
+      "why_wrong": [
+        "A barometer measures air pressure.",
+        "An anemometer measures wind speed.",
+        "A hygrometer measures humidity."
+      ],
+      "concepts": [
+        "scientific-tools"
+      ],
       "tip": "Rain gauge = catches rain and shows how many inches/mm fell."
     },
-
     {
       "id": "q06",
       "q": "What does a barometer measure?",
       "correct": "Air pressure",
-      "incorrect": ["Wind speed", "Humidity", "Temperature"],
+      "incorrect": [
+        "Wind speed",
+        "Humidity",
+        "Temperature"
+      ],
       "why_correct": "A barometer detects changes in atmospheric pressure, which helps forecast weather.",
-      "why_wrong": ["Wind speed is measured by an anemometer.", "Humidity is measured by a hygrometer.", "Temperature is measured by a thermometer."],
-      "concepts": ["scientific-tools"],
+      "why_wrong": [
+        "Wind speed is measured by an anemometer.",
+        "Humidity is measured by a hygrometer.",
+        "Temperature is measured by a thermometer."
+      ],
+      "concepts": [
+        "scientific-tools"
+      ],
       "tip": "Baro- = weight/pressure."
     },
-
     {
       "id": "q07",
       "q": "In a scientific experiment, what is the independent variable?",
       "correct": "The variable the scientist changes on purpose",
-      "incorrect": ["The variable that is measured as a result", "The variable kept the same", "The prediction made before the experiment"],
+      "incorrect": [
+        "The variable that is measured as a result",
+        "The variable kept the same",
+        "The prediction made before the experiment"
+      ],
       "why_correct": "The independent variable is deliberately manipulated by the experimenter to test its effect.",
-      "why_wrong": ["That is the dependent variable.", "That is the controlled variable.", "That is the hypothesis."],
-      "concepts": ["scientific-method"],
+      "why_wrong": [
+        "That is the dependent variable.",
+        "That is the controlled variable.",
+        "That is the hypothesis."
+      ],
+      "concepts": [
+        "scientific-method"
+      ],
       "tip": "Independent = the INPUT; dependent = the OUTPUT."
     },
-
     {
       "id": "q08",
       "q": "In a scientific experiment, what is the dependent variable?",
       "correct": "The variable that is measured as a result",
-      "incorrect": ["The variable the scientist changes", "The variable kept constant", "The group that receives no treatment"],
+      "incorrect": [
+        "The variable the scientist changes",
+        "The variable kept constant",
+        "The group that receives no treatment"
+      ],
       "why_correct": "The dependent variable responds to changes in the independent variable — it is what you observe or measure.",
-      "why_wrong": ["That is the independent variable.", "That is the control variable.", "That is the control group."],
-      "concepts": ["scientific-method"],
+      "why_wrong": [
+        "That is the independent variable.",
+        "That is the control variable.",
+        "That is the control group."
+      ],
+      "concepts": [
+        "scientific-method"
+      ],
       "tip": "Dependent = DEPENDS on the independent variable."
     },
-
     {
       "id": "q09",
       "q": "What does a contour line on a topographic map represent?",
       "correct": "Points of equal elevation",
-      "incorrect": ["The path of a river", "A political boundary", "The deepest part of a valley"],
+      "incorrect": [
+        "The path of a river",
+        "A political boundary",
+        "The deepest part of a valley"
+      ],
       "why_correct": "Every point on a single contour line is at the same elevation above sea level.",
-      "why_wrong": ["Rivers are shown as blue lines on topo maps, not contour lines.", "Political boundaries are dashed lines on different map types.", "Valleys are shown by V-shaped contours pointing uphill."],
-      "concepts": ["topographic-maps"],
+      "why_wrong": [
+        "Rivers are shown as blue lines on topo maps, not contour lines.",
+        "Political boundaries are dashed lines on different map types.",
+        "Valleys are shown by V-shaped contours pointing uphill."
+      ],
+      "concepts": [
+        "topographic-maps"
+      ],
       "tip": "Contour lines = same altitude all the way around."
     },
-
     {
       "id": "q10",
       "q": "The contour interval on a map is 20 meters. Two adjacent contour lines are 60 m and 80 m. What is the elevation of the land between them?",
       "correct": "Between 60 m and 80 m",
-      "incorrect": ["Exactly 70 m", "Below 60 m", "Above 80 m"],
+      "incorrect": [
+        "Exactly 70 m",
+        "Below 60 m",
+        "Above 80 m"
+      ],
       "why_correct": "Land between two contour lines falls somewhere between those two elevations — it is not a precise value.",
-      "why_wrong": ["We cannot determine the exact elevation without more data.", "The land between must be above the lower contour.", "The land between must be below the higher contour."],
-      "concepts": ["topographic-maps", "contour-interval"],
+      "why_wrong": [
+        "We cannot determine the exact elevation without more data.",
+        "The land between must be above the lower contour.",
+        "The land between must be below the higher contour."
+      ],
+      "concepts": [
+        "topographic-maps",
+        "contour-interval"
+      ],
       "tip": "Between lines = between those two elevations. You can't know exactly where."
     },
-
     {
       "id": "q11",
       "q": "Where are contour lines closest together on a topographic map?",
       "correct": "Where the slope is steepest",
-      "incorrect": ["Where the land is flattest", "At the summit of a mountain", "Along a river valley"],
+      "incorrect": [
+        "Where the land is flattest",
+        "At the summit of a mountain",
+        "Along a river valley"
+      ],
       "why_correct": "Closely spaced contour lines indicate rapid change in elevation over a short distance — a steep slope.",
-      "why_wrong": ["Flat land has widely spaced or no contour lines.", "A summit is shown as a single closed contour, not necessarily the closest lines.", "Valley floors are typically shown as V-shapes pointing uphill."],
-      "concepts": ["topographic-maps", "slope"],
+      "why_wrong": [
+        "Flat land has widely spaced or no contour lines.",
+        "A summit is shown as a single closed contour, not necessarily the closest lines.",
+        "Valley floors are typically shown as V-shapes pointing uphill."
+      ],
+      "concepts": [
+        "topographic-maps",
+        "slope"
+      ],
       "tip": "Closer lines = steeper slope. Wide lines = gentle slope."
     },
-
     {
       "id": "q12",
       "q": "On a topographic map, a closed loop of contour lines with hatch marks pointing inward indicates a ___.",
       "correct": "Depression",
-      "incorrect": ["Mountain peak", "River", "Plateau"],
+      "incorrect": [
+        "Mountain peak",
+        "River",
+        "Plateau"
+      ],
       "why_correct": "Hatch marks on the inside of a closed contour show that the land dips down — a depression or crater.",
-      "why_wrong": ["A mountain peak is a closed loop with increasing elevations, no hatch marks.", "Rivers are shown as lines, usually blue.", "Plateaus are shown as large flat areas with widely spaced lines."],
-      "concepts": ["topographic-maps", "depression"],
+      "why_wrong": [
+        "A mountain peak is a closed loop with increasing elevations, no hatch marks.",
+        "Rivers are shown as lines, usually blue.",
+        "Plateaus are shown as large flat areas with widely spaced lines."
+      ],
+      "concepts": [
+        "topographic-maps",
+        "depression"
+      ],
       "tip": "Hatch marks = going DOWN into a bowl or crater."
     },
-
     {
       "id": "q13",
       "q": "What is the contour interval?",
       "correct": "The difference in elevation between two adjacent contour lines",
-      "incorrect": ["The distance between two points on the map", "The total elevation of a mountain", "The scale of the map"],
+      "incorrect": [
+        "The horizontal distance between two points on the map",
+        "The total elevation gain from base to mountain summit",
+        "The ratio of map distance to actual real-world distance"
+      ],
       "why_correct": "The contour interval tells you how many meters (or feet) separate each contour line.",
-      "why_wrong": ["Distance is shown by the map scale, not contour interval.", "Total elevation would require reading the summit contour.", "Scale is a separate ratio showing map distance vs real distance."],
-      "concepts": ["topographic-maps", "contour-interval"],
+      "why_wrong": [
+        "Distance is shown by the map scale, not contour interval.",
+        "Total elevation would require reading the summit contour.",
+        "Scale is a separate ratio showing map distance vs real distance."
+      ],
+      "concepts": [
+        "topographic-maps",
+        "contour-interval"
+      ],
       "tip": "Contour interval = the 'step size' between lines."
     },
-
     {
       "id": "q14",
       "q": "On a topographic map, contour lines that form a V shape pointing upstream indicate ___.",
       "correct": "A river valley",
-      "incorrect": ["A ridge", "A depression", "A flat plain"],
+      "incorrect": [
+        "A ridge",
+        "A depression",
+        "A flat plain"
+      ],
       "why_correct": "V-shaped contours always point upstream because the valley cuts uphill into the terrain.",
-      "why_wrong": ["Ridges show V-shapes pointing downhill (away from high elevation).", "Depressions have hatch marks.", "Flat plains have very widely spaced contours."],
-      "concepts": ["topographic-maps", "rivers"],
+      "why_wrong": [
+        "Ridges show V-shapes pointing downhill (away from high elevation).",
+        "Depressions have hatch marks.",
+        "Flat plains have very widely spaced contours."
+      ],
+      "concepts": [
+        "topographic-maps",
+        "rivers"
+      ],
       "tip": "V points toward the higher elevation — upstream."
     },
-
     {
       "id": "q15",
       "q": "What do index contour lines on a topographic map look like?",
       "correct": "Thicker, labeled lines",
-      "incorrect": ["Thin unlabeled lines", "Dotted lines", "Blue lines"],
+      "incorrect": [
+        "Thin unlabeled lines",
+        "Dotted lines",
+        "Blue lines"
+      ],
       "why_correct": "Index contours are bolder and have the elevation printed on them to make reading the map easier.",
-      "why_wrong": ["Thin lines are the intermediate contours between index contours.", "Dotted lines indicate trails or other features.", "Blue lines indicate water features like rivers or lakes."],
-      "concepts": ["topographic-maps"],
+      "why_wrong": [
+        "Thin lines are the intermediate contours between index contours.",
+        "Dotted lines indicate trails or other features.",
+        "Blue lines indicate water features like rivers or lakes."
+      ],
+      "concepts": [
+        "topographic-maps"
+      ],
       "tip": "Index = labeled bold lines every 5th contour."
     },
-
     {
       "id": "q16",
       "q": "Lines of latitude run ___.",
       "correct": "East–west, parallel to the equator",
-      "incorrect": ["North–south, through the poles", "Diagonally across the globe", "Along the prime meridian"],
+      "incorrect": [
+        "North–south, through the poles",
+        "Diagonally across the globe",
+        "Along the prime meridian"
+      ],
       "why_correct": "Latitude lines (parallels) run horizontally around the globe and measure distance north or south of the equator.",
-      "why_wrong": ["North–south lines are lines of longitude (meridians).", "Lines of latitude and longitude are always horizontal or vertical.", "The prime meridian is a line of longitude at 0°."],
-      "concepts": ["coordinates", "latitude-longitude"],
+      "why_wrong": [
+        "North–south lines are lines of longitude (meridians).",
+        "Lines of latitude and longitude are always horizontal or vertical.",
+        "The prime meridian is a line of longitude at 0°."
+      ],
+      "concepts": [
+        "coordinates",
+        "latitude-longitude"
+      ],
       "tip": "Latitude = flat = horizontal lines."
     },
-
     {
       "id": "q17",
       "q": "Lines of longitude run ___.",
       "correct": "North–south, through the poles",
-      "incorrect": ["East–west, parallel to the equator", "Only in the Northern Hemisphere", "Parallel to each other everywhere"],
+      "incorrect": [
+        "East–west, parallel to the equator",
+        "Only in the Northern Hemisphere",
+        "Parallel to each other everywhere"
+      ],
       "why_correct": "Longitude lines (meridians) converge at the poles and measure distance east or west of the prime meridian.",
-      "why_wrong": ["East–west lines are latitude lines.", "Longitude lines cover both hemispheres.", "Longitude lines converge at the poles — they are NOT parallel everywhere."],
-      "concepts": ["coordinates", "latitude-longitude"],
+      "why_wrong": [
+        "East–west lines are latitude lines.",
+        "Longitude lines cover both hemispheres.",
+        "Longitude lines converge at the poles — they are NOT parallel everywhere."
+      ],
+      "concepts": [
+        "coordinates",
+        "latitude-longitude"
+      ],
       "tip": "Longitude = long vertical lines from pole to pole."
     },
-
     {
       "id": "q18",
       "q": "What is the latitude of the equator?",
       "correct": "0°",
-      "incorrect": ["90° N", "180°", "45° S"],
+      "incorrect": [
+        "90° N",
+        "180°",
+        "45° S"
+      ],
       "why_correct": "The equator is the baseline for latitude — it is defined as 0°.",
-      "why_wrong": ["90° N is the North Pole.", "180° is the International Date Line (longitude).", "45° S is halfway between the equator and the South Pole."],
-      "concepts": ["coordinates"],
+      "why_wrong": [
+        "90° N is the North Pole.",
+        "180° is the International Date Line (longitude).",
+        "45° S is halfway between the equator and the South Pole."
+      ],
+      "concepts": [
+        "coordinates"
+      ],
       "tip": "Equator = 0° latitude. Everything is measured north or south from there."
     },
-
     {
       "id": "q19",
       "q": "What is the prime meridian's longitude?",
       "correct": "0°",
-      "incorrect": ["90° E", "180°", "45° W"],
+      "incorrect": [
+        "90° E",
+        "180°",
+        "45° W"
+      ],
       "why_correct": "The prime meridian is defined as 0° longitude and runs through Greenwich, England.",
-      "why_wrong": ["90° E runs through parts of Asia.", "180° is the International Date Line on the opposite side of the globe.", "45° W is in the western Atlantic Ocean."],
-      "concepts": ["coordinates"],
+      "why_wrong": [
+        "90° E runs through parts of Asia.",
+        "180° is the International Date Line on the opposite side of the globe.",
+        "45° W is in the western Atlantic Ocean."
+      ],
+      "concepts": [
+        "coordinates"
+      ],
       "tip": "Prime meridian = 0° longitude — the starting point for east/west."
     },
-
     {
       "id": "q20",
       "q": "A location at 30° N, 90° W is ___.",
       "correct": "In the Northern Hemisphere, west of the prime meridian",
-      "incorrect": ["In the Southern Hemisphere, west of the prime meridian", "In the Northern Hemisphere, east of the prime meridian", "At the equator"],
+      "incorrect": [
+        "In the Southern Hemisphere, west of the prime meridian",
+        "In the Northern Hemisphere, east of the prime meridian",
+        "At the equator"
+      ],
       "why_correct": "30° N means north of the equator; 90° W means west of the prime meridian.",
-      "why_wrong": ["N means Northern Hemisphere, not Southern.", "W means west of the prime meridian, not east.", "0° latitude is the equator; this location is at 30° N."],
-      "concepts": ["coordinates"],
+      "why_wrong": [
+        "N means Northern Hemisphere, not Southern.",
+        "W means west of the prime meridian, not east.",
+        "0° latitude is the equator; this location is at 30° N."
+      ],
+      "concepts": [
+        "coordinates"
+      ],
       "tip": "N = north of equator; W = west of prime meridian."
     },
-
     {
       "id": "q21",
       "q": "At a divergent plate boundary, plates are ___.",
       "correct": "Moving apart from each other",
-      "incorrect": ["Colliding head-on", "Sliding past each other", "One plate sinking beneath another"],
+      "incorrect": [
+        "Colliding head-on",
+        "Sliding past each other",
+        "One plate sinking beneath another"
+      ],
       "why_correct": "At divergent boundaries, plates move away from each other, creating new crust as magma rises to fill the gap.",
-      "why_wrong": ["Plates colliding is a convergent boundary.", "Plates sliding past each other is a transform boundary.", "One plate sinking beneath another is subduction at a convergent boundary."],
-      "concepts": ["plate-tectonics", "divergent"],
+      "why_wrong": [
+        "Plates colliding is a convergent boundary.",
+        "Plates sliding past each other is a transform boundary.",
+        "One plate sinking beneath another is subduction at a convergent boundary."
+      ],
+      "concepts": [
+        "plate-tectonics",
+        "divergent"
+      ],
       "tip": "Diverge = spread apart."
     },
-
     {
       "id": "q22",
       "q": "What landform typically forms at a divergent boundary?",
       "correct": "Mid-ocean ridge",
-      "incorrect": ["Mountain range", "Deep ocean trench", "Volcanic arc"],
+      "incorrect": [
+        "Mountain range",
+        "Deep ocean trench",
+        "Volcanic arc"
+      ],
       "why_correct": "As plates pull apart underwater, magma rises and forms long underwater mountain ridges.",
-      "why_wrong": ["Mountain ranges form where plates collide (convergent).", "Ocean trenches form where one plate subducts under another.", "Volcanic arcs form above subduction zones."],
-      "concepts": ["plate-tectonics", "divergent"],
+      "why_wrong": [
+        "Mountain ranges form where plates collide (convergent).",
+        "Ocean trenches form where one plate subducts under another.",
+        "Volcanic arcs form above subduction zones."
+      ],
+      "concepts": [
+        "plate-tectonics",
+        "divergent"
+      ],
       "tip": "Divergent = new seafloor + mid-ocean ridge."
     },
-
     {
       "id": "q23",
       "q": "At a convergent boundary, what happens when an oceanic plate meets a continental plate?",
       "correct": "The oceanic plate subducts beneath the continental plate",
-      "incorrect": ["The continental plate subducts beneath the oceanic plate", "Both plates rise to form a mid-ocean ridge", "The plates slide past each other horizontally"],
+      "incorrect": [
+        "The continental plate subducts beneath the oceanic plate",
+        "Both plates rise to form a mid-ocean ridge",
+        "The plates slide past each other horizontally"
+      ],
       "why_correct": "Oceanic crust is denser than continental crust, so it sinks (subducts) beneath the lighter continental plate.",
-      "why_wrong": ["Continental crust is less dense and will not subduct.", "Mid-ocean ridges form at divergent boundaries.", "Horizontal sliding occurs at transform boundaries."],
-      "concepts": ["plate-tectonics", "subduction"],
+      "why_wrong": [
+        "Continental crust is less dense and will not subduct.",
+        "Mid-ocean ridges form at divergent boundaries.",
+        "Horizontal sliding occurs at transform boundaries."
+      ],
+      "concepts": [
+        "plate-tectonics",
+        "subduction"
+      ],
       "tip": "Denser oceanic crust always sinks under lighter continental crust."
     },
-
     {
       "id": "q24",
       "q": "What forms where two continental plates collide?",
       "correct": "A mountain range",
-      "incorrect": ["An ocean trench", "A mid-ocean ridge", "A rift valley"],
+      "incorrect": [
+        "An ocean trench",
+        "A mid-ocean ridge",
+        "A rift valley"
+      ],
       "why_correct": "When two continental plates collide, neither subducts — they crumple upward, forming mountain ranges like the Himalayas.",
-      "why_wrong": ["Ocean trenches form at oceanic-oceanic or oceanic-continental convergent boundaries.", "Mid-ocean ridges form at divergent boundaries.", "Rift valleys form at divergent boundaries on continents."],
-      "concepts": ["plate-tectonics", "convergent"],
+      "why_wrong": [
+        "Ocean trenches form at oceanic-oceanic or oceanic-continental convergent boundaries.",
+        "Mid-ocean ridges form at divergent boundaries.",
+        "Rift valleys form at divergent boundaries on continents."
+      ],
+      "concepts": [
+        "plate-tectonics",
+        "convergent"
+      ],
       "tip": "Continental + Continental = mountains (think India crashing into Asia = Himalayas)."
     },
-
     {
       "id": "q25",
       "q": "At a transform boundary, plates ___.",
       "correct": "Slide horizontally past each other",
-      "incorrect": ["Drift apart from each other", "Collide and fold upward", "One sinks beneath the other"],
+      "incorrect": [
+        "Drift apart from each other",
+        "Collide and fold upward",
+        "One sinks beneath the other"
+      ],
       "why_correct": "Transform boundaries have plates grinding sideways past each other, causing earthquakes but not creating or destroying crust.",
-      "why_wrong": ["Moving apart is a divergent boundary.", "Colliding and folding is a convergent boundary.", "Sinking beneath is subduction at a convergent boundary."],
-      "concepts": ["plate-tectonics", "transform"],
+      "why_wrong": [
+        "Moving apart is a divergent boundary.",
+        "Colliding and folding is a convergent boundary.",
+        "Sinking beneath is subduction at a convergent boundary."
+      ],
+      "concepts": [
+        "plate-tectonics",
+        "transform"
+      ],
       "tip": "Transform = sideways sliding = earthquake zone."
     },
-
     {
       "id": "q26",
       "q": "Which type of fault involves rocks moving horizontally past each other?",
       "correct": "Strike-slip fault",
-      "incorrect": ["Normal fault", "Reverse fault", "Thrust fault"],
+      "incorrect": [
+        "Normal fault",
+        "Reverse fault",
+        "Thrust fault"
+      ],
       "why_correct": "Strike-slip (transform) faults have rocks sliding horizontally in opposite directions along a vertical fault plane.",
-      "why_wrong": ["A normal fault involves one block dropping down (tension/pulling apart).", "A reverse fault involves one block riding up over another (compression).", "A thrust fault is a low-angle reverse fault — still compressional, not horizontal sliding."],
-      "concepts": ["faults"],
+      "why_wrong": [
+        "A normal fault involves one block dropping down (tension/pulling apart).",
+        "A reverse fault involves one block riding up over another (compression).",
+        "A thrust fault is a low-angle reverse fault — still compressional, not horizontal sliding."
+      ],
+      "concepts": [
+        "faults"
+      ],
       "tip": "Strike-slip = horizontal sliding. San Andreas Fault is the classic example."
     },
-
     {
       "id": "q27",
       "q": "In a normal fault, the hanging wall ___.",
       "correct": "Moves down relative to the footwall",
-      "incorrect": ["Moves up relative to the footwall", "Slides horizontally", "Stays in place while the footwall moves up"],
+      "incorrect": [
+        "Moves up relative to the footwall",
+        "Slides horizontally",
+        "Stays in place while the footwall moves up"
+      ],
       "why_correct": "Normal faults result from tension (pulling apart) — the hanging wall drops down along the fault plane.",
-      "why_wrong": ["The hanging wall moving up is a reverse fault.", "Horizontal sliding is a strike-slip fault.", "The footwall stays relatively fixed while the hanging wall drops in a normal fault."],
-      "concepts": ["faults", "normal-fault"],
+      "why_wrong": [
+        "The hanging wall moving up is a reverse fault.",
+        "Horizontal sliding is a strike-slip fault.",
+        "The footwall stays relatively fixed while the hanging wall drops in a normal fault."
+      ],
+      "concepts": [
+        "faults",
+        "normal-fault"
+      ],
       "tip": "Normal fault = gravity pulls hanging wall DOWN. Tension/extension."
     },
-
     {
       "id": "q28",
       "q": "In a reverse fault, the hanging wall ___.",
       "correct": "Moves up relative to the footwall",
-      "incorrect": ["Moves down relative to the footwall", "Slides horizontally past the footwall", "Stays in place"],
+      "incorrect": [
+        "Moves down relative to the footwall",
+        "Slides horizontally past the footwall",
+        "Stays in place"
+      ],
       "why_correct": "Reverse faults result from compression — the hanging wall is pushed up over the footwall.",
-      "why_wrong": ["The hanging wall moving down is a normal fault.", "Horizontal sliding is a strike-slip fault.", "Both walls move in a reverse fault; the hanging wall moves up."],
-      "concepts": ["faults", "reverse-fault"],
+      "why_wrong": [
+        "The hanging wall moving down is a normal fault.",
+        "Horizontal sliding is a strike-slip fault.",
+        "Both walls move in a reverse fault; the hanging wall moves up."
+      ],
+      "concepts": [
+        "faults",
+        "reverse-fault"
+      ],
       "tip": "Reverse fault = compression pushes hanging wall UP. Opposite of normal."
     },
-
     {
       "id": "q29",
       "q": "Which evidence best supports the theory of continental drift?",
       "correct": "Matching fossils found on opposite sides of the Atlantic Ocean",
-      "incorrect": ["Different rock types on different continents", "Ocean trenches forming near coastlines", "Volcanoes only occurring near ocean ridges"],
+      "incorrect": [
+        "Different rock types found on separated continents",
+        "Ocean trenches forming close to nearby coastlines",
+        "Volcanoes occurring only along mid-ocean ridges"
+      ],
       "why_correct": "Identical fossils of the same species on now-separated continents indicate those landmasses were once connected.",
-      "why_wrong": ["Different rock types do not support drift; matching rock types across oceans do.", "Ocean trenches relate to subduction, not continental drift evidence.", "Volcanic patterns near ridges relate to seafloor spreading, not continental drift fossil evidence."],
-      "concepts": ["continental-drift", "evidence"],
+      "why_wrong": [
+        "Different rock types do not support drift; matching rock types across oceans do.",
+        "Ocean trenches relate to subduction, not continental drift evidence.",
+        "Volcanic patterns near ridges relate to seafloor spreading, not continental drift fossil evidence."
+      ],
+      "concepts": [
+        "continental-drift",
+        "evidence"
+      ],
       "tip": "Wegener's key evidence: matching fossils + matching coastlines + same rock types across oceans."
     },
-
     {
       "id": "q30",
       "q": "The theory of seafloor spreading states that ___.",
       "correct": "New oceanic crust forms at mid-ocean ridges",
-      "incorrect": ["Old crust piles up at mid-ocean ridges", "The ocean floor is permanent and unchanging", "Continental crust grows from the seafloor"],
+      "incorrect": [
+        "Old crust piles up at mid-ocean ridges",
+        "The ocean floor is permanent and unchanging",
+        "Continental crust grows from the seafloor"
+      ],
       "why_correct": "Magma rises at mid-ocean ridges, cools, and becomes new oceanic crust that spreads outward.",
-      "why_wrong": ["Old crust is destroyed at subduction zones, not piled at ridges.", "The ocean floor is constantly created and destroyed — it changes.", "Continental crust forms differently and is not created at ridges."],
-      "concepts": ["seafloor-spreading"],
+      "why_wrong": [
+        "Old crust is destroyed at subduction zones, not piled at ridges.",
+        "The ocean floor is constantly created and destroyed — it changes.",
+        "Continental crust forms differently and is not created at ridges."
+      ],
+      "concepts": [
+        "seafloor-spreading"
+      ],
       "tip": "New crust AT the ridge. Oldest crust FARTHEST from the ridge."
     },
-
     {
       "id": "q31",
       "q": "Where is oceanic crust OLDEST?",
       "correct": "Far from the mid-ocean ridge",
-      "incorrect": ["At the mid-ocean ridge", "Near a continental coastline where subduction occurs", "It is all the same age"],
+      "incorrect": [
+        "At the mid-ocean ridge",
+        "Near a continental coastline where subduction occurs",
+        "It is all the same age"
+      ],
       "why_correct": "Crust forms young at the ridge and gets progressively older as it spreads away — the farthest crust is oldest.",
-      "why_wrong": ["The ridge is where the youngest crust forms.", "Crust near a subduction zone is about to be destroyed — but it is old relative to the ridge crust.", "Oceanic crust ages with distance from the ridge."],
-      "concepts": ["seafloor-spreading"],
+      "why_wrong": [
+        "The ridge is where the youngest crust forms.",
+        "Crust near a subduction zone is about to be destroyed — but it is old relative to the ridge crust.",
+        "Oceanic crust ages with distance from the ridge."
+      ],
+      "concepts": [
+        "seafloor-spreading"
+      ],
       "tip": "Ridge = new; far from ridge = old."
     },
-
     {
       "id": "q32",
       "q": "Which of Earth's layers is responsible for driving plate motion?",
       "correct": "The asthenosphere (upper mantle)",
-      "incorrect": ["The inner core", "The crust", "The outer core"],
+      "incorrect": [
+        "The solid inner core (innermost layer)",
+        "The thin outer crust (surface layer)",
+        "The liquid outer core (iron and nickel)"
+      ],
       "why_correct": "The asthenosphere is a semi-plastic region of the upper mantle where convection currents drag tectonic plates.",
-      "why_wrong": ["The inner core is solid and too deep to drive plate motion.", "The crust sits ON the plates — it does not drive them.", "The outer core is liquid iron and drives the magnetic field, not plate motion."],
-      "concepts": ["plate-tectonics", "mantle-convection"],
+      "why_wrong": [
+        "The inner core is solid and too deep to drive plate motion.",
+        "The crust sits ON the plates — it does not drive them.",
+        "The outer core is liquid iron and drives the magnetic field, not plate motion."
+      ],
+      "concepts": [
+        "plate-tectonics",
+        "mantle-convection"
+      ],
       "tip": "Asthenosphere = plastic, flowing rock that moves the plates above."
     },
-
     {
       "id": "q33",
       "q": "What is the epicenter of an earthquake?",
       "correct": "The point on Earth's surface directly above the focus",
-      "incorrect": ["The point underground where the earthquake originates", "The center of an earthquake wave", "The area of most severe damage"],
+      "incorrect": [
+        "The point underground where the earthquake originates",
+        "The center of an earthquake wave",
+        "The area of most severe damage"
+      ],
       "why_correct": "The epicenter is at the surface; the focus (hypocenter) is the underground origin point.",
-      "why_wrong": ["That is the focus (hypocenter) — underground.", "Earthquake waves spread outward from the focus.", "Damage area depends on many factors, not just the epicenter."],
-      "concepts": ["earthquakes", "epicenter"],
+      "why_wrong": [
+        "That is the focus (hypocenter) — underground.",
+        "Earthquake waves spread outward from the focus.",
+        "Damage area depends on many factors, not just the epicenter."
+      ],
+      "concepts": [
+        "earthquakes",
+        "epicenter"
+      ],
       "tip": "Epi- = on top of; epicenter is directly above the focus, ON the surface."
     },
-
     {
       "id": "q34",
       "q": "What is the focus of an earthquake?",
       "correct": "The underground point where the earthquake originates",
-      "incorrect": ["The point on the surface directly above the origin", "The recording station that measures the quake", "The area of maximum shaking"],
+      "incorrect": [
+        "The point on the surface directly above the origin",
+        "The recording station that measures the quake",
+        "The area of maximum shaking"
+      ],
       "why_correct": "The focus (hypocenter) is the exact underground location where rocks first break and slip.",
-      "why_wrong": ["The point directly above on the surface is the epicenter.", "The recording station is a seismograph.", "Maximum shaking is typically near the epicenter but is a separate concept."],
-      "concepts": ["earthquakes", "focus"],
+      "why_wrong": [
+        "The point directly above on the surface is the epicenter.",
+        "The recording station is a seismograph.",
+        "Maximum shaking is typically near the epicenter but is a separate concept."
+      ],
+      "concepts": [
+        "earthquakes",
+        "focus"
+      ],
       "tip": "Focus = underground where it starts. Epicenter = directly above, at the surface."
     },
-
     {
       "id": "q35",
       "q": "Which seismic wave travels fastest?",
       "correct": "P waves (primary waves)",
-      "incorrect": ["S waves (secondary waves)", "Surface waves", "Love waves"],
+      "incorrect": [
+        "S waves (secondary waves)",
+        "Surface waves",
+        "Love waves"
+      ],
       "why_correct": "P waves are compressional waves that travel through solids, liquids, and gases — they arrive first at seismograph stations.",
-      "why_wrong": ["S waves are slower and arrive second — hence 'secondary.'", "Surface waves are the slowest and cause the most damage.", "Love waves are a type of surface wave — also slow."],
-      "concepts": ["seismic-waves"],
+      "why_wrong": [
+        "S waves are slower and arrive second — hence 'secondary.'",
+        "Surface waves are the slowest and cause the most damage.",
+        "Love waves are a type of surface wave — also slow."
+      ],
+      "concepts": [
+        "seismic-waves"
+      ],
       "tip": "P = Primary = arrives FIRST. S = Secondary = arrives SECOND."
     },
-
     {
       "id": "q36",
       "q": "Which seismic wave cannot travel through liquids?",
       "correct": "S waves",
-      "incorrect": ["P waves", "Surface waves", "Both P and S waves"],
+      "incorrect": [
+        "P waves",
+        "Surface waves",
+        "Both P and S waves"
+      ],
       "why_correct": "S waves are shear waves that require solid material to travel through; liquid rock in the outer core blocks them.",
-      "why_wrong": ["P waves can travel through solids, liquids, and gases.", "Surface waves travel along Earth's surface, not through the deep interior.", "P waves CAN travel through liquids."],
-      "concepts": ["seismic-waves"],
+      "why_wrong": [
+        "P waves can travel through solids, liquids, and gases.",
+        "Surface waves travel along Earth's surface, not through the deep interior.",
+        "P waves CAN travel through liquids."
+      ],
+      "concepts": [
+        "seismic-waves"
+      ],
       "tip": "S waves = shear = need something solid to shear. Liquid = no shear = no S waves."
     },
-
     {
       "id": "q37",
       "q": "How many seismograph stations are needed to locate an earthquake's epicenter?",
       "correct": "At least 3 stations",
-      "incorrect": ["Only 1 station", "Only 2 stations", "5 or more stations"],
+      "incorrect": [
+        "Only 1 station",
+        "Only 2 stations",
+        "5 or more stations"
+      ],
       "why_correct": "Three stations are needed so circles drawn around each station overlap at exactly one point — the epicenter.",
-      "why_wrong": ["One station can estimate distance but not direction.", "Two stations give two possible intersection points.", "Five is more than needed; three is sufficient for triangulation."],
-      "concepts": ["earthquakes", "triangulation"],
+      "why_wrong": [
+        "One station can estimate distance but not direction.",
+        "Two stations give two possible intersection points.",
+        "Five is more than needed; three is sufficient for triangulation."
+      ],
+      "concepts": [
+        "earthquakes",
+        "triangulation"
+      ],
       "tip": "3 stations = 3 circles = 1 intersection point = the epicenter."
     },
-
     {
       "id": "q38",
       "q": "If an S wave arrives 4 minutes after a P wave, what does this time gap tell you?",
       "correct": "The distance to the epicenter",
-      "incorrect": ["The strength of the earthquake", "The depth of the focus", "The direction to the epicenter"],
+      "incorrect": [
+        "The strength of the earthquake",
+        "The depth of the focus",
+        "The direction to the epicenter"
+      ],
       "why_correct": "The P-S time lag increases with distance — seismologists use travel-time charts to convert the lag into distance.",
-      "why_wrong": ["Earthquake strength (magnitude) is measured by wave amplitude, not arrival time gap.", "Focus depth requires other calculations.", "Distance, not direction, is calculated from the time gap."],
-      "concepts": ["seismic-waves", "epicenter-distance"],
+      "why_wrong": [
+        "Earthquake strength (magnitude) is measured by wave amplitude, not arrival time gap.",
+        "Focus depth requires other calculations.",
+        "Distance, not direction, is calculated from the time gap."
+      ],
+      "concepts": [
+        "seismic-waves",
+        "epicenter-distance"
+      ],
       "tip": "Bigger P-S gap = farther away. Use a travel-time graph to convert to km."
     },
-
     {
       "id": "q39",
       "q": "The Richter scale measures ___.",
       "correct": "The magnitude (energy released) of an earthquake",
-      "incorrect": ["The depth of the earthquake's focus", "The distance to the epicenter", "The number of aftershocks"],
+      "incorrect": [
+        "The depth of the earthquake's focus underground",
+        "The distance from station to the epicenter",
+        "The total number of aftershocks that follow"
+      ],
       "why_correct": "The Richter scale uses seismograph wave amplitude to calculate how much energy was released.",
-      "why_wrong": ["Focus depth is measured separately.", "Distance to epicenter is found using P-S lag time.", "Aftershocks are counted separately; they are not part of magnitude."],
-      "concepts": ["earthquakes", "richter-scale"],
+      "why_wrong": [
+        "Focus depth is measured separately.",
+        "Distance to epicenter is found using P-S lag time.",
+        "Aftershocks are counted separately; they are not part of magnitude."
+      ],
+      "concepts": [
+        "earthquakes",
+        "richter-scale"
+      ],
       "tip": "Richter = energy/magnitude. Each whole number = 10x more ground shaking."
     },
-
     {
       "id": "q40",
       "q": "P waves are ___.",
       "correct": "Compressional — they push and pull rock in the direction the wave travels",
-      "incorrect": ["Shear — they move rock up and down perpendicular to travel", "Circular — they move rock in a rolling motion", "Transverse — they travel only along Earth's surface"],
+      "incorrect": [
+        "Shear — they move rock up and down perpendicular to travel",
+        "Circular — they move rock in a continuous rolling motion",
+        "Transverse — they travel only along Earth's outermost surface"
+      ],
       "why_correct": "P waves compress and expand rock in the same direction the wave moves — like a slinky pushed end-to-end.",
-      "why_wrong": ["Shear motion describes S waves.", "Rolling/circular motion describes surface waves (Rayleigh waves).", "P waves travel through Earth's interior, not just the surface."],
-      "concepts": ["seismic-waves"],
+      "why_wrong": [
+        "Shear motion describes S waves.",
+        "Rolling/circular motion describes surface waves (Rayleigh waves).",
+        "P waves travel through Earth's interior, not just the surface."
+      ],
+      "concepts": [
+        "seismic-waves"
+      ],
       "tip": "P wave = push-pull compression. Imagine squeezing an accordion."
     },
-
     {
       "id": "q41",
       "q": "Which seismic waves cause the MOST damage to buildings?",
       "correct": "Surface waves",
-      "incorrect": ["P waves", "S waves", "Body waves"],
+      "incorrect": [
+        "P waves",
+        "S waves",
+        "Body waves"
+      ],
       "why_correct": "Surface waves travel along the ground and move it in complex rolling/side-to-side motions that are very destructive to structures.",
-      "why_wrong": ["P waves arrive first but are less destructive.", "S waves are more damaging than P waves but less than surface waves.", "Body waves (P and S) travel through the interior; surface waves do the worst damage."],
-      "concepts": ["seismic-waves", "earthquake-damage"],
+      "why_wrong": [
+        "P waves arrive first but are less destructive.",
+        "S waves are more damaging than P waves but less than surface waves.",
+        "Body waves (P and S) travel through the interior; surface waves do the worst damage."
+      ],
+      "concepts": [
+        "seismic-waves",
+        "earthquake-damage"
+      ],
       "tip": "Surface waves = slowest but most destructive."
     },
-
     {
       "id": "q42",
       "q": "Which plate boundary type produces the most earthquakes?",
       "correct": "Transform (strike-slip) and convergent boundaries",
-      "incorrect": ["Divergent boundaries only", "Volcanic hot spots only", "Passive continental margins"],
+      "incorrect": [
+        "Along divergent plate boundaries only",
+        "At volcanic hot spot locations only",
+        "Along passive continental margins only"
+      ],
       "why_correct": "Transform and convergent boundaries involve plates grinding or colliding, creating intense seismic activity.",
-      "why_wrong": ["Divergent boundaries produce some earthquakes but generally weaker ones as plates pull apart.", "Hot spots produce volcanic activity but limited major earthquakes.", "Passive margins have little tectonic activity."],
-      "concepts": ["earthquakes", "plate-boundaries"],
+      "why_wrong": [
+        "Divergent boundaries produce some earthquakes but generally weaker ones as plates pull apart.",
+        "Hot spots produce volcanic activity but limited major earthquakes.",
+        "Passive margins have little tectonic activity."
+      ],
+      "concepts": [
+        "earthquakes",
+        "plate-boundaries"
+      ],
       "tip": "Grinding = earthquakes. Transform faults and subduction zones are earthquake hotspots."
     },
-
     {
       "id": "q43",
       "q": "Which process converts liquid water to water vapor?",
       "correct": "Evaporation",
-      "incorrect": ["Condensation", "Precipitation", "Transpiration"],
+      "incorrect": [
+        "Condensation",
+        "Precipitation",
+        "Transpiration"
+      ],
       "why_correct": "Evaporation is the process where liquid water absorbs heat energy and changes into water vapor gas.",
-      "why_wrong": ["Condensation is the opposite — water vapor becomes liquid.", "Precipitation is water falling from clouds as rain, snow, etc.", "Transpiration is water released from plant leaves as vapor."],
-      "concepts": ["water-cycle", "evaporation"],
+      "why_wrong": [
+        "Condensation is the opposite — water vapor becomes liquid.",
+        "Precipitation is water falling from clouds as rain, snow, etc.",
+        "Transpiration is water released from plant leaves as vapor."
+      ],
+      "concepts": [
+        "water-cycle",
+        "evaporation"
+      ],
       "tip": "Evaporation = liquid → gas. Heat drives it."
     },
-
     {
       "id": "q44",
       "q": "Which process converts water vapor back into liquid water?",
       "correct": "Condensation",
-      "incorrect": ["Evaporation", "Sublimation", "Precipitation"],
+      "incorrect": [
+        "Evaporation",
+        "Sublimation",
+        "Precipitation"
+      ],
       "why_correct": "Condensation occurs when water vapor cools and forms liquid water — clouds, dew, and fog are products of condensation.",
-      "why_wrong": ["Evaporation converts liquid to vapor — the opposite direction.", "Sublimation converts solid directly to vapor.", "Precipitation is condensed water droplets that fall from the sky."],
-      "concepts": ["water-cycle", "condensation"],
+      "why_wrong": [
+        "Evaporation converts liquid to vapor — the opposite direction.",
+        "Sublimation converts solid directly to vapor.",
+        "Precipitation is condensed water droplets that fall from the sky."
+      ],
+      "concepts": [
+        "water-cycle",
+        "condensation"
+      ],
       "tip": "Condensation = cooling vapor → liquid. Clouds form by condensation."
     },
-
     {
       "id": "q45",
       "q": "What is transpiration?",
       "correct": "Water released as vapor through plant leaves",
-      "incorrect": ["Rainfall that soaks into the ground", "Water evaporating from ocean surfaces", "Snow melting into rivers"],
+      "incorrect": [
+        "Rainfall that soaks into the ground",
+        "Water evaporating from ocean surfaces",
+        "Snow melting into rivers"
+      ],
       "why_correct": "Plants draw water from the soil through their roots and release it as vapor through tiny pores (stomata) in their leaves.",
-      "why_wrong": ["Rainfall soaking into the ground is infiltration.", "Ocean evaporation is simply evaporation.", "Snowmelt flowing into rivers is runoff."],
-      "concepts": ["water-cycle", "transpiration"],
+      "why_wrong": [
+        "Rainfall soaking into the ground is infiltration.",
+        "Ocean evaporation is simply evaporation.",
+        "Snowmelt flowing into rivers is runoff."
+      ],
+      "concepts": [
+        "water-cycle",
+        "transpiration"
+      ],
       "tip": "Transpiration = trees 'sweating' water vapor out through their leaves."
     },
-
     {
       "id": "q46",
       "q": "What is infiltration in the water cycle?",
       "correct": "Water soaking into the ground",
-      "incorrect": ["Water flowing over the surface as runoff", "Water evaporating from soil", "Water falling as rain"],
+      "incorrect": [
+        "Water flowing over the surface as runoff",
+        "Water evaporating from soil",
+        "Water falling as rain"
+      ],
       "why_correct": "Infiltration is when precipitation seeps down through soil and rock to recharge groundwater.",
-      "why_wrong": ["Water flowing over the surface is runoff.", "Evaporation from soil is still just evaporation.", "Water falling as rain is precipitation."],
-      "concepts": ["water-cycle", "infiltration"],
+      "why_wrong": [
+        "Water flowing over the surface is runoff.",
+        "Evaporation from soil is still just evaporation.",
+        "Water falling as rain is precipitation."
+      ],
+      "concepts": [
+        "water-cycle",
+        "infiltration"
+      ],
       "tip": "Infiltrate = sneak in. Water sneaks into the ground."
     },
-
     {
       "id": "q47",
       "q": "What is runoff?",
       "correct": "Water that flows over the land surface into streams and rivers",
-      "incorrect": ["Water that soaks into the ground", "Water that evaporates directly from soil", "Water that stays frozen as ice"],
+      "incorrect": [
+        "Water that soaks slowly down into the ground below",
+        "Water that evaporates upward directly from the soil surface",
+        "Water that stays frozen in glaciers or polar ice caps"
+      ],
       "why_correct": "When the ground cannot absorb all the precipitation, excess water flows downhill over the surface as runoff.",
-      "why_wrong": ["Water soaking into the ground is infiltration.", "Evaporation from soil is still evaporation.", "Frozen water stored as ice is part of the cryosphere."],
-      "concepts": ["water-cycle", "runoff"],
+      "why_wrong": [
+        "Water soaking into the ground is infiltration.",
+        "Evaporation from soil is still evaporation.",
+        "Frozen water stored as ice is part of the cryosphere."
+      ],
+      "concepts": [
+        "water-cycle",
+        "runoff"
+      ],
       "tip": "Runoff = water that 'runs off' the surface into streams."
     },
-
     {
       "id": "q48",
       "q": "In the water cycle, where does most evaporation occur?",
       "correct": "The oceans",
-      "incorrect": ["Rivers and lakes", "Plants (transpiration)", "Glaciers and ice sheets"],
+      "incorrect": [
+        "Rivers and lakes",
+        "Plants (transpiration)",
+        "Glaciers and ice sheets"
+      ],
       "why_correct": "The oceans cover about 70% of Earth's surface and supply the vast majority of atmospheric water vapor through evaporation.",
-      "why_wrong": ["Rivers and lakes contribute but are much smaller than oceans.", "Transpiration from plants is significant but less than ocean evaporation.", "Glaciers lose water mainly by sublimation and melting, which is much smaller than ocean evaporation."],
-      "concepts": ["water-cycle"],
+      "why_wrong": [
+        "Rivers and lakes contribute but are much smaller than oceans.",
+        "Transpiration from plants is significant but less than ocean evaporation.",
+        "Glaciers lose water mainly by sublimation and melting, which is much smaller than ocean evaporation."
+      ],
+      "concepts": [
+        "water-cycle"
+      ],
       "tip": "Oceans = 97% of Earth's water = most evaporation."
     },
-
     {
       "id": "q49",
       "q": "What is the zone of saturation?",
       "correct": "The underground zone where all pore spaces are filled with water",
-      "incorrect": ["The layer of dry soil at the surface", "The area above the water table", "A layer of impermeable rock"],
+      "incorrect": [
+        "The dry, unsaturated soil layer found at Earth's surface",
+        "The unsaturated zone that sits directly above the water table",
+        "A solid impermeable rock layer found somewhere underground"
+      ],
       "why_correct": "Below the water table, all pores and cracks in the rock and soil are completely filled with groundwater.",
-      "why_wrong": ["Dry soil at the surface is in the zone of aeration.", "The zone above the water table is the zone of aeration.", "Impermeable rock is an aquitard, not the zone of saturation."],
-      "concepts": ["groundwater", "zone-of-saturation"],
+      "why_wrong": [
+        "Dry soil at the surface is in the zone of aeration.",
+        "The zone above the water table is the zone of aeration.",
+        "Impermeable rock is an aquitard, not the zone of saturation."
+      ],
+      "concepts": [
+        "groundwater",
+        "zone-of-saturation"
+      ],
       "tip": "Saturation = completely soaked. All pores are full of water."
     },
-
     {
       "id": "q50",
       "q": "What is the water table?",
       "correct": "The upper boundary of the zone of saturation",
-      "incorrect": ["The surface of the ocean water", "A layer of impermeable rock", "The average yearly rainfall amount"],
+      "incorrect": [
+        "The surface of the ocean water",
+        "A layer of impermeable rock",
+        "The average yearly rainfall amount"
+      ],
       "why_correct": "The water table is the level below which all soil and rock pores are saturated with groundwater.",
-      "why_wrong": ["The ocean surface is not the water table.", "Impermeable rock is an aquitard — it blocks water flow.", "Rainfall amount is a precipitation measurement, not related to the water table level."],
-      "concepts": ["groundwater", "water-table"],
+      "why_wrong": [
+        "The ocean surface is not the water table.",
+        "Impermeable rock is an aquitard — it blocks water flow.",
+        "Rainfall amount is a precipitation measurement, not related to the water table level."
+      ],
+      "concepts": [
+        "groundwater",
+        "water-table"
+      ],
       "tip": "Water table = the TOP of the saturated zone underground."
     },
-
     {
       "id": "q51",
       "q": "What is porosity?",
       "correct": "The percentage of rock or soil that consists of open pore spaces",
-      "incorrect": ["The rate at which water moves through rock", "The total volume of water in an aquifer", "The depth of the water table"],
+      "incorrect": [
+        "The rate at which water moves through rock (permeability)",
+        "The total volume of water stored in an aquifer",
+        "The depth at which the water table is found below surface"
+      ],
       "why_correct": "Porosity measures how much empty space (pores) a material has — like holes in a sponge.",
-      "why_wrong": ["The rate water moves through rock is permeability.", "Total water volume in an aquifer depends on size and saturation.", "Water table depth is a separate concept."],
-      "concepts": ["groundwater", "porosity"],
+      "why_wrong": [
+        "The rate water moves through rock is permeability.",
+        "Total water volume in an aquifer depends on size and saturation.",
+        "Water table depth is a separate concept."
+      ],
+      "concepts": [
+        "groundwater",
+        "porosity"
+      ],
       "tip": "Porosity = how much SPACE. Permeability = how fast water FLOWS."
     },
-
     {
       "id": "q52",
       "q": "What is permeability?",
       "correct": "How easily water can flow through rock or soil",
-      "incorrect": ["The total pore space in rock", "The depth of groundwater", "The amount of water in the soil"],
+      "incorrect": [
+        "The total percentage of pore space in rock (porosity)",
+        "The depth at which groundwater sits underground",
+        "The total amount of water currently stored in soil"
+      ],
       "why_correct": "Permeability describes how connected the pore spaces are — highly permeable rock lets water flow easily.",
-      "why_wrong": ["Total pore space is porosity.", "Depth of groundwater is the water table depth.", "Amount of water in soil is soil moisture content."],
-      "concepts": ["groundwater", "permeability"],
+      "why_wrong": [
+        "Total pore space is porosity.",
+        "Depth of groundwater is the water table depth.",
+        "Amount of water in soil is soil moisture content."
+      ],
+      "concepts": [
+        "groundwater",
+        "permeability"
+      ],
       "tip": "Permeable = water can pass through. Think of a coffee filter (high) vs plastic (low)."
     },
-
     {
       "id": "q53",
       "q": "Which material has the HIGHEST permeability?",
       "correct": "Gravel",
-      "incorrect": ["Clay", "Granite", "Shale"],
+      "incorrect": [
+        "Clay",
+        "Granite",
+        "Shale"
+      ],
       "why_correct": "Gravel has large, well-connected pore spaces that allow water to flow freely and quickly.",
-      "why_wrong": ["Clay has tiny particles with very small pores — water moves through it very slowly.", "Granite is a solid rock with very few pores unless cracked.", "Shale has very fine grains and low permeability."],
-      "concepts": ["groundwater", "permeability"],
+      "why_wrong": [
+        "Clay has tiny particles with very small pores — water moves through it very slowly.",
+        "Granite is a solid rock with very few pores unless cracked.",
+        "Shale has very fine grains and low permeability."
+      ],
+      "concepts": [
+        "groundwater",
+        "permeability"
+      ],
       "tip": "Large grains with big gaps = high permeability. Gravel > sand > clay."
     },
-
     {
       "id": "q54",
       "q": "What is an aquifer?",
       "correct": "An underground layer of permeable rock that holds and supplies groundwater",
-      "incorrect": ["A river that flows underground", "The top layer of soil", "An impermeable layer of rock"],
+      "incorrect": [
+        "An underground channel through which a river flows below ground",
+        "The uppermost thin layer of topsoil at Earth's surface",
+        "A completely impermeable underground rock layer that blocks water"
+      ],
       "why_correct": "An aquifer is a saturated, permeable layer of rock or sediment that humans can tap with wells for drinking water.",
-      "why_wrong": ["An underground river is a different feature; aquifers are spread throughout porous rock.", "The top soil layer is mostly in the zone of aeration.", "An impermeable layer is an aquitard, which blocks groundwater movement."],
-      "concepts": ["groundwater", "aquifer"],
+      "why_wrong": [
+        "An underground river is a different feature; aquifers are spread throughout porous rock.",
+        "The top soil layer is mostly in the zone of aeration.",
+        "An impermeable layer is an aquitard, which blocks groundwater movement."
+      ],
+      "concepts": [
+        "groundwater",
+        "aquifer"
+      ],
       "tip": "Aquifer = underground water reservoir in porous rock."
     },
-
     {
       "id": "q55",
       "q": "What happens to the water table near a well that is being pumped heavily?",
       "correct": "It drops, forming a cone of depression",
-      "incorrect": ["It rises, forming a dome-shaped mound", "It stays perfectly flat and level", "It disappears entirely and the well runs dry"],
+      "incorrect": [
+        "It rises, forming a dome-shaped mound",
+        "It stays perfectly flat and level",
+        "It disappears entirely and the well runs dry"
+      ],
       "why_correct": "Heavy pumping removes groundwater faster than it recharges, pulling the water table down around the well into a cone shape.",
-      "why_wrong": ["The water table rises if there is more recharge than withdrawal.", "Heavy pumping always lowers the water table near the well.", "The water table does not disappear — it just drops locally."],
-      "concepts": ["groundwater", "wells"],
+      "why_wrong": [
+        "The water table rises if there is more recharge than withdrawal.",
+        "Heavy pumping always lowers the water table near the well.",
+        "The water table does not disappear — it just drops locally."
+      ],
+      "concepts": [
+        "groundwater",
+        "wells"
+      ],
       "tip": "Pump a well too fast = cone of depression forms around it."
     },
-
     {
       "id": "q56",
       "q": "Which type of rock has HIGH porosity but LOW permeability?",
       "correct": "Clay",
-      "incorrect": ["Gravel", "Sandstone", "Limestone"],
+      "incorrect": [
+        "Gravel",
+        "Sandstone",
+        "Limestone"
+      ],
       "why_correct": "Clay has many tiny pore spaces (high porosity) but the pores are poorly connected and tiny, so water can barely move (low permeability).",
-      "why_wrong": ["Gravel has both high porosity and high permeability.", "Sandstone has moderate porosity AND moderate–high permeability.", "Limestone can have high permeability due to dissolution of carbonate rock."],
-      "concepts": ["groundwater", "porosity", "permeability"],
+      "why_wrong": [
+        "Gravel has both high porosity and high permeability.",
+        "Sandstone has moderate porosity AND moderate–high permeability.",
+        "Limestone can have high permeability due to dissolution of carbonate rock."
+      ],
+      "concepts": [
+        "groundwater",
+        "porosity",
+        "permeability"
+      ],
       "tip": "Clay = holds water like a sponge but won't release it easily — high porosity, low permeability."
     },
-
     {
       "id": "q57",
       "q": "What is an artesian well?",
       "correct": "A well where water rises on its own due to pressure",
-      "incorrect": ["A well dug below the water table with a pump", "A well that only works during rain", "A well dug in impermeable rock"],
+      "incorrect": [
+        "A well dug below the water table with a pump",
+        "A well that only works during rain",
+        "A well dug in impermeable rock"
+      ],
       "why_correct": "Artesian wells tap into confined aquifers under pressure — the water rises without pumping.",
-      "why_wrong": ["A regular well requires pumping to bring water to the surface.", "Wells that work during rain are not artesian — they depend on precipitation recharge.", "Wells dug in impermeable rock would find no water."],
-      "concepts": ["groundwater", "artesian-well"],
+      "why_wrong": [
+        "A regular well requires pumping to bring water to the surface.",
+        "Wells that work during rain are not artesian — they depend on precipitation recharge.",
+        "Wells dug in impermeable rock would find no water."
+      ],
+      "concepts": [
+        "groundwater",
+        "artesian-well"
+      ],
       "tip": "Artesian = water under pressure rises by itself. No pump needed."
     },
-
     {
       "id": "q58",
       "q": "Runoff INCREASES when ___.",
       "correct": "The ground is saturated or covered by pavement",
-      "incorrect": ["There are many trees and plants", "The soil is loose and sandy", "Rainfall is light and slow"],
+      "incorrect": [
+        "The land is covered with many deep-rooted trees and plants",
+        "The soil is made of loose, coarse, sandy material",
+        "Rainfall falls very lightly and soaks in slowly"
+      ],
       "why_correct": "Saturated ground or impermeable pavement cannot absorb water, so it flows off the surface as runoff.",
-      "why_wrong": ["Trees and plants absorb water through roots and intercept rainfall — they REDUCE runoff.", "Loose sandy soil is highly permeable and absorbs water — reduces runoff.", "Light, slow rain soaks in better — less runoff than heavy, fast rain."],
-      "concepts": ["groundwater", "runoff"],
+      "why_wrong": [
+        "Trees and plants absorb water through roots and intercept rainfall — they REDUCE runoff.",
+        "Loose sandy soil is highly permeable and absorbs water — reduces runoff.",
+        "Light, slow rain soaks in better — less runoff than heavy, fast rain."
+      ],
+      "concepts": [
+        "groundwater",
+        "runoff"
+      ],
       "tip": "Can't soak in = runs off. Pavement, frozen ground, saturated soil all increase runoff."
     },
-
     {
       "id": "q59",
       "q": "What causes ocean tides?",
       "correct": "The gravitational pull of the Moon and Sun",
-      "incorrect": ["Wind blowing across the ocean surface", "Earth's rotation alone", "Ocean currents"],
+      "incorrect": [
+        "Wind blowing steadily across the ocean surface",
+        "Earth's rotation spinning on its axis alone",
+        "Density-driven deep ocean water currents"
+      ],
       "why_correct": "The Moon's gravity (and to a lesser extent the Sun's) pulls on Earth's oceans, creating bulges of water — tides.",
-      "why_wrong": ["Wind creates waves, not tides.", "Earth's rotation affects the Coriolis effect, not tides directly.", "Ocean currents are driven by wind and density differences, not tides."],
-      "concepts": ["tides"],
+      "why_wrong": [
+        "Wind creates waves, not tides.",
+        "Earth's rotation affects the Coriolis effect, not tides directly.",
+        "Ocean currents are driven by wind and density differences, not tides."
+      ],
+      "concepts": [
+        "tides"
+      ],
       "tip": "Tides = Moon's gravity pulling on water. Moon = main cause."
     },
-
     {
       "id": "q60",
       "q": "How often do high tides occur each day?",
       "correct": "Approximately twice (about every 12.5 hours)",
-      "incorrect": ["Once per day (every 24 hours)", "Four times per day (every 6 hours)", "Once per week (every 7 days)"],
+      "incorrect": [
+        "Once per day (every 24 hours)",
+        "Four times per day (every 6 hours)",
+        "Once per week (every 7 days)"
+      ],
       "why_correct": "There are two tidal bulges on opposite sides of Earth, so most coastal locations experience two high tides per day.",
-      "why_wrong": ["Once per day is a diurnal tide — uncommon; most places have semidiurnal (twice daily) tides.", "Four times per day is too frequent for typical tide patterns.", "Tides cycle daily, not weekly."],
-      "concepts": ["tides"],
+      "why_wrong": [
+        "Once per day is a diurnal tide — uncommon; most places have semidiurnal (twice daily) tides.",
+        "Four times per day is too frequent for typical tide patterns.",
+        "Tides cycle daily, not weekly."
+      ],
+      "concepts": [
+        "tides"
+      ],
       "tip": "2 high tides + 2 low tides per day ≈ one tidal cycle every 12.5 hours."
     },
-
     {
       "id": "q61",
       "q": "When do spring tides occur?",
       "correct": "During new moon and full moon",
-      "incorrect": ["Only during the spring season", "During first quarter and third quarter moon", "During a solar eclipse only"],
+      "incorrect": [
+        "Only during the spring season",
+        "During first quarter and third quarter moon",
+        "During a solar eclipse only"
+      ],
       "why_correct": "During new and full moons, the Sun, Earth, and Moon align — their gravitational pulls combine for extra-high spring tides.",
-      "why_wrong": ["Spring tides have nothing to do with the season — they occur year-round.", "Quarter moons produce weaker neap tides, not spring tides.", "Spring tides happen every new/full moon, not only during eclipses."],
-      "concepts": ["tides", "spring-tides"],
+      "why_wrong": [
+        "Spring tides have nothing to do with the season — they occur year-round.",
+        "Quarter moons produce weaker neap tides, not spring tides.",
+        "Spring tides happen every new/full moon, not only during eclipses."
+      ],
+      "concepts": [
+        "tides",
+        "spring-tides"
+      ],
       "tip": "Spring tides = SYZYGY (Sun-Earth-Moon in a line) = new OR full moon."
     },
-
     {
       "id": "q62",
       "q": "What are neap tides?",
       "correct": "Weaker tides that occur during quarter moon phases",
-      "incorrect": ["Extra-strong tides during full moon", "Tides that only occur in polar regions", "Daily tides during autumn"],
+      "incorrect": [
+        "Extra-strong tides that occur during full and new moon",
+        "Tides that only occur in the polar regions",
+        "Seasonal tides that only happen during autumn months"
+      ],
       "why_correct": "At quarter moons, the Sun and Moon are at 90° to each other — their gravity partially cancels, producing weaker tides.",
-      "why_wrong": ["Extra-strong tides during full moon are spring tides, not neap.", "Neap tides occur worldwide, not just in polar regions.", "Tides have nothing to do with autumn."],
-      "concepts": ["tides", "neap-tides"],
+      "why_wrong": [
+        "Extra-strong tides during full moon are spring tides, not neap.",
+        "Neap tides occur worldwide, not just in polar regions.",
+        "Tides have nothing to do with autumn."
+      ],
+      "concepts": [
+        "tides",
+        "neap-tides"
+      ],
       "tip": "Neap = weak. Quarter moon = Sun and Moon at right angles = weaker tides."
     },
-
     {
       "id": "q63",
       "q": "During which moon phase can a solar eclipse occur?",
       "correct": "New moon",
-      "incorrect": ["Full moon", "First quarter", "Third quarter"],
+      "incorrect": [
+        "Full moon",
+        "First quarter",
+        "Third quarter"
+      ],
       "why_correct": "A solar eclipse happens when the Moon passes between Earth and the Sun — this only occurs during the new moon phase.",
-      "why_wrong": ["A full moon is when Earth is between the Moon and Sun — lunar eclipse territory.", "Quarter moons are not aligned for an eclipse.", "Third quarter moons are also not aligned for a solar eclipse."],
-      "concepts": ["moon-phases", "eclipses"],
+      "why_wrong": [
+        "A full moon is when Earth is between the Moon and Sun — lunar eclipse territory.",
+        "Quarter moons are not aligned for an eclipse.",
+        "Third quarter moons are also not aligned for a solar eclipse."
+      ],
+      "concepts": [
+        "moon-phases",
+        "eclipses"
+      ],
       "tip": "Solar eclipse: Moon blocks Sun = Moon is BETWEEN Earth and Sun = new moon."
     },
-
     {
       "id": "q64",
       "q": "During which moon phase can a lunar eclipse occur?",
       "correct": "Full moon",
-      "incorrect": ["New moon", "First quarter", "Waxing crescent"],
+      "incorrect": [
+        "New moon",
+        "First quarter",
+        "Waxing crescent"
+      ],
       "why_correct": "A lunar eclipse happens when Earth is between the Sun and Moon, casting its shadow on the Moon — this only occurs at full moon.",
-      "why_wrong": ["New moon has the Moon between Earth and Sun — solar eclipse territory.", "Quarter moons are not in alignment for an eclipse.", "Waxing crescent is not a full alignment."],
-      "concepts": ["moon-phases", "eclipses"],
+      "why_wrong": [
+        "New moon has the Moon between Earth and Sun — solar eclipse territory.",
+        "Quarter moons are not in alignment for an eclipse.",
+        "Waxing crescent is not a full alignment."
+      ],
+      "concepts": [
+        "moon-phases",
+        "eclipses"
+      ],
       "tip": "Lunar eclipse: Earth blocks sunlight from Moon = Earth between Sun and Moon = full moon."
     },
-
     {
       "id": "q65",
       "q": "What causes the Moon's phases?",
       "correct": "The changing angle between the Moon, Earth, and Sun as the Moon orbits Earth",
-      "incorrect": ["Earth's shadow falling on the Moon", "The Moon rotating on its axis", "Clouds covering different parts of the Moon"],
+      "incorrect": [
+        "Earth's shadow gradually crossing and darkening the Moon's face",
+        "The Moon slowly rotating once on its own axis per month",
+        "Thick clouds covering and obscuring different portions of the Moon"
+      ],
       "why_correct": "As the Moon orbits Earth, we see different portions of the Moon's sunlit half from our perspective.",
-      "why_wrong": ["Earth's shadow causes a lunar eclipse — not the regular phases.", "The Moon's rotation keeps the same side facing Earth but does not cause phases.", "Clouds do not cause moon phases."],
-      "concepts": ["moon-phases"],
+      "why_wrong": [
+        "Earth's shadow causes a lunar eclipse — not the regular phases.",
+        "The Moon's rotation keeps the same side facing Earth but does not cause phases.",
+        "Clouds do not cause moon phases."
+      ],
+      "concepts": [
+        "moon-phases"
+      ],
       "tip": "Phases = how much of the lit side faces us as the Moon orbits."
     },
-
     {
       "id": "q66",
       "q": "During a new moon, the Moon appears ___.",
       "correct": "Invisible from Earth (dark side facing us)",
-      "incorrect": ["Fully lit (entire bright side facing us)", "Half-lit on the right (first quarter)", "Half-lit on the left (third quarter)"],
+      "incorrect": [
+        "Fully lit (entire bright side facing us)",
+        "Half-lit on the right (first quarter)",
+        "Half-lit on the left (third quarter)"
+      ],
       "why_correct": "During a new moon, the Moon is between Earth and Sun, so its sunlit side faces away from us — we see darkness.",
-      "why_wrong": ["Fully illuminated is the full moon.", "Half illuminated on the right is the first quarter.", "Half illuminated on the left is the third quarter."],
-      "concepts": ["moon-phases"],
+      "why_wrong": [
+        "Fully illuminated is the full moon.",
+        "Half illuminated on the right is the first quarter.",
+        "Half illuminated on the left is the third quarter."
+      ],
+      "concepts": [
+        "moon-phases"
+      ],
       "tip": "New moon = dark = Moon and Sun are on the same side."
     },
-
     {
       "id": "q67",
       "q": "The Moon takes approximately how long to complete one orbit around Earth?",
       "correct": "About 29.5 days",
-      "incorrect": ["About 24 hours", "About 365 days", "About 7 days"],
+      "incorrect": [
+        "About 24 hours",
+        "About 365 days",
+        "About 7 days"
+      ],
       "why_correct": "The Moon's synodic period (new moon to new moon) is about 29.5 days — one lunar month.",
-      "why_wrong": ["24 hours is one Earth day (rotation), not one lunar month.", "365 days is one Earth year.", "7 days is one quarter of the lunar cycle (one phase change), not the full cycle."],
-      "concepts": ["moon-phases", "lunar-cycle"],
+      "why_wrong": [
+        "24 hours is one Earth day (rotation), not one lunar month.",
+        "365 days is one Earth year.",
+        "7 days is one quarter of the lunar cycle (one phase change), not the full cycle."
+      ],
+      "concepts": [
+        "moon-phases",
+        "lunar-cycle"
+      ],
       "tip": "Moon phase cycle = ~29.5 days = one lunar month."
     },
-
     {
       "id": "q68",
       "q": "Spring tides have ___.",
       "correct": "Higher highs and lower lows than average",
-      "incorrect": ["Lower highs and higher lows than average", "The same tidal range as any other day", "No high tide, only a low tide"],
+      "incorrect": [
+        "Lower highs and higher lows than average",
+        "The same tidal range as any other day",
+        "No high tide, only a low tide"
+      ],
       "why_correct": "When the Sun and Moon's gravity combines, tidal bulges are more extreme — producing a larger tidal range.",
-      "why_wrong": ["Spring tides are MORE extreme, not less.", "The tidal range is notably larger during spring tides.", "Spring tides still have both high and low tides."],
-      "concepts": ["tides", "spring-tides"],
+      "why_wrong": [
+        "Spring tides are MORE extreme, not less.",
+        "The tidal range is notably larger during spring tides.",
+        "Spring tides still have both high and low tides."
+      ],
+      "concepts": [
+        "tides",
+        "spring-tides"
+      ],
       "tip": "Spring tides = EXTREME range. Highs are higher; lows are lower."
     },
-
     {
       "id": "q69",
       "q": "What causes Earth's seasons?",
       "correct": "Earth's axial tilt of 23.5° as it orbits the Sun",
-      "incorrect": ["Earth's changing distance from the Sun", "The Moon's orbit around Earth", "The number of daylight hours Earth receives"],
+      "incorrect": [
+        "Earth's changing distance from the Sun",
+        "The Moon's orbit around Earth",
+        "The number of daylight hours Earth receives"
+      ],
       "why_correct": "Earth's 23.5° tilt means different hemispheres receive more direct sunlight at different points in the orbit.",
-      "why_wrong": ["Earth's distance from the Sun changes only slightly and does not cause seasons — Earth is actually closest to the Sun in January.", "The Moon's orbit causes tides, not seasons.", "Daylight hours change BECAUSE of the axial tilt — it's an effect, not the cause."],
-      "concepts": ["seasons"],
+      "why_wrong": [
+        "Earth's distance from the Sun changes only slightly and does not cause seasons — Earth is actually closest to the Sun in January.",
+        "The Moon's orbit causes tides, not seasons.",
+        "Daylight hours change BECAUSE of the axial tilt — it's an effect, not the cause."
+      ],
+      "concepts": [
+        "seasons"
+      ],
       "tip": "Seasons = TILT, not distance. Tilt = hemisphere leans toward or away from the Sun."
     },
-
     {
       "id": "q70",
       "q": "When is it summer in the Northern Hemisphere?",
       "correct": "When the Northern Hemisphere is tilted toward the Sun",
-      "incorrect": ["When Earth is closest to the Sun", "When the Southern Hemisphere is tilted toward the Sun", "When it is winter in the Southern Hemisphere — same event, different name"],
+      "incorrect": [
+        "When Earth is closest to the Sun",
+        "When the Southern Hemisphere is tilted toward the Sun",
+        "When it is winter in the Southern Hemisphere — same event, different name"
+      ],
       "why_correct": "Summer in the Northern Hemisphere occurs when that hemisphere is angled toward the Sun, receiving more direct sunlight.",
-      "why_wrong": ["Earth is closest to the Sun in January — Northern Hemisphere winter.", "When the Southern Hemisphere tilts toward the Sun, it is Northern Hemisphere winter.", "The last option contradicts itself — if it's summer in the north, it's winter in the south, which is the same event but viewed from different hemispheres."],
-      "concepts": ["seasons"],
+      "why_wrong": [
+        "Earth is closest to the Sun in January — Northern Hemisphere winter.",
+        "When the Southern Hemisphere tilts toward the Sun, it is Northern Hemisphere winter.",
+        "The last option contradicts itself — if it's summer in the north, it's winter in the south, which is the same event but viewed from different hemispheres."
+      ],
+      "concepts": [
+        "seasons"
+      ],
       "tip": "Tilted TOWARD the Sun = summer for that hemisphere."
     },
-
     {
       "id": "q71",
       "q": "The summer solstice in the Northern Hemisphere occurs around ___.",
       "correct": "June 21",
-      "incorrect": ["December 21", "March 21", "September 21"],
+      "incorrect": [
+        "December 21",
+        "March 21",
+        "September 21"
+      ],
       "why_correct": "Around June 21, the Northern Hemisphere is maximally tilted toward the Sun — the longest day of the year in the north.",
-      "why_wrong": ["December 21 is the winter solstice in the Northern Hemisphere (summer in the south).", "March 21 is the spring equinox in the Northern Hemisphere.", "September 21 is the fall equinox in the Northern Hemisphere."],
-      "concepts": ["seasons", "solstice"],
+      "why_wrong": [
+        "December 21 is the winter solstice in the Northern Hemisphere (summer in the south).",
+        "March 21 is the spring equinox in the Northern Hemisphere.",
+        "September 21 is the fall equinox in the Northern Hemisphere."
+      ],
+      "concepts": [
+        "seasons",
+        "solstice"
+      ],
       "tip": "June 21 = summer solstice = longest day in Northern Hemisphere."
     },
-
     {
       "id": "q72",
       "q": "On the winter solstice in the Northern Hemisphere, what happens?",
       "correct": "The shortest day and longest night of the year (in the north)",
-      "incorrect": ["Equal hours of day and night", "The longest day of the year", "The Northern Hemisphere is tilted toward the Sun"],
+      "incorrect": [
+        "Equal hours of daylight and darkness all around the globe",
+        "The longest day with the most daylight hours of the year",
+        "The Northern Hemisphere is tilted directly toward the Sun"
+      ],
       "why_correct": "The winter solstice (~Dec 21) is when the Northern Hemisphere is tilted most away from the Sun, giving the shortest daylight.",
-      "why_wrong": ["Equal day and night is an equinox (spring or fall).", "The longest day is the summer solstice in June.", "In winter, the Northern Hemisphere is tilted AWAY from the Sun."],
-      "concepts": ["seasons", "solstice"],
+      "why_wrong": [
+        "Equal day and night is an equinox (spring or fall).",
+        "The longest day is the summer solstice in June.",
+        "In winter, the Northern Hemisphere is tilted AWAY from the Sun."
+      ],
+      "concepts": [
+        "seasons",
+        "solstice"
+      ],
       "tip": "Winter solstice = shortest day. Summer solstice = longest day."
     },
-
     {
       "id": "q73",
       "q": "What is an equinox?",
       "correct": "When day and night are approximately equal in length (about 12 hours each)",
-      "incorrect": ["The day with the most daylight hours (summer solstice)", "The day with the fewest daylight hours (winter solstice)", "When the Sun is directly overhead at the poles"],
+      "incorrect": [
+        "The day with the most daylight hours of the entire year (solstice)",
+        "The day with the fewest daylight hours of the entire year (solstice)",
+        "The time when the Sun passes directly overhead at the poles"
+      ],
       "why_correct": "Equinoxes occur twice a year (spring and fall) when Earth's tilt is perpendicular to the Sun, giving roughly equal day and night.",
-      "why_wrong": ["The longest day is the summer solstice.", "The shortest day is the winter solstice.", "The Sun is never directly overhead at the poles."],
-      "concepts": ["seasons", "equinox"],
+      "why_wrong": [
+        "The longest day is the summer solstice.",
+        "The shortest day is the winter solstice.",
+        "The Sun is never directly overhead at the poles."
+      ],
+      "concepts": [
+        "seasons",
+        "equinox"
+      ],
       "tip": "Equinox = equi (equal) + nox (night) = 12/12 hours."
     },
-
     {
       "id": "q74",
       "q": "Where on Earth can the Sun be directly overhead?",
       "correct": "Only between the Tropics of Cancer and Capricorn (23.5° N to 23.5° S)",
-      "incorrect": ["Only directly at the equator (0° latitude)", "At any location on Earth's surface", "Only at the North or South Poles"],
+      "incorrect": [
+        "Only directly at the equator (0° latitude) at certain times of year",
+        "At absolutely any location anywhere on the entire surface of Earth",
+        "Only at the very tip of the North Pole or the South Pole"
+      ],
       "why_correct": "Because Earth's tilt is 23.5°, the Sun can only be at 90° (directly overhead) between 23.5° N and 23.5° S latitude.",
-      "why_wrong": ["The Sun is directly overhead at the equator only during the equinoxes — not year-round.", "Above 23.5° N or below 23.5° S, the Sun can never be directly overhead.", "The Sun is never directly overhead at the poles."],
-      "concepts": ["seasons", "solar-angle"],
+      "why_wrong": [
+        "The Sun is directly overhead at the equator only during the equinoxes — not year-round.",
+        "Above 23.5° N or below 23.5° S, the Sun can never be directly overhead.",
+        "The Sun is never directly overhead at the poles."
+      ],
+      "concepts": [
+        "seasons",
+        "solar-angle"
+      ],
       "tip": "Direct overhead sunlight only between 23.5° N and 23.5° S — the tropics."
     },
-
     {
       "id": "q75",
       "q": "Why are summer temperatures warmer than winter temperatures?",
       "correct": "Sunlight hits at a more direct angle and days are longer",
-      "incorrect": ["Earth is closer to the Sun in summer", "The Sun produces more heat in summer", "The atmosphere is thinner in summer"],
+      "incorrect": [
+        "Earth moves significantly closer to the Sun in summer",
+        "The Sun actually produces much more heat in summer",
+        "The atmosphere becomes noticeably thinner in summer"
+      ],
       "why_correct": "Direct angle sunlight concentrates energy in a smaller area; longer days mean more hours of heating.",
-      "why_wrong": ["Earth is closest to the Sun in January (Northern Hemisphere winter) — distance is not the reason.", "The Sun's output is essentially constant.", "The atmosphere doesn't change thickness seasonally."],
-      "concepts": ["seasons", "solar-angle"],
+      "why_wrong": [
+        "Earth is closest to the Sun in January (Northern Hemisphere winter) — distance is not the reason.",
+        "The Sun's output is essentially constant.",
+        "The atmosphere doesn't change thickness seasonally."
+      ],
+      "concepts": [
+        "seasons",
+        "solar-angle"
+      ],
       "tip": "Summer = direct sunlight + longer days = more energy per unit area = warmer."
     },
-
     {
       "id": "q76",
       "q": "At the North Pole on the summer solstice, how long is the period of daylight?",
       "correct": "24 hours (the Sun does not set)",
-      "incorrect": ["12 hours (equal day and night)", "18 hours of daylight only", "0 hours (complete darkness)"],
+      "incorrect": [
+        "12 hours (equal day and night)",
+        "18 hours of daylight only",
+        "0 hours (complete darkness)"
+      ],
       "why_correct": "During summer solstice, the North Pole is tilted fully toward the Sun and experiences the midnight sun — continuous daylight.",
-      "why_wrong": ["12 hours is an equinox condition.", "18 hours would be a high-latitude location, not the pole on solstice.", "0 hours is the winter solstice at the North Pole (polar night)."],
-      "concepts": ["seasons", "polar-daylight"],
+      "why_wrong": [
+        "12 hours is an equinox condition.",
+        "18 hours would be a high-latitude location, not the pole on solstice.",
+        "0 hours is the winter solstice at the North Pole (polar night)."
+      ],
+      "concepts": [
+        "seasons",
+        "polar-daylight"
+      ],
       "tip": "North Pole summer solstice = 24 hours of sunlight. North Pole winter solstice = 24 hours of darkness."
     },
-
     {
       "id": "q77",
       "q": "On which date does the sun rise due east and set due west everywhere on Earth?",
       "correct": "At the equinoxes (around March 21 and September 21)",
-      "incorrect": ["At the summer solstice", "At the winter solstice", "Only at the equator every day"],
+      "incorrect": [
+        "At the summer solstice (around June 21)",
+        "At the winter solstice (around December 21)",
+        "Only at the equator on every single day of the year"
+      ],
       "why_correct": "On the equinoxes, Earth's tilt is perpendicular to the Sun, so sunrise is exactly east and sunset is exactly west globally.",
-      "why_wrong": ["On the summer solstice, the Sun rises to the northeast in the Northern Hemisphere.", "On the winter solstice, the Sun rises to the southeast in the Northern Hemisphere.", "Only on equinoxes is this true everywhere — not just the equator."],
-      "concepts": ["seasons", "equinox"],
+      "why_wrong": [
+        "On the summer solstice, the Sun rises to the northeast in the Northern Hemisphere.",
+        "On the winter solstice, the Sun rises to the southeast in the Northern Hemisphere.",
+        "Only on equinoxes is this true everywhere — not just the equator."
+      ],
+      "concepts": [
+        "seasons",
+        "equinox"
+      ],
       "tip": "Equinox = due east sunrise, due west sunset — worldwide."
     },
-
     {
       "id": "q78",
       "q": "The angle of sunlight affects temperature because ___.",
       "correct": "Direct (higher-angle) sunlight concentrates energy over a smaller area",
-      "incorrect": ["Direct sunlight is brighter but not warmer", "Low-angle sunlight travels a shorter distance through the atmosphere", "The angle doesn't affect temperature — only cloud cover does"],
+      "incorrect": [
+        "Direct sunlight is brighter but not warmer",
+        "Low-angle sunlight travels a shorter distance through the atmosphere",
+        "The angle doesn't affect temperature — only cloud cover does"
+      ],
       "why_correct": "When sunlight hits at a 90° angle, all energy concentrates in a small spot. At low angles, the same energy spreads over a wider area — less intense heating.",
-      "why_wrong": ["Brightness and warmth are linked — more intense light heats more.", "Low-angle sunlight travels LONGER through the atmosphere, losing energy.", "Angle is a major factor in temperature — it explains why equatorial regions are hot and poles are cold."],
-      "concepts": ["seasons", "solar-angle"],
+      "why_wrong": [
+        "Brightness and warmth are linked — more intense light heats more.",
+        "Low-angle sunlight travels LONGER through the atmosphere, losing energy.",
+        "Angle is a major factor in temperature — it explains why equatorial regions are hot and poles are cold."
+      ],
+      "concepts": [
+        "seasons",
+        "solar-angle"
+      ],
       "tip": "Flashlight straight down = small bright spot (hot). Tilt it = bigger dimmer area (cooler)."
     },
-
     {
       "id": "q79",
       "q": "What is the Coriolis effect?",
       "correct": "The deflection of moving air and water due to Earth's rotation",
-      "incorrect": ["The warming of air as it rises", "The flow of ocean water due to density differences", "The cooling of air masses as they move over land"],
+      "incorrect": [
+        "The gradual warming of rising air in the atmosphere",
+        "The flow of ocean water driven by density differences",
+        "The cooling of air masses as they move over cold land"
+      ],
       "why_correct": "Earth's rotation causes freely moving objects (air, water, projectiles) to appear to curve — right in the Northern Hemisphere, left in the Southern.",
-      "why_wrong": ["Warming air as it rises is simply convection.", "Density-driven ocean flow is thermohaline circulation.", "Air cooling over land is a different atmospheric process."],
-      "concepts": ["coriolis-effect"],
+      "why_wrong": [
+        "Warming air as it rises is simply convection.",
+        "Density-driven ocean flow is thermohaline circulation.",
+        "Air cooling over land is a different atmospheric process."
+      ],
+      "concepts": [
+        "coriolis-effect"
+      ],
       "tip": "Coriolis = Earth's spin curves wind and water. Right in North, left in South."
     },
-
     {
       "id": "q80",
       "q": "In the Northern Hemisphere, the Coriolis effect causes winds to curve ___.",
       "correct": "To the right of its direction of travel",
-      "incorrect": ["To the left of its direction of travel", "Straight toward the nearest pole", "Straight toward the equator"],
+      "incorrect": [
+        "To the left of its direction of travel",
+        "Straight toward the nearest pole",
+        "Straight toward the equator"
+      ],
       "why_correct": "In the Northern Hemisphere, Earth's rotation deflects moving air to the right of its direction of travel.",
-      "why_wrong": ["Deflection to the left occurs in the Southern Hemisphere.", "Winds curve to the right, not straight toward the poles.", "Winds curve to the right, not straight toward the equator."],
-      "concepts": ["coriolis-effect"],
+      "why_wrong": [
+        "Deflection to the left occurs in the Southern Hemisphere.",
+        "Winds curve to the right, not straight toward the poles.",
+        "Winds curve to the right, not straight toward the equator."
+      ],
+      "concepts": [
+        "coriolis-effect"
+      ],
       "tip": "Northern Hemisphere = Right. Southern Hemisphere = Left."
     },
-
     {
       "id": "q81",
       "q": "Due to the Coriolis effect, hurricanes in the Northern Hemisphere rotate ___.",
       "correct": "Counterclockwise (inward spiral)",
-      "incorrect": ["Clockwise (inward spiral)", "In no consistent direction", "Outward away from the center"],
+      "incorrect": [
+        "Clockwise (inward spiral)",
+        "In no consistent direction",
+        "Outward away from the center"
+      ],
       "why_correct": "Low-pressure systems in the Northern Hemisphere have winds deflected to the right, causing counterclockwise rotation around the center.",
-      "why_wrong": ["Clockwise rotation around a low occurs in the Southern Hemisphere.", "The Coriolis effect determines consistent rotation direction.", "Winds spiral INWARD toward the low pressure center, not outward."],
-      "concepts": ["coriolis-effect", "hurricanes"],
+      "why_wrong": [
+        "Clockwise rotation around a low occurs in the Southern Hemisphere.",
+        "The Coriolis effect determines consistent rotation direction.",
+        "Winds spiral INWARD toward the low pressure center, not outward."
+      ],
+      "concepts": [
+        "coriolis-effect",
+        "hurricanes"
+      ],
       "tip": "NH hurricane = counterclockwise. SH cyclone = clockwise."
     },
-
     {
       "id": "q82",
       "q": "The Coriolis effect is strongest at ___.",
       "correct": "The poles",
-      "incorrect": ["The equator", "The tropics", "The mid-latitudes"],
+      "incorrect": [
+        "The equator",
+        "The tropics",
+        "The mid-latitudes"
+      ],
       "why_correct": "The Coriolis effect is zero at the equator and increases toward the poles where Earth's rotation has the most deflecting influence.",
-      "why_wrong": ["At the equator, the Coriolis effect is essentially zero.", "The tropics have weak Coriolis effect.", "Mid-latitudes have moderate Coriolis effect — not maximum."],
-      "concepts": ["coriolis-effect"],
+      "why_wrong": [
+        "At the equator, the Coriolis effect is essentially zero.",
+        "The tropics have weak Coriolis effect.",
+        "Mid-latitudes have moderate Coriolis effect — not maximum."
+      ],
+      "concepts": [
+        "coriolis-effect"
+      ],
       "tip": "Coriolis increases from equator (zero) to poles (maximum)."
     },
-
     {
       "id": "q83",
       "q": "Trade winds blow from east to west near the equator because of ___.",
       "correct": "The Coriolis effect deflecting winds toward the west",
-      "incorrect": ["The Sun heating the west side of the ocean more", "Ocean currents pushing the atmosphere", "The Moon's gravitational pull"],
+      "incorrect": [
+        "The Sun heating the west side of the ocean more",
+        "Ocean currents pushing the atmosphere",
+        "The Moon's gravitational pull"
+      ],
       "why_correct": "Air flowing toward the low-pressure equatorial zone is deflected westward by the Coriolis effect, creating the trade winds.",
-      "why_wrong": ["The Sun heats the equator, not specifically the west side.", "Ocean currents do not push the atmosphere.", "The Moon drives tides, not trade winds."],
-      "concepts": ["coriolis-effect", "trade-winds"],
+      "why_wrong": [
+        "The Sun heats the equator, not specifically the west side.",
+        "Ocean currents do not push the atmosphere.",
+        "The Moon drives tides, not trade winds."
+      ],
+      "concepts": [
+        "coriolis-effect",
+        "trade-winds"
+      ],
       "tip": "Trade winds = Coriolis-deflected surface winds near equator flowing east to west."
     },
-
     {
       "id": "q84",
       "q": "Why don't small objects like baseballs show a noticeable Coriolis deflection?",
       "correct": "They travel too short a distance and time for Earth's rotation to significantly deflect them",
-      "incorrect": ["Baseballs have no Coriolis effect at all", "Baseballs travel too fast for Coriolis to apply", "The Coriolis effect only works over water"],
+      "incorrect": [
+        "Baseballs are too lightweight and physically experience zero noticeable Coriolis deflection",
+        "Baseballs travel far too fast for any Coriolis deflection to meaningfully accumulate",
+        "The Coriolis effect only applies to large-scale objects moving across open water"
+      ],
       "why_correct": "The Coriolis deflection is tiny over short distances — you need large-scale or long-duration motion (like storms or ocean currents) to see it.",
-      "why_wrong": ["Baseballs do technically experience Coriolis deflection but it is immeasurably small.", "Speed doesn't eliminate Coriolis; scale and time matter.", "The Coriolis effect works on any freely moving object, including over land."],
-      "concepts": ["coriolis-effect"],
+      "why_wrong": [
+        "Baseballs do technically experience Coriolis deflection but it is immeasurably small.",
+        "Speed doesn't eliminate Coriolis; scale and time matter.",
+        "The Coriolis effect works on any freely moving object, including over land."
+      ],
+      "concepts": [
+        "coriolis-effect"
+      ],
       "tip": "Coriolis matters at large scales — storms, ocean currents. Negligible for a baseball throw."
     },
-
     {
       "id": "q85",
       "q": "What is the difference between weathering and erosion?",
       "correct": "Weathering breaks rock apart; erosion moves the broken material away",
-      "incorrect": ["Erosion breaks rock apart; weathering moves material away", "Both processes break rock but at different speeds", "Weathering happens underground; erosion happens on the surface"],
+      "incorrect": [
+        "Erosion breaks rock apart; weathering moves material away",
+        "Both processes break rock but at different speeds",
+        "Weathering happens underground; erosion happens on the surface"
+      ],
       "why_correct": "Weathering is the in-place breakdown of rock; erosion is the transport of those weathered materials by wind, water, or ice.",
-      "why_wrong": ["These definitions are reversed.", "Both processes are different in mechanism, not just speed.", "Both weathering and erosion occur at the surface."],
-      "concepts": ["weathering", "erosion"],
+      "why_wrong": [
+        "These definitions are reversed.",
+        "Both processes are different in mechanism, not just speed.",
+        "Both weathering and erosion occur at the surface."
+      ],
+      "concepts": [
+        "weathering",
+        "erosion"
+      ],
       "tip": "Weather = break. Erosion = move. No movement = weathering only."
     },
-
     {
       "id": "q86",
       "q": "Which is an example of MECHANICAL (physical) weathering?",
       "correct": "Ice expanding in cracks and splitting rock apart",
-      "incorrect": ["Acid rain dissolving limestone", "Oxygen reacting with iron in rock to form rust", "Carbon dioxide forming carbonic acid that dissolves minerals"],
+      "incorrect": [
+        "Acid rain dissolving limestone",
+        "Oxygen reacting with iron in rock to form rust",
+        "Carbon dioxide forming carbonic acid that dissolves minerals"
+      ],
       "why_correct": "Ice wedging physically breaks rock by expanding in cracks when water freezes — no chemical change to the mineral composition.",
-      "why_wrong": ["Acid rain dissolving limestone is chemical weathering (dissolution).", "Iron rusting is chemical weathering (oxidation).", "Carbonic acid dissolving minerals is chemical weathering."],
-      "concepts": ["weathering", "mechanical"],
+      "why_wrong": [
+        "Acid rain dissolving limestone is chemical weathering (dissolution).",
+        "Iron rusting is chemical weathering (oxidation).",
+        "Carbonic acid dissolving minerals is chemical weathering."
+      ],
+      "concepts": [
+        "weathering",
+        "mechanical"
+      ],
       "tip": "Mechanical = physical force breaking rock. No chemical change."
     },
-
     {
       "id": "q87",
       "q": "Which is an example of CHEMICAL weathering?",
       "correct": "Carbonic acid dissolving limestone",
-      "incorrect": ["Wind carrying sand that scratches rock surfaces", "Roots growing into cracks and breaking rock", "Repeated heating and cooling cracking rock"],
+      "incorrect": [
+        "Wind carrying sand that scratches rock surfaces",
+        "Roots growing into cracks and breaking rock",
+        "Repeated heating and cooling cracking rock"
+      ],
       "why_correct": "Carbonic acid (CO₂ + water) reacts chemically with limestone, dissolving the mineral — changing its chemical composition.",
-      "why_wrong": ["Sand scratching rock is abrasion — mechanical weathering.", "Roots cracking rock is mechanical weathering.", "Heating/cooling cracking rock is mechanical weathering (thermal expansion)."],
-      "concepts": ["weathering", "chemical"],
+      "why_wrong": [
+        "Sand scratching rock is abrasion — mechanical weathering.",
+        "Roots cracking rock is mechanical weathering.",
+        "Heating/cooling cracking rock is mechanical weathering (thermal expansion)."
+      ],
+      "concepts": [
+        "weathering",
+        "chemical"
+      ],
       "tip": "Chemical weathering = mineral composition CHANGES. Look for acids, rust, or dissolution."
     },
-
     {
       "id": "q88",
       "q": "What is oxidation in weathering?",
       "correct": "Minerals reacting with oxygen, often forming rust (iron oxide)",
-      "incorrect": ["Rock breaking into smaller pieces by freezing water", "Minerals dissolving in acidic water", "Clay minerals absorbing water and expanding"],
+      "incorrect": [
+        "Rock breaking into smaller pieces by freezing water (ice wedging)",
+        "Minerals slowly dissolving when exposed to acidic water",
+        "Clay minerals absorbing water and swelling as they expand"
+      ],
       "why_correct": "Oxidation is a chemical weathering process where iron-bearing minerals react with oxygen to form iron oxide (rust), weakening the rock.",
-      "why_wrong": ["Freezing water breaking rock is ice wedging — mechanical weathering.", "Dissolving in acid is dissolution — another type of chemical weathering.", "Clay absorbing water is hydration — another chemical weathering type."],
-      "concepts": ["weathering", "chemical", "oxidation"],
+      "why_wrong": [
+        "Freezing water breaking rock is ice wedging — mechanical weathering.",
+        "Dissolving in acid is dissolution — another type of chemical weathering.",
+        "Clay absorbing water is hydration — another chemical weathering type."
+      ],
+      "concepts": [
+        "weathering",
+        "chemical",
+        "oxidation"
+      ],
       "tip": "Oxidation = rusting. Oxygen attacks iron in rock = brown rusty rock."
     },
-
     {
       "id": "q89",
       "q": "Which factor MOST increases the rate of chemical weathering?",
       "correct": "Warm temperatures and high moisture",
-      "incorrect": ["Cold, dry conditions", "High elevation", "Solid, uncracked rock surfaces"],
+      "incorrect": [
+        "Cold, dry conditions",
+        "High elevation",
+        "Solid, uncracked rock surfaces"
+      ],
       "why_correct": "Chemical reactions proceed faster when warm and wet — tropical regions have rapid chemical weathering.",
-      "why_wrong": ["Cold, dry conditions slow chemical reactions and limit water availability.", "High elevation usually means colder and drier — slower chemical weathering.", "Large surface area (cracked rock) speeds weathering; solid uncracked rock slows it."],
-      "concepts": ["weathering", "chemical"],
+      "why_wrong": [
+        "Cold, dry conditions slow chemical reactions and limit water availability.",
+        "High elevation usually means colder and drier — slower chemical weathering.",
+        "Large surface area (cracked rock) speeds weathering; solid uncracked rock slows it."
+      ],
+      "concepts": [
+        "weathering",
+        "chemical"
+      ],
       "tip": "Hot + wet = fast chemical weathering. Think: tropical jungles vs Arctic deserts."
     },
-
     {
       "id": "q90",
       "q": "What is the role of surface area in weathering?",
       "correct": "Greater surface area speeds up weathering",
-      "incorrect": ["Greater surface area slows weathering", "Surface area has no effect on weathering rate", "Only volume matters, not surface area"],
+      "incorrect": [
+        "Greater surface area slows weathering",
+        "Surface area has no effect on weathering rate",
+        "Only volume matters, not surface area"
+      ],
       "why_correct": "The more surface exposed to air, water, and acids, the more rock that can be weathered at once — like breaking a candy bar into pieces.",
-      "why_wrong": ["More surface area means more contact points for weathering agents — it speeds up, not slows.", "Surface area is directly related to weathering rate.", "Volume matters for the amount of material, but surface area drives the rate."],
-      "concepts": ["weathering"],
+      "why_wrong": [
+        "More surface area means more contact points for weathering agents — it speeds up, not slows.",
+        "Surface area is directly related to weathering rate.",
+        "Volume matters for the amount of material, but surface area drives the rate."
+      ],
+      "concepts": [
+        "weathering"
+      ],
       "tip": "More surface area = more attack points = faster weathering."
     },
-
     {
       "id": "q91",
       "q": "Which soil type holds the MOST water and nutrients but drains poorly?",
       "correct": "Clay",
-      "incorrect": ["Sand", "Gravel", "Silt"],
+      "incorrect": [
+        "Sand",
+        "Gravel",
+        "Silt"
+      ],
       "why_correct": "Clay particles are tiny and packed tightly — water and nutrients cling to them, but drainage is very slow.",
-      "why_wrong": ["Sand has large particles with big gaps — water drains quickly and nutrients leach away.", "Gravel has very coarse particles and drains almost instantly.", "Silt is intermediate — better than sand, not as retentive as clay."],
-      "concepts": ["soil-types"],
+      "why_wrong": [
+        "Sand has large particles with big gaps — water drains quickly and nutrients leach away.",
+        "Gravel has very coarse particles and drains almost instantly.",
+        "Silt is intermediate — better than sand, not as retentive as clay."
+      ],
+      "concepts": [
+        "soil-types"
+      ],
       "tip": "Clay = holds water (good for nutrients, bad for drainage). Sand = drains fast (dry soil)."
     },
-
     {
       "id": "q92",
       "q": "What is loam?",
       "correct": "A fertile mix of sand, silt, and clay ideal for plant growth",
-      "incorrect": ["Pure clay soil", "Decomposed organic matter only", "Gravel and coarse rock fragments"],
+      "incorrect": [
+        "Pure compacted clay soil with no other particles mixed in",
+        "Decomposed organic matter (humus) with no mineral content",
+        "Coarse gravel and large rock fragments with no fine particles"
+      ],
       "why_correct": "Loam balances sand's drainage, silt's nutrients, and clay's water retention — it is ideal for farming.",
-      "why_wrong": ["Pure clay retains too much water and gets waterlogged.", "Decomposed organic matter is humus — a component of soil, not loam itself.", "Gravel is not a component of loam."],
-      "concepts": ["soil-types"],
+      "why_wrong": [
+        "Pure clay retains too much water and gets waterlogged.",
+        "Decomposed organic matter is humus — a component of soil, not loam itself.",
+        "Gravel is not a component of loam."
+      ],
+      "concepts": [
+        "soil-types"
+      ],
       "tip": "Loam = best farming soil. Sand + Silt + Clay in good proportions."
     },
-
     {
       "id": "q93",
       "q": "Deposition occurs when ___.",
       "correct": "An agent of erosion loses energy and drops the sediment it carries",
-      "incorrect": ["Rock is broken down in place", "Water absorbs more sediment", "Wind speed increases"],
+      "incorrect": [
+        "Rock breaks down and weathers in place on the surface",
+        "Flowing water picks up and carries away even more sediment",
+        "Wind speed picks up and begins to increase significantly"
+      ],
       "why_correct": "When a river slows, wind drops, or a glacier melts, the moving material loses kinetic energy and sediment is deposited.",
-      "why_wrong": ["Rock breaking down in place is weathering, not deposition.", "Water absorbing sediment is erosion/transport, not deposition.", "Increasing wind speed would increase erosion and transport, not deposition."],
-      "concepts": ["erosion", "deposition"],
+      "why_wrong": [
+        "Rock breaking down in place is weathering, not deposition.",
+        "Water absorbing sediment is erosion/transport, not deposition.",
+        "Increasing wind speed would increase erosion and transport, not deposition."
+      ],
+      "concepts": [
+        "erosion",
+        "deposition"
+      ],
       "tip": "Deposition = lose energy = drop sediment. Faster flow = carry more; slower flow = drop more."
     },
-
     {
       "id": "q94",
       "q": "What is humus?",
       "correct": "Decomposed organic matter that enriches soil",
-      "incorrect": ["Powdered rock from mechanical weathering", "Clay minerals formed from chemical weathering", "Sand-sized mineral particles"],
+      "incorrect": [
+        "Powdered rock from mechanical weathering",
+        "Clay minerals formed from chemical weathering",
+        "Sand-sized mineral particles"
+      ],
       "why_correct": "Humus is the dark, organic component of soil formed from decayed plants and animals — it provides nutrients and improves soil structure.",
-      "why_wrong": ["Powdered rock is inorganic mineral material — not humus.", "Clay minerals are inorganic; humus is organic.", "Sand-sized particles are mineral fragments — not organic."],
-      "concepts": ["soil-types"],
+      "why_wrong": [
+        "Powdered rock is inorganic mineral material — not humus.",
+        "Clay minerals are inorganic; humus is organic.",
+        "Sand-sized particles are mineral fragments — not organic."
+      ],
+      "concepts": [
+        "soil-types"
+      ],
       "tip": "Humus = decomposed organic matter = dark, nutrient-rich part of soil."
     },
-
     {
       "id": "q95",
       "q": "What is a warm front?",
       "correct": "The boundary where warm air advances and rises over colder air",
-      "incorrect": ["The boundary where cold air pushes under warm air", "A zone where two air masses of equal temperature meet", "A stationary boundary between two air masses"],
+      "incorrect": [
+        "The boundary where cold air pushes under warm air",
+        "A zone where two air masses of equal temperature meet",
+        "A stationary boundary between two air masses"
+      ],
       "why_correct": "A warm front forms when a warmer air mass advances, riding up and over the cooler air ahead of it.",
-      "why_wrong": ["Cold air pushing under warm air is a cold front.", "Two air masses of equal temperature don't form a typical front boundary.", "A stationary front is when neither air mass advances."],
-      "concepts": ["weather-fronts", "warm-front"],
+      "why_wrong": [
+        "Cold air pushing under warm air is a cold front.",
+        "Two air masses of equal temperature don't form a typical front boundary.",
+        "A stationary front is when neither air mass advances."
+      ],
+      "concepts": [
+        "weather-fronts",
+        "warm-front"
+      ],
       "tip": "Warm front = warm air slides UP over cold. Gentle, wide precipitation ahead of it."
     },
-
     {
       "id": "q96",
       "q": "What is a cold front?",
       "correct": "The boundary where cold air pushes under and displaces warm air",
-      "incorrect": ["The boundary where warm air rises over cold", "A region with very cold temperatures all year", "A front that forms only in winter"],
+      "incorrect": [
+        "The boundary where warm air gently rises over cold air",
+        "A region that experiences very cold temperatures all year",
+        "A front that only forms during the cold winter months"
+      ],
       "why_correct": "A cold front is a fast-moving wall of cold dense air that undercuts warm air, forcing it to rise rapidly.",
-      "why_wrong": ["Warm air rising over cold is a warm front.", "Cold fronts are defined by movement of air masses, not just cold temperatures.", "Cold fronts occur in all seasons."],
-      "concepts": ["weather-fronts", "cold-front"],
+      "why_wrong": [
+        "Warm air rising over cold is a warm front.",
+        "Cold fronts are defined by movement of air masses, not just cold temperatures.",
+        "Cold fronts occur in all seasons."
+      ],
+      "concepts": [
+        "weather-fronts",
+        "cold-front"
+      ],
       "tip": "Cold front = cold air dives under warm = sharp line of storms."
     },
-
     {
       "id": "q97",
       "q": "Which type of precipitation is typically associated with a warm front?",
       "correct": "Steady, widespread rain or drizzle",
-      "incorrect": ["Brief, intense thunderstorms", "Snow and sleet only", "No precipitation at all"],
+      "incorrect": [
+        "Brief, intense thunderstorms",
+        "Snow and sleet only",
+        "No precipitation at all"
+      ],
       "why_correct": "Warm fronts produce gradual lifting, leading to widespread stratus clouds and steady, light precipitation over a large area.",
-      "why_wrong": ["Brief, intense thunderstorms are typical of cold fronts.", "Warm fronts can produce rain, snow, sleet, or drizzle depending on temperature.", "Warm fronts usually do bring precipitation as warm moist air cools while rising."],
-      "concepts": ["weather-fronts", "warm-front"],
+      "why_wrong": [
+        "Brief, intense thunderstorms are typical of cold fronts.",
+        "Warm fronts can produce rain, snow, sleet, or drizzle depending on temperature.",
+        "Warm fronts usually do bring precipitation as warm moist air cools while rising."
+      ],
+      "concepts": [
+        "weather-fronts",
+        "warm-front"
+      ],
       "tip": "Warm front = slow lift = steady widespread rain. Cold front = fast lift = quick intense storms."
     },
-
     {
       "id": "q98",
       "q": "Which type of precipitation is typically associated with a cold front?",
       "correct": "Brief, intense thunderstorms",
-      "incorrect": ["Days of steady drizzle", "Light snow showers only", "No precipitation at all"],
+      "incorrect": [
+        "Days of steady drizzle",
+        "Light snow showers only",
+        "No precipitation at all"
+      ],
       "why_correct": "Cold fronts force rapid upward motion of warm air, creating cumulonimbus clouds and intense but brief thunderstorms.",
-      "why_wrong": ["Days of steady drizzle are associated with warm fronts.", "Cold fronts can produce rain, hail, or snow depending on season and temperature.", "Cold fronts are strongly associated with precipitation."],
-      "concepts": ["weather-fronts", "cold-front"],
+      "why_wrong": [
+        "Days of steady drizzle are associated with warm fronts.",
+        "Cold fronts can produce rain, hail, or snow depending on season and temperature.",
+        "Cold fronts are strongly associated with precipitation."
+      ],
+      "concepts": [
+        "weather-fronts",
+        "cold-front"
+      ],
       "tip": "Cold front = sharp, fast lift = intense short-lived storms."
     },
-
     {
       "id": "q99",
       "q": "On a weather map, how is a cold front typically shown?",
       "correct": "A blue line with triangular points in the direction of movement",
-      "incorrect": ["A red line with semicircles in the direction of movement", "A purple line with alternating triangles and semicircles", "A dashed green line with no directional symbols"],
+      "incorrect": [
+        "A red line with semicircles in the direction of movement",
+        "A purple line with alternating triangles and semicircles",
+        "A dashed green line with no directional symbols"
+      ],
       "why_correct": "Cold fronts are shown as blue lines with solid triangles pointing in the direction the cold air is advancing.",
-      "why_wrong": ["Red semicircles indicate a warm front.", "Alternating symbols (both triangles and semicircles) indicate an occluded front.", "Green dashed lines are not a standard front symbol."],
-      "concepts": ["weather-fronts"],
+      "why_wrong": [
+        "Red semicircles indicate a warm front.",
+        "Alternating symbols (both triangles and semicircles) indicate an occluded front.",
+        "Green dashed lines are not a standard front symbol."
+      ],
+      "concepts": [
+        "weather-fronts"
+      ],
       "tip": "Blue triangles = cold front. Red semicircles = warm front. Remember blue = cold."
     },
-
     {
       "id": "q100",
       "q": "What is a stationary front?",
       "correct": "A boundary between two air masses where neither mass is advancing",
-      "incorrect": ["A warm front moving very slowly", "A front that has stopped raining", "A front located over flat terrain"],
+      "incorrect": [
+        "A warm front that is moving very slowly and stalling",
+        "A front that has temporarily stopped producing any rainfall",
+        "A front that sits and forms only over completely flat terrain"
+      ],
       "why_correct": "When warm and cold air masses meet but neither has enough energy to push the other back, the boundary stalls — a stationary front.",
-      "why_wrong": ["A slow-moving warm front is still a warm front, not stationary.", "Precipitation stopping does not define front type.", "Front type is defined by air mass movement, not terrain."],
-      "concepts": ["weather-fronts"],
+      "why_wrong": [
+        "A slow-moving warm front is still a warm front, not stationary.",
+        "Precipitation stopping does not define front type.",
+        "Front type is defined by air mass movement, not terrain."
+      ],
+      "concepts": [
+        "weather-fronts"
+      ],
       "tip": "Stationary front = stuck boundary = days of cloudy, rainy weather in the same area."
     },
-
     {
       "id": "q101",
       "q": "What type of cloud is associated with thunderstorms?",
       "correct": "Cumulonimbus",
-      "incorrect": ["Stratus", "Cirrus", "Altostratus"],
+      "incorrect": [
+        "Stratus",
+        "Cirrus",
+        "Altostratus"
+      ],
       "why_correct": "Cumulonimbus clouds are towering, anvil-topped storm clouds that produce lightning, heavy rain, hail, and tornadoes.",
-      "why_wrong": ["Stratus clouds are flat, low-lying clouds that bring drizzle.", "Cirrus clouds are high, wispy ice clouds — fair weather.", "Altostratus clouds are mid-level gray sheets — may bring light rain."],
-      "concepts": ["clouds", "weather"],
+      "why_wrong": [
+        "Stratus clouds are flat, low-lying clouds that bring drizzle.",
+        "Cirrus clouds are high, wispy ice clouds — fair weather.",
+        "Altostratus clouds are mid-level gray sheets — may bring light rain."
+      ],
+      "concepts": [
+        "clouds",
+        "weather"
+      ],
       "tip": "Cumulo- = heaped up; nimbus = rain. Cumulonimbus = huge storm tower."
     },
-
     {
       "id": "q102",
       "q": "What clouds form at the highest altitude?",
       "correct": "Cirrus clouds",
-      "incorrect": ["Stratus clouds", "Cumulus clouds", "Ground-level fog"],
+      "incorrect": [
+        "Stratus clouds",
+        "Cumulus clouds",
+        "Ground-level fog"
+      ],
       "why_correct": "Cirrus clouds form above 6,000 m (20,000 ft) and are made of ice crystals — they look thin and wispy.",
-      "why_wrong": ["Stratus clouds form close to the ground.", "Cumulus clouds form at low to mid levels.", "Fog is a stratus cloud at ground level."],
-      "concepts": ["clouds"],
+      "why_wrong": [
+        "Stratus clouds form close to the ground.",
+        "Cumulus clouds form at low to mid levels.",
+        "Fog is a stratus cloud at ground level."
+      ],
+      "concepts": [
+        "clouds"
+      ],
       "tip": "Cirrus = highest, thinnest, ice crystal clouds. 'Cirrus' = curl of hair."
     },
-
     {
       "id": "q103",
       "q": "What does a rising barometer typically indicate?",
       "correct": "Improving weather (fair skies approaching)",
-      "incorrect": ["Approaching storm", "Heavy rain within hours", "Dropping temperatures"],
+      "incorrect": [
+        "An approaching storm system moving rapidly into the area",
+        "Heavy rainfall expected to arrive within a few hours",
+        "A significant drop in overnight temperatures"
+      ],
       "why_correct": "Rising air pressure indicates an approaching high-pressure system, which is associated with fair, clear weather.",
-      "why_wrong": ["Approaching storms are associated with FALLING barometer pressure.", "Heavy rain is associated with low pressure and falling barometer.", "Temperature change is not directly indicated by barometric trend."],
-      "concepts": ["weather", "air-pressure"],
+      "why_wrong": [
+        "Approaching storms are associated with FALLING barometer pressure.",
+        "Heavy rain is associated with low pressure and falling barometer.",
+        "Temperature change is not directly indicated by barometric trend."
+      ],
+      "concepts": [
+        "weather",
+        "air-pressure"
+      ],
       "tip": "Rising barometer = high pressure approaching = fair weather. Falling = low pressure = storms."
     },
-
     {
       "id": "q104",
       "q": "An occluded front forms when ___.",
       "correct": "A cold front catches up to and overtakes a warm front",
-      "incorrect": ["Two cold fronts collide", "A warm front stalls in one location", "A warm front overtakes a cold front"],
+      "incorrect": [
+        "Two separate cold fronts collide head-on with each other",
+        "A warm front stalls and remains in one location",
+        "A warm front accelerates and overtakes a cold front"
+      ],
       "why_correct": "Cold fronts move faster than warm fronts — when a cold front catches the warm front, it lifts the warm air off the surface, forming an occluded front.",
-      "why_wrong": ["Two cold fronts do not form an occluded front.", "A stalling front becomes stationary.", "Warm fronts do not overtake cold fronts — cold fronts move faster."],
-      "concepts": ["weather-fronts", "occluded"],
+      "why_wrong": [
+        "Two cold fronts do not form an occluded front.",
+        "A stalling front becomes stationary.",
+        "Warm fronts do not overtake cold fronts — cold fronts move faster."
+      ],
+      "concepts": [
+        "weather-fronts",
+        "occluded"
+      ],
       "tip": "Occluded = cold front overtakes warm front, lifting all warm air aloft."
     },
-
     {
       "id": "q105",
       "q": "Which layer of the atmosphere contains most of Earth's weather?",
       "correct": "Troposphere",
-      "incorrect": ["Stratosphere", "Mesosphere", "Thermosphere"],
+      "incorrect": [
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
       "why_correct": "The troposphere is the lowest layer, containing most water vapor and the conditions that produce weather.",
-      "why_wrong": ["The stratosphere contains the ozone layer — mostly stable with little weather.", "The mesosphere is where meteors burn up — no weather.", "The thermosphere is extremely hot and thin — no weather."],
-      "concepts": ["atmosphere-layers"],
+      "why_wrong": [
+        "The stratosphere contains the ozone layer — mostly stable with little weather.",
+        "The mesosphere is where meteors burn up — no weather.",
+        "The thermosphere is extremely hot and thin — no weather."
+      ],
+      "concepts": [
+        "atmosphere-layers"
+      ],
       "tip": "Troposphere = weather layer. 'Tropo' = turn/change — it's constantly changing."
     },
-
     {
       "id": "q106",
       "q": "The ozone layer is found in the ___.",
       "correct": "Stratosphere",
-      "incorrect": ["Troposphere", "Mesosphere", "Exosphere"],
+      "incorrect": [
+        "Troposphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
       "why_correct": "The ozone layer sits in the upper stratosphere (15–35 km up) and absorbs most of the Sun's harmful ultraviolet radiation.",
-      "why_wrong": ["The troposphere has only trace amounts of ozone (and ozone there is a pollutant).", "The mesosphere is above the stratosphere and has no ozone layer.", "The exosphere is the outermost fringe of the atmosphere — no ozone layer."],
-      "concepts": ["atmosphere-layers"],
+      "why_wrong": [
+        "The troposphere has only trace amounts of ozone (and ozone there is a pollutant).",
+        "The mesosphere is above the stratosphere and has no ozone layer.",
+        "The exosphere is the outermost fringe of the atmosphere — no ozone layer."
+      ],
+      "concepts": [
+        "atmosphere-layers"
+      ],
       "tip": "Ozone = stratosphere. 'Strato' = layered — the stratosphere is very stable."
     },
-
     {
       "id": "q107",
       "q": "What happens to temperature in the stratosphere as altitude increases?",
       "correct": "Temperature increases",
-      "incorrect": ["Temperature decreases", "Temperature stays constant", "Temperature first rises, then falls sharply"],
+      "incorrect": [
+        "Temperature decreases",
+        "Temperature stays constant",
+        "Temperature first rises, then falls sharply"
+      ],
       "why_correct": "Ozone in the stratosphere absorbs UV radiation, warming the layer — temperature increases with altitude in the stratosphere.",
-      "why_wrong": ["Temperature DECREASING with altitude describes the troposphere.", "Temperature is not constant in the stratosphere.", "The rise-then-fall pattern occurs differently — in the mesosphere temperature falls."],
-      "concepts": ["atmosphere-layers", "stratosphere"],
+      "why_wrong": [
+        "Temperature DECREASING with altitude describes the troposphere.",
+        "Temperature is not constant in the stratosphere.",
+        "The rise-then-fall pattern occurs differently — in the mesosphere temperature falls."
+      ],
+      "concepts": [
+        "atmosphere-layers",
+        "stratosphere"
+      ],
       "tip": "Stratosphere: temperature RISES with altitude. Ozone absorbs UV = heating."
     },
-
     {
       "id": "q108",
       "q": "In the mesosphere, temperature ___.",
       "correct": "Decreases with altitude (coldest of all layers at the top)",
-      "incorrect": ["Increases steadily with altitude", "Stays nearly constant throughout", "Remains above freezing (0°C) throughout"],
+      "incorrect": [
+        "Increases steadily with altitude like the stratosphere does",
+        "Stays nearly constant at all altitude levels",
+        "Remains consistently above freezing (0°C) throughout"
+      ],
       "why_correct": "The mesosphere lacks ozone to absorb UV and is far from Earth's surface heat — temperatures drop to about −90°C at the top.",
-      "why_wrong": ["Temperature increasing with altitude is the stratosphere and thermosphere.", "Temperature is not constant in the mesosphere.", "The top of the mesosphere is the coldest place in the atmosphere."],
-      "concepts": ["atmosphere-layers", "mesosphere"],
+      "why_wrong": [
+        "Temperature increasing with altitude is the stratosphere and thermosphere.",
+        "Temperature is not constant in the mesosphere.",
+        "The top of the mesosphere is the coldest place in the atmosphere."
+      ],
+      "concepts": [
+        "atmosphere-layers",
+        "mesosphere"
+      ],
       "tip": "Mesosphere = coldest atmosphere layer at its top (~−90°C). Meteors burn up here."
     },
-
     {
       "id": "q109",
       "q": "What causes the thermosphere to have such high temperatures?",
       "correct": "High-energy solar radiation directly energizing gas molecules",
-      "incorrect": ["Combustion from meteors burning up", "Radiation from Earth's surface", "Ozone absorbing UV light"],
+      "incorrect": [
+        "Heat from meteors burning up in the atmosphere below",
+        "Infrared radiation emitted upward from Earth's surface",
+        "The ozone layer absorbing and converting UV light to heat"
+      ],
       "why_correct": "In the thermosphere, solar X-rays and UV radiation directly excite individual gas molecules to very high energy states, measured as high 'temperature.'",
-      "why_wrong": ["Meteor combustion happens in the mesosphere below.", "Earth's surface radiation mostly heats the troposphere.", "Ozone absorbing UV is in the stratosphere."],
-      "concepts": ["atmosphere-layers", "thermosphere"],
+      "why_wrong": [
+        "Meteor combustion happens in the mesosphere below.",
+        "Earth's surface radiation mostly heats the troposphere.",
+        "Ozone absorbing UV is in the stratosphere."
+      ],
+      "concepts": [
+        "atmosphere-layers",
+        "thermosphere"
+      ],
       "tip": "Thermosphere = high temperature but very few molecules — it wouldn't feel hot to touch."
     },
-
     {
       "id": "q110",
       "q": "What is the correct order of atmospheric layers from lowest to highest?",
       "correct": "Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere",
-      "incorrect": ["Stratosphere → Troposphere → Mesosphere → Thermosphere → Exosphere", "Troposphere → Mesosphere → Stratosphere → Thermosphere → Exosphere", "Mesosphere → Troposphere → Stratosphere → Thermosphere → Exosphere"],
+      "incorrect": [
+        "Stratosphere → Troposphere → Mesosphere → Thermosphere → Exosphere",
+        "Troposphere → Mesosphere → Stratosphere → Thermosphere → Exosphere",
+        "Mesosphere → Troposphere → Stratosphere → Thermosphere → Exosphere"
+      ],
       "why_correct": "The layers in order from Earth's surface outward are: troposphere, stratosphere, mesosphere, thermosphere, exosphere.",
-      "why_wrong": ["The stratosphere is above the troposphere, not below.", "The stratosphere is between the troposphere and mesosphere.", "The mesosphere is the third layer, not the first."],
-      "concepts": ["atmosphere-layers"],
+      "why_wrong": [
+        "The stratosphere is above the troposphere, not below.",
+        "The stratosphere is between the troposphere and mesosphere.",
+        "The mesosphere is the third layer, not the first."
+      ],
+      "concepts": [
+        "atmosphere-layers"
+      ],
       "tip": "Trick: 'The Silly Monkey Tries Escaping' = Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere."
     },
-
     {
       "id": "q111",
       "q": "As altitude increases, air pressure ___.",
       "correct": "Decreases",
-      "incorrect": ["Increases", "Stays the same", "Increases then decreases"],
+      "incorrect": [
+        "Increases",
+        "Stays the same",
+        "Increases then decreases"
+      ],
       "why_correct": "Air pressure is caused by the weight of air above — the higher you go, the less air is above you, so pressure decreases.",
-      "why_wrong": ["Pressure does not increase with altitude.", "Pressure is not constant with altitude.", "Pressure consistently decreases with altitude."],
-      "concepts": ["atmosphere-layers", "air-pressure"],
+      "why_wrong": [
+        "Pressure does not increase with altitude.",
+        "Pressure is not constant with altitude.",
+        "Pressure consistently decreases with altitude."
+      ],
+      "concepts": [
+        "atmosphere-layers",
+        "air-pressure"
+      ],
       "tip": "Higher altitude = less air above = lower pressure."
     },
-
     {
       "id": "q112",
       "q": "The aurora borealis (northern lights) occurs in the ___.",
       "correct": "Thermosphere",
-      "incorrect": ["Stratosphere", "Troposphere", "Mesosphere"],
+      "incorrect": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere"
+      ],
       "why_correct": "Solar particles interact with atmospheric gases in the thermosphere at high latitudes, creating the colorful aurora displays.",
-      "why_wrong": ["The stratosphere is too low and has the ozone layer — no auroras.", "Auroras don't occur in the troposphere where weather happens.", "The mesosphere is where meteors burn up — not auroras."],
-      "concepts": ["atmosphere-layers", "thermosphere"],
+      "why_wrong": [
+        "The stratosphere is too low and has the ozone layer — no auroras.",
+        "Auroras don't occur in the troposphere where weather happens.",
+        "The mesosphere is where meteors burn up — not auroras."
+      ],
+      "concepts": [
+        "atmosphere-layers",
+        "thermosphere"
+      ],
       "tip": "Northern lights = thermosphere. The highest, hottest layer is where auroras glow."
     },
-
     {
       "id": "q113",
       "q": "What is relative humidity?",
       "correct": "The amount of water vapor in air compared to the maximum it can hold at that temperature",
-      "incorrect": ["The actual amount of water vapor in the air in grams", "The temperature at which dew forms", "The total rainfall over a month"],
+      "incorrect": [
+        "The actual mass of water vapor currently present in the air measured in grams",
+        "The specific temperature at which water vapor begins condensing as liquid dew drops",
+        "The total cumulative rainfall amount that has been recorded over an entire month"
+      ],
       "why_correct": "Relative humidity is expressed as a percentage — 100% means the air is fully saturated at that temperature.",
-      "why_wrong": ["Actual water vapor content in grams is specific humidity or absolute humidity.", "The temperature at which dew forms is the dew point.", "Monthly rainfall is precipitation, not humidity."],
-      "concepts": ["humidity"],
+      "why_wrong": [
+        "Actual water vapor content in grams is specific humidity or absolute humidity.",
+        "The temperature at which dew forms is the dew point.",
+        "Monthly rainfall is precipitation, not humidity."
+      ],
+      "concepts": [
+        "humidity"
+      ],
       "tip": "Relative humidity = actual / maximum × 100%. Warm air can hold MORE vapor."
     },
-
     {
       "id": "q114",
       "q": "When relative humidity reaches 100%, what happens?",
       "correct": "Condensation occurs — dew, clouds, or fog form",
-      "incorrect": ["Evaporation speeds up dramatically", "Air cools rapidly to freezing", "Winds stop completely"],
+      "incorrect": [
+        "Evaporation speeds up and accelerates very dramatically",
+        "Air cools itself rapidly all the way down toward freezing",
+        "All winds gradually slow down and stop moving completely"
+      ],
       "why_correct": "At 100% relative humidity (saturation), the air cannot hold any more water vapor — additional vapor condenses into liquid water.",
-      "why_wrong": ["Evaporation slows or stops when air is saturated.", "Condensation releases heat — it doesn't necessarily cause freezing.", "Wind patterns are not directly related to humidity saturation."],
-      "concepts": ["humidity", "condensation"],
+      "why_wrong": [
+        "Evaporation slows or stops when air is saturated.",
+        "Condensation releases heat — it doesn't necessarily cause freezing.",
+        "Wind patterns are not directly related to humidity saturation."
+      ],
+      "concepts": [
+        "humidity",
+        "condensation"
+      ],
       "tip": "100% relative humidity = saturated air = condensation begins."
     },
-
     {
       "id": "q115",
       "q": "What is the dew point?",
       "correct": "The temperature at which air becomes saturated and condensation begins",
-      "incorrect": ["The point where temperature drops to 0°C", "The amount of water vapor in the air", "The daily high temperature"],
+      "incorrect": [
+        "The specific temperature at which the air drops to exactly 0°C",
+        "The total amount of water vapor currently present in the air",
+        "The peak daily high temperature recorded in the afternoon"
+      ],
       "why_correct": "When air cools to the dew point, it reaches 100% relative humidity and water vapor starts condensing as dew, fog, or clouds.",
-      "why_wrong": ["The dew point can be at any temperature, not necessarily 0°C.", "Water vapor content is specific/absolute humidity.", "Daily high temperature is unrelated to dew point."],
-      "concepts": ["humidity", "dew-point"],
+      "why_wrong": [
+        "The dew point can be at any temperature, not necessarily 0°C.",
+        "Water vapor content is specific/absolute humidity.",
+        "Daily high temperature is unrelated to dew point."
+      ],
+      "concepts": [
+        "humidity",
+        "dew-point"
+      ],
       "tip": "Dew point = the temperature you must cool air TO for it to reach 100% relative humidity."
     },
-
     {
       "id": "q116",
       "q": "What is specific humidity?",
       "correct": "The actual mass of water vapor per unit mass of air (g/kg)",
-      "incorrect": ["The percentage of water vapor relative to maximum capacity", "The temperature at which condensation occurs", "The humidity measured outdoors vs indoors"],
+      "incorrect": [
+        "The percentage of water vapor relative to maximum capacity",
+        "The temperature at which condensation occurs",
+        "The humidity measured outdoors vs indoors"
+      ],
       "why_correct": "Specific humidity is an absolute measure — it gives the actual grams of water vapor per kilogram of air.",
-      "why_wrong": ["Percentage relative to maximum capacity is relative humidity.", "Condensation temperature is the dew point.", "Indoor vs outdoor humidity comparison is not a standard term."],
-      "concepts": ["humidity"],
+      "why_wrong": [
+        "Percentage relative to maximum capacity is relative humidity.",
+        "Condensation temperature is the dew point.",
+        "Indoor vs outdoor humidity comparison is not a standard term."
+      ],
+      "concepts": [
+        "humidity"
+      ],
       "tip": "Specific humidity = actual grams of vapor. Relative humidity = percent of maximum."
     },
-
     {
       "id": "q117",
       "q": "If the temperature increases but water vapor stays the same, relative humidity ___.",
       "correct": "Decreases",
-      "incorrect": ["Increases", "Stays the same", "Reaches 100%"],
+      "incorrect": [
+        "Increases",
+        "Stays the same",
+        "Reaches 100%"
+      ],
       "why_correct": "Warmer air can hold more water vapor — so the same amount of vapor now represents a smaller percentage of the new maximum capacity.",
-      "why_wrong": ["Relative humidity decreases when temperature rises (if vapor stays constant).", "Relative humidity changes because the maximum capacity changes with temperature.", "100% would only be reached if the air were cooled, not warmed."],
-      "concepts": ["humidity"],
+      "why_wrong": [
+        "Relative humidity decreases when temperature rises (if vapor stays constant).",
+        "Relative humidity changes because the maximum capacity changes with temperature.",
+        "100% would only be reached if the air were cooled, not warmed."
+      ],
+      "concepts": [
+        "humidity"
+      ],
       "tip": "Warm air = bigger capacity = same vapor = lower relative humidity."
     },
-
     {
       "id": "q118",
       "q": "A sling psychrometer is used to measure ___.",
       "correct": "Relative humidity using wet-bulb and dry-bulb temperatures",
-      "incorrect": ["Wind speed (uses an anemometer)", "Rainfall amount (uses a rain gauge)", "Air pressure (uses a barometer)"],
+      "incorrect": [
+        "Wind speed and direction (uses an anemometer)",
+        "Total rainfall amount collected (uses a rain gauge)",
+        "Atmospheric air pressure levels (uses a barometer)"
+      ],
       "why_correct": "A sling psychrometer has two thermometers — one dry and one with a wet wick. The difference between them is used with charts to determine relative humidity.",
-      "why_wrong": ["Wind speed is measured with an anemometer.", "Rainfall is measured with a rain gauge.", "Air pressure is measured with a barometer."],
-      "concepts": ["humidity", "measurement"],
+      "why_wrong": [
+        "Wind speed is measured with an anemometer.",
+        "Rainfall is measured with a rain gauge.",
+        "Air pressure is measured with a barometer."
+      ],
+      "concepts": [
+        "humidity",
+        "measurement"
+      ],
       "tip": "Sling psychrometer = spin it, compare wet and dry bulb temperatures to find relative humidity."
     },
-
     {
       "id": "q119",
       "q": "If the dry-bulb temperature is 20°C and the wet-bulb temperature is 20°C, relative humidity is ___.",
       "correct": "100% (fully saturated)",
-      "incorrect": ["50% (partially humid)", "0% (completely dry air)", "Impossible to determine without charts"],
+      "incorrect": [
+        "50% (partially humid)",
+        "0% (completely dry air)",
+        "Impossible to determine without charts"
+      ],
       "why_correct": "When the wet-bulb matches the dry-bulb, no evaporative cooling occurred — meaning the air is already saturated (100% RH).",
-      "why_wrong": ["50% would mean some evaporative cooling occurred.", "0% would be extremely dry with a large wet-dry bulb difference.", "The result is determinable — equal readings mean saturation."],
-      "concepts": ["humidity"],
+      "why_wrong": [
+        "50% would mean some evaporative cooling occurred.",
+        "0% would be extremely dry with a large wet-dry bulb difference.",
+        "The result is determinable — equal readings mean saturation."
+      ],
+      "concepts": [
+        "humidity"
+      ],
       "tip": "Wet bulb = dry bulb → 100% relative humidity. The bigger the gap, the drier the air."
     },
-
     {
       "id": "q120",
       "q": "High dew point temperatures indicate ___.",
-      "correct": "Muggy, humid air with lots of moisture",
-      "incorrect": ["Dry, comfortable air", "Cold temperatures ahead", "Low cloud cover"],
+      "correct": "Muggy, humid air with high moisture and discomfort",
+      "incorrect": [
+        "Dry, comfortable air with very little moisture content",
+        "Cold air masses and dropping temperatures moving in ahead",
+        "Low and very thin cloud cover scattered across the sky"
+      ],
       "why_correct": "A high dew point (above ~18°C / 65°F) means there is a lot of water vapor in the air, making it feel oppressively humid.",
-      "why_wrong": ["Dry, comfortable air has a low dew point.", "Dew point does not directly predict temperature direction.", "Dew point is about moisture content, not cloud cover directly."],
-      "concepts": ["humidity", "dew-point"],
+      "why_wrong": [
+        "Dry, comfortable air has a low dew point.",
+        "Dew point does not directly predict temperature direction.",
+        "Dew point is about moisture content, not cloud cover directly."
+      ],
+      "concepts": [
+        "humidity",
+        "dew-point"
+      ],
       "tip": "High dew point (>65°F) = muggy and uncomfortable. Low dew point = dry and comfortable."
     },
-
     {
       "id": "q121",
       "q": "What gives a hurricane its energy?",
       "correct": "Warm ocean water (above 26°C) evaporating and releasing latent heat",
-      "incorrect": ["Cold fronts pushing into warm air", "The Coriolis effect alone", "High pressure systems over the ocean"],
+      "incorrect": [
+        "Cold fronts pushing inland into warm tropical air",
+        "The Coriolis effect spinning the storm by itself alone",
+        "Persistent high pressure systems sitting stationary over the ocean"
+      ],
       "why_correct": "Hurricanes are heat engines powered by evaporation from warm tropical ocean water — releasing latent heat fuels their winds.",
-      "why_wrong": ["Cold fronts are mid-latitude features and would weaken a hurricane.", "The Coriolis effect spins the storm but doesn't power it.", "High pressure brings clear weather; hurricanes form from low-pressure systems."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "Cold fronts are mid-latitude features and would weaken a hurricane.",
+        "The Coriolis effect spins the storm but doesn't power it.",
+        "High pressure brings clear weather; hurricanes form from low-pressure systems."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Warm ocean water = hurricane fuel. Cold water = storm dies."
     },
-
     {
       "id": "q122",
       "q": "Why does a hurricane weaken when it moves over land?",
       "correct": "It loses access to warm ocean water (its energy source)",
-      "incorrect": ["Land is colder than ocean water", "Mountains block the Coriolis effect", "The air over land is drier"],
+      "incorrect": [
+        "Land surfaces are significantly colder than ocean water",
+        "Tall mountain ranges physically block the Coriolis effect",
+        "The air above land surfaces is noticeably much drier"
+      ],
       "why_correct": "Without warm ocean evaporation, the hurricane loses the latent heat energy that powers it and weakens rapidly.",
-      "why_wrong": ["Land temperature is not the main reason — the loss of moisture/latent heat is.", "Mountains increase friction and disruption but the main cause is loss of warm water.", "Dry air is a factor but the primary cause is cutting off the oceanic energy source."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "Land temperature is not the main reason — the loss of moisture/latent heat is.",
+        "Mountains increase friction and disruption but the main cause is loss of warm water.",
+        "Dry air is a factor but the primary cause is cutting off the oceanic energy source."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Hurricane hits land = no warm ocean = loses fuel = weakens fast."
     },
-
     {
       "id": "q123",
       "q": "What is the eye of a hurricane?",
       "correct": "The calm, clear center with descending air and low pressure",
-      "incorrect": ["The outermost spiral band of rain", "The region of highest winds", "A wall of thunderstorms around the storm"],
+      "incorrect": [
+        "The outermost spiral band of heavy rain and clouds",
+        "The region experiencing the absolute highest wind speeds",
+        "A circular wall of intense thunderstorms surrounding the center"
+      ],
       "why_correct": "The eye is a roughly circular region of calm, clear air caused by descending dry air — surrounded by the eyewall.",
-      "why_wrong": ["Outermost bands are the spiral rain bands.", "Highest winds are in the eyewall surrounding the eye.", "The wall of thunderstorms is the eyewall — not the eye itself."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "Outermost bands are the spiral rain bands.",
+        "Highest winds are in the eyewall surrounding the eye.",
+        "The wall of thunderstorms is the eyewall — not the eye itself."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Eye = calm center. Eyewall = most intense winds. Spiral bands = outer rain."
     },
-
     {
       "id": "q124",
       "q": "Hurricanes require ocean water above approximately ___.",
       "correct": "26°C (79°F)",
-      "incorrect": ["10°C (50°F)", "0°C (32°F)", "40°C (104°F)"],
+      "incorrect": [
+        "10°C (50°F)",
+        "0°C (32°F)",
+        "40°C (104°F)"
+      ],
       "why_correct": "Tropical meteorologists use 26°C as the general threshold for ocean surface temperature needed to support hurricane development.",
-      "why_wrong": ["10°C is too cold — hurricanes would not form.", "0°C is freezing — hurricanes cannot form over such cold water.", "40°C would be extremely hot even for a tropical ocean; most hurricane-generating water is 26–30°C."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "10°C is too cold — hurricanes would not form.",
+        "0°C is freezing — hurricanes cannot form over such cold water.",
+        "40°C would be extremely hot even for a tropical ocean; most hurricane-generating water is 26–30°C."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Hurricanes need warm water: ~26°C or warmer."
     },
-
     {
       "id": "q125",
       "q": "What is storm surge?",
       "correct": "A dangerous rise in sea level caused by a hurricane pushing water onshore",
-      "incorrect": ["The heavy rain produced by a hurricane", "The rapid intensification of a hurricane", "Thunder and lightning in the eyewall"],
+      "incorrect": [
+        "The extremely heavy rainfall a hurricane dumps over land",
+        "The sudden rapid intensification of a hurricane's wind speed",
+        "Dangerous thunder and lightning inside the hurricane eyewall"
+      ],
       "why_correct": "Storm surge occurs when a hurricane's strong winds push ocean water toward shore, flooding coastal areas — often the deadliest part of a hurricane.",
-      "why_wrong": ["Heavy rain is rainfall, not storm surge.", "Rapid intensification is a change in wind speed, not sea level.", "Thunder and lightning are from the storm's clouds, not storm surge."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "Heavy rain is rainfall, not storm surge.",
+        "Rapid intensification is a change in wind speed, not sea level.",
+        "Thunder and lightning are from the storm's clouds, not storm surge."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Storm surge = ocean pushed inland by hurricane winds = massive coastal flooding."
     },
-
     {
       "id": "q126",
       "q": "In which ocean basin do most Atlantic hurricanes form?",
       "correct": "The tropical Atlantic Ocean and Caribbean Sea",
-      "incorrect": ["The eastern North Pacific Ocean", "The frigid Arctic Ocean", "The tropical Indian Ocean"],
+      "incorrect": [
+        "The eastern North Pacific Ocean near Mexico",
+        "The cold, frigid Arctic Ocean waters near the poles",
+        "The warm tropical Indian Ocean basin near Asia"
+      ],
       "why_correct": "Atlantic hurricanes develop over the warm tropical Atlantic and Caribbean between June 1 and November 30 (hurricane season).",
-      "why_wrong": ["The North Pacific has typhoons and eastern Pacific hurricanes, separate from Atlantic hurricanes.", "The Arctic Ocean is too cold for hurricanes.", "The Indian Ocean has cyclones, not Atlantic hurricanes."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "The North Pacific has typhoons and eastern Pacific hurricanes, separate from Atlantic hurricanes.",
+        "The Arctic Ocean is too cold for hurricanes.",
+        "The Indian Ocean has cyclones, not Atlantic hurricanes."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Atlantic hurricane season: June 1 – November 30. Warm tropical Atlantic is the source."
     },
-
     {
       "id": "q127",
       "q": "The Saffir-Simpson scale categorizes hurricanes based on ___.",
       "correct": "Sustained wind speed",
-      "incorrect": ["Rainfall amount", "Storm surge height", "Size of the storm"],
+      "incorrect": [
+        "Rainfall amount",
+        "Storm surge height",
+        "Size of the storm"
+      ],
       "why_correct": "The Saffir-Simpson scale uses wind speed to classify hurricanes into categories 1 (weakest) through 5 (strongest).",
-      "why_wrong": ["Rainfall is not used to categorize hurricanes on this scale.", "Storm surge is not the basis of the Saffir-Simpson scale.", "Storm size (diameter) is not the category criterion."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "Rainfall is not used to categorize hurricanes on this scale.",
+        "Storm surge is not the basis of the Saffir-Simpson scale.",
+        "Storm size (diameter) is not the category criterion."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Saffir-Simpson Category 1–5 = based on WIND SPEED. Cat 5 = catastrophic winds."
     },
-
     {
       "id": "q128",
       "q": "What is the difference between a hurricane, typhoon, and cyclone?",
       "correct": "They are the same type of storm — the name depends on where it forms",
-      "incorrect": ["Typhoons are weaker than hurricanes", "Cyclones rotate clockwise while hurricanes rotate counterclockwise", "They have different wind thresholds"],
+      "incorrect": [
+        "Typhoons are always significantly weaker than hurricanes",
+        "Cyclones rotate clockwise while hurricanes rotate counterclockwise",
+        "They have completely different minimum wind speed thresholds"
+      ],
       "why_correct": "All three are tropical cyclones. 'Hurricane' = Atlantic/eastern Pacific; 'Typhoon' = western Pacific; 'Cyclone' = Indian Ocean/South Pacific.",
-      "why_wrong": ["Typhoons can be just as strong or stronger than hurricanes.", "In the Northern Hemisphere all rotate counterclockwise (low pressure). Cyclones in the Southern Hemisphere rotate clockwise.", "All three have the same wind speed threshold of 74 mph to be classified as such."],
-      "concepts": ["hurricanes"],
+      "why_wrong": [
+        "Typhoons can be just as strong or stronger than hurricanes.",
+        "In the Northern Hemisphere all rotate counterclockwise (low pressure). Cyclones in the Southern Hemisphere rotate clockwise.",
+        "All three have the same wind speed threshold of 74 mph to be classified as such."
+      ],
+      "concepts": [
+        "hurricanes"
+      ],
       "tip": "Same storm — different ocean name. Hurricane (Atlantic), Typhoon (W. Pacific), Cyclone (Indian Ocean)."
     },
-
     {
       "id": "q129",
       "q": "Which climate zone is located near the equator?",
       "correct": "Tropical",
-      "incorrect": ["Polar", "Temperate", "Tundra"],
+      "incorrect": [
+        "Polar",
+        "Temperate",
+        "Tundra"
+      ],
       "why_correct": "The tropical climate zone lies between the Tropics of Cancer and Capricorn, receiving direct sunlight year-round — hot and often wet.",
-      "why_wrong": ["Polar climate is found near the poles — very cold.", "Temperate climate is at mid-latitudes between the tropics and polar zones.", "Tundra is a polar/subpolar climate, not near the equator."],
-      "concepts": ["climate-zones"],
+      "why_wrong": [
+        "Polar climate is found near the poles — very cold.",
+        "Temperate climate is at mid-latitudes between the tropics and polar zones.",
+        "Tundra is a polar/subpolar climate, not near the equator."
+      ],
+      "concepts": [
+        "climate-zones"
+      ],
       "tip": "Tropical = near equator = hot and wet all year."
     },
-
     {
       "id": "q130",
       "q": "What characterizes the polar climate zone?",
       "correct": "Year-round cold temperatures and low precipitation",
-      "incorrect": ["Hot summers and cold winters", "Warm and humid year-round", "Four distinct seasons with mild temperatures"],
+      "incorrect": [
+        "Hot, sweltering summers and bitterly cold winters",
+        "Warm and continuously humid conditions year-round",
+        "Four distinct seasons with consistently mild temperatures"
+      ],
       "why_correct": "Polar climates experience extreme cold year-round because sunlight hits at very low angles, with little precipitation.",
-      "why_wrong": ["Hot summers and cold winters describe a temperate continental climate.", "Warm, humid conditions describe tropical climates.", "Four distinct seasons with mild temperatures describe a temperate maritime climate."],
-      "concepts": ["climate-zones"],
+      "why_wrong": [
+        "Hot summers and cold winters describe a temperate continental climate.",
+        "Warm, humid conditions describe tropical climates.",
+        "Four distinct seasons with mild temperatures describe a temperate maritime climate."
+      ],
+      "concepts": [
+        "climate-zones"
+      ],
       "tip": "Polar = very cold, very dry, low sun angle all year."
     },
-
     {
       "id": "q131",
       "q": "Which climate zone has distinct warm summers and cold winters?",
       "correct": "Temperate",
-      "incorrect": ["Tropical", "Polar", "Desert"],
+      "incorrect": [
+        "Tropical",
+        "Polar",
+        "Desert"
+      ],
       "why_correct": "Temperate zones (30°–60° latitude) experience four seasons with significant temperature changes between summer and winter.",
-      "why_wrong": ["Tropical climates are warm year-round with little seasonal variation.", "Polar climates are cold year-round without warm summers.", "Desert climate is defined by aridity, not necessarily by temperature seasons."],
-      "concepts": ["climate-zones"],
+      "why_wrong": [
+        "Tropical climates are warm year-round with little seasonal variation.",
+        "Polar climates are cold year-round without warm summers.",
+        "Desert climate is defined by aridity, not necessarily by temperature seasons."
+      ],
+      "concepts": [
+        "climate-zones"
+      ],
       "tip": "Temperate = four seasons, moderate temperatures. Neither tropical hot nor polar cold."
     },
-
     {
       "id": "q132",
       "q": "Why is it always warmer near the equator than near the poles?",
       "correct": "Sunlight hits at a more direct angle near the equator, concentrating energy",
-      "incorrect": ["The equator is closer to the Sun", "There is more land near the equator to absorb heat", "The equator has no cloud cover"],
+      "incorrect": [
+        "The equator sits physically closer to the Sun than the poles do",
+        "There is much more land surface near the equator to absorb heat",
+        "The equator has almost no cloud cover to block incoming sunlight"
+      ],
       "why_correct": "Near the equator, the Sun is nearly overhead — its rays are direct and concentrate energy. Near the poles, rays arrive at a low angle and spread over a larger area.",
-      "why_wrong": ["Earth is roughly the same distance from the Sun at all points — the equator is not meaningfully closer.", "Both land and ocean exist near the equator and poles.", "Tropical regions often have significant cloud cover."],
-      "concepts": ["climate-zones", "solar-angle"],
+      "why_wrong": [
+        "Earth is roughly the same distance from the Sun at all points — the equator is not meaningfully closer.",
+        "Both land and ocean exist near the equator and poles.",
+        "Tropical regions often have significant cloud cover."
+      ],
+      "concepts": [
+        "climate-zones",
+        "solar-angle"
+      ],
       "tip": "Direct sunlight (equator) = more heat per area. Angled sunlight (poles) = less heat per area."
     },
-
     {
       "id": "q133",
       "q": "What is the difference between weather and climate?",
       "correct": "Weather is short-term atmospheric conditions; climate is the long-term average pattern",
-      "incorrect": ["Climate is measured daily; weather is measured over decades", "Weather refers to temperature only; climate includes all variables", "They measure exactly the same thing"],
+      "incorrect": [
+        "Climate is recorded and measured day by day; weather is averaged over many decades",
+        "Weather only tracks daily temperature; climate measures all long-term weather variables",
+        "They ultimately measure and describe exactly the same short-term atmospheric conditions"
+      ],
       "why_correct": "Weather describes what is happening in the atmosphere right now or in the short term. Climate is the average of weather over 30+ years.",
-      "why_wrong": ["Weather is daily; climate is the long-term average — not the other way around.", "Weather includes all atmospheric variables (temperature, humidity, wind, etc.).", "They are related but distinctly different concepts."],
-      "concepts": ["climate", "weather"],
+      "why_wrong": [
+        "Weather is daily; climate is the long-term average — not the other way around.",
+        "Weather includes all atmospheric variables (temperature, humidity, wind, etc.).",
+        "They are related but distinctly different concepts."
+      ],
+      "concepts": [
+        "climate",
+        "weather"
+      ],
       "tip": "Climate = what you expect. Weather = what you get. 'Climate is what you wear; weather is what you wear today.'"
     },
-
     {
       "id": "q134",
       "q": "Which factor does NOT significantly affect a region's climate?",
       "correct": "The color of the soil",
-      "incorrect": ["Proximity to the ocean", "Distance from the equator (latitude)", "Elevation above sea level"],
+      "incorrect": [
+        "Proximity to the ocean",
+        "Distance from the equator (latitude)",
+        "Elevation above sea level"
+      ],
       "why_correct": "Soil color has minimal impact on regional climate. Latitude, ocean proximity, and elevation are major climate controls.",
-      "why_wrong": ["Proximity to the ocean moderates temperatures — maritime climates are milder.", "Latitude determines solar angle — the primary driver of temperature.", "Higher elevation = lower temperature and different precipitation patterns."],
-      "concepts": ["climate"],
+      "why_wrong": [
+        "Proximity to the ocean moderates temperatures — maritime climates are milder.",
+        "Latitude determines solar angle — the primary driver of temperature.",
+        "Higher elevation = lower temperature and different precipitation patterns."
+      ],
+      "concepts": [
+        "climate"
+      ],
       "tip": "Major climate controls: latitude, ocean proximity, elevation, prevailing winds."
     },
-
     {
       "id": "q135",
       "q": "A city on the coast typically has ___.",
       "correct": "Milder temperatures (cooler summers, warmer winters) than an inland city at the same latitude",
-      "incorrect": ["More extreme temperatures than an inland city", "The same temperatures as an inland city", "Higher temperatures year-round"],
+      "incorrect": [
+        "More extreme temperatures (hotter summers and much colder winters) than any inland city",
+        "Essentially the same average annual temperatures as any comparable nearby inland city",
+        "Consistently higher temperatures all year round than any comparable nearby inland city"
+      ],
       "why_correct": "Oceans absorb and release heat slowly, moderating temperatures in coastal areas — preventing extreme heat in summer and extreme cold in winter.",
-      "why_wrong": ["Inland cities have more extreme temperatures (hotter summers, colder winters) than coastal cities.", "Coast and inland cities differ significantly in temperature range.", "Coastal cities are not necessarily warmer year-round — they are more moderate."],
-      "concepts": ["climate", "ocean-effect"],
+      "why_wrong": [
+        "Inland cities have more extreme temperatures (hotter summers, colder winters) than coastal cities.",
+        "Coast and inland cities differ significantly in temperature range.",
+        "Coastal cities are not necessarily warmer year-round — they are more moderate."
+      ],
+      "concepts": [
+        "climate",
+        "ocean-effect"
+      ],
       "tip": "Ocean = temperature moderator. Coastal = mild. Inland = extreme swings."
     },
-
     {
       "id": "q136",
       "q": "How does elevation affect climate?",
       "correct": "Higher elevation = lower temperature (about 6.5°C per 1,000 m rise)",
-      "incorrect": ["Higher elevation = higher temperature", "Elevation has no effect on temperature", "Higher elevation = same temperature but more rain"],
+      "incorrect": [
+        "Higher elevation = consistently higher temperatures instead",
+        "Elevation alone has absolutely no effect on temperature",
+        "Higher elevation = same temperature but with much more rain"
+      ],
       "why_correct": "Temperature decreases with altitude in the troposphere — mountain peaks are much colder than their surrounding lowlands.",
-      "why_wrong": ["Temperature decreases, not increases, with altitude in the troposphere.", "Elevation is a significant climate factor.", "Elevation affects both temperature AND precipitation."],
-      "concepts": ["climate", "elevation"],
+      "why_wrong": [
+        "Temperature decreases, not increases, with altitude in the troposphere.",
+        "Elevation is a significant climate factor.",
+        "Elevation affects both temperature AND precipitation."
+      ],
+      "concepts": [
+        "climate",
+        "elevation"
+      ],
       "tip": "Every 1,000 m gain in altitude ≈ 6.5°C cooler. Mountains = cold tops."
     },
-
     {
       "id": "q137",
       "q": "What are the three main types of rock?",
       "correct": "Igneous, sedimentary, and metamorphic",
-      "incorrect": ["Basalt, granite, and limestone", "Hard, medium, and soft", "Volcanic, oceanic, and continental"],
+      "incorrect": [
+        "Basalt, granite, and limestone",
+        "Hard, medium, and soft",
+        "Volcanic, oceanic, and continental"
+      ],
       "why_correct": "All rocks fall into one of three categories based on how they form: igneous (from magma/lava), sedimentary (from compacted sediment), or metamorphic (from heat/pressure).",
-      "why_wrong": ["Basalt and granite are igneous rocks; limestone is sedimentary — these are types, not the main categories.", "Hard, medium, soft is not a scientific rock classification.", "Volcanic, oceanic, and continental describe settings, not rock types."],
-      "concepts": ["rock-cycle"],
+      "why_wrong": [
+        "Basalt and granite are igneous rocks; limestone is sedimentary — these are types, not the main categories.",
+        "Hard, medium, soft is not a scientific rock classification.",
+        "Volcanic, oceanic, and continental describe settings, not rock types."
+      ],
+      "concepts": [
+        "rock-cycle"
+      ],
       "tip": "3 rock types: Igneous (fire), Sedimentary (layers), Metamorphic (changed)."
     },
-
     {
       "id": "q138",
       "q": "How does igneous rock form?",
       "correct": "From cooling and solidifying magma or lava",
-      "incorrect": ["From layers of compacted sediment", "From extreme heat and pressure changing existing rock", "From dissolved minerals precipitating out of water"],
+      "incorrect": [
+        "From layers of compacted sediment",
+        "From extreme heat and pressure changing existing rock",
+        "From dissolved minerals precipitating out of water"
+      ],
       "why_correct": "Magma cools underground (forming intrusive/plutonic igneous rock) or lava cools at the surface (forming extrusive/volcanic igneous rock).",
-      "why_wrong": ["Compacted sediment forms sedimentary rock.", "Heat and pressure changing rock forms metamorphic rock.", "Dissolved minerals precipitating forms chemical sedimentary rock like rock salt."],
-      "concepts": ["rock-cycle", "igneous"],
+      "why_wrong": [
+        "Compacted sediment forms sedimentary rock.",
+        "Heat and pressure changing rock forms metamorphic rock.",
+        "Dissolved minerals precipitating forms chemical sedimentary rock like rock salt."
+      ],
+      "concepts": [
+        "rock-cycle",
+        "igneous"
+      ],
       "tip": "Igneous = fire. Magma or lava cools → igneous rock."
     },
-
     {
       "id": "q139",
       "q": "What is the difference between intrusive and extrusive igneous rocks?",
-      "correct": "Intrusive cools slowly underground (large crystals); extrusive cools fast at the surface (small or no crystals)",
-      "incorrect": ["Intrusive is volcanic; extrusive forms underground", "Intrusive is darker in color; extrusive is lighter", "There is no difference in texture or crystal size"],
+      "correct": "Intrusive cools underground slowly (large crystals); extrusive cools at the surface fast (small crystals)",
+      "incorrect": [
+        "Intrusive is the volcanic type that erupts at the surface; extrusive cools slowly underground",
+        "Intrusive is always significantly darker in color; extrusive is always noticeably much lighter",
+        "There is absolutely no meaningful difference in crystal size or overall rock texture"
+      ],
       "why_correct": "Slow cooling underground allows time for large crystals to grow (granite). Rapid surface cooling doesn't allow crystal growth (basalt).",
-      "why_wrong": ["Intrusive is underground (plutonic); extrusive is volcanic — these definitions are reversed.", "Color depends on mineral composition, not cooling rate.", "The cooling rate difference produces significantly different textures."],
-      "concepts": ["rock-cycle", "igneous"],
+      "why_wrong": [
+        "Intrusive is underground (plutonic); extrusive is volcanic — these definitions are reversed.",
+        "Color depends on mineral composition, not cooling rate.",
+        "The cooling rate difference produces significantly different textures."
+      ],
+      "concepts": [
+        "rock-cycle",
+        "igneous"
+      ],
       "tip": "Slow cool underground = big crystals (granite). Fast cool at surface = tiny/no crystals (basalt)."
     },
-
     {
       "id": "q140",
       "q": "How does sedimentary rock form?",
       "correct": "Sediment is compacted and cemented together over time",
-      "incorrect": ["Magma cools at Earth's surface", "Existing rock is changed by heat and pressure", "Minerals crystallize directly from seawater"],
+      "incorrect": [
+        "Magma cools at Earth's surface",
+        "Existing rock is changed by heat and pressure",
+        "Minerals crystallize directly from seawater"
+      ],
       "why_correct": "Weathering produces sediment; erosion transports it; deposition layers it; then compaction and cementation lithify it into sedimentary rock.",
-      "why_wrong": ["Magma cooling forms igneous rock.", "Heat and pressure changing rock forms metamorphic rock.", "Minerals crystallizing from seawater forms chemical sedimentary rock — a subtype, not the general process."],
-      "concepts": ["rock-cycle", "sedimentary"],
+      "why_wrong": [
+        "Magma cooling forms igneous rock.",
+        "Heat and pressure changing rock forms metamorphic rock.",
+        "Minerals crystallizing from seawater forms chemical sedimentary rock — a subtype, not the general process."
+      ],
+      "concepts": [
+        "rock-cycle",
+        "sedimentary"
+      ],
       "tip": "Sediment → compaction + cementation → sedimentary rock. Think: sand dunes → sandstone."
     },
-
     {
       "id": "q141",
       "q": "Which rock type commonly contains fossils?",
       "correct": "Sedimentary rock",
-      "incorrect": ["Igneous rock", "Metamorphic rock", "Both igneous and metamorphic rock"],
+      "incorrect": [
+        "Igneous rock",
+        "Metamorphic rock",
+        "Both igneous and metamorphic rock"
+      ],
       "why_correct": "Fossils are preserved in sedimentary layers because organisms are buried by sediment and preserved during lithification.",
-      "why_wrong": ["Igneous rock forms from molten material — no organisms can be preserved in it.", "Metamorphic rock is altered by heat and pressure that would destroy fossils.", "Neither igneous nor metamorphic rock typically preserves fossils."],
-      "concepts": ["rock-cycle", "sedimentary"],
+      "why_wrong": [
+        "Igneous rock forms from molten material — no organisms can be preserved in it.",
+        "Metamorphic rock is altered by heat and pressure that would destroy fossils.",
+        "Neither igneous nor metamorphic rock typically preserves fossils."
+      ],
+      "concepts": [
+        "rock-cycle",
+        "sedimentary"
+      ],
       "tip": "Fossils = sedimentary rock only. Formed in layers where organisms are buried."
     },
-
     {
       "id": "q142",
       "q": "How does metamorphic rock form?",
       "correct": "Existing rock is changed by intense heat, pressure, or fluids (without melting)",
-      "incorrect": ["Sediment is compacted into rock", "Magma cools underground", "Rock is dissolved and re-deposited"],
+      "incorrect": [
+        "Layers of sediment are slowly compacted and cemented into solid rock",
+        "Hot magma slowly cools and solidifies deep underground over time",
+        "Rock is chemically dissolved by water and then later re-deposited elsewhere"
+      ],
       "why_correct": "Metamorphic rocks form when pre-existing rocks are subjected to conditions that recrystallize minerals — but the rock remains solid throughout.",
-      "why_wrong": ["Compacted sediment forms sedimentary rock.", "Magma cooling underground forms intrusive igneous rock.", "Dissolved and re-deposited rock forms chemical sedimentary rock."],
-      "concepts": ["rock-cycle", "metamorphic"],
+      "why_wrong": [
+        "Compacted sediment forms sedimentary rock.",
+        "Magma cooling underground forms intrusive igneous rock.",
+        "Dissolved and re-deposited rock forms chemical sedimentary rock."
+      ],
+      "concepts": [
+        "rock-cycle",
+        "metamorphic"
+      ],
       "tip": "Metamorphic = changed. Heat + pressure = mineral realignment. Shale → slate → schist → gneiss."
     },
-
     {
       "id": "q143",
       "q": "What is the rock cycle?",
       "correct": "The continuous process by which rocks are formed, broken down, and reformed over time",
-      "incorrect": ["The daily weathering of rock surfaces", "The pattern of rock layers in sediment", "The classification system for minerals"],
+      "incorrect": [
+        "The ongoing continuous process of weathering and breaking down rock at the surface",
+        "The distinct arrangement and layering pattern of rock strata in sediment",
+        "The systematic classification and naming system used to identify all minerals"
+      ],
       "why_correct": "The rock cycle shows how igneous, sedimentary, and metamorphic rocks can all transform into each other through geological processes.",
-      "why_wrong": ["Daily weathering is just one step, not the entire cycle.", "Rock layers are stratigraphy — part of sedimentary geology, not the whole rock cycle.", "Mineral classification is separate from the rock cycle."],
-      "concepts": ["rock-cycle"],
+      "why_wrong": [
+        "Daily weathering is just one step, not the entire cycle.",
+        "Rock layers are stratigraphy — part of sedimentary geology, not the whole rock cycle.",
+        "Mineral classification is separate from the rock cycle."
+      ],
+      "concepts": [
+        "rock-cycle"
+      ],
       "tip": "Rock cycle = rocks constantly changing from one type to another over millions of years."
     },
-
     {
       "id": "q144",
       "q": "What is the difference between a rock and a mineral?",
       "correct": "A mineral is a naturally occurring solid element or compound; a rock is made of one or more minerals",
-      "incorrect": ["Rocks are bigger than minerals", "Minerals are man-made; rocks are natural", "A rock is a single pure element; a mineral is a mixture"],
+      "incorrect": [
+        "Rocks are always physically much larger and heavier in overall size than any mineral",
+        "Minerals are always synthetically man-made compounds; only rocks can form naturally",
+        "A rock is always a single chemically pure element; a mineral is always a complex mixture"
+      ],
       "why_correct": "Minerals have a specific chemical composition and crystal structure. Rocks are aggregates of minerals (or sometimes organic material).",
-      "why_wrong": ["Size is not the distinguishing factor — minerals can be large, rocks can be small.", "Minerals are natural, not man-made.", "Minerals are pure compounds; rocks are mixtures of minerals."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Size is not the distinguishing factor — minerals can be large, rocks can be small.",
+        "Minerals are natural, not man-made.",
+        "Minerals are pure compounds; rocks are mixtures of minerals."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "Mineral = one specific chemical. Rock = combination of minerals."
     },
-
     {
       "id": "q145",
       "q": "Which property is NOT used to identify a mineral?",
       "correct": "Age",
-      "incorrect": ["Hardness", "Luster", "Streak"],
+      "incorrect": [
+        "Hardness",
+        "Luster",
+        "Streak"
+      ],
       "why_correct": "Minerals are identified by physical properties like hardness, luster, streak, cleavage, color, and density — not age.",
-      "why_wrong": ["Hardness (Mohs scale) is a primary identification property.", "Luster (how light reflects) is a key identification property.", "Streak (color of the powder) is often more reliable than surface color."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Hardness (Mohs scale) is a primary identification property.",
+        "Luster (how light reflects) is a key identification property.",
+        "Streak (color of the powder) is often more reliable than surface color."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "Mineral ID: hardness, luster, streak, cleavage, color, density. Age doesn't apply."
     },
-
     {
       "id": "q146",
       "q": "What does the Mohs hardness scale measure?",
       "correct": "A mineral's resistance to being scratched",
-      "incorrect": ["A mineral's density", "How much light a mineral reflects", "The color of a mineral's powder"],
+      "incorrect": [
+        "A mineral's density",
+        "How much light a mineral reflects",
+        "The color of a mineral's powder"
+      ],
       "why_correct": "The Mohs scale ranks minerals from 1 (talc, softest) to 10 (diamond, hardest) based on which minerals can scratch each other.",
-      "why_wrong": ["Density is measured separately.", "How light reflects is luster.", "Powder color is streak."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Density is measured separately.",
+        "How light reflects is luster.",
+        "Powder color is streak."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "Mohs scale = scratch resistance. Talc = 1 (softest). Diamond = 10 (hardest)."
     },
-
     {
       "id": "q147",
       "q": "What is luster?",
       "correct": "The way a mineral's surface reflects light",
-      "incorrect": ["The color of a mineral's powder", "A mineral's resistance to scratching", "The tendency of a mineral to break along flat planes"],
+      "incorrect": [
+        "The color of a mineral's powder",
+        "A mineral's resistance to scratching",
+        "The tendency of a mineral to break along flat planes"
+      ],
       "why_correct": "Luster describes the quality of light reflection — metallic (shiny like metal) or nonmetallic (waxy, glassy, dull, silky).",
-      "why_wrong": ["Powder color is streak.", "Scratch resistance is hardness.", "Breaking along flat planes is cleavage."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Powder color is streak.",
+        "Scratch resistance is hardness.",
+        "Breaking along flat planes is cleavage."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "Luster = shiny or dull? Metallic (like pyrite) or nonmetallic (like quartz)."
     },
-
     {
       "id": "q148",
       "q": "What is cleavage in minerals?",
       "correct": "The tendency of a mineral to break along smooth, flat planes",
-      "incorrect": ["The color of the mineral's surface", "The hardness of the mineral", "The pattern of crystals in the mineral"],
+      "incorrect": [
+        "The visible color seen on the mineral's outer surface",
+        "The measured hardness and scratch resistance of the mineral",
+        "The arrangement and pattern of crystals within the mineral"
+      ],
       "why_correct": "Cleavage reflects the internal atomic structure — atoms separate along planes of weakness, producing flat, smooth surfaces.",
-      "why_wrong": ["Surface color is just color — a less reliable property.", "Hardness is the resistance to scratching.", "Crystal pattern is the mineral's habit or crystal system."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Surface color is just color — a less reliable property.",
+        "Hardness is the resistance to scratching.",
+        "Crystal pattern is the mineral's habit or crystal system."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "Cleavage = flat, smooth break. No cleavage = fracture (rough, irregular break)."
     },
-
     {
       "id": "q149",
       "q": "Which mineral is the hardest on the Mohs scale?",
       "correct": "Diamond",
-      "incorrect": ["Quartz", "Feldspar", "Corundum"],
+      "incorrect": [
+        "Quartz",
+        "Feldspar",
+        "Corundum"
+      ],
       "why_correct": "Diamond ranks 10 on the Mohs scale — it is the hardest naturally occurring substance.",
-      "why_wrong": ["Quartz ranks 7.", "Feldspar ranks 6.", "Corundum ranks 9 — second hardest, but diamond is hardest."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Quartz ranks 7.",
+        "Feldspar ranks 6.",
+        "Corundum ranks 9 — second hardest, but diamond is hardest."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "Mohs 10 = diamond. Mohs 1 = talc. Remember: TGCFAODQTC (Talc→Diamond)."
     },
-
     {
       "id": "q150",
       "q": "Which of these is a characteristic of ALL minerals?",
       "correct": "Naturally occurring, inorganic, solid, with a definite chemical composition",
-      "incorrect": ["Always shiny and metallic", "Always found in crystals you can see with the naked eye", "Must contain silicon"],
+      "incorrect": [
+        "Always shiny, metallic, and highly reflective on all surfaces",
+        "Always found in large visible crystals you can see with the naked eye",
+        "Must always contain the element silicon somewhere in its composition"
+      ],
       "why_correct": "All minerals share five defining characteristics: naturally occurring, inorganic, solid, definite chemical composition, and crystalline structure.",
-      "why_wrong": ["Many minerals are nonmetallic and dull.", "Many minerals have microscopic or invisible crystals.", "Many minerals contain no silicon — for example, calcite (CaCO₃) and halite (NaCl)."],
-      "concepts": ["minerals"],
+      "why_wrong": [
+        "Many minerals are nonmetallic and dull.",
+        "Many minerals have microscopic or invisible crystals.",
+        "Many minerals contain no silicon — for example, calcite (CaCO₃) and halite (NaCl)."
+      ],
+      "concepts": [
+        "minerals"
+      ],
       "tip": "5 mineral traits: natural, inorganic, solid, definite chemistry, crystalline. All 5 required."
     }
-
   ]
 }
