@@ -850,6 +850,14 @@ button {
 
 .fc-card:active { border-color: var(--primary); }
 
+.fc-sign-img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+}
+
+.fc-sign-img.hidden { display: none; }
+
 .fc-term {
   font-size: 1.7rem;
   font-weight: 700;

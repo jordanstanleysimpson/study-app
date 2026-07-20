@@ -109,6 +109,12 @@
 
       <!-- Study mode tiles -->
       <div class="mode-grid" id="mode-grid">
+        <!-- Flashcards -->
+        <button class="mode-card hidden" id="btn-flashcards" onclick="startFlashcards()">
+          <span class="mode-icon">💳</span>
+          <span class="mode-name">Flashcards</span>
+          <span class="mode-desc">Tap to reveal</span>
+        </button>
         <!-- Non-directional quiz -->
         <button class="mode-card hidden" id="btn-mc-quiz" onclick="startMcQuiz(null)">
           <span class="mode-icon">📝</span>
@@ -231,6 +237,24 @@
       </div>
     </header>
     <main class="screen-body" id="quiz-main">
+
+      <!-- Flashcard mode -->
+      <div id="mode-flashcard" class="quiz-mode hidden">
+        <div class="quiz-inner">
+          <div class="fc-card" id="flashcard-card">
+            <img id="fc-image" class="fc-sign-img hidden" src="" alt="">
+            <span class="fc-term" id="fc-front-text"></span>
+          </div>
+          <div class="fc-definition hidden" id="fc-definition">
+            <span class="fc-def-text" id="fc-back-text"></span>
+          </div>
+          <p class="hint-text" id="fc-hint">Tap card to reveal</p>
+          <div class="answer-btns hidden" id="fc-answer-btns">
+            <button class="btn-wrong" id="fc-missed">Missed it</button>
+            <button class="btn-correct" id="fc-got-it">Got it</button>
+          </div>
+        </div>
+      </div>
 
       <!-- MC Quiz mode -->
       <div id="mode-mc-quiz" class="quiz-mode hidden">

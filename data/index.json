@@ -251,6 +251,24 @@
       "created": "2026-06-07",
       "wordCount": 150,
       "file": "data/earth-science/Unit 9/earth-science-unit9-quiz.json"
+    },
+    {
+      "id": "nc-road-signs-flashcards",
+      "name": "Unit 1: Road Signs",
+      "subject": "Driver's Ed",
+      "type": "flashcard",
+      "created": "2026-07-20",
+      "wordCount": 41,
+      "file": "data/driving/Unit 1/nc-road-signs-flashcards.json"
+    },
+    {
+      "id": "nc-permit-quiz",
+      "name": "Unit 1: Permit Exam Prep",
+      "subject": "Driver's Ed",
+      "type": "quiz",
+      "created": "2026-07-20",
+      "wordCount": 130,
+      "file": "data/driving/Unit 1/nc-permit-quiz.json"
     }
   ]
 }

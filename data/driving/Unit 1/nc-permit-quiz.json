@@ -1,0 +1,2598 @@
+{
+  "id": "nc-permit-quiz",
+  "name": "Unit 1: Permit Exam Prep",
+  "subject": "Driver's Ed",
+  "type": "quiz",
+  "quiz_mode": "multiple-choice",
+  "directional": false,
+  "created": "2026-07-20",
+  "questions": [
+    {
+      "id": "q001",
+      "q": "What shape is a stop sign?",
+      "correct": "Octagon (8 sides)",
+      "incorrect": [
+        "Triangle",
+        "Diamond",
+        "Pentagon"
+      ],
+      "why_correct": "Stop signs are the only octagon-shaped signs on the road.",
+      "why_wrong": [
+        "Triangles are used for yield signs.",
+        "Diamonds are used for warning signs.",
+        "Pentagons are used for school signs."
+      ],
+      "concepts": [
+        "sign-shapes"
+      ],
+      "tip": "Stop = 8-sided octagon."
+    },
+    {
+      "id": "q002",
+      "q": "What shape is a yield sign?",
+      "correct": "Downward triangle",
+      "incorrect": [
+        "Octagon",
+        "Circle",
+        "Square"
+      ],
+      "why_correct": "A yield sign is a triangle pointing down, unique among road signs.",
+      "why_wrong": [
+        "Octagons are reserved for stop signs.",
+        "Circles mark railroad crossings.",
+        "Squares are not a standard regulatory shape."
+      ],
+      "concepts": [
+        "sign-shapes"
+      ],
+      "tip": "Yield = upside-down triangle."
+    },
+    {
+      "id": "q003",
+      "q": "What shape are most warning signs?",
+      "correct": "Yellow diamond",
+      "incorrect": [
+        "Red octagon",
+        "Blue rectangle",
+        "Green pentagon"
+      ],
+      "why_correct": "Warning signs are diamond-shaped with a yellow background and black symbols.",
+      "why_wrong": [
+        "Red octagons are stop signs only.",
+        "Blue rectangles mark services like hospitals.",
+        "Green pentagons are not a real sign shape."
+      ],
+      "concepts": [
+        "sign-colors",
+        "sign-shapes"
+      ],
+      "tip": "Diamond + yellow = warning ahead."
+    },
+    {
+      "id": "q004",
+      "q": "What does a red road sign usually mean?",
+      "correct": "Stop or prohibition",
+      "incorrect": [
+        "Warning of a hazard",
+        "Guide or direction",
+        "Service nearby"
+      ],
+      "why_correct": "Red signs mean stop, yield, or that an action is prohibited.",
+      "why_wrong": [
+        "Warnings use yellow, not red.",
+        "Guide signs are green, not red.",
+        "Service signs are blue, not red."
+      ],
+      "concepts": [
+        "sign-colors"
+      ],
+      "tip": "Red = stop or don't."
+    },
+    {
+      "id": "q005",
+      "q": "What does a yellow road sign mean?",
+      "correct": "General warning",
+      "incorrect": [
+        "Stop required",
+        "Highway route marker",
+        "Hospital nearby"
+      ],
+      "why_correct": "Yellow signs warn drivers of upcoming hazards or changing conditions.",
+      "why_wrong": [
+        "Stop signs are red octagons.",
+        "Route markers are typically white or shield-shaped.",
+        "Hospital signs are blue."
+      ],
+      "concepts": [
+        "sign-colors"
+      ]
+    },
+    {
+      "id": "q006",
+      "q": "What does a green road sign usually show?",
+      "correct": "Directions or distances",
+      "incorrect": [
+        "A speed limit change",
+        "A construction zone",
+        "A school crossing"
+      ],
+      "why_correct": "Green signs are guide signs showing directions, exits, and mileage.",
+      "why_wrong": [
+        "Speed limits appear on white signs.",
+        "Construction zones use orange signs.",
+        "School crossings use fluorescent yellow-green."
+      ],
+      "concepts": [
+        "sign-colors"
+      ]
+    },
+    {
+      "id": "q007",
+      "q": "What does an orange road sign mean?",
+      "correct": "Construction or work zone",
+      "incorrect": [
+        "Hospital or service",
+        "School zone",
+        "Scenic route"
+      ],
+      "why_correct": "Orange signs alert drivers to construction and road work areas.",
+      "why_wrong": [
+        "Services are marked in blue.",
+        "School zones use fluorescent yellow-green.",
+        "Scenic routes are usually brown."
+      ],
+      "concepts": [
+        "sign-colors"
+      ]
+    },
+    {
+      "id": "q008",
+      "q": "What does a blue road sign usually indicate?",
+      "correct": "Services like gas or hospitals",
+      "incorrect": [
+        "A speed limit",
+        "A curve ahead",
+        "A no-passing zone"
+      ],
+      "why_correct": "Blue signs point out driver services such as fuel, food, and hospitals.",
+      "why_wrong": [
+        "Speed limits are shown on white signs.",
+        "Curves are marked with yellow warning signs.",
+        "No-passing zones use a yellow pennant sign."
+      ],
+      "concepts": [
+        "sign-colors"
+      ]
+    },
+    {
+      "id": "q009",
+      "q": "What shape is a railroad advance warning sign?",
+      "correct": "Yellow circle",
+      "incorrect": [
+        "Yellow diamond",
+        "Red octagon",
+        "White rectangle"
+      ],
+      "why_correct": "The round yellow sign with a black X warns of a railroad crossing ahead.",
+      "why_wrong": [
+        "Diamonds are used for most other warning signs.",
+        "Octagons are for stop signs only.",
+        "Rectangles are used for regulatory or guide signs."
+      ],
+      "concepts": [
+        "sign-shapes",
+        "railroad"
+      ]
+    },
+    {
+      "id": "q010",
+      "q": "What shape is a school zone sign?",
+      "correct": "Pentagon (5 sides)",
+      "incorrect": [
+        "Octagon",
+        "Circle",
+        "Diamond"
+      ],
+      "why_correct": "School signs use a five-sided pentagon in fluorescent yellow-green.",
+      "why_wrong": [
+        "Octagons are for stop signs.",
+        "Circles mark railroad crossings.",
+        "Diamonds are used for general warnings."
+      ],
+      "concepts": [
+        "sign-shapes"
+      ]
+    },
+    {
+      "id": "q011",
+      "q": "If no speed limit is posted in a business district, what's the default limit in NC?",
+      "correct": "35 mph",
+      "incorrect": [
+        "25 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "why_correct": "NC law sets 35 mph as the default limit in business and residential areas unless posted otherwise.",
+      "why_wrong": [
+        "25 mph is common near schools, not the general default.",
+        "45 mph is too high for a business district default.",
+        "55 mph applies to unposted highways, not business districts."
+      ],
+      "concepts": [
+        "speed-limits"
+      ]
+    },
+    {
+      "id": "q012",
+      "q": "What is the default speed limit in an unposted school zone?",
+      "correct": "25 mph",
+      "incorrect": [
+        "35 mph",
+        "15 mph",
+        "45 mph"
+      ],
+      "why_correct": "Unless otherwise posted, school zones default to 25 mph.",
+      "why_wrong": [
+        "35 mph is the default for business districts, not school zones.",
+        "15 mph is slower than NC's standard default.",
+        "45 mph is far too fast for a school zone."
+      ],
+      "concepts": [
+        "speed-limits",
+        "school-zone"
+      ]
+    },
+    {
+      "id": "q013",
+      "q": "Can you legally drive at the posted speed limit in poor weather?",
+      "correct": "Not always safely",
+      "incorrect": [
+        "Yes, it's always legal",
+        "Only at night",
+        "Only on highways"
+      ],
+      "why_correct": "Speed limits are maximums for ideal conditions; you must slow down in rain, fog, or ice.",
+      "why_wrong": [
+        "Driving the limit in poor conditions can still be unsafe or unlawful.",
+        "Weather, not time of day, is the deciding factor.",
+        "The rule applies on any road, not just highways."
+      ],
+      "concepts": [
+        "speed-limits",
+        "weather"
+      ]
+    },
+    {
+      "id": "q014",
+      "q": "What term describes driving too fast for current conditions?",
+      "correct": "Basic speed law violation",
+      "incorrect": [
+        "Reckless abandonment",
+        "Lane splitting",
+        "Implied consent"
+      ],
+      "why_correct": "NC's basic speed law requires driving at a safe speed for conditions, even under the posted limit.",
+      "why_wrong": [
+        "That is not a recognized traffic term.",
+        "Lane splitting refers to motorcycles passing between lanes.",
+        "Implied consent relates to DUI chemical testing."
+      ],
+      "concepts": [
+        "speed-limits"
+      ]
+    },
+    {
+      "id": "q015",
+      "q": "Where is the speed limit usually lowest?",
+      "correct": "School and work zones",
+      "incorrect": [
+        "Interstate highways",
+        "Rural two-lane roads",
+        "Bridges"
+      ],
+      "why_correct": "School and work zones have reduced limits to protect people on foot nearby.",
+      "why_wrong": [
+        "Interstates generally have the highest posted limits.",
+        "Rural roads often allow higher speeds than school zones.",
+        "Bridges don't automatically carry a reduced limit."
+      ],
+      "concepts": [
+        "speed-limits"
+      ]
+    },
+    {
+      "id": "q016",
+      "q": "What should you do if you're driving slower than traffic in the left lane?",
+      "correct": "Move to the right",
+      "incorrect": [
+        "Stay and let others pass",
+        "Speed up to match traffic",
+        "Turn on your hazards"
+      ],
+      "why_correct": "Slower drivers should keep right so faster traffic can pass safely.",
+      "why_wrong": [
+        "Blocking the left lane can cause dangerous passing.",
+        "You should never exceed a safe or legal speed to match others.",
+        "Hazard lights are for emergencies, not slow travel."
+      ],
+      "concepts": [
+        "speed-limits",
+        "lane-use"
+      ]
+    },
+    {
+      "id": "q017",
+      "q": "What does a lower speed limit posted on a curve mean?",
+      "correct": "The safe speed through that curve",
+      "incorrect": [
+        "A legally optional suggestion",
+        "The minimum speed allowed",
+        "A speed only for trucks"
+      ],
+      "why_correct": "Curve speed signs show the safe advisory or legal speed for that specific curve.",
+      "why_wrong": [
+        "It is not optional if posted as a regulatory limit.",
+        "It marks a maximum safe speed, not a minimum.",
+        "It applies to all vehicles, not just trucks."
+      ],
+      "concepts": [
+        "speed-limits"
+      ]
+    },
+    {
+      "id": "q018",
+      "q": "At a four-way stop, who goes first?",
+      "correct": "The first vehicle to arrive",
+      "incorrect": [
+        "The vehicle on the left",
+        "The largest vehicle",
+        "Whoever honks first"
+      ],
+      "why_correct": "The first car to reach a four-way stop has the right of way to proceed first.",
+      "why_wrong": [
+        "The car on the left yields to the car on the right if arrival is simultaneous.",
+        "Vehicle size does not determine right of way.",
+        "Honking does not grant right of way."
+      ],
+      "concepts": [
+        "right-of-way"
+      ],
+      "tip": "First to stop, first to go."
+    },
+    {
+      "id": "q019",
+      "q": "Two cars arrive at a four-way stop at the same time. Who yields?",
+      "correct": "The driver on the left",
+      "incorrect": [
+        "The driver on the right",
+        "The slower car",
+        "Neither car"
+      ],
+      "why_correct": "When arrival is simultaneous, the driver on the left yields to the driver on the right.",
+      "why_wrong": [
+        "The driver on the right has the right of way in this case.",
+        "Speed does not determine right of way at a stop.",
+        "One driver must yield to avoid a collision."
+      ],
+      "concepts": [
+        "right-of-way"
+      ]
+    },
+    {
+      "id": "q020",
+      "q": "Who has the right of way at an uncontrolled intersection?",
+      "correct": "The vehicle already in the intersection",
+      "incorrect": [
+        "The larger vehicle",
+        "The vehicle turning left",
+        "The faster vehicle"
+      ],
+      "why_correct": "A vehicle already in or entering an uncontrolled intersection first has the right of way.",
+      "why_wrong": [
+        "Size has no bearing on right of way.",
+        "Left-turning vehicles must yield to oncoming traffic.",
+        "Speed does not grant right of way."
+      ],
+      "concepts": [
+        "right-of-way"
+      ]
+    },
+    {
+      "id": "q021",
+      "q": "When turning left, who must you yield to?",
+      "correct": "Oncoming traffic",
+      "incorrect": [
+        "Traffic behind you",
+        "Parked cars",
+        "Traffic turning right"
+      ],
+      "why_correct": "Left-turning drivers must yield to oncoming vehicles going straight or turning right.",
+      "why_wrong": [
+        "Traffic behind you doesn't have the right of way over your turn.",
+        "Parked cars are not moving traffic.",
+        "Right-turning traffic on the other side isn't crossing your path."
+      ],
+      "concepts": [
+        "right-of-way",
+        "turning"
+      ]
+    },
+    {
+      "id": "q022",
+      "q": "Who has the right of way over a driver at an intersection?",
+      "correct": "A pedestrian in a crosswalk",
+      "incorrect": [
+        "A driver signaling a turn",
+        "A driver who arrived first",
+        "A driver going straight"
+      ],
+      "why_correct": "Pedestrians legally crossing in a crosswalk have the right of way over turning vehicles.",
+      "why_wrong": [
+        "Signaling doesn't override a pedestrian's right of way.",
+        "Arrival order doesn't apply when a pedestrian is crossing.",
+        "Going straight doesn't override a pedestrian's right of way."
+      ],
+      "concepts": [
+        "right-of-way",
+        "pedestrians"
+      ]
+    },
+    {
+      "id": "q023",
+      "q": "When must you yield to an emergency vehicle with lights and siren on?",
+      "correct": "Immediately, pulling to the right",
+      "incorrect": [
+        "Only if you're turning",
+        "Only on highways",
+        "Only during the day"
+      ],
+      "why_correct": "Drivers must pull to the right edge and stop for any approaching emergency vehicle.",
+      "why_wrong": [
+        "The rule applies no matter what maneuver you're making.",
+        "The rule applies on any road, not just highways.",
+        "The rule applies at any time, day or night."
+      ],
+      "concepts": [
+        "right-of-way",
+        "emergency-vehicles"
+      ]
+    },
+    {
+      "id": "q024",
+      "q": "Who yields when entering a roadway from a driveway?",
+      "correct": "The driver leaving the driveway",
+      "incorrect": [
+        "Traffic already on the road",
+        "Whoever is closest to a stop sign",
+        "Pedestrians on the sidewalk"
+      ],
+      "why_correct": "Drivers entering a road from a driveway must yield to traffic already on the roadway.",
+      "why_wrong": [
+        "Traffic on the road already has the right of way.",
+        "Stop sign proximity doesn't apply here.",
+        "Pedestrians already have the right of way, so this isn't the correct answer."
+      ],
+      "concepts": [
+        "right-of-way"
+      ]
+    },
+    {
+      "id": "q025",
+      "q": "At a stop sign and a yield sign meeting at the same intersection, who has the right of way?",
+      "correct": "The stopped driver at the stop sign",
+      "incorrect": [
+        "The driver at the yield sign",
+        "Whoever happens to arrive first",
+        "Neither driver has priority"
+      ],
+      "why_correct": "A driver who has fully stopped and checked traffic may proceed with the right of way over the yielding driver.",
+      "why_wrong": [
+        "The yield-sign driver must wait for a safe gap.",
+        "Sign type, not arrival order, controls this intersection.",
+        "One driver does have the right of way here."
+      ],
+      "concepts": [
+        "right-of-way"
+      ]
+    },
+    {
+      "id": "q026",
+      "q": "Who has the right of way when merging onto a highway?",
+      "correct": "Traffic already on the highway",
+      "incorrect": [
+        "The merging vehicle",
+        "Whoever is driving faster",
+        "The vehicle in the left lane"
+      ],
+      "why_correct": "Merging drivers must yield to traffic already traveling on the highway.",
+      "why_wrong": [
+        "The merging vehicle must yield, not take the right of way.",
+        "Speed doesn't grant right of way when merging.",
+        "Lane position doesn't override the merging rule."
+      ],
+      "concepts": [
+        "right-of-way"
+      ]
+    },
+    {
+      "id": "q027",
+      "q": "Who must yield when a traffic signal is not working?",
+      "correct": "Treat it like a four-way stop",
+      "incorrect": [
+        "Whoever has a green light memory",
+        "Only northbound traffic",
+        "No one; proceed normally"
+      ],
+      "why_correct": "A dead traffic signal should be treated as an all-way stop for safety.",
+      "why_wrong": [
+        "A broken signal shows no light at all.",
+        "There's no rule favoring one direction at a dead signal.",
+        "Proceeding without caution is unsafe at a dead signal."
+      ],
+      "concepts": [
+        "right-of-way",
+        "signals"
+      ]
+    },
+    {
+      "id": "q028",
+      "q": "What is the minimum following distance recommended in good conditions?",
+      "correct": "3 seconds",
+      "incorrect": [
+        "1 second",
+        "10 seconds",
+        "30 seconds"
+      ],
+      "why_correct": "A 3-second gap gives you time to react if the car ahead stops suddenly.",
+      "why_wrong": [
+        "1 second leaves far too little reaction time.",
+        "10 seconds is excessive for normal traffic flow.",
+        "30 seconds is unrealistic for everyday driving."
+      ],
+      "concepts": [
+        "following-distance"
+      ],
+      "tip": "3 seconds minimum, more in bad weather."
+    },
+    {
+      "id": "q029",
+      "q": "How should you adjust following distance in rain or fog?",
+      "correct": "Increase it beyond 3 seconds",
+      "incorrect": [
+        "Keep it the same",
+        "Decrease it slightly",
+        "Tailgate to see better"
+      ],
+      "why_correct": "Poor visibility and traction require extra following distance for safe stopping.",
+      "why_wrong": [
+        "Conditions require more space, not the same amount.",
+        "Reducing distance is more dangerous in poor conditions.",
+        "Tailgating is unsafe and doesn't improve visibility."
+      ],
+      "concepts": [
+        "following-distance",
+        "weather"
+      ]
+    },
+    {
+      "id": "q030",
+      "q": "Why should you leave extra space when following a motorcycle?",
+      "correct": "Motorcycles can stop very quickly",
+      "incorrect": [
+        "Motorcycles are wider than cars",
+        "Motorcycles must yield to cars",
+        "Motorcycles ignore following distance"
+      ],
+      "why_correct": "Motorcycles can decelerate faster than cars, so extra space avoids rear-ending them.",
+      "why_wrong": [
+        "Motorcycles are narrower than cars, not wider.",
+        "Motorcycles have the same right of way as cars.",
+        "This isn't a real traffic rule."
+      ],
+      "concepts": [
+        "following-distance",
+        "motorcycles"
+      ]
+    },
+    {
+      "id": "q031",
+      "q": "What should you do if a driver tailgates you?",
+      "correct": "Slow down slightly and let them pass",
+      "incorrect": [
+        "Brake suddenly to warn them",
+        "Speed up to lose them",
+        "Ignore them and keep going"
+      ],
+      "why_correct": "Slowing gently and allowing them to pass reduces the risk of a rear-end crash.",
+      "why_wrong": [
+        "Sudden braking can cause the tailgater to hit you.",
+        "Speeding up can escalate a dangerous situation.",
+        "Ignoring a tailgater doesn't reduce your risk."
+      ],
+      "concepts": [
+        "following-distance"
+      ]
+    },
+    {
+      "id": "q032",
+      "q": "Who in North Carolina is required to wear a seat belt?",
+      "correct": "Every driver and passenger",
+      "incorrect": [
+        "Only the driver",
+        "Only front-seat passengers",
+        "Only passengers under 18"
+      ],
+      "why_correct": "NC law requires all occupants, front and back, to wear seat belts.",
+      "why_wrong": [
+        "Passengers are also required to buckle up.",
+        "Rear-seat passengers must buckle up too.",
+        "The requirement applies to occupants of all ages."
+      ],
+      "concepts": [
+        "seat-belts"
+      ]
+    },
+    {
+      "id": "q033",
+      "q": "Until what age must a child ride in a car or booster seat in NC?",
+      "correct": "Age 8 or 80 pounds",
+      "incorrect": [
+        "Age 4 or 40 pounds",
+        "Age 12 regardless of weight",
+        "Age 2 only"
+      ],
+      "why_correct": "NC law requires a car or booster seat until a child turns 8 or reaches 80 pounds.",
+      "why_wrong": [
+        "That threshold is too young under NC law.",
+        "Age 12 is beyond what NC law requires.",
+        "Age 2 is only the rear-facing guideline, not the full requirement."
+      ],
+      "concepts": [
+        "child-safety"
+      ]
+    },
+    {
+      "id": "q034",
+      "q": "Until what age should a child ride rear-facing in NC?",
+      "correct": "At least age 2",
+      "incorrect": [
+        "Age 5",
+        "Age 1",
+        "No requirement"
+      ],
+      "why_correct": "Children should remain rear-facing until at least age 2 for better crash protection.",
+      "why_wrong": [
+        "Age 5 is well past the rear-facing guideline.",
+        "Age 1 is younger than the recommended minimum.",
+        "NC does have a rear-facing safety guideline."
+      ],
+      "concepts": [
+        "child-safety"
+      ]
+    },
+    {
+      "id": "q035",
+      "q": "Where is the safest place for a child's car seat?",
+      "correct": "The back seat",
+      "incorrect": [
+        "The front passenger seat",
+        "The driver's lap",
+        "Anywhere with a seat belt"
+      ],
+      "why_correct": "Airbags can injure young children, so the back seat is safest for car seats.",
+      "why_wrong": [
+        "Front airbags pose a serious risk to small children.",
+        "Holding a child is never a safe restraint method.",
+        "Placement in the back seat matters, not just belt access."
+      ],
+      "concepts": [
+        "child-safety"
+      ]
+    },
+    {
+      "id": "q036",
+      "q": "Why are seat belts required even for short trips?",
+      "correct": "Most crashes happen close to home",
+      "incorrect": [
+        "Police only check on highways",
+        "Short trips have no risk",
+        "It's only a suggestion"
+      ],
+      "why_correct": "Statistically, many crashes occur on familiar roads close to home.",
+      "why_wrong": [
+        "Seat belt laws apply everywhere, not just highways.",
+        "Any trip carries some crash risk.",
+        "Seat belt use is a legal requirement, not optional."
+      ],
+      "concepts": [
+        "seat-belts"
+      ]
+    },
+    {
+      "id": "q037",
+      "q": "What is the main purpose of a seat belt?",
+      "correct": "Keep you inside the vehicle during a crash",
+      "incorrect": [
+        "Improve your vehicle's fuel economy",
+        "Prevent you from getting speeding tickets",
+        "Reduce noise inside the vehicle cabin"
+      ],
+      "why_correct": "Seat belts keep occupants from being ejected or thrown into the interior during a collision.",
+      "why_wrong": [
+        "Seat belts have no effect on fuel economy.",
+        "They don't relate to speeding enforcement.",
+        "They have no effect on road noise."
+      ],
+      "concepts": [
+        "seat-belts"
+      ]
+    },
+    {
+      "id": "q038",
+      "q": "What is NC's first stage of licensing for a teen driver called?",
+      "correct": "Level 1 Limited Learner Permit",
+      "incorrect": [
+        "Level 3 Full Provisional License",
+        "Level 2 Limited Provisional License",
+        "A standard license"
+      ],
+      "why_correct": "The Limited Learner Permit is the first step in NC's graduated licensing system.",
+      "why_wrong": [
+        "That is the final, unrestricted stage.",
+        "That is the second stage, not the first.",
+        "A standard license comes only after all GDL stages."
+      ],
+      "concepts": [
+        "gdl",
+        "permit"
+      ]
+    },
+    {
+      "id": "q039",
+      "q": "Who must ride in the front seat with a Limited Learner Permit driver?",
+      "correct": "A licensed driver at least 21",
+      "incorrect": [
+        "Any licensed adult",
+        "A parent only, regardless of age",
+        "No supervision is required"
+      ],
+      "why_correct": "NC requires a supervising driver who is licensed and at least 21 years old.",
+      "why_wrong": [
+        "The supervisor must specifically be 21 or older.",
+        "A parent under 21 would not meet the age requirement.",
+        "Supervision is required at all times on a learner permit."
+      ],
+      "concepts": [
+        "gdl",
+        "permit"
+      ],
+      "tip": "Supervisor must be 21+ and licensed."
+    },
+    {
+      "id": "q040",
+      "q": "How many hours of supervised driving are required before advancing past Level 1 in NC?",
+      "correct": "60 hours, including 10 at night",
+      "incorrect": [
+        "10 hours total",
+        "100 hours, including 50 at night",
+        "No hours are required"
+      ],
+      "why_correct": "NC requires 60 logged supervised hours, with at least 10 of them after dark.",
+      "why_wrong": [
+        "10 hours is far below the required amount.",
+        "100 hours overstates NC's actual requirement.",
+        "Logged hours are required to advance levels."
+      ],
+      "concepts": [
+        "gdl",
+        "permit"
+      ]
+    },
+    {
+      "id": "q041",
+      "q": "Can a Level 1 permit holder use a cell phone while driving?",
+      "correct": "No, it's fully prohibited",
+      "incorrect": [
+        "Yes, if hands-free",
+        "Yes, only for GPS",
+        "Yes, if stopped at a light"
+      ],
+      "why_correct": "Drivers under 18 in NC may not use a cell phone at all while driving, even hands-free.",
+      "why_wrong": [
+        "Hands-free use is still banned for drivers under 18.",
+        "GPS apps still count as cell phone use under the law.",
+        "The ban applies whenever the vehicle is in traffic, including stops."
+      ],
+      "concepts": [
+        "gdl",
+        "distracted-driving"
+      ]
+    },
+    {
+      "id": "q042",
+      "q": "How long must a driver hold a Level 1 Limited Learner Permit before advancing?",
+      "correct": "At least 12 months",
+      "incorrect": [
+        "At least 1 month",
+        "At least 5 years",
+        "There is no minimum"
+      ],
+      "why_correct": "NC requires at least 12 months on Level 1 before moving to Level 2, absent a clean record.",
+      "why_wrong": [
+        "1 month is far shorter than the required period.",
+        "5 years is much longer than required.",
+        "There is a required minimum holding period."
+      ],
+      "concepts": [
+        "gdl",
+        "permit"
+      ]
+    },
+    {
+      "id": "q043",
+      "q": "What is NC's second stage of graduated licensing called?",
+      "correct": "Level 2 Limited Provisional License",
+      "incorrect": [
+        "Level 1 Limited Learner Permit",
+        "Level 3 Full Provisional License",
+        "Commercial learner permit"
+      ],
+      "why_correct": "Level 2 follows the learner permit and allows some unsupervised driving.",
+      "why_wrong": [
+        "Level 1 is the first stage, before Level 2.",
+        "Level 3 is the third and final stage.",
+        "A commercial permit is unrelated to teen GDL stages."
+      ],
+      "concepts": [
+        "gdl"
+      ]
+    },
+    {
+      "id": "q044",
+      "q": "What passenger restriction applies to Level 1 and Level 2 drivers?",
+      "correct": "Only one non-family passenger under 21",
+      "incorrect": [
+        "No passengers ever allowed",
+        "Unlimited passengers allowed",
+        "Only passengers over 21 allowed"
+      ],
+      "why_correct": "Unless a supervising driver is present, only one passenger under 21 outside the immediate family is allowed.",
+      "why_wrong": [
+        "Family passengers are still allowed without limit.",
+        "Passenger numbers are limited, not unlimited.",
+        "The restriction is about non-family passengers under 21, not over."
+      ],
+      "concepts": [
+        "gdl"
+      ]
+    },
+    {
+      "id": "q045",
+      "q": "When can a Level 1 permit holder drive at night unsupervised?",
+      "correct": "Never; supervision is always required",
+      "incorrect": [
+        "After 9 pm with a friend",
+        "Anytime after passing driver's ed",
+        "On weekends without supervision"
+      ],
+      "why_correct": "A Level 1 driver must always have a supervising licensed driver present, day or night.",
+      "why_wrong": [
+        "A friend does not meet the supervising driver requirement.",
+        "Driver's ed completion doesn't remove the supervision rule.",
+        "The supervision requirement applies every day, not just weekdays."
+      ],
+      "concepts": [
+        "gdl"
+      ]
+    },
+    {
+      "id": "q046",
+      "q": "What is required to move from Level 2 to Level 3 in NC?",
+      "correct": "6 clean months on Level 2",
+      "incorrect": [
+        "Just 1 month, any record",
+        "Simply turning 21 years old",
+        "A second written exam only"
+      ],
+      "why_correct": "Level 2 drivers need at least 6 months of violation-free driving to reach full privileges.",
+      "why_wrong": [
+        "1 month is shorter than the required holding period.",
+        "Reaching age 21 isn't the requirement; a set holding period is.",
+        "A second written exam alone isn't what advances a license level."
+      ],
+      "concepts": [
+        "gdl"
+      ]
+    },
+    {
+      "id": "q047",
+      "q": "Until what age does NC's cell phone ban for drivers apply?",
+      "correct": "Until age 18",
+      "incorrect": [
+        "Until age 16",
+        "Until age 21",
+        "No age limit applies"
+      ],
+      "why_correct": "The full cell phone ban applies to all drivers under 18, across every GDL level.",
+      "why_wrong": [
+        "16-year-olds are still under the ban, not past it.",
+        "21 overstates the cutoff; it ends at 18.",
+        "The ban does have an age cutoff, at 18."
+      ],
+      "concepts": [
+        "gdl",
+        "distracted-driving"
+      ]
+    },
+    {
+      "id": "q048",
+      "q": "What must a Level 1 permit holder do before getting a permit?",
+      "correct": "Pass a knowledge and vision test",
+      "incorrect": [
+        "Complete a road trip alone",
+        "Purchase their own personal vehicle",
+        "Already turn 18 years old"
+      ],
+      "why_correct": "Applicants must pass DMV knowledge and vision tests to receive a Level 1 permit.",
+      "why_wrong": [
+        "Solo driving isn't allowed before even holding a permit.",
+        "Vehicle ownership isn't a licensing requirement.",
+        "Level 1 permits are available well before age 18."
+      ],
+      "concepts": [
+        "gdl",
+        "permit"
+      ]
+    },
+    {
+      "id": "q049",
+      "q": "What happens if a Level 1 or Level 2 driver gets a moving violation?",
+      "correct": "Their next-level advancement may be delayed",
+      "incorrect": [
+        "Nothing about their status changes",
+        "Their permit is upgraded early",
+        "They must only retake driver's ed"
+      ],
+      "why_correct": "A violation can reset or extend the waiting period required before advancing.",
+      "why_wrong": [
+        "A violation does affect their GDL progress.",
+        "A violation delays advancement, it doesn't speed it up.",
+        "Retaking a course isn't the standard consequence of a violation."
+      ],
+      "concepts": [
+        "gdl"
+      ]
+    },
+    {
+      "id": "q050",
+      "q": "What is NC's legal BAC limit for drivers 21 and older?",
+      "correct": "0.08",
+      "incorrect": [
+        "0.05",
+        "0.10",
+        "0.02"
+      ],
+      "why_correct": "NC sets the legal blood alcohol limit at 0.08 for drivers 21 and older.",
+      "why_wrong": [
+        "0.05 is stricter than NC's actual legal limit.",
+        "0.10 is higher than the legal limit.",
+        "0.02 is the youth zero-tolerance range, not the adult limit."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q051",
+      "q": "What is NC's BAC limit for drivers under 21?",
+      "correct": "Any measurable amount of alcohol",
+      "incorrect": [
+        "0.08, same as adults",
+        "A limit of 0.05",
+        "A limit of 1.0"
+      ],
+      "why_correct": "NC has a zero-tolerance law: drivers under 21 may not have any measurable alcohol in their system.",
+      "why_wrong": [
+        "Under-21 drivers face a stricter standard than adults.",
+        "0.05 is still too high for the zero-tolerance rule.",
+        "1.0 would be an extremely and unrealistically high value."
+      ],
+      "concepts": [
+        "dui"
+      ],
+      "tip": "Under 21 = zero tolerance."
+    },
+    {
+      "id": "q052",
+      "q": "What is the legal BAC limit for commercial drivers in NC?",
+      "correct": "0.04",
+      "incorrect": [
+        "0.08",
+        "0.02",
+        "0.10"
+      ],
+      "why_correct": "Commercial drivers face a stricter 0.04 BAC limit due to the size of their vehicles.",
+      "why_wrong": [
+        "0.08 is the standard adult limit, not the commercial one.",
+        "0.02 is stricter than NC's actual commercial limit.",
+        "0.10 is above even the standard adult limit."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q053",
+      "q": "What is NC's implied consent law about?",
+      "correct": "Agreeing to chemical testing when you drive",
+      "incorrect": [
+        "Agreeing to pay all traffic tickets",
+        "Agreeing to carry insurance",
+        "Agreeing to wear a seat belt"
+      ],
+      "why_correct": "By driving in NC, you agree to submit to chemical testing if suspected of DUI.",
+      "why_wrong": [
+        "Implied consent is unrelated to how tickets are paid.",
+        "Insurance requirements are a separate law.",
+        "Seat belt use is a separate, unrelated law."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q054",
+      "q": "What can happen if you refuse a chemical test after a DUI stop?",
+      "correct": "Your license can be revoked",
+      "incorrect": [
+        "Nothing happens",
+        "You get a warning only",
+        "Your car is impounded permanently"
+      ],
+      "why_correct": "Refusing a test under implied consent leads to automatic license revocation.",
+      "why_wrong": [
+        "Refusal carries a real legal consequence.",
+        "The consequence is more serious than a warning.",
+        "Impoundment isn't the standard automatic penalty for refusal."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q055",
+      "q": "Why is driving under the influence of drugs also illegal, not just alcohol?",
+      "correct": "Drugs can impair driving ability too",
+      "incorrect": [
+        "It's only illegal for prescription drugs",
+        "It's only illegal for illegal drugs",
+        "It's not actually illegal"
+      ],
+      "why_correct": "NC's DUI laws cover any substance, legal or illegal, that impairs your ability to drive.",
+      "why_wrong": [
+        "Both legal and illegal drugs are covered by DUI law.",
+        "Illegal drugs alone don't define the full scope of the law.",
+        "Driving impaired by drugs is illegal in NC."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q056",
+      "q": "What is one effect alcohol has on driving ability?",
+      "correct": "Slower reaction time",
+      "incorrect": [
+        "Sharper night vision",
+        "Improved judgment",
+        "Faster reflexes"
+      ],
+      "why_correct": "Alcohol slows reaction time, making it harder to respond to hazards.",
+      "why_wrong": [
+        "Alcohol worsens night vision, not sharpens it.",
+        "Alcohol impairs judgment rather than improving it.",
+        "Alcohol slows reflexes rather than speeding them up."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q057",
+      "q": "Besides fines, what is a common penalty for a first DUI conviction?",
+      "correct": "License suspension",
+      "incorrect": [
+        "A free driving course",
+        "No real penalty",
+        "A permanent warning only"
+      ],
+      "why_correct": "A DUI conviction typically results in license suspension along with fines.",
+      "why_wrong": [
+        "Courses may be required, but they aren't a reward.",
+        "DUI convictions carry real penalties.",
+        "Suspension is a concrete penalty, not just a warning."
+      ],
+      "concepts": [
+        "dui"
+      ]
+    },
+    {
+      "id": "q058",
+      "q": "What should you do when you see a stopped police car with lights flashing on the shoulder?",
+      "correct": "Move over a lane or slow down",
+      "incorrect": [
+        "Speed past without slowing down",
+        "Stop suddenly in your lane",
+        "Just flash your headlights"
+      ],
+      "why_correct": "NC's Move Over Law requires changing lanes away from the vehicle or slowing down if you can't.",
+      "why_wrong": [
+        "Speeding past increases risk to responders.",
+        "Stopping in your lane can cause a crash.",
+        "Flashing headlights doesn't satisfy the legal requirement."
+      ],
+      "concepts": [
+        "emergency-vehicles",
+        "move-over"
+      ]
+    },
+    {
+      "id": "q059",
+      "q": "Does the Move Over Law apply to tow trucks and utility vehicles with flashing lights?",
+      "correct": "Yes, it applies to them too",
+      "incorrect": [
+        "No, only to police cars",
+        "No, only to ambulances",
+        "No, only to fire trucks"
+      ],
+      "why_correct": "NC's Move Over Law covers law enforcement, EMS, fire, utility, and DOT vehicles.",
+      "why_wrong": [
+        "The law covers more than just police vehicles.",
+        "The law covers more than just ambulances.",
+        "The law covers more than just fire trucks."
+      ],
+      "concepts": [
+        "emergency-vehicles",
+        "move-over"
+      ]
+    },
+    {
+      "id": "q060",
+      "q": "What should you do if an ambulance approaches from behind with sirens on?",
+      "correct": "Pull to the right and stop",
+      "incorrect": [
+        "Speed up to clear the intersection",
+        "Stop immediately in your lane",
+        "Pull to the left and stop"
+      ],
+      "why_correct": "Pulling right and stopping gives emergency vehicles a clear path to pass.",
+      "why_wrong": [
+        "Speeding up can put you in the ambulance's path.",
+        "Stopping in your lane can block the ambulance.",
+        "Emergency vehicles expect drivers to move right, not left."
+      ],
+      "concepts": [
+        "emergency-vehicles"
+      ]
+    },
+    {
+      "id": "q061",
+      "q": "Can you follow a fire truck responding to an emergency?",
+      "correct": "No, keep a safe distance back",
+      "incorrect": [
+        "Yes, to save time at lights",
+        "Yes, if your hazards are on",
+        "Yes, if you also have an emergency"
+      ],
+      "why_correct": "Following an emergency vehicle too closely is illegal and dangerous.",
+      "why_wrong": [
+        "Following closely for convenience is not permitted.",
+        "Hazard lights don't grant special following privileges.",
+        "Only the emergency vehicle's own priority applies here."
+      ],
+      "concepts": [
+        "emergency-vehicles"
+      ]
+    },
+    {
+      "id": "q062",
+      "q": "What should you do at an intersection when you hear a siren but can't see the vehicle?",
+      "correct": "Prepare to yield and pull over safely",
+      "incorrect": [
+        "Continue driving as normal",
+        "Speed through the intersection quickly",
+        "Stop instantly wherever you are"
+      ],
+      "why_correct": "Slow down and be ready to pull over once you locate the emergency vehicle.",
+      "why_wrong": [
+        "Ignoring a siren risks blocking an emergency response.",
+        "Speeding through an intersection with a siren nearby is dangerous.",
+        "Stopping instantly, even in traffic, can cause a collision."
+      ],
+      "concepts": [
+        "emergency-vehicles"
+      ]
+    },
+    {
+      "id": "q063",
+      "q": "When is it illegal to pass another vehicle?",
+      "correct": "On a solid yellow line",
+      "incorrect": [
+        "On a dashed white line",
+        "On an empty highway",
+        "In a passing lane"
+      ],
+      "why_correct": "A solid yellow line on your side means passing is prohibited there.",
+      "why_wrong": [
+        "Dashed white lines typically allow lane changes.",
+        "Road emptiness doesn't override the line markings.",
+        "Passing lanes exist specifically to allow passing."
+      ],
+      "concepts": [
+        "passing"
+      ]
+    },
+    {
+      "id": "q064",
+      "q": "How should you pass a vehicle on a two-lane road?",
+      "correct": "Use the opposing lane when clear and legal",
+      "incorrect": [
+        "Pass using the right shoulder",
+        "Pass without checking oncoming traffic",
+        "Only pass safely at night"
+      ],
+      "why_correct": "Passing requires a clear opposing lane and a legal passing zone.",
+      "why_wrong": [
+        "Passing on the shoulder is unsafe and illegal.",
+        "You must always check for oncoming traffic first.",
+        "Passing rules apply at any time of day, not just night."
+      ],
+      "concepts": [
+        "passing"
+      ]
+    },
+    {
+      "id": "q065",
+      "q": "What does a solid yellow line paired with a dashed yellow line mean?",
+      "correct": "Passing is allowed from the dashed side",
+      "incorrect": [
+        "Passing is allowed from both sides",
+        "Passing is never allowed here",
+        "It just marks a bike lane"
+      ],
+      "why_correct": "Only the driver on the dashed-line side may pass; the solid-line side may not.",
+      "why_wrong": [
+        "Only one side may legally pass in this situation.",
+        "The solid side is prohibited from passing.",
+        "This marking is about passing zones, not bike lanes."
+      ],
+      "concepts": [
+        "passing"
+      ]
+    },
+    {
+      "id": "q066",
+      "q": "When passing a cyclist, how much clearance does NC law require?",
+      "correct": "At least 4 feet",
+      "incorrect": [
+        "At least 6 inches",
+        "At least 1 foot",
+        "No specific distance"
+      ],
+      "why_correct": "NC law requires drivers to leave at least 4 feet when passing a bicyclist.",
+      "why_wrong": [
+        "6 inches is far too close to be legal or safe.",
+        "1 foot is still much less than NC's required clearance.",
+        "NC does specify a minimum passing distance."
+      ],
+      "concepts": [
+        "passing",
+        "bicycles"
+      ],
+      "tip": "NC bike passing = 4 feet minimum."
+    },
+    {
+      "id": "q067",
+      "q": "Where is passing usually prohibited automatically?",
+      "correct": "Near curves and hills with poor sight",
+      "incorrect": [
+        "On straight, open rural roads",
+        "In lanes marked for passing",
+        "On wide, open highways"
+      ],
+      "why_correct": "Blind curves and hill crests hide oncoming traffic, making passing dangerous there.",
+      "why_wrong": [
+        "Straight roads with good visibility are often legal passing zones.",
+        "Passing lanes are designed for passing.",
+        "Wide, visible highways aren't automatically no-passing zones."
+      ],
+      "concepts": [
+        "passing"
+      ]
+    },
+    {
+      "id": "q068",
+      "q": "What should you do before passing another vehicle?",
+      "correct": "Signal, then check mirrors and blind spot",
+      "incorrect": [
+        "Just check your rearview mirror",
+        "Just honk and pass immediately",
+        "Just flash your brights"
+      ],
+      "why_correct": "A full check of mirrors and blind spots, plus a signal, keeps a pass safe.",
+      "why_wrong": [
+        "A rearview check alone misses the blind spot.",
+        "Honking doesn't replace checking for a safe gap.",
+        "Flashing lights isn't a substitute for checking traffic."
+      ],
+      "concepts": [
+        "passing"
+      ]
+    },
+    {
+      "id": "q069",
+      "q": "Is turning right on red allowed in NC?",
+      "correct": "Yes, after a full stop, unless posted",
+      "incorrect": [
+        "No, it is never allowed",
+        "Yes, without stopping at all",
+        "Only outside the city limits"
+      ],
+      "why_correct": "Right turns on red are legal in NC after stopping, unless a sign says otherwise.",
+      "why_wrong": [
+        "Right on red is generally allowed with conditions.",
+        "A full stop is required before turning.",
+        "The rule applies statewide, not just outside cities."
+      ],
+      "concepts": [
+        "turning"
+      ]
+    },
+    {
+      "id": "q070",
+      "q": "Is turning left on red allowed from a one-way street onto another one-way street?",
+      "correct": "Yes, after a full stop",
+      "incorrect": [
+        "No, it's always illegal",
+        "Yes, without stopping",
+        "Only for buses"
+      ],
+      "why_correct": "NC allows a left turn on red from a one-way street onto another one-way street after stopping.",
+      "why_wrong": [
+        "It is allowed under specific one-way conditions.",
+        "A stop is still required before turning.",
+        "The rule applies to all drivers, not just buses."
+      ],
+      "concepts": [
+        "turning"
+      ]
+    },
+    {
+      "id": "q071",
+      "q": "When must you signal before turning?",
+      "correct": "At least 100 feet before the turn",
+      "incorrect": [
+        "Only while actually turning",
+        "Only immediately after turning",
+        "Signaling is never required"
+      ],
+      "why_correct": "Signaling about 100 feet ahead gives other drivers time to react.",
+      "why_wrong": [
+        "Signaling only during the turn gives others no warning.",
+        "Signaling after the turn defeats its purpose.",
+        "NC law requires signaling for turns and lane changes."
+      ],
+      "concepts": [
+        "turning",
+        "signaling"
+      ]
+    },
+    {
+      "id": "q072",
+      "q": "What should you check before making a U-turn?",
+      "correct": "That it's legal and you can see clearly",
+      "incorrect": [
+        "Only that no cars are directly behind you",
+        "Nothing, since U-turns are always allowed",
+        "Only checking your rearview mirror"
+      ],
+      "why_correct": "U-turns require full visibility and must not be prohibited by signs or markings.",
+      "why_wrong": [
+        "Traffic from any direction matters, not just directly behind.",
+        "U-turns are restricted in many locations.",
+        "A single mirror check misses your blind spots."
+      ],
+      "concepts": [
+        "turning"
+      ]
+    },
+    {
+      "id": "q073",
+      "q": "Where are U-turns commonly prohibited?",
+      "correct": "Near curves, signed intersections, and railroad crossings",
+      "incorrect": [
+        "On any wide, open street",
+        "Only within parking lots",
+        "Only on one-way streets"
+      ],
+      "why_correct": "Limited visibility spots and posted signs are common places U-turns are banned.",
+      "why_wrong": [
+        "Wide streets aren't automatically off-limits for U-turns.",
+        "The restriction isn't limited to parking lots.",
+        "The restriction isn't limited to one-way streets."
+      ],
+      "concepts": [
+        "turning"
+      ]
+    },
+    {
+      "id": "q074",
+      "q": "What lane should you turn into after a left turn?",
+      "correct": "The nearest available lane going your direction",
+      "incorrect": [
+        "Any open lane, regardless of position",
+        "The lane furthest from your turn",
+        "Whichever lane is fastest"
+      ],
+      "why_correct": "Turning into the nearest lane keeps your path predictable and legal.",
+      "why_wrong": [
+        "Turning into a far lane can cross other traffic unsafely.",
+        "The furthest lane is the wrong choice, not the correct one.",
+        "Lane choice should follow position, not just speed."
+      ],
+      "concepts": [
+        "turning"
+      ]
+    },
+    {
+      "id": "q075",
+      "q": "How close can you legally park to a fire hydrant in NC?",
+      "correct": "No closer than 10 feet",
+      "incorrect": [
+        "Right next to it",
+        "Within 2 feet",
+        "There is no restriction"
+      ],
+      "why_correct": "NC law prohibits parking within 10 feet of a fire hydrant.",
+      "why_wrong": [
+        "Parking beside a hydrant blocks emergency access.",
+        "2 feet is still far closer than the legal minimum.",
+        "A minimum distance is required by law."
+      ],
+      "concepts": [
+        "parking"
+      ]
+    },
+    {
+      "id": "q076",
+      "q": "How close can you park to a stop sign or traffic signal?",
+      "correct": "No closer than 30 feet",
+      "incorrect": [
+        "Right up to the sign",
+        "Within 5 feet",
+        "There is no limit"
+      ],
+      "why_correct": "Parking within 30 feet of a stop sign or signal can block visibility and is prohibited.",
+      "why_wrong": [
+        "Parking directly at the sign blocks sightlines.",
+        "5 feet is much closer than the legal minimum.",
+        "A specific minimum distance is required."
+      ],
+      "concepts": [
+        "parking"
+      ]
+    },
+    {
+      "id": "q077",
+      "q": "Can you park in a crosswalk?",
+      "correct": "No, it's prohibited",
+      "incorrect": [
+        "Yes, briefly is fine",
+        "Yes, if hazards are on",
+        "Yes, on weekends"
+      ],
+      "why_correct": "Parking in a crosswalk blocks pedestrians and is illegal.",
+      "why_wrong": [
+        "Even brief parking in a crosswalk is not allowed.",
+        "Hazard lights don't make illegal parking legal.",
+        "The rule applies every day, not just weekdays."
+      ],
+      "concepts": [
+        "parking"
+      ]
+    },
+    {
+      "id": "q078",
+      "q": "Where is parking prohibited near a railroad crossing?",
+      "correct": "Within 50 feet of the tracks",
+      "incorrect": [
+        "Within 5 feet of the tracks",
+        "There is no restriction",
+        "Only if a train is coming"
+      ],
+      "why_correct": "Parking within 50 feet of railroad tracks is prohibited for safety.",
+      "why_wrong": [
+        "5 feet understates the required legal distance.",
+        "A specific parking restriction does apply here.",
+        "The restriction applies regardless of an approaching train."
+      ],
+      "concepts": [
+        "parking",
+        "railroad"
+      ]
+    },
+    {
+      "id": "q079",
+      "q": "Can you park on a bridge or in a tunnel?",
+      "correct": "No, it's prohibited",
+      "incorrect": [
+        "Yes, if there's a shoulder",
+        "Yes, briefly during traffic",
+        "Yes, at night only"
+      ],
+      "why_correct": "Parking on bridges and in tunnels is banned due to limited space and visibility.",
+      "why_wrong": [
+        "A shoulder doesn't make bridge or tunnel parking legal.",
+        "Brief parking there is still not allowed.",
+        "The prohibition applies at all times, not just at night."
+      ],
+      "concepts": [
+        "parking"
+      ]
+    },
+    {
+      "id": "q080",
+      "q": "What does a curb painted red typically mean?",
+      "correct": "No stopping or parking",
+      "incorrect": [
+        "Loading zone only",
+        "Reserved for buses only",
+        "Handicap parking only"
+      ],
+      "why_correct": "A red curb means no stopping, standing, or parking at any time.",
+      "why_wrong": [
+        "Loading zones are usually marked yellow, not red.",
+        "Bus zones may be marked differently depending on the area.",
+        "Handicap spots use a blue marking, not red."
+      ],
+      "concepts": [
+        "parking"
+      ]
+    },
+    {
+      "id": "q081",
+      "q": "What should you do when a railroad crossing signal is flashing?",
+      "correct": "Stop and wait for the train to pass",
+      "incorrect": [
+        "Speed up to cross quickly",
+        "Proceed if you don't see a train",
+        "Honk your horn and continue"
+      ],
+      "why_correct": "Flashing lights mean a train is approaching; you must stop and wait.",
+      "why_wrong": [
+        "Racing a train across tracks is extremely dangerous.",
+        "Trust the signal even if a train isn't visible yet.",
+        "Honking doesn't override the need to stop."
+      ],
+      "concepts": [
+        "railroad"
+      ]
+    },
+    {
+      "id": "q082",
+      "q": "How far from railroad tracks should you stop when required?",
+      "correct": "Between 15 and 50 feet away",
+      "incorrect": [
+        "Right up at the tracks",
+        "At least 100 feet away",
+        "There is no set distance"
+      ],
+      "why_correct": "Vehicles required to stop must do so 15 to 50 feet from the nearest rail.",
+      "why_wrong": [
+        "Stopping right at the tracks is unsafe.",
+        "100 feet is farther than the standard requirement.",
+        "A specific stopping range is defined for railroad crossings."
+      ],
+      "concepts": [
+        "railroad"
+      ]
+    },
+    {
+      "id": "q083",
+      "q": "What should you never do at a railroad crossing?",
+      "correct": "Stop on the tracks",
+      "incorrect": [
+        "Look both ways",
+        "Slow down to check for trains",
+        "Turn off the radio to listen"
+      ],
+      "why_correct": "Never stop on the tracks, even in traffic; a train cannot swerve or brake in time.",
+      "why_wrong": [
+        "Looking both ways is a recommended safety step.",
+        "Slowing down to check is safe and advised.",
+        "Reducing distractions to listen is a good practice."
+      ],
+      "concepts": [
+        "railroad"
+      ]
+    },
+    {
+      "id": "q084",
+      "q": "If your vehicle stalls on railroad tracks, what should you do first?",
+      "correct": "Get everyone out and away from the tracks",
+      "incorrect": [
+        "Try to push the car off yourself",
+        "Just wait inside for help",
+        "Call the railroad company first"
+      ],
+      "why_correct": "Safety comes first: exit and move away before doing anything else.",
+      "why_wrong": [
+        "Trying to push a stalled car risks your safety.",
+        "Waiting inside puts you directly in danger.",
+        "Getting to safety comes before making any calls."
+      ],
+      "concepts": [
+        "railroad"
+      ]
+    },
+    {
+      "id": "q085",
+      "q": "What must you do when a school bus stops with red lights flashing?",
+      "correct": "Stop, no matter which direction you're going",
+      "incorrect": [
+        "Only stop if you're behind it",
+        "Slow down but keep going",
+        "Stop only if children are visible"
+      ],
+      "why_correct": "On most roads, traffic in both directions must stop for a bus with flashing red lights.",
+      "why_wrong": [
+        "Oncoming traffic must stop too, not just traffic behind it.",
+        "Slowing down isn't enough; a full stop is required.",
+        "You must stop regardless of whether children are visible yet."
+      ],
+      "concepts": [
+        "school-bus"
+      ]
+    },
+    {
+      "id": "q086",
+      "q": "When can oncoming traffic pass a stopped school bus without stopping?",
+      "correct": "On a divided highway with a median",
+      "incorrect": [
+        "Only when traffic is light",
+        "Only during the rush hour",
+        "Never, under any circumstances at all"
+      ],
+      "why_correct": "A physical median separating lanes allows oncoming traffic to proceed.",
+      "why_wrong": [
+        "Traffic volume doesn't change the legal requirement.",
+        "Time of day doesn't change the legal requirement.",
+        "There is a specific divided-highway exception."
+      ],
+      "concepts": [
+        "school-bus"
+      ]
+    },
+    {
+      "id": "q087",
+      "q": "How long must you remain stopped for a school bus?",
+      "correct": "Until the lights stop and the bus moves",
+      "incorrect": [
+        "For exactly 10 seconds only",
+        "Until the driver waves you on",
+        "Until other cars start moving"
+      ],
+      "why_correct": "You must wait until the bus's red lights stop and it begins moving again.",
+      "why_wrong": [
+        "There is no fixed time limit; wait for the lights to stop.",
+        "Waving isn't a signal drivers should rely on.",
+        "Other drivers moving doesn't mean it's legal to proceed."
+      ],
+      "concepts": [
+        "school-bus"
+      ]
+    },
+    {
+      "id": "q088",
+      "q": "What is the penalty risk for illegally passing a stopped school bus in NC?",
+      "correct": "Significant fines and license points",
+      "incorrect": [
+        "A verbal warning only",
+        "No penalty if no one is hurt",
+        "A small fee with no points"
+      ],
+      "why_correct": "NC imposes strict fines and license points for passing a stopped school bus illegally.",
+      "why_wrong": [
+        "The penalty is more than just a warning.",
+        "The law applies regardless of whether anyone was hurt.",
+        "Points, not just a small fee, are part of the penalty."
+      ],
+      "concepts": [
+        "school-bus"
+      ]
+    },
+    {
+      "id": "q089",
+      "q": "On an undivided two-lane road, who must stop for a school bus?",
+      "correct": "Traffic in both directions",
+      "incorrect": [
+        "Only traffic behind the bus",
+        "Only traffic in the opposite lane",
+        "No one if the bus is parked"
+      ],
+      "why_correct": "On an undivided road, all traffic must stop, since there's no barrier separating lanes.",
+      "why_wrong": [
+        "Oncoming traffic must also stop on an undivided road.",
+        "Traffic behind the bus must stop too.",
+        "A stopped bus loading or unloading still requires traffic to stop."
+      ],
+      "concepts": [
+        "school-bus"
+      ]
+    },
+    {
+      "id": "q090",
+      "q": "When are headlights legally required in NC?",
+      "correct": "30 minutes after sunset to 30 before sunrise",
+      "incorrect": [
+        "Only after 9 pm nightly",
+        "Only during any bad weather",
+        "Only while driving on highways"
+      ],
+      "why_correct": "NC law requires headlights during that half-hour window around sunset and sunrise, plus low visibility.",
+      "why_wrong": [
+        "The rule is tied to sunset and sunrise, not a fixed clock time.",
+        "Low visibility is one trigger, but timing also matters.",
+        "The rule applies on all roads, not just highways."
+      ],
+      "concepts": [
+        "headlights"
+      ]
+    },
+    {
+      "id": "q091",
+      "q": "What NC law connects windshield wipers and headlights?",
+      "correct": "Wipers in use means headlights must be on",
+      "incorrect": [
+        "Wipers have no connection to headlights",
+        "Headlights turn off wipers automatically",
+        "Only fog lights are required with wipers"
+      ],
+      "why_correct": "If you need your wipers for rain or fog, NC law requires your headlights on too.",
+      "why_wrong": [
+        "NC law specifically links the two.",
+        "Headlights and wipers operate independently, not automatically.",
+        "Standard headlights, not just fog lights, are required."
+      ],
+      "concepts": [
+        "headlights"
+      ],
+      "tip": "Wipers on = headlights on."
+    },
+    {
+      "id": "q092",
+      "q": "Why should you dim your high beams for oncoming traffic?",
+      "correct": "To avoid blinding the other driver",
+      "incorrect": [
+        "To save fuel",
+        "It's optional, not required",
+        "To signal a lane change"
+      ],
+      "why_correct": "High beams can temporarily blind oncoming drivers, creating a serious hazard.",
+      "why_wrong": [
+        "Fuel use isn't the reason for the dimming rule.",
+        "Dimming for oncoming traffic is legally required.",
+        "Dimming beams isn't a lane-change signal."
+      ],
+      "concepts": [
+        "headlights"
+      ]
+    },
+    {
+      "id": "q093",
+      "q": "What must every registered vehicle in NC carry?",
+      "correct": "Liability insurance",
+      "incorrect": [
+        "A spare tire only",
+        "A fire extinguisher",
+        "A dash camera"
+      ],
+      "why_correct": "NC requires liability insurance to cover damage or injury you may cause.",
+      "why_wrong": [
+        "A spare tire isn't a legal insurance requirement.",
+        "A fire extinguisher isn't required for private vehicles.",
+        "Dash cameras aren't a legal requirement."
+      ],
+      "concepts": [
+        "insurance"
+      ]
+    },
+    {
+      "id": "q094",
+      "q": "What can happen if you drive without required insurance in NC?",
+      "correct": "Fines and license suspension",
+      "incorrect": [
+        "Nothing, it's only a suggestion",
+        "A warning letter only",
+        "Free coverage from the state"
+      ],
+      "why_correct": "Driving without required insurance can lead to fines and losing driving privileges.",
+      "why_wrong": [
+        "Insurance is a legal requirement, not optional.",
+        "The consequences go beyond a simple warning.",
+        "The state doesn't provide free coverage for uninsured drivers."
+      ],
+      "concepts": [
+        "insurance"
+      ]
+    },
+    {
+      "id": "q095",
+      "q": "What does liability insurance help pay for?",
+      "correct": "Injuries or damage you cause to others",
+      "incorrect": [
+        "Your own car's repairs only",
+        "Your own medical bills only",
+        "Your routine vehicle maintenance"
+      ],
+      "why_correct": "Liability coverage pays for harm you cause to other people or their property.",
+      "why_wrong": [
+        "Your own vehicle damage is covered by other policy types.",
+        "Your own medical costs are covered by other policy types.",
+        "Maintenance costs aren't covered by any insurance policy."
+      ],
+      "concepts": [
+        "insurance"
+      ]
+    },
+    {
+      "id": "q096",
+      "q": "What is 'financial responsibility' in the context of driving laws?",
+      "correct": "Being able to pay for damage you cause",
+      "incorrect": [
+        "Paying your car loan on time",
+        "Filing your yearly taxes correctly",
+        "Budgeting monthly for gas money"
+      ],
+      "why_correct": "Financial responsibility laws ensure drivers can cover costs from accidents they cause.",
+      "why_wrong": [
+        "Loan payments are unrelated to this legal requirement.",
+        "Taxes are unrelated to this legal requirement.",
+        "Fuel budgeting is unrelated to this legal requirement."
+      ],
+      "concepts": [
+        "insurance"
+      ]
+    },
+    {
+      "id": "q097",
+      "q": "What system does NC DMV use to track driving violations?",
+      "correct": "A point system",
+      "incorrect": [
+        "A grade point average",
+        "A credit score",
+        "A lottery system"
+      ],
+      "why_correct": "NC uses a point system where violations add points that can lead to suspension.",
+      "why_wrong": [
+        "Grade averages are unrelated to driving records.",
+        "Credit scores are a separate financial measure.",
+        "License consequences aren't based on random selection."
+      ],
+      "concepts": [
+        "points"
+      ]
+    },
+    {
+      "id": "q098",
+      "q": "What can happen if you accumulate too many points in a short period?",
+      "correct": "License suspension",
+      "incorrect": [
+        "A cash reward",
+        "Automatic insurance discount",
+        "Nothing happens"
+      ],
+      "why_correct": "Too many points within a set period can result in a suspended license.",
+      "why_wrong": [
+        "Points lead to penalties, not rewards.",
+        "Points typically raise insurance costs, not lower them.",
+        "There are real consequences for accumulating points."
+      ],
+      "concepts": [
+        "points"
+      ]
+    },
+    {
+      "id": "q099",
+      "q": "How do insurance points differ from DMV points?",
+      "correct": "Insurance points can raise your premium",
+      "incorrect": [
+        "They are exactly the same thing",
+        "Insurance points remove DMV points",
+        "Insurance points only apply to trucks"
+      ],
+      "why_correct": "Insurance companies use their own point scale that can increase your rates.",
+      "why_wrong": [
+        "The two point systems are related but separate.",
+        "One system doesn't cancel out the other.",
+        "Insurance points apply to all insured drivers, not just trucks."
+      ],
+      "concepts": [
+        "points"
+      ]
+    },
+    {
+      "id": "q100",
+      "q": "What is one way to reduce points on your driving record?",
+      "correct": "Complete an approved driver improvement course",
+      "incorrect": [
+        "Pay a friend to take the points",
+        "Wait for a full moon",
+        "Ask a police officer to erase them"
+      ],
+      "why_correct": "NC allows completing an approved course to help offset points.",
+      "why_wrong": [
+        "Points cannot be legally transferred to someone else.",
+        "That has no bearing on your driving record.",
+        "Officers don't have authority to erase recorded points."
+      ],
+      "concepts": [
+        "points"
+      ]
+    },
+    {
+      "id": "q101",
+      "q": "Is texting while driving legal in NC?",
+      "correct": "No, it's illegal for all drivers",
+      "incorrect": [
+        "Yes, at stoplights only",
+        "Yes, if using one hand",
+        "Yes, on rural roads"
+      ],
+      "why_correct": "NC bans texting while driving for all drivers, in all locations.",
+      "why_wrong": [
+        "Texting remains illegal even when stopped in traffic.",
+        "Hand position doesn't make texting legal.",
+        "The ban applies on every type of road."
+      ],
+      "concepts": [
+        "distracted-driving"
+      ]
+    },
+    {
+      "id": "q102",
+      "q": "What is considered distracted driving?",
+      "correct": "Anything that takes attention off the road",
+      "incorrect": [
+        "Only using a phone",
+        "Only eating while driving",
+        "Only talking to passengers"
+      ],
+      "why_correct": "Distracted driving covers any visual, manual, or mental distraction, not just one type.",
+      "why_wrong": [
+        "Phone use is one example, not the only one.",
+        "Eating is one example, not the only one.",
+        "Conversation is one example, not the only one."
+      ],
+      "concepts": [
+        "distracted-driving"
+      ]
+    },
+    {
+      "id": "q103",
+      "q": "Why is distracted driving dangerous?",
+      "correct": "It slows your reaction time to hazards",
+      "incorrect": [
+        "It saves time overall",
+        "It has no real effect",
+        "It only matters at high speeds"
+      ],
+      "why_correct": "Taking your attention off the road delays your response to sudden hazards.",
+      "why_wrong": [
+        "Distraction increases crash risk, it doesn't save time safely.",
+        "Distraction has a measurable effect on crash risk.",
+        "Distraction is dangerous at any speed, not just high speed."
+      ],
+      "concepts": [
+        "distracted-driving"
+      ]
+    },
+    {
+      "id": "q104",
+      "q": "What should you do if you need to use your phone while driving?",
+      "correct": "Pull over safely first",
+      "incorrect": [
+        "Use it quickly at a red light",
+        "Hold it against the wheel",
+        "Use voice commands while merging"
+      ],
+      "why_correct": "Pulling over removes the distraction entirely before using your phone.",
+      "why_wrong": [
+        "Even brief phone use at a light is legally restricted.",
+        "Holding a phone while driving is not a safe workaround.",
+        "Using any device while merging adds risk during a critical maneuver."
+      ],
+      "concepts": [
+        "distracted-driving"
+      ]
+    },
+    {
+      "id": "q105",
+      "q": "What should you do when approaching a work zone?",
+      "correct": "Slow down and watch for workers",
+      "incorrect": [
+        "Maintain your normal speed",
+        "Speed up to pass quickly",
+        "Ignore posted signs"
+      ],
+      "why_correct": "Work zones require reduced speed and extra attention for worker safety.",
+      "why_wrong": [
+        "Normal speed may be unsafe near workers and equipment.",
+        "Speeding up increases risk in a work zone.",
+        "Posted work zone signs must be followed."
+      ],
+      "concepts": [
+        "work-zones"
+      ]
+    },
+    {
+      "id": "q106",
+      "q": "Are fines typically higher for speeding in a work zone?",
+      "correct": "Yes, they are often doubled",
+      "incorrect": [
+        "No, they're the same as usual",
+        "No, work zones have no fines",
+        "Yes, but only on Sundays"
+      ],
+      "why_correct": "Many states, including NC, increase fines for speeding through active work zones.",
+      "why_wrong": [
+        "Work zone fines are commonly increased, not identical.",
+        "Work zones do carry enforceable fines.",
+        "Increased fines apply whenever the zone is active, not just one day."
+      ],
+      "concepts": [
+        "work-zones"
+      ]
+    },
+    {
+      "id": "q107",
+      "q": "What should you do if a work zone lane is closed ahead?",
+      "correct": "Merge early and safely",
+      "incorrect": [
+        "Wait until the last second to merge",
+        "Drive on the shoulder instead",
+        "Stop and wait for an escort"
+      ],
+      "why_correct": "Merging early avoids sudden lane changes near workers and equipment.",
+      "why_wrong": [
+        "Last-second merging is more dangerous in a work zone.",
+        "Driving on the shoulder isn't a safe substitute for merging.",
+        "An escort isn't the standard procedure for a lane closure."
+      ],
+      "concepts": [
+        "work-zones"
+      ]
+    },
+    {
+      "id": "q108",
+      "q": "Who has the right of way in a roundabout?",
+      "correct": "Vehicles already circulating",
+      "incorrect": [
+        "Vehicles entering the roundabout",
+        "Whoever arrives first",
+        "Larger vehicles"
+      ],
+      "why_correct": "Entering drivers must yield to traffic already moving through the roundabout.",
+      "why_wrong": [
+        "Entering traffic must yield, not take priority.",
+        "Arrival order doesn't override circulating traffic.",
+        "Vehicle size doesn't determine right of way."
+      ],
+      "concepts": [
+        "roundabouts"
+      ]
+    },
+    {
+      "id": "q109",
+      "q": "Which direction do you travel around a roundabout in the US?",
+      "correct": "Counterclockwise",
+      "incorrect": [
+        "Clockwise",
+        "Either way works",
+        "Direction varies by state"
+      ],
+      "why_correct": "US roundabouts flow counterclockwise around the central island.",
+      "why_wrong": [
+        "Clockwise travel is used in countries that drive on the left.",
+        "Direction is fixed, not optional.",
+        "The counterclockwise rule is consistent nationwide."
+      ],
+      "concepts": [
+        "roundabouts"
+      ]
+    },
+    {
+      "id": "q110",
+      "q": "What should you do before exiting a roundabout?",
+      "correct": "Signal your exit",
+      "incorrect": [
+        "Stop completely first",
+        "Speed up sharply",
+        "Switch lanes at the exit"
+      ],
+      "why_correct": "Signaling your exit lets other drivers anticipate your move.",
+      "why_wrong": [
+        "A full stop isn't required to exit smoothly.",
+        "Sudden acceleration isn't part of a safe exit.",
+        "Lane changes should happen before reaching the exit, not at it."
+      ],
+      "concepts": [
+        "roundabouts"
+      ]
+    },
+    {
+      "id": "q111",
+      "q": "What should you do if your car starts to hydroplane?",
+      "correct": "Ease off the gas and steer straight",
+      "incorrect": [
+        "Brake as hard as possible",
+        "Accelerate quickly through it",
+        "Turn the wheel sharply"
+      ],
+      "why_correct": "Easing off the gas and steering straight helps regain tire contact with the road.",
+      "why_wrong": [
+        "Hard braking can make you lose control further.",
+        "Accelerating increases the risk of skidding.",
+        "Sharp turns can cause a spin during hydroplaning."
+      ],
+      "concepts": [
+        "hydroplaning"
+      ]
+    },
+    {
+      "id": "q112",
+      "q": "What increases the risk of hydroplaning?",
+      "correct": "Worn tires and high speed in rain",
+      "incorrect": [
+        "New tires and a low speed",
+        "Completely dry pavement conditions",
+        "Cold weather with no precipitation"
+      ],
+      "why_correct": "Worn tread and higher speeds reduce a tire's ability to channel water away.",
+      "why_wrong": [
+        "Good tread and slower speeds actually reduce hydroplaning risk.",
+        "Dry pavement doesn't create hydroplaning conditions.",
+        "Hydroplaning requires water on the road, not dry cold weather."
+      ],
+      "concepts": [
+        "hydroplaning"
+      ]
+    },
+    {
+      "id": "q113",
+      "q": "What should you do if your car begins to skid?",
+      "correct": "Steer toward where you want to go",
+      "incorrect": [
+        "Steer opposite of the skid",
+        "Brake as hard as possible",
+        "Accelerate as quickly as possible"
+      ],
+      "why_correct": "Gently steering toward your intended path helps regain control during a skid.",
+      "why_wrong": [
+        "Steering opposite your intended path can worsen the skid.",
+        "Hard braking can lock wheels and worsen a skid.",
+        "Accelerating can increase loss of traction."
+      ],
+      "concepts": [
+        "skids"
+      ]
+    },
+    {
+      "id": "q114",
+      "q": "When are you required to use a turn signal?",
+      "correct": "Before turning or changing lanes",
+      "incorrect": [
+        "Only in heavy traffic",
+        "Only at night",
+        "Only on highways"
+      ],
+      "why_correct": "Signaling is required for any turn or lane change, in any traffic or lighting.",
+      "why_wrong": [
+        "The requirement applies in light traffic too.",
+        "The requirement applies during the day as well.",
+        "The requirement applies on all roads, not just highways."
+      ],
+      "concepts": [
+        "signaling"
+      ]
+    },
+    {
+      "id": "q115",
+      "q": "What lane should slower-moving traffic generally use?",
+      "correct": "The right lane",
+      "incorrect": [
+        "The left lane",
+        "Whichever lane is empty",
+        "The center turn lane"
+      ],
+      "why_correct": "Slower traffic keeps right so faster vehicles can pass on the left.",
+      "why_wrong": [
+        "The left lane is typically for passing, not slow traffic.",
+        "Lane choice should follow speed and position, not just openness.",
+        "Center turn lanes aren't for through travel."
+      ],
+      "concepts": [
+        "lane-use"
+      ]
+    },
+    {
+      "id": "q116",
+      "q": "What does a solid white line between lanes typically mean?",
+      "correct": "Lane changes are discouraged",
+      "incorrect": [
+        "Lane changes are required",
+        "The lane is closed",
+        "It marks a bike lane only"
+      ],
+      "why_correct": "A solid white line signals that you should stay in your lane unless necessary.",
+      "why_wrong": [
+        "It discourages changing lanes, not requires it.",
+        "A solid line doesn't automatically mean closure.",
+        "This marking applies to general lane discipline, not just bike lanes."
+      ],
+      "concepts": [
+        "lane-use"
+      ]
+    },
+    {
+      "id": "q117",
+      "q": "What must you do when passing a bicyclist on most NC roads?",
+      "correct": "Give at least 4 feet of space",
+      "incorrect": [
+        "Pass as close as possible",
+        "Simply honk before passing them",
+        "Wait for the cyclist to pull over"
+      ],
+      "why_correct": "NC law requires giving cyclists at least 4 feet of clearance when passing.",
+      "why_wrong": [
+        "Passing too closely endangers the cyclist.",
+        "Honking isn't required and can startle a cyclist.",
+        "Cyclists aren't required to pull over for you to pass."
+      ],
+      "concepts": [
+        "bicycles",
+        "passing"
+      ]
+    },
+    {
+      "id": "q118",
+      "q": "How should you treat a motorcycle in traffic?",
+      "correct": "As a full-size vehicle with its own lane",
+      "incorrect": [
+        "As small enough to share a lane with",
+        "As required to stay on the shoulder",
+        "As having no right to a full lane"
+      ],
+      "why_correct": "Motorcycles are entitled to a full lane, just like any other vehicle.",
+      "why_wrong": [
+        "Sharing a lane with a motorcycle is unsafe and illegal.",
+        "Motorcycles aren't required to ride on the shoulder.",
+        "Motorcycles have the same lane rights as cars."
+      ],
+      "concepts": [
+        "motorcycles"
+      ]
+    },
+    {
+      "id": "q119",
+      "q": "What should you watch for when driving near a motorcycle?",
+      "correct": "Sudden lane or speed changes",
+      "incorrect": [
+        "Nothing different than a car",
+        "Only its brake lights",
+        "Only its turn signals"
+      ],
+      "why_correct": "Motorcycles can change speed and position quickly, so extra attention helps.",
+      "why_wrong": [
+        "Motorcycles behave differently from cars in traffic.",
+        "Watching only brake lights misses other important cues.",
+        "Watching only signals misses unsignaled moves."
+      ],
+      "concepts": [
+        "motorcycles"
+      ]
+    },
+    {
+      "id": "q120",
+      "q": "What should you do when a pedestrian is waiting at a crosswalk?",
+      "correct": "Stop and let them cross",
+      "incorrect": [
+        "Speed up to pass first",
+        "Wave them across without stopping",
+        "Only stop if a light is present"
+      ],
+      "why_correct": "Drivers must yield to pedestrians waiting to cross at a crosswalk.",
+      "why_wrong": [
+        "Speeding past a waiting pedestrian is unsafe and often illegal.",
+        "Waving isn't a substitute for actually stopping.",
+        "The duty to yield applies at marked and unmarked crosswalks."
+      ],
+      "concepts": [
+        "pedestrians"
+      ]
+    },
+    {
+      "id": "q121",
+      "q": "What should you do at a flashing red traffic light?",
+      "correct": "Treat it like a stop sign",
+      "incorrect": [
+        "Treat it like a yield sign",
+        "Ignore it if no cars near",
+        "Just speed through cautiously"
+      ],
+      "why_correct": "A flashing red light requires a full stop before proceeding when safe.",
+      "why_wrong": [
+        "A yield sign doesn't require a full stop like this signal does.",
+        "The signal must be obeyed regardless of visible traffic.",
+        "You must stop first, not just slow down."
+      ],
+      "concepts": [
+        "signals"
+      ]
+    },
+    {
+      "id": "q122",
+      "q": "What should you do at a flashing yellow traffic light?",
+      "correct": "Slow down and proceed with caution",
+      "incorrect": [
+        "Stop completely every time",
+        "Speed up before it changes",
+        "Ignore it at night"
+      ],
+      "why_correct": "A flashing yellow light means proceed carefully without necessarily stopping.",
+      "why_wrong": [
+        "A full stop isn't required at a flashing yellow.",
+        "Speeding up isn't the appropriate response to caution.",
+        "The signal applies at all hours, including at night."
+      ],
+      "concepts": [
+        "signals"
+      ]
+    },
+    {
+      "id": "q123",
+      "q": "What is the purpose of a graduated licensing system?",
+      "correct": "To build driving skills gradually and safely",
+      "incorrect": [
+        "To generate more DMV revenue",
+        "To slow down traffic overall",
+        "To reduce the number of new drivers"
+      ],
+      "why_correct": "GDL phases in privileges as new drivers gain experience, reducing crash risk.",
+      "why_wrong": [
+        "Revenue isn't the stated purpose of GDL.",
+        "GDL isn't designed to slow general traffic flow.",
+        "GDL is designed to prepare new drivers, not limit their number."
+      ],
+      "concepts": [
+        "gdl"
+      ]
+    },
+    {
+      "id": "q124",
+      "q": "Why is it dangerous to drive while drowsy?",
+      "correct": "Reaction time and judgment are impaired",
+      "incorrect": [
+        "It has no effect on driving",
+        "It only affects long trips",
+        "It only matters for truck drivers"
+      ],
+      "why_correct": "Fatigue slows reactions and impairs decision-making, similar to impairment from alcohol.",
+      "why_wrong": [
+        "Drowsiness measurably affects driving ability.",
+        "Drowsy driving risk applies to short trips too.",
+        "Drowsy driving risk applies to all drivers, not just truckers."
+      ],
+      "concepts": [
+        "fatigue"
+      ]
+    },
+    {
+      "id": "q125",
+      "q": "What should you do if you feel drowsy while driving?",
+      "correct": "Pull over and rest immediately",
+      "incorrect": [
+        "Turn up the radio and continue",
+        "Open the window and continue",
+        "Drink caffeine and keep driving"
+      ],
+      "why_correct": "Stopping to rest is the only reliable way to counter drowsy driving.",
+      "why_wrong": [
+        "Loud music doesn't reliably restore alertness.",
+        "Fresh air alone doesn't reliably restore alertness.",
+        "Caffeine can help temporarily but isn't a full substitute for rest."
+      ],
+      "concepts": [
+        "fatigue"
+      ]
+    },
+    {
+      "id": "q126",
+      "q": "What is the safest way to handle road rage from another driver?",
+      "correct": "Avoid eye contact and give them space",
+      "incorrect": [
+        "Confront them at the next light",
+        "Match their aggressive driving style",
+        "Block their lane on purpose"
+      ],
+      "why_correct": "Staying calm and creating distance de-escalates a dangerous situation.",
+      "why_wrong": [
+        "Confrontation can escalate the danger.",
+        "Matching aggression increases crash risk for everyone.",
+        "Blocking another driver can provoke a dangerous reaction."
+      ],
+      "concepts": [
+        "road-rage"
+      ]
+    },
+    {
+      "id": "q127",
+      "q": "What should you do before backing out of a parking space?",
+      "correct": "Check mirrors and look over your shoulder",
+      "incorrect": [
+        "Only check your rearview mirror",
+        "Rely on your backup camera alone",
+        "Just listen for other cars"
+      ],
+      "why_correct": "A full visual check, not just mirrors or a camera, helps spot pedestrians and vehicles.",
+      "why_wrong": [
+        "A single mirror doesn't cover all blind spots.",
+        "Cameras help but don't replace a physical check.",
+        "Listening alone can't reliably detect nearby hazards."
+      ],
+      "concepts": [
+        "parking-lots"
+      ]
+    },
+    {
+      "id": "q128",
+      "q": "What is a common cause of parking lot collisions?",
+      "correct": "Failing to check blind spots backing up",
+      "incorrect": [
+        "Driving too fast on the highway",
+        "Using turn signals too often",
+        "Simply wearing a seat belt"
+      ],
+      "why_correct": "Limited visibility while backing up is a leading cause of parking lot crashes.",
+      "why_wrong": [
+        "Highway speed isn't relevant to parking lot crashes.",
+        "Signaling too often isn't a cause of collisions.",
+        "Seat belt use doesn't cause a collision."
+      ],
+      "concepts": [
+        "parking-lots"
+      ]
+    },
+    {
+      "id": "q129",
+      "q": "Why should you keep a safe distance from large trucks?",
+      "correct": "They have large blind spots",
+      "incorrect": [
+        "They always drive very slowly",
+        "They rarely need to stop",
+        "They see other cars better"
+      ],
+      "why_correct": "Trucks have significant blind spots where your car may not be visible to the driver.",
+      "why_wrong": [
+        "Trucks don't always drive slower than other traffic.",
+        "Trucks can stop suddenly like any other vehicle.",
+        "Truck drivers often have reduced visibility, not better visibility."
+      ],
+      "concepts": [
+        "trucks"
+      ]
+    },
+    {
+      "id": "q130",
+      "q": "What does 'defensive driving' mean?",
+      "correct": "Anticipating hazards before they happen",
+      "incorrect": [
+        "Driving as fast as traffic allows",
+        "Never using turn signals",
+        "Following other cars closely to keep pace"
+      ],
+      "why_correct": "Defensive driving means staying alert and prepared for other drivers' mistakes.",
+      "why_wrong": [
+        "Speed isn't the basis of defensive driving.",
+        "Signaling is part of safe, predictable driving.",
+        "Following closely increases risk rather than improving safety."
+      ],
+      "concepts": [
+        "defensive-driving"
+      ]
+    }
+  ],
+  "summaries": {
+    "gdl": {
+      "title": "NC Graduated Licensing Levels",
+      "type": "table",
+      "headers": [
+        "Level",
+        "Min. age",
+        "Key restrictions"
+      ],
+      "rows": [
+        [
+          "Level 1: Limited Learner Permit",
+          "15",
+          "Supervising driver 21+ required at all times; no cell phone use; 60 hrs supervised driving (10 at night) before advancing"
+        ],
+        [
+          "Level 2: Limited Provisional License",
+          "16",
+          "Unsupervised 5am-9pm; supervisor required at night; 1 passenger under 21 limit; no cell phone use"
+        ],
+        [
+          "Level 3: Full Provisional License",
+          "16.5",
+          "Full driving privileges; cell phone ban continues until age 18"
+        ]
+      ]
+    },
+    "dui": {
+      "title": "NC BAC Limits",
+      "type": "list",
+      "items": [
+        "Drivers under 21: any measurable alcohol (zero tolerance)",
+        "Drivers 21 and older: 0.08",
+        "Commercial drivers: 0.04",
+        "Refusing a chemical test triggers automatic license revocation (implied consent)"
+      ]
+    },
+    "sign-colors": {
+      "title": "Sign Color Meanings",
+      "type": "table",
+      "headers": [
+        "Color",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "Red",
+          "Stop, yield, or prohibited action"
+        ],
+        [
+          "Yellow",
+          "General warning"
+        ],
+        [
+          "Orange",
+          "Construction or work zone"
+        ],
+        [
+          "Green",
+          "Directions, exits, distances"
+        ],
+        [
+          "Blue",
+          "Services (gas, food, hospital)"
+        ],
+        [
+          "Fluorescent yellow-green",
+          "School or pedestrian zone"
+        ]
+      ]
+    },
+    "parking": {
+      "title": "Common No-Parking Distances",
+      "type": "list",
+      "items": [
+        "Fire hydrant: 10 feet",
+        "Stop sign or traffic signal: 30 feet",
+        "Railroad tracks: 50 feet",
+        "Crosswalk: never park in one",
+        "Bridges and tunnels: never park in one"
+      ]
+    }
+  }
+}

@@ -8,7 +8,7 @@ const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
 const GITHUB_KEY      = 'study-app-github';
 const GIST_FILENAME   = 'study-progress.json';
-const APP_VERSION     = '2026-04-07T00:00:00Z';
+const APP_VERSION     = '2026-07-20T00:00:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
@@ -33,6 +33,11 @@ const state = {
   translateIndex:     0,
   translateResults:   [],
   translateDirection: 'mix',
+  // Flashcard mode state
+  flashcardSession: [],
+  flashcardIndex:   0,
+  flashcardResults: [],
+  flashcardFlipped: false,
 };
 
 // ─────────────────────────────────────────────
@@ -54,10 +59,12 @@ function updateSubjectLabels() {
   const list          = state.currentList;
   const isMcQuiz      = list.type === 'quiz';
   const isTranslate   = list.type === 'translate';
+  const isFlashcard   = list.type === 'flashcard';
   const isDirectional = isMcQuiz && list.directional === true;
   const hasSummaries  = list.summaries && Object.keys(list.summaries).length > 0;
   const hasTerms      = Array.isArray(list.terms) && list.terms.length > 0;
 
+  document.getElementById('btn-flashcards').classList.toggle('hidden', !isFlashcard);
   document.getElementById('btn-mc-quiz').classList.toggle('hidden',    !isMcQuiz || isDirectional);
   document.getElementById('btn-mcq-es-en').classList.toggle('hidden',  !isDirectional);
   document.getElementById('btn-mcq-en-es').classList.toggle('hidden',  !isDirectional);
@@ -536,7 +543,9 @@ function renderHome() {
         ? `${meta.wordCount} questions`
         : meta.type === 'translate'
           ? `${meta.wordCount} sentences`
-          : `${meta.wordCount} items`;
+          : meta.type === 'flashcard'
+            ? `${meta.wordCount} cards`
+            : `${meta.wordCount} items`;
 
       info.appendChild(name);
       info.appendChild(count);
@@ -626,14 +635,21 @@ function renderListStats() {
     container.appendChild(stats);
     return;
   }
+
+  if (state.currentList.type === 'flashcard') {
+    stats.appendChild(makestat(state.currentList.cards?.length ?? 0, 'cards'));
+    container.appendChild(stats);
+    return;
+  }
 }
 
 // ─────────────────────────────────────────────
 // Navigation (skip / back / nav bar)
 // ─────────────────────────────────────────────
 function skipCard() {
-  if (state.currentMode === 'mc-quiz')  { skipMcqCard();      return; }
+  if (state.currentMode === 'mc-quiz')   { skipMcqCard();       return; }
   if (state.currentMode === 'translate') { skipTranslateCard(); return; }
+  if (state.currentMode === 'flashcard') { skipFlashcardCard(); return; }
 }
 
 function goBack() {
@@ -663,7 +679,7 @@ function updateNavBar() {
     return;
   }
 
-  if (isMcQuiz || state.currentMode === 'translate') {
+  if (isMcQuiz || state.currentMode === 'translate' || state.currentMode === 'flashcard') {
     if (backBtn) backBtn.classList.add('hidden');
     if (skipBtn) { skipBtn.classList.remove('hidden'); skipBtn.disabled = false; }
     return;
@@ -1201,6 +1217,8 @@ function restartSession() {
     startMcQuiz(state.mcqDirection);
   } else if (state.currentMode === 'translate') {
     startTranslate(state.translateDirection);
+  } else if (state.currentMode === 'flashcard') {
+    startFlashcards();
   }
 }
 
@@ -1379,6 +1397,135 @@ function showTranslateResults() {
 }
 
 // ─────────────────────────────────────────────
+// Flashcard mode
+//
+// Generic base study mode: tap a card to reveal its back, then
+// self-assess with Got it / Missed it. Card front is either an
+// image (card.image, e.g. a road sign with no text) or plain
+// text (card.front). Card back (card.back) is always text.
+// ─────────────────────────────────────────────
+function startFlashcards() {
+  const list = state.currentList;
+  if (!list || list.type !== 'flashcard') return;
+
+  state.flashcardSession  = shuffle(list.cards).slice(0, SESSION_SIZE);
+  state.flashcardIndex    = 0;
+  state.flashcardResults  = [];
+  state.flashcardFlipped  = false;
+  state.currentMode       = 'flashcard';
+
+  document.getElementById('progress-bar').style.width   = '0%';
+  document.getElementById('progress-count').textContent = `0/${state.flashcardSession.length}`;
+
+  updateNavBar();
+  showScreen('screen-quiz');
+  renderFlashcardCard();
+}
+
+function renderFlashcardCard() {
+  const session = state.flashcardSession;
+
+  document.getElementById('progress-bar').style.width   = `${(state.flashcardIndex / session.length) * 100}%`;
+  document.getElementById('progress-count').textContent = `${state.flashcardIndex}/${session.length}`;
+
+  if (state.flashcardIndex >= session.length) {
+    showFlashcardResults();
+    return;
+  }
+
+  const card = session[state.flashcardIndex];
+  showQuizMode('flashcard');
+  state.flashcardFlipped = false;
+
+  const img      = document.getElementById('fc-image');
+  const frontTxt = document.getElementById('fc-front-text');
+  if (card.image) {
+    img.src = card.image;
+    img.alt = '';
+    img.classList.remove('hidden');
+    frontTxt.classList.add('hidden');
+    frontTxt.textContent = '';
+  } else {
+    img.src = '';
+    img.classList.add('hidden');
+    frontTxt.classList.remove('hidden');
+    frontTxt.textContent = card.front || '';
+  }
+
+  document.getElementById('fc-back-text').textContent = card.back;
+  document.getElementById('fc-definition').classList.add('hidden');
+  document.getElementById('fc-hint').classList.remove('hidden');
+  document.getElementById('fc-answer-btns').classList.add('hidden');
+}
+
+function flipFlashcard() {
+  if (state.flashcardFlipped) return;
+  state.flashcardFlipped = true;
+  document.getElementById('fc-definition').classList.remove('hidden');
+  document.getElementById('fc-answer-btns').classList.remove('hidden');
+  document.getElementById('fc-hint').classList.add('hidden');
+}
+
+function gradeFlashcard(correct) {
+  if (!state.flashcardFlipped) return;
+  const card = state.flashcardSession[state.flashcardIndex];
+  state.flashcardResults.push({ card, correct });
+  state.flashcardIndex++;
+  renderFlashcardCard();
+}
+
+function skipFlashcardCard() {
+  if (state.flashcardFlipped) return;
+  state.flashcardSession.splice(state.flashcardIndex, 1);
+  renderFlashcardCard();
+}
+
+function showFlashcardResults() {
+  const results  = state.flashcardResults;
+  const numRight = results.filter(r => r.correct).length;
+  const total    = results.length;
+  const pct      = total > 0 ? Math.round((numRight / total) * 100) : 0;
+  const grade    = pct >= 90 ? 'A' : pct >= 80 ? 'B' : pct >= 70 ? 'C' : pct >= 60 ? 'D' : 'F';
+
+  document.getElementById('results-title').textContent = 'Flashcard Results';
+  document.getElementById('results-summary').innerHTML = `
+    <div class="results-score">
+      <span class="score-big">${numRight}/${total}</span>
+      <span class="score-pct score-grade-${grade.toLowerCase()}">${pct}% &nbsp; ${grade}</span>
+    </div>
+  `;
+
+  const details = document.getElementById('results-details');
+  details.innerHTML = '';
+
+  const missed = results.filter(r => !r.correct);
+
+  if (missed.length === 0) {
+    const p = document.createElement('p');
+    p.className   = 'all-correct';
+    p.textContent = 'Perfect session!';
+    details.appendChild(p);
+  } else {
+    const h = document.createElement('h3');
+    h.textContent = 'Review these:';
+    details.appendChild(h);
+
+    const list = document.createElement('div');
+    list.className = 'translate-missed-list';
+
+    for (const r of missed) {
+      const item = document.createElement('div');
+      item.className = 'translate-missed-item';
+      item.innerHTML = `<div class="translate-missed-correct">${r.card.back}</div>`;
+      list.appendChild(item);
+    }
+    details.appendChild(list);
+  }
+
+  showScreen('screen-results');
+}
+
+// ─────────────────────────────────────────────
 // Update check
 // ─────────────────────────────────────────────
 async function checkForUpdate() {
@@ -1485,6 +1632,11 @@ function setupEventListeners() {
   document.getElementById('exam-mode-checkbox').addEventListener('change', e => {
     setExamMode(e.target.checked);
   });
+
+  // Flashcards
+  document.getElementById('flashcard-card').addEventListener('click', flipFlashcard);
+  document.getElementById('fc-missed').addEventListener('click', () => gradeFlashcard(false));
+  document.getElementById('fc-got-it').addEventListener('click', () => gradeFlashcard(true));
 
   // MCQ
   document.getElementById('mcq-next').addEventListener('click', advanceMcqCard);
