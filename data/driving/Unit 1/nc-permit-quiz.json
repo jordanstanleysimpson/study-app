@@ -224,18 +224,18 @@
     },
     {
       "id": "q012",
-      "q": "What is the default speed limit in an unposted school zone?",
-      "correct": "25 mph",
+      "q": "How do you know the speed limit in a school zone?",
+      "correct": "It's posted on a sign for that zone",
       "incorrect": [
-        "35 mph",
-        "15 mph",
-        "45 mph"
+        "It's always 35 mph statewide",
+        "It's always 45 mph statewide",
+        "School zones have no speed limit"
       ],
-      "why_correct": "Unless otherwise posted, school zones default to 25 mph.",
+      "why_correct": "NC school zones carry their own posted, reduced speed limit during school hours.",
       "why_wrong": [
-        "35 mph is the default for business districts, not school zones.",
-        "15 mph is slower than NC's standard default.",
-        "45 mph is far too fast for a school zone."
+        "35 mph is the general city/town default, not a school zone rule.",
+        "45 mph is too fast to be a school zone rule.",
+        "School zones do have an enforceable posted limit."
       ],
       "concepts": [
         "speed-limits",
@@ -264,18 +264,18 @@
     },
     {
       "id": "q014",
-      "q": "What term describes driving too fast for current conditions?",
-      "correct": "Basic speed law violation",
+      "q": "What must your speed always be, regardless of the posted limit?",
+      "correct": "Safe for the current road conditions",
       "incorrect": [
-        "Reckless abandonment",
-        "Lane splitting",
-        "Implied consent"
+        "Exactly at the posted limit",
+        "As fast as surrounding traffic",
+        "Whatever feels comfortable to you"
       ],
-      "why_correct": "NC's basic speed law requires driving at a safe speed for conditions, even under the posted limit.",
+      "why_correct": "Posted limits are a maximum; you must slow further when conditions call for it.",
       "why_wrong": [
-        "That is not a recognized traffic term.",
-        "Lane splitting refers to motorcycles passing between lanes.",
-        "Implied consent relates to DUI chemical testing."
+        "The posted limit is a maximum, not always a safe speed.",
+        "Traffic flow doesn't override conditions-based safety.",
+        "Comfort isn't the legal standard; conditions are."
       ],
       "concepts": [
         "speed-limits"
@@ -537,13 +537,13 @@
     {
       "id": "q028",
       "q": "What is the minimum following distance recommended in good conditions?",
-      "correct": "3 seconds",
+      "correct": "2 seconds",
       "incorrect": [
         "1 second",
         "10 seconds",
         "30 seconds"
       ],
-      "why_correct": "A 3-second gap gives you time to react if the car ahead stops suddenly.",
+      "why_correct": "NC's two-second rule gives you time to react if the car ahead stops suddenly.",
       "why_wrong": [
         "1 second leaves far too little reaction time.",
         "10 seconds is excessive for normal traffic flow.",
@@ -552,12 +552,12 @@
       "concepts": [
         "following-distance"
       ],
-      "tip": "3 seconds minimum, more in bad weather."
+      "tip": "NC's two-second rule, more in bad weather."
     },
     {
       "id": "q029",
       "q": "How should you adjust following distance in rain or fog?",
-      "correct": "Increase it beyond 3 seconds",
+      "correct": "Increase it beyond 2 seconds",
       "incorrect": [
         "Keep it the same",
         "Decrease it slightly",
@@ -577,13 +577,13 @@
     {
       "id": "q030",
       "q": "Why should you leave extra space when following a motorcycle?",
-      "correct": "Motorcycles can stop very quickly",
+      "correct": "It has less stability with two wheels",
       "incorrect": [
-        "Motorcycles are wider than cars",
-        "Motorcycles must yield to cars",
-        "Motorcycles ignore following distance"
+        "It is wider than most cars",
+        "It must yield to cars ahead",
+        "It ignores following distance"
       ],
-      "why_correct": "Motorcycles can decelerate faster than cars, so extra space avoids rear-ending them.",
+      "why_correct": "With only two wheels on the road, a motorcycle becomes unstable more easily, especially on rough surfaces.",
       "why_wrong": [
         "Motorcycles are narrower than cars, not wider.",
         "Motorcycles have the same right of way as cars.",
@@ -653,18 +653,18 @@
     },
     {
       "id": "q034",
-      "q": "Until what age should a child ride rear-facing in NC?",
-      "correct": "At least age 2",
+      "q": "Where should an infant in a rear-facing seat never ride?",
+      "correct": "The front seat with an air bag",
       "incorrect": [
-        "Age 5",
-        "Age 1",
-        "No requirement"
+        "The back seat of any car",
+        "A car with no air bags",
+        "Anywhere at all in the vehicle"
       ],
-      "why_correct": "Children should remain rear-facing until at least age 2 for better crash protection.",
+      "why_correct": "A rear-facing seat in front of an active passenger air bag puts the infant at serious risk.",
       "why_wrong": [
-        "Age 5 is well past the rear-facing guideline.",
-        "Age 1 is younger than the recommended minimum.",
-        "NC does have a rear-facing safety guideline."
+        "The back seat is actually the recommended location.",
+        "A car without air bags isn't the risky case described.",
+        "The risk is specific to the front passenger air bag position."
       ],
       "concepts": [
         "child-safety"
@@ -750,34 +750,34 @@
     {
       "id": "q039",
       "q": "Who must ride in the front seat with a Limited Learner Permit driver?",
-      "correct": "A licensed driver at least 21",
+      "correct": "A supervising driver licensed 5+ years",
       "incorrect": [
-        "Any licensed adult",
-        "A parent only, regardless of age",
-        "No supervision is required"
+        "Any driver with a valid license",
+        "A sibling who is 18 years old",
+        "No supervision is ever required"
       ],
-      "why_correct": "NC requires a supervising driver who is licensed and at least 21 years old.",
+      "why_correct": "NC requires a parent, grandparent, guardian, or approved adult who has been licensed at least 5 years.",
       "why_wrong": [
-        "The supervisor must specifically be 21 or older.",
-        "A parent under 21 would not meet the age requirement.",
+        "Holding any license isn't enough; 5 years of experience is required.",
+        "A sibling doesn't meet the parent, grandparent, or guardian requirement.",
         "Supervision is required at all times on a learner permit."
       ],
       "concepts": [
         "gdl",
         "permit"
       ],
-      "tip": "Supervisor must be 21+ and licensed."
+      "tip": "Supervising driver must be licensed 5+ years."
     },
     {
       "id": "q040",
       "q": "How many hours of supervised driving are required before advancing past Level 1 in NC?",
-      "correct": "60 hours, including 10 at night",
+      "correct": "At least 60 hours, logged",
       "incorrect": [
-        "10 hours total",
-        "100 hours, including 50 at night",
+        "At least 10 hours, logged",
+        "At least 100 hours, logged",
         "No hours are required"
       ],
-      "why_correct": "NC requires 60 logged supervised hours, with at least 10 of them after dark.",
+      "why_correct": "NC requires a driving log showing at least 60 hours of supervised operation.",
       "why_wrong": [
         "10 hours is far below the required amount.",
         "100 hours overstates NC's actual requirement.",
@@ -811,13 +811,13 @@
     {
       "id": "q042",
       "q": "How long must a driver hold a Level 1 Limited Learner Permit before advancing?",
-      "correct": "At least 12 months",
+      "correct": "At least 9 months",
       "incorrect": [
         "At least 1 month",
         "At least 5 years",
         "There is no minimum"
       ],
-      "why_correct": "NC requires at least 12 months on Level 1 before moving to Level 2, absent a clean record.",
+      "why_correct": "NC requires at least 9 months on Level 1 before moving to Level 2, with a clean record.",
       "why_wrong": [
         "1 month is far shorter than the required period.",
         "5 years is much longer than required.",
@@ -849,18 +849,18 @@
     },
     {
       "id": "q044",
-      "q": "What passenger restriction applies to Level 1 and Level 2 drivers?",
-      "correct": "Only one non-family passenger under 21",
+      "q": "When can an unsupervised Level 2 driver have a non-household passenger under 21?",
+      "correct": "Only driving directly to or from school",
       "incorrect": [
-        "No passengers ever allowed",
-        "Unlimited passengers allowed",
-        "Only passengers over 21 allowed"
+        "Anytime, with no real restriction",
+        "Only after 9 pm at night",
+        "Never; it's always prohibited"
       ],
-      "why_correct": "Unless a supervising driver is present, only one passenger under 21 outside the immediate family is allowed.",
+      "why_correct": "A non-household passenger under 21 is allowed only for direct school trips without a supervisor.",
       "why_wrong": [
-        "Family passengers are still allowed without limit.",
-        "Passenger numbers are limited, not unlimited.",
-        "The restriction is about non-family passengers under 21, not over."
+        "The rule limits when this passenger is allowed.",
+        "Night driving isn't when this exception applies.",
+        "The school-trip exception does allow it sometimes."
       ],
       "concepts": [
         "gdl"
@@ -1099,18 +1099,18 @@
     },
     {
       "id": "q057",
-      "q": "Besides fines, what is a common penalty for a first DUI conviction?",
-      "correct": "License suspension",
+      "q": "Besides fines, what happens after a first DWI conviction in NC?",
+      "correct": "Mandatory 1-year license revocation",
       "incorrect": [
-        "A free driving course",
-        "No real penalty",
+        "A free driving course only",
+        "No real penalty at all",
         "A permanent warning only"
       ],
-      "why_correct": "A DUI conviction typically results in license suspension along with fines.",
+      "why_correct": "NC law mandates a one-year license revocation for a first DWI conviction.",
       "why_wrong": [
-        "Courses may be required, but they aren't a reward.",
-        "DUI convictions carry real penalties.",
-        "Suspension is a concrete penalty, not just a warning."
+        "A course may be required, but it isn't the main penalty.",
+        "DWI convictions carry a real, mandatory penalty.",
+        "Revocation is a concrete penalty, not just a warning."
       ],
       "concepts": [
         "dui"
@@ -1118,18 +1118,18 @@
     },
     {
       "id": "q058",
-      "q": "What should you do when you see a stopped police car with lights flashing on the shoulder?",
-      "correct": "Move over a lane or slow down",
+      "q": "On a multi-lane highway, what must you do when passing a stopped emergency vehicle with lights on?",
+      "correct": "Move into a lane away from it",
       "incorrect": [
-        "Speed past without slowing down",
-        "Stop suddenly in your lane",
-        "Just flash your headlights"
+        "Speed past it as quickly as possible",
+        "Stop your car in the road",
+        "Just flash your headlights at it"
       ],
-      "why_correct": "NC's Move Over Law requires changing lanes away from the vehicle or slowing down if you can't.",
+      "why_correct": "NC's Move Over Law requires changing to a lane not next to the stopped emergency vehicle.",
       "why_wrong": [
         "Speeding past increases risk to responders.",
-        "Stopping in your lane can cause a crash.",
-        "Flashing headlights doesn't satisfy the legal requirement."
+        "Stopping in the road can cause a crash.",
+        "Flashing lights doesn't satisfy the legal requirement."
       ],
       "concepts": [
         "emergency-vehicles",
@@ -1138,18 +1138,18 @@
     },
     {
       "id": "q059",
-      "q": "Does the Move Over Law apply to tow trucks and utility vehicles with flashing lights?",
-      "correct": "Yes, it applies to them too",
+      "q": "On a one-lane road, what must you do when passing a stopped emergency vehicle with lights on?",
+      "correct": "Slow down and pass with caution",
       "incorrect": [
-        "No, only to police cars",
-        "No, only to ambulances",
-        "No, only to fire trucks"
+        "Come to a complete stop first",
+        "Maintain your normal driving speed",
+        "Pull over and wait for it to leave"
       ],
-      "why_correct": "NC's Move Over Law covers law enforcement, EMS, fire, utility, and DOT vehicles.",
+      "why_correct": "With only one lane your direction, you must slow to a reduced, safe speed until past.",
       "why_wrong": [
-        "The law covers more than just police vehicles.",
-        "The law covers more than just ambulances.",
-        "The law covers more than just fire trucks."
+        "A full stop isn't required if you can pass safely.",
+        "Normal speed doesn't meet the reduced-speed requirement.",
+        "Waiting isn't required; slowing down and passing is."
       ],
       "concepts": [
         "emergency-vehicles",
@@ -1447,13 +1447,13 @@
     {
       "id": "q075",
       "q": "How close can you legally park to a fire hydrant in NC?",
-      "correct": "No closer than 10 feet",
+      "correct": "No closer than 15 feet",
       "incorrect": [
         "Right next to it",
         "Within 2 feet",
         "There is no restriction"
       ],
-      "why_correct": "NC law prohibits parking within 10 feet of a fire hydrant.",
+      "why_correct": "NC law prohibits parking within 15 feet of a fire hydrant.",
       "why_wrong": [
         "Parking beside a hydrant blocks emergency access.",
         "2 feet is still far closer than the legal minimum.",
@@ -1465,16 +1465,16 @@
     },
     {
       "id": "q076",
-      "q": "How close can you park to a stop sign or traffic signal?",
-      "correct": "No closer than 30 feet",
+      "q": "How close can you park to an intersecting street's curb line?",
+      "correct": "No closer than 25 feet",
       "incorrect": [
-        "Right up to the sign",
+        "Right up to the corner",
         "Within 5 feet",
         "There is no limit"
       ],
-      "why_correct": "Parking within 30 feet of a stop sign or signal can block visibility and is prohibited.",
+      "why_correct": "NC law bans parking within 25 feet of an intersecting street's curb line.",
       "why_wrong": [
-        "Parking directly at the sign blocks sightlines.",
+        "Parking right at the corner blocks sightlines.",
         "5 feet is much closer than the legal minimum.",
         "A specific minimum distance is required."
       ],
@@ -1542,18 +1542,18 @@
     },
     {
       "id": "q080",
-      "q": "What does a curb painted red typically mean?",
-      "correct": "No stopping or parking",
+      "q": "When can you legally park on a highway shoulder in NC?",
+      "correct": "Only if visible 200 feet away",
       "incorrect": [
-        "Loading zone only",
-        "Reserved for buses only",
-        "Handicap parking only"
+        "Anytime there's no traffic around",
+        "Only during the daylight hours",
+        "Never, under any circumstances"
       ],
-      "why_correct": "A red curb means no stopping, standing, or parking at any time.",
+      "why_correct": "NC law allows shoulder parking only if approaching drivers can see the vehicle from 200 feet away.",
       "why_wrong": [
-        "Loading zones are usually marked yellow, not red.",
-        "Bus zones may be marked differently depending on the area.",
-        "Handicap spots use a blue marking, not red."
+        "Visibility, not traffic volume, is the legal standard.",
+        "The rule applies both day and night.",
+        "The law does allow it under the right visibility condition."
       ],
       "concepts": [
         "parking"
@@ -1733,16 +1733,16 @@
     {
       "id": "q090",
       "q": "When are headlights legally required in NC?",
-      "correct": "30 minutes after sunset to 30 before sunrise",
+      "correct": "From sunset to sunrise",
       "incorrect": [
         "Only after 9 pm nightly",
-        "Only during any bad weather",
+        "Only during bad weather",
         "Only while driving on highways"
       ],
-      "why_correct": "NC law requires headlights during that half-hour window around sunset and sunrise, plus low visibility.",
+      "why_correct": "NC law requires headlights from sunset to sunrise, and anytime visibility is 400 feet or less.",
       "why_wrong": [
         "The rule is tied to sunset and sunrise, not a fixed clock time.",
-        "Low visibility is one trigger, but timing also matters.",
+        "Bad weather is one trigger, but sunset to sunrise also requires it.",
         "The rule applies on all roads, not just highways."
       ],
       "concepts": [
@@ -2037,18 +2037,18 @@
     },
     {
       "id": "q106",
-      "q": "Are fines typically higher for speeding in a work zone?",
-      "correct": "Yes, they are often doubled",
+      "q": "Can speeding in a work zone carry an added penalty in NC?",
+      "correct": "Yes, on top of the normal speeding fine",
       "incorrect": [
-        "No, they're the same as usual",
+        "No, it's the same as usual",
         "No, work zones have no fines",
-        "Yes, but only on Sundays"
+        "Yes, but only if no workers present"
       ],
-      "why_correct": "Many states, including NC, increase fines for speeding through active work zones.",
+      "why_correct": "If posted at the work zone, an added penalty applies on top of the regular speeding conviction.",
       "why_wrong": [
-        "Work zone fines are commonly increased, not identical.",
+        "An added penalty can apply, not just the normal fine.",
         "Work zones do carry enforceable fines.",
-        "Increased fines apply whenever the zone is active, not just one day."
+        "The added penalty isn't conditioned on workers being visible."
       ],
       "concepts": [
         "work-zones"
@@ -2246,16 +2246,16 @@
     },
     {
       "id": "q117",
-      "q": "What must you do when passing a bicyclist on most NC roads?",
-      "correct": "Give at least 4 feet of space",
+      "q": "What is the safest way to pass a bicyclist on most NC roads?",
+      "correct": "Change lanes with abundant clearance",
       "incorrect": [
-        "Pass as close as possible",
-        "Simply honk before passing them",
+        "Pass within the same lane closely",
+        "Just honk before passing them",
         "Wait for the cyclist to pull over"
       ],
-      "why_correct": "NC law requires giving cyclists at least 4 feet of clearance when passing.",
+      "why_correct": "NC's handbook recommends changing lanes, only with abundant clearance and no oncoming traffic.",
       "why_wrong": [
-        "Passing too closely endangers the cyclist.",
+        "Passing closely in the same lane endangers the cyclist.",
         "Honking isn't required and can startle a cyclist.",
         "Cyclists aren't required to pull over for you to pass."
       ],
@@ -2525,7 +2525,7 @@
         [
           "Level 1: Limited Learner Permit",
           "15",
-          "Supervising driver 21+ required at all times; no cell phone use; 60 hrs supervised driving (10 at night) before advancing"
+          "Supervising driver licensed 5+ years required at all times; no cell phone use; 60 hrs supervised driving logged; hold 9 months before advancing"
         ],
         [
           "Level 2: Limited Provisional License",
@@ -2587,8 +2587,8 @@
       "title": "Common No-Parking Distances",
       "type": "list",
       "items": [
-        "Fire hydrant: 10 feet",
-        "Stop sign or traffic signal: 30 feet",
+        "Fire hydrant: 15 feet",
+        "Intersecting street curb line: 25 feet",
         "Railroad tracks: 50 feet",
         "Crosswalk: never park in one",
         "Bridges and tunnels: never park in one"
