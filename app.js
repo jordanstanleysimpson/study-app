@@ -8,7 +8,10 @@ const STORAGE_KEY     = 'study-app-progress';
 const SETTINGS_KEY    = 'study-app-settings';
 const GITHUB_KEY      = 'study-app-github';
 const GIST_FILENAME   = 'study-progress.json';
-const APP_VERSION     = '2026-07-20T00:00:00Z';
+// Bump this AND version.json AND the ?v= query param on the app.js
+// <script> tag in index.html together on every deploy — the query
+// param is what actually busts the browser's HTTP cache for this file.
+const APP_VERSION     = '2026-07-21T00:00:00Z';
 const INSTALL_TIP_KEY = 'study-app-install-dismissed';
 
 // ─────────────────────────────────────────────
